@@ -5,7 +5,7 @@
 ## 建议阅读顺序
 
 1. `01_READ_CURRENT/paper_current.pdf`：当前 22 页完整研究稿，包含最后更新的 S2、S3、S4。
-2. `01_READ_CURRENT/graphical_abstract.pdf` 与 `graphical_abstract_copy.md`：已确定的 v4 图形摘要版式和正式文案。最后提出的横轴标题上移已撤销。
+2. `01_READ_CURRENT/graphical_abstract.pdf` 与 `graphical_abstract_copy.md`：已确定的 v5 图形摘要及文案，包含核心句 Better risk estimates do not necessarily make better recording decisions. 不含该句的 v4 已单独保留。
 3. `01_研究主线与版本审计.md`：选题如何收敛、各版本做了什么、仍有哪些研究问题。
 4. `02_RESEARCH_FOUNDATION/`：早期会议/方法调研、Claude 的论证升级、文献和写作审查。
 5. `02_重现与代码入口.md`：实验、统计、作图和论文编译入口。

@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "files": {
+    "graphical_abstract_current.pdf": {
+      "bytes": 88923,
+      "sha256": "74d8ff46f19d41dd7bd0de060dba995c03c4d62c4249eea3c2819874c0f9dff7"
+    },
+    "graphical_abstract_current.png": {
+      "bytes": 721339,
+      "sha256": "a7ebb5cdcc9d6ef487cd94157bada337ebefb30b18f78a53df742c7c6d744db8"
+    },
+    "graphical_abstract_current.svg": {
+      "bytes": 163127,
+      "sha256": "0704fa7c81bfe674491367af690ba042a8910da98e4a02365fe8e8f1b67eda97"
+    }
+  },
+  "optical_grid": {
+    "heading_baseline": 103.9,
+    "card_left_inset_mm": 3.831578947368421,
+    "card_right_inset_mm": 3.831578947368421,
+    "content_width": 34.4,
+    "legend_pitch": 4.4,
+    "legend_alignment": "actual glyph ink centre; response readout text has user-requested -0.12 optical offset",
+    "footer_separator_y": 43.8,
+    "title_number_pt": 9.5,
+    "forecast_definition_box": null,
+    "equal_group_spacing": {
+      "1": {
+        "gap_source_units": 4.737189189189181,
+        "gap_mm": 6.482469416785194,
+        "actual_gaps": [
+          4.737189189189181,
+          4.737189189189195
+        ]
+      },
+      "2": {
+        "gap_source_units": 5.178782193958675,
+        "gap_mm": 7.086754581206608,
+        "actual_gaps": [
+          5.178782193958682,
+          5.178782193958668
+        ]
+      },
+      "3": {
+        "gap_source_units": 3.5347769876126165,
+        "gap_mm": 4.837063246206738,
+        "actual_gaps": [
+          3.5347769876126307,
+          2.934776987612608,
+          5.234776987612619
+        ],
+        "mode": "optical: equation/definition grouped; result position retained"
+      }
+    },
+    "axis_baseline_to_title_top_source_units": [
+      7.400000000000006,
+      7.399999999999999
+    ],
+    "axis_baseline_to_title_top_mm": 10.126315789473692,
+    "score_inner_gaps": [
+      0.9286985304054127,
+      2.0292972972972905
+    ],
+    "number_description_to_dot_gap": [
+      2.000000000000014,
+      2.000000000000007
+    ],
+    "percent_to_dot_gap": [
+      2.946486486486492,
+      2.946486486486492
+    ],
+    "definition_underline": false,
+    "header_translation_y": -1.7,
+    "export_bottom_y": 12.7,
+    "top_context_removed": true,
+    "body_translation_y": 2.0,
+    "page_rule_y": 115.5
+  },
+  "fonts_checked": true,
+  "visual_review": "Root archive was reviewed from a Poppler-rendered PDF. New rerenders require visual review after changes.",
+  "scope": "Frozen-data consistency and presentation checks; not independent scientific replication or biological validation."
+}

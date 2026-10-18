@@ -1,0 +1,12 @@
+{
+  "pdf_sha256": "e7a7a651e1329e35f21e2797a2079b14478226ddeeb1379b879cc06c2c9cd7d8",
+  "pdf_matches_latest_root_copy": true,
+  "log_findings": {
+    "overfull": false,
+    "missing_characters": false,
+    "undefined_citations": false
+  },
+  "fig1_asset_sync": true,
+  "before_snapshot": "outputs/revisions/before_fig1_refinement",
+  "new_fit_or_interval_computation": false
+}

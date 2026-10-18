@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "figures": [
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "changes": [
+    "interval key height 3.2 to 2.0 mm; cap width 2.4 to 1.8 mm",
+    "interval key and Nominal share x=14 mm, text x=16.6 mm",
+    "symbol explanation and network explanation now form a two-row block",
+    "both bottom explanatory rows use regular weight; row pitch 2.7 mm"
+  ],
+  "numerical_geometry_identical": true,
+  "manuscript_source_unchanged": true,
+  "manuscript_source_sha256": "eb7bdea23103ffc838288cd6db3c3627a0ecbbd3070b66867b1d6d800d0cf1e0",
+  "paper_pdf_sha256": "4e1452c307048572be9520bbe675ceba37489a5736e0fd249a7e2ab82f5728a5",
+  "pages": 22,
+  "critical_build_checks": "no overfull, missing glyph or undefined citation warnings",
+  "inherited_build_limit": "hyperref duplicate supplementary destinations and underfull vertical boxes remain; inherited presentation warnings, not scientific changes",
+  "footer_row_pitch_mm": 2.7,
+  "visual_review": "Final full PDF pages 19\u201321 rendered; S2 and S4 full pages and common footer visually reviewed. No cropped legend or overlapping explanations detected.",
+  "explanation_weight": "regular"
+}

@@ -1,0 +1,4 @@
+test,endpoint,comparison,independent_networks,effect,ci_low,ci_high,confidence_level,display_multiplier,source_key
+recording_decision,raw response MSE,scalar target,40,-2.586421129091058e-06,-1.4713046771189118e-05,4.826304931626923e-06,0.975,100000.0,primary_effects[scalar]
+recording_decision,raw response MSE,vector target,40,1.923627390429782e-06,-1.1479707624311079e-06,6.8260498523981685e-06,0.975,100000.0,primary_effects[vector]
+fixed_prediction_risk_forecast,MSE-consistent score,fixed local-scalar policy,40,-0.4556473561820947,-1.1585679104693787,0.023668677150677265,0.95,1.0,primary.score_difference

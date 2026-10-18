@@ -1,0 +1,259 @@
+{
+  "figures": [
+    {
+      "figure": "Fig. 1 | Three-layer audit",
+      "fonts": "CNAJXZ+TimesNewRomanPSMT DYEBMC+JuliaMono-Regular HJPKRU+BentonSans-Bold HJPKRU+BentonSans-Regular",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0,
+        "old_teal_line": 0,
+        "old_teal_fill": 0,
+        "old_teal_deep": 0,
+        "old_mulberry": 0,
+        "old_rose_deep": 0,
+        "old_amber": 0
+      },
+      "new_palette_pixels": {
+        "pastel_rose": 3007,
+        "sunflower_amber": 0,
+        "sunflower_amber_line": 0
+      }
+    },
+    {
+      "figure": "Fig. 2 | Connectivity, recordings and response",
+      "fonts": "CNAJXZ+TimesNewRomanPSMT HJPKRU+BentonSans-Bold HJPKRU+BentonSans-Regular",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0,
+        "old_teal_line": 0,
+        "old_teal_fill": 0,
+        "old_teal_deep": 0,
+        "old_mulberry": 0,
+        "old_rose_deep": 0,
+        "old_amber": 0
+      },
+      "new_palette_pixels": {
+        "pastel_rose": 20043,
+        "sunflower_amber": 843,
+        "sunflower_amber_line": 6275
+      }
+    },
+    {
+      "figure": "Fig. 3 | Recording decisions and response error",
+      "fonts": "CNAJXZ+TimesNewRomanPSMT DYEBMC+JuliaMono-Regular HJPKRU+BentonSans-Bold HJPKRU+BentonSans-Regular",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0,
+        "old_teal_line": 0,
+        "old_teal_fill": 0,
+        "old_teal_deep": 0,
+        "old_mulberry": 0,
+        "old_rose_deep": 0,
+        "old_amber": 0
+      },
+      "new_palette_pixels": {
+        "pastel_rose": 17172,
+        "sunflower_amber": 0,
+        "sunflower_amber_line": 0
+      }
+    },
+    {
+      "figure": "Fig. 4 | Risk forecasts on fixed predictions",
+      "fonts": "CNAJXZ+TimesNewRomanPSMT DYEBMC+JuliaMono-Regular HJPKRU+BentonSans-Bold HJPKRU+BentonSans-Regular",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0,
+        "old_teal_line": 0,
+        "old_teal_fill": 0,
+        "old_teal_deep": 0,
+        "old_mulberry": 0,
+        "old_rose_deep": 0,
+        "old_amber": 0
+      },
+      "new_palette_pixels": {
+        "pastel_rose": 0,
+        "sunflower_amber": 21829,
+        "sunflower_amber_line": 0
+      }
+    },
+    {
+      "figure": "Fig. 5 | Exploratory model-family extension",
+      "fonts": "DYEBMC+JuliaMono-Regular HJPKRU+BentonSans-Bold HJPKRU+BentonSans-Regular",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0,
+        "old_teal_line": 0,
+        "old_teal_fill": 0,
+        "old_teal_deep": 0,
+        "old_mulberry": 0,
+        "old_rose_deep": 0,
+        "old_amber": 0
+      },
+      "new_palette_pixels": {
+        "pastel_rose": 2186,
+        "sunflower_amber": 0,
+        "sunflower_amber_line": 0
+      }
+    },
+    {
+      "figure": "Fig. S1 | Paired distributions",
+      "fonts": "CNAJXZ+TimesNewRomanPSMT DYEBMC+JuliaMono-Regular HJPKRU+BentonSans-Bold HJPKRU+BentonSans-Regular",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0,
+        "old_teal_line": 0,
+        "old_teal_fill": 0,
+        "old_teal_deep": 0,
+        "old_mulberry": 0,
+        "old_rose_deep": 0,
+        "old_amber": 0
+      },
+      "new_palette_pixels": {
+        "pastel_rose": 6781,
+        "sunflower_amber": 0,
+        "sunflower_amber_line": 0
+      }
+    },
+    {
+      "figure": "Fig. S2 | Matched uncertainty",
+      "fonts": "CNAJXZ+TimesNewRomanPSMT HJPKRU+BentonSans-Bold HJPKRU+BentonSans-Regular",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0,
+        "old_teal_line": 0,
+        "old_teal_fill": 0,
+        "old_teal_deep": 0,
+        "old_mulberry": 0,
+        "old_rose_deep": 0,
+        "old_amber": 0
+      },
+      "new_palette_pixels": {
+        "pastel_rose": 3936,
+        "sunflower_amber": 0,
+        "sunflower_amber_line": 0
+      }
+    },
+    {
+      "figure": "Fig. S3 | Broad uncertainty",
+      "fonts": "CNAJXZ+TimesNewRomanPSMT HJPKRU+BentonSans-Bold HJPKRU+BentonSans-Regular",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0,
+        "old_teal_line": 0,
+        "old_teal_fill": 0,
+        "old_teal_deep": 0,
+        "old_mulberry": 0,
+        "old_rose_deep": 0,
+        "old_amber": 0
+      },
+      "new_palette_pixels": {
+        "pastel_rose": 3883,
+        "sunflower_amber": 0,
+        "sunflower_amber_line": 0
+      }
+    },
+    {
+      "figure": "Fig. S4 | Bias-shift uncertainty",
+      "fonts": "CNAJXZ+TimesNewRomanPSMT HJPKRU+BentonSans-Bold HJPKRU+BentonSans-Regular",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0,
+        "old_teal_line": 0,
+        "old_teal_fill": 0,
+        "old_teal_deep": 0,
+        "old_mulberry": 0,
+        "old_rose_deep": 0,
+        "old_amber": 0
+      },
+      "new_palette_pixels": {
+        "pastel_rose": 4480,
+        "sunflower_amber": 0,
+        "sunflower_amber_line": 0
+      }
+    },
+    {
+      "figure": "Fig. S5 | Linear positive control",
+      "fonts": "DYEBMC+JuliaMono-Regular HJPKRU+BentonSans-Bold HJPKRU+BentonSans-Regular",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0,
+        "old_teal_line": 0,
+        "old_teal_fill": 0,
+        "old_teal_deep": 0,
+        "old_mulberry": 0,
+        "old_rose_deep": 0,
+        "old_amber": 0
+      },
+      "new_palette_pixels": {
+        "pastel_rose": 59,
+        "sunflower_amber": 0,
+        "sunflower_amber_line": 0
+      }
+    }
+  ],
+  "copied_source_data": [
+    {
+      "name": "forecast_summary.json",
+      "same_as_frozen": true
+    },
+    {
+      "name": "holdout_design_agreement.csv",
+      "same_as_frozen": true
+    },
+    {
+      "name": "fig3_networks.csv",
+      "same_as_frozen": true
+    },
+    {
+      "name": "holdout_paired_effects.csv",
+      "same_as_frozen": true
+    },
+    {
+      "name": "fig2_network_pairs.csv",
+      "same_as_frozen": true
+    }
+  ],
+  "graphical_abstract_unchanged": [
+    {
+      "path": "04_submission/graphical_abstract_v4.png",
+      "unchanged": true
+    },
+    {
+      "path": "04_submission/graphical_abstract_v5.png",
+      "unchanged": true
+    },
+    {
+      "path": "04_submission/graphical_abstract_v5.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "04_submission/graphical_abstract_v4.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "03_figures/graphical_abstract_v5.svg",
+      "unchanged": true
+    },
+    {
+      "path": "03_figures/graphical_abstract_v4.svg",
+      "unchanged": true
+    },
+    {
+      "path": "03_figures/graphical_abstract_v4.png",
+      "unchanged": true
+    },
+    {
+      "path": "03_figures/graphical_abstract_v5.png",
+      "unchanged": true
+    },
+    {
+      "path": "03_figures/graphical_abstract_v5.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "03_figures/graphical_abstract_v4.pdf",
+      "unchanged": true
+    }
+  ],
+  "limits": "File/font/geometry and inherited numeric checks do not certify aesthetic superiority or scientific novelty. Colour checks are exact-value pixel counts, not gamut or perceptual proofs."
+}

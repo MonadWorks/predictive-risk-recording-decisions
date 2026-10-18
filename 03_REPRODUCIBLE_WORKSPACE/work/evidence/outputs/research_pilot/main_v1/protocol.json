@@ -1,0 +1,35 @@
+{
+  "bias_sd": 0.18,
+  "budgets": [
+    3,
+    6
+  ],
+  "connectivity_norm": 0.65,
+  "design": "prior nominal theta=0 only; no truth/measurements/test outcomes",
+  "dt": 0.05,
+  "log_gain_sd": 0.18,
+  "max_nfev": 60,
+  "methods": [
+    "activity",
+    "stimulus_state",
+    "response_state",
+    "goal",
+    "random",
+    "shuffled_goal",
+    "parameter"
+  ],
+  "neurons": 12,
+  "noise_sd": 0.05,
+  "pools": [
+    "all",
+    "exclude_endpoints"
+  ],
+  "protocol_status": "exploratory; frozen before this run",
+  "sample_stride": 4,
+  "scope": "dimensionless Dale-signed synthetic softplus rate network; no connectome or wet-lab data",
+  "seed_start": 100,
+  "steps": 120,
+  "teachers": 12,
+  "threads": 2,
+  "wall_limit_seconds": 120.0
+}

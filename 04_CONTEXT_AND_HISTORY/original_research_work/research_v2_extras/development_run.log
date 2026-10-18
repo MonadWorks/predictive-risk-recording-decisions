@@ -1,0 +1,69 @@
+{"network_id": 2000, "condition": "matched", "rows": 480, "actual_fits": 144, "condition_seconds": 0.65, "elapsed_seconds": 0.65}
+{"network_id": 2000, "condition": "broad", "rows": 960, "actual_fits": 296, "condition_seconds": 0.77, "elapsed_seconds": 1.42}
+{"network_id": 2000, "condition": "bias_shift", "rows": 1440, "actual_fits": 440, "condition_seconds": 0.74, "elapsed_seconds": 2.16}
+{"network_id": 2000, "condition": "gain_only", "rows": 1920, "actual_fits": 576, "condition_seconds": 0.42, "elapsed_seconds": 2.57}
+{"network_id": 2000, "condition": "bias_only", "rows": 2400, "actual_fits": 720, "condition_seconds": 0.37, "elapsed_seconds": 2.94}
+{"network_id": 2001, "condition": "matched", "rows": 2880, "actual_fits": 880, "condition_seconds": 0.74, "elapsed_seconds": 3.72}
+{"network_id": 2001, "condition": "broad", "rows": 3360, "actual_fits": 1044, "condition_seconds": 0.95, "elapsed_seconds": 4.67}
+{"network_id": 2001, "condition": "bias_shift", "rows": 3840, "actual_fits": 1204, "condition_seconds": 0.81, "elapsed_seconds": 5.48}
+{"network_id": 2001, "condition": "gain_only", "rows": 4320, "actual_fits": 1368, "condition_seconds": 0.52, "elapsed_seconds": 6.0}
+{"network_id": 2001, "condition": "bias_only", "rows": 4800, "actual_fits": 1516, "condition_seconds": 0.41, "elapsed_seconds": 6.41}
+{"network_id": 2002, "condition": "matched", "rows": 5280, "actual_fits": 1640, "condition_seconds": 0.57, "elapsed_seconds": 7.06}
+{"network_id": 2002, "condition": "broad", "rows": 5760, "actual_fits": 1772, "condition_seconds": 0.7, "elapsed_seconds": 7.75}
+{"network_id": 2002, "condition": "bias_shift", "rows": 6240, "actual_fits": 1896, "condition_seconds": 0.67, "elapsed_seconds": 8.42}
+{"network_id": 2002, "condition": "gain_only", "rows": 6720, "actual_fits": 2028, "condition_seconds": 0.39, "elapsed_seconds": 8.82}
+{"network_id": 2002, "condition": "bias_only", "rows": 7200, "actual_fits": 2168, "condition_seconds": 0.39, "elapsed_seconds": 9.21}
+{"network_id": 2003, "condition": "matched", "rows": 7680, "actual_fits": 2308, "condition_seconds": 0.64, "elapsed_seconds": 9.95}
+{"network_id": 2003, "condition": "broad", "rows": 8160, "actual_fits": 2456, "condition_seconds": 0.78, "elapsed_seconds": 10.73}
+{"network_id": 2003, "condition": "bias_shift", "rows": 8640, "actual_fits": 2596, "condition_seconds": 0.71, "elapsed_seconds": 11.44}
+{"network_id": 2003, "condition": "gain_only", "rows": 9120, "actual_fits": 2740, "condition_seconds": 0.45, "elapsed_seconds": 11.89}
+{"network_id": 2003, "condition": "bias_only", "rows": 9600, "actual_fits": 2884, "condition_seconds": 0.39, "elapsed_seconds": 12.28}
+{"network_id": 2004, "condition": "matched", "rows": 10080, "actual_fits": 3024, "condition_seconds": 0.61, "elapsed_seconds": 13.03}
+{"network_id": 2004, "condition": "broad", "rows": 10560, "actual_fits": 3172, "condition_seconds": 0.73, "elapsed_seconds": 13.76}
+{"network_id": 2004, "condition": "bias_shift", "rows": 11040, "actual_fits": 3312, "condition_seconds": 0.74, "elapsed_seconds": 14.5}
+{"network_id": 2004, "condition": "gain_only", "rows": 11520, "actual_fits": 3472, "condition_seconds": 0.49, "elapsed_seconds": 14.99}
+{"network_id": 2004, "condition": "bias_only", "rows": 12000, "actual_fits": 3616, "condition_seconds": 0.38, "elapsed_seconds": 15.37}
+{"network_id": 2005, "condition": "matched", "rows": 12480, "actual_fits": 3756, "condition_seconds": 0.61, "elapsed_seconds": 16.14}
+{"network_id": 2005, "condition": "broad", "rows": 12960, "actual_fits": 3904, "condition_seconds": 0.98, "elapsed_seconds": 17.12}
+{"network_id": 2005, "condition": "bias_shift", "rows": 13440, "actual_fits": 4044, "condition_seconds": 0.9, "elapsed_seconds": 18.02}
+{"network_id": 2005, "condition": "gain_only", "rows": 13920, "actual_fits": 4180, "condition_seconds": 0.46, "elapsed_seconds": 18.47}
+{"network_id": 2005, "condition": "bias_only", "rows": 14400, "actual_fits": 4324, "condition_seconds": 0.38, "elapsed_seconds": 18.85}
+{"network_id": 2006, "condition": "matched", "rows": 14880, "actual_fits": 4456, "condition_seconds": 0.59, "elapsed_seconds": 19.64}
+{"network_id": 2006, "condition": "broad", "rows": 15360, "actual_fits": 4600, "condition_seconds": 0.76, "elapsed_seconds": 20.4}
+{"network_id": 2006, "condition": "bias_shift", "rows": 15840, "actual_fits": 4732, "condition_seconds": 0.7, "elapsed_seconds": 21.1}
+{"network_id": 2006, "condition": "gain_only", "rows": 16320, "actual_fits": 4872, "condition_seconds": 0.44, "elapsed_seconds": 21.54}
+{"network_id": 2006, "condition": "bias_only", "rows": 16800, "actual_fits": 5004, "condition_seconds": 0.35, "elapsed_seconds": 21.9}
+{"network_id": 2007, "condition": "matched", "rows": 17280, "actual_fits": 5140, "condition_seconds": 0.66, "elapsed_seconds": 22.79}
+{"network_id": 2007, "condition": "broad", "rows": 17760, "actual_fits": 5284, "condition_seconds": 0.8, "elapsed_seconds": 23.59}
+{"network_id": 2007, "condition": "bias_shift", "rows": 18240, "actual_fits": 5420, "condition_seconds": 0.75, "elapsed_seconds": 24.35}
+{"network_id": 2007, "condition": "gain_only", "rows": 18720, "actual_fits": 5564, "condition_seconds": 0.48, "elapsed_seconds": 24.83}
+{"network_id": 2007, "condition": "bias_only", "rows": 19200, "actual_fits": 5696, "condition_seconds": 0.36, "elapsed_seconds": 25.18}
+{
+  "complete": true,
+  "networks_completed": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007
+  ],
+  "networks_planned": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007
+  ],
+  "evaluated_rows": 19200,
+  "actual_optimizer_calls": 5696,
+  "cached_dataset_reuses": 3264,
+  "elapsed_seconds": 25.442019583999922,
+  "warmup_seconds": 0.1397137080000448,
+  "status": "complete"
+}

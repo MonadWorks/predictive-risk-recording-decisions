@@ -1,0 +1,341 @@
+\begin{thebibliography}{39}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alexanderian et~al.(2016)Alexanderian, Petra, Stadler, and
+  Ghattas]{ref21}
+Alexanderian, A., Petra, N., Stadler, G., and Ghattas, O.
+\newblock {A Fast and Scalable Method for A-Optimal Design of Experiments for
+  Infinite-dimensional Bayesian Nonlinear Inverse Problems}.
+\newblock \emph{SIAM Journal on Scientific Computing}, 38\penalty0
+  (1):\penalty0 A243--A272, 2016.
+\newblock \doi{10.1137/140992564}.
+
+\bibitem[Altman \& Bland(1995)Altman and Bland]{ref37}
+Altman, D.~G. and Bland, J.~M.
+\newblock {Statistics notes: Absence of evidence is not evidence of absence}.
+\newblock \emph{BMJ}, 311\penalty0 (7003):\penalty0 485, 1995.
+\newblock \doi{10.1136/bmj.311.7003.485}.
+
+\bibitem[Amrhein et~al.(2019)Amrhein, Greenland, and McShane]{ref36}
+Amrhein, V., Greenland, S., and McShane, B.
+\newblock {Scientists rise up against statistical significance}.
+\newblock \emph{Nature}, 567\penalty0 (7748):\penalty0 305--307, 2019.
+\newblock \doi{10.1038/d41586-019-00857-9}.
+
+\bibitem[Attia et~al.(2018)Attia, Alexanderian, and Saibaba]{ref10}
+Attia, A., Alexanderian, A., and Saibaba, A.~K.
+\newblock {Goal-oriented optimal design of experiments for large-scale Bayesian
+  linear inverse problems}.
+\newblock \emph{Inverse Problems}, 34\penalty0 (9):\penalty0 095009, 2018.
+\newblock \doi{10.1088/1361-6420/aad210}.
+
+\bibitem[Aydin et~al.(2019)Aydin, Zhang, Nuethong, Pagan-Diaz, Bashir, Gazzola,
+  and Saif]{ref27}
+Aydin, O., Zhang, X., Nuethong, S., Pagan-Diaz, G.~J., Bashir, R., Gazzola, M.,
+  and Saif, M. T.~A.
+\newblock {Neuromuscular actuation of biohybrid motile bots}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 116\penalty0
+  (40):\penalty0 19841--19847, 2019.
+\newblock \doi{10.1073/pnas.1907051116}.
+
+\bibitem[Beiran \& Litwin-Kumar(2025)Beiran and Litwin-Kumar]{ref05}
+Beiran, M. and Litwin-Kumar, A.
+\newblock {Prediction of neural activity in connectome-constrained recurrent
+  networks}.
+\newblock \emph{Nature Neuroscience}, 28\penalty0 (12):\penalty0 2561--2574,
+  2025.
+\newblock \doi{10.1038/s41593-025-02080-4}.
+
+\bibitem[Chaloner \& Verdinelli(1995)Chaloner and Verdinelli]{ref18}
+Chaloner, K. and Verdinelli, I.
+\newblock {Bayesian Experimental Design: A Review}.
+\newblock \emph{Statistical Science}, 10\penalty0 (3):\penalty0 273--304, 1995.
+\newblock \doi{10.1214/ss/1177009939}.
+
+\bibitem[Dawid(1982)]{ref35}
+Dawid, A.~P.
+\newblock {The Well-Calibrated Bayesian}.
+\newblock \emph{Journal of the American Statistical Association}, 77\penalty0
+  (379):\penalty0 605--610, 1982.
+\newblock \doi{10.1080/01621459.1982.10477856}.
+
+\bibitem[DeMarse et~al.(2001)DeMarse, Wagenaar, Blau, and Potter]{ref28}
+DeMarse, T.~B., Wagenaar, D.~A., Blau, A.~W., and Potter, S.~M.
+\newblock {The Neurally Controlled Animat: Biological Brains Acting with
+  Simulated Bodies}.
+\newblock \emph{Autonomous Robots}, 11\penalty0 (3):\penalty0 305--310, 2001.
+\newblock \doi{10.1023/A:1012407611130}.
+
+\bibitem[Efron(1979)]{ref38}
+Efron, B.
+\newblock {Bootstrap Methods: Another Look at the Jackknife}.
+\newblock \emph{The Annals of Statistics}, 7\penalty0 (1):\penalty0 1--26,
+  1979.
+\newblock \doi{10.1214/aos/1176344552}.
+
+\bibitem[Field \& Welsh(2007)Field and Welsh]{ref39}
+Field, C.~A. and Welsh, A.~H.
+\newblock {Bootstrapping Clustered Data}.
+\newblock \emph{Journal of the Royal Statistical Society Series B: Statistical
+  Methodology}, 69\penalty0 (3):\penalty0 369--390, 2007.
+\newblock \doi{10.1111/j.1467-9868.2007.00593.x}.
+
+\bibitem[Gneiting \& Katzfuss(2014)Gneiting and Katzfuss]{ref33}
+Gneiting, T. and Katzfuss, M.
+\newblock {Probabilistic Forecasting}.
+\newblock \emph{Annual Review of Statistics and Its Application}, 1\penalty0
+  (1):\penalty0 125--151, 2014.
+\newblock \doi{10.1146/annurev-statistics-062713-085831}.
+
+\bibitem[Gneiting \& Raftery(2007)Gneiting and Raftery]{ref14}
+Gneiting, T. and Raftery, A.~E.
+\newblock {Strictly Proper Scoring Rules, Prediction, and Estimation}.
+\newblock \emph{Journal of the American Statistical Association}, 102\penalty0
+  (477):\penalty0 359--378, 2007.
+\newblock \doi{10.1198/016214506000001437}.
+
+\bibitem[Gneiting et~al.(2007)Gneiting, Balabdaoui, and Raftery]{ref34}
+Gneiting, T., Balabdaoui, F., and Raftery, A.~E.
+\newblock {Probabilistic Forecasts, Calibration and Sharpness}.
+\newblock \emph{Journal of the Royal Statistical Society Series B: Statistical
+  Methodology}, 69\penalty0 (2):\penalty0 243--268, 2007.
+\newblock \doi{10.1111/j.1467-9868.2007.00587.x}.
+
+\bibitem[Gutenkunst et~al.(2007)Gutenkunst, Waterfall, Casey, Brown, Myers, and
+  Sethna]{ref29}
+Gutenkunst, R.~N., Waterfall, J.~J., Casey, F.~P., Brown, K.~S., Myers, C.~R.,
+  and Sethna, J.~P.
+\newblock {Universally Sloppy Parameter Sensitivities in Systems Biology
+  Models}.
+\newblock \emph{PLoS Computational Biology}, 3\penalty0 (10):\penalty0 e189,
+  2007.
+\newblock \doi{10.1371/journal.pcbi.0030189}.
+
+\bibitem[Haber et~al.(2018)Haber, Molnar, and Motter]{ref07}
+Haber, A., Molnar, F., and Motter, A.~E.
+\newblock {State Observation and Sensor Selection for Nonlinear Networks}.
+\newblock \emph{IEEE Transactions on Control of Network Systems}, 5\penalty0
+  (2):\penalty0 694--708, 2018.
+\newblock \doi{10.1109/TCNS.2017.2728201}.
+
+\bibitem[Huan \& Marzouk(2013)Huan and Marzouk]{ref22}
+Huan, X. and Marzouk, Y.~M.
+\newblock {Simulation-based optimal Bayesian experimental design for nonlinear
+  systems}.
+\newblock \emph{Journal of Computational Physics}, 232\penalty0 (1):\penalty0
+  288--317, 2013.
+\newblock \doi{10.1016/j.jcp.2012.08.013}.
+
+\bibitem[Jun et~al.(2017)Jun, Steinmetz, Siegle, Denman, Bauza, Barbarits, Lee,
+  Anastassiou, Andrei, Ayd{\i}n, Barbic, Blanche, Bonin, Couto, Dutta, Gratiy,
+  Gutnisky, H{\"a}usser, Karsh, Ledochowitsch, Lopez, Mitelut, Musa, Okun,
+  Pachitariu, Putzeys, Rich, Rossant, Sun, Svoboda, Carandini, Harris, Koch,
+  O'Keefe, and Harris]{ref31}
+Jun, J.~J., Steinmetz, N.~A., Siegle, J.~H., Denman, D.~J., Bauza, M.,
+  Barbarits, B., Lee, A.~K., Anastassiou, C.~A., Andrei, A., Ayd{\i}n,
+  {\c{C}}., Barbic, M., Blanche, T.~J., Bonin, V., Couto, J., Dutta, B.,
+  Gratiy, S.~L., Gutnisky, D.~A., H{\"a}usser, M., Karsh, B., Ledochowitsch,
+  P., Lopez, C.~M., Mitelut, C., Musa, S., Okun, M., Pachitariu, M., Putzeys,
+  J., Rich, P.~D., Rossant, C., Sun, W.-l., Svoboda, K., Carandini, M., Harris,
+  K.~D., Koch, C., O'Keefe, J., and Harris, T.~D.
+\newblock {Fully integrated silicon probes for high-density recording of neural
+  activity}.
+\newblock \emph{Nature}, 551\penalty0 (7679):\penalty0 232--236, 2017.
+\newblock \doi{10.1038/nature24636}.
+
+\bibitem[Kim et~al.(2023)Kim, Yang, Zhang, Li, Vázquez-Guardado, Park, Wang,
+  Efimov, Dou, Wang, Park, Luan, Ni, Kim, Baek, Park, Xie, Zhao, Gazzola,
+  Rogers, and Bashir]{ref01}
+Kim, Y., Yang, Y., Zhang, X., Li, Z., Vázquez-Guardado, A., Park, I., Wang,
+  J., Efimov, A.~I., Dou, Z., Wang, Y., Park, J., Luan, H., Ni, X., Kim, Y.~S.,
+  Baek, J., Park, J.~J., Xie, Z., Zhao, H., Gazzola, M., Rogers, J.~A., and
+  Bashir, R.
+\newblock {Remote control of muscle-driven miniature robots with battery-free
+  wireless optoelectronics}.
+\newblock \emph{Science Robotics}, 8\penalty0 (74):\penalty0 eadd1053, 2023.
+\newblock \doi{10.1126/scirobotics.add1053}.
+
+\bibitem[Krause et~al.(2008)Krause, Singh, and Guestrin]{ref25}
+Krause, A., Singh, A., and Guestrin, C.
+\newblock {Near-Optimal Sensor Placements in Gaussian Processes: Theory,
+  Efficient Algorithms and Empirical Studies}.
+\newblock \emph{Journal of Machine Learning Research}, 9:\penalty0 235--284,
+  2008.
+\newblock URL \url{https://jmlr.org/papers/v9/krause08a.html}.
+
+\bibitem[Kreutz et~al.(2012)Kreutz, Raue, and Timmer]{ref12}
+Kreutz, C., Raue, A., and Timmer, J.
+\newblock {Likelihood based observability analysis and confidence intervals for
+  predictions of dynamic models}.
+\newblock \emph{BMC Systems Biology}, 6\penalty0 (1):\penalty0 120, 2012.
+\newblock \doi{10.1186/1752-0509-6-120}.
+
+\bibitem[Lal et~al.(2004)Lal, Schr{\"o}der, Hinterberger, Weston, Bogdan,
+  Birbaumer, and Sch{\"o}lkopf]{ref30}
+Lal, T.~N., Schr{\"o}der, M., Hinterberger, T., Weston, J., Bogdan, M.,
+  Birbaumer, N., and Sch{\"o}lkopf, B.
+\newblock {Support Vector Channel Selection in BCI}.
+\newblock \emph{IEEE Transactions on Biomedical Engineering}, 51\penalty0
+  (6):\penalty0 1003--1010, 2004.
+\newblock \doi{10.1109/TBME.2004.827827}.
+
+\bibitem[Lappalainen et~al.(2024)Lappalainen, Tschopp, Prakhya, McGill, Nern,
+  Shinomiya, Takemura, Gruntman, Macke, and Turaga]{ref06}
+Lappalainen, J.~K., Tschopp, F.~D., Prakhya, S., McGill, M., Nern, A.,
+  Shinomiya, K., Takemura, S.-y., Gruntman, E., Macke, J.~H., and Turaga, S.~C.
+\newblock {Connectome-constrained networks predict neural activity across the
+  fly visual system}.
+\newblock \emph{Nature}, 634\penalty0 (8036):\penalty0 1132--1140, 2024.
+\newblock \doi{10.1038/s41586-024-07939-3}.
+
+\bibitem[Lewi et~al.(2009)Lewi, Butera, and Paninski]{ref32}
+Lewi, J., Butera, R., and Paninski, L.
+\newblock {Sequential Optimal Design of Neurophysiology Experiments}.
+\newblock \emph{Neural Computation}, 21\penalty0 (3):\penalty0 619--687, 2009.
+\newblock \doi{10.1162/neco.2008.08-07-594}.
+
+\bibitem[Lindley(1956)]{ref24}
+Lindley, D.~V.
+\newblock {On a Measure of the Information Provided by an Experiment}.
+\newblock \emph{The Annals of Mathematical Statistics}, 27\penalty0
+  (4):\penalty0 986--1005, 1956.
+\newblock \doi{10.1214/aoms/1177728069}.
+
+\bibitem[Macleod et~al.(2021)Macleod, Collings, Graf, Kiermer, Mellor,
+  Swaminathan, Sweet, and Vinson]{ref17}
+Macleod, M., Collings, A.~M., Graf, C., Kiermer, V., Mellor, D., Swaminathan,
+  S., Sweet, D., and Vinson, V.
+\newblock {The MDAR (Materials Design Analysis Reporting) Framework for
+  transparent reporting in the life sciences}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 118\penalty0
+  (17):\penalty0 e2103238118, 2021.
+\newblock \doi{10.1073/pnas.2103238118}.
+
+\bibitem[Min et~al.(2025)Min, Wang, Wang, Li, Kim, Aydin, Kang, You, Lim,
+  Wolhaupter, Xu, Zhu, Gu, Li, Kim, Rao, Kong, Saif, Huang, Rogers, and
+  Bashir]{ref02}
+Min, H., Wang, Y., Wang, J., Li, X., Kim, W., Aydin, O., Kang, S., You, J.-S.,
+  Lim, J., Wolhaupter, K., Xu, Y., Zhu, Z., Gu, J., Li, X., Kim, Y., Rao, T.,
+  Kong, H.~J., Saif, T.~A., Huang, Y., Rogers, J.~A., and Bashir, R.
+\newblock {Optogenetic neuromuscular actuation of a miniature electronic
+  biohybrid robot}.
+\newblock \emph{Science Robotics}, 10\penalty0 (106):\penalty0 eadu5830, 2025.
+\newblock \doi{10.1126/scirobotics.adu5830}.
+
+\bibitem[Ogino et~al.(2026)Ogino, Sekizawa, Kitazono, and Oizumi]{ref09}
+Ogino, M., Sekizawa, D., Kitazono, J., and Oizumi, M.
+\newblock {Designing optimal perturbation inputs for system identification in
+  neuroscience}.
+\newblock eLife Reviewed Preprint, version 1, 2026.
+
+\bibitem[Prinz et~al.(2004)Prinz, Bucher, and Marder]{ref04}
+Prinz, A.~A., Bucher, D., and Marder, E.
+\newblock {Similar network activity from disparate circuit parameters}.
+\newblock \emph{Nature Neuroscience}, 7\penalty0 (12):\penalty0 1345--1352,
+  2004.
+\newblock \doi{10.1038/nn1352}.
+
+\bibitem[Rainforth et~al.(2024)Rainforth, Foster, Ivanova, and
+  Bickford~Smith]{ref20}
+Rainforth, T., Foster, A., Ivanova, D.~R., and Bickford~Smith, F.
+\newblock {Modern Bayesian Experimental Design}.
+\newblock \emph{Statistical Science}, 39\penalty0 (1):\penalty0 100--114, 2024.
+\newblock \doi{10.1214/23-STS915}.
+
+\bibitem[Raue et~al.(2009)Raue, Kreutz, Maiwald, Bachmann, Schilling,
+  Klingmüller, and Timmer]{ref23}
+Raue, A., Kreutz, C., Maiwald, T., Bachmann, J., Schilling, M., Klingmüller,
+  U., and Timmer, J.
+\newblock {Structural and practical identifiability analysis of partially
+  observed dynamical models by exploiting the profile likelihood}.
+\newblock \emph{Bioinformatics}, 25\penalty0 (15):\penalty0 1923--1929, 2009.
+\newblock \doi{10.1093/bioinformatics/btp358}.
+
+\bibitem[Ricotti et~al.(2017)Ricotti, Trimmer, Feinberg, Raman, Parker, Bashir,
+  Sitti, Martel, Dario, and Menciassi]{ref26}
+Ricotti, L., Trimmer, B., Feinberg, A.~W., Raman, R., Parker, K.~K., Bashir,
+  R., Sitti, M., Martel, S., Dario, P., and Menciassi, A.
+\newblock {Biohybrid actuators for robotics: A review of devices actuated by
+  living cells}.
+\newblock \emph{Science Robotics}, 2\penalty0 (12):\penalty0 eaaq0495, 2017.
+\newblock \doi{10.1126/scirobotics.aaq0495}.
+
+\bibitem[Ryan et~al.(2015)Ryan, Drovandi, McGree, and Pettitt]{ref19}
+Ryan, E.~G., Drovandi, C.~C., McGree, J.~M., and Pettitt, A.~N.
+\newblock {A Review of Modern Computational Algorithms for Bayesian Optimal
+  Design}.
+\newblock \emph{International Statistical Review}, 84\penalty0 (1):\penalty0
+  128--154, 2015.
+\newblock \doi{10.1111/insr.12107}.
+
+\bibitem[Sourmpis et~al.(2026)Sourmpis, Petersen, Gerstner, and Bellec]{ref08}
+Sourmpis, C., Petersen, C.~C., Gerstner, W., and Bellec, G.
+\newblock {Biologically informed cortical models predict optogenetic
+  perturbations}.
+\newblock \emph{eLife}, 14:\penalty0 RP106827, 2026.
+\newblock \doi{10.7554/eLife.106827.3}.
+
+\bibitem[Walsh et~al.(2021)Walsh, Fishman, Garcia-Gasulla, Titma, Pollastri,
+  {ELIXIR Machine Learning Focus Group}, Capriotti, Casadio, Capella-Gutierrez,
+  Cirillo, Del~Conte, Dimopoulos, Del~Angel, Dopazo, Fariselli, Fernández,
+  Huber, Kreshuk, Lenaerts, Martelli, Navarro, Ó~Broin, Piñero, Piovesan,
+  Reczko, Ronzano, Satagopam, Savojardo, Spiwok, Tangaro, Tartari, Salgado,
+  Valencia, Zambelli, Harrow, Psomopoulos, and Tosatto]{ref16}
+Walsh, I., Fishman, D., Garcia-Gasulla, D., Titma, T., Pollastri, G., {ELIXIR
+  Machine Learning Focus Group}, Capriotti, E., Casadio, R., Capella-Gutierrez,
+  S., Cirillo, D., Del~Conte, A., Dimopoulos, A.~C., Del~Angel, V.~D., Dopazo,
+  J., Fariselli, P., Fernández, J.~M., Huber, F., Kreshuk, A., Lenaerts, T.,
+  Martelli, P.~L., Navarro, A., Ó~Broin, P., Piñero, J., Piovesan, D.,
+  Reczko, M., Ronzano, F., Satagopam, V., Savojardo, C., Spiwok, V., Tangaro,
+  M.~A., Tartari, G., Salgado, D., Valencia, A., Zambelli, F., Harrow, J.,
+  Psomopoulos, F.~E., and Tosatto, S. C.~E.
+\newblock {DOME: recommendations for supervised machine learning validation in
+  biology}.
+\newblock \emph{Nature Methods}, 18\penalty0 (10):\penalty0 1122--1127, 2021.
+\newblock \doi{10.1038/s41592-021-01205-4}.
+
+\bibitem[Waltemath et~al.(2011)Waltemath, Adams, Beard, Bergmann, Bhalla,
+  Britten, Chelliah, Cooling, Cooper, Crampin, Garny, Hoops, Hucka, Hunter,
+  Klipp, Laibe, Miller, Moraru, Nickerson, Nielsen, Nikolski, Sahle, Sauro,
+  Schmidt, Snoep, Tolle, Wolkenhauer, and Le~Novère]{ref15}
+Waltemath, D., Adams, R., Beard, D.~A., Bergmann, F.~T., Bhalla, U.~S.,
+  Britten, R., Chelliah, V., Cooling, M.~T., Cooper, J., Crampin, E.~J., Garny,
+  A., Hoops, S., Hucka, M., Hunter, P., Klipp, E., Laibe, C., Miller, A.~K.,
+  Moraru, I., Nickerson, D., Nielsen, P., Nikolski, M., Sahle, S., Sauro,
+  H.~M., Schmidt, H., Snoep, J.~L., Tolle, D., Wolkenhauer, O., and Le~Novère,
+  N.
+\newblock {Minimum Information About a Simulation Experiment (MIASE)}.
+\newblock \emph{PLoS Computational Biology}, 7\penalty0 (4):\penalty0 e1001122,
+  2011.
+\newblock \doi{10.1371/journal.pcbi.1001122}.
+
+\bibitem[Wang et~al.(2025)Wang, Lv, Tang, Wang, Liu, and Liu]{ref03}
+Wang, X., Lv, B., Tang, F., Wang, Y., Liu, B., and Liu, L.
+\newblock {Biomimetic Visual Information Spatiotemporal Encoding Method for In
+  Vitro Biological Neural Networks}.
+\newblock \emph{Biomimetics}, 10\penalty0 (6):\penalty0 359, 2025.
+\newblock \doi{10.3390/biomimetics10060359}.
+
+\bibitem[White et~al.(2016)White, Tolman, Thames, Withers, Mason, and
+  Transtrum]{ref13}
+White, A., Tolman, M., Thames, H.~D., Withers, H.~R., Mason, K.~A., and
+  Transtrum, M.~K.
+\newblock {The Limitations of Model-Based Experimental Design and Parameter
+  Estimation in Sloppy Systems}.
+\newblock \emph{PLOS Computational Biology}, 12\penalty0 (12):\penalty0
+  e1005227, 2016.
+\newblock \doi{10.1371/journal.pcbi.1005227}.
+
+\bibitem[Zhong et~al.(2026)Zhong, Shen, Catanach, and Huan]{ref11}
+Zhong, S., Shen, W., Catanach, T., and Huan, X.
+\newblock {Goal-Oriented Bayesian Optimal Experimental Design for Nonlinear
+  Models Using Markov Chain Monte Carlo}.
+\newblock \emph{SIAM/ASA Journal on Uncertainty Quantification}, 14\penalty0
+  (1):\penalty0 19--47, 2026.
+\newblock \doi{10.1137/24M1649344}.
+
+\end{thebibliography}

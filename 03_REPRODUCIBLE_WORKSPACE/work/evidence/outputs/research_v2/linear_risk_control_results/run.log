@@ -1,0 +1,26 @@
+Matplotlib is building the font cache; this may take a moment.
+{
+  "seconds": 0.850623166999867,
+  "max_mc_z": 3.151406629030863,
+  "max_path_difference": 1.887379141862766e-15,
+  "summary": [
+    {
+      "objective": "scalar",
+      "evaluations": 108,
+      "mean_analytic_risk": 0.6261723726631546,
+      "mean_actual_mc_mse": 0.6278033204470213,
+      "max_abs_mc_standardized_difference": 3.061077734217149,
+      "ensemble_minus_nominal_risk": 0.0,
+      "ensemble_minus_nominal_actual_mse": 0.0
+    },
+    {
+      "objective": "vector",
+      "evaluations": 36,
+      "mean_analytic_risk": 0.5884180671091865,
+      "mean_actual_mc_mse": 0.5902232699798318,
+      "max_abs_mc_standardized_difference": 3.151406629030863,
+      "ensemble_minus_nominal_risk": 0.0,
+      "ensemble_minus_nominal_actual_mse": 0.0
+    }
+  ]
+}

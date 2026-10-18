@@ -1,0 +1,25 @@
+[
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 10,
+  "readouts": [
+   4,
+   1,
+   9
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999999,
+  "connectivity_rank": 12,
+  "network_id": 1900,
+  "condition": "matched",
+  "prior_q_variance": [
+   0.00011223687264800799,
+   3.001865244087185e-07,
+   9.11291184098779e-06
+  ],
+  "bank_seconds": 0.03069708299995
+ }
+]

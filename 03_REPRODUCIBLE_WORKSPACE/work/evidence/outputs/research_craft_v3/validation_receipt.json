@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "manifest_files": 103,
+  "article_references": 17,
+  "main_and_supplementary_figures": 9,
+  "abstract_words": 311,
+  "conservative_words": 337,
+  "abstract_characters": 2260,
+  "graphical_abstract_bytes": 57715,
+  "scientific_validity": "not certified by presentation or integrity checks",
+  "submitted": false
+}

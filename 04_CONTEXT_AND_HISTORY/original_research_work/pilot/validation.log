@@ -1,0 +1,401 @@
+{
+  "checks": {
+    "status": "post-pilot numerical diagnostics; no tuned outcomes",
+    "rows_finite": true,
+    "exact_zero_targets": 0,
+    "prior_q_variance_below_floor_rows": 0,
+    "enumeration": [
+      {
+        "seed": 21,
+        "neurons": 6,
+        "budget": 2,
+        "subsets": 15,
+        "target_gradient_norm": 0.0,
+        "exact_best_subset": [
+          0,
+          1
+        ],
+        "greedy_subset": [
+          0,
+          1
+        ],
+        "greedy_risk": 0.0,
+        "exact_best_risk": 0.0
+      },
+      {
+        "seed": 22,
+        "neurons": 6,
+        "budget": 2,
+        "subsets": 15,
+        "target_gradient_norm": 0.0,
+        "exact_best_subset": [
+          0,
+          1
+        ],
+        "greedy_subset": [
+          0,
+          1
+        ],
+        "greedy_risk": 0.0,
+        "exact_best_risk": 0.0
+      },
+      {
+        "seed": 23,
+        "neurons": 6,
+        "budget": 2,
+        "subsets": 15,
+        "target_gradient_norm": 0.0,
+        "exact_best_subset": [
+          0,
+          1
+        ],
+        "greedy_subset": [
+          0,
+          1
+        ],
+        "greedy_risk": 0.0,
+        "exact_best_risk": 0.0
+      },
+      {
+        "seed": 24,
+        "neurons": 6,
+        "budget": 2,
+        "subsets": 15,
+        "target_gradient_norm": 0.008436432094778979,
+        "exact_best_subset": [
+          1,
+          5
+        ],
+        "greedy_subset": [
+          1,
+          5
+        ],
+        "greedy_risk": 2.73278144836213e-07,
+        "exact_best_risk": 2.73278144836213e-07
+      },
+      {
+        "seed": 25,
+        "neurons": 6,
+        "budget": 2,
+        "subsets": 15,
+        "target_gradient_norm": 0.017490836108023933,
+        "exact_best_subset": [
+          4,
+          5
+        ],
+        "greedy_subset": [
+          4,
+          5
+        ],
+        "greedy_risk": 6.959330662532197e-07,
+        "exact_best_risk": 6.959330662532197e-07
+      }
+    ],
+    "posthoc_influence_diagnostics": [
+      {
+        "pool": "all",
+        "budget": 3,
+        "method": "activity",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.883263562069892,
+        "leave_one_out_rmse_min": 0.0009524630358843925,
+        "leave_one_out_rmse_max": 0.002787692723858949
+      },
+      {
+        "pool": "all",
+        "budget": 3,
+        "method": "stimulus_state",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.917931521254034,
+        "leave_one_out_rmse_min": 0.0007833811526593444,
+        "leave_one_out_rmse_max": 0.002734544049673088
+      },
+      {
+        "pool": "all",
+        "budget": 3,
+        "method": "response_state",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.7098437625457498,
+        "leave_one_out_rmse_min": 0.0012596495249145663,
+        "leave_one_out_rmse_max": 0.0023384804746255463
+      },
+      {
+        "pool": "all",
+        "budget": 3,
+        "method": "goal",
+        "largest_sse_seed": 104,
+        "largest_sse_fraction": 0.42802998924229196,
+        "leave_one_out_rmse_min": 0.0002042068185437253,
+        "leave_one_out_rmse_max": 0.0002700004322890345
+      },
+      {
+        "pool": "all",
+        "budget": 3,
+        "method": "random",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.8282369338654527,
+        "leave_one_out_rmse_min": 0.0010590406860566028,
+        "leave_one_out_rmse_max": 0.0025553308380197965
+      },
+      {
+        "pool": "all",
+        "budget": 3,
+        "method": "shuffled_goal",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.851187184816435,
+        "leave_one_out_rmse_min": 0.0006816774511367767,
+        "leave_one_out_rmse_max": 0.0017670902594733278
+      },
+      {
+        "pool": "all",
+        "budget": 3,
+        "method": "parameter",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.7597810593770551,
+        "leave_one_out_rmse_min": 0.0011558992406179643,
+        "leave_one_out_rmse_max": 0.0023583934237160153
+      },
+      {
+        "pool": "all",
+        "budget": 6,
+        "method": "activity",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.9702420001451169,
+        "leave_one_out_rmse_min": 0.0002421239252620998,
+        "leave_one_out_rmse_max": 0.0014035752115483698
+      },
+      {
+        "pool": "all",
+        "budget": 6,
+        "method": "stimulus_state",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.9658312183485035,
+        "leave_one_out_rmse_min": 0.00027054900848186937,
+        "leave_one_out_rmse_max": 0.0014636283637004777
+      },
+      {
+        "pool": "all",
+        "budget": 6,
+        "method": "response_state",
+        "largest_sse_seed": 102,
+        "largest_sse_fraction": 0.8120603602830788,
+        "leave_one_out_rmse_min": 0.00033516288907351854,
+        "leave_one_out_rmse_max": 0.0007731195542499943
+      },
+      {
+        "pool": "all",
+        "budget": 6,
+        "method": "goal",
+        "largest_sse_seed": 104,
+        "largest_sse_fraction": 0.6103991330211596,
+        "leave_one_out_rmse_min": 0.00017040175145130495,
+        "leave_one_out_rmse_max": 0.00027298826071580235
+      },
+      {
+        "pool": "all",
+        "budget": 6,
+        "method": "random",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.9829690420854676,
+        "leave_one_out_rmse_min": 0.00023885576625495126,
+        "leave_one_out_rmse_max": 0.0018302731747197355
+      },
+      {
+        "pool": "all",
+        "budget": 6,
+        "method": "shuffled_goal",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.9943524344932829,
+        "leave_one_out_rmse_min": 0.00016766314062577225,
+        "leave_one_out_rmse_max": 0.0022310300519731703
+      },
+      {
+        "pool": "all",
+        "budget": 6,
+        "method": "parameter",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.9365766505945162,
+        "leave_one_out_rmse_min": 0.00035977318937135386,
+        "leave_one_out_rmse_max": 0.001428578358746648
+      },
+      {
+        "pool": "exclude_endpoints",
+        "budget": 3,
+        "method": "activity",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.8705093940413433,
+        "leave_one_out_rmse_min": 0.0010104677783030857,
+        "leave_one_out_rmse_max": 0.0028080402882169238
+      },
+      {
+        "pool": "exclude_endpoints",
+        "budget": 3,
+        "method": "stimulus_state",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.9133526015853869,
+        "leave_one_out_rmse_min": 0.0008069536633644169,
+        "leave_one_out_rmse_max": 0.0027413900386624775
+      },
+      {
+        "pool": "exclude_endpoints",
+        "budget": 3,
+        "method": "response_state",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.9191391893469281,
+        "leave_one_out_rmse_min": 0.000726860938040007,
+        "leave_one_out_rmse_max": 0.0025561156935746065
+      },
+      {
+        "pool": "exclude_endpoints",
+        "budget": 3,
+        "method": "goal",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.9367055986320958,
+        "leave_one_out_rmse_min": 0.0005292287506160222,
+        "leave_one_out_rmse_max": 0.0021035880324307473
+      },
+      {
+        "pool": "exclude_endpoints",
+        "budget": 3,
+        "method": "random",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.7361252498006754,
+        "leave_one_out_rmse_min": 0.0012968736943128772,
+        "leave_one_out_rmse_max": 0.0025246343828098285
+      },
+      {
+        "pool": "exclude_endpoints",
+        "budget": 3,
+        "method": "shuffled_goal",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.8441111024085796,
+        "leave_one_out_rmse_min": 0.0009068165569550761,
+        "leave_one_out_rmse_max": 0.002296740042509781
+      },
+      {
+        "pool": "exclude_endpoints",
+        "budget": 3,
+        "method": "parameter",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.7282857821199761,
+        "leave_one_out_rmse_min": 0.001255642053282825,
+        "leave_one_out_rmse_max": 0.0024088489891518875
+      },
+      {
+        "pool": "exclude_endpoints",
+        "budget": 6,
+        "method": "activity",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.9748535198218967,
+        "leave_one_out_rmse_min": 0.0003789462803388772,
+        "leave_one_out_rmse_max": 0.002389675737824446
+      },
+      {
+        "pool": "exclude_endpoints",
+        "budget": 6,
+        "method": "stimulus_state",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.9736784605124982,
+        "leave_one_out_rmse_min": 0.00038793287972104656,
+        "leave_one_out_rmse_max": 0.0023911175166098607
+      },
+      {
+        "pool": "exclude_endpoints",
+        "budget": 6,
+        "method": "response_state",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.9770965186013676,
+        "leave_one_out_rmse_min": 0.0003830857902278798,
+        "leave_one_out_rmse_max": 0.002531304540776937
+      },
+      {
+        "pool": "exclude_endpoints",
+        "budget": 6,
+        "method": "goal",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.9783862743674737,
+        "leave_one_out_rmse_min": 0.000371897849139705,
+        "leave_one_out_rmse_max": 0.0025296392908315674
+      },
+      {
+        "pool": "exclude_endpoints",
+        "budget": 6,
+        "method": "random",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.7804785609385738,
+        "leave_one_out_rmse_min": 0.0010747050266612808,
+        "leave_one_out_rmse_max": 0.0022937749355523584
+      },
+      {
+        "pool": "exclude_endpoints",
+        "budget": 6,
+        "method": "shuffled_goal",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.9891475622408351,
+        "leave_one_out_rmse_min": 0.0002938194228818106,
+        "leave_one_out_rmse_max": 0.002820422776936578
+      },
+      {
+        "pool": "exclude_endpoints",
+        "budget": 6,
+        "method": "parameter",
+        "largest_sse_seed": 111,
+        "largest_sse_fraction": 0.9528297611232438,
+        "leave_one_out_rmse_min": 0.0004187602760873964,
+        "leave_one_out_rmse_max": 0.001928107877142018
+      }
+    ],
+    "teacher_feedback_norm_audit": [
+      {
+        "seed": 100,
+        "global_rate_feedback_lipschitz_bound": 0.7868181354894852
+      },
+      {
+        "seed": 101,
+        "global_rate_feedback_lipschitz_bound": 0.7073211081952919
+      },
+      {
+        "seed": 102,
+        "global_rate_feedback_lipschitz_bound": 0.744325965321137
+      },
+      {
+        "seed": 103,
+        "global_rate_feedback_lipschitz_bound": 0.6562421271823263
+      },
+      {
+        "seed": 104,
+        "global_rate_feedback_lipschitz_bound": 0.6006096187891867
+      },
+      {
+        "seed": 105,
+        "global_rate_feedback_lipschitz_bound": 0.7092772109667511
+      },
+      {
+        "seed": 106,
+        "global_rate_feedback_lipschitz_bound": 0.595629697259443
+      },
+      {
+        "seed": 107,
+        "global_rate_feedback_lipschitz_bound": 0.6791135923382475
+      },
+      {
+        "seed": 108,
+        "global_rate_feedback_lipschitz_bound": 0.8530918988555406
+      },
+      {
+        "seed": 109,
+        "global_rate_feedback_lipschitz_bound": 0.7839629896057679
+      },
+      {
+        "seed": 110,
+        "global_rate_feedback_lipschitz_bound": 0.7419104866325495
+      },
+      {
+        "seed": 111,
+        "global_rate_feedback_lipschitz_bound": 0.6674454392382035
+      }
+    ],
+    "elapsed_seconds": 0.16314225003588945
+  },
+  "dt_relative_max": 0.004044717040026211
+}

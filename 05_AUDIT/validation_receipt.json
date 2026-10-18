@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "historical_checks": {
+    "research_v2": "PASS",
+    "writing_v3": "PASS",
+    "claude_v4": "PASS"
+  },
+  "current_manuscript_and_assets": "PASS",
+  "frozen_table_lineage": "PASS",
+  "supplementary_plot_data_geometry": "unchanged",
+  "paper_pages": 22,
+  "new_simulations_run": false,
+  "not_submitted": true,
+  "scope": "file and frozen-result consistency; not full experiment rerun or scientific acceptance"
+}

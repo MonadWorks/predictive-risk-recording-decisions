@@ -1,0 +1,320 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\burl{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+\providecommand{\doi}[1]{\url{https://doi.org/#1}}
+\bibcommenthead
+
+\bibitem{ref01}
+\bibinfo{author}{Kim, Y.} \emph{et~al.}
+\newblock \bibinfo{title}{{Remote control of muscle-driven miniature robots
+  with battery-free wireless optoelectronics}}.
+\newblock \emph{\bibinfo{journal}{Science Robotics}}
+  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{eadd1053}
+  (\bibinfo{year}{2023}).
+
+\bibitem{ref02}
+\bibinfo{author}{Min, H.} \emph{et~al.}
+\newblock \bibinfo{title}{{Optogenetic neuromuscular actuation of a miniature
+  electronic biohybrid robot}}.
+\newblock \emph{\bibinfo{journal}{Science Robotics}}
+  \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{eadu5830}
+  (\bibinfo{year}{2025}).
+
+\bibitem{ref26}
+\bibinfo{author}{Ricotti, L.} \emph{et~al.}
+\newblock \bibinfo{title}{{Biohybrid actuators for robotics: A review of
+  devices actuated by living cells}}.
+\newblock \emph{\bibinfo{journal}{Science Robotics}}
+  \textbf{\bibinfo{volume}{2}}, \bibinfo{pages}{eaaq0495}
+  (\bibinfo{year}{2017}).
+
+\bibitem{ref27}
+\bibinfo{author}{Aydin, O.} \emph{et~al.}
+\newblock \bibinfo{title}{{Neuromuscular actuation of biohybrid motile bots}}.
+\newblock \emph{\bibinfo{journal}{Proceedings of the National Academy of
+  Sciences}} \textbf{\bibinfo{volume}{116}}, \bibinfo{pages}{19841--19847}
+  (\bibinfo{year}{2019}).
+
+\bibitem{ref03}
+\bibinfo{author}{Wang, X.} \emph{et~al.}
+\newblock \bibinfo{title}{{Biomimetic Visual Information Spatiotemporal
+  Encoding Method for In Vitro Biological Neural Networks}}.
+\newblock \emph{\bibinfo{journal}{Biomimetics}} \textbf{\bibinfo{volume}{10}},
+  \bibinfo{pages}{359} (\bibinfo{year}{2025}).
+
+\bibitem{ref28}
+\bibinfo{author}{DeMarse, T.~B.}, \bibinfo{author}{Wagenaar, D.~A.},
+  \bibinfo{author}{Blau, A.~W.} \& \bibinfo{author}{Potter, S.~M.}
+\newblock \bibinfo{title}{{The Neurally Controlled Animat: Biological Brains
+  Acting with Simulated Bodies}}.
+\newblock \emph{\bibinfo{journal}{Autonomous Robots}}
+  \textbf{\bibinfo{volume}{11}}, \bibinfo{pages}{305--310}
+  (\bibinfo{year}{2001}).
+
+\bibitem{ref04}
+\bibinfo{author}{Prinz, A.~A.}, \bibinfo{author}{Bucher, D.} \&
+  \bibinfo{author}{Marder, E.}
+\newblock \bibinfo{title}{{Similar network activity from disparate circuit
+  parameters}}.
+\newblock \emph{\bibinfo{journal}{Nature Neuroscience}}
+  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{1345--1352}
+  (\bibinfo{year}{2004}).
+
+\bibitem{ref29}
+\bibinfo{author}{Gutenkunst, R.~N.} \emph{et~al.}
+\newblock \bibinfo{title}{{Universally Sloppy Parameter Sensitivities in
+  Systems Biology Models}}.
+\newblock \emph{\bibinfo{journal}{PLoS Computational Biology}}
+  \textbf{\bibinfo{volume}{3}}, \bibinfo{pages}{e189} (\bibinfo{year}{2007}).
+
+\bibitem{ref05}
+\bibinfo{author}{Beiran, M.} \& \bibinfo{author}{Litwin-Kumar, A.}
+\newblock \bibinfo{title}{{Prediction of neural activity in
+  connectome-constrained recurrent networks}}.
+\newblock \emph{\bibinfo{journal}{Nature Neuroscience}}
+  \textbf{\bibinfo{volume}{28}}, \bibinfo{pages}{2561--2574}
+  (\bibinfo{year}{2025}).
+
+\bibitem{ref06}
+\bibinfo{author}{Lappalainen, J.~K.} \emph{et~al.}
+\newblock \bibinfo{title}{{Connectome-constrained networks predict neural
+  activity across the fly visual system}}.
+\newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{634}},
+  \bibinfo{pages}{1132--1140} (\bibinfo{year}{2024}).
+
+\bibitem{ref30}
+\bibinfo{author}{Lal, T.~N.} \emph{et~al.}
+\newblock \bibinfo{title}{{Support Vector Channel Selection in BCI}}.
+\newblock \emph{\bibinfo{journal}{IEEE Transactions on Biomedical Engineering}}
+  \textbf{\bibinfo{volume}{51}}, \bibinfo{pages}{1003--1010}
+  (\bibinfo{year}{2004}).
+
+\bibitem{ref31}
+\bibinfo{author}{Jun, J.~J.} \emph{et~al.}
+\newblock \bibinfo{title}{{Fully integrated silicon probes for high-density
+  recording of neural activity}}.
+\newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{551}},
+  \bibinfo{pages}{232--236} (\bibinfo{year}{2017}).
+
+\bibitem{ref07}
+\bibinfo{author}{Haber, A.}, \bibinfo{author}{Molnar, F.} \&
+  \bibinfo{author}{Motter, A.~E.}
+\newblock \bibinfo{title}{{State Observation and Sensor Selection for Nonlinear
+  Networks}}.
+\newblock \emph{\bibinfo{journal}{IEEE Transactions on Control of Network
+  Systems}} \textbf{\bibinfo{volume}{5}}, \bibinfo{pages}{694--708}
+  (\bibinfo{year}{2018}).
+
+\bibitem{ref25}
+\bibinfo{author}{Krause, A.}, \bibinfo{author}{Singh, A.} \&
+  \bibinfo{author}{Guestrin, C.}
+\newblock \bibinfo{title}{{Near-Optimal Sensor Placements in Gaussian
+  Processes: Theory, Efficient Algorithms and Empirical Studies}}.
+\newblock \emph{\bibinfo{journal}{Journal of Machine Learning Research}}
+  \textbf{\bibinfo{volume}{9}}, \bibinfo{pages}{235--284}
+  (\bibinfo{year}{2008}).
+\newblock \urlprefix\url{https://jmlr.org/papers/v9/krause08a.html}.
+
+\bibitem{ref08}
+\bibinfo{author}{Sourmpis, C.}, \bibinfo{author}{Petersen, C.~C.},
+  \bibinfo{author}{Gerstner, W.} \& \bibinfo{author}{Bellec, G.}
+\newblock \bibinfo{title}{{Biologically informed cortical models predict
+  optogenetic perturbations}}.
+\newblock \emph{\bibinfo{journal}{eLife}} \textbf{\bibinfo{volume}{14}},
+  \bibinfo{pages}{RP106827} (\bibinfo{year}{2026}).
+
+\bibitem{ref09}
+\bibinfo{author}{Ogino, M.}, \bibinfo{author}{Sekizawa, D.},
+  \bibinfo{author}{Kitazono, J.} \& \bibinfo{author}{Oizumi, M.}
+\newblock \bibinfo{title}{{Designing optimal perturbation inputs for system
+  identification in neuroscience}}.
+\newblock \bibinfo{howpublished}{eLife Reviewed Preprint, version 1}
+  (\bibinfo{year}{2026}).
+
+\bibitem{ref32}
+\bibinfo{author}{Lewi, J.}, \bibinfo{author}{Butera, R.} \&
+  \bibinfo{author}{Paninski, L.}
+\newblock \bibinfo{title}{{Sequential Optimal Design of Neurophysiology
+  Experiments}}.
+\newblock \emph{\bibinfo{journal}{Neural Computation}}
+  \textbf{\bibinfo{volume}{21}}, \bibinfo{pages}{619--687}
+  (\bibinfo{year}{2009}).
+
+\bibitem{ref18}
+\bibinfo{author}{Chaloner, K.} \& \bibinfo{author}{Verdinelli, I.}
+\newblock \bibinfo{title}{{Bayesian Experimental Design: A Review}}.
+\newblock \emph{\bibinfo{journal}{Statistical Science}}
+  \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{273--304}
+  (\bibinfo{year}{1995}).
+
+\bibitem{ref24}
+\bibinfo{author}{Lindley, D.~V.}
+\newblock \bibinfo{title}{{On a Measure of the Information Provided by an
+  Experiment}}.
+\newblock \emph{\bibinfo{journal}{The Annals of Mathematical Statistics}}
+  \textbf{\bibinfo{volume}{27}}, \bibinfo{pages}{986--1005}
+  (\bibinfo{year}{1956}).
+
+\bibitem{ref10}
+\bibinfo{author}{Attia, A.}, \bibinfo{author}{Alexanderian, A.} \&
+  \bibinfo{author}{Saibaba, A.~K.}
+\newblock \bibinfo{title}{{Goal-oriented optimal design of experiments for
+  large-scale Bayesian linear inverse problems}}.
+\newblock \emph{\bibinfo{journal}{Inverse Problems}}
+  \textbf{\bibinfo{volume}{34}}, \bibinfo{pages}{095009}
+  (\bibinfo{year}{2018}).
+
+\bibitem{ref21}
+\bibinfo{author}{Alexanderian, A.}, \bibinfo{author}{Petra, N.},
+  \bibinfo{author}{Stadler, G.} \& \bibinfo{author}{Ghattas, O.}
+\newblock \bibinfo{title}{{A Fast and Scalable Method for A-Optimal Design of
+  Experiments for Infinite-dimensional Bayesian Nonlinear Inverse Problems}}.
+\newblock \emph{\bibinfo{journal}{SIAM Journal on Scientific Computing}}
+  \textbf{\bibinfo{volume}{38}}, \bibinfo{pages}{A243--A272}
+  (\bibinfo{year}{2016}).
+
+\bibitem{ref11}
+\bibinfo{author}{Zhong, S.}, \bibinfo{author}{Shen, W.},
+  \bibinfo{author}{Catanach, T.} \& \bibinfo{author}{Huan, X.}
+\newblock \bibinfo{title}{{Goal-Oriented Bayesian Optimal Experimental Design
+  for Nonlinear Models Using Markov Chain Monte Carlo}}.
+\newblock \emph{\bibinfo{journal}{SIAM/ASA Journal on Uncertainty
+  Quantification}} \textbf{\bibinfo{volume}{14}}, \bibinfo{pages}{19--47}
+  (\bibinfo{year}{2026}).
+
+\bibitem{ref19}
+\bibinfo{author}{Ryan, E.~G.}, \bibinfo{author}{Drovandi, C.~C.},
+  \bibinfo{author}{McGree, J.~M.} \& \bibinfo{author}{Pettitt, A.~N.}
+\newblock \bibinfo{title}{{A Review of Modern Computational Algorithms for
+  Bayesian Optimal Design}}.
+\newblock \emph{\bibinfo{journal}{International Statistical Review}}
+  \textbf{\bibinfo{volume}{84}}, \bibinfo{pages}{128--154}
+  (\bibinfo{year}{2015}).
+
+\bibitem{ref20}
+\bibinfo{author}{Rainforth, T.}, \bibinfo{author}{Foster, A.},
+  \bibinfo{author}{Ivanova, D.~R.} \& \bibinfo{author}{Bickford~Smith, F.}
+\newblock \bibinfo{title}{{Modern Bayesian Experimental Design}}.
+\newblock \emph{\bibinfo{journal}{Statistical Science}}
+  \textbf{\bibinfo{volume}{39}}, \bibinfo{pages}{100--114}
+  (\bibinfo{year}{2024}).
+
+\bibitem{ref22}
+\bibinfo{author}{Huan, X.} \& \bibinfo{author}{Marzouk, Y.~M.}
+\newblock \bibinfo{title}{{Simulation-based optimal Bayesian experimental
+  design for nonlinear systems}}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Physics}}
+  \textbf{\bibinfo{volume}{232}}, \bibinfo{pages}{288--317}
+  (\bibinfo{year}{2013}).
+
+\bibitem{ref36}
+\bibinfo{author}{Amrhein, V.}, \bibinfo{author}{Greenland, S.} \&
+  \bibinfo{author}{McShane, B.}
+\newblock \bibinfo{title}{{Scientists rise up against statistical
+  significance}}.
+\newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{567}},
+  \bibinfo{pages}{305--307} (\bibinfo{year}{2019}).
+
+\bibitem{ref37}
+\bibinfo{author}{Altman, D.~G.} \& \bibinfo{author}{Bland, J.~M.}
+\newblock \bibinfo{title}{{Statistics notes: Absence of evidence is not
+  evidence of absence}}.
+\newblock \emph{\bibinfo{journal}{BMJ}} \textbf{\bibinfo{volume}{311}},
+  \bibinfo{pages}{485} (\bibinfo{year}{1995}).
+
+\bibitem{ref12}
+\bibinfo{author}{Kreutz, C.}, \bibinfo{author}{Raue, A.} \&
+  \bibinfo{author}{Timmer, J.}
+\newblock \bibinfo{title}{{Likelihood based observability analysis and
+  confidence intervals for predictions of dynamic models}}.
+\newblock \emph{\bibinfo{journal}{BMC Systems Biology}}
+  \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{120} (\bibinfo{year}{2012}).
+
+\bibitem{ref23}
+\bibinfo{author}{Raue, A.} \emph{et~al.}
+\newblock \bibinfo{title}{{Structural and practical identifiability analysis of
+  partially observed dynamical models by exploiting the profile likelihood}}.
+\newblock \emph{\bibinfo{journal}{Bioinformatics}}
+  \textbf{\bibinfo{volume}{25}}, \bibinfo{pages}{1923--1929}
+  (\bibinfo{year}{2009}).
+
+\bibitem{ref13}
+\bibinfo{author}{White, A.} \emph{et~al.}
+\newblock \bibinfo{title}{{The Limitations of Model-Based Experimental Design
+  and Parameter Estimation in Sloppy Systems}}.
+\newblock \emph{\bibinfo{journal}{PLOS Computational Biology}}
+  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{e1005227}
+  (\bibinfo{year}{2016}).
+
+\bibitem{ref38}
+\bibinfo{author}{Efron, B.}
+\newblock \bibinfo{title}{{Bootstrap Methods: Another Look at the Jackknife}}.
+\newblock \emph{\bibinfo{journal}{The Annals of Statistics}}
+  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{1--26} (\bibinfo{year}{1979}).
+
+\bibitem{ref39}
+\bibinfo{author}{Field, C.~A.} \& \bibinfo{author}{Welsh, A.~H.}
+\newblock \bibinfo{title}{{Bootstrapping Clustered Data}}.
+\newblock \emph{\bibinfo{journal}{Journal of the Royal Statistical Society
+  Series B: Statistical Methodology}} \textbf{\bibinfo{volume}{69}},
+  \bibinfo{pages}{369--390} (\bibinfo{year}{2007}).
+
+\bibitem{ref14}
+\bibinfo{author}{Gneiting, T.} \& \bibinfo{author}{Raftery, A.~E.}
+\newblock \bibinfo{title}{{Strictly Proper Scoring Rules, Prediction, and
+  Estimation}}.
+\newblock \emph{\bibinfo{journal}{Journal of the American Statistical
+  Association}} \textbf{\bibinfo{volume}{102}}, \bibinfo{pages}{359--378}
+  (\bibinfo{year}{2007}).
+
+\bibitem{ref33}
+\bibinfo{author}{Gneiting, T.} \& \bibinfo{author}{Katzfuss, M.}
+\newblock \bibinfo{title}{{Probabilistic Forecasting}}.
+\newblock \emph{\bibinfo{journal}{Annual Review of Statistics and Its
+  Application}} \textbf{\bibinfo{volume}{1}}, \bibinfo{pages}{125--151}
+  (\bibinfo{year}{2014}).
+
+\bibitem{ref34}
+\bibinfo{author}{Gneiting, T.}, \bibinfo{author}{Balabdaoui, F.} \&
+  \bibinfo{author}{Raftery, A.~E.}
+\newblock \bibinfo{title}{{Probabilistic Forecasts, Calibration and
+  Sharpness}}.
+\newblock \emph{\bibinfo{journal}{Journal of the Royal Statistical Society
+  Series B: Statistical Methodology}} \textbf{\bibinfo{volume}{69}},
+  \bibinfo{pages}{243--268} (\bibinfo{year}{2007}).
+
+\bibitem{ref35}
+\bibinfo{author}{Dawid, A.~P.}
+\newblock \bibinfo{title}{{The Well-Calibrated Bayesian}}.
+\newblock \emph{\bibinfo{journal}{Journal of the American Statistical
+  Association}} \textbf{\bibinfo{volume}{77}}, \bibinfo{pages}{605--610}
+  (\bibinfo{year}{1982}).
+
+\bibitem{ref15}
+\bibinfo{author}{Waltemath, D.} \emph{et~al.}
+\newblock \bibinfo{title}{{Minimum Information About a Simulation Experiment
+  (MIASE)}}.
+\newblock \emph{\bibinfo{journal}{PLoS Computational Biology}}
+  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{e1001122}
+  (\bibinfo{year}{2011}).
+
+\bibitem{ref16}
+\bibinfo{author}{Walsh, I.} \emph{et~al.}
+\newblock \bibinfo{title}{{DOME: recommendations for supervised machine
+  learning validation in biology}}.
+\newblock \emph{\bibinfo{journal}{Nature Methods}}
+  \textbf{\bibinfo{volume}{18}}, \bibinfo{pages}{1122--1127}
+  (\bibinfo{year}{2021}).
+
+\bibitem{ref17}
+\bibinfo{author}{Macleod, M.} \emph{et~al.}
+\newblock \bibinfo{title}{{The MDAR (Materials Design Analysis Reporting)
+  Framework for transparent reporting in the life sciences}}.
+\newblock \emph{\bibinfo{journal}{Proceedings of the National Academy of
+  Sciences}} \textbf{\bibinfo{volume}{118}}, \bibinfo{pages}{e2103238118}
+  (\bibinfo{year}{2021}).
+
+\end{thebibliography}

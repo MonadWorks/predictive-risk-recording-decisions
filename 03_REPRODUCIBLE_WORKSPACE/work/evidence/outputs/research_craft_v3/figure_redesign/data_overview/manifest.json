@@ -1,0 +1,83 @@
+{
+  "selection_rule": "fixed first main-study J5000; no effect-based instance selection",
+  "network_id": 5000,
+  "condition": "broad",
+  "truth_id": 0,
+  "noise_id": 0,
+  "target_id": 0,
+  "pool": "exclude_endpoints",
+  "budget": 3,
+  "method": "local_scalar",
+  "selected_nodes": [
+    6,
+    8,
+    11
+  ],
+  "greedy_selection_order": [
+    8,
+    6,
+    11
+  ],
+  "stim": 0,
+  "readout": 4,
+  "independent_n": 1,
+  "q_rebuilt": 0.0002435178366808455,
+  "q_csv": 0.0002435178366808455,
+  "q_abs_difference": 0.0,
+  "noise_reconstruction": "seeded(noise_seed+noise_id,network_id,truth_id).normal(shape=train[:,::sample_stride].shape)",
+  "source_snapshot_sha256": {
+    "models.py": "8623e5a2ae7494d8c6445a2f8460cd2fbf641ae47721c4f436d49e45bcd578dc",
+    "design.py": "58fea60cbb734c5634f1b963902c242c777000fa24f8ae6b7771499af9692309",
+    "inference.py": "e7b10dccfdc6ff426ae0493fb75f4ff8bcf274932963176a55110ffb3d0e3eb7",
+    "run.py": "2b9a36044a6362d6f8e0e8fba226f77c2ddd5906b7d9fc8fac098ee7127e9044"
+  },
+  "source_protocol_sha256": "a1d561cedf61f16e49bc839c9a31f0fdaab711a6ef815d10885c8326846dc47b",
+  "source_designs_sha256": "095ee358ef634ad91f24441416e11324aece785a0a564cd758ff6cc58a9c046f",
+  "source_results_sha256": "65538e9d4a3a3c63bc5f68b65c9c1b503715795214a7a6455a0f2d3b3d5f35c8",
+  "font_family": "Arial",
+  "font_path": "/System/Library/Fonts/Supplemental/Arial.ttf",
+  "width_mm": 180,
+  "height_mm": 80,
+  "display_transformations": [
+    "Calibration trials concatenated by adding 6 time units to trial 2, with no connecting segment across boundary",
+    "Response panel rate differences multiplied by 1e4, explicitly labelled; q remains in original units",
+    "Connectivity colormap uses symmetric limits around exact zero; no weight changes"
+  ],
+  "reconstruction_limit": "Teacher/noise values reconstructed deterministically; no MAP refit, no biological data, n=1 illustrative case",
+  "matplotlib_version": "3.10.1",
+  "numpy_version": "2.2.5",
+  "output_sha256": {
+    "fig1_data_overview.pdf": "abc9a3c554d67c5a5b7a71bc12782bb79c836c4f0a9b27f126c9af0b5716248f",
+    "caption.md": "bde80b17bcb32fa53270f9fb797fc14ca783dace54cded342fa7b63333fdaaa2",
+    "fig1_data_overview.png": "1eeea5b7459c45d44a2db18aa1474406b702b9e2827db39bcf8cc95a1851ff5a",
+    "fig1_data_overview.svg": "00253269d239bda59f4aaa09c3602b315651cce6a89025450157fd3bcaf72a97",
+    "source_arrays.npz": "ecab2f2e85964f4f0e3481f91b3e2a52b21529614ad18d649dc5506e82f642fe",
+    "heldout_response.csv": "ed2b968852d953b068097d0c22ff89899eb4bacfe635eec65e753979f1b9d8b0",
+    "README.md": "c91cbc595b2c8f91612d336065b13cd9430489fd9e616c3656c7efcb71b4eabc",
+    "calibration_observations.csv": "794ce5943dc8c133455a5e652697301ae41a89e237034ae4018336105dc73688",
+    "make_data_overview.py": "ea4458bfb8618b7cf6346c8aabfbe243656b74f7b3ac5fb80621fd02cee72951",
+    "weights.csv": "edab58b9b64e0e1529d3dcdd0f26d5e32e3628ff0b0990dbb0b6cd82e949a752"
+  },
+  "render_review": {
+    "png_viewed_in_tool": true,
+    "initial_issues_corrected": [
+      "Arial superscript missing glyphs replaced by supported mathematical/ASCII notation",
+      "Footer overlapping colorbar removed",
+      "Rate units moved into panel title",
+      "Zero-reference overlay text removed"
+    ],
+    "png_pixels": [
+      2125,
+      944
+    ],
+    "nonwhite_edge_margin_px": {
+      "left": 24,
+      "right": 19,
+      "top": 55,
+      "bottom": 97
+    },
+    "svg_editable_text_nodes": 51,
+    "svg_embedded_images": 0,
+    "scientific_limit": "Independent n=1 illustrative synthetic network; no between-method or biological inference"
+  }
+}

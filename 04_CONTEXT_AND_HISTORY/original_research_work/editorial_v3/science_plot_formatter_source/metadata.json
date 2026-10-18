@@ -1,0 +1,136 @@
+{
+  "repo": "preordinary/science-plot-formatter",
+  "retrieved_at_utc": "2026-10-16T15:42:26.993267+00:00",
+  "api_date": "Fri, 16 Oct 2026 15:42:27 GMT",
+  "stars": 8,
+  "default_branch": "main",
+  "head_sha": "750c6c1834c833c2607e5913daea76497433dc6e",
+  "commit_date": "2026-05-27T12:37:20Z",
+  "license": null,
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": ".claude",
+      "type": "tree",
+      "size": null,
+      "sha": "02b2b6011d503053c25eda085314d3c99e45853e"
+    },
+    {
+      "path": ".claude/skills",
+      "type": "tree",
+      "size": null,
+      "sha": "55c766c351c4b057e5a92a0ead108c84fb467130"
+    },
+    {
+      "path": ".claude/skills/beautify-chart",
+      "type": "tree",
+      "size": null,
+      "sha": "bd359dbdfc012a003c8c44f38cad4f3f40143e44"
+    },
+    {
+      "path": ".claude/skills/beautify-chart/SKILL.md",
+      "type": "blob",
+      "size": 18062,
+      "sha": "349bfc3737ea0a07ed7d4265a7e493f739b8c9a5"
+    },
+    {
+      "path": ".codex",
+      "type": "tree",
+      "size": null,
+      "sha": "20a73d9c4a40b840e3976fff19afb7e90a8c4367"
+    },
+    {
+      "path": ".codex/skills",
+      "type": "tree",
+      "size": null,
+      "sha": "9f81a9812712f78d4578f8b68264cbe93325b6f5"
+    },
+    {
+      "path": ".codex/skills/beautify-chart",
+      "type": "tree",
+      "size": null,
+      "sha": "ddb9853698ab2b53e403a1e46d2f8011672dc2df"
+    },
+    {
+      "path": ".codex/skills/beautify-chart/SKILL.md",
+      "type": "blob",
+      "size": 9170,
+      "sha": "bd5179106c5642a34cd2b53c155993a6daf4228e"
+    },
+    {
+      "path": ".codex/skills/beautify-chart/agents",
+      "type": "tree",
+      "size": null,
+      "sha": "2d774e8c1c31c632f063d2217a38bfbe4e8acdc8"
+    },
+    {
+      "path": ".codex/skills/beautify-chart/agents/openai.yaml",
+      "type": "blob",
+      "size": 212,
+      "sha": "e73cd7f05bda889f3126c241f7b710ae78086383"
+    },
+    {
+      "path": ".gitignore",
+      "type": "blob",
+      "size": 130,
+      "sha": "597924034c48de7dcdc4e1ee2d86e76e29b32c75"
+    },
+    {
+      "path": "CLAUDE.md",
+      "type": "blob",
+      "size": 182,
+      "sha": "a7a231486c1daa3b87a03d8e9a1447666cf5f8b1"
+    },
+    {
+      "path": "README.md",
+      "type": "blob",
+      "size": 4734,
+      "sha": "7367ba90b56cad7b235360cf8fcebb733ec1fdd4"
+    },
+    {
+      "path": "assets",
+      "type": "tree",
+      "size": null,
+      "sha": "ca5b8efef2944966be91a9a7fe8120f0a349f2f9"
+    },
+    {
+      "path": "assets/after.png",
+      "type": "blob",
+      "size": 139622,
+      "sha": "c0a6ab5b908b9ff3b93e184e824c4b066c1d0079"
+    },
+    {
+      "path": "assets/before.png",
+      "type": "blob",
+      "size": 307684,
+      "sha": "439b3accc77e58f46ac504deaacec3917da5fe1c"
+    }
+  ],
+  "read_files": {
+    "README.md": {
+      "url": "https://raw.githubusercontent.com/preordinary/science-plot-formatter/750c6c1834c833c2607e5913daea76497433dc6e/README.md",
+      "git_blob_sha1": "7367ba90b56cad7b235360cf8fcebb733ec1fdd4",
+      "sha256": "29bccbf994487ea189d4004c0f9421f533278ce6876fc8b5024bf0e2276e17de"
+    },
+    "CLAUDE.md": {
+      "url": "https://raw.githubusercontent.com/preordinary/science-plot-formatter/750c6c1834c833c2607e5913daea76497433dc6e/CLAUDE.md",
+      "git_blob_sha1": "a7a231486c1daa3b87a03d8e9a1447666cf5f8b1",
+      "sha256": "91294e3299c2c9488fd8c968e973b255cd02704d484c1320d71de9d86aac47c4"
+    },
+    ".codex/skills/beautify-chart/SKILL.md": {
+      "url": "https://raw.githubusercontent.com/preordinary/science-plot-formatter/750c6c1834c833c2607e5913daea76497433dc6e/.codex/skills/beautify-chart/SKILL.md",
+      "git_blob_sha1": "bd5179106c5642a34cd2b53c155993a6daf4228e",
+      "sha256": "c21ffef117aa3d3188c6b9e418b348e5d39c7f12c2fe2c159161a1d55c2a0399"
+    },
+    ".claude/skills/beautify-chart/SKILL.md": {
+      "url": "https://raw.githubusercontent.com/preordinary/science-plot-formatter/750c6c1834c833c2607e5913daea76497433dc6e/.claude/skills/beautify-chart/SKILL.md",
+      "git_blob_sha1": "349bfc3737ea0a07ed7d4265a7e493f739b8c9a5",
+      "sha256": "12afaee7db4bd7ea3f62bfe783b5ec5de957eafe9cd3609b5baba7fb1128aab4"
+    },
+    ".codex/skills/beautify-chart/agents/openai.yaml": {
+      "url": "https://raw.githubusercontent.com/preordinary/science-plot-formatter/750c6c1834c833c2607e5913daea76497433dc6e/.codex/skills/beautify-chart/agents/openai.yaml",
+      "git_blob_sha1": "e73cd7f05bda889f3126c241f7b710ae78086383",
+      "sha256": "9c3c5fb3b2b9b06680e1b316858718f0f45b2df12bdf5876c24c94142ec9c3be"
+    }
+  }
+}

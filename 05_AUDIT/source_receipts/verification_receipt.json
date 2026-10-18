@@ -1,0 +1,29 @@
+{
+  "v2": {
+    "returncode": 0,
+    "stdout": "{\n  \"manifest_files\": 220,\n  \"run_records\": 5,\n  \"integrity\": \"PASS\",\n  \"scientific_validity\": \"not certified by file integrity\"\n}\n",
+    "stderr": ""
+  },
+  "v3": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"manifest_files\": 103,\n  \"article_references\": 17,\n  \"main_and_supplementary_figures\": 9,\n  \"abstract_words\": 311,\n  \"conservative_words\": 337,\n  \"abstract_characters\": 2260,\n  \"graphical_abstract_bytes\": 57715,\n  \"scientific_validity\": \"not certified by presentation or integrity checks\",\n  \"submitted\": false\n}\n",
+    "stderr": ""
+  },
+  "v4": {
+    "returncode": 0,
+    "stdout": "PASS single-target designs: got 120, expected 120\nPASS single identical: got 82, expected 82\nPASS shared designs: got 40, expected 40\nPASS shared identical: got 26, expected 26\nPASS primary scalar relative MSE and 97.5% CI: got 0, expected 0\nPASS primary scalar confidence level: got 0.975, expected 0.975\nPASS primary scalar networks: got 40, expected 40\nPASS primary vector relative MSE and 97.5% CI: got 0, expected 0\nPASS primary vector confidence level: got 0.975, expected 0.975\nPASS primary vector networks: got 40, expected 40\nPASS network-objective cells: got 80, expected 80\nPASS exactly equal MSE cells: got 39, expected 39\nPASS forecast score difference: got -0.45565, expected -0.45565\nPASS forecast CI low: got -1.15857, expected -1.15857\nPASS forecast CI high: got 0.02367, expected 0.02367\nPASS forecast networks: got 40, expected 40\nPASS networks favouring ensemble: got 19, expected 19\nPASS networks favouring nominal: got 21, expected 21\nPASS extension settings: got 8, expected 8\nPASS extension intervals excluding zero, favouring ensemble: got 4, expected 4\nPASS extension intervals excluding zero, favouring nominal: got 0, expected 0\nPASS extension independent networks: got 8, expected 8\n\nALL CHECKS PASSED\n",
+    "stderr": ""
+  },
+  "v4_origin_to_v2": {
+    "holdout_network_metrics.csv": true,
+    "holdout_summary.json": true,
+    "holdout_paired_effects.csv": true,
+    "forecast_network_metrics.csv": true,
+    "forecast_summary.json": true,
+    "n100_network_metrics.csv": true,
+    "n100_summary.json": true,
+    "n100_paired_effects.csv": true,
+    "holdout_primary_paired.csv": true,
+    "linear_control.csv": true
+  }
+}

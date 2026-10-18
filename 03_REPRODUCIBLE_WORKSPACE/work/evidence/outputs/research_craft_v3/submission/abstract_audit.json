@@ -1,0 +1,96 @@
+{
+  "status": "reviewable draft; not submitted",
+  "abstract_words_whitespace": 311,
+  "abstract_words_punctuation_split_check": 337,
+  "abstract_characters_unicode_including_spaces_and_LF": 2260,
+  "abstract_characters_if_CRLF": 2266,
+  "title_words": 13,
+  "keywords": 5,
+  "keywords_characters": 94,
+  "limits_source": "User-provided actual CMT form; supersedes residual 300-word website sentence",
+  "checks": {
+    "within_500_words": true,
+    "within_5000_characters": true,
+    "title_within_15_words": true,
+    "keyword_count_and_characters_valid": true,
+    "primary_relative_effects_and_intervals_match_frozen_CSV": true,
+    "followup_primary_score_and_interval_match_frozen_JSON": true,
+    "no_references_or_images_in_body": true,
+    "extension_has_eight_independent_networks_and_is_exploratory": true
+  },
+  "primary_verified_rows": [
+    {
+      "condition": "broad",
+      "pool": "exclude_endpoints",
+      "budget": "3",
+      "contrast": "ensemble_scalar - local_scalar",
+      "metric": "mse",
+      "effect": "-2.586421129091058e-06",
+      "ci_low": "-1.4713046771189118e-05",
+      "ci_high": "4.826304931626923e-06",
+      "confidence_level": "0.975",
+      "primary": "True",
+      "networks": "40",
+      "relative_mse_difference": "-0.03743845472089957",
+      "relative_mse_ci_low": "-0.1848313828224431",
+      "relative_mse_ci_high": "0.1211614122926881",
+      "interval": "paired network-cluster percentile bootstrap",
+      "interpretation": "negative favors first method for error metrics",
+      "confirmatory_eligible": "True"
+    },
+    {
+      "condition": "broad",
+      "pool": "exclude_endpoints",
+      "budget": "3",
+      "contrast": "ensemble_vector - local_vector",
+      "metric": "mse",
+      "effect": "1.923627390429782e-06",
+      "ci_low": "-1.1479707624311079e-06",
+      "ci_high": "6.8260498523981685e-06",
+      "confidence_level": "0.975",
+      "primary": "True",
+      "networks": "40",
+      "relative_mse_difference": "0.026935858323275053",
+      "relative_mse_ci_low": "-0.029528712166674537",
+      "relative_mse_ci_high": "0.11507999192545666",
+      "interval": "paired network-cluster percentile bootstrap",
+      "interpretation": "negative favors first method for error metrics",
+      "confirmatory_eligible": "True"
+    }
+  ],
+  "forecast_primary_verified": {
+    "condition": "broad",
+    "pool": "exclude_endpoints",
+    "budget": 3,
+    "recording_policy": "local_scalar",
+    "independent_networks": 40,
+    "confidence_level": 0.95,
+    "score_difference": -0.4556473561820947,
+    "score_difference_ci_low": -1.1585679104693787,
+    "score_difference_ci_high": 0.023668677150677265
+  },
+  "input_sha256": {
+    "outputs/research_craft_v3/source_data/holdout_paired_effects.csv": "b1aad24f3aa4658b8fc83681e829472d4b6f9e0a8bec3209e177023ea03613c3",
+    "outputs/research_craft_v3/source_data/forecast_summary.json": "cc9a8703e1aaf71ddf42c4f37709a2b76b81fbc173379ffb621ef9de614001c0",
+    "outputs/research_craft_v3/source_data/n100_summary.json": "737719edac7b9efe63a4ad963547f0c4866c08d88bbe2d3894165a723cfee8d3",
+    "outputs/research_craft_v3/submission/abstract_body.txt": "a926c26889c48f0f1ca4162fa3c0616cadac25f1d708401fc6972b53f02fb60f",
+    "outputs/research_craft_v3/submission/submission_metadata.json": "4e7a0b4c9f205e19510b2f3e852bb9d16ac9eb0448bc280fac4337542f72591f",
+    "outputs/research_craft_v3/source_data/holdout_design_agreement.csv": "bb26a9b7e81644ba17c0a762b316ed5f96afd1be0ccf7f9ca01459428d2f344e",
+    "outputs/research_craft_v3/source_data/holdout_design_agreement_provenance.json": "01876bba6641dfd8f744e9e4d3aff63f3e1589b1b140ba1ff794eee5fe238a4e",
+    "outputs/research_craft_v3/submission/graphical_abstract/graphical_abstract.pdf": "a7346027fba72b598782bb98f1fdb029abc326b8b46ab0e6b34df7016d9c281d",
+    "outputs/research_craft_v3/submission/ICBR2026_Abstract_Draft.md": "bf006e03fc19ee977082c7a7e839feeb2be8e34368c4bfb75be860c57d74b2b6"
+  },
+  "design_agreement": {
+    "single_response": {
+      "identical": 82,
+      "designs": 120,
+      "independent_networks": 40
+    },
+    "three_responses": {
+      "identical": 26,
+      "designs": 40,
+      "independent_networks": 40
+    }
+  },
+  "editorial_status": "user-requested title merge and conclusion replacement; preceding duplicate sentence removed; numerical outcomes unchanged"
+}

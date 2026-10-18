@@ -1,0 +1,37 @@
+{"network_id": 8000, "condition": "published_gain", "rows": 384, "actual_fits": 180, "condition_seconds": 121.39, "elapsed_seconds": 121.4}
+{"network_id": 8001, "condition": "published_gain", "rows": 768, "actual_fits": 352, "condition_seconds": 104.0, "elapsed_seconds": 225.4}
+{"network_id": 8002, "condition": "published_gain", "rows": 1152, "actual_fits": 524, "condition_seconds": 81.41, "elapsed_seconds": 306.82}
+{"network_id": 8003, "condition": "published_gain", "rows": 1536, "actual_fits": 708, "condition_seconds": 79.17, "elapsed_seconds": 386.01}
+{"network_id": 8004, "condition": "published_gain", "rows": 1920, "actual_fits": 888, "condition_seconds": 70.09, "elapsed_seconds": 456.12}
+{"network_id": 8005, "condition": "published_gain", "rows": 2304, "actual_fits": 1072, "condition_seconds": 79.69, "elapsed_seconds": 535.84}
+{"network_id": 8006, "condition": "published_gain", "rows": 2688, "actual_fits": 1256, "condition_seconds": 73.81, "elapsed_seconds": 609.68}
+{"network_id": 8007, "condition": "published_gain", "rows": 3072, "actual_fits": 1436, "condition_seconds": 83.38, "elapsed_seconds": 693.1}
+{
+  "complete": true,
+  "networks_completed": [
+    8000,
+    8001,
+    8002,
+    8003,
+    8004,
+    8005,
+    8006,
+    8007
+  ],
+  "networks_planned": [
+    8000,
+    8001,
+    8002,
+    8003,
+    8004,
+    8005,
+    8006,
+    8007
+  ],
+  "evaluated_rows": 3072,
+  "actual_optimizer_calls": 1436,
+  "cached_dataset_reuses": 100,
+  "elapsed_seconds": 693.1399166250003,
+  "warmup_seconds": 3.1376836660001572,
+  "status": "complete"
+}

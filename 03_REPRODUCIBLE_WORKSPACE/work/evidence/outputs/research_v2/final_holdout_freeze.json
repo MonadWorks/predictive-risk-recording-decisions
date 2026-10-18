@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-10-16T13:52:29.913128+00:00",
+  "decision": "execute unchanged 2x2 scientific comparison and predeclared raw-MSE primary stratum after numerical and implementation checks; no effect-dependent tuning",
+  "source_hashes": {
+    "models.py": "8623e5a2ae7494d8c6445a2f8460cd2fbf641ae47721c4f436d49e45bcd578dc",
+    "design.py": "58fea60cbb734c5634f1b963902c242c777000fa24f8ae6b7771499af9692309",
+    "inference.py": "e7b10dccfdc6ff426ae0493fb75f4ff8bcf274932963176a55110ffb3d0e3eb7",
+    "run.py": "2b9a36044a6362d6f8e0e8fba226f77c2ddd5906b7d9fc8fac098ee7127e9044",
+    "holdout.json": "a1d561cedf61f16e49bc839c9a31f0fdaab711a6ef815d10885c8326846dc47b",
+    "requirements.lock": "f329797135839d7f1e17241b298a82692a9cf4ab0168ececc92aa69f5e3507ec"
+  },
+  "registration": "local freeze, not external preregistration"
+}

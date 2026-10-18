@@ -1,0 +1,74 @@
+% mdcommon.sty - template-independent support for the md2tex fragments.
+% Load AFTER inputenc/fontenc and the font package of the template.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{mdcommon}[2026/10/17 shared support for md2tex output]
+\RequirePackage{amsmath}
+\makeatletter\@ifpackageloaded{newtxmath}{}{\RequirePackage{amssymb}}\makeatother
+\RequirePackage{textcomp}
+\RequirePackage{graphicx}
+\RequirePackage{booktabs}
+\RequirePackage{array}
+\RequirePackage{newunicodechar}
+\RequirePackage{url}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\newlength{\tblw} % usable width for p-column tables (set by generated code)
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+
+% --- Unicode -> LaTeX (text or math mode) ---------------------------------
+\newunicodechar{−}{\ifmmode-\else\textminus\fi}
+\newunicodechar{–}{\ifmmode-\else\textendash\fi}
+\newunicodechar{—}{\ifmmode-\else\textemdash\fi}
+\newunicodechar{×}{\ifmmode\times\else\texttimes\fi}
+\newunicodechar{·}{\ifmmode\cdot\else\textperiodcentered\fi}
+\newunicodechar{→}{\ifmmode\rightarrow\else\textrightarrow\fi}
+\newunicodechar{←}{\ifmmode\leftarrow\else\textleftarrow\fi}
+\newunicodechar{†}{\ifmmode\dagger\else\textdagger\fi}
+\newunicodechar{‡}{\ifmmode\ddagger\else\textdaggerdbl\fi}
+\newunicodechar{§}{\S}
+\newunicodechar{±}{\ensuremath{\pm}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{≠}{\ensuremath{\neq}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≪}{\ensuremath{\ll}}
+\newunicodechar{≫}{\ensuremath{\gg}}
+\newunicodechar{∼}{\ensuremath{\sim}}
+\newunicodechar{∞}{\ensuremath{\infty}}
+\newunicodechar{∈}{\ensuremath{\in}}
+\newunicodechar{∑}{\ensuremath{\sum}}
+\newunicodechar{∂}{\ensuremath{\partial}}
+\newunicodechar{∇}{\ensuremath{\nabla}}
+\newunicodechar{√}{\ensuremath{\surd}}
+\newunicodechar{′}{\ensuremath{{}^{\prime}}}
+\newunicodechar{″}{\ensuremath{{}^{\prime\prime}}}
+\newunicodechar{°}{\ifmmode^\circ\else\textdegree\fi}
+\newunicodechar{‰}{\textperthousand}
+\newunicodechar{…}{\ldots}
+\newunicodechar{ }{\,}
+\newunicodechar{ }{\,}
+\newunicodechar{‑}{\mbox{-}}
+\newunicodechar{α}{\ensuremath{\alpha}}
+\newunicodechar{β}{\ensuremath{\beta}}
+\newunicodechar{γ}{\ensuremath{\gamma}}
+\newunicodechar{δ}{\ensuremath{\delta}}
+\newunicodechar{ε}{\ensuremath{\varepsilon}}
+\newunicodechar{η}{\ensuremath{\eta}}
+\newunicodechar{θ}{\ensuremath{\theta}}
+\newunicodechar{λ}{\ensuremath{\lambda}}
+\newunicodechar{μ}{\ensuremath{\mu}}
+\newunicodechar{π}{\ensuremath{\pi}}
+\newunicodechar{ρ}{\ensuremath{\rho}}
+\newunicodechar{σ}{\ensuremath{\sigma}}
+\newunicodechar{τ}{\ensuremath{\tau}}
+\newunicodechar{φ}{\ensuremath{\varphi}}
+\newunicodechar{ω}{\ensuremath{\omega}}
+\newunicodechar{Δ}{\ensuremath{\Delta}}
+\newunicodechar{Σ}{\ensuremath{\Sigma}}
+\newunicodechar{Ω}{\ensuremath{\Omega}}
+\newunicodechar{ℓ}{\ensuremath{\ell}}
+\newunicodechar{¹}{\textsuperscript{1}}
+\newunicodechar{²}{\textsuperscript{2}}
+\newunicodechar{³}{\textsuperscript{3}}
+\newunicodechar{½}{\ensuremath{\tfrac12}}
+\endinput

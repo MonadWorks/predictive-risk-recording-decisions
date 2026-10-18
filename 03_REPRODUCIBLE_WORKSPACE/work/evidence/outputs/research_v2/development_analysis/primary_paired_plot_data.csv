@@ -1,0 +1,17 @@
+budget,condition,pool,contrast,network_id,paired_mse_difference
+3,broad,exclude_endpoints,ensemble_scalar - local_scalar,2000,0.0
+3,broad,exclude_endpoints,ensemble_scalar - local_scalar,2001,0.0
+3,broad,exclude_endpoints,ensemble_scalar - local_scalar,2002,-2.524852636097953e-06
+3,broad,exclude_endpoints,ensemble_scalar - local_scalar,2003,-1.6868604889654223e-05
+3,broad,exclude_endpoints,ensemble_scalar - local_scalar,2004,4.4991226441697065e-11
+3,broad,exclude_endpoints,ensemble_scalar - local_scalar,2005,8.263513333993225e-09
+3,broad,exclude_endpoints,ensemble_scalar - local_scalar,2006,-3.101880388255539e-07
+3,broad,exclude_endpoints,ensemble_scalar - local_scalar,2007,0.0
+3,broad,exclude_endpoints,ensemble_vector - local_vector,2000,0.0
+3,broad,exclude_endpoints,ensemble_vector - local_vector,2001,0.0
+3,broad,exclude_endpoints,ensemble_vector - local_vector,2002,-2.6910669162016877e-06
+3,broad,exclude_endpoints,ensemble_vector - local_vector,2003,0.0
+3,broad,exclude_endpoints,ensemble_vector - local_vector,2004,0.0
+3,broad,exclude_endpoints,ensemble_vector - local_vector,2005,0.0
+3,broad,exclude_endpoints,ensemble_vector - local_vector,2006,0.0
+3,broad,exclude_endpoints,ensemble_vector - local_vector,2007,0.0

@@ -1,0 +1,27 @@
+{
+  "current_pdf_matches_editorial_receipt": false,
+  "current_manuscript_matches_editorial_receipt": true,
+  "ten_frozen_tables_match_v2_lineage": true,
+  "lineage_tables": {
+    "holdout_network_metrics.csv": true,
+    "holdout_summary.json": true,
+    "holdout_paired_effects.csv": true,
+    "forecast_network_metrics.csv": true,
+    "forecast_summary.json": true,
+    "n100_network_metrics.csv": true,
+    "n100_summary.json": true,
+    "n100_paired_effects.csv": true,
+    "holdout_primary_paired.csv": true,
+    "linear_control.csv": true
+  },
+  "current_title": "Predictive Risk and Recording Decisions in Partially Observed Neural Networks",
+  "current_abstract_words_whitespace": 361,
+  "current_abstract_characters": 2575,
+  "credential_pattern_scan": "no configured patterns detected; not a guarantee of exhaustive secret detection",
+  "no_new_experiments_run": true,
+  "not_submitted": true,
+  "editorial_pdf_receipt_status": "historical: superseded by final supplementary legend revision",
+  "current_pdf_matches_latest_supplement_revision": true,
+  "current_pdf_sha256": "4e1452c307048572be9520bbe675ceba37489a5736e0fd249a7e2ab82f5728a5",
+  "legend_data_geometry_identical": true
+}

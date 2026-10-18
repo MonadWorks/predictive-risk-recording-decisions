@@ -1,0 +1,73 @@
+{
+  "status": "reviewable draft; not submitted",
+  "prepared_date_asia_shanghai": "2026-10-17",
+  "title": "Predictive Risk and Recording Decisions for Stimulus-Response Estimation in Partially Observed Neural Networks",
+  "keywords": "biohybrid robotics; neural interfaces; goal-oriented design; sensor selection; predictive risk",
+  "authors": [
+    {
+      "order": 1,
+      "given_name": "Jiayi",
+      "family_name": "Du",
+      "display_name_with_markers": "Jiayi Du¹*†",
+      "affiliation_id": 1,
+      "institutional_affiliation": "Stiftung Louisenlund",
+      "country_or_region": "Germany",
+      "email": "jiayi.du@mail.louisenlund.de",
+      "corresponding_author": true,
+      "presenting_author": null,
+      "equal_contribution": true
+    },
+    {
+      "order": 2,
+      "given_name": "Shuaizhi",
+      "family_name": "Cheng",
+      "display_name_with_markers": "Shuaizhi Cheng²†",
+      "affiliation_id": 2,
+      "institutional_affiliation": "Department of Computing, Harbin Institute of Technology",
+      "country_or_region": "China",
+      "email": "szcheng@stu.hit.edu.cn",
+      "corresponding_author": false,
+      "presenting_author": null,
+      "equal_contribution": true
+    }
+  ],
+  "author_notes": {
+    "dagger": "These authors contributed equally to this work.",
+    "asterisk": "Correspondence: Jiayi Du, jiayi.du@mail.louisenlund.de"
+  },
+  "recommended_topics": {
+    "primary": "c. Modeling, actuation, sensing, and control of biohybrid robots",
+    "secondary": "d. Data fusion and intelligence of biohybrid robots"
+  },
+  "live_portal_limits_reported_by_user": {
+    "abstract_words_max": 500,
+    "abstract_characters_max": 5000,
+    "title_words_max": 15,
+    "keyword_count_min": 2,
+    "keyword_count_max": 5,
+    "keywords_characters_max": 125,
+    "keyword_separator": ";",
+    "graphical_abstract_required": true,
+    "graphical_abstract_formats": [
+      "pdf",
+      "png",
+      "jpg",
+      "jpeg"
+    ],
+    "graphical_abstract_file_size_max_label": "10 MB",
+    "funding_characters_max": 500,
+    "conflicts_of_interest_characters_max": 3000,
+    "full_paper_required": false
+  },
+  "funding": "None",
+  "conflicts_of_interest": "None",
+  "funding_and_conflicts_confirmation": "User explicitly confirmed both items are absent; author submission consent remains unconfirmed.",
+  "coauthor_submission_approval_verified": null,
+  "presentation_registration_commitment_verified": null,
+  "graphical_abstract_file": "graphical_abstract/graphical_abstract.pdf",
+  "submission_id": null,
+  "submission_receipt": null,
+  "previous_title": "Predictive Risk and Recording Design for Neural Stimulus-Response Estimation",
+  "title_status": "merged title requested by user; Decisions and Partially Observed retained",
+  "primary_contact_email": "jiayi.du@mail.louisenlund.de"
+}

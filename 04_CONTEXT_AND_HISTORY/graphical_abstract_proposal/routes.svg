@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="660" viewBox="0 0 1080 660" role="img" aria-labelledby="route-title route-desc">
+  <title id="route-title">route map for ICBR 图形摘要：保留科学链条，重排视觉主次</title>
+  <desc id="route-desc">双路径叙事: 30k to 65k tokens, 8 to 18 minutes, 2 checkpoints, suggested. 结果主导: 25k to 55k tokens, 7 to 15 minutes, 2 checkpoints. 旧版精修: 15k to 35k tokens, 5 to 10 minutes, 2 checkpoints</desc>
+  <defs>
+    <filter id="dock-shadow" x="-8%" y="-30%" width="116%" height="170%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#000000" flood-opacity=".16"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3.5" flood-color="#000000" flood-opacity=".09"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#000000" flood-opacity=".06"/>
+    </filter>
+  </defs>
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",Arial,sans-serif;font-variant-numeric:tabular-nums}.title{font-size:22px;font-weight:600;fill:#1F1F1F}.subtitle{font-size:13px;font-weight:400;fill:#6B6B6B}.eyebrow{font-size:11px;font-weight:700;letter-spacing:1.1px;fill:#1F1F1F}.endpoint-sub{font-size:11px;font-weight:500;fill:#6B6B6B}.node-label{font-size:12px;font-weight:450;fill:#1F1F1F}.card-label{font-size:14px;font-weight:650;fill:#1F1F1F}.cost{font-size:24px;font-weight:600;fill:#1F1F1F}.unit{font-size:12px;font-weight:500;fill:#6B6B6B}.meta{font-size:12px;font-weight:600}.check-count{font-size:12px;font-weight:500;fill:#6B6B6B}.summary{font-size:12px;font-weight:400;fill:#6B6B6B}.card rect{transition:fill .18s ease,stroke .18s ease}.flow{opacity:.16;stroke-dasharray:2 15;animation:travel 1.25s linear infinite}.window-lights circle{transform-box:fill-box;transform-origin:center}.window-lights:hover circle{animation:light-pop .32s ease both}.window-lights circle:nth-child(2){animation-delay:.04s}.window-lights circle:nth-child(3){animation-delay:.08s}@keyframes travel{to{stroke-dashoffset:-34}}@keyframes light-pop{50%{transform:scale(1.2)}}@media(prefers-reduced-motion:reduce){.flow{animation:none}.window-lights circle{animation:none!important}.card rect{transition:none}}
+  </style>
+  <rect width="1080" height="660" rx="18" fill="#F4F4F4"/>
+  <rect x="16" y="12" width="1048" height="636" rx="16" fill="#FFFFFF" stroke="#E5E5E5"/>
+  <g class="window-lights" transform="translate(38 35)">
+    <circle cx="0" cy="0" r="6" fill="#E25555"/>
+    <circle cx="20" cy="0" r="6" fill="#E6A700"/>
+    <circle cx="40" cy="0" r="6" fill="#32A05F"/>
+  </g>
+  <text x="100" y="40" class="eyebrow">via · a [p → q] project</text>
+  <text x="1032" y="40" text-anchor="end" class="eyebrow subtle">ptoq.io</text>
+  <text x="48" y="80" class="title">ICBR 图形摘要：保留科学链条，重排视觉主次</text>
+  <text x="48" y="104" class="subtitle">Choose how this gets built</text>
+  <g class="map"><path d="M36 142H1044" stroke="#E8E8E8" stroke-width="1.35" stroke-dasharray="6 9"/><path d="M36 210H1044" stroke="#E8E8E8" stroke-width="1.35" stroke-dasharray="6 9"/><path d="M36 278H1044" stroke="#E8E8E8" stroke-width="1.35" stroke-dasharray="6 9"/><path d="M36 346H1044" stroke="#E8E8E8" stroke-width="1.35" stroke-dasharray="6 9"/><path d="M36 414H1044" stroke="#E8E8E8" stroke-width="1.35" stroke-dasharray="6 9"/><path class="edge e0" d="M72 278 C126 278 172 278 226 278" fill="none" stroke="#1F1F1F" stroke-width="6" stroke-linecap="round"/><path class="flow" d="M72 278 C126 278 172 278 226 278" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round"/><path class="edge e1" d="M226 278 C280 278 480 142 534 142" fill="none" stroke="#EB77B1" stroke-width="5.5" stroke-linecap="round"/><path class="flow" d="M226 278 C280 278 480 142 534 142" fill="none" stroke="#EB77B1" stroke-width="2" stroke-linecap="round"/><path class="edge e2" d="M534 142 C588 142 788 278 842 278" fill="none" stroke="#EB77B1" stroke-width="5.5" stroke-linecap="round"/><path class="flow" d="M534 142 C588 142 788 278 842 278" fill="none" stroke="#EB77B1" stroke-width="2" stroke-linecap="round"/><path class="edge e3" d="M226 278 C280 278 480 278 534 278" fill="none" stroke="#F3883B" stroke-width="5.5" stroke-linecap="round"/><path class="flow" d="M226 278 C280 278 480 278 534 278" fill="none" stroke="#F3883B" stroke-width="2" stroke-linecap="round"/><path class="edge e4" d="M534 278 C588 278 788 278 842 278" fill="none" stroke="#F3883B" stroke-width="5.5" stroke-linecap="round"/><path class="flow" d="M534 278 C588 278 788 278 842 278" fill="none" stroke="#F3883B" stroke-width="2" stroke-linecap="round"/><path class="edge e5" d="M226 278 C280 278 480 414 534 414" fill="none" stroke="#9B79EC" stroke-width="5.5" stroke-linecap="round"/><path class="flow" d="M226 278 C280 278 480 414 534 414" fill="none" stroke="#9B79EC" stroke-width="2" stroke-linecap="round"/><path class="edge e6" d="M534 414 C588 414 788 278 842 278" fill="none" stroke="#9B79EC" stroke-width="5.5" stroke-linecap="round"/><path class="flow" d="M534 414 C588 414 788 278 842 278" fill="none" stroke="#9B79EC" stroke-width="2" stroke-linecap="round"/><path class="edge e7" d="M842 278 C896 278 942 278 996 278" fill="none" stroke="#1F1F1F" stroke-width="6" stroke-linecap="round"/><path class="flow" d="M842 278 C896 278 942 278 996 278" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round"/><g class="node"><circle cx="72" cy="278" r="11" fill="#FFFFFF" stroke="#1F1F1F" stroke-width="3.5"/></g><g class="node"><circle cx="226" cy="278" r="11" fill="#FFFFFF" stroke="#1F1F1F" stroke-width="3.5"/><text x="226" y="307" text-anchor="middle" class="node-label">确定唯一主旨</text></g><g class="node"><circle cx="534" cy="142" r="11" fill="#FFFFFF" stroke="#EB77B1" stroke-width="3.5"/><text x="534" y="171" text-anchor="middle" class="node-label">两条评价路径</text></g><g class="node"><circle cx="534" cy="278" r="11" fill="#FFFFFF" stroke="#F3883B" stroke-width="3.5"/><text x="534" y="307" text-anchor="middle" class="node-label">压缩结果区间</text></g><g class="node"><circle cx="534" cy="414" r="11" fill="#FFFFFF" stroke="#9B79EC" stroke-width="3.5"/><text x="534" y="443" text-anchor="middle" class="node-label">精简旧版三栏</text></g><g class="node"><circle cx="842" cy="278" r="11" fill="#FFFFFF" stroke="#1F1F1F" stroke-width="3.5"/><text x="842" y="307" text-anchor="middle" class="node-label">缩图与科学语义审查</text></g><g class="node"><circle cx="996" cy="278" r="11" fill="#FFFFFF" stroke="#1F1F1F" stroke-width="3.5"/></g></g>
+  <g class="endpoint" transform="translate(72 278)">
+    <text y="-24" text-anchor="middle" class="eyebrow">START</text>
+    <text y="29" text-anchor="middle" class="endpoint-sub">旧图与已定稿论文</text>
+  </g><g class="endpoint" transform="translate(996 278)">
+    <text y="-24" text-anchor="middle" class="eyebrow">DONE</text>
+    <text y="29" text-anchor="middle" class="endpoint-sub">可审阅矢量初稿</text>
+  </g>
+  <rect class="route-dock" x="32" y="468" width="1016" height="164" rx="22" fill="#FFFFFF" stroke="#DEDEDE" filter="url(#dock-shadow)"/>
+  <g class="card selected" data-route-id="two-paths" transform="translate(48 484)" aria-label="双路径叙事, 30k–65k tokens, 8 to 18 minutes, 2 engineering checks">
+      <rect width="320" height="132" rx="12" fill="#F2F5F5" stroke="#AEBFC0" stroke-width="1"/>
+      <text x="16" y="33" class="card-label">双路径叙事</text>
+      <text x="16" y="67" class="cost">30k–65k<tspan class="unit"> tok</tspan></text>
+      <text x="16" y="87" class="meta" fill="#A84177">8–18 min</text>
+      <g class="gate-light" transform="translate(238 84)" aria-label="2 engineering checks">
+    <title>2 engineering checks</title>
+    <g transform="translate(0 -9)" fill="#1F1F1F">
+      <rect x="5" y="1.5" width="8" height="15" rx="2.4" fill="none" stroke="#1F1F1F" stroke-width="1.8"/>
+      <circle cx="9" cy="6" r="1.45"/>
+      <circle cx="9" cy="12" r="1.45"/>
+      <path d="M5 4.8H2.2c.25 1.45 1.15 2.45 2.8 2.85V4.8Zm8 0h2.8c-.25 1.45-1.15 2.45-2.8 2.85V4.8ZM5 10.8H2.2c.25 1.45 1.15 2.45 2.8 2.85v-2.85Zm8 0h2.8c-.25 1.45-1.15 2.45-2.8 2.85v-2.85Z"/>
+    </g>
+    <text x="22" y="4" class="check-count">2 checks</text>
+  </g>
+      <text x="16" y="117" class="summary">保留科学链条，以两条独立评价路径呈现主要发现</text>
+    </g><g class="card" data-route-id="results-first" transform="translate(380 484)" aria-label="结果主导, 25k–55k tokens, 7 to 15 minutes, 2 engineering checks">
+      <rect width="320" height="132" rx="12" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1"/>
+      <text x="16" y="33" class="card-label">结果主导</text>
+      <text x="16" y="67" class="cost">25k–55k<tspan class="unit"> tok</tspan></text>
+      <text x="16" y="87" class="meta" fill="#A95227">7–15 min</text>
+      <g class="gate-light" transform="translate(238 84)" aria-label="2 engineering checks">
+    <title>2 engineering checks</title>
+    <g transform="translate(0 -9)" fill="#1F1F1F">
+      <rect x="5" y="1.5" width="8" height="15" rx="2.4" fill="none" stroke="#1F1F1F" stroke-width="1.8"/>
+      <circle cx="9" cy="6" r="1.45"/>
+      <circle cx="9" cy="12" r="1.45"/>
+      <path d="M5 4.8H2.2c.25 1.45 1.15 2.45 2.8 2.85V4.8Zm8 0h2.8c-.25 1.45-1.15 2.45-2.8 2.85V4.8ZM5 10.8H2.2c.25 1.45 1.15 2.45 2.8 2.85v-2.85Zm8 0h2.8c-.25 1.45-1.15 2.45-2.8 2.85v-2.85Z"/>
+    </g>
+    <text x="22" y="4" class="check-count">2 checks</text>
+  </g>
+      <text x="16" y="117" class="summary">突出三个效应区间，优点是定量，代价是更像结果图</text>
+    </g><g class="card" data-route-id="retain-layout" transform="translate(712 484)" aria-label="旧版精修, 15k–35k tokens, 5 to 10 minutes, 2 engineering checks">
+      <rect width="320" height="132" rx="12" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1"/>
+      <text x="16" y="33" class="card-label">旧版精修</text>
+      <text x="16" y="67" class="cost">15k–35k<tspan class="unit"> tok</tspan></text>
+      <text x="16" y="87" class="meta" fill="#674BA8">5–10 min</text>
+      <g class="gate-light" transform="translate(238 84)" aria-label="2 engineering checks">
+    <title>2 engineering checks</title>
+    <g transform="translate(0 -9)" fill="#1F1F1F">
+      <rect x="5" y="1.5" width="8" height="15" rx="2.4" fill="none" stroke="#1F1F1F" stroke-width="1.8"/>
+      <circle cx="9" cy="6" r="1.45"/>
+      <circle cx="9" cy="12" r="1.45"/>
+      <path d="M5 4.8H2.2c.25 1.45 1.15 2.45 2.8 2.85V4.8Zm8 0h2.8c-.25 1.45-1.15 2.45-2.8 2.85V4.8ZM5 10.8H2.2c.25 1.45 1.15 2.45 2.8 2.85v-2.85Zm8 0h2.8c-.25 1.45-1.15 2.45-2.8 2.85v-2.85Z"/>
+    </g>
+    <text x="22" y="4" class="check-count">2 checks</text>
+  </g>
+      <text x="16" y="117" class="summary">保留三栏，减字并修正语义，改动最小但层级受限</text>
+    </g>
+  </svg>

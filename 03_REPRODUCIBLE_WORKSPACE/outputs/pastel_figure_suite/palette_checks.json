@@ -1,0 +1,79 @@
+{
+  "colors": {
+    "single_response": {
+      "hex": "#E27A9E",
+      "contrast_white": 2.795792120347456,
+      "Lstar": 63.80320649977831
+    },
+    "shared_response": {
+      "hex": "#F4BFD0",
+      "contrast_white": 1.5897344580960722,
+      "Lstar": 82.40631009460378
+    },
+    "forecast_sunflower": {
+      "hex": "#EDAF26",
+      "contrast_white": 1.951512901299805,
+      "Lstar": 75.33202803245851
+    },
+    "forecast_sunflower_line": {
+      "hex": "#DB9A1D",
+      "contrast_white": 2.427185597012025,
+      "Lstar": 68.21442342023865
+    },
+    "three_response_orange": {
+      "hex": "#E8A13C",
+      "contrast_white": 2.1887864727910973,
+      "Lstar": 71.53857926949748
+    },
+    "neutral": {
+      "hex": "#DAD4D8",
+      "contrast_white": 1.4593414725670066,
+      "Lstar": 85.47894626904014
+    },
+    "positive_weight": {
+      "hex": "#C25E88",
+      "contrast_white": 3.99964730666303,
+      "Lstar": 53.227559214775866
+    },
+    "negative_weight": {
+      "hex": "#4E4350",
+      "contrast_white": 9.363965635570343,
+      "Lstar": 29.944310165521003
+    }
+  },
+  "pairs": {
+    "single_response vs shared_response": {
+      "normal_deltaE76": 29.36543095918762,
+      "simulated_deltaE76": {
+        "protanopia": 21.636800604064828,
+        "deuteranopia": 17.316902815796478,
+        "tritanopia": 32.67478673623418
+      }
+    },
+    "shared_response vs neutral": {
+      "normal_deltaE76": 19.022715573687766,
+      "simulated_deltaE76": {
+        "protanopia": 5.744517966121861,
+        "deuteranopia": 2.7181162817128675,
+        "tritanopia": 22.52023942033558
+      }
+    },
+    "forecast_sunflower vs single_response": {
+      "normal_deltaE76": 80.58921089066854,
+      "simulated_deltaE76": {
+        "protanopia": 84.62006850620129,
+        "deuteranopia": 68.07365053365392,
+        "tritanopia": 18.807974448301362
+      }
+    },
+    "positive_weight vs negative_weight": {
+      "normal_deltaE76": 43.92427131150176,
+      "simulated_deltaE76": {
+        "protanopia": 20.04457916140965,
+        "deuteranopia": 26.361562433477108,
+        "tritanopia": 51.201356731270636
+      }
+    }
+  },
+  "interpretation": "Descriptive metrics, not universal pass thresholds. Light pink and neutral remain close under some simulations, so shape/outline distinctions are retained; sunflower amber carries the complementary categorical role; all text remains dark ink."
+}

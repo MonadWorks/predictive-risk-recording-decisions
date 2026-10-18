@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Recorded node",
+    "circle_ink_center_px": 1334.5,
+    "text_ink_center_px": 1335.0,
+    "difference_px": 0.5
+  },
+  {
+    "label": "Stimulated node",
+    "circle_ink_center_px": 1405.5,
+    "text_ink_center_px": 1406.0,
+    "difference_px": 0.5
+  },
+  {
+    "label": "Response readout",
+    "circle_ink_center_px": 1476.5,
+    "text_ink_center_px": 1477.5,
+    "difference_px": 1.0
+  }
+]

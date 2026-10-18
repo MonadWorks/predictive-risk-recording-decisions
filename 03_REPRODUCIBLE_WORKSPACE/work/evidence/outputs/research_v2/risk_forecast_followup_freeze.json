@@ -1,0 +1,6 @@
+{
+  "timestamp_utc": "2026-10-16T14:18:30.164309+00:00",
+  "protocol_sha256": "7ab9eff6ee514e5b7d17fe7d78c4b0af4b527a9e36bbf6953f4e947f2086b5fc",
+  "rationale": "separate risk-estimation accuracy from decision improvement; new data; no redefinition of the first study primary comparisons",
+  "registration": "local hypothesis freeze before follow-up outcomes"
+}

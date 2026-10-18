@@ -1,0 +1,922 @@
+[
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 2,
+  "readouts": [
+   3,
+   1,
+   5
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999999,
+  "connectivity_rank": 11,
+  "network_id": 2000,
+  "condition": "matched",
+  "prior_q_variance": [
+   1.749439949282176e-26,
+   2.282631709108457e-15,
+   3.069218830192918e-17
+  ],
+  "bank_seconds": 0.0314146250000249
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 2,
+  "readouts": [
+   3,
+   1,
+   5
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999999,
+  "connectivity_rank": 11,
+  "network_id": 2000,
+  "condition": "broad",
+  "prior_q_variance": [
+   6.556948164460023e-25,
+   2.887048310913685e-14,
+   2.892096341613296e-16
+  ],
+  "bank_seconds": 0.03021749999993517
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 2,
+  "readouts": [
+   3,
+   1,
+   5
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999999,
+  "connectivity_rank": 11,
+  "network_id": 2000,
+  "condition": "bias_shift",
+  "prior_q_variance": [
+   1.749439949282176e-26,
+   2.282631709108457e-15,
+   3.069218830192918e-17
+  ],
+  "bank_seconds": 0.030054708999955437
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 2,
+  "readouts": [
+   3,
+   1,
+   5
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999999,
+  "connectivity_rank": 11,
+  "network_id": 2000,
+  "condition": "gain_only",
+  "prior_q_variance": [
+   2.3004110250739125e-25,
+   1.3248325819820175e-14,
+   2.6859758526714263e-16
+  ],
+  "bank_seconds": 0.017006000000037602
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 2,
+  "readouts": [
+   3,
+   1,
+   5
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999999,
+  "connectivity_rank": 11,
+  "network_id": 2000,
+  "condition": "bias_only",
+  "prior_q_variance": [
+   4.322079341577114e-27,
+   6.812461676289893e-16,
+   1.5269269406772275e-17
+  ],
+  "bank_seconds": 0.016908874999899126
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 5,
+  "readouts": [
+   3,
+   7,
+   9
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000001,
+  "connectivity_rank": 12,
+  "network_id": 2001,
+  "condition": "matched",
+  "prior_q_variance": [
+   1.6081308111631574e-06,
+   2.3272465360678825e-05,
+   5.601310599398519e-07
+  ],
+  "bank_seconds": 0.02973466699995697
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 5,
+  "readouts": [
+   3,
+   7,
+   9
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000001,
+  "connectivity_rank": 12,
+  "network_id": 2001,
+  "condition": "broad",
+  "prior_q_variance": [
+   9.589341241918444e-06,
+   0.00013228375559046996,
+   3.6405982587173282e-06
+  ],
+  "bank_seconds": 0.02994683300005363
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 5,
+  "readouts": [
+   3,
+   7,
+   9
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000001,
+  "connectivity_rank": 12,
+  "network_id": 2001,
+  "condition": "bias_shift",
+  "prior_q_variance": [
+   1.6081308111631574e-06,
+   2.3272465360678825e-05,
+   5.601310599398519e-07
+  ],
+  "bank_seconds": 0.03075270800002272
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 5,
+  "readouts": [
+   3,
+   7,
+   9
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000001,
+  "connectivity_rank": 12,
+  "network_id": 2001,
+  "condition": "gain_only",
+  "prior_q_variance": [
+   8.829995997030934e-06,
+   0.00016686163338556573,
+   2.8186466886256926e-06
+  ],
+  "bank_seconds": 0.017829249999977037
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 5,
+  "readouts": [
+   3,
+   7,
+   9
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000001,
+  "connectivity_rank": 12,
+  "network_id": 2001,
+  "condition": "bias_only",
+  "prior_q_variance": [
+   9.21225496747411e-07,
+   1.5296850600841567e-05,
+   2.622946974239166e-07
+  ],
+  "bank_seconds": 0.017505834000075993
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 4,
+  "readouts": [
+   6,
+   11,
+   10
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000001,
+  "connectivity_rank": 11,
+  "network_id": 2002,
+  "condition": "matched",
+  "prior_q_variance": [
+   3.2617309836712413e-09,
+   5.059197993757839e-07,
+   3.088825107494672e-06
+  ],
+  "bank_seconds": 0.030128665999995974
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 4,
+  "readouts": [
+   6,
+   11,
+   10
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000001,
+  "connectivity_rank": 11,
+  "network_id": 2002,
+  "condition": "broad",
+  "prior_q_variance": [
+   1.636126394102914e-08,
+   2.2290280581556615e-06,
+   1.7066821091690915e-05
+  ],
+  "bank_seconds": 0.029770792000022084
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 4,
+  "readouts": [
+   6,
+   11,
+   10
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000001,
+  "connectivity_rank": 11,
+  "network_id": 2002,
+  "condition": "bias_shift",
+  "prior_q_variance": [
+   3.2617309836712413e-09,
+   5.059197993757839e-07,
+   3.088825107494672e-06
+  ],
+  "bank_seconds": 0.03116449999993165
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 4,
+  "readouts": [
+   6,
+   11,
+   10
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000001,
+  "connectivity_rank": 11,
+  "network_id": 2002,
+  "condition": "gain_only",
+  "prior_q_variance": [
+   1.561079999261086e-08,
+   2.795331018422257e-06,
+   1.8089946748359427e-05
+  ],
+  "bank_seconds": 0.017085332999954517
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 4,
+  "readouts": [
+   6,
+   11,
+   10
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000001,
+  "connectivity_rank": 11,
+  "network_id": 2002,
+  "condition": "bias_only",
+  "prior_q_variance": [
+   2.297933739451065e-09,
+   4.786378635876073e-07,
+   2.182255343911889e-06
+  ],
+  "bank_seconds": 0.017905499999983476
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 0,
+  "readouts": [
+   10,
+   8,
+   7
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.65,
+  "connectivity_rank": 12,
+  "network_id": 2003,
+  "condition": "matched",
+  "prior_q_variance": [
+   0.00026405604326646385,
+   1.352907636450061e-05,
+   9.345620354690338e-06
+  ],
+  "bank_seconds": 0.030428750000055516
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 0,
+  "readouts": [
+   10,
+   8,
+   7
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.65,
+  "connectivity_rank": 12,
+  "network_id": 2003,
+  "condition": "broad",
+  "prior_q_variance": [
+   0.001184860558983907,
+   6.645184272330594e-05,
+   3.950807332735805e-05
+  ],
+  "bank_seconds": 0.030091249999941283
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 0,
+  "readouts": [
+   10,
+   8,
+   7
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.65,
+  "connectivity_rank": 12,
+  "network_id": 2003,
+  "condition": "bias_shift",
+  "prior_q_variance": [
+   0.00026405604326646385,
+   1.352907636450061e-05,
+   9.345620354690338e-06
+  ],
+  "bank_seconds": 0.029813874999945256
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 0,
+  "readouts": [
+   10,
+   8,
+   7
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.65,
+  "connectivity_rank": 12,
+  "network_id": 2003,
+  "condition": "gain_only",
+  "prior_q_variance": [
+   0.0009192331291369173,
+   4.4541366474091856e-05,
+   3.643076550112775e-05
+  ],
+  "bank_seconds": 0.017008499999974447
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 0,
+  "readouts": [
+   10,
+   8,
+   7
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.65,
+  "connectivity_rank": 12,
+  "network_id": 2003,
+  "condition": "bias_only",
+  "prior_q_variance": [
+   0.00013766075076005415,
+   7.83400401138393e-06,
+   5.510572130638978e-06
+  ],
+  "bank_seconds": 0.017099667000024965
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 8,
+  "readouts": [
+   11,
+   7,
+   1
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000001,
+  "connectivity_rank": 12,
+  "network_id": 2004,
+  "condition": "matched",
+  "prior_q_variance": [
+   2.888288272765455e-10,
+   5.851751151242932e-08,
+   9.94199038660303e-11
+  ],
+  "bank_seconds": 0.030298874999971304
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 8,
+  "readouts": [
+   11,
+   7,
+   1
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000001,
+  "connectivity_rank": 12,
+  "network_id": 2004,
+  "condition": "broad",
+  "prior_q_variance": [
+   1.3719648880687874e-09,
+   2.63263426169592e-07,
+   5.076202596540701e-10
+  ],
+  "bank_seconds": 0.03135941699997602
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 8,
+  "readouts": [
+   11,
+   7,
+   1
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000001,
+  "connectivity_rank": 12,
+  "network_id": 2004,
+  "condition": "bias_shift",
+  "prior_q_variance": [
+   2.888288272765455e-10,
+   5.851751151242932e-08,
+   9.94199038660303e-11
+  ],
+  "bank_seconds": 0.030086332999985643
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 8,
+  "readouts": [
+   11,
+   7,
+   1
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000001,
+  "connectivity_rank": 12,
+  "network_id": 2004,
+  "condition": "gain_only",
+  "prior_q_variance": [
+   1.2939723808875785e-09,
+   2.8369647055925693e-07,
+   2.86814265706677e-10
+  ],
+  "bank_seconds": 0.017255083000009108
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 8,
+  "readouts": [
+   11,
+   7,
+   1
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000001,
+  "connectivity_rank": 12,
+  "network_id": 2004,
+  "condition": "bias_only",
+  "prior_q_variance": [
+   1.6054146014508413e-10,
+   3.370527052867256e-08,
+   4.6406294786990205e-11
+  ],
+  "bank_seconds": 0.01716887499992481
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 1,
+  "readouts": [
+   5,
+   10,
+   11
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999998,
+  "connectivity_rank": 10,
+  "network_id": 2005,
+  "condition": "matched",
+  "prior_q_variance": [
+   2.3718773323274686e-08,
+   2.2093232391325096e-07,
+   5.412954039709631e-06
+  ],
+  "bank_seconds": 0.030497083000000202
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 1,
+  "readouts": [
+   5,
+   10,
+   11
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999998,
+  "connectivity_rank": 10,
+  "network_id": 2005,
+  "condition": "broad",
+  "prior_q_variance": [
+   1.719116435485749e-07,
+   1.1290496381865035e-06,
+   3.029338328855305e-05
+  ],
+  "bank_seconds": 0.031052750000071683
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 1,
+  "readouts": [
+   5,
+   10,
+   11
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999998,
+  "connectivity_rank": 10,
+  "network_id": 2005,
+  "condition": "bias_shift",
+  "prior_q_variance": [
+   2.3718773323274686e-08,
+   2.2093232391325096e-07,
+   5.412954039709631e-06
+  ],
+  "bank_seconds": 0.06528337499992176
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 1,
+  "readouts": [
+   5,
+   10,
+   11
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999998,
+  "connectivity_rank": 10,
+  "network_id": 2005,
+  "condition": "gain_only",
+  "prior_q_variance": [
+   1.5365580637629536e-07,
+   9.868477876755383e-07,
+   1.9105202592540262e-05
+  ],
+  "bank_seconds": 0.025459875000024113
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 1,
+  "readouts": [
+   5,
+   10,
+   11
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999998,
+  "connectivity_rank": 10,
+  "network_id": 2005,
+  "condition": "bias_only",
+  "prior_q_variance": [
+   1.1834974855062755e-08,
+   1.2860208496460402e-07,
+   1.9609021607643028e-06
+  ],
+  "bank_seconds": 0.017958166999960667
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 5,
+  "readouts": [
+   7,
+   10,
+   4
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999998,
+  "connectivity_rank": 12,
+  "network_id": 2006,
+  "condition": "matched",
+  "prior_q_variance": [
+   1.009119625602981e-05,
+   9.255972156193601e-06,
+   3.7279449943701516e-06
+  ],
+  "bank_seconds": 0.029828209000015704
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 5,
+  "readouts": [
+   7,
+   10,
+   4
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999998,
+  "connectivity_rank": 12,
+  "network_id": 2006,
+  "condition": "broad",
+  "prior_q_variance": [
+   0.00016883369262892504,
+   0.000106747690730451,
+   3.232854688417054e-05
+  ],
+  "bank_seconds": 0.03001500000004853
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 5,
+  "readouts": [
+   7,
+   10,
+   4
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999998,
+  "connectivity_rank": 12,
+  "network_id": 2006,
+  "condition": "bias_shift",
+  "prior_q_variance": [
+   1.009119625602981e-05,
+   9.255972156193601e-06,
+   3.7279449943701516e-06
+  ],
+  "bank_seconds": 0.03179366699998809
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 5,
+  "readouts": [
+   7,
+   10,
+   4
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999998,
+  "connectivity_rank": 12,
+  "network_id": 2006,
+  "condition": "gain_only",
+  "prior_q_variance": [
+   8.178659151802119e-05,
+   6.720426219190372e-05,
+   2.463445799094813e-05
+  ],
+  "bank_seconds": 0.01701704200002041
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 5,
+  "readouts": [
+   7,
+   10,
+   4
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6499999999999998,
+  "connectivity_rank": 12,
+  "network_id": 2006,
+  "condition": "bias_only",
+  "prior_q_variance": [
+   3.2328575640103577e-06,
+   3.7793327116096144e-06,
+   1.3095170031581117e-06
+  ],
+  "bank_seconds": 0.018098624999993262
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 2,
+  "readouts": [
+   0,
+   9,
+   6
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000002,
+  "connectivity_rank": 11,
+  "network_id": 2007,
+  "condition": "matched",
+  "prior_q_variance": [
+   2.4908829454023086e-07,
+   1.5064836166971502e-06,
+   1.3383323274759249e-05
+  ],
+  "bank_seconds": 0.03024291600002016
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 2,
+  "readouts": [
+   0,
+   9,
+   6
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000002,
+  "connectivity_rank": 11,
+  "network_id": 2007,
+  "condition": "broad",
+  "prior_q_variance": [
+   1.8284100906557127e-06,
+   1.0304602428812313e-05,
+   7.886631399650416e-05
+  ],
+  "bank_seconds": 0.029717459000039526
+ },
+ {
+  "neurons": 12,
+  "parameters": 24,
+  "stim": 2,
+  "readouts": [
+   0,
+   9,
+   6
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000002,
+  "connectivity_rank": 11,
+  "network_id": 2007,
+  "condition": "bias_shift",
+  "prior_q_variance": [
+   2.4908829454023086e-07,
+   1.5064836166971502e-06,
+   1.3383323274759249e-05
+  ],
+  "bank_seconds": 0.030237957999929677
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 2,
+  "readouts": [
+   0,
+   9,
+   6
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000002,
+  "connectivity_rank": 11,
+  "network_id": 2007,
+  "condition": "gain_only",
+  "prior_q_variance": [
+   1.5410385924076253e-06,
+   8.98731248010447e-06,
+   7.818917783775663e-05
+  ],
+  "bank_seconds": 0.017262458999994124
+ },
+ {
+  "neurons": 12,
+  "parameters": 12,
+  "stim": 2,
+  "readouts": [
+   0,
+   9,
+   6
+  ],
+  "tau": 1.0,
+  "dt": 0.05,
+  "model_kind": "softplus",
+  "connectivity_norm": 0.6500000000000002,
+  "connectivity_rank": 11,
+  "network_id": 2007,
+  "condition": "bias_only",
+  "prior_q_variance": [
+   1.1640217756141532e-07,
+   8.161893862397937e-07,
+   8.733126577002066e-06
+  ],
+  "bank_seconds": 0.017639625000015258
+ }
+]

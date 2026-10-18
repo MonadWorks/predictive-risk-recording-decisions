@@ -1,0 +1,142 @@
+{
+  "status": "exploratory synthetic pilot; not biological validation",
+  "elapsed_seconds": 0.7556644160067663,
+  "fits": 10,
+  "groups": [
+    {
+      "pool": "all",
+      "budget": 3,
+      "method": "activity",
+      "n": 2,
+      "q_rmse": 0.0002172590205540263,
+      "median_abs_q_error": 0.00017608106750645618,
+      "normalized_q_rmse": 0.5967208930679383,
+      "passive_mse": 0.015746954389580365,
+      "coverage_95": 1.0,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.053153604501858354
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "method": "goal",
+      "n": 2,
+      "q_rmse": 5.3416142365060135e-05,
+      "median_abs_q_error": 3.834593562849215e-05,
+      "normalized_q_rmse": 0.1125778169942255,
+      "passive_mse": 0.013965469722899918,
+      "coverage_95": 1.0,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.038865896029165015
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "method": "parameter",
+      "n": 2,
+      "q_rmse": 0.0002146609765430972,
+      "median_abs_q_error": 0.0001575584240318895,
+      "normalized_q_rmse": 0.4603488381585595,
+      "passive_mse": 0.018227231984000582,
+      "coverage_95": 1.0,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.04334133301745169
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "method": "random",
+      "n": 2,
+      "q_rmse": 0.00010039123006257515,
+      "median_abs_q_error": 8.791550925604523e-05,
+      "normalized_q_rmse": 0.3754788331139096,
+      "passive_mse": 0.024032561831320305,
+      "coverage_95": 1.0,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.045402312505757436
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "method": "shuffled_goal",
+      "n": 2,
+      "q_rmse": 0.00016337120712405694,
+      "median_abs_q_error": 0.00012896930136590827,
+      "normalized_q_rmse": 0.41086185237079353,
+      "passive_mse": 0.02213701128387415,
+      "coverage_95": 1.0,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.04078020851011388
+    }
+  ],
+  "paired": [
+    {
+      "pool": "all",
+      "budget": 3,
+      "competitor": "activity",
+      "n": 2,
+      "mean_abs_error_difference": -0.00013773513187796403,
+      "exploratory_bootstrap_95": [
+        -0.0002278153228924939,
+        -4.765494086343415e-05
+      ],
+      "goal_wins": 2,
+      "ties": 0
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "competitor": "random",
+      "n": 2,
+      "mean_abs_error_difference": -4.956957362755308e-05,
+      "exploratory_bootstrap_95": [
+        -6.085175591849512e-05,
+        -3.828739133661103e-05
+      ],
+      "goal_wins": 2,
+      "ties": 0
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "competitor": "shuffled_goal",
+      "n": 2,
+      "mean_abs_error_difference": -9.062336573741612e-05,
+      "exploratory_bootstrap_95": [
+        -0.00015372130592432027,
+        -2.752542555051196e-05
+      ],
+      "goal_wins": 2,
+      "ties": 0
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "competitor": "parameter",
+      "n": 2,
+      "mean_abs_error_difference": -0.00011921248840339734,
+      "exploratory_bootstrap_95": [
+        -0.00022781532289258824,
+        -1.060965391420644e-05
+      ],
+      "goal_wins": 2,
+      "ties": 0
+    }
+  ],
+  "interpretation": "Negative error difference favors goal. Intervals exploratory; same J per seed across methods. No confirmatory claims.",
+  "checks": {
+    "derivative_relative_error": 2.771066139614849e-11,
+    "linear_bias_null_q_range": 1.7694179454963432e-16,
+    "linear_bias_null_max_gradient": 0.0,
+    "dt_half_absolute_q_change": 1.4130578213322927e-05,
+    "dt_half_relative_q_change": 0.0034857051067544924,
+    "design_independent_of_truth": true
+  },
+  "completed_teachers": 2,
+  "environment": {
+    "python": "3.13.2",
+    "numpy": "2.2.5",
+    "machine": "arm64",
+    "threadpools": []
+  }
+}

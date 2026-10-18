@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "2026-10-16T14:40:49.058284+00:00",
+  "protocol_sha256": "dd677b40f80425c141287b1f1d0a878878b65f80bc8af895a9be765404dbba06",
+  "source_hashes": {
+    "models.py": "8623e5a2ae7494d8c6445a2f8460cd2fbf641ae47721c4f436d49e45bcd578dc",
+    "design.py": "58fea60cbb734c5634f1b963902c242c777000fa24f8ae6b7771499af9692309",
+    "inference.py": "e7b10dccfdc6ff426ae0493fb75f4ff8bcf274932963176a55110ffb3d0e3eb7",
+    "run.py": "2b9a36044a6362d6f8e0e8fba226f77c2ddd5906b7d9fc8fac098ee7127e9044"
+  },
+  "registration": "local execution-time freeze, not public preregistration"
+}

@@ -1,0 +1,13 @@
+budget,condition,pool,method,risk,network_spearman_descriptive,networks,mean_predicted_variance,mean_actual_mse
+3,broad,exclude_endpoints,local_scalar,risk_nominal,0.953095684803002,40,4.2776903223600274e-05,6.908461228895778e-05
+3,broad,exclude_endpoints,ensemble_scalar,risk_nominal,0.9557223264540339,40,4.2480368814256614e-05,6.649819115986673e-05
+3,broad,exclude_endpoints,local_vector,risk_nominal,0.952720450281426,40,4.402514821221261e-05,7.141511391035257e-05
+3,broad,exclude_endpoints,ensemble_vector,risk_nominal,0.9549718574108819,40,4.4181779874960925e-05,7.333874130078236e-05
+3,broad,exclude_endpoints,local_activity,risk_nominal,0.9455909943714824,40,4.907099611094691e-05,7.46741519493081e-05
+3,broad,exclude_endpoints,random,risk_nominal,0.9452157598499064,40,5.762540249225146e-05,0.00011249080823592223
+3,broad,exclude_endpoints,local_scalar,risk_ensemble,0.9425891181988744,40,6.26579608090288e-05,6.908461228895778e-05
+3,broad,exclude_endpoints,ensemble_scalar,risk_ensemble,0.9482176360225142,40,6.094594936454421e-05,6.649819115986673e-05
+3,broad,exclude_endpoints,local_vector,risk_ensemble,0.9461538461538462,40,6.474234698226083e-05,7.141511391035257e-05
+3,broad,exclude_endpoints,ensemble_vector,risk_ensemble,0.9497185741088182,40,6.374020213776872e-05,7.333874130078236e-05
+3,broad,exclude_endpoints,local_activity,risk_ensemble,0.9335834896810509,40,7.273037376226569e-05,7.46741519493081e-05
+3,broad,exclude_endpoints,random,risk_ensemble,0.9450281425891184,40,9.001524877557947e-05,0.00011249080823592223

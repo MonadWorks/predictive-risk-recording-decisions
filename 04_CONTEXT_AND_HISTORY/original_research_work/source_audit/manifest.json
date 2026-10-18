@@ -1,0 +1,212 @@
+[
+  {
+    "file": "fun_lib3.py",
+    "bytes": 41841,
+    "sha256": "a870f02776c73f993d4bebda99e7c2a3d496d617a9e54bb991087cbc068763ae"
+  },
+  {
+    "file": "fun_lib2.py",
+    "bytes": 23785,
+    "sha256": "941b94c0ddf2317fc1546c5d3f3199133cbd31432c472219500d0b65fbea7e43"
+  },
+  {
+    "file": "nn_fig5_zebrafish_teacher.py",
+    "bytes": 14575,
+    "sha256": "4b625d73fd32625c38ac0241555c6bb153b6411ce76d34a46c513ce9fed2a46c"
+  },
+  {
+    "file": "README.md",
+    "bytes": 801,
+    "sha256": "8ab64b409eaad0e6eb892b43bedef235b94a9d304cbd7c9c5d3aec1dab99afba"
+  },
+  {
+    "file": "nn_fig5_larva_teacher.py",
+    "bytes": 1675,
+    "sha256": "358be211c8c23b2f92440d2304f8a53e267a19d2ec669418674d3fffc82b97e1"
+  },
+  {
+    "file": "zip_inventory.json",
+    "bytes": 4023,
+    "sha256": "d6f1a186a4a5b9fec78380e7cfbf91c0c73aff8848cdc3d15c8c6548629f038e"
+  },
+  {
+    "file": "fun_lib.py",
+    "bytes": 33321,
+    "sha256": "c4690fab42363000ba59843ffd1bfef88a5c0712a2aa27db4df9f5edf0875f2f"
+  },
+  {
+    "file": "git_head_receipt.txt",
+    "bytes": 46,
+    "sha256": "703130c51b2f1fe9b74b710894ad7f84da2b0fa9a745710aaf70462ba6570445"
+  },
+  {
+    "file": "nn_fig3_trainStudents_abc.py",
+    "bytes": 23734,
+    "sha256": "823e34327733c218ec62eaf655889a34d5cd34795a99ebb6e3e3043396b19854"
+  },
+  {
+    "file": "nn_fig1_Teacher.py",
+    "bytes": 22279,
+    "sha256": "0a93be78137d53115245d28a7b22f11bbea3be47c9788328cf303c85cba3d7c0"
+  },
+  {
+    "file": "connconstr-source.zip",
+    "bytes": 141394,
+    "sha256": "1579bbb5565e9d5434925ab8c549ae9bbc03683a7babb8f91c7ddd2e6e82d961"
+  },
+  {
+    "file": "nn_fig1_trainStudent.py",
+    "bytes": 9971,
+    "sha256": "3e513eb4f571c2b0b72c027f08ab1c53406e7235ee2be916b19f655e989ea7cd"
+  },
+  {
+    "file": "nn_fig5_drosophilaCx_teacher.py",
+    "bytes": 30933,
+    "sha256": "1df046823b8e783ba144f453afb6ad534a692f91f90270422f309c2d30660fda"
+  },
+  {
+    "file": "nn_fig7_ghi.py",
+    "bytes": 38473,
+    "sha256": "9df807a1aee80070731e6ae49e48089248c41d80fc0a4b976aa12db92f116855"
+  },
+  {
+    "file": "pinned/nn_fig5_plots_ghi.py",
+    "bytes": 46501,
+    "sha256": "ee534cf84814fa77b2fe84561d7e6bab9e1b05633aeea9fa09ff5c16aefc18a1"
+  },
+  {
+    "file": "pinned/nn_fig5_drosophilaCx_student.py",
+    "bytes": 12907,
+    "sha256": "48862d35193d534919b171cefda728e34122736d60ff23a81abdf656475102fc"
+  },
+  {
+    "file": "pinned/fun_lib3.py",
+    "bytes": 41841,
+    "sha256": "a870f02776c73f993d4bebda99e7c2a3d496d617a9e54bb991087cbc068763ae"
+  },
+  {
+    "file": "pinned/fun_lib2.py",
+    "bytes": 23785,
+    "sha256": "941b94c0ddf2317fc1546c5d3f3199133cbd31432c472219500d0b65fbea7e43"
+  },
+  {
+    "file": "pinned/nn_fig8_gh.py",
+    "bytes": 31798,
+    "sha256": "b1c944205732c1a1bb9710fbc429c803935c117aace2fe329809ddcfa5c0aa17"
+  },
+  {
+    "file": "pinned/nn_fig2_plots_bdf.py",
+    "bytes": 23254,
+    "sha256": "c9b64732f8dbb415f82901d3fc5dd4f56739fe33b852939918c16392458d4e42"
+  },
+  {
+    "file": "pinned/nn_fig5_zebrafish_teacher.py",
+    "bytes": 14575,
+    "sha256": "4b625d73fd32625c38ac0241555c6bb153b6411ce76d34a46c513ce9fed2a46c"
+  },
+  {
+    "file": "pinned/nn_fig3_plots_def.py",
+    "bytes": 52294,
+    "sha256": "eeabee6dc47ee21d1efe426cb024fefd212743ec17406b619391b0641c2d960e"
+  },
+  {
+    "file": "pinned/nn_fig1_plots.py",
+    "bytes": 22293,
+    "sha256": "4c675ae4280eb0d2e7176d392fe4dea4d502591771287fefcc0d64edc70fcaf1"
+  },
+  {
+    "file": "pinned/nn_fig5_larva_student.py",
+    "bytes": 7492,
+    "sha256": "f7e146b0aa32739ecc2106cc4d97dd02d4db6d7fd82327143510d4b7708d837d"
+  },
+  {
+    "file": "pinned/nn_fig5_plots_def.py",
+    "bytes": 38637,
+    "sha256": "72efc76eb5212a808b2d7d41894200c84ab5c7acfdf473cf315592f4ae3ad9c3"
+  },
+  {
+    "file": "pinned/nn_fig4_plots_ef.py",
+    "bytes": 39598,
+    "sha256": "215803d69d15c03ee13675fde530245a8a0081b2f3390df1c3a9573aed9423dc"
+  },
+  {
+    "file": "pinned/nn_fig4_plots_bc.py",
+    "bytes": 30604,
+    "sha256": "746697925eca17b1184c870ddfd85e87dc1c4852d6538a2b5fda5be39da8249a"
+  },
+  {
+    "file": "pinned/README.md",
+    "bytes": 801,
+    "sha256": "8ab64b409eaad0e6eb892b43bedef235b94a9d304cbd7c9c5d3aec1dab99afba"
+  },
+  {
+    "file": "pinned/nn_fig5_larva_teacher.py",
+    "bytes": 1675,
+    "sha256": "358be211c8c23b2f92440d2304f8a53e267a19d2ec669418674d3fffc82b97e1"
+  },
+  {
+    "file": "pinned/nn_fig7_plots_a_to_f.py",
+    "bytes": 20472,
+    "sha256": "2e8f6573333fd9f5b62ec2abc55baec944982af612ff42e1b8638d70f8d6831d"
+  },
+  {
+    "file": "pinned/nn_fig5_zebrafish_student.py",
+    "bytes": 14421,
+    "sha256": "702ebb1d31e1731069b4eb9ac26fc6073a5a13682b1c78afeebb6d837b51f997"
+  },
+  {
+    "file": "pinned/fun_lib.py",
+    "bytes": 33321,
+    "sha256": "c4690fab42363000ba59843ffd1bfef88a5c0712a2aa27db4df9f5edf0875f2f"
+  },
+  {
+    "file": "pinned/nn_fig3_trainStudents_abc.py",
+    "bytes": 23734,
+    "sha256": "823e34327733c218ec62eaf655889a34d5cd34795a99ebb6e3e3043396b19854"
+  },
+  {
+    "file": "pinned/nn_fig8_plots_de.py",
+    "bytes": 15589,
+    "sha256": "69ea4123b80c4e1427d71a18e036837cd1db0870a4ba3ad35034d010d63858f5"
+  },
+  {
+    "file": "pinned/nn_fig1_Teacher.py",
+    "bytes": 22279,
+    "sha256": "0a93be78137d53115245d28a7b22f11bbea3be47c9788328cf303c85cba3d7c0"
+  },
+  {
+    "file": "pinned/nn_fig8_plots.py",
+    "bytes": 15589,
+    "sha256": "69ea4123b80c4e1427d71a18e036837cd1db0870a4ba3ad35034d010d63858f5"
+  },
+  {
+    "file": "pinned/nn_fig5_plots_abc.py",
+    "bytes": 37498,
+    "sha256": "cfd08bbbc38d55b638c3b8c1d0ada2331a91f892e3b5283c2346aed9e433343c"
+  },
+  {
+    "file": "pinned/nn_fig3_plots_abc.py",
+    "bytes": 57627,
+    "sha256": "9b6a9225358429877fdefd18279e0474b90f5f653351e32265b6b8ff76acfd11"
+  },
+  {
+    "file": "pinned/nn_fig1_trainStudent.py",
+    "bytes": 9971,
+    "sha256": "3e513eb4f571c2b0b72c027f08ab1c53406e7235ee2be916b19f655e989ea7cd"
+  },
+  {
+    "file": "pinned/nn_fig5_drosophilaCx_teacher.py",
+    "bytes": 30933,
+    "sha256": "1df046823b8e783ba144f453afb6ad534a692f91f90270422f309c2d30660fda"
+  },
+  {
+    "file": "pinned/nn_fig2_plots_bce.py",
+    "bytes": 30130,
+    "sha256": "87fa6366c0aa610ed8801f3ec01a2821a8805e42d025d7d798a9609b79f19029"
+  },
+  {
+    "file": "pinned/nn_fig7_ghi.py",
+    "bytes": 38473,
+    "sha256": "9df807a1aee80070731e6ae49e48089248c41d80fc0a4b976aa12db92f116855"
+  }
+]

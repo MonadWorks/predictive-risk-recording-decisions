@@ -1,0 +1,95 @@
+# ICBR 2026 普通长摘要投稿合同（只读核验）
+
+核验日期：北京时间2026-10-16，约23:53–23:56（UTC 15:53–15:56）。未登录、上传、联系会务、注册、付费或提交。本轮只写本文件。作者资料仍待用户提供，不能推定姓名、单位、作者顺序或投稿同意。
+
+## 1. 来源与实时性
+
+- [Submission Guidelines](https://icbr2026.org/submission_guidelines.html)：正文已通过网页读取和实时HTTP GET交叉核对。
+- [Author Guidelines](https://icbr2026.org/author_guidelines.html)：正文已通过两种读取交叉核对。
+- [CFP](https://icbr2026.org/CFP.html)：**实时HTML**明确将原日期删除，替换为10月23／25／27日。网页检索缓存仍显示9月30／10月5／10月10日，不能依赖该旧缓存。
+- [CFP PDF](https://icbr2026.org/download_files/ICBR_2026_CFP.pdf)：网页读取的版本仍为旧日期；它是征稿传单，不是投稿排版模板。
+- [Registration](https://icbr2026.org/Registration.html)：实时HTML核验，保留10月20日付费条款，与延长后的摘要日期不协调。
+- [官方导航](https://icbr2026.org/header.html)：Submission下仅有Author Guidelines和Submission Guidelines，未发现普通摘要模板下载入口。
+
+## 2. 正文与附图要求
+
+| 项目 | 当前官方明确规则 | 执行判断 |
+|---|---|---|
+| 提交类型 | 只收extended abstract；不要求full paper或separate manuscript | 不上传我们完整论文来替代摘要，除非实际CMT字段另有要求并能核验 |
+| 语言 | English | 英文独立、自足摘要 |
+| 摘要字数 | Submission Requirements主列表明确 **no more than 500 words** | 500是清楚的主规则；但同页有300-word残句，见下方冲突说明 |
+| 标题 | no more than15 words | 建议留余量，不堆缩写或宣传性用语 |
+| 关键词 | 2–5个 | 单独准备，不混入正文计数 |
+| 图形摘要 | required | 必须准备graphical abstract；尚未核实附件格式、尺寸、分辨率、大小限制 |
+| 正文引用 | abstract text内不允许references | 不把正文论文的[1]–[n]、DOI或参考文献表带进摘要 |
+| 正文图表 | graphical abstract以外，不允许其他tables／figures／images | 不把主文多图、多表拼成一份extended-abstract附件 |
+| 内容结构 | 建议Objective／Methods／Results／Conclusion，标题可用但不强制 | 清楚报研究问题、实际模型／方法、量化结果、有限结论；保留全部为模拟的定位 |
+| 特殊字符 | 用CMT提供的格式功能输入数学符号、上下标等 | 先保留可读纯文本备份，再核对表单渲染；不要假定LaTeX或Markdown会自动渲染 |
+| 页数／版面 | **未说明** | 未发现1页／2页、A4、双栏、字号、边距等要求，不按IEEE全文模板自行补造 |
+| 普通摘要文件格式 | **未说明** | 公开页描述CMT字段输入；未登录，无法确认是否另有PDF／DOCX／图形附件字段 |
+
+**字数冲突：** 同页随后写标题、作者和单位在CMT单独输入，不计入“300-word limit”。这与主列表500冲突。不能断言CMT实际限制一定是500，也不能把300视为已正式更改的上限。当前最省事的稳妥准备是**正文控制在300词以内，同时满足两个表述**；标题、作者、单位单独准备。若最终稿必须超过300，应以实际CMT计数器／限制核验，不用猜测替代。
+
+## 3. 模板／下载核验
+
+在普通摘要指南、作者指南、CFP和官方导航中，**未找到普通extended abstract的Word／LaTeX／PDF排版模板**。不要编造一个模板路径。
+
+CFP顶部另有[ICBR2026_Invited_Talk_Form.docx](https://icbr2026.org/download_files/ICBR2026_Invited_Talk_Form.docx)，HTTP HEAD返回200，Word文件约20,915字节。页面明确把它用于**self-nominated invited talk**，要求邮件发送并抄送大会主席；它不是普通CMT摘要模板。此次普通摘要不能因此改走邮件或“自荐报告”路线。本轮未填写或发送该表。
+
+## 4. 作者字段、作者责任与现场义务
+
+Submission Guidelines要求逐一录入每位作者的：given name、family name、institutional affiliation、country／region、email、author order。必须指定一位Presenting Author与一位Corresponding Author，可由同一人担任。系统作者信息应与摘要一致；至少一名作者须有CMT账号。
+
+Author Guidelines另明确：所有署名作者须有实质贡献并同意投稿；通讯作者负责准确作者资料及会务沟通。截止后作者表变更需要充分理由，可能需Program Chairs批准。利益冲突须准确披露；不得捏造伦理审批或贡献。
+
+每篇接受稿至少一名作者完成注册并作报告；报告作者预期**现场参加**分配的oral／poster session。未完成注册、终稿或报告可能被移出program／conference materials。会方决定oral或poster，不可自行保证口头报告。
+
+注册页仍写：截至10月20日未有至少一名完成付费注册的摘要将被移出program；regular注册最多对应2篇，student注册1篇。**该10月20日条款早于新的10月23日投稿、10月25日通知，官方页面存在时间协调问题；本轮没有核实是否被豁免或更新。** 这不妨碍先准备摘要，但不能承诺接受之后再付款必然符合规则。未替用户注册或付费。
+
+## 5. 原创性、版权、评审与发表
+
+- **原创性／重复投稿：** Author Guidelines明确要求未曾发表、不得同时在其他conference／journal／publication venue审稿。它没有单独解释预印本、后来投稿期刊或摘要与完整论文的具体政策。不能仅因不peer review就推定不受这些要求约束。现有本地研究稿不是已投稿／已发表的证据；作者仍须确认真实状态。
+- **版权：** 转载第三方版权材料需许可；禁止剽窃、虚假数据和不当图像处理。公开页**未说明版权转让表、具体发布许可或强制IEEE版权安排**。图形摘要宜使用我们的原创图和真实模拟结果，不直接复制近邻论文插图。
+- **摘要评审：** CFP明确普通摘要**不peer-reviewed，也不被EI索引**。Submission页末的CMT通用peer-review服务致谢不能推翻这条明确会议规则。仍需被会议接受及分配展示形式，不等于自动接收。
+- **论文集：** CFP明确“tutorials & workshops”的presentations不进proceedings；它**没有同样明确说明普通accepted abstracts是否收入摘要册／某种conference materials／proceedings**。普通摘要不EI已明确；普通摘要“不出任何论文集”、进入IEEE Xplore、期刊发表、分配DOI等均**未说明**，不能推定。
+
+## 6. 截止时间：按官网字面转换，并保留时区歧义
+
+实时CFP写：所有deadline为 **23:59 PST**。
+
+| 项目 | 实时CFP日期与字面PST时刻 | 若PST按UTC−08:00解释，对应北京时间UTC+08:00 |
+|---|---|---|
+| extended abstract submission | 2026-10-23 23:59 PST | **2026-10-24 15:59 北京时间** |
+| acceptance notification | 2026-10-25，沿用all deadlines文字 | 该日期23:59 PST为2026-10-26 15:59；并不保证通知一定这个时刻发出 |
+| final paper submission（官网原用词） | 2026-10-27 23:59 PST | **2026-10-28 15:59 北京时间** |
+
+指南不要求full paper，因此CFP的“final paper”字段不能据此解释为突然要求全文；更可能是终版提交阶段的旧用语，但**其具体表单要求待实际CMT核验**。
+
+官网没有声明采用America/Los_Angeles的当日夏令时。如果“PST”其实被宽泛地用于Pacific Time，则10月当地夏令时会使上述北京时刻提前一小时（摘要为10月24日14:59）。**不能自行替主办方消解该用词歧义。** 因而不应靠最后一小时提交；提前完成并以CMT实际截止显示为最终现场核验。不把registration页10月20日自动转换成PST，因为该页没有单列时区，CFP的all-deadlines文字是否覆盖该支付条款也未澄清。
+
+## 7. 真实入口与当前可确认状态
+
+普通稿官方入口是 **[https://cmt3.research.microsoft.com/ICBHR2026](https://cmt3.research.microsoft.com/ICBHR2026)**，注意标识含H：`ICBHR2026`。Submission Guidelines重复明确这是ICBR的正式入口，不应“修正”为没有H的猜测地址。
+
+匿名访问跳到Microsoft CMT登录页，页面显示会议名称。当前只可确认**入口存在且要求认证**；没有登录，因此不能确认具体track、Create New Submission按钮是否可用、字数计数器、附件格式、实际deadline、COI表单或最后声明。未尝试账号密码；页面模板中的Login failed文案不代表本次实际登录失败。
+
+## 8. 摘要字数与成果技术检查建议
+
+1. 将标题、正文、关键词、作者表、图形摘要分开保存；统计正文时只读正文，不把markdown标题、文件元信息、引用和作者表混入。
+2. 先按空白切词，再做保守的连字符／破折号拆词计数；让两个计数都≤300，可同时规避网页500／300冲突。标题两个口径都≤15。最终以CMT实际计数器和成功校验为准；本地统计不能声称是CMT算法。
+3. 数字、缩写和单位按显示的真实文本统计，避免通过连字符或数学排版规避限制。建议用简短ASCII科学计数写法保留纯文本版本，并在CMT检查负号、指数与区间。
+4. 结果必须来自冻结结果表：明确40个独立网络和模拟性质；主比较区间不确定就如实写不确定。不能把129,600条评价称为独立样本，也不能把探索性100-unit结果称为确认性普遍优势。
+5. 正文不放引用；相关工作谱系留在完整论文。图形摘要应表达本研究任务与真实结果，不挪用实体机器人图片暗示已完成生物实验。
+
+可用于本地检查的简单口径（仅建议，不需要安装包）：
+
+```python
+import re
+
+def counts(text):
+    whitespace = len(text.split())
+    conservative = len(re.findall(r"[A-Za-z0-9]+(?:['’][A-Za-z0-9]+)?", text))
+    return {"whitespace": whitespace, "split_punctuation_upper_check": conservative}
+```
+
+第二个数会把科学计数、连字符词等拆开，主要作为保守复核，不是语言学意义的准确词数。最终只读回显确认未丢字符，再按照用户授权的真实作者资料提交；此次核验没有执行任何提交动作。

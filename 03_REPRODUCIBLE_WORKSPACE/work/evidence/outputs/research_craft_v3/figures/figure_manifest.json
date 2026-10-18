@@ -1,0 +1,203 @@
+{
+  "input_files": {
+    "holdout_network_metrics.csv": "e982dedf64301d1521a52924e8e194b0e844e5c574926cd4f0e0b398b03bb4af",
+    "holdout_paired_effects.csv": "b1aad24f3aa4658b8fc83681e829472d4b6f9e0a8bec3209e177023ea03613c3",
+    "forecast_network_metrics.csv": "5b451eb0e18144ef8846be0a2189b7354260820d5be6ee785e8fd18514f53bb0",
+    "n100_paired_effects.csv": "db12fa58813bef8c292d627b20fc740773bdcc100090d819ff2259c00db5fe04",
+    "holdout_primary_paired.csv": "5d0a369c7e3cceb4c1da545a92139d6fcb513dca224a42839d4961be653d7ab2",
+    "linear_control.csv": "1c71b8a65d97eed049a36296c028224fa329f683f1052ef5cfb1cb9c2e1c0f09",
+    "holdout_summary.json": "f6288af263dabf45117e42bb6c9115dc8a08c997191ca47c12e33240ce3533fd",
+    "forecast_summary.json": "cc9a8703e1aaf71ddf42c4f37709a2b76b81fbc173379ffb621ef9de614001c0",
+    "n100_summary.json": "737719edac7b9efe63a4ad963547f0c4866c08d88bbe2d3894165a723cfee8d3"
+  },
+  "figures": {
+    "fig1_data_overview": {
+      "kind": "fixed illustrative simulated network; not a method-effect estimate",
+      "independent_networks": 1,
+      "network_id": 5000,
+      "width_mm": 180,
+      "height_mm": 80,
+      "q_rebuilt": 0.0002435178366808455,
+      "q_csv": 0.0002435178366808455,
+      "text_bounds": "separate rendered PNG and PDF inspection recorded in source manifest",
+      "source_manifest_sha256": "1bd12f87b83a02bc01b2015d2badfd443264db864efbc1dd7ba733abea13bf3d",
+      "output_sha256": {
+        "pdf": "abc9a3c554d67c5a5b7a71bc12782bb79c836c4f0a9b27f126c9af0b5716248f",
+        "svg": "00253269d239bda59f4aaa09c3602b315651cce6a89025450157fd3bcaf72a97",
+        "png": "1eeea5b7459c45d44a2db18aa1474406b702b9e2827db39bcf8cc95a1851ff5a"
+      }
+    },
+    "fig2_recording_decisions": {
+      "independent_networks": 40,
+      "paired_points_per_panel": 40,
+      "main_interval": 0.975,
+      "all_points_retained": true,
+      "display_only_diagnostic": "log2 of each network ensemble/nominal MSE, not the primary or aggregate relative estimand",
+      "x_log_limits": [
+        1e-11,
+        0.01
+      ],
+      "y_log2_ratio_limits": [
+        -1.65,
+        1.65
+      ],
+      "width_mm": 180.0,
+      "height_mm": 138.0,
+      "text_bounds": "PASS",
+      "output_sha256": {
+        "pdf": "5d4d3bb1d844f7f7435c8230ee79d2ee64ed907f7ff2dd87258d28b0f7b225c0",
+        "svg": "8c0d2951e895d7b44022ad82e1c25b9d1291f3a4a8c2a88db7b3ae49475818cf",
+        "png": "9fbe944afa52317b98b7dade4446cb617480fc16a9a41818c264d7cadd665938"
+      }
+    },
+    "fig3_risk_forecasts": {
+      "independent_networks": 40,
+      "risk_points": 80,
+      "paired_score_points": 40,
+      "score_mean": -0.4556473561820947,
+      "score_ci95": [
+        -1.1585679104693787,
+        0.023668677150677265
+      ],
+      "same_point_predictions": true,
+      "all_points_retained": true,
+      "individual_distribution_x_limits": [
+        -12.5,
+        2
+      ],
+      "population_interval_x_limits": [
+        -1.3,
+        0.25
+      ],
+      "different_scales_for_distinct_statistical_objects": true,
+      "width_mm": 180.0,
+      "height_mm": 100.0,
+      "text_bounds": "PASS",
+      "output_sha256": {
+        "pdf": "b1df4e84a5e606f8d610edd8e355923f644f2080f582b1e0748e064a7681dc5c",
+        "svg": "47d0ba38f565191708cdca5152a46c4c397e7106f8b5430ad827f883fe5fb5d8",
+        "png": "2fc9f77debc180c311382667ac0bcf35e7e06b47c94f880d7ce10bab9ec5e390"
+      }
+    },
+    "fig4_model_extension": {
+      "independent_networks": 8,
+      "contrasts": 8,
+      "exploratory": true,
+      "interval": 0.95,
+      "shared_x_limits": [
+        -110,
+        220
+      ],
+      "all_intervals_retained": true,
+      "width_mm": 180.0,
+      "height_mm": 112.0,
+      "text_bounds": "PASS",
+      "output_sha256": {
+        "pdf": "ef9130c66310c66a3390c4accd485f0aa35c04473a580c2a3ae535391b9bfec3",
+        "svg": "9d96478891894947b6a0acfefb001d2a1f13d0818129780a2738c5d6da18bb79",
+        "png": "b8ab9a41e73161a217e531630a5927c913be58a59fae3300eb706c036df61d68"
+      }
+    },
+    "figS1_complete_paired_distributions": {
+      "independent_networks": 40,
+      "points_each": 40,
+      "complete_tails_retained": true,
+      "display_transform": "paired MSE difference × 1e5; scientific estimand unchanged",
+      "width_mm": 180.0,
+      "height_mm": 90.0,
+      "text_bounds": "PASS",
+      "output_sha256": {
+        "pdf": "3f488721c9357a4b668e263b20666c8a031da66455b6a40f57e7c89d17d7359f",
+        "svg": "4528cdec579c77e2f12b982320adb76a00a2cea600ae40e96ae51fb1b35b8735",
+        "png": "93f7e90914b33ec2265d1aa702b953ecce3d8570a6d2d9f02981849aa206f0ce"
+      }
+    },
+    "figS2_matched_conditions": {
+      "condition": "matched",
+      "independent_networks": 40,
+      "points_per_method_panel": 40,
+      "pointwise_interval": 0.95,
+      "panels": 4,
+      "shared_log_limits": [
+        1e-15,
+        0.01
+      ],
+      "all_points_retained": true,
+      "panel_title_context": "Matched uncertainty",
+      "width_mm": 180.0,
+      "height_mm": 142.0,
+      "text_bounds": "PASS",
+      "output_sha256": {
+        "pdf": "73ad1bf6415364509b64d39b4b2884b050686cbba0b46774e566cf4585f98838",
+        "svg": "4b2c1693a13e754cd4e2097f0cec43a5b100eff6b894860983caa489c8093b92",
+        "png": "f0952a4fd00cecb5eaa35bc299ba0ef107514851674650a6876cdc58d4d3ddc8"
+      }
+    },
+    "figS3_broad_conditions": {
+      "condition": "broad",
+      "independent_networks": 40,
+      "points_per_method_panel": 40,
+      "pointwise_interval": 0.95,
+      "panels": 4,
+      "shared_log_limits": [
+        1e-15,
+        0.01
+      ],
+      "all_points_retained": true,
+      "panel_title_context": "Broad uncertainty",
+      "width_mm": 180.0,
+      "height_mm": 142.0,
+      "text_bounds": "PASS",
+      "output_sha256": {
+        "pdf": "3de9c7fbc227f333585d5f79c66c62216e4c38102221d2680734f0b87ca43910",
+        "svg": "9ad7935745e8327a5c167b1afee151021daae4201e64dcb8d5f6324c100f27f0",
+        "png": "2f2f6c60334f8eb49a3a2efb190019ce8cb18a0257431f8cd10fa5526eaa2665"
+      }
+    },
+    "figS4_bias_shift_conditions": {
+      "condition": "bias_shift",
+      "independent_networks": 40,
+      "points_per_method_panel": 40,
+      "pointwise_interval": 0.95,
+      "panels": 4,
+      "shared_log_limits": [
+        1e-15,
+        0.01
+      ],
+      "all_points_retained": true,
+      "panel_title_context": "Hidden bias shift",
+      "width_mm": 180.0,
+      "height_mm": 142.0,
+      "text_bounds": "PASS",
+      "output_sha256": {
+        "pdf": "e9733222fac26a0a0d91da3a15bd3fee33ea576463ad46e9ce4044b6939a2c6b",
+        "svg": "0075509c625d76269dc5f32cd3938bde3ea8eb0bba9a89a2f3370513a8640d35",
+        "png": "ba965a5e3fef96ef7de6ae4a3b603cea0012491ab32c2144fece0267dbcf7a7c"
+      }
+    },
+    "figS5_linear_positive_control": {
+      "independent_systems": 12,
+      "target_design_evaluations": 144,
+      "monte_carlo_draws_per_system": 8192,
+      "all_points_retained": true,
+      "confidence_intervals": "none displayed",
+      "width_mm": 90.0,
+      "height_mm": 88.0,
+      "text_bounds": "PASS",
+      "output_sha256": {
+        "pdf": "252f24af2c92f659ac730f40704c756208bcadf7d0993b170aceb46fb2e58fbe",
+        "svg": "610023d264d67518f1ea69e23cbefb60118bbde9dbc1ed984ae1315d0348476d",
+        "png": "2d11c7d06f407b5e230d7fbc5f2c0dcafea5f8038d0c05ab740ad6c045bcdf14"
+      }
+    }
+  },
+  "scientific_changes": false,
+  "statistical_policy": "reuse frozen v2 network means and confidence limits; no new tests, filtering or bootstrap",
+  "encoding": {
+    "blue": "single response",
+    "vermilion": "three responses",
+    "open": "nominal method/forecast where individual methods are plotted",
+    "filled": "ensemble method/forecast where individual methods are plotted",
+    "paired_scatter": "one point contains both methods; colour indicates objective, axes indicate approximation"
+  }
+}

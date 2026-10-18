@@ -1,0 +1,1528 @@
+{
+  "scope": "development numerical diagnostics only; no holdout read or outcome-based L selection",
+  "network_ids": [
+    1880,
+    1881
+  ],
+  "resolutions": [
+    0.05,
+    0.025,
+    0.0125
+  ],
+  "wall_budget_seconds": 120,
+  "common_observation_times": "0,.2,...,5.8",
+  "physical_duration": 6.0,
+  "integration": "left-Riemann integral on [0,6), same analytic inputs and x0",
+  "ensemble_sizes": [
+    8,
+    16,
+    32
+  ],
+  "numerical": [
+    {
+      "family": "softplus",
+      "condition": "matched",
+      "network_id": 1880,
+      "q_reference": [
+        0.00013249011462500293,
+        0.03462335281029943,
+        0.004726680983803275,
+        0.00043209206963153103,
+        0.000663644203518661,
+        -3.8951616958043946e-05,
+        0.006834505039482084,
+        0.3950371413562396,
+        0.06253628610994043,
+        0.020313385374102773,
+        0.0006625943503739574,
+        0.0008338491787273514
+      ],
+      "reference_q_norm": 0.40205394267752803,
+      "reference_sensitivity_norm": 0.45625461828691755,
+      "comparisons": [
+        {
+          "dt": 0.05,
+          "q_relative_error": 0.001801567908581404,
+          "q_max_abs_error": 0.0006654201606840493,
+          "sensitivity_relative_error": 0.0019860237479798096,
+          "calibration_rate_relative_error": 0.0012666897852822762,
+          "calibration_sensitivity_relative_error": 0.0013641337646139757
+        },
+        {
+          "dt": 0.025,
+          "q_relative_error": 0.0005928221593683918,
+          "q_max_abs_error": 0.00021895554958539787,
+          "sensitivity_relative_error": 0.0006537350488972856,
+          "calibration_rate_relative_error": 0.00041983450590801243,
+          "calibration_sensitivity_relative_error": 0.00045203741082639295
+        },
+        {
+          "dt": 0.0125,
+          "q_relative_error": 0.0,
+          "q_max_abs_error": 0.0,
+          "sensitivity_relative_error": 0.0,
+          "calibration_rate_relative_error": 0.0,
+          "calibration_sensitivity_relative_error": 0.0
+        }
+      ]
+    },
+    {
+      "family": "softplus",
+      "condition": "broad",
+      "network_id": 1880,
+      "q_reference": [
+        0.00015006202419645676,
+        0.030306199724244157,
+        0.004530322543071951,
+        0.00027880014897943285,
+        0.0005233170461604542,
+        -4.4158294214388664e-05,
+        0.006683706812776476,
+        0.4335658911679735,
+        0.09990446576941697,
+        0.020820127857076837,
+        0.0005087710805600915,
+        0.0007449341059047655
+      ],
+      "reference_q_norm": 0.4465183236144071,
+      "reference_sensitivity_norm": 0.5081100777197417,
+      "comparisons": [
+        {
+          "dt": 0.05,
+          "q_relative_error": 0.0017869399916180294,
+          "q_max_abs_error": 0.0006908731779798893,
+          "sensitivity_relative_error": 0.0020693212351150783,
+          "calibration_rate_relative_error": 0.00129371474428826,
+          "calibration_sensitivity_relative_error": 0.001431861527598404
+        },
+        {
+          "dt": 0.025,
+          "q_relative_error": 0.0005884665422056914,
+          "q_max_abs_error": 0.00022752413286941664,
+          "sensitivity_relative_error": 0.000681512611248126,
+          "calibration_rate_relative_error": 0.0004288576948596771,
+          "calibration_sensitivity_relative_error": 0.0004745810282166038
+        },
+        {
+          "dt": 0.0125,
+          "q_relative_error": 0.0,
+          "q_max_abs_error": 0.0,
+          "sensitivity_relative_error": 0.0,
+          "calibration_rate_relative_error": 0.0,
+          "calibration_sensitivity_relative_error": 0.0
+        }
+      ]
+    },
+    {
+      "family": "rank2_tanh",
+      "condition": "published_gain",
+      "network_id": 1880,
+      "q_reference": [
+        -0.004922162047973156,
+        0.006335522029361514,
+        -0.013668562135006009,
+        0.0019506798043940447,
+        0.0008646423154953248,
+        0.003267172095475087,
+        0.013209361151356808,
+        -0.004614444648401027,
+        0.02340709234321458,
+        -0.002670130897729996,
+        0.00897921128757294,
+        0.0011827950584408166,
+        0.004204000857632517,
+        0.003522611945767067,
+        -0.0008703315254115756,
+        0.0015786675125848291,
+        -0.002019666533662903,
+        -0.0036586071886099782,
+        0.003171325398988155,
+        0.011333465879818996,
+        0.007793350071774183,
+        -0.006425297581879898,
+        0.0014205170809808315,
+        -0.0016340042881083728,
+        -0.0038925389262046647,
+        0.012708469622875203,
+        -0.0012580497772588081,
+        -0.0008362474396284279,
+        0.004127841608336547,
+        0.0001189791826421551,
+        -0.0022490168365176338,
+        0.006769002502096927,
+        -0.009256052484542488,
+        0.0016290521653459123,
+        -0.008375565328789445,
+        0.007280676307233932,
+        0.0005000386861478287,
+        -0.0023668105065423758,
+        -0.006756279722630713,
+        -0.019504247060253808,
+        0.0010831615752079624,
+        0.0032723420928588414,
+        0.007887816987648219,
+        -0.010687929372118548,
+        0.00695310302973597,
+        -0.0006680561453689445,
+        -0.0002994197711659476,
+        -0.0012110632808495913,
+        -0.01312751740272934,
+        0.0033476243695922826,
+        -0.002861233980256165,
+        -0.001605877370980552,
+        0.003949071111373089,
+        0.011735071524825759,
+        0.014185451222390875,
+        -0.002818391873233208,
+        -4.156791899960946e-05,
+        0.005739513385978077,
+        -0.0012294078662557968,
+        -0.000287630747557072,
+        -0.006324541966806764,
+        -0.0005053886884426798,
+        0.006315294582129923,
+        0.008809607008197566,
+        -0.00017417557443504653,
+        -0.002507264467364148,
+        0.0025324137139702903,
+        0.0013616644634587673,
+        0.0007266307677283511,
+        -0.0030770173397423276,
+        0.0001589756818284844,
+        -0.006248921133752124,
+        0.006743454283198682,
+        0.01081305172179054,
+        -0.005147059244033492,
+        0.0019748297367715956,
+        -0.010591824280588755,
+        0.006763014547980364,
+        -0.012262014035267789,
+        -0.0015337160883463563,
+        6.736511291954721e-05,
+        -7.567613590172637e-05,
+        0.004915977824827911,
+        0.284672973112761,
+        0.00014963434922663732,
+        -8.917523112883215e-05,
+        -0.007338119632242077,
+        0.0033006007656454653,
+        0.016965858329758565,
+        -0.003715067374706499,
+        0.011593825767211097,
+        -0.00843753126034088,
+        0.010783179068587948,
+        -0.0010342653047941256,
+        7.695594377481532e-05,
+        -0.003085335879481571,
+        -0.0011236454554251537,
+        0.0029310219818832754,
+        -0.0038588761724800006,
+        0.00025349324751449776
+      ],
+      "reference_q_norm": 0.2926208070563678,
+      "reference_sensitivity_norm": 0.5323101478407932,
+      "comparisons": [
+        {
+          "dt": 0.05,
+          "q_relative_error": 0.14604556285671977,
+          "q_max_abs_error": 0.014313117947542031,
+          "sensitivity_relative_error": 0.350449699387525,
+          "calibration_rate_relative_error": 1.814685736767335,
+          "calibration_sensitivity_relative_error": 1.589234093972001
+        },
+        {
+          "dt": 0.025,
+          "q_relative_error": 0.11265645112460099,
+          "q_max_abs_error": 0.011686580661822182,
+          "sensitivity_relative_error": 0.2782520039942954,
+          "calibration_rate_relative_error": 0.8951038523339366,
+          "calibration_sensitivity_relative_error": 1.1121439851826278
+        },
+        {
+          "dt": 0.0125,
+          "q_relative_error": 0.0,
+          "q_max_abs_error": 0.0,
+          "sensitivity_relative_error": 0.0,
+          "calibration_rate_relative_error": 0.0,
+          "calibration_sensitivity_relative_error": 0.0
+        }
+      ]
+    },
+    {
+      "family": "softplus",
+      "condition": "matched",
+      "network_id": 1881,
+      "q_reference": [
+        0.05254064982296243,
+        0.003960257195176365,
+        0.0031541462836108605,
+        0.0890377977808295,
+        0.05976055031851446,
+        0.0025998387026315464,
+        0.0003983828384228325,
+        0.024688029189341227,
+        0.004381165466740086,
+        0.4379772771740328,
+        0.005917462674919984,
+        -2.425043102819019e-05
+      ],
+      "reference_q_norm": 0.4547306109196076,
+      "reference_sensitivity_norm": 0.5231387073271154,
+      "comparisons": [
+        {
+          "dt": 0.05,
+          "q_relative_error": 0.0017670828661440876,
+          "q_max_abs_error": 0.0006217741555662459,
+          "sensitivity_relative_error": 0.002134309670881347,
+          "calibration_rate_relative_error": 0.0014326973111742569,
+          "calibration_sensitivity_relative_error": 0.0015663477062402337
+        },
+        {
+          "dt": 0.025,
+          "q_relative_error": 0.0005809734687960146,
+          "q_max_abs_error": 0.00020434920402240264,
+          "sensitivity_relative_error": 0.0007023531064008176,
+          "calibration_rate_relative_error": 0.00047494617280659555,
+          "calibration_sensitivity_relative_error": 0.000519150132590837
+        },
+        {
+          "dt": 0.0125,
+          "q_relative_error": 0.0,
+          "q_max_abs_error": 0.0,
+          "sensitivity_relative_error": 0.0,
+          "calibration_rate_relative_error": 0.0,
+          "calibration_sensitivity_relative_error": 0.0
+        }
+      ]
+    },
+    {
+      "family": "softplus",
+      "condition": "broad",
+      "network_id": 1881,
+      "q_reference": [
+        0.07452424437065039,
+        0.005566529743283597,
+        0.005461292541555932,
+        0.12770937932850981,
+        0.07924650817169587,
+        0.004496635726733695,
+        0.0004097392218078186,
+        0.043867240957501344,
+        0.006276876482021635,
+        0.6008771252122296,
+        0.007534300841320344,
+        -2.709834371302719e-05
+      ],
+      "reference_q_norm": 0.6255386297008264,
+      "reference_sensitivity_norm": 0.7134337781103304,
+      "comparisons": [
+        {
+          "dt": 0.05,
+          "q_relative_error": 0.0017721755494851364,
+          "q_max_abs_error": 0.0008225494896940688,
+          "sensitivity_relative_error": 0.002213363527311194,
+          "calibration_rate_relative_error": 0.0014931013789628402,
+          "calibration_sensitivity_relative_error": 0.0016689854790149132
+        },
+        {
+          "dt": 0.025,
+          "q_relative_error": 0.000583055308072482,
+          "q_max_abs_error": 0.00027060310770055107,
+          "sensitivity_relative_error": 0.0007285398755536379,
+          "calibration_rate_relative_error": 0.0004949392535637175,
+          "calibration_sensitivity_relative_error": 0.0005531270496842291
+        },
+        {
+          "dt": 0.0125,
+          "q_relative_error": 0.0,
+          "q_max_abs_error": 0.0,
+          "sensitivity_relative_error": 0.0,
+          "calibration_rate_relative_error": 0.0,
+          "calibration_sensitivity_relative_error": 0.0
+        }
+      ]
+    },
+    {
+      "family": "rank2_tanh",
+      "condition": "published_gain",
+      "network_id": 1881,
+      "q_reference": [
+        -0.004584530316241608,
+        0.0007313587848721292,
+        0.003240582309046255,
+        -0.002109399774505478,
+        0.00015063433862709413,
+        0.00747422134761388,
+        6.276988898974867e-05,
+        0.009829941149178331,
+        -0.0004082241685458819,
+        -0.011380445657574248,
+        -0.0016819315800244289,
+        0.00447070574105586,
+        0.004688952688966647,
+        0.0006753273412582248,
+        0.0074775776240936735,
+        -0.005266908108190982,
+        0.0008347961184190233,
+        0.00575471544053771,
+        -0.009569528682626989,
+        0.002627459490390393,
+        0.0043604846770649245,
+        -0.005154491619587309,
+        -0.005875182471353094,
+        0.001793067052781617,
+        0.02492646483990234,
+        -0.0005234858948762333,
+        0.002968563166445744,
+        0.010083082843202012,
+        -0.001710996405231258,
+        0.0038963542548732313,
+        -0.0004637115379068911,
+        -0.004981137372636251,
+        -0.010498989022272032,
+        -0.003471075333197174,
+        -0.002629990330313103,
+        0.007428019077667088,
+        0.0010060876675084967,
+        0.007734864001535197,
+        -0.0027848655093782974,
+        0.0032915788412022475,
+        -0.00668467633208007,
+        0.0002700996922887568,
+        0.004131003073467352,
+        -0.0021285346236247743,
+        0.002791125074541028,
+        -0.005951412144806054,
+        -0.008073030706286828,
+        0.012226965118583441,
+        -0.008253884813408382,
+        -1.2100802067962804e-07,
+        -0.00494748172079452,
+        0.0037371572482992085,
+        -0.004488520424178396,
+        -5.254791429991875e-06,
+        0.0002021444514797203,
+        0.0043292179441893714,
+        -0.0009763653925164635,
+        -0.0023475724290539677,
+        -0.0022377454754795587,
+        -0.013784480451408976,
+        0.007154926737011434,
+        -0.000357961301580903,
+        0.010210258782638273,
+        0.0008044360367289925,
+        -0.0026253316955245362,
+        0.0041090064906780955,
+        0.001359590760773217,
+        0.006561872330840069,
+        -0.007320766333102278,
+        0.003286728356296927,
+        -0.0017584686950782834,
+        -0.009468301864249424,
+        -0.004604789270027667,
+        -0.0032129043606209935,
+        -0.0036545930209740188,
+        0.0012518359891914807,
+        0.00011101408372474059,
+        -0.0021830047673437963,
+        0.0018726782530319244,
+        0.0037772591642840137,
+        0.0075709814634023435,
+        -0.00024648371733667723,
+        0.0016197970532124681,
+        -0.00023542264704168992,
+        0.2680574391864611,
+        0.004163826815084268,
+        0.0068504057805462235,
+        0.0010858402139219843,
+        -0.0008894892446218074,
+        0.003990526208594429,
+        1.2419231647038178e-05,
+        -0.010693951297461247,
+        -0.007629998248378399,
+        -0.0014411103977770364,
+        0.0010440023337096578,
+        -0.00422927304311027,
+        -0.000992500553809082,
+        -0.00011356822656313753,
+        -0.00432974085042094,
+        0.011489374294356697
+      ],
+      "reference_q_norm": 0.2741658185167,
+      "reference_sensitivity_norm": 0.5851067101675439,
+      "comparisons": [
+        {
+          "dt": 0.05,
+          "q_relative_error": 0.3234639329703479,
+          "q_max_abs_error": 0.02999872677999986,
+          "sensitivity_relative_error": 0.4788758878785871,
+          "calibration_rate_relative_error": 2.284104611783073,
+          "calibration_sensitivity_relative_error": 2.8983692728738193
+        },
+        {
+          "dt": 0.025,
+          "q_relative_error": 0.06814282348078285,
+          "q_max_abs_error": 0.006882307041124052,
+          "sensitivity_relative_error": 0.11682345124151461,
+          "calibration_rate_relative_error": 0.4968685887631677,
+          "calibration_sensitivity_relative_error": 0.8493432679192194
+        },
+        {
+          "dt": 0.0125,
+          "q_relative_error": 0.0,
+          "q_max_abs_error": 0.0,
+          "sensitivity_relative_error": 0.0,
+          "calibration_rate_relative_error": 0.0,
+          "calibration_sensitivity_relative_error": 0.0
+        }
+      ]
+    }
+  ],
+  "ensemble": [
+    {
+      "family": "softplus",
+      "network_id": 1880,
+      "condition": "broad",
+      "method": "local_scalar",
+      "budget": 3,
+      "selected": {
+        "8": [
+          1,
+          11,
+          9
+        ],
+        "16": [
+          1,
+          11,
+          9
+        ],
+        "32": [
+          1,
+          11,
+          9
+        ]
+      },
+      "comparisons": [
+        {
+          "L_a": 8,
+          "L_b": 16,
+          "jaccard": 1.0
+        },
+        {
+          "L_a": 16,
+          "L_b": 32,
+          "jaccard": 1.0
+        },
+        {
+          "L_a": 8,
+          "L_b": 32,
+          "jaccard": 1.0
+        }
+      ],
+      "common_L32_risks": {
+        "8": {
+          "nominal_by_target": [
+            4.322086624288716e-06,
+            5.522011576991928e-08,
+            0.00031136917622921523
+          ],
+          "ensemble_by_target": [
+            9.437540550637201e-06,
+            1.0904630947316345e-07,
+            0.0004259183459209926
+          ]
+        },
+        "16": {
+          "nominal_by_target": [
+            4.322086624288716e-06,
+            5.522011576991928e-08,
+            0.00031136917622921523
+          ],
+          "ensemble_by_target": [
+            9.437540550637201e-06,
+            1.0904630947316345e-07,
+            0.0004259183459209926
+          ]
+        },
+        "32": {
+          "nominal_by_target": [
+            4.322086624288716e-06,
+            5.522011576991928e-08,
+            0.00031136917622921523
+          ],
+          "ensemble_by_target": [
+            9.437540550637201e-06,
+            1.0904630947316345e-07,
+            0.0004259183459209926
+          ]
+        }
+      }
+    },
+    {
+      "family": "softplus",
+      "network_id": 1880,
+      "condition": "broad",
+      "method": "ensemble_scalar",
+      "budget": 3,
+      "selected": {
+        "8": [
+          1,
+          11,
+          9
+        ],
+        "16": [
+          1,
+          11,
+          9
+        ],
+        "32": [
+          1,
+          11,
+          9
+        ]
+      },
+      "comparisons": [
+        {
+          "L_a": 8,
+          "L_b": 16,
+          "jaccard": 1.0
+        },
+        {
+          "L_a": 16,
+          "L_b": 32,
+          "jaccard": 1.0
+        },
+        {
+          "L_a": 8,
+          "L_b": 32,
+          "jaccard": 1.0
+        }
+      ],
+      "common_L32_risks": {
+        "8": {
+          "nominal_by_target": [
+            4.322086624288716e-06,
+            5.522011576991928e-08,
+            0.00031136917622921523
+          ],
+          "ensemble_by_target": [
+            9.437540550637201e-06,
+            1.0904630947316345e-07,
+            0.0004259183459209926
+          ]
+        },
+        "16": {
+          "nominal_by_target": [
+            4.322086624288716e-06,
+            5.522011576991928e-08,
+            0.00031136917622921523
+          ],
+          "ensemble_by_target": [
+            9.437540550637201e-06,
+            1.0904630947316345e-07,
+            0.0004259183459209926
+          ]
+        },
+        "32": {
+          "nominal_by_target": [
+            4.322086624288716e-06,
+            5.522011576991928e-08,
+            0.00031136917622921523
+          ],
+          "ensemble_by_target": [
+            9.437540550637201e-06,
+            1.0904630947316345e-07,
+            0.0004259183459209926
+          ]
+        }
+      }
+    },
+    {
+      "family": "softplus",
+      "network_id": 1880,
+      "condition": "broad",
+      "method": "local_vector",
+      "budget": 3,
+      "selected": {
+        "8": [
+          9,
+          1,
+          11
+        ],
+        "16": [
+          9,
+          1,
+          11
+        ],
+        "32": [
+          9,
+          1,
+          11
+        ]
+      },
+      "comparisons": [
+        {
+          "L_a": 8,
+          "L_b": 16,
+          "jaccard": 1.0
+        },
+        {
+          "L_a": 16,
+          "L_b": 32,
+          "jaccard": 1.0
+        },
+        {
+          "L_a": 8,
+          "L_b": 32,
+          "jaccard": 1.0
+        }
+      ],
+      "common_L32_risks": {
+        "8": {
+          "nominal_by_target": [
+            4.322086624288756e-06,
+            5.522011576991959e-08,
+            0.0003113691762292152
+          ],
+          "ensemble_by_target": [
+            9.437540550637134e-06,
+            1.0904630947316284e-07,
+            0.00042591834592099114
+          ]
+        },
+        "16": {
+          "nominal_by_target": [
+            4.322086624288756e-06,
+            5.522011576991959e-08,
+            0.0003113691762292152
+          ],
+          "ensemble_by_target": [
+            9.437540550637134e-06,
+            1.0904630947316284e-07,
+            0.00042591834592099114
+          ]
+        },
+        "32": {
+          "nominal_by_target": [
+            4.322086624288756e-06,
+            5.522011576991959e-08,
+            0.0003113691762292152
+          ],
+          "ensemble_by_target": [
+            9.437540550637134e-06,
+            1.0904630947316284e-07,
+            0.00042591834592099114
+          ]
+        }
+      }
+    },
+    {
+      "family": "softplus",
+      "network_id": 1880,
+      "condition": "broad",
+      "method": "ensemble_vector",
+      "budget": 3,
+      "selected": {
+        "8": [
+          1,
+          9,
+          11
+        ],
+        "16": [
+          1,
+          9,
+          11
+        ],
+        "32": [
+          1,
+          9,
+          11
+        ]
+      },
+      "comparisons": [
+        {
+          "L_a": 8,
+          "L_b": 16,
+          "jaccard": 1.0
+        },
+        {
+          "L_a": 16,
+          "L_b": 32,
+          "jaccard": 1.0
+        },
+        {
+          "L_a": 8,
+          "L_b": 32,
+          "jaccard": 1.0
+        }
+      ],
+      "common_L32_risks": {
+        "8": {
+          "nominal_by_target": [
+            4.322086624288756e-06,
+            5.522011576991959e-08,
+            0.0003113691762292152
+          ],
+          "ensemble_by_target": [
+            9.437540550637134e-06,
+            1.0904630947316284e-07,
+            0.00042591834592099114
+          ]
+        },
+        "16": {
+          "nominal_by_target": [
+            4.322086624288756e-06,
+            5.522011576991959e-08,
+            0.0003113691762292152
+          ],
+          "ensemble_by_target": [
+            9.437540550637134e-06,
+            1.0904630947316284e-07,
+            0.00042591834592099114
+          ]
+        },
+        "32": {
+          "nominal_by_target": [
+            4.322086624288756e-06,
+            5.522011576991959e-08,
+            0.0003113691762292152
+          ],
+          "ensemble_by_target": [
+            9.437540550637134e-06,
+            1.0904630947316284e-07,
+            0.00042591834592099114
+          ]
+        }
+      }
+    },
+    {
+      "family": "rank2_tanh",
+      "network_id": 1880,
+      "condition": "published_gain",
+      "method": "local_scalar",
+      "budget": 5,
+      "selected": {
+        "8": [
+          99,
+          3,
+          28,
+          18,
+          78
+        ],
+        "16": [
+          99,
+          3,
+          28,
+          18,
+          78
+        ],
+        "32": [
+          99,
+          3,
+          28,
+          18,
+          78
+        ]
+      },
+      "comparisons": [
+        {
+          "L_a": 8,
+          "L_b": 16,
+          "jaccard": 1.0
+        },
+        {
+          "L_a": 16,
+          "L_b": 32,
+          "jaccard": 1.0
+        },
+        {
+          "L_a": 8,
+          "L_b": 32,
+          "jaccard": 1.0
+        }
+      ],
+      "common_L32_risks": {
+        "8": {
+          "nominal_by_target": [
+            6.355076621132654e-05,
+            0.00028859374743148955,
+            0.0003338900313467149
+          ],
+          "ensemble_by_target": [
+            0.0005371727941996149,
+            0.0008882808720996288,
+            0.0007090717352621969
+          ]
+        },
+        "16": {
+          "nominal_by_target": [
+            6.355076621132654e-05,
+            0.00028859374743148955,
+            0.0003338900313467149
+          ],
+          "ensemble_by_target": [
+            0.0005371727941996149,
+            0.0008882808720996288,
+            0.0007090717352621969
+          ]
+        },
+        "32": {
+          "nominal_by_target": [
+            6.355076621132654e-05,
+            0.00028859374743148955,
+            0.0003338900313467149
+          ],
+          "ensemble_by_target": [
+            0.0005371727941996149,
+            0.0008882808720996288,
+            0.0007090717352621969
+          ]
+        }
+      }
+    },
+    {
+      "family": "rank2_tanh",
+      "network_id": 1880,
+      "condition": "published_gain",
+      "method": "ensemble_scalar",
+      "budget": 5,
+      "selected": {
+        "8": [
+          18,
+          27,
+          3,
+          28,
+          78
+        ],
+        "16": [
+          18,
+          27,
+          3,
+          28,
+          78
+        ],
+        "32": [
+          3,
+          27,
+          28,
+          18,
+          39
+        ]
+      },
+      "comparisons": [
+        {
+          "L_a": 8,
+          "L_b": 16,
+          "jaccard": 1.0
+        },
+        {
+          "L_a": 16,
+          "L_b": 32,
+          "jaccard": 0.6666666666666666
+        },
+        {
+          "L_a": 8,
+          "L_b": 32,
+          "jaccard": 0.6666666666666666
+        }
+      ],
+      "common_L32_risks": {
+        "8": {
+          "nominal_by_target": [
+            6.369245318230608e-05,
+            0.0002894471157350265,
+            0.00033375251192639574
+          ],
+          "ensemble_by_target": [
+            0.000537010306176415,
+            0.000890090227308064,
+            0.0007091652898337902
+          ]
+        },
+        "16": {
+          "nominal_by_target": [
+            6.369245318230608e-05,
+            0.0002894471157350265,
+            0.00033375251192639574
+          ],
+          "ensemble_by_target": [
+            0.000537010306176415,
+            0.000890090227308064,
+            0.0007091652898337902
+          ]
+        },
+        "32": {
+          "nominal_by_target": [
+            6.403360587177345e-05,
+            0.0002828194131880595,
+            0.00033498856164843505
+          ],
+          "ensemble_by_target": [
+            0.0005365401325409582,
+            0.0008646489967882905,
+            0.0007068553181772962
+          ]
+        }
+      }
+    },
+    {
+      "family": "rank2_tanh",
+      "network_id": 1880,
+      "condition": "published_gain",
+      "method": "local_vector",
+      "budget": 5,
+      "selected": {
+        "8": [
+          3,
+          26,
+          89,
+          2,
+          8
+        ],
+        "16": [
+          3,
+          26,
+          89,
+          2,
+          8
+        ],
+        "32": [
+          3,
+          26,
+          89,
+          2,
+          8
+        ]
+      },
+      "comparisons": [
+        {
+          "L_a": 8,
+          "L_b": 16,
+          "jaccard": 1.0
+        },
+        {
+          "L_a": 16,
+          "L_b": 32,
+          "jaccard": 1.0
+        },
+        {
+          "L_a": 8,
+          "L_b": 32,
+          "jaccard": 1.0
+        }
+      ],
+      "common_L32_risks": {
+        "8": {
+          "nominal_by_target": [
+            6.549471475391509e-05,
+            0.0002595663554799453,
+            0.00032757569978484745
+          ],
+          "ensemble_by_target": [
+            0.0005553467353710483,
+            0.0008450757822284842,
+            0.0007000830052243077
+          ]
+        },
+        "16": {
+          "nominal_by_target": [
+            6.549471475391509e-05,
+            0.0002595663554799453,
+            0.00032757569978484745
+          ],
+          "ensemble_by_target": [
+            0.0005553467353710483,
+            0.0008450757822284842,
+            0.0007000830052243077
+          ]
+        },
+        "32": {
+          "nominal_by_target": [
+            6.549471475391509e-05,
+            0.0002595663554799453,
+            0.00032757569978484745
+          ],
+          "ensemble_by_target": [
+            0.0005553467353710483,
+            0.0008450757822284842,
+            0.0007000830052243077
+          ]
+        }
+      }
+    },
+    {
+      "family": "rank2_tanh",
+      "network_id": 1880,
+      "condition": "published_gain",
+      "method": "ensemble_vector",
+      "budget": 5,
+      "selected": {
+        "8": [
+          18,
+          12,
+          27,
+          2,
+          8
+        ],
+        "16": [
+          18,
+          26,
+          27,
+          2,
+          8
+        ],
+        "32": [
+          3,
+          49,
+          2,
+          8,
+          26
+        ]
+      },
+      "comparisons": [
+        {
+          "L_a": 8,
+          "L_b": 16,
+          "jaccard": 0.6666666666666666
+        },
+        {
+          "L_a": 16,
+          "L_b": 32,
+          "jaccard": 0.42857142857142855
+        },
+        {
+          "L_a": 8,
+          "L_b": 32,
+          "jaccard": 0.25
+        }
+      ],
+      "common_L32_risks": {
+        "8": {
+          "nominal_by_target": [
+            6.585461325764394e-05,
+            0.00026945761638986115,
+            0.00033420684002012863
+          ],
+          "ensemble_by_target": [
+            0.000560539939845961,
+            0.0008624411763446186,
+            0.0007162531497167738
+          ]
+        },
+        "16": {
+          "nominal_by_target": [
+            6.570344402161191e-05,
+            0.00026099172222387865,
+            0.0003297371831200739
+          ],
+          "ensemble_by_target": [
+            0.0005649635196723607,
+            0.0008654740682593985,
+            0.0007168856456152495
+          ]
+        },
+        "32": {
+          "nominal_by_target": [
+            6.535675078620639e-05,
+            0.00026056375186410115,
+            0.0003294461519864401
+          ],
+          "ensemble_by_target": [
+            0.00055211218928259,
+            0.000822437809108258,
+            0.0006962264166092663
+          ]
+        }
+      }
+    }
+  ],
+  "map_comparison": [
+    {
+      "family": "softplus",
+      "network_id": 1880,
+      "method": "local_scalar",
+      "target": 0,
+      "dt": 0.05,
+      "nodes": [
+        1,
+        9,
+        11
+      ],
+      "q_error_by_target": [
+        -0.002083058054427279,
+        0.00036260988074711127,
+        -0.05503449730379487
+      ],
+      "mean_squared_q_error": 0.001011088836755045,
+      "optimizer_success": true,
+      "nfev": 6,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    },
+    {
+      "family": "softplus",
+      "network_id": 1880,
+      "method": "local_scalar",
+      "target": 0,
+      "dt": 0.0125,
+      "nodes": [
+        1,
+        9,
+        11
+      ],
+      "q_error_by_target": [
+        -0.0021018370115463147,
+        0.0003556105600849901,
+        -0.05529565541183014
+      ],
+      "mean_squared_q_error": 0.0010207178950391365,
+      "optimizer_success": true,
+      "nfev": 6,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    },
+    {
+      "family": "softplus",
+      "network_id": 1880,
+      "method": "ensemble_scalar",
+      "target": 0,
+      "dt": 0.05,
+      "nodes": [
+        1,
+        9,
+        11
+      ],
+      "q_error_by_target": [
+        -0.002083058054427279,
+        0.00036260988074711127,
+        -0.05503449730379487
+      ],
+      "mean_squared_q_error": 0.001011088836755045,
+      "optimizer_success": true,
+      "nfev": 6,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    },
+    {
+      "family": "softplus",
+      "network_id": 1880,
+      "method": "ensemble_scalar",
+      "target": 0,
+      "dt": 0.0125,
+      "nodes": [
+        1,
+        9,
+        11
+      ],
+      "q_error_by_target": [
+        -0.0021018370115463147,
+        0.0003556105600849901,
+        -0.05529565541183014
+      ],
+      "mean_squared_q_error": 0.0010207178950391365,
+      "optimizer_success": true,
+      "nfev": 6,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    },
+    {
+      "family": "softplus",
+      "network_id": 1880,
+      "method": "local_vector",
+      "target": -1,
+      "dt": 0.05,
+      "nodes": [
+        1,
+        9,
+        11
+      ],
+      "q_error_by_target": [
+        -0.002083058054427279,
+        0.00036260988074711127,
+        -0.05503449730379487
+      ],
+      "mean_squared_q_error": 0.001011088836755045,
+      "optimizer_success": true,
+      "nfev": 6,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    },
+    {
+      "family": "softplus",
+      "network_id": 1880,
+      "method": "local_vector",
+      "target": -1,
+      "dt": 0.0125,
+      "nodes": [
+        1,
+        9,
+        11
+      ],
+      "q_error_by_target": [
+        -0.0021018370115463147,
+        0.0003556105600849901,
+        -0.05529565541183014
+      ],
+      "mean_squared_q_error": 0.0010207178950391365,
+      "optimizer_success": true,
+      "nfev": 6,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    },
+    {
+      "family": "softplus",
+      "network_id": 1880,
+      "method": "ensemble_vector",
+      "target": -1,
+      "dt": 0.05,
+      "nodes": [
+        1,
+        9,
+        11
+      ],
+      "q_error_by_target": [
+        -0.002083058054427279,
+        0.00036260988074711127,
+        -0.05503449730379487
+      ],
+      "mean_squared_q_error": 0.001011088836755045,
+      "optimizer_success": true,
+      "nfev": 6,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    },
+    {
+      "family": "softplus",
+      "network_id": 1880,
+      "method": "ensemble_vector",
+      "target": -1,
+      "dt": 0.0125,
+      "nodes": [
+        1,
+        9,
+        11
+      ],
+      "q_error_by_target": [
+        -0.0021018370115463147,
+        0.0003556105600849901,
+        -0.05529565541183014
+      ],
+      "mean_squared_q_error": 0.0010207178950391365,
+      "optimizer_success": true,
+      "nfev": 6,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    },
+    {
+      "family": "rank2_tanh",
+      "network_id": 1880,
+      "method": "local_scalar",
+      "target": 0,
+      "dt": 0.05,
+      "nodes": [
+        3,
+        18,
+        28,
+        78,
+        99
+      ],
+      "q_error_by_target": [
+        -0.011431515431702854,
+        -0.0031231458108069306,
+        0.006553589852148173
+      ],
+      "mean_squared_q_error": 6.112770825700029e-05,
+      "optimizer_success": true,
+      "nfev": 17,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    },
+    {
+      "family": "rank2_tanh",
+      "network_id": 1880,
+      "method": "local_scalar",
+      "target": 0,
+      "dt": 0.0125,
+      "nodes": [
+        3,
+        18,
+        28,
+        78,
+        99
+      ],
+      "q_error_by_target": [
+        -0.20165462249681204,
+        0.00533164198289951,
+        0.05965659105712992
+      ],
+      "mean_squared_q_error": 0.014750640679041076,
+      "optimizer_success": false,
+      "nfev": 40,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    },
+    {
+      "family": "rank2_tanh",
+      "network_id": 1880,
+      "method": "ensemble_scalar",
+      "target": 0,
+      "dt": 0.05,
+      "nodes": [
+        3,
+        18,
+        27,
+        28,
+        78
+      ],
+      "q_error_by_target": [
+        -0.012543571346874956,
+        -0.005690730238156551,
+        0.008223147711069429
+      ],
+      "mean_squared_q_error": 8.578191701855938e-05,
+      "optimizer_success": true,
+      "nfev": 9,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    },
+    {
+      "family": "rank2_tanh",
+      "network_id": 1880,
+      "method": "ensemble_scalar",
+      "target": 0,
+      "dt": 0.0125,
+      "nodes": [
+        3,
+        18,
+        27,
+        28,
+        78
+      ],
+      "q_error_by_target": [
+        0.0008297877089594625,
+        -0.007000073767231916,
+        0.008033726783327349
+      ],
+      "mean_squared_q_error": 3.807678213925994e-05,
+      "optimizer_success": false,
+      "nfev": 40,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    },
+    {
+      "family": "rank2_tanh",
+      "network_id": 1880,
+      "method": "local_vector",
+      "target": -1,
+      "dt": 0.05,
+      "nodes": [
+        2,
+        3,
+        8,
+        26,
+        89
+      ],
+      "q_error_by_target": [
+        -0.009621847667868673,
+        -0.0009413872765982201,
+        0.0027930998687798574
+      ],
+      "mean_squared_q_error": 3.375585647506296e-05,
+      "optimizer_success": true,
+      "nfev": 9,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    },
+    {
+      "family": "rank2_tanh",
+      "network_id": 1880,
+      "method": "local_vector",
+      "target": -1,
+      "dt": 0.0125,
+      "nodes": [
+        2,
+        3,
+        8,
+        26,
+        89
+      ],
+      "q_error_by_target": [
+        0.005925530182989452,
+        0.0394824314254192,
+        -0.016656841879651624
+      ],
+      "mean_squared_q_error": 0.0006238082268720549,
+      "optimizer_success": false,
+      "nfev": 40,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    },
+    {
+      "family": "rank2_tanh",
+      "network_id": 1880,
+      "method": "ensemble_vector",
+      "target": -1,
+      "dt": 0.05,
+      "nodes": [
+        2,
+        8,
+        18,
+        26,
+        27
+      ],
+      "q_error_by_target": [
+        -0.009820662075720844,
+        0.0010208687899470104,
+        0.00025653204157452016
+      ],
+      "mean_squared_q_error": 3.251779512671463e-05,
+      "optimizer_success": true,
+      "nfev": 11,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    },
+    {
+      "family": "rank2_tanh",
+      "network_id": 1880,
+      "method": "ensemble_vector",
+      "target": -1,
+      "dt": 0.0125,
+      "nodes": [
+        2,
+        8,
+        18,
+        26,
+        27
+      ],
+      "q_error_by_target": [
+        -0.0020480065385222786,
+        0.006937429059559406,
+        -0.008231206940745701
+      ],
+      "mean_squared_q_error": 4.002500681320984e-05,
+      "optimizer_success": true,
+      "nfev": 15,
+      "fallback": false,
+      "note": "fit and response rollout at stated dt; same finest-grid calibration observations",
+      "max_nfev": 40
+    }
+  ],
+  "elapsed_seconds": 20.798950999999988,
+  "complete": true,
+  "interpretation": "numerical convergence and finite-prior-set sensitivity checks; not ranking validation or biological evidence"
+}

@@ -1,0 +1,16 @@
+{
+  "zip": "/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/outputs/研究资料与实验包_v2.zip",
+  "zip_bytes": 22461638,
+  "zip_sha256": "ce31aecb9507af93d4ba14b40b2131b18956179783c00d586752a9a06502e825",
+  "zip_crc_test": "PASS",
+  "archived_files": 221,
+  "manifest_files_verified": 220,
+  "run_records_verified": 5,
+  "local_document_links": "PASS: 4 current documents, no missing local links",
+  "core_scientific_runs": {
+    "independent_J": 96,
+    "evaluation_rows": 158352,
+    "actual_optimizer_calls": 48748
+  },
+  "evidence_scope": "independent simulations only; no biological or robot validation"
+}

@@ -1,0 +1,56 @@
+{
+  "runs": [
+    {
+      "run": "package_smoke_run",
+      "networks": 1,
+      "rows": 18,
+      "actual_optimizer_calls": 5,
+      "complete": true,
+      "protocol_sha256": "dd677b40f80425c141287b1f1d0a878878b65f80bc8af895a9be765404dbba06",
+      "results_sha256": "020f481cdbf2440a0852b9503695ac4b5cdd0e812457bdaf4b2398df75f8635e",
+      "source_snapshot_verified": true
+    },
+    {
+      "run": "development_run",
+      "networks": 8,
+      "rows": 19200,
+      "actual_optimizer_calls": 5696,
+      "complete": true,
+      "protocol_sha256": "367ff78a77afc08c475fb6d4ed5d181af5d42a9f5a5c07b6f020a9f46daa593b",
+      "results_sha256": "ec12e5e8d39688b935c354500c2694caedce40097626633f99ed54922cc7c9dd",
+      "source_snapshot_verified": true
+    },
+    {
+      "run": "holdout_run",
+      "networks": 40,
+      "rows": 129600,
+      "actual_optimizer_calls": 38610,
+      "complete": true,
+      "protocol_sha256": "a1d561cedf61f16e49bc839c9a31f0fdaab711a6ef815d10885c8326846dc47b",
+      "results_sha256": "65538e9d4a3a3c63bc5f68b65c9c1b503715795214a7a6455a0f2d3b3d5f35c8",
+      "source_snapshot_verified": true
+    },
+    {
+      "run": "risk_forecast_followup_run",
+      "networks": 40,
+      "rows": 6480,
+      "actual_optimizer_calls": 3006,
+      "complete": true,
+      "protocol_sha256": "7ab9eff6ee514e5b7d17fe7d78c4b0af4b527a9e36bbf6953f4e947f2086b5fc",
+      "results_sha256": "541daf4d8761b44d3f160d38353626dfebe3b772a5a594b91156692ae6f470e7",
+      "source_snapshot_verified": true
+    },
+    {
+      "run": "rank2_n100_refined_run",
+      "networks": 8,
+      "rows": 3072,
+      "actual_optimizer_calls": 1436,
+      "complete": true,
+      "protocol_sha256": "c2ab7ddb27bc28dc871968432e7c0087d70085ece3861d76e762f30b6e76836e",
+      "results_sha256": "d7868d6f25f2c1e1e8184d62b78f4bffb65f16dfca8ad90494c762436cf82845",
+      "source_snapshot_verified": true
+    }
+  ],
+  "scope": "simulation only; no external submission",
+  "statement": "file and count integrity is not scientific validity certification"
+}

@@ -1,0 +1,27 @@
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/checks.py:37: RuntimeWarning: divide by zero encountered in matmul
+  w=rng.normal(size=(P,P));w=w.T@w
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/checks.py:37: RuntimeWarning: overflow encountered in matmul
+  w=rng.normal(size=(P,P));w=w.T@w
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/checks.py:37: RuntimeWarning: invalid value encountered in matmul
+  w=rng.normal(size=(P,P));w=w.T@w
+{
+  "trajectory_derivative_relative_error": 2.4601399422497604e-11,
+  "response_derivative_relative_error": 9.485052807779568e-09,
+  "nonordered_observation_axis_match": true,
+  "independent_numpy_rate_max_error": 2.220446049250313e-16,
+  "independent_numpy_sensitivity_max_error": 3.3306690738754696e-16,
+  "identical_particle_design_equivalence": true,
+  "common_endpoint_pool_and_public_design_api": true,
+  "linear_bias_null_range": 2.211772431870429e-17,
+  "linear_bias_null_gradient": 0.0,
+  "exact_subset_audit": {
+    "subsets": 15,
+    "exact_min_risk": 1.4403965271857448e-06,
+    "greedy_risk": 1.4403965271857448e-06,
+    "relative_regret": 0.0,
+    "nonzero_target": true
+  },
+  "rank2_dense_factor_max_error": 4.218847493575595e-15,
+  "rank2_derivative_relative_error": 1.629835602360124e-10,
+  "elapsed_seconds": 2.331591833033599
+}

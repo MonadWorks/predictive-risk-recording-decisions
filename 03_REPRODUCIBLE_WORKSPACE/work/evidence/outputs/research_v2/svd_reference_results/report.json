@@ -1,0 +1,1833 @@
+{
+  "scope": "Independent mathematical calibration only; not original figure reproduction, not novel research, and not a ranking against nonlinear noisy rate observations.",
+  "source": {
+    "article": "https://doi.org/10.1038/s41593-025-02080-4",
+    "repository": "https://github.com/emebeiran/connconstr",
+    "commit": "f5f397b88f8dd5c2a5c13558ce6039194a284586",
+    "file": "work/source_audit/pinned/nn_fig8_plots_de.py",
+    "lines": "138\u2013181",
+    "sha256": "69ea4123b80c4e1427d71a18e036837cd1db0870a4ba3ad35034d010d63858f5"
+  },
+  "protocol": {
+    "N": 100,
+    "rank": 30,
+    "network_count": 12,
+    "budgets": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "random_sets_per_network": 20,
+    "bias_draws_per_network": 2048,
+    "seed": 20261016,
+    "construction": "Q=qr(exp(0.7 Normal) row-weighted Gaussian); J=Q diag(geomspace(.08,.82,30)) Q.T. Stable symmetric low-rank adaptation.",
+    "observation": "x_S = [A b]_S, A=(I-J)^-1 J, b~Normal(0,I), no noise",
+    "estimator": "Gaussian conditional mean / exact minimum-norm inverse",
+    "risk": "E||x-xhat||^2 / E||x||^2 = ||A P||_F^2 / ||A||_F^2",
+    "statistics": "12 independent networks; random sets and Monte Carlo bias draws are within-network evaluations, not additional independent networks."
+  },
+  "numerical_checks": [
+    {
+      "network": 0,
+      "spectral_radius_J": 0.82,
+      "continuous_dynamics_max_real_eigenvalue": -0.18000000000000005,
+      "solve_vs_independent_max_abs": 6.938893903907228e-16,
+      "matmul_vs_einsum_max_abs": 1.1102230246251565e-16,
+      "all_matmul_finite": true,
+      "full_A_SVD_first_choice_agrees": true,
+      "max_projector_defect": 5.78981277471773e-15
+    },
+    {
+      "network": 1,
+      "spectral_radius_J": 0.82,
+      "continuous_dynamics_max_real_eigenvalue": -0.18000000000000005,
+      "solve_vs_independent_max_abs": 6.661338147750939e-16,
+      "matmul_vs_einsum_max_abs": 1.1102230246251565e-16,
+      "all_matmul_finite": true,
+      "full_A_SVD_first_choice_agrees": true,
+      "max_projector_defect": 1.9566057378735515e-14
+    },
+    {
+      "network": 2,
+      "spectral_radius_J": 0.82,
+      "continuous_dynamics_max_real_eigenvalue": -0.18000000000000005,
+      "solve_vs_independent_max_abs": 6.106226635438361e-16,
+      "matmul_vs_einsum_max_abs": 1.1102230246251565e-16,
+      "all_matmul_finite": true,
+      "full_A_SVD_first_choice_agrees": true,
+      "max_projector_defect": 1.6581600701162045e-14
+    },
+    {
+      "network": 3,
+      "spectral_radius_J": 0.82,
+      "continuous_dynamics_max_real_eigenvalue": -0.18000000000000005,
+      "solve_vs_independent_max_abs": 8.881784197001252e-16,
+      "matmul_vs_einsum_max_abs": 1.1102230246251565e-16,
+      "all_matmul_finite": true,
+      "full_A_SVD_first_choice_agrees": true,
+      "max_projector_defect": 1.280134581536458e-14
+    },
+    {
+      "network": 4,
+      "spectral_radius_J": 0.82,
+      "continuous_dynamics_max_real_eigenvalue": -0.18000000000000005,
+      "solve_vs_independent_max_abs": 1.1102230246251565e-15,
+      "matmul_vs_einsum_max_abs": 1.1102230246251565e-16,
+      "all_matmul_finite": true,
+      "full_A_SVD_first_choice_agrees": true,
+      "max_projector_defect": 1.7196593741709938e-14
+    },
+    {
+      "network": 5,
+      "spectral_radius_J": 0.82,
+      "continuous_dynamics_max_real_eigenvalue": -0.18000000000000005,
+      "solve_vs_independent_max_abs": 6.106226635438361e-16,
+      "matmul_vs_einsum_max_abs": 1.1102230246251565e-16,
+      "all_matmul_finite": true,
+      "full_A_SVD_first_choice_agrees": true,
+      "max_projector_defect": 1.3907869603111254e-14
+    },
+    {
+      "network": 6,
+      "spectral_radius_J": 0.82,
+      "continuous_dynamics_max_real_eigenvalue": -0.18000000000000005,
+      "solve_vs_independent_max_abs": 8.326672684688674e-16,
+      "matmul_vs_einsum_max_abs": 1.1102230246251565e-16,
+      "all_matmul_finite": true,
+      "full_A_SVD_first_choice_agrees": true,
+      "max_projector_defect": 1.4175094957604894e-14
+    },
+    {
+      "network": 7,
+      "spectral_radius_J": 0.82,
+      "continuous_dynamics_max_real_eigenvalue": -0.18000000000000005,
+      "solve_vs_independent_max_abs": 4.996003610813204e-16,
+      "matmul_vs_einsum_max_abs": 1.1102230246251565e-16,
+      "all_matmul_finite": true,
+      "full_A_SVD_first_choice_agrees": true,
+      "max_projector_defect": 4.684130454753265e-15
+    },
+    {
+      "network": 8,
+      "spectral_radius_J": 0.82,
+      "continuous_dynamics_max_real_eigenvalue": -0.18000000000000005,
+      "solve_vs_independent_max_abs": 6.106226635438361e-16,
+      "matmul_vs_einsum_max_abs": 1.1102230246251565e-16,
+      "all_matmul_finite": true,
+      "full_A_SVD_first_choice_agrees": true,
+      "max_projector_defect": 1.4399519166179317e-14
+    },
+    {
+      "network": 9,
+      "spectral_radius_J": 0.82,
+      "continuous_dynamics_max_real_eigenvalue": -0.18000000000000005,
+      "solve_vs_independent_max_abs": 6.106226635438361e-16,
+      "matmul_vs_einsum_max_abs": 1.1102230246251565e-16,
+      "all_matmul_finite": true,
+      "full_A_SVD_first_choice_agrees": true,
+      "max_projector_defect": 9.511453216910122e-15
+    },
+    {
+      "network": 10,
+      "spectral_radius_J": 0.82,
+      "continuous_dynamics_max_real_eigenvalue": -0.18000000000000005,
+      "solve_vs_independent_max_abs": 6.106226635438361e-16,
+      "matmul_vs_einsum_max_abs": 1.1102230246251565e-16,
+      "all_matmul_finite": true,
+      "full_A_SVD_first_choice_agrees": true,
+      "max_projector_defect": 8.504794930559365e-15
+    },
+    {
+      "network": 11,
+      "spectral_radius_J": 0.82,
+      "continuous_dynamics_max_real_eigenvalue": -0.18000000000000005,
+      "solve_vs_independent_max_abs": 5.551115123125783e-16,
+      "matmul_vs_einsum_max_abs": 1.1102230246251565e-16,
+      "all_matmul_finite": true,
+      "full_A_SVD_first_choice_agrees": true,
+      "max_projector_defect": 6.537052198276056e-15
+    }
+  ],
+  "warnings": [
+    {
+      "network": 0,
+      "category": "RuntimeWarning",
+      "message": "divide by zero encountered in matmul"
+    },
+    {
+      "network": 0,
+      "category": "RuntimeWarning",
+      "message": "overflow encountered in matmul"
+    },
+    {
+      "network": 0,
+      "category": "RuntimeWarning",
+      "message": "invalid value encountered in matmul"
+    },
+    {
+      "network": 1,
+      "category": "RuntimeWarning",
+      "message": "divide by zero encountered in matmul"
+    },
+    {
+      "network": 1,
+      "category": "RuntimeWarning",
+      "message": "overflow encountered in matmul"
+    },
+    {
+      "network": 1,
+      "category": "RuntimeWarning",
+      "message": "invalid value encountered in matmul"
+    },
+    {
+      "network": 2,
+      "category": "RuntimeWarning",
+      "message": "divide by zero encountered in matmul"
+    },
+    {
+      "network": 2,
+      "category": "RuntimeWarning",
+      "message": "overflow encountered in matmul"
+    },
+    {
+      "network": 2,
+      "category": "RuntimeWarning",
+      "message": "invalid value encountered in matmul"
+    },
+    {
+      "network": 3,
+      "category": "RuntimeWarning",
+      "message": "divide by zero encountered in matmul"
+    },
+    {
+      "network": 3,
+      "category": "RuntimeWarning",
+      "message": "overflow encountered in matmul"
+    },
+    {
+      "network": 3,
+      "category": "RuntimeWarning",
+      "message": "invalid value encountered in matmul"
+    },
+    {
+      "network": 4,
+      "category": "RuntimeWarning",
+      "message": "divide by zero encountered in matmul"
+    },
+    {
+      "network": 4,
+      "category": "RuntimeWarning",
+      "message": "overflow encountered in matmul"
+    },
+    {
+      "network": 4,
+      "category": "RuntimeWarning",
+      "message": "invalid value encountered in matmul"
+    },
+    {
+      "network": 5,
+      "category": "RuntimeWarning",
+      "message": "divide by zero encountered in matmul"
+    },
+    {
+      "network": 5,
+      "category": "RuntimeWarning",
+      "message": "overflow encountered in matmul"
+    },
+    {
+      "network": 5,
+      "category": "RuntimeWarning",
+      "message": "invalid value encountered in matmul"
+    },
+    {
+      "network": 6,
+      "category": "RuntimeWarning",
+      "message": "divide by zero encountered in matmul"
+    },
+    {
+      "network": 6,
+      "category": "RuntimeWarning",
+      "message": "overflow encountered in matmul"
+    },
+    {
+      "network": 6,
+      "category": "RuntimeWarning",
+      "message": "invalid value encountered in matmul"
+    },
+    {
+      "network": 7,
+      "category": "RuntimeWarning",
+      "message": "divide by zero encountered in matmul"
+    },
+    {
+      "network": 7,
+      "category": "RuntimeWarning",
+      "message": "overflow encountered in matmul"
+    },
+    {
+      "network": 7,
+      "category": "RuntimeWarning",
+      "message": "invalid value encountered in matmul"
+    },
+    {
+      "network": 8,
+      "category": "RuntimeWarning",
+      "message": "divide by zero encountered in matmul"
+    },
+    {
+      "network": 8,
+      "category": "RuntimeWarning",
+      "message": "overflow encountered in matmul"
+    },
+    {
+      "network": 8,
+      "category": "RuntimeWarning",
+      "message": "invalid value encountered in matmul"
+    },
+    {
+      "network": 9,
+      "category": "RuntimeWarning",
+      "message": "divide by zero encountered in matmul"
+    },
+    {
+      "network": 9,
+      "category": "RuntimeWarning",
+      "message": "overflow encountered in matmul"
+    },
+    {
+      "network": 9,
+      "category": "RuntimeWarning",
+      "message": "invalid value encountered in matmul"
+    },
+    {
+      "network": 10,
+      "category": "RuntimeWarning",
+      "message": "divide by zero encountered in matmul"
+    },
+    {
+      "network": 10,
+      "category": "RuntimeWarning",
+      "message": "overflow encountered in matmul"
+    },
+    {
+      "network": 10,
+      "category": "RuntimeWarning",
+      "message": "invalid value encountered in matmul"
+    },
+    {
+      "network": 11,
+      "category": "RuntimeWarning",
+      "message": "divide by zero encountered in matmul"
+    },
+    {
+      "network": 11,
+      "category": "RuntimeWarning",
+      "message": "overflow encountered in matmul"
+    },
+    {
+      "network": 11,
+      "category": "RuntimeWarning",
+      "message": "invalid value encountered in matmul"
+    }
+  ],
+  "maximum_absolute_mc_standardized_difference": 3.309439781841726,
+  "aggregate": [
+    {
+      "method": "greedy",
+      "budget": 1,
+      "analytic_mean": 0.5887490430556461,
+      "mc_mean": 0.5855546728105564,
+      "network_sd": 0.007197730575444737,
+      "network_sem": 0.0020778058426437094
+    },
+    {
+      "method": "greedy",
+      "budget": 2,
+      "analytic_mean": 0.40041220291308033,
+      "mc_mean": 0.39691913939728,
+      "network_sd": 0.007873218509750311,
+      "network_sem": 0.002272802412996543
+    },
+    {
+      "method": "greedy",
+      "budget": 4,
+      "analytic_mean": 0.2209967974703634,
+      "mc_mean": 0.21999579377038722,
+      "network_sd": 0.009021790151864708,
+      "network_sem": 0.002604366486375702
+    },
+    {
+      "method": "greedy",
+      "budget": 8,
+      "analytic_mean": 0.0855305078916293,
+      "mc_mean": 0.08551475102156236,
+      "network_sd": 0.004203422518643588,
+      "network_sem": 0.0012134235613283052
+    },
+    {
+      "method": "greedy",
+      "budget": 16,
+      "analytic_mean": 0.017854465220268737,
+      "mc_mean": 0.01780447159438887,
+      "network_sd": 0.0010980278737698,
+      "network_sem": 0.0003169733442493532
+    },
+    {
+      "method": "random",
+      "budget": 1,
+      "analytic_mean": 0.7765748748547551,
+      "mc_mean": 0.7720484271389106,
+      "network_sd": 0.02761461215281943,
+      "network_sem": 0.007971651879998706
+    },
+    {
+      "method": "random",
+      "budget": 2,
+      "analytic_mean": 0.6125115766927558,
+      "mc_mean": 0.6090989649627583,
+      "network_sd": 0.030730842763211714,
+      "network_sem": 0.008871230170882174
+    },
+    {
+      "method": "random",
+      "budget": 4,
+      "analytic_mean": 0.385389780782182,
+      "mc_mean": 0.38346408416552485,
+      "network_sd": 0.01371582312836683,
+      "network_sem": 0.0039594170876599425
+    },
+    {
+      "method": "random",
+      "budget": 8,
+      "analytic_mean": 0.15996074873487867,
+      "mc_mean": 0.1593619427509406,
+      "network_sd": 0.006703138792325056,
+      "network_sem": 0.0019350294930821472
+    },
+    {
+      "method": "random",
+      "budget": 16,
+      "analytic_mean": 0.034091406533081084,
+      "mc_mean": 0.03410363772481034,
+      "network_sd": 0.0013731399044821443,
+      "network_sem": 0.00039639134674389153
+    }
+  ],
+  "selections": [
+    {
+      "network": 0,
+      "history": [
+        {
+          "budget": 1,
+          "original_neuron_id": 94,
+          "incremental_score": 0.4090536113898401,
+          "remaining_risk": 0.5909463886101598,
+          "projector_defect": 7.803028140271105e-16
+        },
+        {
+          "budget": 2,
+          "original_neuron_id": 12,
+          "incremental_score": 0.17983882671714502,
+          "remaining_risk": 0.4111075618930149,
+          "projector_defect": 7.933366876585728e-16
+        },
+        {
+          "budget": 3,
+          "original_neuron_id": 87,
+          "incremental_score": 0.10196374979284303,
+          "remaining_risk": 0.30914381210017183,
+          "projector_defect": 5.742749163476091e-16
+        },
+        {
+          "budget": 4,
+          "original_neuron_id": 17,
+          "incremental_score": 0.08204114257147423,
+          "remaining_risk": 0.2271026695286976,
+          "projector_defect": 8.599725372767655e-16
+        },
+        {
+          "budget": 5,
+          "original_neuron_id": 53,
+          "incremental_score": 0.05219220316996478,
+          "remaining_risk": 0.17491046635873278,
+          "projector_defect": 8.454618813573021e-16
+        },
+        {
+          "budget": 6,
+          "original_neuron_id": 66,
+          "incremental_score": 0.033934094002073784,
+          "remaining_risk": 0.140976372356659,
+          "projector_defect": 9.352977853779167e-16
+        },
+        {
+          "budget": 7,
+          "original_neuron_id": 37,
+          "incremental_score": 0.031333412059175544,
+          "remaining_risk": 0.10964296029748348,
+          "projector_defect": 1.0189137535005564e-15
+        },
+        {
+          "budget": 8,
+          "original_neuron_id": 21,
+          "incremental_score": 0.020078768477093063,
+          "remaining_risk": 0.08956419182039042,
+          "projector_defect": 9.97789620340743e-16
+        },
+        {
+          "budget": 9,
+          "original_neuron_id": 20,
+          "incremental_score": 0.016259730246311693,
+          "remaining_risk": 0.07330446157407872,
+          "projector_defect": 1.2879236666641922e-15
+        },
+        {
+          "budget": 10,
+          "original_neuron_id": 68,
+          "incremental_score": 0.013978155311166515,
+          "remaining_risk": 0.0593263062629122,
+          "projector_defect": 1.558565677754615e-15
+        },
+        {
+          "budget": 11,
+          "original_neuron_id": 58,
+          "incremental_score": 0.010921616118391778,
+          "remaining_risk": 0.04840469014452043,
+          "projector_defect": 1.8806848978881605e-15
+        },
+        {
+          "budget": 12,
+          "original_neuron_id": 67,
+          "incremental_score": 0.008586781630132115,
+          "remaining_risk": 0.03981790851438831,
+          "projector_defect": 1.98921123698262e-15
+        },
+        {
+          "budget": 13,
+          "original_neuron_id": 27,
+          "incremental_score": 0.007589001346254355,
+          "remaining_risk": 0.032228907168133945,
+          "projector_defect": 2.2533535966965605e-15
+        },
+        {
+          "budget": 14,
+          "original_neuron_id": 10,
+          "incremental_score": 0.005483090561788008,
+          "remaining_risk": 0.026745816606345937,
+          "projector_defect": 2.8232484724540293e-15
+        },
+        {
+          "budget": 15,
+          "original_neuron_id": 43,
+          "incremental_score": 0.004318849415684697,
+          "remaining_risk": 0.02242696719066123,
+          "projector_defect": 4.3038276489482614e-15
+        },
+        {
+          "budget": 16,
+          "original_neuron_id": 90,
+          "incremental_score": 0.003237553757446321,
+          "remaining_risk": 0.019189413433214918,
+          "projector_defect": 5.78981277471773e-15
+        }
+      ]
+    },
+    {
+      "network": 1,
+      "history": [
+        {
+          "budget": 1,
+          "original_neuron_id": 83,
+          "incremental_score": 0.4009134920655027,
+          "remaining_risk": 0.5990865079344972,
+          "projector_defect": 8.172600520310589e-16
+        },
+        {
+          "budget": 2,
+          "original_neuron_id": 48,
+          "incremental_score": 0.20207645652154396,
+          "remaining_risk": 0.3970100514129534,
+          "projector_defect": 8.400480799808767e-16
+        },
+        {
+          "budget": 3,
+          "original_neuron_id": 37,
+          "incremental_score": 0.10767890754033613,
+          "remaining_risk": 0.2893311438726173,
+          "projector_defect": 8.65391305492602e-16
+        },
+        {
+          "budget": 4,
+          "original_neuron_id": 91,
+          "incremental_score": 0.07140919008588968,
+          "remaining_risk": 0.21792195378672766,
+          "projector_defect": 9.180955815445191e-16
+        },
+        {
+          "budget": 5,
+          "original_neuron_id": 6,
+          "incremental_score": 0.044773210332778,
+          "remaining_risk": 0.1731487434539496,
+          "projector_defect": 8.327184670896606e-16
+        },
+        {
+          "budget": 6,
+          "original_neuron_id": 3,
+          "incremental_score": 0.03980545182342909,
+          "remaining_risk": 0.13334329163052056,
+          "projector_defect": 1.0089906499073782e-15
+        },
+        {
+          "budget": 7,
+          "original_neuron_id": 33,
+          "incremental_score": 0.02460587739352158,
+          "remaining_risk": 0.10873741423699894,
+          "projector_defect": 1.3182414748288563e-15
+        },
+        {
+          "budget": 8,
+          "original_neuron_id": 62,
+          "incremental_score": 0.022600531036444015,
+          "remaining_risk": 0.08613688320055492,
+          "projector_defect": 1.341766945689634e-15
+        },
+        {
+          "budget": 9,
+          "original_neuron_id": 28,
+          "incremental_score": 0.01886259730062206,
+          "remaining_risk": 0.06727428589993284,
+          "projector_defect": 1.9955151890660528e-15
+        },
+        {
+          "budget": 10,
+          "original_neuron_id": 78,
+          "incremental_score": 0.0142315819400779,
+          "remaining_risk": 0.05304270395985495,
+          "projector_defect": 2.3545268880435313e-15
+        },
+        {
+          "budget": 11,
+          "original_neuron_id": 47,
+          "incremental_score": 0.011110186520172836,
+          "remaining_risk": 0.04193251743968211,
+          "projector_defect": 3.2722906194470283e-15
+        },
+        {
+          "budget": 12,
+          "original_neuron_id": 26,
+          "incremental_score": 0.008257041577358846,
+          "remaining_risk": 0.033675475862323244,
+          "projector_defect": 6.184719475335384e-15
+        },
+        {
+          "budget": 13,
+          "original_neuron_id": 31,
+          "incremental_score": 0.006466907184601341,
+          "remaining_risk": 0.027208568677721933,
+          "projector_defect": 7.097882963334377e-15
+        },
+        {
+          "budget": 14,
+          "original_neuron_id": 42,
+          "incremental_score": 0.0045456518152053055,
+          "remaining_risk": 0.02266291686251663,
+          "projector_defect": 9.077329296878344e-15
+        },
+        {
+          "budget": 15,
+          "original_neuron_id": 50,
+          "incremental_score": 0.004175687551990862,
+          "remaining_risk": 0.01848722931052576,
+          "projector_defect": 1.5888378340774672e-14
+        },
+        {
+          "budget": 16,
+          "original_neuron_id": 43,
+          "incremental_score": 0.0029053137373550725,
+          "remaining_risk": 0.01558191557317069,
+          "projector_defect": 1.9566057378735515e-14
+        }
+      ]
+    },
+    {
+      "network": 2,
+      "history": [
+        {
+          "budget": 1,
+          "original_neuron_id": 40,
+          "incremental_score": 0.40412176986919707,
+          "remaining_risk": 0.595878230130803,
+          "projector_defect": 6.962278270038441e-16
+        },
+        {
+          "budget": 2,
+          "original_neuron_id": 60,
+          "incremental_score": 0.19028559314174637,
+          "remaining_risk": 0.4055926369890569,
+          "projector_defect": 8.878381263829441e-16
+        },
+        {
+          "budget": 3,
+          "original_neuron_id": 30,
+          "incremental_score": 0.11438235773116351,
+          "remaining_risk": 0.29121027925789333,
+          "projector_defect": 9.588094906233644e-16
+        },
+        {
+          "budget": 4,
+          "original_neuron_id": 29,
+          "incremental_score": 0.06587374961514779,
+          "remaining_risk": 0.22533652964274556,
+          "projector_defect": 1.0858004798052771e-15
+        },
+        {
+          "budget": 5,
+          "original_neuron_id": 79,
+          "incremental_score": 0.05246235604320171,
+          "remaining_risk": 0.17287417359954388,
+          "projector_defect": 1.0664274112188255e-15
+        },
+        {
+          "budget": 6,
+          "original_neuron_id": 0,
+          "incremental_score": 0.03347499394458789,
+          "remaining_risk": 0.13939917965495602,
+          "projector_defect": 1.1254713099656107e-15
+        },
+        {
+          "budget": 7,
+          "original_neuron_id": 10,
+          "incremental_score": 0.028838056348873115,
+          "remaining_risk": 0.1105611233060829,
+          "projector_defect": 1.2935298361525938e-15
+        },
+        {
+          "budget": 8,
+          "original_neuron_id": 62,
+          "incremental_score": 0.022147521526749665,
+          "remaining_risk": 0.08841360177933323,
+          "projector_defect": 1.4049794687157452e-15
+        },
+        {
+          "budget": 9,
+          "original_neuron_id": 5,
+          "incremental_score": 0.01425720489531234,
+          "remaining_risk": 0.0741563968840209,
+          "projector_defect": 1.509095726698038e-15
+        },
+        {
+          "budget": 10,
+          "original_neuron_id": 36,
+          "incremental_score": 0.012625690207223891,
+          "remaining_risk": 0.061530706676796984,
+          "projector_defect": 2.1855973070663974e-15
+        },
+        {
+          "budget": 11,
+          "original_neuron_id": 17,
+          "incremental_score": 0.011074197972529119,
+          "remaining_risk": 0.05045650870426789,
+          "projector_defect": 2.510174692665914e-15
+        },
+        {
+          "budget": 12,
+          "original_neuron_id": 4,
+          "incremental_score": 0.009023688928617634,
+          "remaining_risk": 0.04143281977565024,
+          "projector_defect": 3.2202861554630058e-15
+        },
+        {
+          "budget": 13,
+          "original_neuron_id": 67,
+          "incremental_score": 0.007558586142730156,
+          "remaining_risk": 0.03387423363292009,
+          "projector_defect": 4.177923654218575e-15
+        },
+        {
+          "budget": 14,
+          "original_neuron_id": 51,
+          "incremental_score": 0.006041603032441027,
+          "remaining_risk": 0.027832630600479042,
+          "projector_defect": 7.1037849272356416e-15
+        },
+        {
+          "budget": 15,
+          "original_neuron_id": 63,
+          "incremental_score": 0.005642350138456409,
+          "remaining_risk": 0.022190280462022628,
+          "projector_defect": 9.484418593650473e-15
+        },
+        {
+          "budget": 16,
+          "original_neuron_id": 37,
+          "incremental_score": 0.003708424278133911,
+          "remaining_risk": 0.01848185618388869,
+          "projector_defect": 1.6581600701162045e-14
+        }
+      ]
+    },
+    {
+      "network": 3,
+      "history": [
+        {
+          "budget": 1,
+          "original_neuron_id": 90,
+          "incremental_score": 0.42056164484271863,
+          "remaining_risk": 0.5794383551572813,
+          "projector_defect": 6.696513382884512e-16
+        },
+        {
+          "budget": 2,
+          "original_neuron_id": 4,
+          "incremental_score": 0.19028416196329315,
+          "remaining_risk": 0.38915419319398825,
+          "projector_defect": 8.286658398430286e-16
+        },
+        {
+          "budget": 3,
+          "original_neuron_id": 38,
+          "incremental_score": 0.11048143763575052,
+          "remaining_risk": 0.2786727555582377,
+          "projector_defect": 7.170718137969438e-16
+        },
+        {
+          "budget": 4,
+          "original_neuron_id": 54,
+          "incremental_score": 0.06967378918800658,
+          "remaining_risk": 0.20899896637023113,
+          "projector_defect": 8.29931372417713e-16
+        },
+        {
+          "budget": 5,
+          "original_neuron_id": 43,
+          "incremental_score": 0.044525436408278,
+          "remaining_risk": 0.16447352996195314,
+          "projector_defect": 9.540091664451832e-16
+        },
+        {
+          "budget": 6,
+          "original_neuron_id": 18,
+          "incremental_score": 0.036737778040379566,
+          "remaining_risk": 0.12773575192157355,
+          "projector_defect": 1.1436301807512979e-15
+        },
+        {
+          "budget": 7,
+          "original_neuron_id": 60,
+          "incremental_score": 0.022870254063008567,
+          "remaining_risk": 0.10486549785856496,
+          "projector_defect": 1.4833743385522427e-15
+        },
+        {
+          "budget": 8,
+          "original_neuron_id": 46,
+          "incremental_score": 0.018225132897676792,
+          "remaining_risk": 0.08664036496088816,
+          "projector_defect": 2.1471913854723437e-15
+        },
+        {
+          "budget": 9,
+          "original_neuron_id": 93,
+          "incremental_score": 0.016072462278124804,
+          "remaining_risk": 0.07056790268276335,
+          "projector_defect": 2.4225007903103675e-15
+        },
+        {
+          "budget": 10,
+          "original_neuron_id": 45,
+          "incremental_score": 0.015870422423762767,
+          "remaining_risk": 0.054697480259000585,
+          "projector_defect": 2.970639331161781e-15
+        },
+        {
+          "budget": 11,
+          "original_neuron_id": 62,
+          "incremental_score": 0.009744193632431513,
+          "remaining_risk": 0.04495328662656909,
+          "projector_defect": 3.1996602578461825e-15
+        },
+        {
+          "budget": 12,
+          "original_neuron_id": 41,
+          "incremental_score": 0.00732751320560801,
+          "remaining_risk": 0.03762577342096107,
+          "projector_defect": 3.679845095271872e-15
+        },
+        {
+          "budget": 13,
+          "original_neuron_id": 81,
+          "incremental_score": 0.0057307006324195985,
+          "remaining_risk": 0.03189507278854147,
+          "projector_defect": 3.883775706113117e-15
+        },
+        {
+          "budget": 14,
+          "original_neuron_id": 84,
+          "incremental_score": 0.004802041731405616,
+          "remaining_risk": 0.027093031057135845,
+          "projector_defect": 5.2335982011863025e-15
+        },
+        {
+          "budget": 15,
+          "original_neuron_id": 61,
+          "incremental_score": 0.004555322275864554,
+          "remaining_risk": 0.022537708781271284,
+          "projector_defect": 7.248987853046325e-15
+        },
+        {
+          "budget": 16,
+          "original_neuron_id": 99,
+          "incremental_score": 0.0037593932082645638,
+          "remaining_risk": 0.01877831557300675,
+          "projector_defect": 1.280134581536458e-14
+        }
+      ]
+    },
+    {
+      "network": 4,
+      "history": [
+        {
+          "budget": 1,
+          "original_neuron_id": 56,
+          "incremental_score": 0.412590971855984,
+          "remaining_risk": 0.5874090281440161,
+          "projector_defect": 7.144882600131321e-16
+        },
+        {
+          "budget": 2,
+          "original_neuron_id": 76,
+          "incremental_score": 0.19097917096495645,
+          "remaining_risk": 0.3964298571790597,
+          "projector_defect": 6.901139445219834e-16
+        },
+        {
+          "budget": 3,
+          "original_neuron_id": 74,
+          "incremental_score": 0.09284056843658951,
+          "remaining_risk": 0.3035892887424702,
+          "projector_defect": 7.659073493076879e-16
+        },
+        {
+          "budget": 4,
+          "original_neuron_id": 16,
+          "incremental_score": 0.07725419958672991,
+          "remaining_risk": 0.22633508915574035,
+          "projector_defect": 8.493614732222295e-16
+        },
+        {
+          "budget": 5,
+          "original_neuron_id": 25,
+          "incremental_score": 0.05576545420581168,
+          "remaining_risk": 0.17056963494992863,
+          "projector_defect": 9.979687815045208e-16
+        },
+        {
+          "budget": 6,
+          "original_neuron_id": 36,
+          "incremental_score": 0.02955776536905387,
+          "remaining_risk": 0.14101186958087472,
+          "projector_defect": 1.5027119781490384e-15
+        },
+        {
+          "budget": 7,
+          "original_neuron_id": 34,
+          "incremental_score": 0.027828958403944743,
+          "remaining_risk": 0.11318291117693,
+          "projector_defect": 1.9371114333640648e-15
+        },
+        {
+          "budget": 8,
+          "original_neuron_id": 54,
+          "incremental_score": 0.024278754943054565,
+          "remaining_risk": 0.08890415623387542,
+          "projector_defect": 2.178429360768706e-15
+        },
+        {
+          "budget": 9,
+          "original_neuron_id": 48,
+          "incremental_score": 0.018962612735661806,
+          "remaining_risk": 0.06994154349821359,
+          "projector_defect": 3.1107748235324385e-15
+        },
+        {
+          "budget": 10,
+          "original_neuron_id": 20,
+          "incremental_score": 0.014448202468190488,
+          "remaining_risk": 0.05549334103002308,
+          "projector_defect": 4.371064879240735e-15
+        },
+        {
+          "budget": 11,
+          "original_neuron_id": 52,
+          "incremental_score": 0.010549878403487705,
+          "remaining_risk": 0.04494346262653539,
+          "projector_defect": 5.352646660605357e-15
+        },
+        {
+          "budget": 12,
+          "original_neuron_id": 1,
+          "incremental_score": 0.007043581946669848,
+          "remaining_risk": 0.03789988067986554,
+          "projector_defect": 6.444989472814556e-15
+        },
+        {
+          "budget": 13,
+          "original_neuron_id": 65,
+          "incremental_score": 0.006388558505309041,
+          "remaining_risk": 0.03151132217455654,
+          "projector_defect": 9.590230804660478e-15
+        },
+        {
+          "budget": 14,
+          "original_neuron_id": 5,
+          "incremental_score": 0.004880132833832888,
+          "remaining_risk": 0.026631189340723664,
+          "projector_defect": 1.0139205668150392e-14
+        },
+        {
+          "budget": 15,
+          "original_neuron_id": 33,
+          "incremental_score": 0.004415183895661465,
+          "remaining_risk": 0.02221600544506223,
+          "projector_defect": 1.489460292142564e-14
+        },
+        {
+          "budget": 16,
+          "original_neuron_id": 53,
+          "incremental_score": 0.0043125117442022794,
+          "remaining_risk": 0.017903493700859974,
+          "projector_defect": 1.7196593741709938e-14
+        }
+      ]
+    },
+    {
+      "network": 5,
+      "history": [
+        {
+          "budget": 1,
+          "original_neuron_id": 47,
+          "incremental_score": 0.40725027296195876,
+          "remaining_risk": 0.5927497270380414,
+          "projector_defect": 6.90886060212284e-16
+        },
+        {
+          "budget": 2,
+          "original_neuron_id": 7,
+          "incremental_score": 0.18098909970092059,
+          "remaining_risk": 0.4117606273371207,
+          "projector_defect": 9.079602950660014e-16
+        },
+        {
+          "budget": 3,
+          "original_neuron_id": 30,
+          "incremental_score": 0.10637733504683752,
+          "remaining_risk": 0.30538329229028316,
+          "projector_defect": 8.48565919068994e-16
+        },
+        {
+          "budget": 4,
+          "original_neuron_id": 62,
+          "incremental_score": 0.07185918848457726,
+          "remaining_risk": 0.2335241038057059,
+          "projector_defect": 8.76897999503371e-16
+        },
+        {
+          "budget": 5,
+          "original_neuron_id": 84,
+          "incremental_score": 0.045806625493562805,
+          "remaining_risk": 0.1877174783121431,
+          "projector_defect": 9.629354032782764e-16
+        },
+        {
+          "budget": 6,
+          "original_neuron_id": 83,
+          "incremental_score": 0.04054362090828368,
+          "remaining_risk": 0.14717385740385933,
+          "projector_defect": 1.4751644971513874e-15
+        },
+        {
+          "budget": 7,
+          "original_neuron_id": 8,
+          "incremental_score": 0.03771870721387127,
+          "remaining_risk": 0.10945515018998807,
+          "projector_defect": 1.5408899297808328e-15
+        },
+        {
+          "budget": 8,
+          "original_neuron_id": 53,
+          "incremental_score": 0.022306239122284872,
+          "remaining_risk": 0.08714891106770321,
+          "projector_defect": 1.6778626122925066e-15
+        },
+        {
+          "budget": 9,
+          "original_neuron_id": 89,
+          "incremental_score": 0.014970641765070814,
+          "remaining_risk": 0.07217826930263238,
+          "projector_defect": 2.972476478385355e-15
+        },
+        {
+          "budget": 10,
+          "original_neuron_id": 91,
+          "incremental_score": 0.012260273196407833,
+          "remaining_risk": 0.059917996106224565,
+          "projector_defect": 3.0379227178766785e-15
+        },
+        {
+          "budget": 11,
+          "original_neuron_id": 58,
+          "incremental_score": 0.010974878895869145,
+          "remaining_risk": 0.0489431172103554,
+          "projector_defect": 4.310436037895445e-15
+        },
+        {
+          "budget": 12,
+          "original_neuron_id": 86,
+          "incremental_score": 0.00957054496143369,
+          "remaining_risk": 0.03937257224892171,
+          "projector_defect": 4.527107838296621e-15
+        },
+        {
+          "budget": 13,
+          "original_neuron_id": 29,
+          "incremental_score": 0.0064362881349752,
+          "remaining_risk": 0.0329362841139465,
+          "projector_defect": 5.166009401303866e-15
+        },
+        {
+          "budget": 14,
+          "original_neuron_id": 17,
+          "incremental_score": 0.004949309711227817,
+          "remaining_risk": 0.02798697440271867,
+          "projector_defect": 7.062714290486243e-15
+        },
+        {
+          "budget": 15,
+          "original_neuron_id": 87,
+          "incremental_score": 0.004858676934116749,
+          "remaining_risk": 0.023128297468601927,
+          "projector_defect": 1.0885545229065577e-14
+        },
+        {
+          "budget": 16,
+          "original_neuron_id": 14,
+          "incremental_score": 0.004322392105653303,
+          "remaining_risk": 0.018805905362948627,
+          "projector_defect": 1.3907869603111254e-14
+        }
+      ]
+    },
+    {
+      "network": 6,
+      "history": [
+        {
+          "budget": 1,
+          "original_neuron_id": 54,
+          "incremental_score": 0.41034057036694366,
+          "remaining_risk": 0.5896594296330566,
+          "projector_defect": 6.808474518196091e-16
+        },
+        {
+          "budget": 2,
+          "original_neuron_id": 61,
+          "incremental_score": 0.19470634993711375,
+          "remaining_risk": 0.39495307969594284,
+          "projector_defect": 7.534392352857682e-16
+        },
+        {
+          "budget": 3,
+          "original_neuron_id": 79,
+          "incremental_score": 0.11959968640742759,
+          "remaining_risk": 0.2753533932885152,
+          "projector_defect": 9.23839993920261e-16
+        },
+        {
+          "budget": 4,
+          "original_neuron_id": 37,
+          "incremental_score": 0.06686150026375087,
+          "remaining_risk": 0.20849189302476426,
+          "projector_defect": 1.1594414011740782e-15
+        },
+        {
+          "budget": 5,
+          "original_neuron_id": 63,
+          "incremental_score": 0.04320607413595848,
+          "remaining_risk": 0.16528581888880578,
+          "projector_defect": 9.486767022169163e-16
+        },
+        {
+          "budget": 6,
+          "original_neuron_id": 64,
+          "incremental_score": 0.0383831666661501,
+          "remaining_risk": 0.12690265222265568,
+          "projector_defect": 1.1097210628900767e-15
+        },
+        {
+          "budget": 7,
+          "original_neuron_id": 67,
+          "incremental_score": 0.02722735487325795,
+          "remaining_risk": 0.09967529734939773,
+          "projector_defect": 9.938417589437007e-16
+        },
+        {
+          "budget": 8,
+          "original_neuron_id": 86,
+          "incremental_score": 0.018488048367701234,
+          "remaining_risk": 0.08118724898169652,
+          "projector_defect": 1.378142358176978e-15
+        },
+        {
+          "budget": 9,
+          "original_neuron_id": 22,
+          "incremental_score": 0.0175259722490871,
+          "remaining_risk": 0.0636612767326094,
+          "projector_defect": 1.4301592916238279e-15
+        },
+        {
+          "budget": 10,
+          "original_neuron_id": 43,
+          "incremental_score": 0.01331177181546478,
+          "remaining_risk": 0.050349504917144614,
+          "projector_defect": 1.7105218564196158e-15
+        },
+        {
+          "budget": 11,
+          "original_neuron_id": 20,
+          "incremental_score": 0.008756389600292205,
+          "remaining_risk": 0.04159311531685242,
+          "projector_defect": 2.0978934239331974e-15
+        },
+        {
+          "budget": 12,
+          "original_neuron_id": 81,
+          "incremental_score": 0.008111442766418373,
+          "remaining_risk": 0.033481672550434056,
+          "projector_defect": 3.3578549307609887e-15
+        },
+        {
+          "budget": 13,
+          "original_neuron_id": 25,
+          "incremental_score": 0.00554029698810289,
+          "remaining_risk": 0.027941375562331165,
+          "projector_defect": 3.772292087256505e-15
+        },
+        {
+          "budget": 14,
+          "original_neuron_id": 35,
+          "incremental_score": 0.0045912245369259825,
+          "remaining_risk": 0.023350151025405188,
+          "projector_defect": 6.103292172042114e-15
+        },
+        {
+          "budget": 15,
+          "original_neuron_id": 98,
+          "incremental_score": 0.0034776813391310135,
+          "remaining_risk": 0.019872469686274194,
+          "projector_defect": 7.953216088980734e-15
+        },
+        {
+          "budget": 16,
+          "original_neuron_id": 30,
+          "incremental_score": 0.0032607254479659503,
+          "remaining_risk": 0.01661174423830829,
+          "projector_defect": 1.4175094957604894e-14
+        }
+      ]
+    },
+    {
+      "network": 7,
+      "history": [
+        {
+          "budget": 1,
+          "original_neuron_id": 57,
+          "incremental_score": 0.41845519468450276,
+          "remaining_risk": 0.5815448053154971,
+          "projector_defect": 6.89158216125369e-16
+        },
+        {
+          "budget": 2,
+          "original_neuron_id": 4,
+          "incremental_score": 0.17921629805800135,
+          "remaining_risk": 0.4023285072574957,
+          "projector_defect": 6.629171605341734e-16
+        },
+        {
+          "budget": 3,
+          "original_neuron_id": 74,
+          "incremental_score": 0.11459217555804337,
+          "remaining_risk": 0.28773633169945234,
+          "projector_defect": 7.621126020061785e-16
+        },
+        {
+          "budget": 4,
+          "original_neuron_id": 59,
+          "incremental_score": 0.06546871923386705,
+          "remaining_risk": 0.22226761246558532,
+          "projector_defect": 7.835077596067993e-16
+        },
+        {
+          "budget": 5,
+          "original_neuron_id": 48,
+          "incremental_score": 0.05202879712270075,
+          "remaining_risk": 0.17023881534288454,
+          "projector_defect": 8.367495144088589e-16
+        },
+        {
+          "budget": 6,
+          "original_neuron_id": 96,
+          "incremental_score": 0.030347784711492357,
+          "remaining_risk": 0.1398910306313922,
+          "projector_defect": 9.286218514811547e-16
+        },
+        {
+          "budget": 7,
+          "original_neuron_id": 93,
+          "incremental_score": 0.024557891774684818,
+          "remaining_risk": 0.11533313885670737,
+          "projector_defect": 8.485627449510571e-16
+        },
+        {
+          "budget": 8,
+          "original_neuron_id": 56,
+          "incremental_score": 0.02270671106873212,
+          "remaining_risk": 0.09262642778797527,
+          "projector_defect": 1.0269733785701935e-15
+        },
+        {
+          "budget": 9,
+          "original_neuron_id": 9,
+          "incremental_score": 0.016545880559662933,
+          "remaining_risk": 0.07608054722831233,
+          "projector_defect": 1.109824472155997e-15
+        },
+        {
+          "budget": 10,
+          "original_neuron_id": 58,
+          "incremental_score": 0.014807687668595096,
+          "remaining_risk": 0.06127285955971724,
+          "projector_defect": 1.171121137451921e-15
+        },
+        {
+          "budget": 11,
+          "original_neuron_id": 43,
+          "incremental_score": 0.013301741605678595,
+          "remaining_risk": 0.04797111795403864,
+          "projector_defect": 1.465001260927884e-15
+        },
+        {
+          "budget": 12,
+          "original_neuron_id": 67,
+          "incremental_score": 0.009310758672568385,
+          "remaining_risk": 0.03866035928147026,
+          "projector_defect": 1.684115911837154e-15
+        },
+        {
+          "budget": 13,
+          "original_neuron_id": 5,
+          "incremental_score": 0.0061042144534458965,
+          "remaining_risk": 0.03255614482802437,
+          "projector_defect": 2.3900513612879227e-15
+        },
+        {
+          "budget": 14,
+          "original_neuron_id": 18,
+          "incremental_score": 0.005848479299068142,
+          "remaining_risk": 0.026707665528956235,
+          "projector_defect": 3.507322759328255e-15
+        },
+        {
+          "budget": 15,
+          "original_neuron_id": 71,
+          "incremental_score": 0.004821546894254368,
+          "remaining_risk": 0.021886118634701867,
+          "projector_defect": 3.610236219482428e-15
+        },
+        {
+          "budget": 16,
+          "original_neuron_id": 45,
+          "incremental_score": 0.003943711389974173,
+          "remaining_risk": 0.017942407244727693,
+          "projector_defect": 4.684130454753265e-15
+        }
+      ]
+    },
+    {
+      "network": 8,
+      "history": [
+        {
+          "budget": 1,
+          "original_neuron_id": 61,
+          "incremental_score": 0.40812242794362324,
+          "remaining_risk": 0.5918775720563768,
+          "projector_defect": 8.278139838224793e-16
+        },
+        {
+          "budget": 2,
+          "original_neuron_id": 49,
+          "incremental_score": 0.1840880174505623,
+          "remaining_risk": 0.40778955460581445,
+          "projector_defect": 6.743378628660482e-16
+        },
+        {
+          "budget": 3,
+          "original_neuron_id": 75,
+          "incremental_score": 0.10403277500432605,
+          "remaining_risk": 0.3037567796014884,
+          "projector_defect": 7.066408278468267e-16
+        },
+        {
+          "budget": 4,
+          "original_neuron_id": 31,
+          "incremental_score": 0.06971243970052204,
+          "remaining_risk": 0.23404433990096635,
+          "projector_defect": 8.85213000127123e-16
+        },
+        {
+          "budget": 5,
+          "original_neuron_id": 85,
+          "incremental_score": 0.06666229278640176,
+          "remaining_risk": 0.16738204711456456,
+          "projector_defect": 7.864447393460824e-16
+        },
+        {
+          "budget": 6,
+          "original_neuron_id": 83,
+          "incremental_score": 0.03725674113280804,
+          "remaining_risk": 0.13012530598175653,
+          "projector_defect": 9.347711854183885e-16
+        },
+        {
+          "budget": 7,
+          "original_neuron_id": 90,
+          "incremental_score": 0.023930841071072597,
+          "remaining_risk": 0.10619446491068393,
+          "projector_defect": 9.147955306566352e-16
+        },
+        {
+          "budget": 8,
+          "original_neuron_id": 36,
+          "incremental_score": 0.021775371299299472,
+          "remaining_risk": 0.08441909361138446,
+          "projector_defect": 1.1182549805230856e-15
+        },
+        {
+          "budget": 9,
+          "original_neuron_id": 4,
+          "incremental_score": 0.01779553960966524,
+          "remaining_risk": 0.06662355400171925,
+          "projector_defect": 1.1503526137671796e-15
+        },
+        {
+          "budget": 10,
+          "original_neuron_id": 5,
+          "incremental_score": 0.01108342953008549,
+          "remaining_risk": 0.05554012447163375,
+          "projector_defect": 1.1116649711798493e-15
+        },
+        {
+          "budget": 11,
+          "original_neuron_id": 66,
+          "incremental_score": 0.009552639415448209,
+          "remaining_risk": 0.04598748505618555,
+          "projector_defect": 1.6541258898683907e-15
+        },
+        {
+          "budget": 12,
+          "original_neuron_id": 2,
+          "incremental_score": 0.00851224522148278,
+          "remaining_risk": 0.037475239834702766,
+          "projector_defect": 2.542868602731051e-15
+        },
+        {
+          "budget": 13,
+          "original_neuron_id": 14,
+          "incremental_score": 0.006514029908214907,
+          "remaining_risk": 0.030961209926487866,
+          "projector_defect": 3.2045582578088154e-15
+        },
+        {
+          "budget": 14,
+          "original_neuron_id": 8,
+          "incremental_score": 0.00560113285005952,
+          "remaining_risk": 0.025360077076428327,
+          "projector_defect": 5.366147982107582e-15
+        },
+        {
+          "budget": 15,
+          "original_neuron_id": 20,
+          "incremental_score": 0.003758800722494603,
+          "remaining_risk": 0.02160127635393372,
+          "projector_defect": 7.105570378086354e-15
+        },
+        {
+          "budget": 16,
+          "original_neuron_id": 82,
+          "incremental_score": 0.003706947118032102,
+          "remaining_risk": 0.0178943292359016,
+          "projector_defect": 1.4399519166179317e-14
+        }
+      ]
+    },
+    {
+      "network": 9,
+      "history": [
+        {
+          "budget": 1,
+          "original_neuron_id": 39,
+          "incremental_score": 0.411115412353296,
+          "remaining_risk": 0.5888845876467038,
+          "projector_defect": 7.636770860728906e-16
+        },
+        {
+          "budget": 2,
+          "original_neuron_id": 61,
+          "incremental_score": 0.1982672184746965,
+          "remaining_risk": 0.39061736917200734,
+          "projector_defect": 5.756438148172713e-16
+        },
+        {
+          "budget": 3,
+          "original_neuron_id": 28,
+          "incremental_score": 0.11973244319631546,
+          "remaining_risk": 0.27088492597569186,
+          "projector_defect": 1.007339309263981e-15
+        },
+        {
+          "budget": 4,
+          "original_neuron_id": 13,
+          "incremental_score": 0.060781266137847186,
+          "remaining_risk": 0.21010365983784465,
+          "projector_defect": 9.534373585899384e-16
+        },
+        {
+          "budget": 5,
+          "original_neuron_id": 74,
+          "incremental_score": 0.04730891696067878,
+          "remaining_risk": 0.1627947428771659,
+          "projector_defect": 7.341224911663542e-16
+        },
+        {
+          "budget": 6,
+          "original_neuron_id": 69,
+          "incremental_score": 0.035741799566105056,
+          "remaining_risk": 0.1270529433110608,
+          "projector_defect": 9.01554667793113e-16
+        },
+        {
+          "budget": 7,
+          "original_neuron_id": 50,
+          "incremental_score": 0.027107338818590926,
+          "remaining_risk": 0.09994560449246992,
+          "projector_defect": 1.2375309034248091e-15
+        },
+        {
+          "budget": 8,
+          "original_neuron_id": 91,
+          "incremental_score": 0.020948839512572287,
+          "remaining_risk": 0.07899676497989763,
+          "projector_defect": 1.4182225540128756e-15
+        },
+        {
+          "budget": 9,
+          "original_neuron_id": 92,
+          "incremental_score": 0.013279595198314393,
+          "remaining_risk": 0.06571716978158323,
+          "projector_defect": 1.8671274316262104e-15
+        },
+        {
+          "budget": 10,
+          "original_neuron_id": 97,
+          "incremental_score": 0.011881032899086236,
+          "remaining_risk": 0.05383613688249699,
+          "projector_defect": 2.028379179287141e-15
+        },
+        {
+          "budget": 11,
+          "original_neuron_id": 24,
+          "incremental_score": 0.011553818876634425,
+          "remaining_risk": 0.04228231800586256,
+          "projector_defect": 2.194904396365356e-15
+        },
+        {
+          "budget": 12,
+          "original_neuron_id": 12,
+          "incremental_score": 0.007663812944182244,
+          "remaining_risk": 0.03461850506168031,
+          "projector_defect": 2.3121536456060476e-15
+        },
+        {
+          "budget": 13,
+          "original_neuron_id": 15,
+          "incremental_score": 0.00574387712354674,
+          "remaining_risk": 0.02887462793813357,
+          "projector_defect": 2.75461753898496e-15
+        },
+        {
+          "budget": 14,
+          "original_neuron_id": 83,
+          "incremental_score": 0.0042306597647783755,
+          "remaining_risk": 0.02464396817335521,
+          "projector_defect": 3.197674205925922e-15
+        },
+        {
+          "budget": 15,
+          "original_neuron_id": 71,
+          "incremental_score": 0.0038026177399946943,
+          "remaining_risk": 0.02084135043336051,
+          "projector_defect": 3.592706429429942e-15
+        },
+        {
+          "budget": 16,
+          "original_neuron_id": 94,
+          "incremental_score": 0.0036476692487821135,
+          "remaining_risk": 0.017193681184578386,
+          "projector_defect": 9.511453216910122e-15
+        }
+      ]
+    },
+    {
+      "network": 10,
+      "history": [
+        {
+          "budget": 1,
+          "original_neuron_id": 94,
+          "incremental_score": 0.40648355711948525,
+          "remaining_risk": 0.5935164428805149,
+          "projector_defect": 7.072823404141766e-16
+        },
+        {
+          "budget": 2,
+          "original_neuron_id": 50,
+          "incremental_score": 0.18848206162345676,
+          "remaining_risk": 0.40503438125705815,
+          "projector_defect": 7.38066197469279e-16
+        },
+        {
+          "budget": 3,
+          "original_neuron_id": 74,
+          "incremental_score": 0.10963621638946149,
+          "remaining_risk": 0.2953981648675967,
+          "projector_defect": 8.054202597540169e-16
+        },
+        {
+          "budget": 4,
+          "original_neuron_id": 12,
+          "incremental_score": 0.0717459739481357,
+          "remaining_risk": 0.223652190919461,
+          "projector_defect": 9.395824174714268e-16
+        },
+        {
+          "budget": 5,
+          "original_neuron_id": 3,
+          "incremental_score": 0.05287668330716789,
+          "remaining_risk": 0.1707755076122931,
+          "projector_defect": 8.562820455893368e-16
+        },
+        {
+          "budget": 6,
+          "original_neuron_id": 29,
+          "incremental_score": 0.0437775454502755,
+          "remaining_risk": 0.12699796216201764,
+          "projector_defect": 1.1163872199208635e-15
+        },
+        {
+          "budget": 7,
+          "original_neuron_id": 21,
+          "incremental_score": 0.027756661164709498,
+          "remaining_risk": 0.09924130099730813,
+          "projector_defect": 1.1128099229831253e-15
+        },
+        {
+          "budget": 8,
+          "original_neuron_id": 2,
+          "incremental_score": 0.01928195386558815,
+          "remaining_risk": 0.07995934713171997,
+          "projector_defect": 1.1528522722333618e-15
+        },
+        {
+          "budget": 9,
+          "original_neuron_id": 62,
+          "incremental_score": 0.013282485004077235,
+          "remaining_risk": 0.06667686212764272,
+          "projector_defect": 1.5890468055967493e-15
+        },
+        {
+          "budget": 10,
+          "original_neuron_id": 33,
+          "incremental_score": 0.010515063737287712,
+          "remaining_risk": 0.056161798390355,
+          "projector_defect": 1.963602505651106e-15
+        },
+        {
+          "budget": 11,
+          "original_neuron_id": 0,
+          "incremental_score": 0.009581693096397595,
+          "remaining_risk": 0.04658010529395741,
+          "projector_defect": 2.2272886948068042e-15
+        },
+        {
+          "budget": 12,
+          "original_neuron_id": 37,
+          "incremental_score": 0.00889996143430942,
+          "remaining_risk": 0.037680143859648,
+          "projector_defect": 2.581988763135827e-15
+        },
+        {
+          "budget": 13,
+          "original_neuron_id": 43,
+          "incremental_score": 0.007830507802210037,
+          "remaining_risk": 0.029849636057437956,
+          "projector_defect": 3.172598049580567e-15
+        },
+        {
+          "budget": 14,
+          "original_neuron_id": 72,
+          "incremental_score": 0.006241708484836183,
+          "remaining_risk": 0.02360792757260176,
+          "projector_defect": 4.8215216838197055e-15
+        },
+        {
+          "budget": 15,
+          "original_neuron_id": 11,
+          "incremental_score": 0.0036417329977763914,
+          "remaining_risk": 0.01996619457482537,
+          "projector_defect": 5.623938321190994e-15
+        },
+        {
+          "budget": 16,
+          "original_neuron_id": 47,
+          "incremental_score": 0.0030695914259295173,
+          "remaining_risk": 0.016896603148895854,
+          "projector_defect": 8.504794930559365e-15
+        }
+      ]
+    },
+    {
+      "network": 11,
+      "history": [
+        {
+          "budget": 1,
+          "original_neuron_id": 91,
+          "incremental_score": 0.42600255787919555,
+          "remaining_risk": 0.5739974421208048,
+          "projector_defect": 7.871626329984088e-16
+        },
+        {
+          "budget": 2,
+          "original_neuron_id": 16,
+          "incremental_score": 0.18082882715735268,
+          "remaining_risk": 0.39316861496345207,
+          "projector_defect": 7.446701325677346e-16
+        },
+        {
+          "budget": 3,
+          "original_neuron_id": 77,
+          "incremental_score": 0.10706978896180762,
+          "remaining_risk": 0.2860988260016445,
+          "projector_defect": 7.14321852579129e-16
+        },
+        {
+          "budget": 4,
+          "original_neuron_id": 87,
+          "incremental_score": 0.07191626479575323,
+          "remaining_risk": 0.2141825612058913,
+          "projector_defect": 7.880018853242058e-16
+        },
+        {
+          "budget": 5,
+          "original_neuron_id": 95,
+          "incremental_score": 0.047719783294169,
+          "remaining_risk": 0.16646277791172226,
+          "projector_defect": 1.0620314963711144e-15
+        },
+        {
+          "budget": 6,
+          "original_neuron_id": 33,
+          "incremental_score": 0.03879948762143427,
+          "remaining_risk": 0.12766329029028795,
+          "projector_defect": 1.277940953050081e-15
+        },
+        {
+          "budget": 7,
+          "original_neuron_id": 28,
+          "incremental_score": 0.02696267352563132,
+          "remaining_risk": 0.10070061676465664,
+          "projector_defect": 1.379663436965605e-15
+        },
+        {
+          "budget": 8,
+          "original_neuron_id": 1,
+          "incremental_score": 0.01833151362052415,
+          "remaining_risk": 0.0823691031441325,
+          "projector_defect": 1.5682799668334342e-15
+        },
+        {
+          "budget": 9,
+          "original_neuron_id": 65,
+          "incremental_score": 0.01574908609363485,
+          "remaining_risk": 0.06662001705049765,
+          "projector_defect": 1.5597609708550609e-15
+        },
+        {
+          "budget": 10,
+          "original_neuron_id": 10,
+          "incremental_score": 0.01112795386075032,
+          "remaining_risk": 0.05549206318974731,
+          "projector_defect": 2.3505927027827602e-15
+        },
+        {
+          "budget": 11,
+          "original_neuron_id": 67,
+          "incremental_score": 0.0085711845591914,
+          "remaining_risk": 0.0469208786305559,
+          "projector_defect": 3.658314053342087e-15
+        },
+        {
+          "budget": 12,
+          "original_neuron_id": 85,
+          "incremental_score": 0.007864507414729934,
+          "remaining_risk": 0.039056371215825975,
+          "projector_defect": 3.947055127178031e-15
+        },
+        {
+          "budget": 13,
+          "original_neuron_id": 89,
+          "incremental_score": 0.006324017247605302,
+          "remaining_risk": 0.03273235396822067,
+          "projector_defect": 4.8926129452289045e-15
+        },
+        {
+          "budget": 14,
+          "original_neuron_id": 47,
+          "incremental_score": 0.005540229394870087,
+          "remaining_risk": 0.02719212457335058,
+          "projector_defect": 4.910540669062842e-15
+        },
+        {
+          "budget": 15,
+          "original_neuron_id": 97,
+          "incremental_score": 0.0045233910948793855,
+          "remaining_risk": 0.02266873347847119,
+          "projector_defect": 6.290329843036422e-15
+        },
+        {
+          "budget": 16,
+          "original_neuron_id": 43,
+          "incremental_score": 0.0036948157147478136,
+          "remaining_risk": 0.018973917763723383,
+          "projector_defect": 6.537052198276056e-15
+        }
+      ]
+    }
+  ],
+  "versions": {
+    "python": "3.13.2",
+    "numpy": "2.2.5",
+    "scipy": "1.15.2",
+    "matplotlib": "3.10.1",
+    "threadpools": []
+  },
+  "script_sha256": "15a0422d0257c08b6b2935c4d1dad46d5e2d1dedc88662605ad0789d41409943",
+  "wall_seconds": 2.725663790999988
+}

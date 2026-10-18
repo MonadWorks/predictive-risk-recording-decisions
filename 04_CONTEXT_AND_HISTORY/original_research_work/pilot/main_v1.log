@@ -1,0 +1,713 @@
+{"seed": 100, "fits": 28, "elapsed_seconds": 0.79}
+{"seed": 101, "fits": 56, "elapsed_seconds": 1.48}
+{"seed": 102, "fits": 84, "elapsed_seconds": 2.16}
+{"seed": 103, "fits": 112, "elapsed_seconds": 2.84}
+{"seed": 104, "fits": 140, "elapsed_seconds": 3.48}
+{"seed": 105, "fits": 168, "elapsed_seconds": 4.14}
+{"seed": 106, "fits": 196, "elapsed_seconds": 4.77}
+{"seed": 107, "fits": 224, "elapsed_seconds": 5.41}
+{"seed": 108, "fits": 252, "elapsed_seconds": 6.06}
+{"seed": 109, "fits": 280, "elapsed_seconds": 6.7}
+{"seed": 110, "fits": 308, "elapsed_seconds": 7.39}
+{"seed": 111, "fits": 336, "elapsed_seconds": 8.02}
+{
+  "status": "exploratory synthetic pilot; not biological validation",
+  "elapsed_seconds": 8.021781250019558,
+  "fits": 336,
+  "groups": [
+    {
+      "pool": "all",
+      "budget": 3,
+      "method": "activity",
+      "n": 12,
+      "q_rmse": 0.0026690126434515712,
+      "median_abs_q_error": 0.00014884456040609452,
+      "normalized_q_rmse": 0.6892053997834058,
+      "passive_mse": 0.01732559911105896,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.02025341324042529
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "method": "goal",
+      "n": 12,
+      "q_rmse": 0.00025851713216093936,
+      "median_abs_q_error": 0.00010552739128741068,
+      "normalized_q_rmse": 0.34961445641410366,
+      "passive_mse": 0.021648931772511048,
+      "coverage_95": 0.8333333333333334,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.020848906254589867
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "method": "parameter",
+      "n": 12,
+      "q_rmse": 0.002257990312254465,
+      "median_abs_q_error": 0.00022204078707359077,
+      "normalized_q_rmse": 0.7738860864116612,
+      "passive_mse": 0.018044776562101145,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.020410368083200108
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "method": "random",
+      "n": 12,
+      "q_rmse": 0.0024465464890930143,
+      "median_abs_q_error": 0.00017854498035405308,
+      "normalized_q_rmse": 0.6960798847074301,
+      "passive_mse": 0.021513867353795315,
+      "coverage_95": 1.0,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.020575097170270357
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "method": "response_state",
+      "n": 12,
+      "q_rmse": 0.002238924719248803,
+      "median_abs_q_error": 0.00015501034351245732,
+      "normalized_q_rmse": 0.6979234277058866,
+      "passive_mse": 0.021113364644974694,
+      "coverage_95": 1.0,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.02029742375210238
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "method": "shuffled_goal",
+      "n": 12,
+      "q_rmse": 0.0016918602298804436,
+      "median_abs_q_error": 0.00013456515470339214,
+      "normalized_q_rmse": 0.6933252517351766,
+      "passive_mse": 0.025560075914875562,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.020206288259942085
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "method": "stimulus_state",
+      "n": 12,
+      "q_rmse": 0.002618126620992983,
+      "median_abs_q_error": 0.00019900881959364073,
+      "normalized_q_rmse": 0.6974951206947575,
+      "passive_mse": 0.016014010006101195,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.020846618009575952
+    },
+    {
+      "pool": "all",
+      "budget": 6,
+      "method": "activity",
+      "n": 12,
+      "q_rmse": 0.0013438214125352447,
+      "median_abs_q_error": 9.221378689157618e-05,
+      "normalized_q_rmse": 0.4228231202610652,
+      "passive_mse": 0.008876576737106514,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.021827020915225148
+    },
+    {
+      "pool": "all",
+      "budget": 6,
+      "method": "goal",
+      "n": 12,
+      "q_rmse": 0.000261378473049785,
+      "median_abs_q_error": 5.259512715572725e-05,
+      "normalized_q_rmse": 0.24908313698481663,
+      "passive_mse": 0.012587674015052015,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.020643552086160828
+    },
+    {
+      "pool": "all",
+      "budget": 6,
+      "method": "parameter",
+      "n": 12,
+      "q_rmse": 0.0013677600954397125,
+      "median_abs_q_error": 0.00019290992923041723,
+      "normalized_q_rmse": 0.42609714448161057,
+      "passive_mse": 0.009088855880440514,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.02087052067508921
+    },
+    {
+      "pool": "all",
+      "budget": 6,
+      "method": "random",
+      "n": 12,
+      "q_rmse": 0.0017523542725431753,
+      "median_abs_q_error": 0.00011006812924573594,
+      "normalized_q_rmse": 0.45020341089988175,
+      "passive_mse": 0.012510589384073505,
+      "coverage_95": 1.0,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.02071846190665383
+    },
+    {
+      "pool": "all",
+      "budget": 6,
+      "method": "response_state",
+      "n": 12,
+      "q_rmse": 0.0007402057423193517,
+      "median_abs_q_error": 0.00016153515505027988,
+      "normalized_q_rmse": 0.5114175377601644,
+      "passive_mse": 0.010081556824497517,
+      "coverage_95": 1.0,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.021414548503040958
+    },
+    {
+      "pool": "all",
+      "budget": 6,
+      "method": "shuffled_goal",
+      "n": 12,
+      "q_rmse": 0.0021360562155487797,
+      "median_abs_q_error": 0.000123185961255462,
+      "normalized_q_rmse": 0.678999808347546,
+      "passive_mse": 0.016972564977057982,
+      "coverage_95": 0.8333333333333334,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.02053528809240864
+    },
+    {
+      "pool": "all",
+      "budget": 6,
+      "method": "stimulus_state",
+      "n": 12,
+      "q_rmse": 0.0014013187061953632,
+      "median_abs_q_error": 0.00015563987631851946,
+      "normalized_q_rmse": 0.5270876123100445,
+      "passive_mse": 0.008292807380834684,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.0214675487416874
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 3,
+      "method": "activity",
+      "n": 12,
+      "q_rmse": 0.002688493911556887,
+      "median_abs_q_error": 0.00019496718043163498,
+      "normalized_q_rmse": 0.7972553854196958,
+      "passive_mse": 0.0185117788598169,
+      "coverage_95": 0.8333333333333334,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.02048800692621929
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 3,
+      "method": "goal",
+      "n": 12,
+      "q_rmse": 0.0020140326216594264,
+      "median_abs_q_error": 0.00016214120761362527,
+      "normalized_q_rmse": 0.6057049017756602,
+      "passive_mse": 0.02278763420148491,
+      "coverage_95": 1.0,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.02116529874911066
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 3,
+      "method": "parameter",
+      "n": 12,
+      "q_rmse": 0.0023062978274976135,
+      "median_abs_q_error": 0.0002241640597025779,
+      "normalized_q_rmse": 0.8205321767068339,
+      "passive_mse": 0.020445654770339626,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.020336305581925746
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 3,
+      "method": "random",
+      "n": 12,
+      "q_rmse": 0.002417154903638697,
+      "median_abs_q_error": 0.0001668229250727155,
+      "normalized_q_rmse": 0.6768999622133725,
+      "passive_mse": 0.023589817502981777,
+      "coverage_95": 1.0,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.02023321541491896
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 3,
+      "method": "response_state",
+      "n": 12,
+      "q_rmse": 0.00244730447489697,
+      "median_abs_q_error": 0.00016963383739215262,
+      "normalized_q_rmse": 0.7538994150932955,
+      "passive_mse": 0.02171443339944808,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.020846531333518215
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 3,
+      "method": "shuffled_goal",
+      "n": 12,
+      "q_rmse": 0.0021989612061886175,
+      "median_abs_q_error": 0.0002373511632098313,
+      "normalized_q_rmse": 0.7566791206525647,
+      "passive_mse": 0.026109126634680905,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.02015836825497293
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 3,
+      "method": "stimulus_state",
+      "n": 12,
+      "q_rmse": 0.0026246811563796764,
+      "median_abs_q_error": 0.00014142734038330996,
+      "normalized_q_rmse": 0.7520732712852768,
+      "passive_mse": 0.01861268265712823,
+      "coverage_95": 0.8333333333333334,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.025015274421699967
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 6,
+      "method": "activity",
+      "n": 12,
+      "q_rmse": 0.0022879407100051537,
+      "median_abs_q_error": 0.0002483520836406267,
+      "normalized_q_rmse": 0.8233964701946032,
+      "passive_mse": 0.01082881367743386,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.022765941253358808
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 6,
+      "method": "goal",
+      "n": 12,
+      "q_rmse": 0.0024219466316853966,
+      "median_abs_q_error": 8.913929001931607e-05,
+      "normalized_q_rmse": 0.6251914386422207,
+      "passive_mse": 0.011838980639986238,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.020837312656415936
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 6,
+      "method": "parameter",
+      "n": 12,
+      "q_rmse": 0.001846023219054043,
+      "median_abs_q_error": 0.000252931502437978,
+      "normalized_q_rmse": 0.7302169493982872,
+      "passive_mse": 0.010107724119962563,
+      "coverage_95": 1.0,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.021201437416796882
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 6,
+      "method": "random",
+      "n": 12,
+      "q_rmse": 0.00219612233700868,
+      "median_abs_q_error": 0.00018572107633554896,
+      "normalized_q_rmse": 0.6428221435148337,
+      "passive_mse": 0.012431128183000554,
+      "coverage_95": 1.0,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.021528861160428885
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 6,
+      "method": "response_state",
+      "n": 12,
+      "q_rmse": 0.0024235445748954907,
+      "median_abs_q_error": 0.00026414031744867477,
+      "normalized_q_rmse": 0.8399548838489959,
+      "passive_mse": 0.01343708282582981,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.021701427079581965
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 6,
+      "method": "shuffled_goal",
+      "n": 12,
+      "q_rmse": 0.0027003656135203636,
+      "median_abs_q_error": 0.00016508273879322076,
+      "normalized_q_rmse": 0.801328971099695,
+      "passive_mse": 0.014864893549452087,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.02087946166769446
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 6,
+      "method": "stimulus_state",
+      "n": 12,
+      "q_rmse": 0.002289320865519448,
+      "median_abs_q_error": 0.0002483520836406378,
+      "normalized_q_rmse": 0.828533080541366,
+      "passive_mse": 0.010905858171048185,
+      "coverage_95": 0.9166666666666666,
+      "success_fraction": 1.0,
+      "mean_fit_seconds": 0.021923062750526395
+    }
+  ],
+  "paired": [
+    {
+      "pool": "all",
+      "budget": 3,
+      "competitor": "activity",
+      "n": 12,
+      "mean_abs_error_difference": -0.00100935371098372,
+      "exploratory_bootstrap_95": [
+        -0.0024951482959624386,
+        -4.371918731484384e-05
+      ],
+      "goal_wins": 10,
+      "ties": 0
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "competitor": "stimulus_state",
+      "n": 12,
+      "mean_abs_error_difference": -0.0009325419233255009,
+      "exploratory_bootstrap_95": [
+        -0.002402786525863421,
+        -3.800010872578988e-05
+      ],
+      "goal_wins": 10,
+      "ties": 0
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "competitor": "response_state",
+      "n": 12,
+      "mean_abs_error_difference": -0.0008601917920497945,
+      "exploratory_bootstrap_95": [
+        -0.0020641572347160075,
+        7.145264225006436e-06
+      ],
+      "goal_wins": 7,
+      "ties": 0
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "competitor": "random",
+      "n": 12,
+      "mean_abs_error_difference": -0.0009445318113911897,
+      "exploratory_bootstrap_95": [
+        -0.0022921160394341533,
+        -4.315024640703229e-05
+      ],
+      "goal_wins": 9,
+      "ties": 0
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "competitor": "shuffled_goal",
+      "n": 12,
+      "mean_abs_error_difference": -0.0005676036773870887,
+      "exploratory_bootstrap_95": [
+        -0.0014587574294719987,
+        1.072475154710856e-05
+      ],
+      "goal_wins": 8,
+      "ties": 0
+    },
+    {
+      "pool": "all",
+      "budget": 3,
+      "competitor": "parameter",
+      "n": 12,
+      "mean_abs_error_difference": -0.0009390871531962693,
+      "exploratory_bootstrap_95": [
+        -0.00214523799708838,
+        -6.507135421343484e-05
+      ],
+      "goal_wins": 9,
+      "ties": 0
+    },
+    {
+      "pool": "all",
+      "budget": 6,
+      "competitor": "activity",
+      "n": 12,
+      "mean_abs_error_difference": -0.0003678852626971549,
+      "exploratory_bootstrap_95": [
+        -0.001070406905019499,
+        4.179106970561002e-06
+      ],
+      "goal_wins": 8,
+      "ties": 0
+    },
+    {
+      "pool": "all",
+      "budget": 6,
+      "competitor": "stimulus_state",
+      "n": 12,
+      "mean_abs_error_difference": -0.00041927470394075055,
+      "exploratory_bootstrap_95": [
+        -0.001151052437370725,
+        -1.768953935651307e-05
+      ],
+      "goal_wins": 9,
+      "ties": 0
+    },
+    {
+      "pool": "all",
+      "budget": 6,
+      "competitor": "response_state",
+      "n": 12,
+      "mean_abs_error_difference": -0.000257145080226477,
+      "exploratory_bootstrap_95": [
+        -0.0006251781990330521,
+        -4.975943736077561e-05
+      ],
+      "goal_wins": 10,
+      "ties": 0
+    },
+    {
+      "pool": "all",
+      "budget": 6,
+      "competitor": "random",
+      "n": 12,
+      "mean_abs_error_difference": -0.00047744145632170536,
+      "exploratory_bootstrap_95": [
+        -0.0014193981176689068,
+        1.2611298149326196e-05
+      ],
+      "goal_wins": 8,
+      "ties": 0
+    },
+    {
+      "pool": "all",
+      "budget": 6,
+      "competitor": "shuffled_goal",
+      "n": 12,
+      "mean_abs_error_difference": -0.0005837576711083865,
+      "exploratory_bootstrap_95": [
+        -0.0017893732939239482,
+        9.367450109645906e-05
+      ],
+      "goal_wins": 9,
+      "ties": 0
+    },
+    {
+      "pool": "all",
+      "budget": 6,
+      "competitor": "parameter",
+      "n": 12,
+      "mean_abs_error_difference": -0.00045105284546247696,
+      "exploratory_bootstrap_95": [
+        -0.00115761252322279,
+        -3.0683557855810554e-05
+      ],
+      "goal_wins": 8,
+      "ties": 0
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 3,
+      "competitor": "activity",
+      "n": 12,
+      "mean_abs_error_difference": -0.000351582731589732,
+      "exploratory_bootstrap_95": [
+        -0.0007871877940323598,
+        2.607390356143142e-05
+      ],
+      "goal_wins": 8,
+      "ties": 0
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 3,
+      "competitor": "stimulus_state",
+      "n": 12,
+      "mean_abs_error_difference": -0.00024390691078823748,
+      "exploratory_bootstrap_95": [
+        -0.0006562468353413237,
+        9.259798253194619e-05
+      ],
+      "goal_wins": 7,
+      "ties": 0
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 3,
+      "competitor": "response_state",
+      "n": 12,
+      "mean_abs_error_difference": -0.0001699261275649289,
+      "exploratory_bootstrap_95": [
+        -0.00047249762969239247,
+        8.789260206970943e-05
+      ],
+      "goal_wins": 6,
+      "ties": 1
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 3,
+      "competitor": "random",
+      "n": 12,
+      "mean_abs_error_difference": -0.00036042728067805244,
+      "exploratory_bootstrap_95": [
+        -0.0008435454461891138,
+        -1.856293191483681e-06
+      ],
+      "goal_wins": 8,
+      "ties": 0
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 3,
+      "competitor": "shuffled_goal",
+      "n": 12,
+      "mean_abs_error_difference": -0.00017004097853282355,
+      "exploratory_bootstrap_95": [
+        -0.00046045424087604454,
+        6.478480115267706e-05
+      ],
+      "goal_wins": 7,
+      "ties": 0
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 3,
+      "competitor": "parameter",
+      "n": 12,
+      "mean_abs_error_difference": -0.00031724927730762724,
+      "exploratory_bootstrap_95": [
+        -0.0007712468472104694,
+        3.502733815284577e-05
+      ],
+      "goal_wins": 9,
+      "ties": 0
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 6,
+      "competitor": "activity",
+      "n": 12,
+      "mean_abs_error_difference": 1.8898887431029765e-05,
+      "exploratory_bootstrap_95": [
+        -7.750630241111976e-05,
+        0.0001309860027513479
+      ],
+      "goal_wins": 6,
+      "ties": 0
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 6,
+      "competitor": "stimulus_state",
+      "n": 12,
+      "mean_abs_error_difference": 9.821697471951857e-06,
+      "exploratory_bootstrap_95": [
+        -9.751172147750818e-05,
+        0.00012859193951833051
+      ],
+      "goal_wins": 6,
+      "ties": 0
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 6,
+      "competitor": "response_state",
+      "n": 12,
+      "mean_abs_error_difference": -3.3150854937140165e-05,
+      "exploratory_bootstrap_95": [
+        -0.00010131677352705235,
+        3.257872310713962e-05
+      ],
+      "goal_wins": 7,
+      "ties": 3
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 6,
+      "competitor": "random",
+      "n": 12,
+      "mean_abs_error_difference": -0.00013516207071523884,
+      "exploratory_bootstrap_95": [
+        -0.0006964785676980408,
+        0.0003166320353325165
+      ],
+      "goal_wins": 6,
+      "ties": 0
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 6,
+      "competitor": "shuffled_goal",
+      "n": 12,
+      "mean_abs_error_difference": -4.810189373001087e-05,
+      "exploratory_bootstrap_95": [
+        -0.000260651931841183,
+        0.00013486707964032065
+      ],
+      "goal_wins": 7,
+      "ties": 1
+    },
+    {
+      "pool": "exclude_endpoints",
+      "budget": 6,
+      "competitor": "parameter",
+      "n": 12,
+      "mean_abs_error_difference": 0.00011218814333691903,
+      "exploratory_bootstrap_95": [
+        -0.0001858700964771389,
+        0.0005077144470346203
+      ],
+      "goal_wins": 8,
+      "ties": 0
+    }
+  ],
+  "interpretation": "Negative error difference favors goal. Intervals exploratory; same J per seed across methods. No confirmatory claims.",
+  "checks": {
+    "derivative_relative_error": 2.771066139614849e-11,
+    "linear_bias_null_q_range": 1.7694179454963432e-16,
+    "linear_bias_null_max_gradient": 0.0,
+    "dt_half_absolute_q_change": 1.4130578213322927e-05,
+    "dt_half_relative_q_change": 0.0034857051067544924,
+    "design_independent_of_truth": true
+  },
+  "completed_teachers": 12,
+  "environment": {
+    "python": "3.13.2",
+    "numpy": "2.2.5",
+    "machine": "arm64",
+    "threadpools": []
+  }
+}

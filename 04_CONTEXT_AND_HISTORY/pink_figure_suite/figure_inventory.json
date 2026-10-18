@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Fig. 1 | Three-layer audit",
+    "stem": "fig1_audit",
+    "width_mm": 179.99999999998553,
+    "height_mm": 98.00000000001721
+  },
+  {
+    "title": "Fig. 2 | Connectivity, recordings and response",
+    "stem": "fig2_data_overview",
+    "width_mm": 179.99999999998553,
+    "height_mm": 121.9999999999847
+  },
+  {
+    "title": "Fig. 3 | Recording decisions and response error",
+    "stem": "fig3_recording_decisions",
+    "width_mm": 179.99999999998553,
+    "height_mm": 109.99999999998332
+  },
+  {
+    "title": "Fig. 4 | Risk forecasts on fixed predictions",
+    "stem": "fig4_risk_forecasts",
+    "width_mm": 179.99999999998553,
+    "height_mm": 99.99999999998803
+  },
+  {
+    "title": "Fig. 5 | Exploratory model-family extension",
+    "stem": "fig5_extension",
+    "width_mm": 179.99999999998553,
+    "height_mm": 87.99999999998666
+  },
+  {
+    "title": "Fig. S1 | Paired distributions",
+    "stem": "supplementary/figS1_complete_paired_distributions_pink",
+    "width_mm": 179.99999999998553,
+    "height_mm": 75.99999999998526
+  },
+  {
+    "title": "Fig. S2 | Matched uncertainty",
+    "stem": "supplementary/figS2_matched_conditions_pink",
+    "width_mm": 179.99999999998553,
+    "height_mm": 169.99999999999025
+  },
+  {
+    "title": "Fig. S3 | Broad uncertainty",
+    "stem": "supplementary/figS3_broad_conditions_pink",
+    "width_mm": 179.99999999998553,
+    "height_mm": 169.99999999999025
+  },
+  {
+    "title": "Fig. S4 | Bias-shift uncertainty",
+    "stem": "supplementary/figS4_bias_shift_conditions_pink",
+    "width_mm": 179.99999999998553,
+    "height_mm": 169.99999999999025
+  },
+  {
+    "title": "Fig. S5 | Linear positive control",
+    "stem": "supplementary/figS5_linear_positive_control_pink",
+    "width_mm": 179.99999999998553,
+    "height_mm": 91.99999999999889
+  }
+]

@@ -1,0 +1,112 @@
+{
+  "title": "ICBR 2026",
+  "text": "Home\nCommittee\nProgram\nProgram at a Glance\nInvited Speakers\nTutorials & Workshops\nCall for Papers\nSubmission\nAuthor Guidelines\nSubmission Guidelines\nRegistration\nVenue\nConference Venue\nTravel\nVisa\nTransportation\nPlenary Talk\nPlenary Talk: 09:00-10:00 AM, Saturday, 31 October 2026\n\nHairong Zheng\nAcademician, Chinese Academy of Sciences\nExecutive Vice President, Nanjing University, China\n\nTitle: Brain-Computer Interfaces and Biological Intelligence\n\nAbstract: Brain-Computer Interface (BCI), serving as a bridge connecting biological intelligence with data intelligence and physical intelligence, represents an inevitable stage in the transition from “computational power dependence” to “intellectual dependence” in the era of artificial intelligence. It is driving the deep convergence of brain science research and intelligent technology revolution. Brain “reading” and “writing” are the core of BCI. The precise “reading” and “writing” mechanisms for brain-computer interface imaging and decoding neural signals are fundamental scientific challenges. Breaking through brain function and neural imaging, translation, and neural information writing to achieve efficient brain-computer information interaction is at the forefront of current scientific challenges and a key breakthrough for neural engineering, brain disease intervention, and brain-inspired computing. This report reviews the development history of AI, from Turing’s dream of “making machines think” to the rise of deep learning and the current era of large-scale models, highlighting AI’s significant breakthroughs in computational intelligence. Focusing on the technical roadmap for non-invasive BCI, this report examines the advancements in the development of transformative technologies for non-invasive brain-computer interface imaging and non-invasive acoustic-magnetic physical “reading” and “writing” technologies, revealing the decoding principles of neural electrical signals in relation to consciousness and movement intent. By integrating deep learning algorithms and real-time signal processing technologies, efficient and stable brain-machine interaction paradigms are constructed. Furthermore, the application potential of BCI imaging and regulation in visual reconstruction, motor intervention, and augmented reality is explored. Through interdisciplinary collaboration and innovation, brain-computer interface technology will provide transformative tools for brain disease diagnosis and treatment, embodied intelligence, human-machine collaborative intelligence, and the future ecosystem of “brain-to-brain communication.”\n\nBiography: Dr. Hairong Zheng is an academician at the Chinese Academy of Sciences, serves as executive vice president of Nanjing University, and professor at the Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences. He received his Ph.D degree in mechanical engineering from the University of Colorado at Boulder in 2006. He then joined the University of California, Davis, initially as a postdoctoral fellow, before becoming a project scientist in the Department of Biomedical Engineering. His research primarily focuses on brain-computer interface, medical imaging technology and instrumentation systems. Dr. Zheng is the recipient of the National Science Fund for Distinguished Young Scholars and has led several major scientific research projects. Additionally, he holds the position of director at the National Innovation Center for Advanced Medical Devices, and acts as vice president of the Chinese Society of Biomedical Engineering. For his contributions, Dr. Zheng has been honored with the National Science and Technology Award.\n\nPlenary Talk: 10:30-11:30 AM, Saturday, 31 October 2026\n\nOliver G. Schmidt\nAcademician, German Academy of Science and Engineering\nProfessor, Chemnitz University of Technology, Germany\n\n\nTitle: Modular Microrobots: From Actuators and Single Cell Biohybrids to Non-Biological Organisms and Voxelized Life\n\nAbstract: Analogous to nature with its biological cells as basic building blocks for myriads of different lifeforms, tiny modular microrobots make large leaps forward towards creating artificial life based on non-biological material modules [1]. The talk will show how the field has developed from tiny remotely controlled magnetic actuator devices [e.g. 2] via single cell cybernetic organisms [3] to micromachined mass fabricated intelligent modular microrobots with on-board electronic control [4]. The latter are made of soft material scaffolds with tiny Si CMOS chiplets sitting between the folds, for a massive increase in information processing capabilities. They can communicate, dock together, exchange programs and configure into larger entities like simple forms of voxelized non-biological organisms. The technology is based on our previous work on self-folding [5,6] and self-locomoting [7] thin film electronic modules and addresses key challenges in the field of microrobotics, for instance on-board energy management, scalability [8,9] and the question of whether body or brain should come first when constructing microrobotic systems [10].\n[1] Adv. Mater. 35, 2306344 (2023); [2] Nature Nanotechnol. 19, 494 (2024); [3] Nano Lett. 16, 555 (2016); [4] Science Robot. 10, eadu6007 (2025); [5] Nature Commun. 13, 2121 (2022); [6] Adv. Mater. 36, 2313327 (2024); [7] Nature Electron. 3, 172 (2020); [8] Nature 589, 195 (2021); [9] Nature Rev. Mater. 11, 393 (2026); [10] Nature Electron. 9, 2 (2026)\n\nBiography: Prof. Oliver G. Schmidt is the Scientific Director of the Research Center for Materials, Architectures and Integration of Nanomembranes (MAIN) and holds the Chair of Material Systems for Nanoelectronics at the Chemnitz University of Technology, Germany. He is Adjunct Professor of Nanophysics at Dresden University of Technology, Germany and Honorable Professor at both Fudan University and Changzhou University. He is an elected member of the German Academy of Science and Engineering and has co-founded the International Institute for Intelligent Nanorobots and Nanosystems at Fudan University. He received numerous international prizes and awards: Among them the Otto-Hahn Medal from the Max-Planck-Society in 2000, the Philip-Morris Research Award in 2002, the Carus-Medal from the German Academy of Natural Scientists Leopoldina in 2005, the International Dresden Barkhausen Award in 2013, the Leibniz-Prize of the German Research Foundation in 2018, and an Advanced Grant of the European Research Council (ERC) in 2019. He is a pioneer in micromachining microrobotics, their biomedical applications and their potential for creating artificial life. He has made major scientific contributions to smart materials, flexible electronics and 3D integrated microsystems. He has authored and co-authored > 900 papers with a citation index > 70.000 and an H-index of 137. He has been an ISI Higly Cited Researcher for several consecutive years.\n\nInvited Talks\nInvited Talk: Saturday, 31 October 2026\n\nBarani Raman\nProfessor, Washington University in St. Louis, USA\n\n\n\nTitle: Insect-based Biohybrid Systems and Robots – Tools, Techniques and Applications\n\nAbstract: In this talk, I will summarize our recent work to develop tools and techniques to interface with and augment the insect nervous system. I will discuss how such biohybrid systems and robots could be used to solve practical engineering problems. To this goal, I will discuss our efforts on developing a hybrid bio-electronic nose by tapping into the capabilities of the highly sensitive insect olfactory system. I will conclude with a discussion of tools that allow further augmentation of the biological capabilities.\nUseful references:\nSaha, D., Mehta, D., Altan, E, Chandak, R., Traner, M., Lo, R., Gupta, P., Singamaneni, S., Chakrabartty, S., Raman, B. Explosive sensing with insect-based biorobots, Biosensors and Bioelectronics: X, Volume 6, 2020, 100050, https://doi.org/10.1016/j.biosx.2020.100050.\nGupta, P., Chandak, R., Debnath, A. et al. Augmenting insect olfaction performance through nano-neuromodulation. Nat. Nanotechnol. 19, 677–687 (2024). https://doi.org/10.1038/s41565-023-01592-z\n\nBiography: Barani Raman is the Dennis & Barbara Kessler Professor in the Department of Biomedical Engineering at Washington University. He received his Bachelor of Engineering in Computer Science with distinction from the University of Madras, and the M.S. and Ph.D. degrees in Computer Science from Texas A&M University, respectively. Following his doctoral studies, he became a joint postdoctoral fellow at the National Institutes of Health and the National Institute of Standards and Technology. He is the recipient of the 2011 Wolfgang Gopel Award from the International Society for Olfaction and Chemical Sensing, the 2015 NSF CAREER award, and 2106 IEEE Donald G. Fink Award. His research interests include sensory and systems neuroscience, sensor-based machine olfaction, machine learning, biomedical intelligent systems, and dynamical systems.\n\nInvited Talk: Saturday, 31 October 2026\n\nLianqing Liu\nProfessor, Shenyang Institute of Automation, Chinese Academy of Sciences, China\n\n\n\nTitle: Cross-media Biosyncretic Robotic Intelligence through Integrating Living and Nonliving Systems\n\nAbstract: Silicon-based robotic intelligence suffers the defects of slow learning rate, low migration ability, etc. while carbon-based biological intelligence shows exceptional advantages on learning and association abilities. Thus, it is significant to explore biosyncretic intelligence through interactive fusion between silicon-based and carbon-based intelligences. There are two approaches, “bottom-up” and “top-down”, to developing biosyncretic robotic intelligence. In the bottom-up way, the biosyncretic robotic intelligence is realized by growing an in vitro neural networks and training its connection plasticity via artificial stimulation based on the feedback of robotic behavior. In such way, the neural network is capable of performing some task, such as decision-making or recognition, and becomes a bio-intelligence controller. In contrast, the top-down approach refers to directly taking advantage of animals with bio-interfacing technologies, such as brain-machine interface (BMI). And, in such way, animals can be controlled by artificial stimulation and their sense and intention can be decoded from their brain activity for the fusion between the carbon-based intelligence and the silicon-based intelligence. Furthermore, animals can communicate and cooperate with electromechanical robots through such intelligence fusion. In this talk, the speaker will present some fundamental methods to develop biosyncretic intelligence in both bottom-up and top-down principles, and he will introduce some representative works in his group on the biosyncretic robotic intelligences developed in these two principles.\n\nBiography: Lianqing Liu is a Professor at Shenyang Institute of Automation, Chinese Academy of Sciences. Currently his research interests include Biosyncretic systems, Micro/Nanorobotics, Intelligent control. He has published over 100 peer reviewed international journal papers and led more than 20 funded research projects as Principal Investigator. He was awarded the Early Career Award by the IEEE Robotics and Automation Society in 2011, Outstanding Young Scientist of Chinese Academy of Sciences in 2014, Rising Star Award of 3M-Nano Society in 2015, Talent Young Scholar Funds of NSFC in 2015, National Program for support of Top-Notch Young Professionals in 2015, Xiongyoulun Outstanding Youth Award in 2018, Distinguished Young Scholar Funds of NSFC in 2019 and continuing project in 2025, Xplore Prize in 2024. He is the winner of Best Student/Conference paper Award for ICRA, IROS, ROBIO, ICIRA, IEEE-NEMS, IEEE-CYBER, IEEE-NANOMED and IEEE-3M-NANO, and delivered Plenary/Keynote talks at ICRA, IROS, IEEE-NANO, IEEE-NANOMED, IEEE-NEMS, ICIUS, MARSS and so on. He is associate editors of Fundamental Research, Cyborg and Bionic Systems, Mechatronics, IET Cyber-Systems and Robotics, Control Theory and Applications. He has been elected as the vice president of IEEE Robotics and Automation Society for the term of 2018-2019, served as a member of long range planning committee of RAS.\n\nInvited Talk: Saturday, 31 October 2026\n\nLi Zhang\nProfessor, The Chinese University of Hong Kong, China\n\n\n\nTitle: Biophysics-informed design of biohybrid microrobots\n\nAbstract: Biohybrid microrobots integrate biological components with synthetic structures to navigate complex biological environments, for example, for the delivery of drugs, microsurgery and in vivo diagnostics. In this talk, I will present a biophysics-informed design framework for biohybrid microrobots by connecting biophysical principles with biohybrid solutions. We first identify the biophysical constraints imposed by the human body that limit microrobot integrity, locomotion, navigation and functionality. We then examine the biophysical mechanisms through which biological cells, microorganisms and their derivatives adapt to these challenges, and explore how these can be utilized to improve the performance of microrobots. Building on these insights, we describe how biohybrid microrobots translate biophysical strategies into engineering solutions across four design domains: deformation, actuation, navigation and programming. Finally, we discuss persisting in vivo challenges, key considerations for clinical translation and future developments.\n\nBiography: Li Zhang is a Professor in the Department of Mechanical and Automation Engineering (MAE) and a Professor by Courtesy in the Department of Surgery at The Chinese University of Hong Kong (CUHK). Dr. Zhang’s primary research interests include small-scale robotics and their applications for translational biomedicine. He has authored or co-authored over 400 publications (H-index: 96), including Science Robotics, Nature Machine Intelligence, Nature Reviewers Bioengineering, Nature Materials, Nature Biomedical Engineering, Nature Synthesis as the corresponding author. His research work on artificial bacterial flagella was indexed by the Guinness Book of World Records 2012 for the “Most Advanced Mini Robot for Medical Use.” And his research works on magnetic slime robot and microrobotic swarm for endovascular application was selected as “Top 10 Innovation and Technology News in Hong Kong” in 2022, 2023 and 2024. Dr. Zhang is elected as Fellow of ASME, IEEE, RSC, AAIA, HKIE, and is recognized as a distinguished young scholar of China-America Frontiers of Engineering in CAFOE 2026. He serves as Senior Editor for IEEE T-ASE and IEEE T-RO, and as Associate Editor for Science Advances (AAAS).\n\nInvited Talk: Saturday, 31 October 2026\n\nGuoying Gu\nProfessor, Shanghai Jiao Tong University, China\n\n\n\nTitle: Design and application of bioinspired soft robots\n\nAbstract: Soft robotics, which employs low-modulus materials and compliant structures to build robotic functions, has emerged as a promising candidate to address this challenge. This cutting-edge technology has enabled new actuation, sensing and robotic applications, achieving high dexterity and versatility while maintaining the simplicity of structure and control. In this talk, I will introduce our recent development on design and application of soft robotics with high-performance artificial muscles, sensing skin, and robots and showcase some soft robotic systems for delicate locomotion and dexterous manipulation.\n\nBiography: Guoying Gu is a Professor of School of Mechanical Engineering, Shanghai Jiao Tong University, China. His research interests include soft robotics, bioinspired and wearable robots, smart materials sensing, actuation and motion control. He has authored or coauthored more than 150 publications, which have appeared in Science, Science Robotics, Nature Biomedical Engineering, Nature Reviews Materials, Nature Materials, Nature Communications, Science Advances, IEEE/ASME Transactions, Soft Robotics, Science China serials etc., as book chapters and in conference proceedings. Dr. Gu was the recipient of the National Science Fund for Distinguished Young Scholars and the XPLORER PRIZE. He is currently an Associate Editor for IEEE Transactions on Automation Science and Engineering, Soft Robotics, Soft Science, and was an Associate Editor for IEEE Transactions on Robotics and IEEE Robotics and Automation Letters etc.\n\n Invited Talk: Saturday, 31 October 2026\n\nZeyang Xia\nProfessor, Shanghai Jiao Tong University, China\n\n\n\nTitle: Biohybrid Robotics: Concept, Developments, Challenges, and Perspectives\n\nAbstract: As robotic applications expand from industrial scenarios to service and biomedical scenarios, robots are required to function in organism-involved environments. Therefore, biological systems have become an intuitive source of design principles for robotic systems. Among these biology-oriented approaches, biomimetic robotics primarily reproduces biological forms, and bioinspired robotics abstracts biological mechanisms to achieve robotic function. However, in physiological and medical settings, these conventional robotic strategies remain limited, as effective function requires direct, adaptive and sustained interaction with living tissues. This demand motivates the conceptual shift from imitating or abstracting biology toward directly hybridizing biology and robotics, termed as biohybrid robotics. Biohybrid robots can be considered as robotic systems that hybridize engineered components and living organisms or functional biological entities, enabling biological activity and engineered mechanisms to jointly contribute to actuation, sensing and control. Several recent studies fall within the scope of biohybrid robotics as defined here, and are introduced across three physical scales, including microbial scale, tissue scale, and organ scale. We anticipate continued advances in hybridizing biology and robotics, and envision the development of biohybrid robotics as a new era of robotics.\n\nBiography: Zeyang Xia is a Professor with School of Mechanical Engineering, Shanghai Jiao Tong University, China. He received the B. Sc. degree from Shanghai Jiao Tong University, China in 2002, and the Ph. D. degree from Tsinghua University, China in 2008. Afterwards, he had been working in Nanyang Technological University, Singapore and Indiana University Purdue University Indianapolis, U.S.. He joined Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences in 2012, where he was a CAS Distinguished Professor, Professor with State Key Laboratory of Biomedical Imaging Science and System, Director of Soft Robotics Research Center and Director of International Joint Laboratory for Soft Medical Robotics. His research interests include robotics and biomechanics, specifically biomedical robotics and artificial intelligence, soft robotics, humanoid robotics, and computational biomechanics. He is/was the PI of over 30 research grants, including National Key Research and Development Project and National Nature Science Funds Key Project. He has published two monographs and over 140 research papers and has been granted over 50 patents. He was the winner of Wu Wenjun Artificial Intelligence Natural Science Award in 2017, and Xiong Youlun Excellent Young Scholars Award in 2019. He serves/served as the editorial board members of Innovation Informatics, IEEE/ASME Transactions on Mechatronics, Robot, SmartBot, and the General Chair of IEEE RCAR 2019. He is a Senior Member of IEEE/CIE/CAA, a Distinguished Member of CCF, and a Fellow of IET.\n\nCopyright © First International Conference on Biohybrid Robotics 2026. All Rights Reserved.",
+  "links": [
+    {
+      "text": "Home",
+      "url": "https://icbr2026.org/index.html"
+    },
+    {
+      "text": "Committee",
+      "url": "https://icbr2026.org/Committee.html"
+    },
+    {
+      "text": "Program",
+      "url": "https://icbr2026.org/InvitedSpeakers.html#"
+    },
+    {
+      "text": "Program at a Glance",
+      "url": "https://icbr2026.org/program.html"
+    },
+    {
+      "text": "Invited Speakers",
+      "url": "https://icbr2026.org/InvitedSpeakers.html"
+    },
+    {
+      "text": "Tutorials & Workshops",
+      "url": "https://icbr2026.org/tutorials.html"
+    },
+    {
+      "text": "Call for Papers",
+      "url": "https://icbr2026.org/CFP.html"
+    },
+    {
+      "text": "Submission",
+      "url": "https://icbr2026.org/InvitedSpeakers.html#"
+    },
+    {
+      "text": "Author Guidelines",
+      "url": "https://icbr2026.org/author_guidelines.html"
+    },
+    {
+      "text": "Submission Guidelines",
+      "url": "https://icbr2026.org/submission_guidelines.html"
+    },
+    {
+      "text": "Registration",
+      "url": "https://icbr2026.org/Registration.html"
+    },
+    {
+      "text": "Venue",
+      "url": "https://icbr2026.org/InvitedSpeakers.html#"
+    },
+    {
+      "text": "Conference Venue",
+      "url": "https://icbr2026.org/Venue.html"
+    },
+    {
+      "text": "Travel",
+      "url": "https://icbr2026.org/InvitedSpeakers.html#"
+    },
+    {
+      "text": "Visa",
+      "url": "https://icbr2026.org/visa.html"
+    },
+    {
+      "text": "Transportation",
+      "url": "https://icbr2026.org/InvitedSpeakers.html#"
+    },
+    {
+      "text": "10.1016/j.biosx.2020.100050",
+      "url": "https://doi.org/10.1016/j.biosx.2020.100050"
+    },
+    {
+      "text": "10.1038/s41565-023-01592-z",
+      "url": "https://doi.org/10.1038/s41565-023-01592-z"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "https://icbr2026.org/images/ICBR_Banner.png"
+    },
+    {
+      "alt": "",
+      "src": "https://icbr2026.org/images/people/zhenghr.png"
+    },
+    {
+      "alt": "",
+      "src": "https://icbr2026.org/images/people/olivers.png"
+    },
+    {
+      "alt": "",
+      "src": "https://icbr2026.org/images/people/barani.png"
+    },
+    {
+      "alt": "",
+      "src": "https://icbr2026.org/images/people/liulq.jpeg"
+    },
+    {
+      "alt": "",
+      "src": "https://icbr2026.org/images/people/zhangl.png"
+    },
+    {
+      "alt": "",
+      "src": "https://icbr2026.org/images/people/ggy.jpeg"
+    },
+    {
+      "alt": "",
+      "src": "https://icbr2026.org/images/people/xiazy_1.png"
+    }
+  ]
+}

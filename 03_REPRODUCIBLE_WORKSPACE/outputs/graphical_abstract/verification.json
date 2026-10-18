@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "version": "v5",
+  "exact_key_finding_text": "PASS",
+  "text_overlap_check": "PASS",
+  "statistical_geometry_vs_v4": "unchanged",
+  "visual_review": "Full PNG inspected after final equation translation",
+  "previous_version_preserved": "versions/v4_without_key_finding",
+  "paper_and_collaborator_zip_updated": false,
+  "portable_renderer_reproduction": "PASS: generated PNG byte-identical to formal PNG",
+  "previous_asset_manifest_readback": "PASS"
+}

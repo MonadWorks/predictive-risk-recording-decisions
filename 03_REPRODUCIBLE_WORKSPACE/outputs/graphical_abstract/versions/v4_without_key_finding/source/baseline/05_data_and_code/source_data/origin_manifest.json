@@ -1,0 +1,42 @@
+{
+  "holdout_network_metrics.csv": {
+    "companion_v2_path": "holdout_analysis/network_metrics.csv",
+    "sha256": "e982dedf64301d1521a52924e8e194b0e844e5c574926cd4f0e0b398b03bb4af"
+  },
+  "holdout_summary.json": {
+    "companion_v2_path": "holdout_analysis/summary.json",
+    "sha256": "f6288af263dabf45117e42bb6c9115dc8a08c997191ca47c12e33240ce3533fd"
+  },
+  "holdout_paired_effects.csv": {
+    "companion_v2_path": "holdout_analysis/paired_effects.csv",
+    "sha256": "b1aad24f3aa4658b8fc83681e829472d4b6f9e0a8bec3209e177023ea03613c3"
+  },
+  "forecast_network_metrics.csv": {
+    "companion_v2_path": "forecast_followup_analysis/network_metrics.csv",
+    "sha256": "5b451eb0e18144ef8846be0a2189b7354260820d5be6ee785e8fd18514f53bb0"
+  },
+  "forecast_summary.json": {
+    "companion_v2_path": "forecast_followup_analysis/summary.json",
+    "sha256": "cc9a8703e1aaf71ddf42c4f37709a2b76b81fbc173379ffb621ef9de614001c0"
+  },
+  "n100_network_metrics.csv": {
+    "companion_v2_path": "rank2_n100_refined_analysis/network_metrics.csv",
+    "sha256": "b22feeaea43021a5883f1cbe7699f4541ed8ccbb3de2bae547ac598bb27033e5"
+  },
+  "n100_summary.json": {
+    "companion_v2_path": "rank2_n100_refined_analysis/summary.json",
+    "sha256": "737719edac7b9efe63a4ad963547f0c4866c08d88bbe2d3894165a723cfee8d3"
+  },
+  "n100_paired_effects.csv": {
+    "companion_v2_path": "rank2_n100_refined_analysis/paired_effects.csv",
+    "sha256": "db12fa58813bef8c292d627b20fc740773bdcc100090d819ff2259c00db5fe04"
+  },
+  "holdout_primary_paired.csv": {
+    "companion_v2_path": "holdout_analysis/primary_paired_plot_data.csv",
+    "sha256": "5d0a369c7e3cceb4c1da545a92139d6fcb513dca224a42839d4961be653d7ab2"
+  },
+  "linear_control.csv": {
+    "companion_v2_path": "linear_risk_control_results/risk_vs_actual_mse.csv",
+    "sha256": "1c71b8a65d97eed049a36296c028224fa329f683f1052ef5cfb1cb9c2e1c0f09"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "title": "ICBR 2026",
+  "text": "Home\nCommittee\nProgram\nProgram at a Glance\nInvited Speakers\nTutorials & Workshops\nCall for Papers\nSubmission\nAuthor Guidelines\nSubmission Guidelines\nRegistration\nVenue\nConference Venue\nTravel\nVisa\nTransportation\nSubmission Guidelines\nExtended Abstract Submission\n\nICBR 2026 accepts extended abstract submissions only. Authors are not required to submit a full paper or a separate manuscript.\n\nAll contributed papers should be submitted via the Microsoft CMT system.\nPlease be assured that https://cmt3.research.microsoft.com/ICBHR2026 is the official submission site for ICBR 2026.\n\nSubmission Requirements\n\nAll submissions must meet the following requirements:\n\nLanguage: English;\nAbstract length: No more than 500 words;\nTitle length: No more than 15 words;\nKeywords: Two to five keywords;\nGraphical Abstract: a graphical abstract is required to illustrate your work;\nSubmission method: Online submission through Microsoft CMT;\nFull paper: Not required;\nReferences: Not permitted in the abstract text.\n\nThe title, author names, and affiliations must be entered separately in CMT and are not included in the 300-word limit.\n\nAbstract Content\n\nThe abstract should provide a concise and self-contained summary of the work and is recommended to include the following elements:\n\nObjective: The research problem, background, and principal objective;\nMethods: The experimental, computational, theoretical, biological, or engineering approach;\nResults: The principal findings, including quantitative data or substantive preliminary results where applicable;\nConclusion: The main conclusion and significance of the work.\n\nSection headings such as Objective, Methods, Results, and Conclusion may be used but are not mandatory.\n\nTitle and Keywords\n\nThe title should be concise, informative, and accurately reflect the main contribution of the work. Unnecessary abbreviations and promotional wording should be avoided.\n\nAuthors must provide two to five keywords that accurately describe the subject of the submission.\n\nAuthor Information in CMT\n\nEach author must be entered separately in CMT. The following information should be provided:\n\nGiven name and family name;\nInstitutional affiliation;\nCountry or region;\nEmail address; and\nAuthor order.\n\nOne author must be identified as the Presenting Author, and one author must be identified as the Corresponding Author. The same person may serve in both roles.\n\nThe author information entered in CMT must be consistent with the submitted abstract.\n\nTables, Figures, and Special Characters\n\nWith the exception of the graphical abstract, other tables, figures and images are not permitted in the extended abstract content.\n\nSpecial characters, mathematical symbols, Greek letters, subscripts, and superscripts should be entered using the formatting functions provided by CMT.\n\nSubmission Help\n\nAt least one author of your work should have a CMT account before submitting your work to the CMT system.\n\nCreate a Microsoft CMT Account\nSubmit Your Work to CMT System\n\nAcknowledgment: The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.\n\nCopyright © First International Conference on Biohybrid Robotics 2026. All Rights Reserved.",
+  "links": [
+    {
+      "text": "Home",
+      "url": "https://icbr2026.org/index.html"
+    },
+    {
+      "text": "Committee",
+      "url": "https://icbr2026.org/Committee.html"
+    },
+    {
+      "text": "Program",
+      "url": "https://icbr2026.org/submission_guidelines.html#"
+    },
+    {
+      "text": "Program at a Glance",
+      "url": "https://icbr2026.org/program.html"
+    },
+    {
+      "text": "Invited Speakers",
+      "url": "https://icbr2026.org/InvitedSpeakers.html"
+    },
+    {
+      "text": "Tutorials & Workshops",
+      "url": "https://icbr2026.org/tutorials.html"
+    },
+    {
+      "text": "Call for Papers",
+      "url": "https://icbr2026.org/CFP.html"
+    },
+    {
+      "text": "Submission",
+      "url": "https://icbr2026.org/submission_guidelines.html#"
+    },
+    {
+      "text": "Author Guidelines",
+      "url": "https://icbr2026.org/author_guidelines.html"
+    },
+    {
+      "text": "Submission Guidelines",
+      "url": "https://icbr2026.org/submission_guidelines.html"
+    },
+    {
+      "text": "Registration",
+      "url": "https://icbr2026.org/Registration.html"
+    },
+    {
+      "text": "Venue",
+      "url": "https://icbr2026.org/submission_guidelines.html#"
+    },
+    {
+      "text": "Conference Venue",
+      "url": "https://icbr2026.org/Venue.html"
+    },
+    {
+      "text": "Travel",
+      "url": "https://icbr2026.org/submission_guidelines.html#"
+    },
+    {
+      "text": "Visa",
+      "url": "https://icbr2026.org/visa.html"
+    },
+    {
+      "text": "Transportation",
+      "url": "https://icbr2026.org/submission_guidelines.html#"
+    },
+    {
+      "text": "Microsoft CMT system",
+      "url": "https://cmt3.research.microsoft.com/ICBHR2026"
+    },
+    {
+      "text": "https://cmt3.research.microsoft.com/ICBHR2026",
+      "url": "https://cmt3.research.microsoft.com/ICBHR2026"
+    },
+    {
+      "text": "Create a Microsoft CMT Account",
+      "url": "https://cmt3.research.microsoft.com/docs/help/general/account-creation.html"
+    },
+    {
+      "text": "Submit Your Work to CMT System",
+      "url": "https://cmt3.research.microsoft.com/docs/help/author/author-submission-form.html"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "https://icbr2026.org/images/ICBR_Banner.png"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "networks_completed": [
+    8000,
+    8001,
+    8002,
+    8003,
+    8004,
+    8005,
+    8006,
+    8007
+  ],
+  "networks_planned": [
+    8000,
+    8001,
+    8002,
+    8003,
+    8004,
+    8005,
+    8006,
+    8007
+  ],
+  "evaluated_rows": 3072,
+  "actual_optimizer_calls": 1436,
+  "cached_dataset_reuses": 100,
+  "elapsed_seconds": 693.1399166250003,
+  "warmup_seconds": 3.1376836660001572,
+  "status": "complete"
+}

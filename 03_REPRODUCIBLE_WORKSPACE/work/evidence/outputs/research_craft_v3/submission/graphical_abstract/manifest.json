@@ -1,0 +1,94 @@
+{
+  "source_summary_sha256": {
+    "decision": "f6288af263dabf45117e42bb6c9115dc8a08c997191ca47c12e33240ce3533fd",
+    "forecast": "cc9a8703e1aaf71ddf42c4f37709a2b76b81fbc173379ffb621ef9de614001c0"
+  },
+  "source_summary_paths": {
+    "decision": "/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/outputs/research_craft_v3/source_data/holdout_summary.json",
+    "forecast": "/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/outputs/research_craft_v3/source_data/forecast_summary.json"
+  },
+  "independent_networks_per_test": 40,
+  "decision_confidence_level": 0.975,
+  "forecast_confidence_level": 0.95,
+  "effect_data": [
+    {
+      "test": "recording_decision",
+      "endpoint": "raw response MSE",
+      "comparison": "scalar target",
+      "independent_networks": 40,
+      "effect": -2.586421129091058e-06,
+      "ci_low": -1.4713046771189118e-05,
+      "ci_high": 4.826304931626923e-06,
+      "confidence_level": 0.975,
+      "display_multiplier": 100000.0,
+      "source_key": "primary_effects[scalar]"
+    },
+    {
+      "test": "recording_decision",
+      "endpoint": "raw response MSE",
+      "comparison": "vector target",
+      "independent_networks": 40,
+      "effect": 1.923627390429782e-06,
+      "ci_low": -1.1479707624311079e-06,
+      "ci_high": 6.8260498523981685e-06,
+      "confidence_level": 0.975,
+      "display_multiplier": 100000.0,
+      "source_key": "primary_effects[vector]"
+    },
+    {
+      "test": "fixed_prediction_risk_forecast",
+      "endpoint": "MSE-consistent score",
+      "comparison": "fixed local-scalar policy",
+      "independent_networks": 40,
+      "effect": -0.4556473561820947,
+      "ci_low": -1.1585679104693787,
+      "ci_high": 0.023668677150677265,
+      "confidence_level": 0.95,
+      "display_multiplier": 1.0,
+      "source_key": "primary.score_difference"
+    }
+  ],
+  "display_transformations": [
+    "Decision effect and both interval endpoints multiplied by 100000; labelled x10^-5",
+    "Forecast score difference unchanged; fixed original point predictions"
+  ],
+  "width_mm": 190,
+  "height_mm": 135,
+  "font_family": "Arial",
+  "font_path": "/System/Library/Fonts/Supplemental/Arial.ttf",
+  "user_supplied_authorship": {
+    "authors": "Jiayi Du\u00b9*\u2020 and Shuaizhi Cheng\u00b2\u2020",
+    "affiliation_1": "Stiftung Louisenlund, Germany",
+    "affiliation_2": "Department of Computing, Harbin Institute of Technology, China",
+    "equal_contribution": "\u2020 Equal contribution.",
+    "correspondence": "* Correspondence: jiayi.du@mail.louisenlund.de"
+  },
+  "pdf_fonts_output": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nGOFYPY+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     15  0\nBWGHJF+Arial-ItalicMT                CID TrueType      Identity-H       yes yes yes     22  0\nGOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     29  0\n",
+  "color_roles": {
+    "scalar": "#0072B2",
+    "vector": "#D55E00",
+    "forecast_score": "#172B3A"
+  },
+  "svg_embedded_images": 0,
+  "svg_text_nodes": 41,
+  "edge_padding_px": {
+    "left": 122,
+    "right": 121,
+    "top": 60,
+    "bottom": 53
+  },
+  "prepared_only": true,
+  "submitted": false,
+  "visual_review": "PNG and independently rendered PDF inspected; current render has unchanged data/geometry and bundled-source paths; final PDF/font/SVG preflight recorded in figures/export_preflight.json",
+  "output_sha256": {
+    "caption.md": "55ae2997bc3031ddd7e329ffe593c622505946df08921376b6a0c1270aa6c6d7",
+    "pdf_fonts.txt": "d9f719482dbe0ef848a79206f247bd8de1e5b3dfa321175c854a0d7cecb16590",
+    "README.md": "b9cb91f32557ef9f4276dfabc9b7069721aea29faf76829dbf0455d87c6da5b4",
+    "source_effects.csv": "6c04405e7ea110d96c872b9c2a2f2bd6447c48dde31330ae6bfd63bdedbc1177",
+    "graphical_abstract.pdf": "a7346027fba72b598782bb98f1fdb029abc326b8b46ab0e6b34df7016d9c281d",
+    "graphical_abstract.png": "fdb12df02745c90b412c245b6b435ca1294e106043219278dd6b677a22c06d9e",
+    "make_graphical_abstract.py": "c2a8b94d84bf6f01b8807dc7cad0117936865b5a79f0b9e85606aeb890ffd224",
+    "graphical_abstract.svg": "35067f00ef96f10565648c1de1873a12f02e666e27644d884a08a7701448e2c6",
+    "pdf_preview.png": "f715ded8d6fc5b540362ed9c6be9043ef3f09e7177dad194d39b0d34254329bb"
+  }
+}

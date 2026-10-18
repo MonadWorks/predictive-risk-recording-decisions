@@ -1,0 +1,21 @@
+{
+  "source": "companion v2/holdout_run/designs.json",
+  "source_sha256": "095ee358ef634ad91f24441416e11324aece785a0a564cd758ff6cc58a9c046f",
+  "condition": "broad",
+  "pool": "exclude_endpoints",
+  "budget": 3,
+  "summary": {
+    "single_response": {
+      "identical": 82,
+      "designs": 120,
+      "independent_networks": 40
+    },
+    "three_responses": {
+      "identical": 26,
+      "designs": 40,
+      "independent_networks": 40
+    }
+  },
+  "status": "descriptive summary of already frozen recording sets; no new test, bootstrap, fit or hypothesis",
+  "independence": "three target-specific designs per network are not independent networks"
+}

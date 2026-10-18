@@ -1,0 +1,16 @@
+{"network_id": 7898, "condition": "published_gain", "rows": 18, "actual_fits": 7, "condition_seconds": 37.0, "elapsed_seconds": 37.0}
+{
+  "complete": true,
+  "networks_completed": [
+    7898
+  ],
+  "networks_planned": [
+    7898
+  ],
+  "evaluated_rows": 18,
+  "actual_optimizer_calls": 7,
+  "cached_dataset_reuses": 3,
+  "elapsed_seconds": 37.00474916600001,
+  "warmup_seconds": 0.20823199999995268,
+  "status": "complete"
+}

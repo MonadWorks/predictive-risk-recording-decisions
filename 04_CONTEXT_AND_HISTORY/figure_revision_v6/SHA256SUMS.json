@@ -1,0 +1,20 @@
+{
+  "before_after_comparison.pdf": "a917e7087ae9e895498d56fa4a745eee8a6f051bcfb7a7c752bb6dadee367028",
+  "risk_forecast_layout_study.pdf": "7c6e67399f5408be153094c4d401e9cc560d5c1f7551bc0096acd85b6996d7e1",
+  "risk_forecast_layout_study.png": "f717aaf07f463265ec907e034204984f344735d9ffc9975a0b67ac6df9f184d3",
+  "risk_forecast_layout_study_alignment.png": "916b800088efdb703cbe406f1d3adce0f944d913c0120f0b95a41e9fb5abb185",
+  "risk_forecast_layout_study.svg": "081258cbc2ba719a393ebd5c1b27d24c8ee9cdaea16327f6dba9069bf7cda58a",
+  "README.md": "414182cd6fa712ee4ea60c463de2c204a375904aa991fa50cd2a69936e8d0456",
+  "recording_decisions_revised.pdf": "3fa1d117166b444549b0ad0e07ca3c1079007d683667241b6d180a6f3df67352",
+  "recording_decisions_revised.png": "db6425d8ebddf954635217c347ea0c0b3b6b8190af8318e7a57f43e00d5494f3",
+  "recording_decisions_revised_alignment.png": "fb4def5b6dd39d606a10c3787ae856fbc5dad938634c7fd4ec00853314efc36f",
+  "recording_decisions_revised.svg": "ce416f011b3b3e833b90e1de15fa6ba19a1bdc5f2296a84f4e5463964ac28fa2",
+  "qa_receipt.json": "786e5d1a8a4e438640ff22f4ddb9312100a0e2b41a52e1c6728b2b3077b8665c",
+  "manuscript_size_proof.pdf": "9bfb5e44d8d305c1beab6b5f702c1eb1cbabaa16796555aeb2f3186e064a7b60",
+  "render_revision.py": "e7ffb449ac66721ebf7d488bf9dfd64ffe1c2f2868a8e6b121dc7b3c4743effd",
+  "source_data/forecast_summary.json": "cc9a8703e1aaf71ddf42c4f37709a2b76b81fbc173379ffb621ef9de614001c0",
+  "source_data/holdout_design_agreement.csv": "bb26a9b7e81644ba17c0a762b316ed5f96afd1be0ccf7f9ca01459428d2f344e",
+  "source_data/fig3_networks.csv": "48340519872d24d352d448fe308d0fe1624414960c1e2738791ee8b0663b5f55",
+  "source_data/holdout_paired_effects.csv": "b1aad24f3aa4658b8fc83681e829472d4b6f9e0a8bec3209e177023ea03613c3",
+  "source_data/fig2_network_pairs.csv": "ffbbb8644c768d64fe8e9c7b606fbf7971e3da0384e6a445b0ab2701b3f803df"
+}

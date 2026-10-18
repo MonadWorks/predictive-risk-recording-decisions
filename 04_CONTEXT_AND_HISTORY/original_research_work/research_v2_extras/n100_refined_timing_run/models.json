@@ -1,0 +1,25 @@
+[
+ {
+  "neurons": 100,
+  "parameters": 100,
+  "stim": 74,
+  "readouts": [
+   79,
+   26,
+   31
+  ],
+  "tau": 0.5,
+  "dt": 0.05,
+  "model_kind": "rank2_tanh",
+  "connectivity_norm": 4.194140520885211,
+  "connectivity_rank": 2,
+  "network_id": 7898,
+  "condition": "published_gain",
+  "prior_q_variance": [
+   0.0005992277425590487,
+   0.0006359000039747703,
+   0.0006211572581839999
+  ],
+  "bank_seconds": 15.35013408299983
+ }
+]

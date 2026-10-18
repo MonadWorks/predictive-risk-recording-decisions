@@ -1,0 +1,131 @@
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/rank2_refined.py:144: RuntimeWarning: divide by zero encountered in matmul
+  entry['integrated_Q_directional_gradient_relative_error']=rel((qp-qn)/(2*eps),g@v)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/rank2_refined.py:144: RuntimeWarning: overflow encountered in matmul
+  entry['integrated_Q_directional_gradient_relative_error']=rel((qp-qn)/(2*eps),g@v)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/rank2_refined.py:144: RuntimeWarning: invalid value encountered in matmul
+  entry['integrated_Q_directional_gradient_relative_error']=rel((qp-qn)/(2*eps),g@v)
+{
+  "scope": "independent numerical-only development seeds; ZOH inputs at protocol grid",
+  "cases": [
+    {
+      "network_id": 1880,
+      "negative_gains": 9,
+      "gains_min": -1.5170556418717616,
+      "readouts": [
+        19,
+        97,
+        21
+      ],
+      "substeps": [
+        {
+          "substeps": 1,
+          "seconds_including_possible_jit": 2.8765648749999855,
+          "observation_relative_error": 0.0016356666711594581,
+          "observation_gradient_relative_error": 0.0030567429512117347,
+          "q_relative_error": 0.00023273839885206769,
+          "G_relative_error": 0.0007161352629645158,
+          "target_q_relative_error": 0.00040478496070455453,
+          "target_G_relative_error": 0.0004681314407538445
+        },
+        {
+          "substeps": 2,
+          "seconds_including_possible_jit": 0.05901670799994463,
+          "observation_relative_error": 9.734519253017585e-05,
+          "observation_gradient_relative_error": 0.0001823313775235716,
+          "q_relative_error": 1.3962552849199748e-05,
+          "G_relative_error": 4.220840118313987e-05,
+          "target_q_relative_error": 2.438648935267472e-05,
+          "target_G_relative_error": 2.9543652216058964e-05
+        },
+        {
+          "substeps": 4,
+          "seconds_including_possible_jit": 0.11117575000002944,
+          "observation_relative_error": 5.55351324199774e-06,
+          "observation_gradient_relative_error": 1.0414950001886452e-05,
+          "q_relative_error": 8.005159744138774e-07,
+          "G_relative_error": 2.4077702487547315e-06,
+          "target_q_relative_error": 1.4028998100782784e-06,
+          "target_G_relative_error": 1.7135043394866458e-06
+        },
+        {
+          "substeps": 8,
+          "seconds_including_possible_jit": 0.21778504199983217,
+          "observation_relative_error": 0.0,
+          "observation_gradient_relative_error": 0.0,
+          "q_relative_error": 0.0,
+          "G_relative_error": 0.0,
+          "target_q_relative_error": 0.0,
+          "target_G_relative_error": 0.0
+        }
+      ],
+      "integrated_Q_directional_gradient_relative_error": 2.056082090896124e-08,
+      "selected_observation_max_error": 0.0,
+      "selected_gradient_max_error": 0.0
+    },
+    {
+      "network_id": 1881,
+      "negative_gains": 10,
+      "gains_min": -1.0326814218902038,
+      "readouts": [
+        93,
+        20,
+        15
+      ],
+      "substeps": [
+        {
+          "substeps": 1,
+          "seconds_including_possible_jit": 0.030403374999877997,
+          "observation_relative_error": 0.0001965205854430603,
+          "observation_gradient_relative_error": 0.0005971217137906913,
+          "q_relative_error": 2.9610890595720448e-05,
+          "G_relative_error": 5.447537349265646e-05,
+          "target_q_relative_error": 0.00014525303391347882,
+          "target_G_relative_error": 0.0002673032316897356
+        },
+        {
+          "substeps": 2,
+          "seconds_including_possible_jit": 0.055956083000182844,
+          "observation_relative_error": 1.2322245539124758e-05,
+          "observation_gradient_relative_error": 3.754707465177166e-05,
+          "q_relative_error": 1.860131735461195e-06,
+          "G_relative_error": 3.417966761736166e-06,
+          "target_q_relative_error": 8.959986080525705e-06,
+          "target_G_relative_error": 1.7215379966480707e-05
+        },
+        {
+          "substeps": 4,
+          "seconds_including_possible_jit": 0.10811724999985017,
+          "observation_relative_error": 7.271539193081474e-07,
+          "observation_gradient_relative_error": 2.2186939493693093e-06,
+          "q_relative_error": 1.097812111154154e-07,
+          "G_relative_error": 2.0175506272075998e-07,
+          "target_q_relative_error": 5.262769438726281e-07,
+          "target_G_relative_error": 1.028852163797863e-06
+        },
+        {
+          "substeps": 8,
+          "seconds_including_possible_jit": 0.21768970900006934,
+          "observation_relative_error": 0.0,
+          "observation_gradient_relative_error": 0.0,
+          "q_relative_error": 0.0,
+          "G_relative_error": 0.0,
+          "target_q_relative_error": 0.0,
+          "target_G_relative_error": 0.0
+        }
+      ],
+      "integrated_Q_directional_gradient_relative_error": 2.69215948682547e-09,
+      "selected_observation_max_error": 0.0,
+      "selected_gradient_max_error": 0.0
+    }
+  ],
+  "independent_dense_RK4_small": {
+    "neurons": 8,
+    "reduced_substeps": 8,
+    "dense_substeps": 16,
+    "observation_relative_error": 5.290610513775671e-09,
+    "gradient_relative_error": 3.459606813657257e-08,
+    "q_relative_error": 3.0882135131988403e-09,
+    "G_relative_error": 1.869380011337544e-08
+  },
+  "elapsed_seconds": 3.9221179579999443
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/",
+    "bytes": 0,
+    "compressed": 0
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/README.md",
+    "bytes": 801,
+    "compressed": 408
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/fun_lib.py",
+    "bytes": 33321,
+    "compressed": 5676
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/fun_lib2.py",
+    "bytes": 23785,
+    "compressed": 3997
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/fun_lib3.py",
+    "bytes": 41841,
+    "compressed": 5692
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig1_Teacher.py",
+    "bytes": 22279,
+    "compressed": 5272
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig1_plots.py",
+    "bytes": 22293,
+    "compressed": 4036
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig1_trainStudent.py",
+    "bytes": 9971,
+    "compressed": 2860
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig2_plots_bce.py",
+    "bytes": 30130,
+    "compressed": 4020
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig2_plots_bdf.py",
+    "bytes": 23254,
+    "compressed": 4352
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig3_plots_abc.py",
+    "bytes": 57627,
+    "compressed": 8583
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig3_plots_def.py",
+    "bytes": 52294,
+    "compressed": 8383
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig3_trainStudents_abc.py",
+    "bytes": 23734,
+    "compressed": 4970
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig4_plots_bc.py",
+    "bytes": 30604,
+    "compressed": 5083
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig4_plots_ef.py",
+    "bytes": 39598,
+    "compressed": 6282
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig5_drosophilaCx_student.py",
+    "bytes": 12907,
+    "compressed": 3759
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig5_drosophilaCx_teacher.py",
+    "bytes": 30933,
+    "compressed": 8061
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig5_larva_student.py",
+    "bytes": 7492,
+    "compressed": 2615
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig5_larva_teacher.py",
+    "bytes": 1675,
+    "compressed": 771
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig5_plots_abc.py",
+    "bytes": 37498,
+    "compressed": 6579
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig5_plots_def.py",
+    "bytes": 38637,
+    "compressed": 5451
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig5_plots_ghi.py",
+    "bytes": 46501,
+    "compressed": 7327
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig5_zebrafish_student.py",
+    "bytes": 14421,
+    "compressed": 4108
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig5_zebrafish_teacher.py",
+    "bytes": 14575,
+    "compressed": 3745
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig7_ghi.py",
+    "bytes": 38473,
+    "compressed": 5800
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig7_plots_a_to_f.py",
+    "bytes": 20472,
+    "compressed": 4145
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig8_gh.py",
+    "bytes": 31798,
+    "compressed": 5707
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig8_plots.py",
+    "bytes": 15589,
+    "compressed": 3399
+  },
+  {
+    "name": "connconstr-f5f397b88f8dd5c2a5c13558ce6039194a284586/nn_fig8_plots_de.py",
+    "bytes": 15589,
+    "compressed": 3399
+  }
+]

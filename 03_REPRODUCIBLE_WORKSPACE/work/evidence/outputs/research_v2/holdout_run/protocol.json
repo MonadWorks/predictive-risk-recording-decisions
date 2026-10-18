@@ -1,0 +1,128 @@
+{
+  "bootstrap_replicates": 10000,
+  "budgets": [
+    3,
+    6
+  ],
+  "conditions": [
+    {
+      "mode": "both",
+      "name": "matched",
+      "prior_sd": 0.18
+    },
+    {
+      "mode": "both",
+      "name": "broad",
+      "prior_sd": 0.35
+    },
+    {
+      "mode": "both",
+      "name": "bias_shift",
+      "prior_sd": 0.18,
+      "true_bias_shift": 0.5
+    }
+  ],
+  "connectivity_norm": 0.65,
+  "design": "prior-averaged local delta-method predictive variance; same available information",
+  "design_seed": 401,
+  "dt": 0.05,
+  "ensemble_size": 16,
+  "failure_policy": "retain all finite last iterates even if max_nfev is reached and flag optimizer_success=false; exceptions or nonfinite predictions fall back to nominal prior mean and are flagged",
+  "family": "softplus",
+  "independent_unit": "connection matrix J; other repeats nested",
+  "max_nfev": 80,
+  "methods": [
+    "local_scalar",
+    "ensemble_scalar",
+    "local_vector",
+    "ensemble_vector",
+    "local_activity",
+    "random"
+  ],
+  "model_seed": 101,
+  "network_ids": [
+    5000,
+    5001,
+    5002,
+    5003,
+    5004,
+    5005,
+    5006,
+    5007,
+    5008,
+    5009,
+    5010,
+    5011,
+    5012,
+    5013,
+    5014,
+    5015,
+    5016,
+    5017,
+    5018,
+    5019,
+    5020,
+    5021,
+    5022,
+    5023,
+    5024,
+    5025,
+    5026,
+    5027,
+    5028,
+    5029,
+    5030,
+    5031,
+    5032,
+    5033,
+    5034,
+    5035,
+    5036,
+    5037,
+    5038,
+    5039
+  ],
+  "neurons": 12,
+  "noise_repeats": 3,
+  "noise_sd": 0.05,
+  "noise_seed": 307,
+  "normalized_missing_policy": "primary raw risk retains every target; complete standardized stratum is NA if any prescribed target has prior variance <= frozen floor; valid-target display exploratory only",
+  "phase": "frozen_holdout",
+  "pools": [
+    "all",
+    "exclude_endpoints"
+  ],
+  "primary_comparisons": [
+    [
+      "ensemble_scalar",
+      "local_scalar"
+    ],
+    [
+      "ensemble_vector",
+      "local_vector"
+    ]
+  ],
+  "primary_interval": "97.5% paired network-cluster percentile intervals per comparison; Bonferroni 2-comparison family",
+  "primary_metric": "mean squared raw q error aggregated within J over truth/noise/target/design repeats",
+  "primary_stratum": {
+    "budget": 3,
+    "condition": "broad",
+    "pool": "exclude_endpoints"
+  },
+  "random_seed": 601,
+  "random_sets": 5,
+  "sample_stride": 4,
+  "scale_floor": 1e-16,
+  "scale_samples": 64,
+  "scale_seed": 503,
+  "secondary_comparisons": "all other strata and 2x2 interaction exploratory 95% network-cluster intervals",
+  "secondary_metric": "mean error^2 divided by common independent nonlinear prior-MC q variance",
+  "source_scope": "independent synthetic simulations; no biological validation or new-method claim",
+  "steps": 120,
+  "targets": 3,
+  "threads": 2,
+  "truth_repeats": 3,
+  "truth_seed": 211,
+  "vector_target": "same three prespecified readouts; equal raw-response weights",
+  "wall_limit_seconds": 3600
+}

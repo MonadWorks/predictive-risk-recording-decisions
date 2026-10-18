@@ -1,0 +1,112 @@
+{
+  "fig3_recording_decisions": {
+    "panel_anchors": [
+      {
+        "letter": "a",
+        "letter_x_mm": 4,
+        "title_x_mm": 9,
+        "baseline_y_mm": 104
+      },
+      {
+        "letter": "b",
+        "letter_x_mm": 94,
+        "title_x_mm": 99,
+        "baseline_y_mm": 104
+      },
+      {
+        "letter": "c",
+        "letter_x_mm": 4,
+        "title_x_mm": 9,
+        "baseline_y_mm": 43
+      }
+    ],
+    "axes_mm": [
+      [
+        110.0,
+        68.0,
+        65.0,
+        27.0
+      ],
+      [
+        44.0,
+        14.0,
+        79.0,
+        22.0
+      ]
+    ],
+    "manual_text_collisions": [],
+    "all_visible_text_collisions": [],
+    "out_of_canvas_text": [],
+    "font_pt_range": [
+      6.0,
+      8.0
+    ],
+    "dimensions_mm": [
+      180,
+      110
+    ],
+    "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nGOFYPY+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     17  0\nGOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     24  0\n"
+  },
+  "fig4_risk_forecasts": {
+    "panel_anchors": [
+      {
+        "letter": "a",
+        "letter_x_mm": 4,
+        "title_x_mm": 9,
+        "baseline_y_mm": 94
+      },
+      {
+        "letter": "b",
+        "letter_x_mm": 94,
+        "title_x_mm": 99,
+        "baseline_y_mm": 94
+      },
+      {
+        "letter": "c",
+        "letter_x_mm": 94,
+        "title_x_mm": 99,
+        "baseline_y_mm": 37
+      }
+    ],
+    "axes_mm": [
+      [
+        20.0,
+        18.0,
+        61.0,
+        68.0
+      ],
+      [
+        108.0,
+        56.0,
+        67.0,
+        30.0
+      ],
+      [
+        108.0,
+        18.0,
+        67.0,
+        13.0
+      ]
+    ],
+    "manual_text_collisions": [],
+    "all_visible_text_collisions": [],
+    "out_of_canvas_text": [],
+    "font_pt_range": [
+      6.0,
+      8.0
+    ],
+    "dimensions_mm": [
+      180,
+      100
+    ],
+    "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nGOFYPY+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     15  0\nGOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     22  0\n"
+  },
+  "data_sha256": {
+    "forecast_summary.json": "cc9a8703e1aaf71ddf42c4f37709a2b76b81fbc173379ffb621ef9de614001c0",
+    "holdout_design_agreement.csv": "bb26a9b7e81644ba17c0a762b316ed5f96afd1be0ccf7f9ca01459428d2f344e",
+    "fig3_networks.csv": "48340519872d24d352d448fe308d0fe1624414960c1e2738791ee8b0663b5f55",
+    "holdout_paired_effects.csv": "b1aad24f3aa4658b8fc83681e829472d4b6f9e0a8bec3209e177023ea03613c3",
+    "fig2_network_pairs.csv": "ffbbb8644c768d64fe8e9c7b606fbf7971e3da0384e6a445b0ab2701b3f803df"
+  },
+  "limits": "Manual-text pair overlaps and canvas bounds checked; all data-point collisions require visual review. No statistical intervals recomputed."
+}

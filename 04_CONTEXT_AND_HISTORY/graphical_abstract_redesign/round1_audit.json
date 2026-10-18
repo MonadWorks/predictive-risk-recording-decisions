@@ -1,0 +1,1056 @@
+{
+  "canvas_mm": [
+    260,
+    200
+  ],
+  "text_overlaps": [],
+  "text_off_canvas": [],
+  "texts": [
+    {
+      "text": "Predictive Risk and Recording Decisions",
+      "bbox_mm": [
+        [
+          8.0,
+          181.98375000000001
+        ],
+        [
+          112.47734374999999,
+          188.01625
+        ]
+      ],
+      "size": 18.0,
+      "font": [
+        "Times New Roman"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "in Partially Observed Neural Networks",
+      "bbox_mm": [
+        [
+          8.0,
+          171.98375000000001
+        ],
+        [
+          107.17906249999999,
+          178.01625
+        ]
+      ],
+      "size": 18.0,
+      "font": [
+        "Times New Roman"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "SIMULATION STUDY",
+      "bbox_mm": [
+        [
+          224.97281250000003,
+          179.809375
+        ],
+        [
+          252.00000000000003,
+          182.19062499999998
+        ]
+      ],
+      "size": 7.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Limited recordings",
+      "bbox_mm": [
+        [
+          8.0,
+          157.17437500000003
+        ],
+        [
+          42.508281249999996,
+          160.82562500000003
+        ]
+      ],
+      "size": 10.5,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "bold"
+    },
+    {
+      "text": "Known connectivity; uncertain gains and biases",
+      "bbox_mm": [
+        [
+          8.0,
+          150.809375
+        ],
+        [
+          68.6425,
+          153.190625
+        ]
+      ],
+      "size": 7.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "3 of 12",
+      "bbox_mm": [
+        [
+          34.989453125000004,
+          122.41250000000002
+        ],
+        [
+          45.010546875,
+          125.58750000000002
+        ]
+      ],
+      "size": 10.0,
+      "font": [
+        "Times New Roman"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "recorded",
+      "bbox_mm": [
+        [
+          34.453671875000005,
+          117.80937500000002
+        ],
+        [
+          45.546328125,
+          120.19062500000001
+        ]
+      ],
+      "size": 7.5,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "stimulus",
+      "bbox_mm": [
+        [
+          49.00000000000001,
+          144.80937500000002
+        ],
+        [
+          59.556875000000005,
+          147.190625
+        ]
+      ],
+      "size": 7.5,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "q",
+      "bbox_mm": [
+        [
+          69.0,
+          106.41250000000001
+        ],
+        [
+          70.76609375,
+          109.5875
+        ]
+      ],
+      "size": 10.0,
+      "font": [
+        "Times New Roman"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "recorded",
+      "bbox_mm": [
+        [
+          13.4,
+          92.80937500000002
+        ],
+        [
+          24.49265625,
+          95.19062500000001
+        ]
+      ],
+      "size": 7.5,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "readout",
+      "bbox_mm": [
+        [
+          43.4,
+          92.80937500000002
+        ],
+        [
+          53.024218749999996,
+          95.19062500000001
+        ]
+      ],
+      "size": 7.5,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "J5000 example; rose + / plum \u2212 connections",
+      "bbox_mm": [
+        [
+          8.0,
+          86.88875
+        ],
+        [
+          59.05796874999999,
+          89.11125000000001
+        ]
+      ],
+      "size": 6.9,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Stimulus-response target",
+      "bbox_mm": [
+        [
+          8.0,
+          76.49187500000001
+        ],
+        [
+          48.65984374999999,
+          79.508125
+        ]
+      ],
+      "size": 9.2,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "bold"
+    },
+    {
+      "text": "0",
+      "bbox_mm": [
+        [
+          9.0,
+          56.88875000000001
+        ],
+        [
+          10.5875,
+          59.111250000000005
+        ]
+      ],
+      "size": 6.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "6",
+      "bbox_mm": [
+        [
+          68.51171875,
+          56.88875000000001
+        ],
+        [
+          70.0,
+          59.111250000000005
+        ]
+      ],
+      "size": 6.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "model time",
+      "bbox_mm": [
+        [
+          33.709531250000005,
+          56.88875000000001
+        ],
+        [
+          46.29046875,
+          59.111250000000005
+        ]
+      ],
+      "size": 6.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "$q=\\int [r_{\\mathrm{stim}}(t)-r_{\\mathrm{control}}(t)]\\,dt$",
+      "bbox_mm": [
+        [
+          23.765080916119135,
+          47.776651679687504
+        ],
+        [
+          56.23491908388087,
+          52.2233483203125
+        ]
+      ],
+      "size": 9.1,
+      "font": [
+        "Times New Roman"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Recording design",
+      "bbox_mm": [
+        [
+          90.0,
+          157.17437500000003
+        ],
+        [
+          121.829375,
+          160.82562500000003
+        ]
+      ],
+      "size": 10.5,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "bold"
+    },
+    {
+      "text": "40 independent networks",
+      "bbox_mm": [
+        [
+          90.0,
+          150.809375
+        ],
+        [
+          122.940625,
+          153.190625
+        ]
+      ],
+      "size": 7.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Nominal",
+      "bbox_mm": [
+        [
+          90.0,
+          139.57125000000002
+        ],
+        [
+          101.52921875,
+          142.42875
+        ]
+      ],
+      "size": 8.4,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Prior-averaged",
+      "bbox_mm": [
+        [
+          90.0,
+          129.57125000000002
+        ],
+        [
+          110.53828125,
+          132.42875
+        ]
+      ],
+      "size": 8.4,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Identical-set illustration",
+      "bbox_mm": [
+        [
+          131.774140625,
+          122.88875000000002
+        ],
+        [
+          158.225859375,
+          125.11125000000001
+        ]
+      ],
+      "size": 6.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Identical recording sets",
+      "bbox_mm": [
+        [
+          90.0,
+          114.57125
+        ],
+        [
+          124.42890625,
+          117.42875000000001
+        ]
+      ],
+      "size": 8.4,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "bold"
+    },
+    {
+      "text": "82/120 single-response designs",
+      "bbox_mm": [
+        [
+          90.0,
+          107.57125000000002
+        ],
+        [
+          132.624375,
+          110.42875000000002
+        ]
+      ],
+      "size": 8.1,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "26/40 shared designs",
+      "bbox_mm": [
+        [
+          90.0,
+          101.57125
+        ],
+        [
+          119.5275,
+          104.42875000000001
+        ]
+      ],
+      "size": 8.1,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Response error after MAP fitting",
+      "bbox_mm": [
+        [
+          90.0,
+          92.49187500000002
+        ],
+        [
+          141.05796875,
+          95.50812500000002
+        ]
+      ],
+      "size": 9.0,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "bold"
+    },
+    {
+      "text": "Same recording budget, pool and estimator",
+      "bbox_mm": [
+        [
+          90.0,
+          86.809375
+        ],
+        [
+          141.29609375,
+          89.19062500000001
+        ]
+      ],
+      "size": 7.2,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Single response",
+      "bbox_mm": [
+        [
+          90.0,
+          81.57125
+        ],
+        [
+          112.5425,
+          84.42875000000001
+        ]
+      ],
+      "size": 8.1,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "bold"
+    },
+    {
+      "text": "\u22123.7% [\u221218.5, +12.1]",
+      "bbox_mm": [
+        [
+          132.64687500000002,
+          67.851865234375
+        ],
+        [
+          164.0,
+          70.54813476562501
+        ]
+      ],
+      "size": 7.4,
+      "font": [
+        "JuliaMono"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Shared three-response",
+      "bbox_mm": [
+        [
+          90.0,
+          61.571250000000006
+        ],
+        [
+          122.305625,
+          64.42875000000001
+        ]
+      ],
+      "size": 8.1,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "bold"
+    },
+    {
+      "text": "+2.7% [\u22123.0, +11.5]",
+      "bbox_mm": [
+        [
+          134.21453125000002,
+          47.851865234375005
+        ],
+        [
+          164.0,
+          50.548134765625
+        ]
+      ],
+      "size": 7.4,
+      "font": [
+        "JuliaMono"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "97.5% network-cluster CIs; zero shown dashed",
+      "bbox_mm": [
+        [
+          90.0,
+          42.88875
+        ],
+        [
+          143.34,
+          45.111250000000005
+        ]
+      ],
+      "size": 6.9,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Risk forecasts",
+      "bbox_mm": [
+        [
+          180.0,
+          157.17437500000003
+        ],
+        [
+          206.09453125000002,
+          160.82562500000003
+        ]
+      ],
+      "size": 10.5,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "bold"
+    },
+    {
+      "text": "40 new independent networks",
+      "bbox_mm": [
+        [
+          180.0,
+          150.809375
+        ],
+        [
+          218.83421875000002,
+          153.190625
+        ]
+      ],
+      "size": 7.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Fixed recordings, data",
+      "bbox_mm": [
+        [
+          180.0,
+          139.57125000000002
+        ],
+        [
+          210.89671875000002,
+          142.42875
+        ]
+      ],
+      "size": 8.5,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "and point prediction",
+      "bbox_mm": [
+        [
+          180.0,
+          133.57125
+        ],
+        [
+          207.94,
+          136.42875
+        ]
+      ],
+      "size": 8.5,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Nominal",
+      "bbox_mm": [
+        [
+          184.44375000000002,
+          112.57125000000002
+        ],
+        [
+          195.55625,
+          115.42875000000002
+        ]
+      ],
+      "size": 8.1,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Prior-averaged",
+      "bbox_mm": [
+        [
+          222.07812500000003,
+          112.57125000000002
+        ],
+        [
+          241.92187500000003,
+          115.42875000000002
+        ]
+      ],
+      "size": 8.1,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "MSE-forecast score",
+      "bbox_mm": [
+        [
+          196.047734375,
+          92.49187500000002
+        ],
+        [
+          225.952265625,
+          95.50812500000002
+        ]
+      ],
+      "size": 8.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "bold"
+    },
+    {
+      "text": "$\\log v+e^2/v$",
+      "bbox_mm": [
+        [
+          202.54687170995908,
+          83.14784127604169
+        ],
+        [
+          219.45312829004092,
+          88.85215872395834
+        ]
+      ],
+      "size": 11.0,
+      "font": [
+        "Times New Roman"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "v: forecast MSE; e: response error",
+      "bbox_mm": [
+        [
+          191.305078125,
+          76.809375
+        ],
+        [
+          230.694921875,
+          79.19062500000001
+        ]
+      ],
+      "size": 7.1,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "\u22120.46 [\u22121.16, +0.02]",
+      "bbox_mm": [
+        [
+          194.1328125,
+          55.48815429687501
+        ],
+        [
+          227.8671875,
+          58.511845703125005
+        ]
+      ],
+      "size": 8.0,
+      "font": [
+        "JuliaMono"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "95% network-cluster CI",
+      "bbox_mm": [
+        [
+          197.1490625,
+          50.309375
+        ],
+        [
+          224.8509375,
+          52.690625000000004
+        ]
+      ],
+      "size": 7.1,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Mean influenced by one network",
+      "bbox_mm": [
+        [
+          192.158359375,
+          44.309375
+        ],
+        [
+          229.841640625,
+          46.690625000000004
+        ]
+      ],
+      "size": 7.1,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "100-unit rank-two extension",
+      "bbox_mm": [
+        [
+          8.0,
+          34.4125
+        ],
+        [
+          54.355,
+          37.587500000000006
+        ]
+      ],
+      "size": 9.5,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "bold"
+    },
+    {
+      "text": "8 independent networks; exploratory",
+      "bbox_mm": [
+        [
+          8.0,
+          27.809375000000003
+        ],
+        [
+          54.275625,
+          30.190625000000004
+        ]
+      ],
+      "size": 7.7,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "4/8 settings favour prior averaging;",
+      "bbox_mm": [
+        [
+          8.0,
+          20.809375000000003
+        ],
+        [
+          53.68031249999999,
+          23.190625
+        ]
+      ],
+      "size": 7.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "one point estimate reverses sign.",
+      "bbox_mm": [
+        [
+          8.0,
+          14.809375000000001
+        ],
+        [
+          50.465624999999996,
+          17.190625
+        ]
+      ],
+      "size": 7.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Single response",
+      "bbox_mm": [
+        [
+          147.373671875,
+          36.809375
+        ],
+        [
+          168.626328125,
+          39.190625000000004
+        ]
+      ],
+      "size": 7.7,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "bold"
+    },
+    {
+      "text": "Shared three-response",
+      "bbox_mm": [
+        [
+          212.77984375,
+          36.809375
+        ],
+        [
+          243.22015625,
+          39.190625000000004
+        ]
+      ],
+      "size": 7.7,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "bold"
+    },
+    {
+      "text": "All sites, 5",
+      "bbox_mm": [
+        [
+          118.72875,
+          31.38875
+        ],
+        [
+          130.0,
+          33.61125
+        ]
+      ],
+      "size": 6.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "All sites, 10",
+      "bbox_mm": [
+        [
+          117.49843750000001,
+          26.38875
+        ],
+        [
+          130.0,
+          28.611250000000002
+        ]
+      ],
+      "size": 6.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Excluded, 5",
+      "bbox_mm": [
+        [
+          117.14125,
+          21.38875
+        ],
+        [
+          130.0,
+          23.611250000000002
+        ]
+      ],
+      "size": 6.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Excluded, 10",
+      "bbox_mm": [
+        [
+          115.9109375,
+          16.38875
+        ],
+        [
+          130.0,
+          18.611250000000002
+        ]
+      ],
+      "size": 6.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Mean-MSE change (%) \u00b7 unadjusted 95% CIs",
+      "bbox_mm": [
+        [
+          201.93421875,
+          8.670146484375001
+        ],
+        [
+          252.00000000000003,
+          10.929853515625
+        ]
+      ],
+      "size": 6.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Jiayi Du & Shuaizhi Cheng \u00b7 Equal contribution",
+      "bbox_mm": [
+        [
+          8.0,
+          3.8887500000000004
+        ],
+        [
+          59.27625,
+          6.11125
+        ]
+      ],
+      "size": 6.8,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    },
+    {
+      "text": "Prior-averaged minus nominal; negative favours prior averaging",
+      "bbox_mm": [
+        [
+          90.37187500000003,
+          164.80937500000002
+        ],
+        [
+          163.00000000000003,
+          167.190625
+        ]
+      ],
+      "size": 7.0,
+      "font": [
+        "BentonSans"
+      ],
+      "weight": "normal"
+    }
+  ],
+  "recording_counts": [
+    [
+      82,
+      120
+    ],
+    [
+      26,
+      40
+    ]
+  ],
+  "extension_settings": 8,
+  "favourable_extension_settings": 4,
+  "network_id": 5000,
+  "q_verified": 0.0002435178366808455,
+  "source_sha256": {
+    "fig1_data/weights.csv": "edab58b9b64e0e1529d3dcdd0f26d5e32e3628ff0b0990dbb0b6cd82e949a752",
+    "fig1_data_extra/heldout_response.csv": "ed2b968852d953b068097d0c22ff89899eb4bacfe635eec65e753979f1b9d8b0",
+    "source_data/holdout_paired_effects.csv": "b1aad24f3aa4658b8fc83681e829472d4b6f9e0a8bec3209e177023ea03613c3",
+    "source_data/n100_paired_effects.csv": "db12fa58813bef8c292d627b20fc740773bdcc100090d819ff2259c00db5fe04"
+  }
+}

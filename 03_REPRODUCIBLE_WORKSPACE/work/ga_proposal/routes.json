@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "0.3",
+  "destination": "ICBR 图形摘要：保留科学链条，重排视觉主次",
+  "routes": [
+    {
+      "id": "two-paths",
+      "label": "双路径叙事",
+      "color": "pink",
+      "recommended": true,
+      "tokens": {
+        "min": 30000,
+        "max": 65000
+      },
+      "minutes": {
+        "min": 8,
+        "max": 18
+      },
+      "summary": "保留科学链条，以两条独立评价路径呈现主要发现"
+    },
+    {
+      "id": "results-first",
+      "label": "结果主导",
+      "color": "orange",
+      "recommended": false,
+      "tokens": {
+        "min": 25000,
+        "max": 55000
+      },
+      "minutes": {
+        "min": 7,
+        "max": 15
+      },
+      "summary": "突出三个效应区间，优点是定量，代价是更像结果图"
+    },
+    {
+      "id": "retain-layout",
+      "label": "旧版精修",
+      "color": "purple",
+      "recommended": false,
+      "tokens": {
+        "min": 15000,
+        "max": 35000
+      },
+      "minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "summary": "保留三栏，减字并修正语义，改动最小但层级受限"
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "old",
+        "label": "旧图与已定稿论文",
+        "column": 0,
+        "lane": 2
+      },
+      {
+        "id": "message",
+        "label": "确定唯一主旨",
+        "column": 1,
+        "lane": 2,
+        "control": "decision"
+      },
+      {
+        "id": "paths",
+        "label": "两条评价路径",
+        "column": 3,
+        "lane": 0
+      },
+      {
+        "id": "effects",
+        "label": "压缩结果区间",
+        "column": 3,
+        "lane": 2
+      },
+      {
+        "id": "trim",
+        "label": "精简旧版三栏",
+        "column": 3,
+        "lane": 4
+      },
+      {
+        "id": "review",
+        "label": "缩图与科学语义审查",
+        "column": 5,
+        "lane": 2,
+        "control": "proof"
+      },
+      {
+        "id": "ready",
+        "label": "可审阅矢量初稿",
+        "column": 6,
+        "lane": 2
+      }
+    ],
+    "edges": [
+      {
+        "from": "old",
+        "to": "message",
+        "routes": [
+          "two-paths",
+          "results-first",
+          "retain-layout"
+        ]
+      },
+      {
+        "from": "message",
+        "to": "paths",
+        "routes": [
+          "two-paths"
+        ]
+      },
+      {
+        "from": "paths",
+        "to": "review",
+        "routes": [
+          "two-paths"
+        ]
+      },
+      {
+        "from": "message",
+        "to": "effects",
+        "routes": [
+          "results-first"
+        ]
+      },
+      {
+        "from": "effects",
+        "to": "review",
+        "routes": [
+          "results-first"
+        ]
+      },
+      {
+        "from": "message",
+        "to": "trim",
+        "routes": [
+          "retain-layout"
+        ]
+      },
+      {
+        "from": "trim",
+        "to": "review",
+        "routes": [
+          "retain-layout"
+        ]
+      },
+      {
+        "from": "review",
+        "to": "ready",
+        "routes": [
+          "two-paths",
+          "results-first",
+          "retain-layout"
+        ]
+      }
+    ]
+  }
+}

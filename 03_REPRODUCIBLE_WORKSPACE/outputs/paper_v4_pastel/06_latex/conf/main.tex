@@ -1,0 +1,70 @@
+% ICML 2025 style wrapper; all content from build/*.tex (../common/md2tex.py).
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mdcommon}
+\usepackage[table]{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable}
+\usepackage{hyperref}
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+% 'accepted' = non-anonymous, "Appearing in" notice (layout choice, see README)
+\usepackage[accepted]{icml2025}
+\hyphenation{bio-hybrid}
+\input{build/meta.tex}
+\icmltitlerunning{Prior-Averaged Risk Often Leaves Recording Decisions Unchanged}
+
+\newenvironment{keypointsbox}{%
+  \begin{tcolorbox}[breakable,colback=black!4,colframe=black!55,boxrule=0.4pt,arc=0pt,
+    left=3pt,right=3pt,top=2pt,bottom=2pt,
+    title={\footnotesize\bfseries KEY POINTS},fonttitle=\footnotesize\bfseries,
+    coltitle=white,colbacktitle=black!65,boxsep=1pt]
+  \footnotesize\setlength{\parindent}{0pt}%
+}{\end{tcolorbox}}
+
+\begin{document}
+\twocolumn[
+\icmltitle{\PaperTitle}
+\icmlsetsymbol{equal}{*}
+\begin{icmlauthorlist}
+\icmlauthor{Jiayi Du}{equal,lou}
+\icmlauthor{Shuaizhi Cheng}{equal,hit}
+\end{icmlauthorlist}
+\icmlaffiliation{lou}{Stiftung Louisenlund, Germany}
+\icmlaffiliation{hit}{Department of Computing, Harbin Institute of Technology, China}
+\icmlcorrespondingauthor{Jiayi Du}{jiayi.du@mail.louisenlund.de}
+\icmlkeywords{recording design, neural networks, Bayesian experimental design}
+\vskip 0.3in
+]
+\printAffiliationsAndNotice{\icmlEqualContribution}
+
+\begin{abstract}
+\input{build/abstract.tex}
+\end{abstract}
+
+\ifpaperkeypoints
+\begin{keypointsbox}
+\input{build/keypoints.tex}
+\end{keypointsbox}
+\fi
+\vspace{4pt}
+
+\input{build/body.tex}
+
+\bibliography{build/references}
+\bibliographystyle{icml2025}
+
+\ifpaperappendix
+\appendix
+\onecolumn
+\section{Supplementary figures}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\input{build/appendix_conf.tex}
+\fi
+\end{document}

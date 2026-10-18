@@ -1,0 +1,368 @@
+{
+  "numeric_artists_limits_scales_match_historical": true,
+  "layout_note": "S2-S4 panel widths reduced from 70 to 68 mm together, giving rightmost axis a 2 mm page margin; aligned rows and columns retained",
+  "figures": [
+    {
+      "name": "figS1_complete_paired_distributions_pink",
+      "panels": [
+        {
+          "numeric_artist_sha256": "55852daf2c2f1bb9b17cea896977217b91e45096d71db560bcbfd6470692b6ac",
+          "position": [
+            0.1111111111111111,
+            0.2631578947368421,
+            0.35555555555555557,
+            0.5657894736842106
+          ],
+          "xlim": [
+            -18.03055956154839,
+            8.065440759524304
+          ],
+          "ylim": [
+            0.0,
+            1.13
+          ],
+          "xscale": "linear",
+          "yscale": "linear"
+        },
+        {
+          "numeric_artist_sha256": "96a900fef3b32e3128bfb524164c1546956ee89c27b037ca4c0d50fb6477ced8",
+          "position": [
+            0.6222222222222222,
+            0.2631578947368421,
+            0.3555555555555556,
+            0.5657894736842106
+          ],
+          "xlim": [
+            -1.7496810487575152,
+            6.859455187437107
+          ],
+          "ylim": [
+            0.0,
+            1.13
+          ],
+          "xscale": "linear",
+          "yscale": "linear"
+        }
+      ],
+      "dimensions_mm": [
+        180.0,
+        76.0
+      ]
+    },
+    {
+      "name": "figS2_matched_conditions_pink",
+      "panels": [
+        {
+          "numeric_artist_sha256": "c08d868ff593a24299a2d16116f44c7138f54a86108fa8e8b779a7320a3174f9",
+          "position": [
+            0.1,
+            0.6411764705882353,
+            0.37777777777777777,
+            0.2588235294117648
+          ],
+          "xlim": [
+            -0.5,
+            5.5
+          ],
+          "ylim": [
+            1e-15,
+            0.01
+          ],
+          "xscale": "linear",
+          "yscale": "log"
+        },
+        {
+          "numeric_artist_sha256": "fccb8bbd83dfa3d2397d9a10108a41bb8b06bee66cdda7686486306351a59880",
+          "position": [
+            0.6111111111111112,
+            0.6411764705882353,
+            0.37777777777777777,
+            0.2588235294117648
+          ],
+          "xlim": [
+            -0.5,
+            5.5
+          ],
+          "ylim": [
+            1e-15,
+            0.01
+          ],
+          "xscale": "linear",
+          "yscale": "log"
+        },
+        {
+          "numeric_artist_sha256": "5bf3c6692e5fc6aa9c9cdcb52bf01cc985ab42a1d6ecffd5df2ad64e62e22e9e",
+          "position": [
+            0.1,
+            0.2235294117647059,
+            0.37777777777777777,
+            0.2588235294117648
+          ],
+          "xlim": [
+            -0.5,
+            5.5
+          ],
+          "ylim": [
+            1e-15,
+            0.01
+          ],
+          "xscale": "linear",
+          "yscale": "log"
+        },
+        {
+          "numeric_artist_sha256": "8bdd727f6693c1b954fb2b6a5189ba88f62193ac2ff14ea7253ad6529fba8a5d",
+          "position": [
+            0.6111111111111112,
+            0.2235294117647059,
+            0.37777777777777777,
+            0.2588235294117648
+          ],
+          "xlim": [
+            -0.5,
+            5.5
+          ],
+          "ylim": [
+            1e-15,
+            0.01
+          ],
+          "xscale": "linear",
+          "yscale": "log"
+        }
+      ],
+      "dimensions_mm": [
+        180.0,
+        170.0
+      ]
+    },
+    {
+      "name": "figS3_broad_conditions_pink",
+      "panels": [
+        {
+          "numeric_artist_sha256": "140d280a6bf23db54c628c5b30264b38d24e5601f3963b725b09b49bcde7fedd",
+          "position": [
+            0.1,
+            0.6411764705882353,
+            0.37777777777777777,
+            0.2588235294117648
+          ],
+          "xlim": [
+            -0.5,
+            5.5
+          ],
+          "ylim": [
+            1e-15,
+            0.01
+          ],
+          "xscale": "linear",
+          "yscale": "log"
+        },
+        {
+          "numeric_artist_sha256": "cdba6caa02f7536a70d414deea02ba475a28e6c584c85e76791e0bb834fa6619",
+          "position": [
+            0.6111111111111112,
+            0.6411764705882353,
+            0.37777777777777777,
+            0.2588235294117648
+          ],
+          "xlim": [
+            -0.5,
+            5.5
+          ],
+          "ylim": [
+            1e-15,
+            0.01
+          ],
+          "xscale": "linear",
+          "yscale": "log"
+        },
+        {
+          "numeric_artist_sha256": "48b5fd0f375aa22fa56c726e68f6207c075e7b52cd6140c0ab849830f57d5abc",
+          "position": [
+            0.1,
+            0.2235294117647059,
+            0.37777777777777777,
+            0.2588235294117648
+          ],
+          "xlim": [
+            -0.5,
+            5.5
+          ],
+          "ylim": [
+            1e-15,
+            0.01
+          ],
+          "xscale": "linear",
+          "yscale": "log"
+        },
+        {
+          "numeric_artist_sha256": "e78f0e7126dbd6732633013d0c34ebc21222ace2784dbc77a70e0796032eb7e5",
+          "position": [
+            0.6111111111111112,
+            0.2235294117647059,
+            0.37777777777777777,
+            0.2588235294117648
+          ],
+          "xlim": [
+            -0.5,
+            5.5
+          ],
+          "ylim": [
+            1e-15,
+            0.01
+          ],
+          "xscale": "linear",
+          "yscale": "log"
+        }
+      ],
+      "dimensions_mm": [
+        180.0,
+        170.0
+      ]
+    },
+    {
+      "name": "figS4_bias_shift_conditions_pink",
+      "panels": [
+        {
+          "numeric_artist_sha256": "0d30bcf8e3ecee815d1dc0ae6e00776bab98b06ab3d932bc3dada1c4a65c32e8",
+          "position": [
+            0.1,
+            0.6411764705882353,
+            0.37777777777777777,
+            0.2588235294117648
+          ],
+          "xlim": [
+            -0.5,
+            5.5
+          ],
+          "ylim": [
+            1e-15,
+            0.01
+          ],
+          "xscale": "linear",
+          "yscale": "log"
+        },
+        {
+          "numeric_artist_sha256": "b44e7e9b23eff01d08483c537f93f7d5a971998d8b4fe2f259ee4238608ebac5",
+          "position": [
+            0.6111111111111112,
+            0.6411764705882353,
+            0.37777777777777777,
+            0.2588235294117648
+          ],
+          "xlim": [
+            -0.5,
+            5.5
+          ],
+          "ylim": [
+            1e-15,
+            0.01
+          ],
+          "xscale": "linear",
+          "yscale": "log"
+        },
+        {
+          "numeric_artist_sha256": "f5c88bf345af0203b434b0951b28bc935fb785acab801c75dade368a162a0fdb",
+          "position": [
+            0.1,
+            0.2235294117647059,
+            0.37777777777777777,
+            0.2588235294117648
+          ],
+          "xlim": [
+            -0.5,
+            5.5
+          ],
+          "ylim": [
+            1e-15,
+            0.01
+          ],
+          "xscale": "linear",
+          "yscale": "log"
+        },
+        {
+          "numeric_artist_sha256": "834b78c533283dc4b59e620af6757d0c0d809c31e78e4d8b573eb0e9d2e234bc",
+          "position": [
+            0.6111111111111112,
+            0.2235294117647059,
+            0.37777777777777777,
+            0.2588235294117648
+          ],
+          "xlim": [
+            -0.5,
+            5.5
+          ],
+          "ylim": [
+            1e-15,
+            0.01
+          ],
+          "xscale": "linear",
+          "yscale": "log"
+        }
+      ],
+      "dimensions_mm": [
+        180.0,
+        170.0
+      ]
+    },
+    {
+      "name": "figS5_linear_positive_control_pink",
+      "panels": [
+        {
+          "numeric_artist_sha256": "7e51cdc2400058ea7fce258048b47fa5e1e93c2e4aeb203b0dad4e141b67dd0c",
+          "position": [
+            0.1111111111111111,
+            0.15217391304347827,
+            0.34444444444444444,
+            0.6739130434782609
+          ],
+          "xlim": [
+            0.0,
+            1.0
+          ],
+          "ylim": [
+            0.0,
+            1.0
+          ],
+          "xscale": "linear",
+          "yscale": "linear"
+        }
+      ],
+      "dimensions_mm": [
+        180.0,
+        92.0
+      ]
+    }
+  ],
+  "source_sha256": {
+    "holdout_primary_paired.csv": "5d0a369c7e3cceb4c1da545a92139d6fcb513dca224a42839d4961be653d7ab2",
+    "holdout_network_metrics.csv": "e982dedf64301d1521a52924e8e194b0e844e5c574926cd4f0e0b398b03bb4af",
+    "holdout_summary.json": "f6288af263dabf45117e42bb6c9115dc8a08c997191ca47c12e33240ce3533fd",
+    "linear_control.csv": "1c71b8a65d97eed049a36296c028224fa329f683f1052ef5cfb1cb9c2e1c0f09"
+  },
+  "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+  "observations": {
+    "ECDF": 80,
+    "condition_points": 2880,
+    "linear_control": 144
+  },
+  "rendered_and_visually_inspected": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "font_tokens": {
+    "panel": "Arial 8 Bold #27232B",
+    "title": "Arial 7 Bold #27232B",
+    "axis": "Arial 7 Regular #49424B",
+    "tick": "Arial 6.3 Regular #6B626D",
+    "result": "Arial 6.5 Regular #27232B",
+    "secondary": "Arial 6 Regular #776F78"
+  },
+  "final_font_revision_inspected": [
+    "S1",
+    "S2",
+    "S5"
+  ]
+}

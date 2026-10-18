@@ -1,0 +1,5807 @@
+
+
+
+
+
+    
+
+
+        
+
+        
+
+        
+
+        
+
+        
+
+
+        
+        
+
+        
+        
+  
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+    
+
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3E%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+
+
+
+  
+
+
+
+        
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+        
+
+        
+
+            Magnetic medical microrobots with memory-capable genetic circuits - PMC
+        
+
+
+        
+        
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+
+
+    
+        
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+        
+    
+
+      Skip to main content
+    
+
+
+
+        
+            
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                
+
+
+                
+
+                    
+
+                        An official website of the United States government
+                    
+
+                    
+Here's how you know
+
+                
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+    
+        
+
+        
+                    
+Here's how you know
+
+                
+
+        
+    
+        
+            
+
+        
+
+
+            
+
+        
+
+
+        
+
+            
+
+                
+
+                    
+
+                    
+
+                        
+
+                            
+Official websites use .gov
+
+                            
+
+                            A
+                            
+.gov
+ website belongs to an official
+                            government organization in the United States.
+                        
+
+                    
+
+                
+
+
+                
+
+                    
+
+
+                    
+
+                        
+
+                            
+Secure .gov websites use HTTPS
+
+                            
+
+                            A 
+lock
+ (
+                            
+
+                                
+
+                                    
+Lock
+
+                                    
+
+                                    Locked padlock icon
+                                    
+
+                                    
+
+                                
+
+
+) or 
+https://
+ means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+        
+
+        
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+            
+
+
+            
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+    
+        
+
+        
+                
+
+                    
+
+                
+
+            
+
+        
+    
+        
+            
+
+        
+
+
+
+            
+                
+
+                
+
+                    
+                        
+
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+    
+        
+
+        
+                            
+
+
+
+    
+
+
+
+                            Search
+                        
+
+        
+    
+        
+            
+
+        
+
+
+                    
+
+                    
+
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+    
+        
+
+        
+                                
+
+
+
+    
+
+
+
+
+                                
+Log in
+
+
+                                
+
+                                
+
+
+
+    
+
+
+
+
+                                
+
+                                
+
+
+
+    
+
+
+
+                            
+
+        
+    
+        
+            
+
+        
+
+
+
+                            
+
+                            
+
+                                
+                                    
+
+                                        
+
+                                        
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            Dashboard
+        
+
+        
+    
+
+
+
+                                    
+
+                                
+                                    
+
+                                        
+
+                                        
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            Publications
+        
+
+        
+    
+
+
+
+                                    
+
+                                
+                                    
+
+                                        
+
+                                        
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            Account settings
+        
+
+        
+    
+
+
+
+                                    
+
+                                
+                                
+
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+    
+        
+
+        Log out
+
+        
+    
+        
+            
+
+        
+
+
+                                
+
+                            
+
+                        
+
+                    
+                
+
+            
+        
+
+    
+
+
+    
+
+    
+        
+
+            
+
+                
+
+                    
+
+                        Search…
+                    
+
+                    
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+    
+        
+
+        
+                        
+
+                            Search NCBI
+                        
+
+                    
+
+        
+    
+        
+            
+
+        
+
+
+                
+
+
+                
+            
+
+        
+
+    
+
+    
+
+        
+
+            Primary site navigation
+        
+
+
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+    
+        
+
+        
+            
+
+        
+
+        
+    
+        
+            
+
+        
+
+
+
+        
+            
+
+            
+
+                
+
+                    Search
+                
+
+
+                
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+    
+        
+
+        
+                    
+
+                    
+
+                
+
+        
+    
+        
+            
+
+        
+
+
+            
+
+
+            
+        
+
+        
+
+        
+
+        
+
+        
+            
+
+                
+
+                    Logged in as:
+                    
+
+                
+
+                
+
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            Dashboard
+        
+
+        
+    
+
+
+
+                        
+
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            Publications
+        
+
+        
+    
+
+
+
+                        
+
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            Account settings
+        
+
+        
+    
+
+
+
+                        
+
+                    
+                
+
+            
+
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+    
+        
+
+        Log in
+
+        
+    
+        
+            
+
+        
+
+
+    
+
+
+
+
+    
+    
+        
+
+
+
+    
+
+        
+
+           
+
+               
+
+           
+
+            
+
+                
+
+                
+
+            
+
+        
+
+        
+
+            
+
+
+
+
+
+Search PMC Full-Text Archive
+
+
+
+
+
+
+
+
+
+
+Search in PMC
+
+
+
+
+
+
+
+            
+
+                
+
+                    
+
+                        
+                            
+
+                                Journal List
+                            
+
+                        
+                    
+
+                    
+
+                        
+                            
+
+                                User Guide
+                            
+
+                        
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+    
+
+
+        
+        
+
+       
+  
+
+
+    
+
+   
+
+
+
+
+
+    
+
+        
+
+             
+
+                
+
+                    
+
+                        
+
+                            
+
+                        
+
+                    
+
+                    
+                    
+
+                        
+
+                                
+
+                        
+
+                    
+
+                    
+                    
+                        
+
+                             
+
+
+                                 
+
+                            
+
+                        
+
+                    
+                    
+
+                        
+
+                            
+
+                            
+
+                        
+
+                    
+
+                    
+                    
+
+                        
+
+                            
+
+                        
+
+                    
+
+                    
+                    
+
+                         
+
+                            
+
+                        
+
+                        
+
+
+
+    
+
+          
+PERMALINK
+
+          
+
+              
+
+              
+
+                  
+
+                  
+Copy
+
+              
+
+          
+
+    
+
+
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+            
+
+        
+
+    
+
+
+
+    
+
+      
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.
+
+    Learn more:
+    
+PMC Disclaimer
+
+    |
+    
+
+        PMC Copyright Notice
+    
+
+
+
+                    
+
+                
+
+                
+
+                    
+
+                    
+
+
+                      
+                        
+
+
+Sci Adv
+. 2026 May 13;12(20):eaeb2528. doi: 
+10.1126/sciadv.aeb2528
+
+
+
+
+
+
+Search in PMC
+
+
+Search in PubMed
+
+
+View in NLM Catalog
+
+
+Add to search
+
+
+
+
+Magnetic medical microrobots with memory-capable genetic circuits
+
+
+Haotian Chen
+
+
+Haotian Chen
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Project administration, Resources, Supervision, Validation, Visualization, Writing - original draft, Writing - review & editing
+
+
+Find articles by 
+Haotian Chen
+
+
+
+
+
+
+1,
+†
+, 
+Yujun Chen
+
+
+Yujun Chen
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+
+
+2
+Shanghai Innovation Institute, Shanghai 200030 China.
+
+
+Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Validation, Visualization, Writing - original draft, Writing - review & editing
+
+
+Find articles by 
+Yujun Chen
+
+
+
+
+
+
+1,
+2,
+†
+, 
+Yingying Wang
+
+
+Yingying Wang
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+Methodology, Writing - review & editing
+
+
+Find articles by 
+Yingying Wang
+
+
+
+
+
+
+1
+, 
+Peng Ning
+
+
+Peng Ning
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+Methodology
+
+
+Find articles by 
+Peng Ning
+
+
+
+
+
+
+1
+, 
+Yingze Li
+
+
+Yingze Li
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+Methodology
+
+
+Find articles by 
+Yingze Li
+
+
+
+
+
+
+1
+, 
+Yuantai Sun
+
+
+Yuantai Sun
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+Methodology
+
+
+Find articles by 
+Yuantai Sun
+
+
+
+
+
+
+1
+, 
+Xueyan Wei
+
+
+Xueyan Wei
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+Project administration
+
+
+Find articles by 
+Xueyan Wei
+
+
+
+
+
+
+1
+, 
+Rui Gao
+
+
+Rui Gao
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+Methodology
+
+
+Find articles by 
+Rui Gao
+
+
+
+
+
+
+1
+, 
+Xing Fan
+
+
+Xing Fan
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+Methodology
+
+
+Find articles by 
+Xing Fan
+
+
+
+
+
+
+1
+, 
+Feng Tao
+
+
+Feng Tao
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+Methodology
+
+
+Find articles by 
+Feng Tao
+
+
+
+
+
+
+1
+, 
+Zihan Guo
+
+
+Zihan Guo
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+Methodology
+
+
+Find articles by 
+Zihan Guo
+
+
+
+
+
+
+1
+, 
+Weicheng Gu
+
+
+Weicheng Gu
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+Methodology
+
+
+Find articles by 
+Weicheng Gu
+
+
+
+
+
+
+1
+, 
+Zhenguang Li
+
+
+Zhenguang Li
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+Methodology
+
+
+Find articles by 
+Zhenguang Li
+
+
+
+
+
+
+1
+, 
+Xinjian Fan
+
+
+Xinjian Fan
+
+
+
+
+3
+School of Mechanical and Electric Engineering, Soochow University, Suzhou 215123 China.
+
+
+Formal analysis, Investigation, Resources, Software, Writing - original draft, Writing - review & editing
+
+
+Find articles by 
+Xinjian Fan
+
+
+
+
+
+
+3
+, 
+Zhen Yin
+
+
+Zhen Yin
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+
+
+2
+Shanghai Innovation Institute, Shanghai 200030 China.
+
+
+
+
+4
+Department of Control Science and Engineering, Tongji University, Shanghai 201804 China.
+
+
+Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Project administration, Resources, Supervision, Validation, Visualization, Writing - original draft, Writing - review & editing
+
+
+Find articles by 
+Zhen Yin
+
+
+
+
+
+
+1,
+2,
+4,
+*
+, 
+Yu Cheng
+
+
+Yu Cheng
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Resources, Supervision, Validation, Visualization, Writing - original draft, Writing - review & editing
+
+
+Find articles by 
+Yu Cheng
+
+
+
+
+
+
+1,
+*
+
+
+
+
+
+
+Author information
+
+
+Article notes
+
+
+Copyright and License information
+
+
+
+
+
+
+
+
+
+
+1
+State Key Laboratory of Autonomous Intelligent Unmanned Systems, Shanghai Key Laboratory of Anesthesiology and Brain Functional Modulation, Clinical Research Center for Anesthesiology and Perioperative Medicine, Translational Research Institute of Brain and Brain-Like Intelligence, Collaborative Innovation Center for Brain Science, Shanghai Fourth People’s Hospital, School of Medicine, Tongji University, Shanghai 200434 China.
+
+
+
+
+2
+Shanghai Innovation Institute, Shanghai 200030 China.
+
+
+
+
+3
+School of Mechanical and Electric Engineering, Soochow University, Suzhou 215123 China.
+
+
+
+
+4
+Department of Control Science and Engineering, Tongji University, Shanghai 201804 China.
+
+
+
+
+
+
+*
+Corresponding author. Email: 
+zhenyin@tongji.edu.cn
+ (Z.Y.);
+
+
+
+
+
+
+*
+Corresponding author. Email: 
+yucheng@tongji.edu.cn
+ (Y.C.)
+
+
+
+
+
+
+†
+These authors contributed equally to this work.
+
+
+
+
+
+
+Roles
+
+
+
+
+Haotian Chen
+: 
+Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Project administration, Resources, Supervision, Validation, Visualization, Writing - original draft, Writing - review & editing
+
+
+
+
+
+
+Yujun Chen
+: 
+Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Validation, Visualization, Writing - original draft, Writing - review & editing
+
+
+
+
+
+
+Yingying Wang
+: 
+Methodology, Writing - review & editing
+
+
+
+
+
+
+Peng Ning
+: 
+Methodology
+
+
+
+
+
+
+Yingze Li
+: 
+Methodology
+
+
+
+
+
+
+Yuantai Sun
+: 
+Methodology
+
+
+
+
+
+
+Xueyan Wei
+: 
+Project administration
+
+
+
+
+
+
+Rui Gao
+: 
+Methodology
+
+
+
+
+
+
+Xing Fan
+: 
+Methodology
+
+
+
+
+
+
+Feng Tao
+: 
+Methodology
+
+
+
+
+
+
+Zihan Guo
+: 
+Methodology
+
+
+
+
+
+
+Weicheng Gu
+: 
+Methodology
+
+
+
+
+
+
+Zhenguang Li
+: 
+Methodology
+
+
+
+
+
+
+Xinjian Fan
+: 
+Formal analysis, Investigation, Resources, Software, Writing - original draft, Writing - review & editing
+
+
+
+
+
+
+Zhen Yin
+: 
+Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Project administration, Resources, Supervision, Validation, Visualization, Writing - original draft, Writing - review & editing
+
+
+
+
+
+
+Yu Cheng
+: 
+Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Resources, Supervision, Validation, Visualization, Writing - original draft, Writing - review & editing
+
+
+
+
+
+
+Received 2025 Aug 6; Accepted 2026 Apr 7; Collection date 2026 May 15.
+
+
+
+
+Copyright © 2026 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim to original U.S. Government Works. Distributed under a Creative Commons Attribution License 4.0 (CC BY).
+
+
+This is an open-access article distributed under the terms of the 
+Creative Commons Attribution license
+, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+
+
+PMC Copyright notice
+
+
+
+
+
+
+PMCID: PMC13170677  PMID: 
+42127204
+
+
+
+
+Abstract
+
+
+Autonomous microrobots can reach hard-to-access regions in the human body for minimally invasive therapy. However, their microscale size limits the integration of on-board memory, making their operation dependent on external controls. Here, we develop a magnetic probiotic microrobot integrated with memory-capable genetic circuit to execute autonomous antitumor treatment. Through a one-time magnetic hyperthermia trigger, the biological thermal sensor in the microrobot perceives temperature change and activates the memory module Bxb1-ssrA-
+attB
+-P7-
+attP
+, transferring the microrobots into a therapeutic state to continuously degrade fibrin and soften the tumor microenvironment. The genetic memory remains active for at least 12 days. A synergy toward deep tumor penetration is subsequently established between the memory-encoded softening and the physical penetration through magnetically controlled wave-like locomotion of microrobots. Compared with memory-absent microrobots, the proposed microrobots achieve a 6.70-fold tumor matrix stiffness reduction and boost in vivo anticancer efficacy from 21.86 to 87.52%. Beyond oncology, the proposed system establishes a generalizable framework of memory-encoded medical microrobots.
+
+
+Memory-encoded magnetic microrobots soften tumors and penetrate deeply for autonomous cancer therapy.
+INTRODUCTION
+
+
+Medical microrobots can traverse complex and inaccessible areas within the human body to perform targeted drug delivery and complete minimally invasive procedures, positioning them at the forefront of medical research and development (
+1
+–
+8
+). Although they can be wirelessly controlled via magnetic fields, light, ultrasound, chemical gradients, and bioenergy (
+9
+–
+18
+), current microrobots lack on-board memory, leaving them unable to execute tasks once external stimuli are withdrawn. Integrating on-board memory modules is essential for medical microrobots to perform autonomous medical operations without needing consistent external inputs, but this remains as a bottleneck at the micrometer scale.
+
+
+Extensive research efforts have been devoted to the development of small-scale robotic systems with memory capabilities. A typical approach is to use shape-memory materials and microelectronic components to achieve physical memory (
+19
+–
+24
+). Due to the challenges in high-throughput fabrication and microsystem integration (table S1), these memory-capable devices typically have a featured size of at least 10
+0
+ mm or larger, which are more than two orders higher than microrobots. On top of that, synthetic materials used in physical memory components can raise biocompatibility concerns when used inside the human body. Therefore, the development of biocompatible and economical memory-capable microrobots eventually determines the future of medical microrobots for real-world clinical applications.
+
+
+Microorganisms are sophisticated machines composed of functional molecular components that have the capabilities to sense, memorize, communicate, actuate, and synthesize (
+25
+–
+28
+). Among these, probiotics have evolved to maintain a symbiosis with human beings, offering themselves as a highly biocompatible microrobotic platform (
+29
+, 
+30
+). However, natural probiotics are not purposefully designed to accommodate medical tasks and are limited in controllability. By using microorganisms as templates, gene editing in synthetic biology provides an effective approach to manipulate and reconfigure biomolecular machine components (
+31
+–
+36
+), enabling the development of controllable microrobots. For instance, biosensors based on gene-edited probiotics have been developed to diagnose symptoms such as inflammation and infection (
+37
+, 
+38
+). Memory-capable modules based on the recombinase Bxb1 have also been identified and could potentially be integrated into microrobotic systems (
+39
+–
+41
+). Therefore, the biosynthetic approach based on gene editing techniques offers a promising system to design and produce highly integrated memory-capable microrobots.
+
+
+Here, we designed a magnetic probiotic microrobot engineered with memory-capable biocircuit and magnetic controllability to achieve a synergy of tumor softening and physical penetration for autonomous antitumor treatment (
+Fig. 1
+). A genetic circuit containing five functional modules, including the thermal sensing, actuating, memory, therapy, and imaging feedback units, was encoded into probiotic 
+Escherichia coli
+ Nissle 1917 (EcN), followed by surface modification with magnetic nanoparticles (MNPs). The microrobots converted an exerted magnetic signal into heat via MNPs, activating genetically encoded thermal sensors that could detect and remember the thermal stimulation. This enabled the continuous synthesis of the fibrin degradation agent nattokinase (NK) and fluorescent mCherry for imaging feedback. In a mouse cancer model, the microrobot swarm with genetically encoded memory maintained long-term tumor softening capacity after thermal activation, without requiring continuous external magnetic input. Synergistically, the three-dimensional (3D) waving motion of the probiotic microrobot swarm enhanced tumor penetration by creating a softening-penetration positive feedback loop to tune tumor matrix stiffness and elevate antitumor efficacy in vivo. The demonstrated system platform establishes a translational framework for designing medical microrobots to autonomously treat diseases such as cancer.
+
+
+Fig. 1. Schematic illustration of the probiotic microrobot swarm with genetic memory for amplifying antitumor efficacy.
+
+
+
+
+Open in a new tab
+
+
+(
+A
+) Engineered probiotic EcN serves as the biological robotic platform, incorporating a thermal sensor, an actuator, a memory module, a memory suppressor, a biosynthetic module for NK release, and an mCherry fluorescence reporter for visual feedback. Upon sensing temperature increase by magnetic hyperthermia, the microrobots memorize the stimulus and autonomously release NK. (
+B
+) The effect of antitumor mechanoregulation is further boosted by the positive feedback loop established by the synergy between NK-induced tumor softening and magnetically enhanced tumor penetration.
+RESULTS
+
+
+Design and fabrication of gene-encoded magnetic medical microrobots
+
+
+The fabrication of gene-encoded magnetic medical microrobots with memory-capable integrated biocircuit mainly consisted of two steps: engineering genetically encoded memory biocircuit and coupling iron oxide nanoparticles onto the microrobots. In the first step, the biocircuit consisted of TcI (temperature-sensitive bacteriophage λ repressor cI857) as the thermal sensor, pR-pL (phage lambda thermally inducible promoters) as the actuator, Bxb1-ssrA-
+attB
+-P7-
+attP
+ as the memory module, a biosynthetic module to release tumor softening agent (NK), and fluorescent mCherry for visual feedback (
+Fig. 2A
+). At body temperature, the TcI sensor suppressed the pR-pL actuator. When the environmental temperature exceeded 42°C, this suppression was lifted, enabling the pR-pL actuator to activate Bxb1 expression for 
+attB
+ (attachment site bacteria)/
+attP
+ (attachment site phage) recombination. This recombination subsequently triggered the permanent inversion of P7, allowing the biocircuit to memorize the triggering state and maintain a self-sustained biosynthesis process. To prevent unregulated Bxb1 synthesis from imposing excessive stress to the probiotics, we fused the ssrA (small stable RNA molecule) degradation tag to Bxb1 to ensure its degradation by endogenous probiotic proteases (
+42
+, 
+43
+). The full-length NK gene, known as “
+aprN
+,” consisting of a signal peptide (
+pre
+), pro-peptide (
+pro
+), and mature peptide (
+nk
+), was integrated into genetic circuit to ensure secretory output (table S2). Subsequently, molecular dynamics simulations were conducted to assess the rationality of the designed NK genetic code (
+Fig. 2B
+ and fig. S1, A to D). Docking and molecular dynamics simulations revealed that the U-shaped structure of NK fit snugly within the tetrapeptide, forming a stable dimer structure (
+Fig. 2B
+). The root mean square fluctuation analysis of the tetrapeptide substrate showed that most atoms remained stable, indicating a firm binding to NK’s active sites to ensure high structural stability (fig. S1E). The calculated binding free energy between NK and the tetrapeptide substrate was −68.38 kcal mol
+−1
+, confirming a strong protein-ligand interaction (fig. S1F). Sanger sequencing further verified the assembly and encoding of the genetic circuits, with gene sequences matching the designed constructs (
+Fig. 2C
+ and table S2). The memory circuit maintains high genetic and functional fidelity over extended propagation (120 consecutive generations) (fig. S2) (
+44
+).
+
+
+Fig. 2. Design and characterization of gene-encoded magnetic medical microrobots with memory-capable integrated biocircuit.
+
+
+
+
+Open in a new tab
+
+
+(
+A
+) Schematic illustration of the genetic circuit in probiotic microrobots. (
+B
+) Molecular docking analysis of modeled NK with a modeled tetrapeptide substrate (
+N
+-succinyl-Ala-Ala-Pro-Phe-
+p
+-nitroanilide) was conducted to verify the rationality of the NK gene sequence design. (
+C
+) The representative sequencing results of memory module gene sequences in genetic circuit, including 
+attB
+-Bxb1, 
+attP
+-Bxb1, and P7. (
+D
+) Pseudocolored SEM image of two probiotic microrobots. Green pseudocolor indicates probiotics, and brown pseudocolor indicates MNPs. (
+E
+) Magnetic hysteresis curves of MNP@SiO
+2
+, MNPs, and probiotic microrobots at ±30 kOe. (
+F
+ and 
+G
+) Temperature elevation and real-time thermal images of the microrobots (375 kHz, 330 Oe, 20 min). (
+H
+) Response of thermal sensors at different temperatures, with activation occurring at around 42°C (
+n
+ = 3; means ± SD). (
+I
+) The mCherry fluorescence intensity of probiotic microrobots with or without memory devices was detected after a one-time magnetic hyperthermia intervention (
+n
+ = 3; means ± SD). (
+J
+) The NK release comparison of microrobots with and without memory, showing the autonomous effect by the memory module (
+n
+ = 3; means ± SD). (
+K
+) A comparative analysis of the degree of on-board integration (Ni/Lc) and yield of microrobots reported in the literature (table S3). Ni refers to the number of integrated on-board functions. Lc refers to the characteristic length of the microrobots. Statistical analysis was performed using unpaired 
+t
+ test for (J). a.u., arbitrary unit; RBS, ribosome binding sites.
+To achieve magnetothermal conversion and controllable locomotion, we conjugated the rod-shaped magnetic Fe
+3
+O
+4
+ nanoparticles (MNPs: 230.31 ± 29.71 nm, with an aspect ratio of 3.15 ± 0.18) on the genetically engineered probiotics as the external magnetic sensor (fig. S3, A to E). The magnetization hysteresis curve showed that the synthesized MNPs exhibited ferrimagnetic properties with a 45.58 electromagnetic unit (emu) g
+−1
+ saturation magnetization (
+Fig. 2E
+). The temperature of MNPs steadily increased by 21.6°C under an alternating magnetic field (AMF) stimulation (375 kHz, 330 Oe, 20 min), exhibiting effective magnetothermal effect and stability (figs. S3, F to H, and S4). Subsequently, the MNPs were functionalized with amino groups (─NH
+2
+) and linked to the carboxyl group of 
+N
+-acetylmuramic acid (─COOH) on the surface of probiotics via amide condensation (fig. S5, A and B). The optimal magnetic properties of microrobots were 31.01 emu g
+−1
+ by adjusting the concentration of modified MNPs (
+Fig. 2E
+ and figs. S5C and S6). Scanning electron microscopy (SEM), bio–transmission electron microscopy, and laser scanning confocal microscopy (LSCM) imaging all confirmed that the MNPs were coupled on the microrobots (
+Fig. 2D
+ and fig. S5, D and E) with 98.93 ± 0.68% conjugation efficiency (fig. S5, F and G).
+
+
+Subsequently, we verified that the MNP-coated microrobots could convert external magnetic signals into heat. When exposed to an external AMF (375 kHz, 330 Oe), the temperature of the microrobots increased by 18.3°C within 20 min (
+Fig. 2, F and G
+), demonstrating effective conversion of magnetic signals into thermal signals. We then evaluated whether the thermal signals could be detected by the internal genetically encoded thermal sensor TcI, thereby triggering subsequent memory and biosynthesis. By adjusting the AMF duration, it was found that the fluorescence intensity of mCherry peaked at 42°C, confirming that the thermal sensing and memory-capable circuit was functional and precisely regulated (
+Fig. 2H
+ and fig. S7). With the thermal sensing and memory capable biocircuit function validated, the performance of memory-absent and memory-equipped microrobots was further compared following a one-time magnetic hyperthermia intervention (fig. S8). Memory-equipped microrobots exhibited mCherry fluorescence nearly 7.8-fold higher than memory-absent counterparts after 120 hours (
+Fig. 2I
+). Correspondingly, the integration of memory module further improved the duration and dosage of NK release (
+Fig. 2J
+). The NK activity of memory-absent microrobots plateaued at 99.2 ± 16.4 U ml
+−1
+ after 12 hours, whereas the memory-equipped microrobots could continuously release NK for 72 hours, reaching 211.77 ± 26.83 U ml
+−1
+, which was 2.13-fold higher than the memory-absent microrobots (
+Fig. 2J
+). Overall, these microrobots exhibit superior onboard integration (Ni/Lc = 5.33; Ni refers to the number of integrated on-board functions, and Lc refers to the characteristic length of the microrobot) and high yield (3.32 × 10
+7
+ hours
+−1
+; 98.93 ± 0.68% biohybridization), enabling efficient fabrication and enhanced autonomous functionality, representing a notable improvement over conventional mechanical and hybrid microrobots (
+Fig. 2K
+ and table S3) (
+45
+–
+56
+).
+Swarm formation and functional amplification
+
+
+To increase the concentration of tumor softening agents and locomotion performances, we applied a rotating magnetic field (RMF) to form a dense aggregation of the microrobots. Prior to applying the RMF treatment, the microrobots were self-assembled into clusters of an average diameter of 543.88 ± 11.24 μm under local magnetic interaction and surface tension (
+Fig. 3A
+). Supported by simulation results, we demonstrated that the entire aggregation process stemmed from the RMF-driven assembly of small chains (
+Fig. 3B
+ and movie S1). Under the RMF, the microrobots transformed into chain formation and rotated with the external field. As the rotation continued, these chains progressively collapsed and formed a densely aggregated swarm (
+Fig. 3, A and B
+, and movie S1). In addition, the microrobot swarm size increased considerably from 271.61 ± 56.59 to 671.12 ± 40.43 μm as the dose rose from 0.125 × 10
+7
+ to 2 × 10
+7
+ colony-forming units (CFU) (
+Fig. 3, C and D
+). Similar to the microrobot swarm size, imaging area fluorescence was also continually enhanced by increasing the dose (
+Fig. 3, C and E
+). The morphology was effectively tuned by the precise control of probiotics dose, RMF treatment duration, and magnetic field frequency and intensity (figs. S9 to S11). Stronger magnetic fields also accelerated swarm formation (fig. S9). Higher RMF frequencies enhanced fluorescence intensity during 30 to 180 s but reduced swarm stability at ≥10 Hz (fig. S10).
+
+
+Fig. 3. The formation of probiotic microrobot swarm and the amplification of their functions.
+
+
+
+
+Open in a new tab
+
+
+(
+A
+) The schematic generation process of probiotic microrobot swarm. The rods illustrate probiotic microrobots chains, and the blue and red parts show the different magnetizations. The aggregation of the probiotic microrobot swarm under RMF was demonstrated in real experiments. (
+B
+) Aggregation of probiotic microrobot swarm under RMF in simulations. (
+C
+) Representative fluorescence imaging of the microrobot swarm with different input doses of microrobots. (
+D
+) Probiotic microrobot swarm size with various concentrations of microrobots under the same RMF (20 mT, 2 Hz, 10 min) (
+n
+ = 12; means ± SD). (
+E
+) Quantitative fluorescence intensity of the probiotic microrobot swarm varied with input dose (
+n
+ = 4; means ± SD). (
+F
+) Temperature change of unassembled microrobots and densely aggregated swarm over time under AMF (375 kHz, 330 Oe). (
+G
+) The quantitative comparison of fibrin degradation efficiency between unassembled microrobots and densely aggregated swarm at different time points (0, 3, 6, and 12 hours), showing amplification by dense aggregation and an autonomous effect of the memory module (
+n
+ = 6; means ± SD). (
+H
+) Comparison of FITC-labeled fibrin clot degradation between unassembled microrobots and densely aggregated swarm using fluorescence imaging at 0, 3, 6, and 12 hours. Statistical analysis was performed using one-way analysis of variance (ANOVA) with Tukey’s post hoc test for (H).
+Building on these aggregation characteristics, the probiotic microrobot swarm had a faster magnetothermal conversion capability at the same time points compared with unassembled microrobots. An ~2.6-fold increase in the specific absorption rate of probiotic microrobot swarm was obtained compared with the unassembled probiotic microrobots (fig. S12A). Under AMF stimulation at 42°C, the microrobot swarm activated the thermal sensor and memory function significantly faster than the dispersed microrobots, reducing the response time from 18 to 2.4 min (
+Fig. 3F
+ and fig. S12, B and C). These results suggest that the swarm could enhance the magnetothermal conversion efficiency of probiotic microrobots.
+
+
+Next, the fibrin degradation effects of microrobots in vitro were evaluated by fluorescein isothiocyanate (FITC)–labeled fibrin clots. Fluorescence imaging confirmed a stable cross-linked FITC-labeled fibrin network, with no significant intensity change observed from 0 to 12 hours. The intact fibrin skeletons were gradually degraded to filaments and showed collapsed structure with the treatment of unassembled microrobots group (
+Fig. 3G
+). These unassembled microrobots achieved a degradation efficiency of 70.69% at 12 hours, indicating a sustained effect. In contrast, the densely aggregated swarm group exhibited a 96% degradation efficiency (
+Fig. 3H
+), demonstrating efficient and sustained fibrin degradation by the swarm.
+Enhancing swarm mobility through 3D waving under the magnetic navigation
+
+
+Robust locomotion capability is a prerequisite for microrobots to navigate, penetrate, and perform therapeutic functions within the mechanically complex tumor microenvironment (
+57
+, 
+58
+). To enable real-time visualization and actuation of probiotic microrobots, we developed a vision-based magnetic torque actuation system to achieve multimodal locomotion (figs. S13 and S14 and movies S2 to S5). The tumbling mode driven by periodic contact between the microrobots and the surface is highly inefficient, achieving only about 30% of the ideal pure-rolling speed (
+Fig. 4, B to D
+). Kinetic analysis identified slipping as the primary factor causing this reduction in velocity compared to pure rolling (fig. S15). Specifically, slipping occurs when the frictional force required to maintain pure rolling exceeds the available static frictional force (
+f
+r
+ > μ
+s
+F
+n
+). Considering microscale interactions, the effective support force (
+F
+n
+) varies dynamically with the contact area, allowing microrobots to intermittently advance during tumbling cycles, but with greatly reduced average speed. To address this limitation, we introduced oscillations along a third axis, increasing frictional interaction by enlarging the effective contact area (
+Fig. 4A
+). This adaptation resulted in significant improvements in locomotion efficiency, with waving-mode microrobots advancing ~0.63 body lengths per cycle compared to 0.27 body lengths for tumbling-mode microrobots (
+Fig. 4D
+; fig. S16 and S17; and movies S2 and S4). The paddle-like waving mode increased frictional interactions and promoted rolling over slipping, achieving markedly higher velocities, especially in environments prone to slipping (
+Fig. 4, C and D
+, and fig. S15B).
+
+
+Fig. 4. Comparison of the tumbling and waving motion capabilities of probiotic microrobot swarm.
+
+
+
+
+Open in a new tab
+
+
+(
+A
+) Visualization of the superposition of the magnetic field, including an in-plane tumbling magnetic field (
+B
+y
+ + 
+B
+z
+) and an out-of-plane WMF (
+B
+y
+ + 
+B
+z
+ + 
+B
+x
+). (
+B
+) Schematic diagram of particle chain tumbling and waving under the applied magnetic field. To better illustrate the motion details, the schematic intentionally exaggerates the distance traveled while keeping the relative proportions unchanged. (
+C
+) Probiotic microrobot swarm performed tumbling and waving motion under magnetic field (8 mT, 0.5 Hz) manipulation. The complete corresponding simulation results were shown in fig. S17. (
+D
+) The comparison of experimental and theoretical velocity in tumbling mode, waving mode, and theoretical maximum (experiment: 
+n
+ = 20; means ± SD). (
+E
+) Schematic of a magnetic-field-actuated probiotic microrobot swarm penetrating collagen gels with different stiffnesses. (
+F
+) Characterization of the morphology of collagen gels with different stiffness by SEM imaging. (
+G
+) Comparison of the penetration depth of probiotic microrobot swarm in collagen gels under tumbling and waving locomotion with different frequencies (0.5, 1, and 5 Hz) through fluorescence imaging. (
+H
+ to 
+J
+) Quantitative comparison of the penetration depth of probiotic microrobots in collagen gels under tumbling and waving locomotion with different frequencies (0.5, 1, and 5 Hz) (
+n
+ = 3; means ± SD). Statistical analysis was performed using one-way ANOVA with Tukey’s post hoc test for (D), (H), (I), and (J). Not significant (NS), 
+P
+ > 0.05.
+Next, we evaluated the motility of probiotic microrobots in 3D viscoelastic and solid environments. To satisfy the application in vivo, we constructed a magnetic navigation setup with 30-cm operation space and 5-DOF (degree of freedom) manipulation (
+Fig. 4E
+ and fig. S18). Collagen gels were prepared with variable stiffness to simulate tumor mechanical environment. The morphology and the porosity of collagen gels were characterized by SEM (
+Fig. 4F
+). The density and cross-link of collagen fiber were positively correlated with gel stiffness, while the porosity of collagen fiber gradually declined with gel stiffness. Mechanical characterizations showed that the compression moduli of collagen gels were 8.53 ± 0.7 kPa (stiff; consistent with tumor tissue), 4.33 ± 0.15 kPa (medium), and 2.76 ± 0.05 kPa (soft; represents tumor tissues with reduced mechanical moduli), respectively (
+Fig. 4F
+).
+
+
+Subsequently, the gel penetration performance of densely aggregated swarm was investigated under magnetic navigation. An RMF in the 
+x
+-
+y
+ plane was applied to control the densely aggregated swarm formation, and tumbling and waving mode with different frequencies (0.5, 1, and 5 Hz) were applied for gel penetration, respectively. Regardless of whether with the tumbling or waving mode locomotion, the penetration depth of the probiotic microrobot swarm in gels with different stiffness was gradually enhanced with the increase of magnetic field frequencies, reaching the maximum depth at 5 Hz. The LSCM images displayed a limited locomotion of the microrobots in the stiff gel with tumbling motion (
+Fig. 4G
+). Fluorescence analysis showed that the microrobots were located at a position of 327.48 ± 40.93 μm in the stiff gel with a velocity of 0.02 ± 0.08 μm s
+−1
+ (
+Fig. 4H
+ and fig. S19). By contrast, microrobots actuated with waving motion exhibited significantly improved penetration, achieving a depth of 1820.51 ± 184.89 μm, with a ~5.55 times higher velocity. Similarly, the waving motion resulted in 1.69-fold and 1.10-fold increases in penetration depth in medium and soft gels, respectively. This penetration ability was consistently enhanced as gel stiffness decreased for both tumbling and waving motions (
+Fig. 4, I and J
+). In the soft and medium gels, the waving motion of the probiotic microrobot swarm exhibited a concentrated penetration pattern compared to the dispersed distribution observed with tumbling motion (
+Fig. 4G
+). In addition, no probiotic microrobots were detected in the stiff or medium gels without magnetic fields, while only negligible penetration of the microrobots was observed in the soft gel due to its loose porosity (fig. S20). These results demonstrated that waving motion had the unique advantage in microrobot penetration in collagen gels compared to tumbling motion, particularly in 3D viscoelastic matrices.
+Sustainable antitumor mechanoregulation via the microrobot swarm
+
+
+Motivated by the remarkable penetration and fibrin degradation capability of the probiotic microrobot swarm in vitro, the antitumor mechanoregulation of microrobot swarm in vivo was investigated. Taking triple-negative breast cancer (TNBC) as an example, the tumor tissues have higher extracellular matrix (ECM) stiffness compared to normal breast tissues (
+59
+, 
+60
+). 4T1 TNBC model was established to assess the antitumor mechanoregulation effect of probiotic microrobots. The mechanical stiffness dynamics of 4T1 tumor tissue were assessed at 1, 3, 5, and 7 days posttreatment. The compressive modulus of tumors in the Swarm
+NK/Memory
+ group continuously decreased over time, reaching 5.26 ± 0.3 kPa at day 7. The compressive moduli in the Swarm
+NK/Memory
+ + WMF (waving magnetic field)–5 Hz group significantly decreased to 2.06 ± 0.25 kPa, which was 11.38-fold lower compared to the control group (
+Fig. 5A
+). In addition, with the continuous regulation of tumor mechanics, the NK released by the probiotic microrobot swarm in situ within the tumor decreased by 79.64% from day 1 to day 7 (
+Fig. 5B
+). Immunofluorescence staining of tumor tissue sections further revealed that the relative fibronectin fluorescence intensity in the Swarm
+NK/Memory
+ + WMF group decreased by 97.26% compared to the control group (
+Fig. 5, C and D
+). Consistently, the α-SMA (α-smooth muscle actin) and collagen I were significantly attenuated in the Swarm
+NK/Memory
+ and Swarm
+NK/Memory
+ + WMF group (fig. S21, A to D).
+
+
+Fig. 5. Tumor mechanical microenvironment regulation of the probiotic microrobot swarm.
+
+
+
+
+Open in a new tab
+
+
+(
+A
+) Dynamic compression moduli of 4T1 tumor tissues after 1, 3, 5, and 7 consecutive days of different treatments, respectively (
+n
+ = 3; means ± SD). (
+B
+) The quantification of NK activity in tumor tissues of mice at different time points after intratumoral injection of microrobots. (
+C
+) Quantification of fibronectin in fluorescence intensity after different treatments (
+n
+ = 12; means ± SD). (
+D
+) Tumor tissues were excised after different treatments and analyzed for the related fibronectin expression level through immunofluorescence staining (green, fibronectin; blue, cell nuclei). (
+E
+) Schematic of the microrobot swarm tumor tissue penetration driven by WMF (74 mT, 60 min). (
+F
+) Average distribution of microrobots in transverse tumor sections visualized at 1, 2, 3, and 4 mm from the peritumoral injection site (red, microrobots; blue, cell nuclei). (
+G
+) The quantitative fluorescence analysis of microrobots at 4-mm tumoral depths (
+n
+ = 6; means ± SEM). (
+H
+ and 
+I
+) The CD8
++
+ cells in CD3
++
+ T cells and the ratio of CD8
++
+ to CD4
++
+ T cells in 4T1 tumor tissues were analyzed by flow cytometry (
+n
+ = 6; means ± SD). Statistical analysis was performed using one-way ANOVA with Tukey’s post hoc test for (A), (C), (G), (H), and (I). NS, 
+P
+ > 0.05.
+The antitumor mechanoregulation mechanism of the swarm was further investigated. Peritumoral administration of probiotic microrobots was performed, followed by the application of RMF in the 
+x
+-
+y
+ plane to manipulate swarm formation (fig. S21E). Subsequently, the WMF was applied to drive the microrobot swarm with waving motion for tumor penetration (
+Fig. 5E
+). To assess the spatial distribution of probiotic microrobots inside tumors, we conducted longitudinal histological sectioning at 1-mm-depth intervals (
+Fig. 5F
+). At a 4-mm depth, the mean fluorescence intensity of consecutive transverse tumor sections in the WMF–5 Hz group was 5.08-fold higher than in the WMF–1 Hz group (
+Fig. 5G
+), suggesting that deep tumor penetration could be realized via the 3D waving locomotion. To further verify microrobot swarm behavior during in vivo actuation, we performed magnetic resonance imaging (MRI) immediately after injection and magnetic actuation. It showed a consistent intratumoral T2 signal, indicating that the microrobot swarm maintained its structural integrity during 3D waving locomotion. Although the heterogeneous tumor microenvironment may partially disperse the swarm into smaller subclusters, such fragmentation does not diminish their penetration capability, as the resulting clusters remain within the effective propulsion range (figs. S22 and S23E). Because tissue softening and microrobot penetration occur on different temporal scales, we combined shear wave elastography (SWE)–based stiffness mapping with MRI and in vivo fluorescence imaging to capture their coordinated evolution (figs. S23 and S24). These temporally aligned multimodal results demonstrate that localized softening facilitates deeper microrobot penetration in vivo. Together with the in vitro results, a reciprocal softening-penetration feedback loop was constructed via the microrobots to break down the tumor ECM barrier.
+
+
+As the stiffness of ECM was attenuated, the penetration of cytotoxic T lymphocytes (CD8
++
+ T cells) and helper T cells (CD4
++
+ T cells) in tumor tissues was significantly enhanced (fig. S25). Flow cytometry analysis revealed an obvious increase in the proportions of CD8
++
+ T cells in both the Swarm
+NK/Memory
+ and Swarm
+NK/Memory
+ + WMF groups relative to the Swarm
+NK
+ group. Notably, the Swarm
+NK/Memory
+ + WMF group exhibited the highest proportions of CD8
++
+ in CD3
++
+ T cells (39.82 ± 3.93%) and the highest CD8
++
+/CD4
++
+ T cell ratio (0.66 ± 0.08), which were substantially higher than those observed in the Swarm
+NK
+ group (15.48 ± 3.47% CD8
++
+ T cells and 0.22 ± 0.05 CD8
++
+/CD4
++
+ T cell ratio) (
+Fig. 5, H and I
+). These results demonstrated that the microrobots with memory and waving locomotion could effectively facilitate the cytotoxic T cell intratumoral infiltration by autonomous tumor stiffness regulation, which held promise for enhancing the efficacy of tumor immunotherapy.
+Antitumor efficacy of the microrobot swarm
+
+
+The antitumor efficacy of the microrobot swarm was further studied as illustrated in 
+Fig. 6A
+. Compared to the control groups, the Swarm
+NK/Memory
+ under the WMF treatment demonstrated an efficient antitumor effect (
+Fig. 6, B and D
+, and fig. S26, C and D). Microrobot swarms actuated at WMF–5 Hz achieved 87.52% tumor growth inhibition, which was higher compared to those at WMF–1 Hz (74.67% tumor growth inhibition). Consistently, the tumor-bearing mice in the Swarm
+NK/Memory
+ group showed the longest median survival time (
+Fig. 6C
+). Beyond comparing magnetic actuation modes, we further benchmarked the therapeutic efficacy against conventional chemotherapy.WMF-actuated microrobot swarms achieved enhanced tumor inhibition compared with static microrobots and better efficacy comparable to free doxorubicin (Dox), while their combination with Dox produced the strongest antitumor response (fig. S27). Subsequently, the anti-PD-1 antibody (αPD-1) for robust T cell responses was used together with probiotic microrobots (
+Fig. 6E
+). As expected, αPD-1 monotherapy only exhibited a modest inhibitory effect on tumor growth. The combination of Swarm
+NK/Memory
+ + WMF therapy with αPD-1 demonstrated the most potent antitumor efficacy by day 20 (
+Fig. 6F
+ and fig. S26, G to I). These findings indicate that the ECM stiffness regulation strategy of probiotic microrobots synergized with immune checkpoint blockade therapy, enhancing tumor suppression. Notably, the Swarm
+NK/Memory
+ + WMF combination with αPD-1 markedly extended the median survival time of mice over 36 days, which achieved the best therapy compared to other treatment groups (
+Fig. 6G
+). Accordingly, we extended our study to a pancreatic cancer (Panc02) model, which features a dense and fibrotic ECM environment. Notably, the microrobot swarm with WMF actuation therapy effectively reduced the tumor elastic modulus and suppressed tumor growth (fig. S28). Collectively, these results proved that microrobot swarm could elicit long-term antitumor effects through its memory function and 3D waving motion of microrobots.
+
+
+Fig. 6. Antitumor efficacy of the memory-encoded microrobot swarm.
+
+
+
+
+Open in a new tab
+
+
+(
+A
+) Timeline of probiotic microrobot swarm treatments. (
+B
+) Average tumor weight in different treatment groups of BALB/c mouse model (
+n
+ = 6; means ± SEM). (
+C
+) Overall survival time of BALB/c mice in different treatment groups (
+n
+ = 6). (
+D
+) Growth curves of tumors in each group (
+n
+ = 6; means ± SEM). (
+E
+) Schematic illustration of probiotic microrobot swarm in combination with αPD-1 for 4T1 tumor therapy. The αPD-1 was injected intraperitoneally at a dose of 100 μg per mouse every 4 days, for a total of four injections. (
+F
+) Tumor weight of every BALB/c mouse with different treatment strategies (
+n
+ = 6; means ± SEM). (
+G
+) Overall survival time of BALB/c mice in different treatment groups (
+n
+ = 6). (
+H
+) The blood biochemical indices of mice were measured on day 20. The blood biochemical indices of liver function markers included ALP, ALT, and AST; kidney function markers included CREA and UREA (
+n
+ = 5; means ± SEM). (
+I
+) Representative photographs of LB agar plates spread with tissue homogenate of tumors and major organs from 4T1-bearing mice at different time points after intratumoral injection of probiotic microrobots (
+n
+ = 3; means ± SD). (
+J
+) The quantification of probiotics colonization in major organs and tumor tissues of mice at different time points after intratumoral injection of microrobots. Statistical analysis was performed using one-way ANOVA with Tukey’s post hoc test for (B) and (F). NS, 
+P
+ > 0.05.
+Last, the safety profile of the probiotic microrobots therapy platform was evaluated. The body weights of mice in each group remained stable throughout the treatment period (fig. S26, B and F). After administration for 20 days, the blood chemistry analysis of liver and kidney function markers was carried out. Alanine aminotransferase (ALT), aspartate aminotransferase (AST), alkaline phosphatase (ALP), creatinine (CREA), and urea nitrogen (UREA) remained at normal levels postinjection of microrobots (
+Fig. 6H
+ and figs. S29 and S31). In further assessing the in vivo fate and clearance of magnetic components of the microrobots, iron quantification on day 21 revealed that MNPs remained predominantly within tumors after intratumoral administration, with minimal accumulation in major organs or blood. A notable increase in splenic iron indicated that the spleen served as the primary site for nanoparticle processing and clearance (figs. S30 and S31). In parallel, we examined the biodistribution and clearance of the probiotic component of the microrobots. Probiotics proliferation quantification showed that probiotics were gradually cleared from major organs, including the heart, liver, spleen, lung, and kidney (
+Fig. 6, I and J
+). In sharp contrast, the CFU in tumors increased exponentially over time, indicating that the probiotics preferentially colonized the tumor without imposing a burden on major organs. We further monitored the persistence of the engineered genetic reporter in vivo. In vivo fluorescence imaging demonstrated that mCherry signals remained detectable in tumors for at least 12 days and were confirmed by ex vivo analysis, with only minor liver and kidney enrichment and no significant accumulation in other organs (fig. S24). Hematoxylin and eosin analysis revealed no distinct pathological abnormalities in major organs (figs. S32 and S34). Prussian blue (PB) staining showed that microrobots barely accumulated in the other organs except for the spleen (figs. S33 and S35). All these findings demonstrated the favorable biosafety profile of the probiotic microrobots therapy platform.
+DISCUSSION
+
+
+Patients with solid tumors require long-term treatment that could take weeks or even months. With conventional therapies, frequent clinical visits are inevitable, which brings substantial inconvenience to the patients. Developing microrobots that autonomously operate for sustained treatment offers a promising avenue to alleviate this dependency on continuous hospital-based care. Despite recent advancements in microrobotics, state-of-the-art systems largely rely on persistent external control signals, primarily due to an intrinsic lack of integrated sensing and memory capabilities. While a variety of physical memory materials (Ag/SiO
+2
+/Au, gold nanoparticles/hydrogel, NiTi/NiTiCu, liquid crystal elastomers, etc.) are available (table S1), they inherently struggle to meet the combined requirements of biocompatibility, size, memory, and stability for antitumor treatment. In contrast, genetically encoded memory-capable biocircuits offer distinct advantages on biocompatibility, heritability, dynamic responsiveness, and programmability, rendering them ideal for complex biomedical applications. The key lies in synergizing the memory-capable module with other functional components in the biological robotic circuit to have a precise control over the therapeutic process, combining efficacy, autonomy, and biosafety. In this work, we engineered genetic memory into magnetic probiotic microrobots for autonomous antitumor mechanoregulation. The memory circuit Bxb1-ssrA-
+attB
+-P7-
+attP
+ was integrated with the thermal sensor (TcI) and the actuator (pR-pL) to control the autonomous NK release and achieve sustained mechanoregulation. It circumvented the problem that the TcI alone lacked the ability to retain transient signals and therefore compromised the therapeutic effect.
+
+
+In addition to the engineered biocircuit, we also used magnetically controlled 3D locomotion to synergistically enhance the tumor tissue penetration. Conjugated MNPs served dual roles as sensors and transducers, converting magnetic signals into thermal and mechanical energy. Through precise manipulation of actuating magnetic fields, diverse locomotion modes including tumbling, oscillating, and waving were achieved. While commonly used for moving in specific direction, its efficiency in tumbling is notably limited by significant slipping in fluid environments, resulting in low velocities (~0.27 body lengths per second). To overcome this limitation, we introduced a 3D waving mode. Previous studies have demonstrated that WMFs can effectively induce complex locomotion behaviors on uneven surfaces, such as the disassembly and dispersion of MNP clusters (
+61
+). Consistently, our results revealed that the implementation of waving mode nearly doubled microrobot velocity, reaching ~0.62 body lengths per second. This substantial improvement arises from enhanced frictional interactions, favoring rolling over slipping, particularly during critical high velocity periods. Moreover, stiff and densely cross-linked collagen gels, structurally analogous to tumor tissues, provide increased opportunities for interactions during 3D locomotion, further enhancing the microrobots’ mobility in unstructured environments. Such advantages underscore the potential of waving-mode microrobots for deep tissue infiltration, ultimately facilitating more effective therapeutic interventions. To translate these locomotion advantages into in vivo applications, it is essential to ensure that sufficient magnetic torque can be delivered through biologically relevant tissue thicknesses (
+62
+–
+66
+). Although magnetic field attenuation limits the penetration depth of actuation in biological tissues (table S4), our 5-DOF magnetic control system effectively propels our probiotic microrobots. By integrating permanent and electromagnetic actuation, the system maintained stable torque transmission through the 4.46-cm porcine tissue, comparable to the typical human abdominal thickness. This result suggests that the approach could hold promise for noninvasive magnetic control of microrobots in deep-seated organs, providing a scalable foundation for future translational studies.
+
+
+The genetically encoded memory biocircuit is activated by a one-time magnetic hyperthermia, triggering sustained NK release for fibrin degradation and ECM softening. Simultaneously, magnetically controlled 3D wave-like locomotion enhances the deep tumor penetration of microrobots. With the design of genetic biocircuit and a magnetic field–driven 3D waving mode, our microrobots achieved a softening-penetration positive feedback loop. The memory-encoded ECM softening significantly enhances microrobot propulsion under a 3D oscillatory magnetic field. This reduction in stiffness, in turn, facilitates deeper tissue penetration, forming a self-reinforcing cycle. Such a positive feedback mechanism overcomes the limitations of conventional passive drug delivery in solid tumor treatment, enabling deeper antitumor modulation and enhanced immune activation. By breaching the ECM barrier, the tumor stiffness could be attenuated to 2.06 kPa in the TNBC model, facilitating the immune cell and drug penetration into deep tumor tissues. CD8
++
+ T cells and PD-1 infiltration within the tumor microenvironment were boosted, thereby augmenting immune responses against solid tumors. Notably, recent studies showed that increased ECM stiffness in solid tumors could exacerbate CD8
++
+ T cell exhaustion within the tumor microenvironment (
+67
+). The enhanced antitumor effect in our study strongly suggests that reshaping the ECM could offer a distinctive strategy for modulating the immunosuppressive tumor microenvironment. In addition, biosafety evaluations showed that the probiotic microrobots had no significant effects on body weight or blood chemistry in mice, confirming their favorable safety profile. Beyond general biosafety profiles, potential concerns regarding bacterial horizontal gene transfer must also be considered for translational applications. The ratio of bacteria to human somatic cells in the body is ~1:0.76, and bacteria are ubiquitous in the human environment (
+68
+). Despite this ubiquity, whether bacteria could induce horizontal gene transfer to human somatic cells remains unclear, largely due to limitations in detection technologies (
+69
+). To achieve such transfer, bacterial genetic fragments must first overcome multiple barriers, including the cell membrane, nuclear envelope, and nucleases. Even if these barriers are bypassed and the fragments reach the nuclear region, additional challenges remain. Bacterial genes would need to acquire appropriate regulatory elements such as introns, promoters, and terminators (
+70
+). In addition, they need to establish productive interactions with existing host genes before functioning within eukaryotic cells. In this study, the injected bacterial dose was ~0.1% of the total bacterial load in the animal body, which was a negligible fraction relative to the endogenous microbiota. Together, the horizontal gene transfer induced by the administered bacteria could be minimized by controlling the quantity of bacteria introduced in vivo.
+
+
+In addition to biosafety considerations, successful clinical translation also requires selecting appropriate administration routes for different tumor types and anatomical contexts (
+71
+–
+78
+). When scaling to human-relevant tumor volumes, the choice of administration route must be tailored to the tumor type and clinical context. Larger and more heterogeneous tumors in patients present additional barriers such as poor vascularization, dense ECM, and limited penetration depth, which complicate uniform distribution of therapeutic microrobots. To address these issues, alternative administration routes can be adapted to specific tumor types (table S5). For colorectal or gastric cancers, oral administration enables gastrointestinal colonization, thereby eliciting sustained local and systemic effects. However, bacterial viability is challenged by harsh pH conditions and competition with commensal microbiota, which necessitates protective encapsulation or other engineering strategies. For deep-seated or inaccessible tumors, intravenous injection allows rapid tumor access via the leaky tumor vasculature, which has to face the challenges such as rapid clearance by the mononuclear phagocytic system and systemic toxicity, requiring genetic modifications to balance safety and efficacy. For solid tumors (e.g., breast cancer and melanoma), intratumoral injection achieves high local bacterial concentrations and bypasses vascular and systemic barriers, but it requires precise containment and image-guided procedures (
+29
+, 
+30
+).
+
+
+Looking ahead, the genetically encoded biocircuit provides a general template for medical microrobot design. Microrobots incorporating NK therapeutic modules exhibit potential not only for antitumor treatments but also for addressing fibrotic conditions such as thrombosis, atherosclerosis, pulmonary fibrosis, and hepatic fibrosis. Future research should systematically optimize memory biocircuit, including enhancing storage capacity and encoding diversified disease-specific information. Such advancements will be instrumental in broadening the therapeutic applicability of microrobotic platforms, paving the way for the development of autonomous treatments.
+MATERIALS AND METHODS
+
+
+Materials
+
+
+EcN was obtained from Beijing Biobw Bioscience and Technology Co., Ltd. TNBC (4T1; American Type Culture Collection, CRL-2539) was purchased from Procell Life Science and Technology Co., Ltd. All gene sequences were synthesized by Jinweizhi Biotechnology Co., Ltd. (Suzhou, China). Iron (III) perchlorate sodium dihydrogen phosphate [Fe(ClO
+4
+)
+3
+·6H
+2
+O], tetraethyl orthosilicate (TEOS), sodium dihydrogen phosphate (NaH
+2
+PO
+4
+), urea (NH
+2
+CONH
+2
+), cetyltrimethylammonium bromide (CTAB), sodium salicylate (NaSal), triethanolamine (TEA), fibrinogen from human plasma, succinyl-Ala-Ala-Pro-Phe-
+p
+-nitroanilide, 
+p
+-nitroaniline, and thrombin from human plasma (250 U) were all purchased from Sigma-Aldrich. Collagen type I, rat tail was obtained from Corning. Fibrinogen from human plasma was acquired from Thermo Fisher Scientific. Anti-mouse PD-1 (CD279), clone J43 was acquired from BioXCell. Anti-fibronectin antibody (Abcam, 268020), goat anti-rabbit immunoglobulin G (IgG) H&L Alexa Fluor 488 (Abcam, 150077), and goat anti-rabbit IgG H&L Alexa Fluor 647 (Abcam, 150079) were all purchased from Abcam. Cell Carrier Spheroid ULA 96-well microplates were purchased from PerkinElmer. μ-Slide 8 well uncoated was acquired from ibidi.
+Preparation of MNPs, MNPs@APTES, and MNPs@FITC
+
+
+For the synthesis of spindle cores (α-Fe
+2
+O
+3
+), Fe(ClO
+4
+)
+3
+·6H
+2
+O (6.5 mmol), NaH
+2
+PO
+4
+ (0.15 mmol), and NH
+2
+CONH
+2
+ (5 mmol) were well dispersed in deionized water (50 ml of ddH
+2
+O). The solution was treated in an oil bath (100°C, 24 hours) in a triangular flask. The α-Fe
+2
+O
+3
+ was separated from the dispersion by centrifugation (9500 rpm) after the solution cooled down naturally (
+79
+). The α-Fe
+2
+O
+3
+@SiO
+2
+ was prepared by first dissolving TEA (68 mg), α-Fe
+2
+O
+3
+ (320 mg), CTAB (380 mg), and NaSal (126 mg) in 25 ml of deionized water with vigorous stirring at 80°C for 3 hours. TEOS (3.6 ml) was then added, and the reaction continued at 80°C for 45 min. The products were isolated by centrifugation (9500 rpm, 15 min) and washed six times with ethanol. For the synthesis of Fe
+3
+O
+4
+@SiO
+2
+, residual surfactant in α-Fe
+2
+O
+3
+@SiO
+2
+ was removed by calcination in air at 550°C for 5 hours. Then, α-Fe
+2
+O
+3
+@SiO
+2
+ was annealed in H
+2
+/Ar atmosphere (450°C, 3 hours) to obtain Fe
+3
+O
+4
+@SiO
+2
+. For the synthesis of Fe
+3
+O
+4
+ (MNPs), Fe
+3
+O
+4
+@SiO
+2
+ (20 mg) was added to NaOH (0.1 mol, 50 ml) with sonication for 5 hours to remove the silica shell. For the synthesis of MNPs@APTES (3-aminopropyltriethoxysilane), MNPs (10 mg) were well dispersed in 20 ml of isopropanol. Aqueous ammonia (500 μl) and APTES (200 μl) were added to the solution and vigorously stirred in Ar atmosphere under 35°C for 3 hours. Then, the solution was vigorously stirred in Ar atmosphere (80°C, 8 hours). MNPs@APTES were collected by magnetic separation and washed with ddH
+2
+O for three times. For the synthesis of MNPs@FITC, FITC (1 mg) was added to 1 ml of ethanol solution. Then, the FITC solution was well dispersed in solution containing MNPs (1.5 mg), 1-ethyl-3-(3-dimethylaminopropyl)carbodiimide (EDC; 100 mg), 
+N
+-hydroxysuccinimide (NHS; 66 mg), and 10 ml of phosphate-buffered saline (PBS) (pH 5.5) with sonication for 2 hours. MNPs@FITC were collected by magnetic separation and washed with ethanol for three times to remove residual FITC.
+Fabrication of the microrobots
+
+
+For the probiotics culture, EcN was cultured in lysogeny broth (LB) medium containing tryptone (1 g), NaCl (1 g), and 0.5 g of yeast extract powder per liter of ddH
+2
+O. For the preparation of highly efficient competent cells, EcN stored in an ultralow-temperature freezer was streaked on an LB plate and incubated at 37°C for 12 hours. A single colony was selected, inoculated into 5 ml of LB medium, and incubated in a shaker (37°C, 220 rpm, 12 hours).
+
+
+The activated probiotics solution (500 μl) was inoculated into LB (50 ml) and oscillated (37°C, 220 rpm) until the solution reached an optical density at 600 nm of 0.4. The competent cells were collected by centrifugation (4000 rpm, 10 min) and washed three times with glycerol. For plasmid construction and molecular biology, the gene sequences of sensor module (TcI), actuator module (pR-pL), and memory module (Bxb1-ssrA-
+attB
+-P7-
+attP
+) were synthesized by Jinweizhi Biotechnology Co., Ltd. (Suzhou, China) and integrated into plasmid pBV220 to construct engineered genetic circuits. The NK gene 
+aprN
+ (
+pre-pro-nk
+, National Center for Biotechnology Information GenBank: 
+S51909
+) was obtained from the 
+Bacillus subtilis
+ var. Codon optimization strategy was applied to improve the expression of heterologous protein. Subsequently, the gene sequences of mCherry and 
+aprN
+ were integrated into engineered genetic circuits. Sanger sequencing and double digests were applied to verify the engineered genetic circuits. For the preparation of microrobots, engineered genetic circuits were transformed into EcN to construct engineered EcN. Amino-functionalized MNPs (MNPs@APTES) were linked on the surface of EcN by amide condensation. Engineered EcN was dispersed in PBS solution with the concentration of 10
+8
+ CFU ml
+−1
+. MNPs@APTES (200 μg) were added to the engineered EcN suspension together with the EDC (0.55 mg) and NHS (0.65 mg). Then, the solution was stirred at room temperature (100 rpm, 3 hours). The microrobots were obtained by differential centrifugation (3000 rpm, 5 min) and further separated by magnetic separation.
+Characterization of microrobots
+
+
+SEM imaging, fluorescence imaging, flow cytometry, and vibrating sample magnetometer were used to characterize the microrobots. SEM (ZEISS GeminiSEM 300, Germany) was used to visualize the morphology of the microrobots. For visualization purposes, SEM images were pseudocolored with Adobe Photoshop software. Vibrating sample magnetometer (LakeShore7404, USA) was used to obtain the magnetic hysteresis curve of microrobots. To confirm the binding of MNPs to the surface of microrobots, the MNPs were labeled with FITC. Fluorescence images were captured by fluorescence microscopy (ZEISS LSM 880, Germany) with two fluorescence channels, green fluorescent protein and Cy5, which corresponded to the autofluorescence of FITC-labeled MNPs and probiotics. BD FACSAria III flow cytometer was applied to validate quantitatively the attachment of MNPs on microrobots.
+Magnetic control platform
+
+
+The AMF (SPG-06A-II, Shenzhen Shuangping Power Technology Co., Ltd.) was used to measure magnetothermal effect. The temperature of probiotic microrobots was measured with a fiber optic temperature converter.
+
+
+For the magnetic torque actuation and visualization system, a laboratory PC (personal computer) worked as the host computer for the high-level human-computer interface and visualization of data. A joystick was invoked as input equipment for manual trajectory control. LabVIEW (National Instruments, Inc.) was used to realize the preparation of relevant algorithms and control programs. Driving signals were generated by a high-speed DAQ (data acquisition) card and then amplified by the voltage amplifier before entering the coils. An optical microscope (Nikon, ECLIPSE Ts2R) was used to observe the real-time position and state of the microrobots to feedback for controllers. The motion behavior of microrobots or swarm was analyzed with ImageJ software.
+
+
+The primates-scale magnetic control setup consisted of four main components including an array of permanent magnets, electromagnetic coils, water chiller, and control system. An array of permanent magnets was used to generate the RMF, and a set of electromagnetic coils were applied to produce axial oscillation.
+Magnetic particle simulation
+
+
+A discrete element method combined with a hybrid potential function was used to accurately model the dynamic behavior of magnetic microrobots. Each microrobot was represented as a discrete particle with specific mass and shape characteristics. Contact forces and mechanical interactions between particles adopt 
+lj
+ potential to simulate particle behaviors in physiological conditions. The interactions between particles and boundary walls were modeled using Hertzian contact theory to realistically capture collisions, friction, and rebounding behaviors. In addition, viscous forces were included to simulate fluid resistance effects. The motion of a single magnetic particle subjected to external forces is calculated by
+
+
+
+
+F
+B
+=
+(
+m
+⋅
+∇
+)
+B
+
+
+(1)
+
+
+
+
+where 
+F
+B
+ denotes the magnetic force, 
+m
+d
+ is the dipole moment, and 
+B
+ represents the magnetic field. When multiple particles approach each other, dipole-dipole interactions become significant, introducing additional forces (
+F
+ij
+) and torques (
+τ
+ij
+), described by
+
+
+
+
+F
+ij
+=
+3
+μ
+0
+4
+π
+r
+5
+[
+(
+m
+i
+⋅
+r
+ij
+)
+m
+j
++
+(
+m
+j
+⋅
+r
+ij
+)
+m
+i
++
+(
+m
+i
+⋅
+m
+j
+)
+r
+ij
+−
+5
+(
+m
+i
+⋅
+r
+ij
+)
+(
+m
+j
+⋅
+r
+ij
+)
+r
+2
+r
+ij
+]
+τ
+ij
+=
+μ
+0
+4
+π
+r
+3
+[
+−
+(
+m
+i
+×
+m
+j
+)
++
+3
+r
+2
+(
+m
+j
+⋅
+r
+ij
+)
+(
+m
+i
+×
+r
+ij
+)
+]
+
+
+(2)
+
+
+
+
+where 
+m
+i
+ and 
+m
+j
+ represent the dipole moment vectors of the interacting particles, and the vector 
+r
+ij
+ = 
+R
+i
+ − 
+R
+j
+ denotes the separation vector between particle centers.
+
+
+Dimensionless units used in the simulations are defined as follows: σ (particle radius) as the length unit, 
+m
+ (particle mass) as the mass unit, τ as the time unit, and ε as the energy unit. We fixed the length σ = 1, the mass 
+m
+ = 1, and the energy ε = 1. The simulations were carried out using the parameters 
+m
+d
+ = 1.02 and 
+B
+ = 55.4. The elastic constant is 10,000 for normal contact 
+K
+n
+ and 2857 for tangential contact 
+K
+t
+. The velocity-Verlet algorithm was used for numerical time integration, with a time step of Δ
+t
+ = 0.01τ to ensure enough time step to catch particle behaviors. Simulations were performed under constant number-volume-energy conditions, updating positions and velocities consistently over a total simulation duration of 1500,000τ. These computational simulations were conducted using the Large-Scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) package and visualized using OVITO (
+80
+, 
+81
+).
+Microrobots viability study
+
+
+CFU assay was used to evaluate the viability of the microrobots. The microrobots were collected by magnetic separation and resuspended in PBS (1 ml) after fabrication. Then, probiotic microrobots were diluted 1:10
+6
+ (v/v) and 1:10
+7
+ (v/v) and seeded on agar plates, and the number of colonies formed was counted.
+Formation of the probiotic microrobot swarm
+
+
+Probiotic microrobots (10
+7
+ CFU) were well dispersed in simulated body fluid (100 μl). Then, the solution was added to CellCarrier Spheroid ULA 96-well Microplates and assembled with the application of RMF in the 
+x
+-
+y
+ plane.
+Penetration of collagen gels with probiotic microrobots
+
+
+To prepare collagen gels, collagen I rat tail (3.54 mg ml
+−1
+, 3.531 ml) was mixed with 500 μl of PBS (10×), and 969 μl of ddH
+2
+O was added. The stiffness of collagen gels was modulated by adjusting the pH of the collagen mixtures during polymerization (
+18
+). Then, the collagen mixtures were kept on ice, and 1 M NaOH or HCl was used to adjust the pH. The pH values of collagen mixtures were adjusted to 11.5 (stiff), 9.5 (medium), and 7.5 (soft), respectively. For the measurement of collagen gel stiffness, subsequently, the collagen mixtures (1 ml per well) were added into Φ 6.5 mm dish and incubated in a temperature-controlled incubator (37°C, 30 min) for polymerization. An electronic universal testing machine (UTM2502, Shenzhen Suns Technology Co., Ltd.) was used to measure the compressive modulus properties of collagen gels. For the compressive test, the tumor tissues were tested at a speed of 5 mm min
+−1
+ with 50% strain. For the penetration of collagen gels, subsequently, the collagen mixtures (200 μl per well) were added into chambered coverslip (μ-Slide 8 Well, uncoated, ibidi) and incubated in a temperature-controlled incubator (37°C, 30 min) for polymerization. The collagen mixtures took up two-thirds of the dish, and the rest of the dish was filled with PBS (1×, pH 7.4). The probiotic microrobots were added to the PBS solution, and a magnetic field was performed to actuate the microrobot swarm for collagen gel penetration with multimodal motion.
+Fibrinolytic activity and ability assay
+
+
+The fibrinolytic activity of NK was evaluated using the conventional fibrin plate assay, using urokinase as the reference standard. Agarose (1 g) was dissolved in 50 ml of PBS by heating. Once the temperature decreased to 42°C, thrombin solution (4 μl, 1000 U ml
+−1
+) and bovine fibrinogen solution (50 mg) were added to the mixture. Then, the mixed solution (10 ml per well) was added to Φ 100 mm dishes. The microrobots (10
+7
+ CFU) were preprocessed under AMF (375 kHz, 20 min) and seeded on the surface of fibrin plate. Then, the lytic area was measured after incubation (37°C, 12 hours). Based on the urokinase standard curve, fibrinolytic activity was computed by measuring the lytic area.
+
+
+For the fibrinolytic ability assay, fibrinogen (1 mg ml
+−1
+, 3.6 ml), FITC-labeled fibrinogen (1 mg ml
+−1
+, 400 μl), and thrombin (250 U, 1 μl) were thoroughly mixed. Subsequently, the mixed solution (200 μl per well) was added to Φ 25 mm dishes and incubated at 4°C for 12 hours. The microrobots were added to the surface of the FITC-labeled fibrin clots. Images of the FITC-labeled fibrin clots were captured via a live cell imaging system at four time points (0, 6, 9, and 12 hours) following different treatments. The fibrinolytic ability with different treatments was evaluated by the analysis of fluorescence intensity of fibrin clots with ImageJ software.
+Animal models
+
+
+Female BALB/c mice (6 weeks old) and male C57 mice (6 weeks old) were obtained from GemPharmatech Co., Ltd. (Nanjing, China) and housed under specific pathogen-free conditions at the Laboratory Animal Center of Tongji University. All procedures complied with the institutional ethical guidelines for animal research (approval nos. TJAA07323106 and TJAA07324107; Laboratory Animal Research Center, Tongji University). For the orthotopic 4T1 tumor model, a suspension of 10
+6
+ 4T1 cells in PBS was injected into the right back of each mouse.
+Tumor mechanics analysis
+
+
+When 4T1 tumor volumes reached ~200 mm
+3
+, mice were randomized into six groups (Control, Swarm, Swarm
+NK
+, Swarm
+NK/Memory
+, Swarm
+NK/Memory
+ + WMF–1 Hz, and Swarm
+NK/Memory
+ + WMF–5 Hz). Probiotic microrobots (10
+7
+ CFU, 100 μl) were triggered by AMF (375 kHz, 330 Oe, 6 min) prior to intratumoral administration. Tumor-bearing mice were placed in the workspace of the RMF (20 mT, 2 Hz, 30 min) to induce the probiotic microrobot swarm formation. Subsequently, tumor-bearing mice were placed in the primates-scale magnetic control setup to control the locomotion of the probiotic microrobot swarm. The tumors were excised at day 1, 3, 5, and 7 after different treatments and washed with PBS. The compressive modulus of tumor tissues was determined using an electronic universal testing machine (UTM2502, Shenzhen Suns Technology Co., Ltd.). The compression tests were performed at a constant rate of 5 mm min
+−1
+ until reaching 50% strain.
+Antitumor effect of microrobots in vivo
+
+
+Upon reaching tumor volumes of ~50 mm
+3
+, 4T1 or Panc02 tumor-bearing mice were randomly allocated to six experimental groups: Control, Swarm, Swarm
+NK
+, Swarm
+NK/Memory
+, Swarm
+NK/Memory
+ + WMF–1 Hz, and Swarm
+NK/Memory
+ + WMF–5 Hz. The 4T1 tumor-bearing mice were randomly divided into five groups (Control, Dox, Static microrobots, Swarm
+NK/Memory
+ + WMF–5 Hz, and Swarm
+NK/Memory
+ + WMF–5 Hz + Dox) when the tumor volume reached about 50 mm
+3
+. Mice in the Dox treatment group received intratumoral injections of Dox (3 mg kg
+−1
+ per mouse) on day 0, 3, and 6 (
+82
+). Static probiotic nanoparticle carriers were prepared by removing bacterial flagella using 0.5 M acetic acid (
+55
+, 
+56
+), followed by MNP conjugation. The probiotic microrobots (10
+7
+ CFU, 100 μl) were preprocessed under AMF (375 kHz, 330 Oe, 6 min) and intratumorally injected into the mice. Tumor-bearing mice were placed in the workspace of the RMF (20 mT, 2 Hz, 30 min) to manipulate the probiotic microrobot swarm formation. Subsequently, tumor-bearing mice were placed in the primates-scale magnetic control setup to control the locomotion of probiotic microrobot swarm (74 mT, 5 Hz, 60 min) on day 1, 2, and 3. The following equation was used to calculate the tumor volume
+
+
+
+
+V
+=
+π
+LW
+2
+6
+
+
+(3)
+
+
+
+
+where 
+L
+ and 
+W
+ denote the longest and shortest tumor diameters, respectively. The survival duration of tumor-bearing mice was monitored daily until either natural death occurred or tumors exceeded 1500 mm
+3
+ in volume, at which point survival curves were terminated.
+Antitumor effect of microrobots combined with PD-1 inhibitor in vivo
+
+
+The 4T1 tumor-bearing mice were randomly divided into six groups (Control, αPD-1, Swarm
+NK/Memory
+, Swarm
+NK/Memory
+ + αPD-1, Swarm
+NK/Memory
+ + WMF–5 Hz, and Swarm
+NK/Memory
+ + WMF–5 Hz + αPD-1) when the tumor volume reached about 50 mm
+3
+. The Robot
+NK/Memory
+ (10
+7
+ CFU, 100 μl) was preprocessed under an AMF (375 kHz, 330 Oe, 6 min) and subsequently injected intratumorally into the mice. Tumor-bearing mice were placed in the workspace of the RMF (20 mT, 2 Hz, 30 min) to induce the probiotic microrobot swarm formation. Subsequently, the mice were placed in the primates-scale magnetic control setup to control the locomotion of the probiotic microrobot swarm (74 mT, 5 Hz, 60 min) on day 1, 2, and 3. Mice in the αPD-1 treatment group received intraperitoneal injections of anti-mouse PD-1 antibody (100 μg per mouse) on day 0, 4, 8, and 12. Tumor volumes and body weights were measured every 48 hours, while survival status was assessed daily. The study endpoint was defined as either natural death or tumor volume exceeding 1500 mm
+3
+, upon which survival curves were terminated.
+In vivo imaging
+
+
+The 4T1 or Panc02 tumor-bearing mice were randomly divided into three groups (Control, Swarm
+NK/Memory
+, and Swarm
+NK/Memory
+ + WMF–5 Hz) when the tumor volume reached about 200 mm
+3
+. The Robot
+NK/Memory
+ (10
+7
+ CFU, 100 μl) was preprocessed under an AMF (375 kHz, 330 Oe, 6 min) and subsequently injected intratumorally into the mice. Tumor-bearing mice were placed in the workspace of the RMF (20 mT, 2 Hz, 30 min) to induce the probiotic microrobot swarm formation. Subsequently, the mice were placed in the primates-scale magnetic control setup to control the locomotion of probiotic microrobot swarm (74 mT, 5 Hz, 60 min) on day 1, 2, and 3. To assess differences in tumor stiffness among treatment groups, ultrasound SWE (Mindray Nuewa R9 Pro, China; AIXPLORER Multiwave, France) and strain elastography (STE) imaging (Mindray Nuewa R9 Pro, China) were performed on day 0, 3, and 7. All ultrasound examinations were conducted by a specialized sonographer with over 3 years of clinical experience. MRI (uMR 9.4 T, United Imaging Life Science Instrument Co., Ltd., Wuhan, China) was used to monitor the microrobot swarm penetration within tumor tissues. In vivo fluorescence imaging was performed using an IVIS Spectrum imaging system (PerkinElmer), and the data were analyzed with Living Image software (PerkinElmer, USA).
+Flow cytometry analysis of tumor tissues
+
+
+Tumor-infiltrating T cell populations were quantitatively assessed by flow cytometry on day 7 posttreatment. Tumors were dissected into small fragments and subsequently digested with a mixture of enzymes: hyaluronidase (0.025 mg ml
+−1
+), collagenase I (0.05 mg ml
+−1
+), deoxyribonuclease I (0.01 mg ml
+−1
+), collagenase IV (0.05 mg ml
+−1
+), and trypsin inhibitor (0.05 mg ml
+−1
+). These enzymes were sourced from Yuanye Bio-Technology Co., Ltd. (China). The tissue digestion protocol consisted of two sequential 15-min incubations at 37°C, with subsequent centrifugation (2300 rpm, 4 min). Following centrifugation, the supernatant was harvested and incubated with erythrocyte lysis buffer for 5 min at room temperature to remove contaminating red blood cells. This reaction was terminated using flow cytometry buffer (2.5% fetal bovine serum in PBS). Following collection, cells were stained with Fixable Viability Stain 510 (Live/Dead) and fluorescently labeled antibodies against CD45, CD3, CD4, and CD8 for phenotypic characterization. Samples were acquired on a Beckman CytoFLEX LX flow cytometer.
+Histological analysis
+
+
+Following treatment and observation, murine major organs and tumor specimens were harvested and fixed in 4% paraformaldehyde. After paraffin embedding and sectioning, cellular iron deposition was assessed through PB staining. Collagen I and fibronectin immunofluorescent staining was used to characterize the ECM of tumors. The effect on cancer-associated fibroblasts was assessed by immunofluorescent staining with antibody specific for α-SMA.
+Biosafety assessment
+
+
+The therapeutic safety profile was evaluated through comprehensive blood biochemistry and histopathological examination. Blood samples were collected in lithium heparin vacutainers, and plasma was obtained by centrifugation (3240 rpm, 4°C, 15 min). Biochemical parameters were quantified using a Cobas6000 autoanalyzer (Safety Evaluation Research Center, Shanghai Institute of Materia Medica, Chinese Academy of Sciences).
+Statistical analysis
+
+
+Statistical analysis was performed using GraphPad Prism 8.4.2 and Origin Pro 9.1. All numerical data were expressed as mean ± SD in vitro and mean ± SEM in vivo of at least three replicates, unless otherwise stated. Statistical analysis between two groups was performed using an unpaired Student’s 
+t
+ test. For comparison of multiple groups, one-way analysis of variance (ANOVA) or two-way ANOVA was used, followed by Tukey’s honest significant difference post hoc test or Bonferroni’s multiple comparisons posttest. 
+P
+ < 0.05 was considered statistically significant, and all 
+P
+ values are indicated in the figures.
+Acknowledgments
+
+
+We thank Q. Wang for providing the electronic universal testing machine. We are grateful to L. Sun, J. Zhao, L. Wang, and Q. Yang for providing SWE and STE imaging support. We thank J. Zhang for providing feedback on the manuscript and B. Ying for discussions on the Introduction portion of the manuscript.
+
+
+Funding:
+
+
+This work was supported by National Key Research and Development Program of China (2021YFA1201400) (Y. Cheng); National Natural Science Foundation of China (82022039) (Y. Cheng); National Natural Science Foundation of China (52405323) (Z.Y.); National Natural Science Foundation of China (12350710786) (Y. Cheng); Shanghai Pilot Program for Basic Research, Natural Science Foundation of Shanghai (22ZR1462800) (Y. Cheng); Shanghai Pilot Program for Basic Research, Natural Science Foundation of Shanghai (Mechanics and Emergent behavior of Collective Physical Systems) (Z.Y.); Science and Technology Commission Foundation of Shanghai (21XD1423900) (Y. Cheng); Science and Technology Commission Foundation of Shanghai (25XF3200900) (Z.Y.); Shanghai Municipal Education Commission Innovative Program (2023ZKZD27) (Y. Cheng); and Shanghai “Intelligent Science and Technology” IV-class peak discipline “Interdisciplinary Innovation and Education Integration Fund” (H.C.).
+Author contributions:
+
+
+Conceptualization: H.C., Y. Chen, Z.Y., and Y. Cheng. Methodology: H.C., F.T., R.G., W.G., Y.S., Z.G., Y.L., P.N., Xing Fan, Y.W., Z.L., Y. Chen, and Y. Cheng. Investigation: H.C., Y. Chen, Xinjian Fan., Z.Y., and Y. Cheng. Resources: H.C., Z.Y., Xinjian Fan, and Y. Cheng. Funding acquisition: Z.Y. and Y. Cheng. Data curation: H.C., Y. Chen, Z.Y., and Y. Cheng. Validation: H.C., Y. Chen, Z.Y., and Y. Cheng. Software: Xinjian Fan. Formal analysis: Y. Chen, H.C., Xinjian Fan., Z.Y., and Y. Cheng. Project administration: X.W., H.C., Z.Y., and Y. Cheng. Visualization: H.C., Y. Chen, Z.Y., and Y. Cheng. Supervision: H.C., Z.Y., and Y. Cheng. Writing—original draft: H.C., Y. Chen, Z.Y., Xinjian Fan, and Y. Cheng. Writing—review and editing: H.C., Y. Chen, Y.W., Xinjian Fan, Z.Y., and Y. Cheng.
+Competing interests:
+
+
+The authors declare that they have no competing interest.
+Data, code, and materials availability:
+
+
+All data and code needed to evaluate and reproduce the results in the paper are present in the paper and/or the Supplementary Materials. This study did not generate new materials.
+Supplementary Materials
+
+
+The PDF file includes:
+
+
+
+
+Text S1 to S3
+
+
+Figs. S1 to S35
+
+
+Tables S1 to S5
+
+
+Legends for movies S1 to S6
+
+
+
+
+
+
+sciadv.aeb2528_sm.pdf
+ (11.3MB, pdf) 
+
+
+Other Supplementary Material for this manuscript includes the following:
+
+
+Movies S1 to S6
+
+
+
+
+sciadv.aeb2528_movies_s1_to_s6.zip
+ (90.9MB, zip) 
+
+
+REFERENCES
+
+
+
+
+
+
+1.
+Nelson B. J., Pané S., 
+Delivering drugs with microrobots. Science
+382, 
+1120–1122 (2023).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+2.
+Li J., Esteban-Fernández de Avila B., Gao W., Zhang L., Wang J., 
+Micro/nanorobots for biomedicine: Delivery, surgery, sensing, and detoxification. Sci. Robot.
+2, 
+eaam6431 (2017).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+3.
+Yoo J., Tang S., Gao W., 
+Micro- and nanorobots for biomedical applications in the brain. Nat. Rev. Bioeng.
+1, 
+308–310 (2023).
+ [
+Google Scholar
+]
+
+
+
+
+4.
+Nauber R., Goudu S. R., Goeckenjan M., Bornhäuser M., Ribeiro C., Medina-Sánchez M., 
+Medical microrobots in reproductive medicine from the bench to the clinic. Nat. Commun.
+14, 
+728 (2023).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+5.
+Iacovacci V., Diller E., Ahmed D., Menciassi A., 
+Medical microrobots. Annu. Rev. Biomed. Eng.
+26, 
+561–591 (2024).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+6.
+Soto F., Wang J., Ahmed R., Demirci U., 
+Medical micro/nanorobots in precision medicine. Adv. Sci.
+7, 
+2002203 (2020).
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+7.
+Zhang T., Li G., Ren H., Yang L., Yang X., Tan R., Tang Y., Guo D., Zhao H., Shang W., Shen Y., 
+Sub-millimeter fiberscopic robot with integrated maneuvering, imaging, and biomedical operation abilities. Nat. Commun.
+15, 
+10874 (2024).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+8.
+Yang X., Shang W., Lu H., Liu Y., Yang L., Tan R., Wu X., Shen Y., 
+An agglutinate magnetic spray transforms inanimate objects into millirobots for biomedical applications. Sci. Robot.
+5, 
+eabc8191 (2020).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+9.
+Zhou H., Mayorga-Martinez C. C., Pané S., Zhang L., Pumera M., 
+Magnetically driven micro and nanorobots. Chem. Rev.
+121, 
+4999–5041 (2021).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+10.
+Yang M., Guo X., Mou F., Guan J., 
+Lighting up micro−/nanorobots with fluorescence. Chem. Rev.
+123, 
+3944–3975 (2023).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+11.
+Han H., Ma X., Deng W., Zhang J., Tang S., Pak O. S., Zhu L., Criado-Hidalgo E., Gong C., Karshalev E., Yoo J., You M., Liu A., Wang C., Shen H. K., Patel P. N., Hays C. L., Gunnarson P. J., Li L., Zhang Y., Dabiri J. O., Wang L. V., Shapiro M. G., Wu D., Zhou Q., Greer J. R., Gao W., 
+Imaging-guided bioresorbable acoustic hydrogel microrobots. Sci. Robot.
+9, 
+eadp3593 (2024).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+12.
+Simó C., SerraCasablancas M., Hortelao A. C., Di Carlo V., Guallar-Garrido S., Plaza-García S., Rabanal R. M., RamosCabrer P., Yagüe B., Aguado L., Bardia L., Tosi S., Gómez-Vallejo V., Martín A., Patiño T., Julián E., Colombelli J., Llop J., Sánchez S., 
+Urease-powered nanobots for radionuclide bladder cancer therapy. Nat. Nanotechnol.
+19, 
+554–564 (2024).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+13.
+Alapan Y., Yasa O., Yigit B., Yasa I. C., Erkoc P., Sitti M., 
+Microrobotics and microorganisms: Biohybrid autonomous cellular robots. Annu. Rev. Control Robot. Auton. Syst.
+2, 
+205–230 (2019).
+ [
+Google Scholar
+]
+
+
+
+
+14.
+Wang B., Wang Q., Chan K. F., Ning Z., Wang Q., Ji F., Yang H., Jiang S., Zhang Z., Ip B. Y. M., Ko H., Chung J. P. W., Qiu M., Han J., Chiu P. W. Y., Sung J. J. Y., Du S., Leung T. W. H., Yu S. C. H., Zhang L., 
+tPA-anchored nanorobots for in vivo arterial recanalization at submillimeter-scale segments. Sci. Adv.
+10, 
+eadk8970 (2024).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+15.
+Wang B., Shen J., Huang C., Ye Z., He J., Wu X., Guo Z., Zhang L., Xu T., 
+Magnetically driven biohybrid blood hydrogel fibres for personalized intracranial tumour therapy under fluoroscopic tracking. Nat. Biomed. Eng.
+9, 
+1471–1485 (2025).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+16.
+Zhang H., Li Z., Gao C., Fan X., Pang Y., Li T., Wu Z., Xie H., He Q., 
+Dual-responsive biohybrid neutrobots for active target delivery. Sci. Robot.
+6, 
+eaaz9519 (2021).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+17.
+Gwisai T., Mirkhani N., Christiansen M. G., Nguyen T. T., Ling V., Schuerle S., 
+Magnetic torque-driven living microrobots for increased tumor infiltration. Sci. Robot.
+7, 
+eabo0665 (2022).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+18.
+Akolpoglu M. B., Alapan Y., Dogan N. O., Baltaci S. F., Yasa O., Tural G. A., Sitti M., 
+Magnetically steerable bacterial microrobots moving in 3D biological matrices for stimuli-responsive cargo delivery. Sci. Adv.
+8, 
+eabo6163 (2022).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+19.
+Wang H., Meng F., Cai Y., Zheng L., Li Y., Liu Y., Jiang Y., Wang X., Chen X., 
+Sericin for resistance switching device with multilevel nonvolatile memory. Adv. Mater.
+25, 
+5498–5503 (2013).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+20.
+Zhu B., Wang H., Liu Y., Qi D., Liu Z., Wang H., Yu J., Sherburne M., Wang Z., Chen X., 
+Skin-inspired haptic memory arrays with an electrically reconfigurable architecture. Adv. Mater.
+28, 
+1559–1566 (2016).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+21.
+Song J., Woo J., Prakash A., Lee D., Hwang H., 
+Threshold selector with high selectivity and steep slope for cross-point memory array. IEEE Electron Device Lett.
+36, 
+681–683 (2015).
+ [
+Google Scholar
+]
+
+
+
+
+22.
+Zhang H., Zeng H., Priimagi A., Ikkala O., 
+Programmable responsive hydrogels inspired by classical conditioning algorithm. Nat. Commun.
+10, 
+3267 (2019).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+23.
+Kim M., Yu A., Kim D., Nelson B. J., Ahn S.-H., 
+Multi-agent control of laser-guided shape-memory alloy microrobots. Adv. Funct. Mater.
+33, 
+2304937 (2023).
+ [
+Google Scholar
+]
+
+
+
+
+24.
+Guo H., Ruoko T.-P., Zeng H., Priimagi A., 
+Hydrogen-bonded liquid crystal elastomers combining shape memory programming and reversible actuation. Adv. Funct. Mater.
+34, 
+2312068 (2024).
+ [
+Google Scholar
+]
+
+
+
+
+25.
+Dufrêne Y. F., Persat A., 
+Mechanomicrobiology: How bacteria sense and respond to forces. Nat. Rev. Microbiol.
+18, 
+227–240 (2020).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+26.
+Bhattacharyya S., Bhattarai N., Pfannenstiel D. M., Wilkins B., Singh A., Harshey R. M., 
+A heritable iron memory enables decision-making in 
+Escherichia coli
+. Proc. Natl. Acad. Sci. U.S.A.
+120, 
+e2309082120 (2023).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+27.
+Prindle A., Liu J., Asally M., Ly S., Garcia-Ojalvo J., Süel G. M., 
+Ion channels enable electrical communication in bacterial communities. Nature
+527, 
+59–63 (2015).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+28.
+Wadhwa N., Berg H. C., 
+Bacterial motility: Machinery and mechanisms. Nat. Rev. Microbiol.
+20, 
+161–173 (2022).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+29.
+Luke J. J., Piha-Paul S. A., Medina T., Verschraegen C. F., Varterasian M., Brennan A. M., Riese R. J., Sokolovska A., Strauss J., Hava D. L., Janku F., 
+Phase I study of SYNB1891, an engineered 
+E. coli
+ Nissle strain expressing STING agonist, with and without atezolizumab in advanced malignancies. Clin. Cancer Res.
+29, 
+2435–2444 (2023).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+30.
+Kwon S.-Y., Ngo H. T.-T., Son J., Hong Y., Min J.-J., 
+Exploiting bacteria for cancer immunotherapy. Nat. Rev. Clin. Oncol.
+21, 
+569–589 (2024).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+31.
+Zhou S., Gravekamp C., Bermudes D., Liu K., 
+Tumour-targeting bacteria engineered to fight cancer. Nat. Rev. Cancer
+18, 
+727–743 (2018).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+32.
+Pedrolli D. B., Ribeiro N. V., Squizato P. N., de Jesus V. N., Cozetto D. A., 
+Engineering microbial living therapeutics: The synthetic biology toolbox. Trends Biotechnol.
+37, 
+100–115 (2019).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+33.
+Chen H., Li Y., Wang Y., Ning P., Shen Y., Wei X., Feng Q., Liu Y., Li Z., Xu C., Huang S., Deng C., Wang P., Cheng Y., 
+An engineered bacteria-hybrid microrobot with the magnetothermal bioswitch for remotely collective perception and imaging-guided cancer treatment. ACS Nano
+16, 
+6118–6133 (2022).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+34.
+Ma X., Liang X., Li Y., Feng Q., Cheng K., Ma N., Zhu F., Guo X., Yue Y., Liu G., Zhang T., Liang J., Ren L., Zhao X., Nie G., 
+Modular-designed engineered bacteria for precision tumor immunotherapy via spatiotemporal manipulation by magnetic field. Nat. Commun.
+14, 
+1606 (2023).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+35.
+Schmidt F., Zimmermann J., Tanna T., Farouni R., Conway T., Macpherson A. J., Platt R. J., 
+Noninvasive assessment of gut function using transcriptional recording sentinel cells. Science
+376, 
+eabm6038 (2022).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+36.
+Kotula J. W., Kerns S. J., Shaket L. A., Siraj L., Collins J. J., Way J. C., Silver P. A., 
+Programmable bacteria detect and record an environmental signal in the mammalian gut. Proc. Natl. Acad. Sci. U.S.A.
+111, 
+4838–4843 (2014).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+37.
+Riglar D. T., Giessen T. W., Baym M., Kerns S. J., Niederhuber M. J., Bronson R. T., Kotula J. W., Gerber G. K., Way J. C., Silver P. A., 
+Engineered bacteria can function in the mammalian gut long-term as live diagnostics of inflammation. Nat. Biotechnol.
+35, 
+653–658 (2017).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+38.
+Mao N., Cubillos-Ruiz A., Cameron D. E., Collins J. J., 
+Probiotic strains detect and suppress cholera in mice. Sci. Transl. Med.
+10, 
+eaao2586 (2018).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+39.
+Yang L., Nielsen A. A. K., Fernandez-Rodriguez J., McClune C. J., Laub M. T., Lu T. K., Voigt C. A., 
+Permanent genetic memory with > 1-byte capacity. Nat. Methods
+11, 
+1261–1266 (2014).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+40.
+Inda-Webb M. E., Jimenez M., Liu Q., Phan N. V., Ahn J., Steiger C., Wentworth A., Riaz A., Zirtiloglu T., Wong K., Ishida K., Fabian N., Jenkins J., Kuosmanen J., Madani W., McNally R., Lai Y., Hayward A., Mimee M., Nadeau P., Chandrakasan A. P., Traverso G., Yazicigil R. T., Lu T. K., 
+Sub-1.4 cm
+3
+ capsule for detecting labile inflammatory biomarkers in situ. Nature
+620, 
+386–392 (2023).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+41.
+Abedi M. H., Yao M. S., Mittelstein D. R., Bar-Zion A., Swift M. B., Lee-Gosselin A., Barturen-Larrea P., Buss M. T., Shapiro M. G., 
+Ultrasound-controllable engineered bacteria for cancer immunotherapy. Nat. Commun.
+13, 
+1585 (2022).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+42.
+Bonnet J., Subsoontorn P., Endy D., 
+Rewritable digital data storage in live cells via engineered control of recombination directionality. Proc. Natl. Acad. Sci. U.S.A.
+109, 
+8884–8889 (2012).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+43.
+Courbet A., Endy D., Renard E., Molina F., Bonnet J., 
+Detection of pathological biomarkers in human clinical samples via amplifying genetic switches and logic gates. Sci. Transl. Med.
+7, 
+289ra83 (2015).
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+44.
+Boe L., Rasmussen K. V., 
+Suggestions as to quantitative measurements of plasmid loss. Plasmid
+36, 
+153–159 (1996).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+45.
+Zhang J., Ren Z., Hu W., Soon R. H., Yasa I. C., Liu Z., Sitti M., 
+Voxelated three-dimensional miniature magnetic soft machines via multimaterial heterogeneous assembly. Sci. Robot.
+6, 
+eabf0112 (2021).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+46.
+Liu X., Wang L., Xiang Y., Liao F., Li N., Li J., Wang J., Wu Q., Zhou C., Yang Y., Kou Y., Yang Y., Tang H., Zhou N., Wan C., Yin Z., Yang G.-Z., Tao G., Zang J., 
+Magnetic soft microfiberbots for robotic embolization. Sci. Robot.
+9, 
+eadh2479 (2024).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+47.
+Gu H., Hanedan E., Boehler Q., Huang T.-Y., Mathijssen A. J. T. M., Nelson B. J., 
+Artificial microtubules for rapid and collective transport of magnetic microcargoes. Nat. Mach. Intell.
+4, 
+678–684 (2022).
+ [
+Google Scholar
+]
+
+
+
+
+48.
+Shen J., Wang Y., Yao M., Liu S., Guo Z., Zhang L., Wang B., 
+Long-span delivery of differentiable hybrid robots for restoration of neural connections. Matter
+8, 
+101942 (2025).
+ [
+Google Scholar
+]
+
+
+
+
+49.
+Wang B., Chan K. F., Yuan K., Wang Q., Xia X., Yang L., Ko H., Wang Y.-X. J., Sung J. J. Y., Chiu P. W. Y., Zhang L., 
+Endoscopy-assisted magnetic navigation of biohybrid soft microrobots with rapid endoluminal delivery and imaging. Sci. Robot.
+6, 
+eabd2813 (2021).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+50.
+Wang S., Wang Z., Shen Z., Zhang M., Jin D., Zheng K., Liu X., Chai M., Wang Z., Chi A., Ostrovidov S., Wu H., Shao D., Liu G., Wu K., Leong K. W., Shi X., 
+Magnetic soft microrobots for erectile dysfunction therapy. Proc. Natl. Acad. Sci. U.S.A
+121, 
+e2407809121 (2024).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+51.
+Gao Y., Mao M., Li Y., Xuan M., Wu Y., He Q., 
+A self-directed Trojanbot-enzymatic nanobot in neutrobot for active target therapy of glioblastoma. Nat. Commun.
+16, 
+5263 (2025).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+52.
+Akolpoglu M. B., Baltaci S. F., Bozuyuk U., Karaz S., Sitti M., 
+Navigating microalgal biohybrids through confinements with magnetic guidance. Matter
+8, 
+102052 (2025).
+ [
+Google Scholar
+]
+
+
+
+
+53.
+Li Z., Guo Z., Zhang F., Sun L., Luan H., Fang Z., Dedrick J. L., Zhang Y., Tang C., Zhu A., Yu Y., Ding S., Wang D., Chang A.-Y., Yin L., Russell L. M., Gao W., Fang R. H., Zhang L., Wang J., 
+Inhalable biohybrid microrobots: A non-invasive approach for lung treatment. Nat. Commun.
+16, 
+666 (2025).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+54.
+Zhang F., Li Z., Duan Y., Abbas A., Mundaca-Uribe R., Yin L., Luan H., Gao W., Fang R. H., Zhang L., Wang J., 
+Gastrointestinal tract drug delivery using algae motors embedded in a degradable capsule. Sci. Robot.
+7, 
+eabo4160 (2022).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+55.
+Zhang F., Guo Z., Li Z., Luan H., Yu Y., Zhu A. T., Ding S., Gao W., Fang R. H., Zhang L., Wang J., 
+Biohybrid microrobots locally and actively deliver drug-loaded nanoparticles to inhibit the progression of lung metastasis. Sci. Adv.
+10, 
+eadn6157 (2024).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+56.
+Zhang F., Zhuang J., Li Z., Gong H., de Ávila B. E.-F., Duan Y., Zhang Q., Zhou J., Yin L., Karshalev E., Gao W., Nizet V., Fang R. H., Zhang L., Wang J., 
+Nanoparticle-modified microrobots for in vivo antibiotic delivery to treat acute bacterial pneumonia. Nat. Mater.
+21, 
+1324–1332 (2022).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+57.
+Zhang T., Yang L., Yang X., Tan R., Lu H., Shen Y., 
+Millimeter-scale soft continuum robots for large-angle and high-precision manipulation by hybrid actuation. Adv. Intell. Syst.
+3, 
+2000189 (2021).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+58.
+Yang L., Zhang T., Huang H., Ren H., Shang W., Shen Y., 
+An on-wall-rotating strategy for effective upstream motion of untethered millirobot: Principle, design, and demonstration. IEEE Trans. Robot.
+39, 
+2419–2428 (2023).
+ [
+Google Scholar
+]
+
+
+
+
+59.
+Rezk R., Marín-García R., Gad A. K. B., 
+The fibrillar matrix: Novel avenues for breast cancer detection and treatment. Engineering
+7, 
+1375–1380 (2021).
+ [
+Google Scholar
+]
+
+
+
+
+60.
+Fan X., Chen H., Li Y., Feng Q., Tao F., Xu C., Chen X., Gao R., Wang Y., Guo X., Sun C., Lv C., Cheng Y., 
+Actin-targeted magnetic nanomotors mechanically modulate the tumor mechanical microenvironment for cancer treatment. ACS Nano
+19, 
+6454–6467 (2025).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+61.
+Wang Q., Yu J., Yu K., Yang L., Jin D., Zhang L., 
+Disassembly and spreading of magnetic nanoparticle clusters on uneven surfaces. Appl. Mater. Today
+18, 
+100489 (2020).
+ [
+Google Scholar
+]
+
+
+
+
+62.
+Landers F. C., Hertle L., Pustovalov V., Sivakumaran D., Oral C. M., Brinkmann O., Meiners K., Theiler P., Gantenbein V., Veciana A., Mattmann M., Riss S., Gervasoni S., Chautems C., Ye H., Sevim S., Flouris A. D., Puigmartí-Luis J., Mayor T. S., Alves P., Lühmann T., Chen X., Ochsenbein N., Moehrlen U., Schubert T., Kulcsar Z., Gruber P., Weisskopf M., Boehler Q., Pané S., Nelson B. J., 
+Clinically ready magnetic microrobots for targeted therapies. Science
+390, 
+710–715 (2025).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+63.
+Gervasoni S., Pedrini N., Rifai T., Fischer C., Landers F. C., Mattmann M., Dreyfus R., Viviani S., Veciana A., Masina E., Aktas B., Puigmartí-Luis J., Chautems C., Pané S., Boehler Q., Gruber P., Nelson B. J., 
+A human-scale clinically ready electromagnetic navigation system for magnetically responsive biomaterials and medical devices. Adv. Mater.
+36, 
+e2310701 (2024).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+64.
+Du X., Wang Y., Law J., Fang K., Chen H., Liu Y., Yu J., 
+Active exploration and reconstruction of vascular networks using microrobot swarms. Nat. Mach. Intell.
+7, 
+553–564 (2025).
+ [
+Google Scholar
+]
+
+
+
+
+65.
+Fan X., Jiang Y., Li M., Zhang Y., Tian C., Mao L., Xie H., Sun L., Yang Z., Sitti M., 
+Scale-reconfigurable miniature ferrofluidic robots for negotiating sharply variable spaces. Sci. Adv.
+8, 
+eabq1677 (2022).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+66.
+Mirkhani N., Christiansen M. G., Gwisai T., Menghini S., Schuerle S., 
+Spatially selective delivery of living magnetic microrobots through torque-focusing. Nat. Commun.
+15, 
+2160 (2024).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+67.
+Zhang J., Li J., Hou Y., Lin Y., Zhao H., Shi Y., Chen K., Nian C., Tang J., Pan L., Xing Y., Gao H., Yang B., Song Z., Cheng Y., Liu Y., Sun M., Linghu Y., Li J., Huang H., Lai Z., Zhou Z., Li Z., Sun X., Chen Q., Su D., Li W., Peng Z., Liu P., Chen W., Huang H., Chen Y., Xiao B., Ye L., Chen L., Zhou D., 
+Osr2 functions as a biomechanical checkpoint to aggravate CD8
++
+ T cell exhaustion in tumor. Cell
+187, 
+3409–3426.e24 (2024).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+68.
+Sender R., Fuchs S., Milo R., 
+Revised estimates for the number of human and bacteria cells in the body. PLoS Biol.
+14, 
+e1002533 (2016).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+69.
+Robinson K. M., Sieber K. B., Dunning Hotopp J. C., 
+A review of bacteria-animal lateral gene transfer may inform our understanding of diseases like cancer. PLOS Genet.
+9, 
+e1003877 (2013).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+70.
+Callier V., 
+Gene transfers from bacteria and viruses may be shaping complex organisms. Proc. Natl. Acad. Sci. U.S.A.
+116, 
+13714–13716 (2019).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+71.
+Janku F., Zhang H. H., Pezeshki A., Goel S., Murthy R., Wang-Gillam A., Shepard D. R., Helgason T., Masters T., Hong D. S., Piha-Paul S. A., Karp D. D., Klang M., Huang S. Y., Sakamuri D., Raina A., Torrisi J., Solomon S. B., Weissfeld A., Trevino E., DeCrescenzo G., Collins A., Miller M., Salstrom J. L., Korn R. L., Zhang L., Saha S., Leontovich A. A., Tung D., Kreider B., Varterasian M., Khazaie K., Gounder M. M., 
+Intratumoral injection of 
+Clostridium novyi
+-NT spores in patients with treatment-refractory advanced solid tumors. Clin. Cancer Res.
+27, 
+96–106 (2021).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+72.
+Nelson B. E., Janku F., Fu S., Dumbrava E. E., Hong D. S., Karp D. D., Naing A., Rodon J., Tsimberidou A. M., Murthy R., Sheth R. A., Amaria R. N., Conley A. P., Damodaran S., Raghav K. P. S., Carapanceanu N., Singh M. P., Carapanceanu V., Pezeshki A., Leontovich A. A., Kreider B. L., Tung D., Varterasian M., Khazaie K., Piha-Paul S. A., 
+Phase Ib study of pembrolizumab in combination with intratumoral injection of 
+Clostridium novyi
+-NT in patients with advanced solid tumors. Cancer Res.
+31, 
+3864–3875 (2023).
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+73.
+Le D. T., Wang-Gillam A., Picozzi V., Greten T. F., Crocenzi T., Springett G., Morse M., Zeh H., Cohen D., Fine R. L., Onners B., Uram J. N., Laheru D. A., Lutz E. R., Solt S., Murphy A. L., Skoble J., Lemmens E., Grous J., Dubensky T. Jr., Brockstedt D. G., Jaffee E. M., 
+Safety and survival with GVAX pancreas prime and 
+Listeria monocytogenes
+ expressing mesothelin (CRS-207) boost vaccines for metastatic pancreatic cancer. J. Clin. Oncol.
+33, 
+1325–1333 (2015).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+74.
+Toso J. F., Gill V. J., Hwu P., Marincola F. M., Restifo N. P., Schwartzentruber D. J., Sherry R. M., Topalian S. L., Yang J. C., Stock F., Freezer L. J., Morton K. E., Seipp C., Haworth L., Mavroukakis S., White D., MacDonald S., Mao J., Sznol M., Rosenberg S. A., 
+Phase I study of the intravenous administration of attenuated 
+Salmonella typhimurium
+ to patients with metastatic melanoma. J. Clin. Oncol.
+20, 
+142–152 (2002).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+75.
+Huh W. K., Brady W. E., Fracasso P. M., Dizon D. S., Powell M. A., Monk B. J., Leath C. A. III, Landrum L. M., Tanner E. J., Crane E. K., Ueda S., McHale M. T., Aghajanian C., 
+Phase II study of axalimogene filolisbac (ADXS-HPV) for platinum refractory cervical carcinoma: an NRG oncology/gynecologic oncology group study. Gynecol. Oncol.
+158, 
+562–569 (2020).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+76.
+Drake C. G., Pachynski R. K., Subudhi S. K., McNeel D. G., Antonarakis E. S., Bauer T. M., Lauer P., Brockstedt D., Patricia D., Wade M., Zudaire E., Bandyopadhyay N., Parasrampuria D. A., Girgis S., Mason G. E., Knoblauch R. E., Stone N., Infante J. R., Gottardis M. M., Fong L., 
+Safety and preliminary immunogenicity of JNJ-64041809, a live attenuated, double-deleted-based immunotherapy, in metastatic castration-resistant prostate cancer. Prostate Cancer Prostatic Dis.
+25, 
+219–228 (2022).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+77.
+Schmitz-Winnenthal F. H., Hohmann N., Niethammer A. G., Friedrich T., Lubenau H., Springer M., Breiner K. M., Mikus G., Weitz J., Ulrich A., Buechler M. W., Pianka F., Klaiber U., Diener M., Leowardi C., Schimmack S., Sisic L., Keller A.-V., Koc R., Springfeld C., Knebel P., Schmidt T., Ge Y., Bucur M., Stamova S., Podola L., Haefeli W. E., Grenacher L., Beckhove P., 
+Anti-angiogenic activity of VXM01, an oral T-cell vaccine against VEGF receptor 2, in patients with advanced pancreatic cancer: A randomized, placebo-controlled, phase 1 trial. Onco Targets Ther
+4, 
+e1001217 (2015).
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+78.
+Gniadek T. J., Augustin L., Schottel J., Leonard A., Saltzman D., Greeno E., Batist G., 
+A phase I, dose escalation, single dose trial of oral attenuated 
+Salmonella typhimurium
+ containing human IL-2 in patients with metastatic gastrointestinal cancers. J. Immunother.
+43, 
+217–221 (2020).
+
+ [
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+79.
+Gu Z., Liu T., Tang J., Yang Y., Song H., Tuong Z. K., Fu J., Yu C., 
+Mechanism of iron oxide-induced macrophage activation: The impact of composition and the underlying signaling pathway. J. Am. Chem. Soc.
+141, 
+6122–6126 (2019).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+
+
+80.
+Thompson A. P., Metin Aktulga H., Berger R., Bolintineanu D. S., Michael Brown W., Crozier P. S., in ‘t Veld P. J., Kohlmeyer A., Moore S. G., Nguyen T. D., Shan R., Stevens M. J., Tranchida J., Trott C., Plimpton S. J., 
+LAMMPS—A flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales. Comput. Phys. Commun.
+271, 
+108171 (2022).
+ [
+Google Scholar
+]
+
+
+
+
+81.
+Stukowski A., 
+Visualization and analysis of atomistic simulation data with OVITO-the open visualization tool. Model. Simul. Mater. Sci. Eng.
+18, 
+015012 (2010).
+ [
+Google Scholar
+]
+
+
+
+
+82.
+Al-Abd A. M., Hong K.-Y., Song S.-C., Kuh H.-J., 
+Pharmacokinetics of doxorubicin after intratumoral injection using a thermosensitive hydrogel in tumor-bearing mice. J. Control. Release
+142, 
+101–107 (2010).
+
+ [
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+
+
+Associated Data
+
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+
+
+Supplementary Materials
+
+
+
+
+Text S1 to S3
+
+
+Figs. S1 to S35
+
+
+Tables S1 to S5
+
+
+Legends for movies S1 to S6
+
+
+
+
+
+
+sciadv.aeb2528_sm.pdf
+ (11.3MB, pdf) 
+
+
+Movies S1 to S6
+
+
+
+
+sciadv.aeb2528_movies_s1_to_s6.zip
+ (90.9MB, zip) 
+
+
+Data Availability Statement
+
+
+All data and code needed to evaluate and reproduce the results in the paper are present in the paper and/or the Supplementary Materials. This study did not generate new materials.
+
+
+Articles from Science Advances are provided here courtesy of 
+American Association for the Advancement of Science
+
+
+                      
+
+                    
+
+                
+
+            
+
+        
+
+
+        
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+        
+
+    
+
+       
+
+              
+ACTIONS
+
+           
+
+               
+               
+
+                     
+
+                         
+
+                         
+View on publisher site
+
+                     
+
+               
+
+               
+               
+               
+
+                    
+
+                         
+
+                        
+PDF (3.6 MB)
+
+                    
+
+               
+
+               
+                
+               
+
+                   
+
+                       
+
+                       
+Cite
+
+                    
+
+               
+
+                
+               
+
+
+                        
+
+                            
+
+                            
+
+                            
+Collections
+
+                       
+
+               
+
+               
+
+                    
+
+                        
+
+                        
+Permalink
+
+                    
+
+                   
+
+
+
+    
+
+          
+PERMALINK
+
+          
+
+              
+
+              
+
+                  
+
+                  
+Copy
+
+              
+
+          
+
+    
+
+
+
+               
+
+           
+
+       
+
+     
+
+
+        
+
+            
+RESOURCES
+
+            
+                
+
+                    
+
+                        
+
+                            Similar articles
+                        
+
+                    
+
+                    
+
+                        
+                    
+
+                    
+
+                        
+
+                             Cited by other articles
+                        
+
+                    
+
+                    
+
+                          
+                    
+
+                    
+                        
+
+                            
+
+                                 Links to NCBI Databases
+                            
+
+                        
+
+                        
+
+                        
+
+                    
+                    
+                
+
+            
+        
+
+
+
+        
+
+    
+
+
+
+
+        
+
+
+
+    
+
+        
+
+            
+Cite
+
+             
+
+                 
+
+             
+
+        
+
+
+        
+
+
+
+  
+
+  
+
+      
+
+        
+
+            
+
+            
+Copy
+
+        
+
+      
+
+      
+
+          
+
+                
+
+                
+Download .nbib
+
+                
+.nbib
+
+            
+
+      
+
+      
+
+          
+
+
+
+  
+Format:
+
+  
+
+    
+      
+
+        AMA
+      
+
+    
+      
+
+        APA
+      
+
+    
+      
+
+        MLA
+      
+
+    
+      
+
+        NLM
+      
+
+    
+  
+
+
+
+      
+
+  
+
+
+
+    
+
+
+
+
+        
+
+  
+
+   
+
+        
+Add to Collections
+
+    
+
+    
+
+      
+
+
+
+
+
+    
+
+
+    
+
+        
+
+            
+
+            
+Create a new collection
+
+        
+
+        
+
+            
+
+            
+Add to an existing collection
+
+        
+
+    
+
+
+    
+
+        
+
+           
+
+                Name your collection
+               
+*
+
+          
+
+          
+
+        
+
+        
+
+             
+
+                Choose a collection
+              
+
+              
+
+              
+
+              
+
+                Unable to load your collection due to an error
+
+                
+Please try again
+
+              
+
+        
+
+    
+
+
+    
+
+        
+
+          Add
+        
+
+        
+
+          Cancel
+        
+
+    
+
+
+
+    
+
+  
+
+
+
+
+        
+
+      
+
+    
+
+  
+
+
+
+
+        
+    
+    
+
+
+
+    
+        
+
+            
+
+                Follow NCBI
+            
+
+
+            
+
+                
+                    
+
+                        
+
+                            
+
+                            
+
+                        
+
+                        
+NCBI on X (formerly known as Twitter)
+
+                    
+
+                
+
+                
+                    
+
+                        
+
+                            
+
+                            
+
+                        
+
+                        
+NCBI on Facebook
+
+                    
+
+                
+
+                
+                    
+
+                        
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                        
+
+                        
+NCBI on LinkedIn
+
+                    
+
+                
+
+                
+                    
+
+                        
+
+                            
+
+                            
+
+                        
+
+                        
+NCBI on GitHub
+
+                    
+
+                
+
+                
+                    
+
+                        
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                        
+
+                        
+NCBI RSS feed
+
+                    
+
+                
+            
+
+        
+
+    
+
+    
+
+        
+
+            
+                
+
+                    
+                        
+
+                            Connect with NLM
+                        
+
+                    
+
+                    
+
+                        
+                            
+
+                                
+
+                                    
+
+                                    
+
+                                
+
+                                
+NLM on X (formerly known as Twitter)
+
+                            
+
+                        
+
+                        
+                            
+
+                                
+
+                                    
+
+                                    
+
+                                
+
+                                
+NLM on Facebook
+
+                            
+
+                        
+
+                        
+                            
+
+                                
+
+                                    
+
+                                
+
+                                
+NLM on YouTube
+
+                            
+
+                        
+                    
+
+                
+
+            
+
+            
+                
+
+                    
+        
+
+            
+National Library of Medicine
+            
+ 8600 Rockville Pike
+ Bethesda, MD 20894
+
+        
+
+    
+                
+
+            
+
+            
+                
+
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            Web Policies
+        
+
+        
+    
+
+
+
+                        
+
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            FOIA
+        
+
+        
+    
+
+
+
+                        
+
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    
+
+
+
+                        
+
+                    
+                
+
+            
+
+            
+                
+
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            Help
+        
+
+        
+    
+
+
+
+                        
+
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            Accessibility
+        
+
+        
+    
+
+
+
+                        
+
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            Careers
+        
+
+        
+    
+
+
+
+                        
+
+                    
+                
+
+            
+        
+
+
+        
+            
+
+                
+
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            NLM
+        
+
+        
+    
+
+
+
+                        
+
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            NIH
+        
+
+        
+    
+
+
+
+                        
+
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            HHS
+        
+
+        
+    
+
+
+
+                        
+
+                    
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+            USA.gov
+        
+
+        
+    
+
+
+
+                        
+
+                    
+                
+
+            
+
+        
+    
+
+
+
+
+    
+
+
+        
+        
+    
+  
+ 
+
+
+
+    
+        
+
+
+
+    
+Back to Top
+
+    
+
+
+
+    
+
+
+        
+    
+    
+
+    
+    
+        
+    
+
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+
+
+    
+
+
+
+    
+    
+&#xA0;
+
+    
+
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    
+
+
+
+    
+var exports = {};
+
+     
+
+
+    
+
+
+
+
+
+
+
+    
+        
+
+
+
+    
+    
+
+    
+
+
+

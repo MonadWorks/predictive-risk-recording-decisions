@@ -1,0 +1,85 @@
+{
+  "figures": [
+    {
+      "path": "figures/fig1_data_overview.pdf",
+      "size_bytes": 57820,
+      "page_size_line": "Page size:       510.236 x 226.772 pts",
+      "fonts_embedded_subset_unicode": true,
+      "embedded_raster_images_in_svg": 0,
+      "pdf_sha256": "abc9a3c554d67c5a5b7a71bc12782bb79c836c4f0a9b27f126c9af0b5716248f"
+    },
+    {
+      "path": "figures/fig2_recording_decisions.pdf",
+      "size_bytes": 43645,
+      "page_size_line": "Page size:       510.236 x 391.181 pts",
+      "fonts_embedded_subset_unicode": true,
+      "embedded_raster_images_in_svg": 0,
+      "pdf_sha256": "5d4d3bb1d844f7f7435c8230ee79d2ee64ed907f7ff2dd87258d28b0f7b225c0"
+    },
+    {
+      "path": "figures/fig3_risk_forecasts.pdf",
+      "size_bytes": 39664,
+      "page_size_line": "Page size:       510.236 x 283.465 pts",
+      "fonts_embedded_subset_unicode": true,
+      "embedded_raster_images_in_svg": 0,
+      "pdf_sha256": "b1df4e84a5e606f8d610edd8e355923f644f2080f582b1e0748e064a7681dc5c"
+    },
+    {
+      "path": "figures/fig4_model_extension.pdf",
+      "size_bytes": 34779,
+      "page_size_line": "Page size:       510.236 x 317.48 pts",
+      "fonts_embedded_subset_unicode": true,
+      "embedded_raster_images_in_svg": 0,
+      "pdf_sha256": "ef9130c66310c66a3390c4accd485f0aa35c04473a580c2a3ae535391b9bfec3"
+    },
+    {
+      "path": "figures/figS1_complete_paired_distributions.pdf",
+      "size_bytes": 37144,
+      "page_size_line": "Page size:       510.236 x 255.118 pts",
+      "fonts_embedded_subset_unicode": true,
+      "embedded_raster_images_in_svg": 0,
+      "pdf_sha256": "3f488721c9357a4b668e263b20666c8a031da66455b6a40f57e7c89d17d7359f"
+    },
+    {
+      "path": "figures/figS2_matched_conditions.pdf",
+      "size_bytes": 48381,
+      "page_size_line": "Page size:       510.236 x 402.52 pts",
+      "fonts_embedded_subset_unicode": true,
+      "embedded_raster_images_in_svg": 0,
+      "pdf_sha256": "73ad1bf6415364509b64d39b4b2884b050686cbba0b46774e566cf4585f98838"
+    },
+    {
+      "path": "figures/figS3_broad_conditions.pdf",
+      "size_bytes": 48876,
+      "page_size_line": "Page size:       510.236 x 402.52 pts",
+      "fonts_embedded_subset_unicode": true,
+      "embedded_raster_images_in_svg": 0,
+      "pdf_sha256": "3de9c7fbc227f333585d5f79c66c62216e4c38102221d2680734f0b87ca43910"
+    },
+    {
+      "path": "figures/figS4_bias_shift_conditions.pdf",
+      "size_bytes": 48403,
+      "page_size_line": "Page size:       510.236 x 402.52 pts",
+      "fonts_embedded_subset_unicode": true,
+      "embedded_raster_images_in_svg": 0,
+      "pdf_sha256": "e9733222fac26a0a0d91da3a15bd3fee33ea576463ad46e9ce4044b6939a2c6b"
+    },
+    {
+      "path": "figures/figS5_linear_positive_control.pdf",
+      "size_bytes": 22286,
+      "page_size_line": "Page size:       255.118 x 249.449 pts",
+      "fonts_embedded_subset_unicode": true,
+      "embedded_raster_images_in_svg": 0,
+      "pdf_sha256": "252f24af2c92f659ac730f40704c756208bcadf7d0993b170aceb46fb2e58fbe"
+    },
+    {
+      "path": "submission/graphical_abstract/graphical_abstract.pdf",
+      "size_bytes": 57715,
+      "page_size_line": "Page size:       538.583 x 382.677 pts",
+      "fonts_embedded_subset_unicode": true,
+      "embedded_raster_images_in_svg": 0,
+      "pdf_sha256": "a7346027fba72b598782bb98f1fdb029abc326b8b46ab0e6b34df7016d9c281d"
+    }
+  ],
+  "note": "dimensions/fonts/raster checks only; separate actual image inspection and numerical audits remain required"
+}

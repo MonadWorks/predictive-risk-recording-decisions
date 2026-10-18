@@ -1,0 +1,213 @@
+{
+  "reference_snapshot": "work/research_v2/n100_refined_timing_run/backend_source_snapshot/rank2_refined.py",
+  "substeps": 2,
+  "network_id": 1880,
+  "ensemble_size": 8,
+  "equivalence_max_abs_errors": {
+    "observations": 0.0,
+    "observation_gradients": 7.105427357601002e-15,
+    "Q": 0.0,
+    "G": 1.9984014443252818e-15
+  },
+  "timing": {
+    "old": {
+      "simulate_selected_sensitivity": {
+        "median_seconds": 0.08702464600014537,
+        "samples": [
+          0.08904883300010624,
+          0.10167570799990244,
+          0.06624620799993863,
+          0.08500045900018449
+        ]
+      },
+      "responses_all_sensitivity": {
+        "median_seconds": 0.1195768955000176,
+        "samples": [
+          0.10984749999988708,
+          0.11596558299993376,
+          0.1430862080001134,
+          0.12318820800010144
+        ]
+      }
+    },
+    "optimized": {
+      "simulate_selected_sensitivity": {
+        "median_seconds": 0.012592416500069703,
+        "samples": [
+          0.011928957999998602,
+          0.013133416000073339,
+          0.015731000000187123,
+          0.012051417000066067
+        ]
+      },
+      "responses_all_sensitivity": {
+        "median_seconds": 0.10357927049994942,
+        "samples": [
+          0.10222099999987222,
+          0.10710420800000975,
+          0.10493754100002661,
+          0.09142770899984498
+        ]
+      }
+    }
+  },
+  "median_speedup": {
+    "simulate_selected_sensitivity": 6.910877352227323,
+    "responses_all_sensitivity": 1.1544481335198822
+  },
+  "designs": [
+    {
+      "method": "local_scalar",
+      "target": 0,
+      "old_nodes": [
+        3,
+        73,
+        28,
+        18,
+        26
+      ],
+      "new_nodes": [
+        3,
+        73,
+        28,
+        18,
+        26
+      ],
+      "equal": true
+    },
+    {
+      "method": "local_scalar",
+      "target": 1,
+      "old_nodes": [
+        11,
+        2,
+        8,
+        26,
+        36
+      ],
+      "new_nodes": [
+        11,
+        2,
+        8,
+        26,
+        36
+      ],
+      "equal": true
+    },
+    {
+      "method": "local_scalar",
+      "target": 2,
+      "old_nodes": [
+        2,
+        73,
+        11,
+        69,
+        49
+      ],
+      "new_nodes": [
+        2,
+        73,
+        11,
+        69,
+        49
+      ],
+      "equal": true
+    },
+    {
+      "method": "ensemble_scalar",
+      "target": 0,
+      "old_nodes": [
+        18,
+        3,
+        28,
+        99,
+        78
+      ],
+      "new_nodes": [
+        18,
+        3,
+        28,
+        99,
+        78
+      ],
+      "equal": true
+    },
+    {
+      "method": "ensemble_scalar",
+      "target": 1,
+      "old_nodes": [
+        18,
+        2,
+        26,
+        8,
+        27
+      ],
+      "new_nodes": [
+        18,
+        2,
+        26,
+        8,
+        27
+      ],
+      "equal": true
+    },
+    {
+      "method": "ensemble_scalar",
+      "target": 2,
+      "old_nodes": [
+        64,
+        18,
+        10,
+        26,
+        2
+      ],
+      "new_nodes": [
+        64,
+        18,
+        10,
+        26,
+        2
+      ],
+      "equal": true
+    },
+    {
+      "method": "local_vector",
+      "target": -1,
+      "old_nodes": [
+        2,
+        11,
+        26,
+        8,
+        36
+      ],
+      "new_nodes": [
+        2,
+        11,
+        26,
+        8,
+        36
+      ],
+      "equal": true
+    },
+    {
+      "method": "ensemble_vector",
+      "target": -1,
+      "old_nodes": [
+        18,
+        2,
+        99,
+        3,
+        28
+      ],
+      "new_nodes": [
+        18,
+        2,
+        99,
+        3,
+        28
+      ],
+      "equal": true
+    }
+  ],
+  "bank_information_max_abs_error": 1.4551915228366852e-10
+}

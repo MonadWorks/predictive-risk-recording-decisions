@@ -1,0 +1,216 @@
+{
+  "fun_lib.py": [
+    "math",
+    "matplotlib",
+    "numpy",
+    "random",
+    "time",
+    "torch"
+  ],
+  "fun_lib2.py": [
+    "math",
+    "matplotlib",
+    "numpy",
+    "random",
+    "time",
+    "torch"
+  ],
+  "fun_lib3.py": [
+    "math",
+    "matplotlib",
+    "numpy",
+    "random",
+    "time",
+    "torch"
+  ],
+  "nn_fig1_Teacher.py": [
+    "math",
+    "matplotlib",
+    "numpy",
+    "random",
+    "time",
+    "torch"
+  ],
+  "nn_fig1_plots.py": [
+    "fun_lib",
+    "matplotlib",
+    "numpy",
+    "sys",
+    "torch"
+  ],
+  "nn_fig1_trainStudent.py": [
+    "fun_lib",
+    "matplotlib",
+    "numpy",
+    "sys",
+    "torch"
+  ],
+  "nn_fig2_plots_bce.py": [
+    "fun_lib",
+    "matplotlib",
+    "numpy",
+    "sys",
+    "torch"
+  ],
+  "nn_fig2_plots_bdf.py": [
+    "fun_lib",
+    "matplotlib",
+    "numpy",
+    "sys",
+    "torch"
+  ],
+  "nn_fig3_plots_abc.py": [
+    "argparse",
+    "math",
+    "matplotlib",
+    "numpy",
+    "random",
+    "time",
+    "torch"
+  ],
+  "nn_fig3_plots_def.py": [
+    "argparse",
+    "math",
+    "matplotlib",
+    "numpy",
+    "pickle",
+    "random",
+    "time",
+    "torch"
+  ],
+  "nn_fig3_trainStudents_abc.py": [
+    "math",
+    "matplotlib",
+    "numpy",
+    "random",
+    "sys",
+    "time",
+    "torch"
+  ],
+  "nn_fig4_plots_bc.py": [
+    "fun_lib",
+    "matplotlib",
+    "numpy",
+    "seaborn",
+    "sys",
+    "torch"
+  ],
+  "nn_fig4_plots_ef.py": [
+    "fun_lib",
+    "matplotlib",
+    "numpy",
+    "sys",
+    "torch"
+  ],
+  "nn_fig5_drosophilaCx_student.py": [
+    "functions_trainserverAshokOct24",
+    "matplotlib",
+    "numpy",
+    "sys",
+    "torch"
+  ],
+  "nn_fig5_drosophilaCx_teacher.py": [
+    "math",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "random",
+    "time",
+    "torch"
+  ],
+  "nn_fig5_larva_student.py": [
+    "fun_lib",
+    "matplotlib",
+    "numpy",
+    "sys",
+    "torch"
+  ],
+  "nn_fig5_larva_teacher.py": [
+    "h5py",
+    "matplotlib",
+    "numpy",
+    "time",
+    "torch"
+  ],
+  "nn_fig5_plots_abc.py": [
+    "argparse",
+    "fun_lib2",
+    "matplotlib",
+    "numpy",
+    "torch"
+  ],
+  "nn_fig5_plots_def.py": [
+    "fun_lib3",
+    "matplotlib",
+    "numpy",
+    "sys",
+    "torch"
+  ],
+  "nn_fig5_plots_ghi.py": [
+    "fun_lib3",
+    "matplotlib",
+    "numpy",
+    "sys",
+    "torch"
+  ],
+  "nn_fig5_zebrafish_student.py": [
+    "functions_trainserverAshokOct24",
+    "matplotlib",
+    "numpy",
+    "sys",
+    "torch"
+  ],
+  "nn_fig5_zebrafish_teacher.py": [
+    "copy",
+    "csv",
+    "h5py",
+    "math",
+    "matplotlib",
+    "mpl_toolkits",
+    "numpy",
+    "pandas",
+    "pickle",
+    "random",
+    "scipy",
+    "sklearn"
+  ],
+  "nn_fig7_ghi.py": [
+    "fun_lib",
+    "matplotlib",
+    "numpy",
+    "sys",
+    "torch"
+  ],
+  "nn_fig7_plots_a_to_f.py": [
+    "fun_lib",
+    "matplotlib",
+    "numpy"
+  ],
+  "nn_fig8_gh.py": [
+    "fun_lib",
+    "matplotlib",
+    "numpy",
+    "sys",
+    "torch"
+  ],
+  "nn_fig8_plots.py": [
+    "fun_lib",
+    "matplotlib",
+    "networkx",
+    "numpy",
+    "random",
+    "scipy",
+    "sys",
+    "torch"
+  ],
+  "nn_fig8_plots_de.py": [
+    "fun_lib",
+    "matplotlib",
+    "networkx",
+    "numpy",
+    "random",
+    "scipy",
+    "sys",
+    "torch"
+  ]
+}

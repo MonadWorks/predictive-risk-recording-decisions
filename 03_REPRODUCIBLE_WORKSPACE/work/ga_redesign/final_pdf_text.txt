@@ -1,0 +1,45 @@
+Predictive risk and recording decisions
+in partially observed neural networks
+Nominal versus prior-averaged local risk for stimulus-response prediction
+
+
+
+
+                                                    1      Recording agreement                  2      Response error                     3     Risk forecasts
+
+                                                   Nominal vs prior-averaged local risk        Common MAP fit and budget                Fixed data and point prediction
+                                                   40 independent networks                     Same 40 networks                         40 new independent networks
+
+
+                                                   68%               82 of 120 single-target
+                                                                     designs are identical
+                                                                                               Single response                          19           of 40 favour prior averaging;
+                                                                                                                                                     21 favour nominal
+                                                                                               −3.7%      [−18.5, +12.1]
+                                                                                                                                                               2
+                                                                                                                                        S(v, e) = log v + e /v
+                                                                                                                                        v: MSE forecast; e: response error
+                                               q                                                                                        One network contributes 64%
+                                                                                                                                        of the summed score difference
+                                                                                               Shared three-response
+                                                                                                                                        MSE-forecast score difference
+                                                                                               +2.7%      [−3.0, +11.5]
+                                                                                                                                        −0.46        [−1.16, +0.02]
+12 simulated units · M=3                           65%               26 of 40 shared-target
+                                                                     designs are identical
+Known connectivity; uncertain physiology
+Blue: positive; orange: negative connections
+                                                                                                    −20               0          15           −1.2        −0.6         0.0
+        Recorded node
+                                                                                                 Mean-MSE change vs nominal (%)               Prior-averaged minus nominal
+        Stimulated node
+                                                        same recording set                     97.5% paired network-cluster CI          95% paired network-cluster CI
+        Response readout (one shown)
+
+
+  Integrated stimulus response                      Identical recording sets and data yield identical predictions under the common MAP fit.
+                                                    All primary comparison intervals include zero.
+                   q = ∫Δr(t) dt
+                                                    Exploratory 100-unit rank-two family (8 independent networks): 4/8 setting-specific 95% intervals exclude zero,
+             Δr(t) = rstim (t) −rcontrol (t)        all favouring prior averaging. Intervals are unadjusted; one point estimate favours nominal.
+

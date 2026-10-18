@@ -1,0 +1,50 @@
+Predictive risk and recording decisions
+in partially observed neural networks
+                                                                                              Nominal versus prior-averaged local risk for stimulus-response prediction
+
+
+
+
+                                                 1 Recording agreement                      2 Response error                          3 Risk forecasts
+                                                 40 independent networks                    Common MAP fit and budget                  Fixed data and point prediction
+                                                                                            Same 40 networks                           40 new independent networks
+                                                 Single-response designs                    Single response
+                                                                                                                                       19    of 40 favour prior averaging;
+                                                                                                                                             21 favour nominal
+                                                 68% 82 of 120 designs
+                                                     identical recording sets
+                                                                                            −3.7%    [−18.5, +12.1]
+
+                   Known
+                 connectivity                                                                                                                               2
+                                                                                                                                       S(v, e) = log v + e /v
+                                                                                                                                       v: MSE forecast; e: response error
+
+                                             q                                                                                         One network accounts for 64%
+                                                                                            Shared three-response                      of the summed score difference
+                                                                                            +2.7%    [−3.0, +11.5]
+                                                                                                                                       Forecast-score difference
+                                                 Shared three-response designs
+                                                                                                                                       −0.46      [−1.16, +0.02]
+12 simulated units · M=3
+Uncertain gains and biases
+                                                 65%        26 of 40 designs
+                                                            identical recording sets
+
+
+   Recorded node                                                                               −20                0           15           −1.2      −0.6        0.0
+
+   Stimulated node                                                                                                                         Prior-averaged minus nominal
+                                                                                            Mean-MSE change vs nominal (%)
+   Response readout (one shown)
+                                                    same recording set                      97.5% paired network-cluster CI            95% paired network-cluster CI
+
+
+
+
+  Integrated stimulus response                   Identical recording sets and data yield identical predictions under the common MAP fit.
+                                                 All primary comparison intervals include zero.
+                 q = ∫Δr(t) dt
+                                                 Exploratory 100-unit rank-two family (8 independent networks): 4/8 setting-specific 95% intervals exclude zero,
+           Δr(t) = rstim (t) −rcontrol (t)       all favouring prior averaging. Intervals are unadjusted; one point estimate favours nominal.
+

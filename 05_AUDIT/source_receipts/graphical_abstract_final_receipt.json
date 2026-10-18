@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "layout": "restored v4",
+  "v4_png_pixel_identity": true,
+  "files": 47,
+  "zip_crc": "PASS",
+  "zip_manifest_readback": "PASS",
+  "zip_bytes": 4401738,
+  "zip_sha256": "8be421ca526fe4d09819d75b78363900cb9072fddeb1a23a77b476afb0ce464e",
+  "not_submitted": true
+}

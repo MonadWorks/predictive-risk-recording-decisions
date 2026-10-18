@@ -1,0 +1,21 @@
+{
+  "formula": {
+    "top_padding": 3.384229729729732,
+    "bottom_padding": 4.7556609459459445,
+    "body_line_pitch": null,
+    "paragraph_pitch": null,
+    "heading_baseline_aligned": true,
+    "title_alignment": "center",
+    "title_pt": 9,
+    "integral_pt": 14,
+    "definition_pt": 11.2,
+    "formula_ink_gap": 1.2,
+    "title_to_formula_ink_gap": 4.2
+  },
+  "explanation": {
+    "top_padding": 3.384229729729732,
+    "bottom_padding": 3.3842297297297286,
+    "body_line_pitch": 3.2,
+    "paragraph_pitch": 4.5
+  }
+}

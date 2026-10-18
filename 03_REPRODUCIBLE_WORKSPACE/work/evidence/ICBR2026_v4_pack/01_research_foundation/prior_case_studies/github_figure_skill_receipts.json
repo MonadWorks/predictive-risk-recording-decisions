@@ -1,0 +1,112 @@
+{
+  "anthropics/skills": {
+    "retrieved_at_utc": "2026-10-16T15:30:43.458402+00:00",
+    "api_date": "Fri, 16 Oct 2026 15:30:44 GMT",
+    "api_age": null,
+    "stargazers_count": 181536,
+    "default_branch": "main",
+    "license": null,
+    "head_sha": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "head_commit_time": "2026-10-09T18:45:49Z",
+    "repository_api_url": "https://api.github.com/repos/anthropics/skills",
+    "files": {
+      "skills/canvas-design": [
+        {
+          "name": "LICENSE.txt",
+          "type": "file",
+          "path": "skills/canvas-design/LICENSE.txt",
+          "sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+        },
+        {
+          "name": "SKILL.md",
+          "type": "file",
+          "path": "skills/canvas-design/SKILL.md",
+          "sha": "9f63fee82de84cd4230e1d0e322247b61eb4c94c"
+        },
+        {
+          "name": "canvas-fonts",
+          "type": "dir",
+          "path": "skills/canvas-design/canvas-fonts",
+          "sha": "128548b940b6599144cda2078b28fc0d3776c156"
+        }
+      ]
+    }
+  },
+  "K-Dense-AI/scientific-agent-skills": {
+    "retrieved_at_utc": "2026-10-16T15:30:45.276886+00:00",
+    "api_date": "Fri, 16 Oct 2026 15:30:46 GMT",
+    "api_age": null,
+    "stargazers_count": 51201,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "head_sha": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "head_commit_time": "2026-10-12T09:43:29Z",
+    "repository_api_url": "https://api.github.com/repos/K-Dense-AI/scientific-agent-skills",
+    "files": {
+      "skills/scientific-schematics": [
+        {
+          "name": "SKILL.md",
+          "type": "file",
+          "path": "skills/scientific-schematics/SKILL.md",
+          "sha": "5f2ff1b3f73818b05c649438e71f50961d01f2eb"
+        },
+        {
+          "name": "references",
+          "type": "dir",
+          "path": "skills/scientific-schematics/references",
+          "sha": "3c8e444c9c4887779bb19788ff9bf2f0692afd31"
+        },
+        {
+          "name": "scripts",
+          "type": "dir",
+          "path": "skills/scientific-schematics/scripts",
+          "sha": "b28af9c916897d9fa62301670ad308a2c48a939c"
+        }
+      ],
+      "skills/scientific-visualization": [
+        {
+          "name": "SKILL.md",
+          "type": "file",
+          "path": "skills/scientific-visualization/SKILL.md",
+          "sha": "44ea38c24fb5015535254bfd9b5ae9a856195408"
+        },
+        {
+          "name": "assets",
+          "type": "dir",
+          "path": "skills/scientific-visualization/assets",
+          "sha": "e4c0f141482278bf26a697ffb8ec9521f341b260"
+        },
+        {
+          "name": "references",
+          "type": "dir",
+          "path": "skills/scientific-visualization/references",
+          "sha": "f356858514975b4917de6475183a436b9cb7aa86"
+        },
+        {
+          "name": "scripts",
+          "type": "dir",
+          "path": "skills/scientific-visualization/scripts",
+          "sha": "7f379822d52cb6c1a4f1a995d33dd131973e40d2"
+        }
+      ]
+    },
+    "illustration_head_checks": {
+      "docs/images/scientific-schematics.png": {
+        "status": 200,
+        "content_type": "image/png",
+        "content_length": "1361167"
+      },
+      "docs/images/scientific-visualization.png": {
+        "status": 200,
+        "content_type": "image/png",
+        "content_length": "1369213"
+      }
+    }
+  }
+}

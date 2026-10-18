@@ -1,0 +1,7 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+FYLPTV+TimesNewRomanPS-ItalicMT      CID TrueType      Identity-H       yes yes yes     15  0
+CNAJXZ+TimesNewRomanPSMT             CID TrueType      Identity-H       yes yes yes     22  0
+DYEBMC+JuliaMono-Regular             CID TrueType      Identity-H       yes yes yes     29  0
+HJPKRU+BentonSans-Bold               CID TrueType      Identity-H       yes yes yes     36  0
+HJPKRU+BentonSans-Regular            CID TrueType      Identity-H       yes yes yes     43  0

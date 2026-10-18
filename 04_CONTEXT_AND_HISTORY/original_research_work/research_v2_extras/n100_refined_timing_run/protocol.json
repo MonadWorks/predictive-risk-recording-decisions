@@ -1,0 +1,65 @@
+{
+  "adaptations": "published rank2 covariance, tau=.5 and signed raw N(1,.9^2) gain; own known random x0, calibration/target inputs, measurement noise and MAP; not figure reproduction",
+  "bootstrap_replicates": 10000,
+  "budgets": [
+    5
+  ],
+  "conditions": [
+    {
+      "mode": "gain",
+      "name": "published_gain",
+      "prior_sd": 0.9
+    }
+  ],
+  "connectivity_norm": 0.65,
+  "design": "prior-averaged local delta-method predictive variance; same available information",
+  "design_seed": 401,
+  "dt": 0.05,
+  "ensemble_size": 32,
+  "failure_policy": "retain all; on nonfinite optimizer failure predict from nominal prior mean and flag fallback",
+  "family": "rank2_tanh",
+  "independent_unit": "connection matrix J; other repeats nested",
+  "integrator": "exact rank-two state reduction; analytic known-input filter and RK4 with stagewise response quadrature",
+  "internal_substeps": 2,
+  "max_nfev": 200,
+  "methods": [
+    "local_scalar",
+    "ensemble_scalar",
+    "local_vector",
+    "ensemble_vector",
+    "local_activity",
+    "random"
+  ],
+  "model_seed": 101,
+  "network_ids": [
+    7898
+  ],
+  "neurons": 100,
+  "noise_repeats": 1,
+  "noise_sd": 0.05,
+  "noise_seed": 307,
+  "phase": "refined_n100_timing_only",
+  "pools": [
+    "exclude_endpoints"
+  ],
+  "primary_comparisons": [],
+  "primary_interval": "none: all scale-check contrasts exploratory",
+  "primary_metric": "mean squared raw q error aggregated within J over truth/noise/target/design repeats",
+  "primary_stratum": null,
+  "random_seed": 601,
+  "random_sets": 1,
+  "sample_stride": 4,
+  "scale_floor": 1e-16,
+  "scale_samples": 32,
+  "scale_seed": 503,
+  "secondary_comparisons": "all other strata and 2x2 interaction exploratory 95% network-cluster intervals",
+  "secondary_metric": "mean error^2 divided by common independent nonlinear prior-MC q variance",
+  "source_scope": "independent synthetic simulations; no biological validation or new-method claim",
+  "steps": 120,
+  "targets": 3,
+  "threads": 2,
+  "truth_repeats": 1,
+  "truth_seed": 211,
+  "vector_target": "same three prespecified readouts; equal raw-response weights",
+  "wall_limit_seconds": 120
+}

@@ -1,0 +1,149 @@
+{
+  "figures": [
+    {
+      "figure": "Fig. 1 | Three-layer audit",
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nGOFYPY+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     15  0\nGOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     22  0\n",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0
+      }
+    },
+    {
+      "figure": "Fig. 2 | Connectivity, recordings and response",
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nGOFYPY+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     22  0\nGOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     29  0\n",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0
+      }
+    },
+    {
+      "figure": "Fig. 3 | Recording decisions and response error",
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nGOFYPY+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     17  0\nGOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     24  0\n",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0
+      }
+    },
+    {
+      "figure": "Fig. 4 | Risk forecasts on fixed predictions",
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nGOFYPY+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     15  0\nGOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     22  0\n",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0
+      }
+    },
+    {
+      "figure": "Fig. 5 | Exploratory model-family extension",
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nGOFYPY+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     15  0\nGOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     22  0\n",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0
+      }
+    },
+    {
+      "figure": "Fig. S1 | Paired distributions",
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nGOFYPY+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     17  0\nGOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     24  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     31  0\n",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0
+      }
+    },
+    {
+      "figure": "Fig. S2 | Matched uncertainty",
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nGOFYPY+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     39  0\nGOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     46  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     53  0\n",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0
+      }
+    },
+    {
+      "figure": "Fig. S3 | Broad uncertainty",
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nGOFYPY+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     39  0\nGOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     46  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     53  0\n",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0
+      }
+    },
+    {
+      "figure": "Fig. S4 | Bias-shift uncertainty",
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nGOFYPY+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     39  0\nGOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     46  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     53  0\n",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0
+      }
+    },
+    {
+      "figure": "Fig. S5 | Linear positive control",
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nGOFYPY+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     16  0\nGOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     23  0\n",
+      "legacy_exact_color_pixels": {
+        "old_blue": 0,
+        "old_orange": 0
+      }
+    }
+  ],
+  "copied_source_data": [
+    {
+      "name": "forecast_summary.json",
+      "same_as_frozen": true
+    },
+    {
+      "name": "holdout_design_agreement.csv",
+      "same_as_frozen": true
+    },
+    {
+      "name": "fig3_networks.csv",
+      "same_as_frozen": true
+    },
+    {
+      "name": "holdout_paired_effects.csv",
+      "same_as_frozen": true
+    },
+    {
+      "name": "fig2_network_pairs.csv",
+      "same_as_frozen": true
+    }
+  ],
+  "graphical_abstract_unchanged": [
+    {
+      "path": "04_submission/graphical_abstract_v4.png",
+      "unchanged": true
+    },
+    {
+      "path": "04_submission/graphical_abstract_v5.png",
+      "unchanged": true
+    },
+    {
+      "path": "04_submission/graphical_abstract_v5.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "04_submission/graphical_abstract_v4.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "03_figures/graphical_abstract_v5.svg",
+      "unchanged": true
+    },
+    {
+      "path": "03_figures/graphical_abstract_v4.svg",
+      "unchanged": true
+    },
+    {
+      "path": "03_figures/graphical_abstract_v4.png",
+      "unchanged": true
+    },
+    {
+      "path": "03_figures/graphical_abstract_v5.png",
+      "unchanged": true
+    },
+    {
+      "path": "03_figures/graphical_abstract_v5.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "03_figures/graphical_abstract_v4.pdf",
+      "unchanged": true
+    }
+  ],
+  "limits": "File/font/geometry and inherited numeric checks do not certify aesthetic superiority or scientific novelty."
+}

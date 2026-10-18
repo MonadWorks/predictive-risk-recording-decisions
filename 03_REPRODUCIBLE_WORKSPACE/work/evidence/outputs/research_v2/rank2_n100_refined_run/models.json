@@ -1,0 +1,186 @@
+[
+ {
+  "neurons": 100,
+  "parameters": 100,
+  "stim": 39,
+  "readouts": [
+   55,
+   22,
+   43
+  ],
+  "tau": 0.5,
+  "dt": 0.05,
+  "model_kind": "rank2_tanh",
+  "connectivity_norm": 4.223155567601223,
+  "connectivity_rank": 2,
+  "network_id": 8000,
+  "condition": "published_gain",
+  "prior_q_variance": [
+   2.295147932750042e-05,
+   9.588232290882688e-05,
+   6.275831453165913e-05
+  ],
+  "bank_seconds": 33.61310120799999
+ },
+ {
+  "neurons": 100,
+  "parameters": 100,
+  "stim": 22,
+  "readouts": [
+   41,
+   3,
+   76
+  ],
+  "tau": 0.5,
+  "dt": 0.05,
+  "model_kind": "rank2_tanh",
+  "connectivity_norm": 4.4988775454511885,
+  "connectivity_rank": 2,
+  "network_id": 8001,
+  "condition": "published_gain",
+  "prior_q_variance": [
+   2.0295502863511048e-06,
+   1.3055990432466763e-05,
+   3.98742562316389e-05
+  ],
+  "bank_seconds": 6.065152209000189
+ },
+ {
+  "neurons": 100,
+  "parameters": 100,
+  "stim": 83,
+  "readouts": [
+   92,
+   45,
+   58
+  ],
+  "tau": 0.5,
+  "dt": 0.05,
+  "model_kind": "rank2_tanh",
+  "connectivity_norm": 3.4668843972458037,
+  "connectivity_rank": 2,
+  "network_id": 8002,
+  "condition": "published_gain",
+  "prior_q_variance": [
+   0.0008367137322855912,
+   3.342682552324652e-05,
+   0.0002625013328729481
+  ],
+  "bank_seconds": 5.473470541000097
+ },
+ {
+  "neurons": 100,
+  "parameters": 100,
+  "stim": 27,
+  "readouts": [
+   28,
+   69,
+   9
+  ],
+  "tau": 0.5,
+  "dt": 0.05,
+  "model_kind": "rank2_tanh",
+  "connectivity_norm": 3.7816093738851206,
+  "connectivity_rank": 2,
+  "network_id": 8003,
+  "condition": "published_gain",
+  "prior_q_variance": [
+   0.00025059389672280806,
+   0.00092777219147305,
+   0.0007393644048292982
+  ],
+  "bank_seconds": 5.3065838749998875
+ },
+ {
+  "neurons": 100,
+  "parameters": 100,
+  "stim": 62,
+  "readouts": [
+   4,
+   55,
+   43
+  ],
+  "tau": 0.5,
+  "dt": 0.05,
+  "model_kind": "rank2_tanh",
+  "connectivity_norm": 3.5924830048768066,
+  "connectivity_rank": 2,
+  "network_id": 8004,
+  "condition": "published_gain",
+  "prior_q_variance": [
+   0.00018386740328558932,
+   0.00010182076559323164,
+   0.0003603312194229944
+  ],
+  "bank_seconds": 5.3496363750000455
+ },
+ {
+  "neurons": 100,
+  "parameters": 100,
+  "stim": 90,
+  "readouts": [
+   14,
+   57,
+   26
+  ],
+  "tau": 0.5,
+  "dt": 0.05,
+  "model_kind": "rank2_tanh",
+  "connectivity_norm": 4.098268421243004,
+  "connectivity_rank": 2,
+  "network_id": 8005,
+  "condition": "published_gain",
+  "prior_q_variance": [
+   4.9952451762787985e-05,
+   9.372586087179623e-05,
+   0.00026803289843908043
+  ],
+  "bank_seconds": 5.400184624999838
+ },
+ {
+  "neurons": 100,
+  "parameters": 100,
+  "stim": 3,
+  "readouts": [
+   41,
+   99,
+   44
+  ],
+  "tau": 0.5,
+  "dt": 0.05,
+  "model_kind": "rank2_tanh",
+  "connectivity_norm": 3.679668165677029,
+  "connectivity_rank": 2,
+  "network_id": 8006,
+  "condition": "published_gain",
+  "prior_q_variance": [
+   0.000124805371770064,
+   0.0005576232709009359,
+   0.003466874277748372
+  ],
+  "bank_seconds": 5.3053270839996
+ },
+ {
+  "neurons": 100,
+  "parameters": 100,
+  "stim": 48,
+  "readouts": [
+   57,
+   80,
+   50
+  ],
+  "tau": 0.5,
+  "dt": 0.05,
+  "model_kind": "rank2_tanh",
+  "connectivity_norm": 3.6525310483890174,
+  "connectivity_rank": 2,
+  "network_id": 8007,
+  "condition": "published_gain",
+  "prior_q_variance": [
+   2.0869692152420946e-06,
+   1.994550901425485e-05,
+   4.060492657535219e-06
+  ],
+  "bank_seconds": 5.322219165999741
+ }
+]

@@ -1,0 +1,11 @@
+{
+  "python": "3.13.2",
+  "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+  "numpy": "2.2.5",
+  "scipy": "1.15.2",
+  "matplotlib": "3.10.1",
+  "environment": "dedicated venv inheriting preinstalled Python 3.13 system packages; not a clean offline lock",
+  "python_base": "/opt/homebrew/bin/python3.13",
+  "numpy_path": "/opt/homebrew/lib/python3.13/site-packages/numpy/__init__.py",
+  "scipy_path": "/opt/homebrew/lib/python3.13/site-packages/scipy/__init__.py"
+}

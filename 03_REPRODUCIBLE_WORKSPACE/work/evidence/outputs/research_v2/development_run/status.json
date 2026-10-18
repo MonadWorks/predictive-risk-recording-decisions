@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "networks_completed": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007
+  ],
+  "networks_planned": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007
+  ],
+  "evaluated_rows": 19200,
+  "actual_optimizer_calls": 5696,
+  "cached_dataset_reuses": 3264,
+  "elapsed_seconds": 25.442019583999922,
+  "warmup_seconds": 0.1397137080000448,
+  "status": "complete"
+}

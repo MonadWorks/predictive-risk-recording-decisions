@@ -1,0 +1,12 @@
+{
+  "commit": "f5f397b88f8dd5c2a5c13558ce6039194a284586",
+  "source_zip_bytes": 141394,
+  "source_zip_sha256": "1579bbb5565e9d5434925ab8c549ae9bbc03683a7babb8f91c7ddd2e6e82d961",
+  "pinned_file_count": 28,
+  "license_files_found": [],
+  "zenodo_archive_not_downloaded": true,
+  "zenodo_stated_file": "Code_NN.zip",
+  "zenodo_stated_size": "238.1 MB",
+  "model_code_executed": false,
+  "dependencies_installed": false
+}

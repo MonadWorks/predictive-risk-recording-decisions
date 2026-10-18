@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "networks_completed": [
+    7899
+  ],
+  "networks_planned": [
+    7899
+  ],
+  "evaluated_rows": 18,
+  "actual_optimizer_calls": 8,
+  "cached_dataset_reuses": 2,
+  "elapsed_seconds": 4.226328792000004,
+  "warmup_seconds": 0.098925582999982,
+  "status": "complete"
+}

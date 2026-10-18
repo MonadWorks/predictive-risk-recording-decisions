@@ -1,0 +1,15 @@
+numerical softplus matched 1880 0.15
+numerical softplus broad 1880 0.16
+numerical rank2_tanh published_gain 1880 0.26
+numerical softplus matched 1881 0.27
+numerical softplus broad 1881 0.28
+numerical rank2_tanh published_gain 1881 0.37
+map softplus local_scalar 0.5
+map softplus ensemble_scalar 0.51
+map softplus local_vector 0.53
+map softplus ensemble_vector 0.54
+map rank2_tanh local_scalar 18.38
+map rank2_tanh ensemble_scalar 19.37
+map rank2_tanh local_vector 20.35
+map rank2_tanh ensemble_vector 20.8
+{"complete": true, "elapsed_seconds": 20.798950999999988}

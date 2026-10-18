@@ -1,0 +1,56 @@
+{
+  "colors": {
+    "single_response": {
+      "hex": "#B73E70",
+      "contrast_white": 5.334720545225072,
+      "Lstar": 45.19997587434498
+    },
+    "shared_response": {
+      "hex": "#D99AB3",
+      "contrast_white": 2.276788565151402,
+      "Lstar": 70.2598979934176
+    },
+    "forecast": {
+      "hex": "#87385F",
+      "contrast_white": 7.605682694240974,
+      "Lstar": 35.60954244533848
+    },
+    "neutral": {
+      "hex": "#C9C5C8",
+      "contrast_white": 1.7067580721338809,
+      "Lstar": 79.90901790518014
+    },
+    "negative_weight": {
+      "hex": "#413A43",
+      "contrast_white": 10.988807265987841,
+      "Lstar": 25.428044976817347
+    }
+  },
+  "pairs": {
+    "single_response vs shared_response": {
+      "normal_deltaE76": 36.002642822218874,
+      "simulated_deltaE76": {
+        "protanopia": 29.015084171909056,
+        "deuteranopia": 23.650605091948886,
+        "tritanopia": 40.41575563630107
+      }
+    },
+    "shared_response vs neutral": {
+      "normal_deltaE76": 27.176086757424272,
+      "simulated_deltaE76": {
+        "protanopia": 13.727984387360019,
+        "deuteranopia": 8.219902357942008,
+        "tritanopia": 30.023080859680373
+      }
+    },
+    "negative_weight vs single_response": {
+      "normal_deltaE76": 51.95474283909941,
+      "simulated_deltaE76": {
+        "protanopia": 16.15212113192147,
+        "deuteranopia": 24.31090840984867,
+        "tritanopia": 62.01311214832177
+      }
+    }
+  },
+  "interpretation": "Descriptive metrics, not universal pass thresholds. Light marks need shape/outline/labels; all text remains dark."
+}

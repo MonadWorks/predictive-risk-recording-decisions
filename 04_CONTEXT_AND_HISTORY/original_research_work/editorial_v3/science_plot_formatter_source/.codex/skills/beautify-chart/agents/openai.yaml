@@ -1,0 +1,4 @@
+interface:
+  display_name: "Beautify Chart"
+  short_description: "Improve matplotlib figures for papers"
+  default_prompt: "Use $beautify-chart to improve a matplotlib plot for NeurIPS 2026 at one column width."

@@ -1,0 +1,107 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{ref01,ref02}
+\citation{ref26}
+\citation{ref27}
+\citation{ref03}
+\citation{ref28}
+\citation{ref04}
+\citation{ref29}
+\citation{ref05}
+\citation{ref06}
+\citation{ref30}
+\citation{ref31}
+\citation{ref07}
+\citation{ref25}
+\citation{ref08}
+\citation{ref09,ref32}
+\citation{ref18,ref24}
+\citation{ref10}
+\citation{ref21}
+\citation{ref11,ref19,ref20,ref22}
+\newlabel{fig:1}{{1}{4}{\textbf {The three-step audit.} Two criteria, nominal and prior-averaged local risk, each select a recording set from the same design pool. Step 1 asks whether the two sets are identical; if they are, the common maximum a posteriori fit sees the same data and the response error cannot differ. Step 2 compares the response error of the fitted prediction against hidden truth (mean-MSE change with the 97.5\% interval for the single-response and shared objectives; both intervals include zero). Step 3 fixes the data and the point prediction and compares the two risk forecasts v of the error e with the score log v + e\textsuperscript {2}/v (95\% interval includes zero). The counts, effects and intervals are those of Figs. 3--4 and Table 1; the dot and bar icons for the recording sets and for v and e\textsuperscript {2} are illustrative and carry no data. Negative differences favour the prior-averaged criterion}{figure.1}{}}
+\newlabel{fig:2}{{2}{5}{\textbf {Connectivity, limited recordings and a held-out response in one simulated network.} \textbf {a,} Known signed connectivity J for the first frozen network, J5000 (blue positive, orange negative weights; symmetric colour limits ±0.42 around exact zero); columns are presynaptic and rows postsynaptic nodes. Filled markers beside the matrix identify the recorded nodes N6, N8 and N11, the open vermilion marker the unrecorded readout N4, and the open plum marker the stimulated node N0. \textbf {b,} Actual noisy calibration observations at the three recorded nodes in two trials, each reset to the same known initial state (Gaussian observation noise SD 0.05, stride 4). Trial 2 is shifted by 6 model-time units for display; the dashed line marks the trial boundary, not continuous evolution, and lines connect observations only within a trial. Vertical scales differ between nodes. \textbf {c,} Stimulated minus matched zero-input control rate at N4 (displayed in units of 10\textsuperscript {−4}); the upper strip shows the stimulus input at N0 during model time 1 to 2. The integrated response q = 2.43518 × 10\textsuperscript {−4} (a.u. × model time) is Δt times the sum of the 120 frozen-model differences (Δt = 0.05), not a new trapezoidal integral. The case is the fixed first-index instance (broad uncertainty, truth and noise draw 0, target 0, endpoints excluded, M = 3, nominal single-response selection), chosen before its effect was inspected. Independent n = 1 network; no interval is shown and no between-method effect or biological validity is claimed. All quantities are in dimensionless model units}{figure.2}{}}
+\newlabel{tab:1}{{1}{5}{Frozen primary response-error comparisons}{table.1}{}}
+\citation{ref05}
+\newlabel{fig:3}{{3}{6}{\textbf {Prior averaging often selects the same recordings; primary error comparisons remain uncertain.} \textbf {a,} Each dot is one recording design from the frozen first evaluation (120 single-response designs, three per network; 40 shared designs). Grey dots are designs in which the nominal and ensemble criteria chose identical recording sets; coloured dots are designs in which they differed (82/120 and 26/40 identical). \textbf {b,} Descriptive within-network log\textsubscript {2} ratio of ensemble to nominal MSE for the 40 independent networks per objective; the hollow marker at zero stands for networks with exactly equal MSE (13 single-response, 26 three-response), and filled points are the remaining networks. Three truths, three noise repetitions and three readouts are averaged within each network. These ratios are neither the primary estimand nor the ratio of aggregate means. \textbf {c,} Relative change in aggregate mean MSE, ensemble versus nominal, with the prespecified 97.5\% paired network-cluster bootstrap intervals (same estimates as Table 1). Negative values favour the ensemble. All networks, including influential instances, are retained; Supplementary Fig. 1 shows the complete raw difference distributions. No method-equivalence margin was specified}{figure.3}{}}
+\newlabel{fig:4}{{4}{7}{\textbf {Risk forecasts are evaluated on identical predictions.} The independent follow-up uses the nominal scalar recording policy, broad matched uncertainty, excluded endpoints and M=3 in 40 new networks. \textbf {a,} Nominal (open) and ensemble (filled) mean forecast risks are paired with the same actual mean response MSE for each network; horizontal segments link the two forecasts. Axes have identical logarithmic ranges and a dashed identity line; points below the line have a forecast that exceeds the actual error. This network-aggregate comparison is descriptive, not a stand-alone calibration test. \textbf {b,} All 40 network-level score differences, sorted; 19 favour the ensemble forecast (purple) and 21 the nominal forecast (grey). One bar (−11.7) is clipped at the axis limit and labelled. \textbf {c,} The mean score difference with the prespecified 95\% paired network-cluster interval. Panels b and c use different horizontal and vertical scales because individual differences and uncertainty about their mean are distinct statistical objects. Scores S(v,e)=log(v)+e\textsuperscript {2}/v are computed for individual target/truth/noise cases and then averaged within network; they are not scores of the aggregate coordinates in a. Negative differences favour the ensemble. The score evaluates an MSE functional, not a complete predictive distribution}{figure.4}{}}
+\citation{ref36,ref37}
+\newlabel{fig:5}{{5}{8}{\textbf {Selection effects in the exploratory model-family extension.} Relative mean-MSE changes for single-response (a) and three-response (b) objectives in eight independent 100-unit networks. Two physiological truths, two noise repetitions and three readouts are nested within each network. Markers show the ratio-of-aggregate-means effect and lines the pointwise 95\% paired network-cluster interval; filled markers denote intervals that exclude zero (four of eight settings, all favouring the ensemble). Both panels share the same effect scale; all eight prescribed settings are retained, with numerical values printed beside each interval. Negative values favour ensemble design. These comparisons are exploratory and not multiplicity-adjusted. The model family and several dynamical assumptions change together with N}{figure.5}{}}
+\citation{ref05}
+\citation{ref10}
+\citation{ref08}
+\citation{ref12,ref23}
+\citation{ref13}
+\citation{ref29}
+\citation{ref02,ref27}
+\citation{ref08}
+\citation{ref01,ref02}
+\newlabel{tab:2}{{2}{10}{Evidence ledger: what each result does and does not support}{table.2}{}}
+\citation{ref38,ref39}
+\citation{ref36,ref37}
+\citation{ref14,ref33}
+\citation{ref34}
+\citation{ref35}
+\citation{ref05}
+\citation{ref15,ref16,ref17}
+\bibdata{build/references}
+\bibcite{ref21}{{1}{2016}{{Alexanderian et~al.}}{{Alexanderian, Petra, Stadler, and Ghattas}}}
+\bibcite{ref37}{{2}{1995}{{Altman \& Bland}}{{Altman and Bland}}}
+\bibcite{ref36}{{3}{2019}{{Amrhein et~al.}}{{Amrhein, Greenland, and McShane}}}
+\bibcite{ref10}{{4}{2018}{{Attia et~al.}}{{Attia, Alexanderian, and Saibaba}}}
+\bibcite{ref27}{{5}{2019}{{Aydin et~al.}}{{Aydin, Zhang, Nuethong, Pagan-Diaz, Bashir, Gazzola, and Saif}}}
+\bibcite{ref05}{{6}{2025}{{Beiran \& Litwin-Kumar}}{{Beiran and Litwin-Kumar}}}
+\bibcite{ref18}{{7}{1995}{{Chaloner \& Verdinelli}}{{Chaloner and Verdinelli}}}
+\bibcite{ref35}{{8}{1982}{{Dawid}}{{}}}
+\bibcite{ref28}{{9}{2001}{{DeMarse et~al.}}{{DeMarse, Wagenaar, Blau, and Potter}}}
+\bibcite{ref38}{{10}{1979}{{Efron}}{{}}}
+\bibcite{ref39}{{11}{2007}{{Field \& Welsh}}{{Field and Welsh}}}
+\bibcite{ref33}{{12}{2014}{{Gneiting \& Katzfuss}}{{Gneiting and Katzfuss}}}
+\bibcite{ref14}{{13}{2007}{{Gneiting \& Raftery}}{{Gneiting and Raftery}}}
+\bibcite{ref34}{{14}{2007}{{Gneiting et~al.}}{{Gneiting, Balabdaoui, and Raftery}}}
+\bibcite{ref29}{{15}{2007}{{Gutenkunst et~al.}}{{Gutenkunst, Waterfall, Casey, Brown, Myers, and Sethna}}}
+\bibcite{ref07}{{16}{2018}{{Haber et~al.}}{{Haber, Molnar, and Motter}}}
+\bibcite{ref22}{{17}{2013}{{Huan \& Marzouk}}{{Huan and Marzouk}}}
+\bibcite{ref31}{{18}{2017}{{Jun et~al.}}{{Jun, Steinmetz, Siegle, Denman, Bauza, Barbarits, Lee, Anastassiou, Andrei, Ayd{\i }n, Barbic, Blanche, Bonin, Couto, Dutta, Gratiy, Gutnisky, H{\"a}usser, Karsh, Ledochowitsch, Lopez, Mitelut, Musa, Okun, Pachitariu, Putzeys, Rich, Rossant, Sun, Svoboda, Carandini, Harris, Koch, O'Keefe, and Harris}}}
+\newlabel{tab:3}{{3}{14}{Study accounting}{table.3}{}}
+\bibcite{ref01}{{19}{2023}{{Kim et~al.}}{{Kim, Yang, Zhang, Li, Vázquez-Guardado, Park, Wang, Efimov, Dou, Wang, Park, Luan, Ni, Kim, Baek, Park, Xie, Zhao, Gazzola, Rogers, and Bashir}}}
+\bibcite{ref25}{{20}{2008}{{Krause et~al.}}{{Krause, Singh, and Guestrin}}}
+\bibcite{ref12}{{21}{2012}{{Kreutz et~al.}}{{Kreutz, Raue, and Timmer}}}
+\bibcite{ref30}{{22}{2004}{{Lal et~al.}}{{Lal, Schr{\"o}der, Hinterberger, Weston, Bogdan, Birbaumer, and Sch{\"o}lkopf}}}
+\bibcite{ref06}{{23}{2024}{{Lappalainen et~al.}}{{Lappalainen, Tschopp, Prakhya, McGill, Nern, Shinomiya, Takemura, Gruntman, Macke, and Turaga}}}
+\bibcite{ref32}{{24}{2009}{{Lewi et~al.}}{{Lewi, Butera, and Paninski}}}
+\bibcite{ref24}{{25}{1956}{{Lindley}}{{}}}
+\bibcite{ref17}{{26}{2021}{{Macleod et~al.}}{{Macleod, Collings, Graf, Kiermer, Mellor, Swaminathan, Sweet, and Vinson}}}
+\bibcite{ref02}{{27}{2025}{{Min et~al.}}{{Min, Wang, Wang, Li, Kim, Aydin, Kang, You, Lim, Wolhaupter, Xu, Zhu, Gu, Li, Kim, Rao, Kong, Saif, Huang, Rogers, and Bashir}}}
+\bibcite{ref09}{{28}{2026}{{Ogino et~al.}}{{Ogino, Sekizawa, Kitazono, and Oizumi}}}
+\bibcite{ref04}{{29}{2004}{{Prinz et~al.}}{{Prinz, Bucher, and Marder}}}
+\bibcite{ref20}{{30}{2024}{{Rainforth et~al.}}{{Rainforth, Foster, Ivanova, and Bickford~Smith}}}
+\bibcite{ref23}{{31}{2009}{{Raue et~al.}}{{Raue, Kreutz, Maiwald, Bachmann, Schilling, Klingmüller, and Timmer}}}
+\bibcite{ref26}{{32}{2017}{{Ricotti et~al.}}{{Ricotti, Trimmer, Feinberg, Raman, Parker, Bashir, Sitti, Martel, Dario, and Menciassi}}}
+\bibcite{ref19}{{33}{2015}{{Ryan et~al.}}{{Ryan, Drovandi, McGree, and Pettitt}}}
+\bibcite{ref08}{{34}{2026}{{Sourmpis et~al.}}{{Sourmpis, Petersen, Gerstner, and Bellec}}}
+\bibcite{ref16}{{35}{2021}{{Walsh et~al.}}{{Walsh, Fishman, Garcia-Gasulla, Titma, Pollastri, {ELIXIR Machine Learning Focus Group}, Capriotti, Casadio, Capella-Gutierrez, Cirillo, Del~Conte, Dimopoulos, Del~Angel, Dopazo, Fariselli, Fernández, Huber, Kreshuk, Lenaerts, Martelli, Navarro, Ó~Broin, Piñero, Piovesan, Reczko, Ronzano, Satagopam, Savojardo, Spiwok, Tangaro, Tartari, Salgado, Valencia, Zambelli, Harrow, Psomopoulos, and Tosatto}}}
+\bibcite{ref15}{{36}{2011}{{Waltemath et~al.}}{{Waltemath, Adams, Beard, Bergmann, Bhalla, Britten, Chelliah, Cooling, Cooper, Crampin, Garny, Hoops, Hucka, Hunter, Klipp, Laibe, Miller, Moraru, Nickerson, Nielsen, Nikolski, Sahle, Sauro, Schmidt, Snoep, Tolle, Wolkenhauer, and Le~Novère}}}
+\bibcite{ref03}{{37}{2025}{{Wang et~al.}}{{Wang, Lv, Tang, Wang, Liu, and Liu}}}
+\bibcite{ref13}{{38}{2016}{{White et~al.}}{{White, Tolman, Thames, Withers, Mason, and Transtrum}}}
+\bibcite{ref11}{{39}{2026}{{Zhong et~al.}}{{Zhong, Shen, Catanach, and Huan}}}
+\bibstyle{icml2025}
+\newlabel{sfig:1}{{S1}{17}{\textbf {Complete paired primary differences.} Each panel shows all 40 independent network-level ensemble-minus-nominal raw-MSE differences for the single-response (a) and three-response (b) comparison, including exact ties and the influential networks; the step curve is the empirical distribution function and every sorted value is drawn as a marker. The horizontal axis is in units of 10\textsuperscript {−5} q\textsuperscript {2}; negative values favour the ensemble. Extreme values (−16.2 and +6.3 in a; −1.2 and +6.3 in b) are labelled, not truncated. Exactly 13 (a) and 26 (b) of the 40 differences are zero. The distributions are descriptive; no interval is drawn, and the primary intervals remain those in Table 1 and Fig. 3. No equivalence margin was specified, and nothing here shows that the two selection rules perform alike}{figure.1}{}}
+\newlabel{sfig:2}{{S2}{18}{\textbf {All recording conditions under matched uncertainty.} Panels a--d show all-site/M = 3, endpoint-excluded/M = 3, all-site/M = 6 and endpoint-excluded/M = 6. For each of six policies (nominal and ensemble single-response, nominal and ensemble three-response, activity, random) every one of the 40 independent networks is shown as one point, with truth, noise and readout repeats averaged within network. Thick black bars are the aggregate means and thin black lines the exploratory pointwise 95\% network-cluster intervals from the frozen summary table. Open markers denote nominal and filled markers ensemble selection; horizontal jitter only separates overlapping points. All panels share the logarithmic response-MSE axis (10\textsuperscript {−15} to 10\textsuperscript {−2}). No point or tail is removed. Intervals are not multiplicity-adjusted and no pairwise or equivalence claim is made}{figure.2}{}}
+\newlabel{sfig:3}{{S3}{19}{\textbf {All recording conditions under broad uncertainty.} As Supplementary Fig. 2 for the broad prior: panels a--d show all-site/M = 3, endpoint-excluded/M = 3, all-site/M = 6 and endpoint-excluded/M = 6; 40 independent networks per policy and panel; black bars and lines are aggregate means and exploratory pointwise 95\% network-cluster intervals; shared logarithmic axes; open nominal, filled ensemble; jitter is horizontal only. The primary comparison in Fig. 3 corresponds to panel b. No method-specific tail is removed, and the panels do not support any claim of equivalence or superiority}{figure.3}{}}
+\newlabel{sfig:4}{{S4}{20}{\textbf {All recording conditions under hidden bias shift.} As Supplementary Fig. 2 for the hidden-bias-shift condition: panels a--d show all-site/M = 3, endpoint-excluded/M = 3, all-site/M = 6 and endpoint-excluded/M = 6; 40 independent networks per policy and panel; black bars and lines are aggregate means and exploratory pointwise 95\% network-cluster intervals; shared logarithmic axes; open nominal, filled ensemble; jitter is horizontal only. No data are filtered, and the intervals are descriptive and not multiplicity-adjusted}{figure.4}{}}
+\newlabel{sfig:5}{{S5}{21}{\textbf {Nondegenerate linear-Gaussian positive control.} All 144 target/design evaluations from 12 independent linear systems compare the analytic MAP MSE (horizontal) with the Monte Carlo MSE from 8,192 draws per system (vertical); the dashed identity line is the analytic reference. The independent unit is the system (n = 12); the 144 points are evaluations within systems, not independent neural networks, and no confidence intervals are displayed. Agreement validates this computational special case only; it does not validate biological assumptions}{figure.5}{}}
+\gdef \@abspage@last{21}

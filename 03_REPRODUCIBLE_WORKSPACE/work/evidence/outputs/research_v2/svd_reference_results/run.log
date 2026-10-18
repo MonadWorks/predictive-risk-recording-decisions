@@ -1,0 +1,171 @@
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: divide by zero encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: overflow encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: invalid value encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+linear reference 1/12: 0.23s
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: divide by zero encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: overflow encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: invalid value encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+linear reference 2/12: 0.44s
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: divide by zero encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: overflow encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: invalid value encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+linear reference 3/12: 0.64s
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: divide by zero encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: overflow encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: invalid value encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+linear reference 4/12: 0.85s
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: divide by zero encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: overflow encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: invalid value encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+linear reference 5/12: 1.05s
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: divide by zero encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: overflow encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: invalid value encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+linear reference 6/12: 1.26s
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: divide by zero encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: overflow encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: invalid value encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+linear reference 7/12: 1.46s
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: divide by zero encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: overflow encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: invalid value encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+linear reference 8/12: 1.67s
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: divide by zero encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: overflow encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: invalid value encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+linear reference 9/12: 1.87s
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: divide by zero encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: overflow encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: invalid value encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+linear reference 10/12: 2.08s
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: divide by zero encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: overflow encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: invalid value encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+linear reference 11/12: 2.29s
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: divide by zero encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: overflow encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+/Users/dujiayi/Documents/Codex/2026-10-16/ic-1-range-2-3-agent/work/research_v2/svd_reference.py:104: RuntimeWarning: invalid value encountered in matmul
+  warnings.warn(message, w.category, stacklevel=1)
+linear reference 12/12: 2.50s
+{
+  "wall_seconds": 2.725663790999988,
+  "warnings": 36,
+  "max_mc_z": 3.309439781841726,
+  "aggregate": [
+    {
+      "method": "greedy",
+      "budget": 1,
+      "analytic_mean": 0.5887490430556461,
+      "mc_mean": 0.5855546728105564,
+      "network_sd": 0.007197730575444737,
+      "network_sem": 0.0020778058426437094
+    },
+    {
+      "method": "greedy",
+      "budget": 2,
+      "analytic_mean": 0.40041220291308033,
+      "mc_mean": 0.39691913939728,
+      "network_sd": 0.007873218509750311,
+      "network_sem": 0.002272802412996543
+    },
+    {
+      "method": "greedy",
+      "budget": 4,
+      "analytic_mean": 0.2209967974703634,
+      "mc_mean": 0.21999579377038722,
+      "network_sd": 0.009021790151864708,
+      "network_sem": 0.002604366486375702
+    },
+    {
+      "method": "greedy",
+      "budget": 8,
+      "analytic_mean": 0.0855305078916293,
+      "mc_mean": 0.08551475102156236,
+      "network_sd": 0.004203422518643588,
+      "network_sem": 0.0012134235613283052
+    },
+    {
+      "method": "greedy",
+      "budget": 16,
+      "analytic_mean": 0.017854465220268737,
+      "mc_mean": 0.01780447159438887,
+      "network_sd": 0.0010980278737698,
+      "network_sem": 0.0003169733442493532
+    },
+    {
+      "method": "random",
+      "budget": 1,
+      "analytic_mean": 0.7765748748547551,
+      "mc_mean": 0.7720484271389106,
+      "network_sd": 0.02761461215281943,
+      "network_sem": 0.007971651879998706
+    },
+    {
+      "method": "random",
+      "budget": 2,
+      "analytic_mean": 0.6125115766927558,
+      "mc_mean": 0.6090989649627583,
+      "network_sd": 0.030730842763211714,
+      "network_sem": 0.008871230170882174
+    },
+    {
+      "method": "random",
+      "budget": 4,
+      "analytic_mean": 0.385389780782182,
+      "mc_mean": 0.38346408416552485,
+      "network_sd": 0.01371582312836683,
+      "network_sem": 0.0039594170876599425
+    },
+    {
+      "method": "random",
+      "budget": 8,
+      "analytic_mean": 0.15996074873487867,
+      "mc_mean": 0.1593619427509406,
+      "network_sd": 0.006703138792325056,
+      "network_sem": 0.0019350294930821472
+    },
+    {
+      "method": "random",
+      "budget": 16,
+      "analytic_mean": 0.034091406533081084,
+      "mc_mean": 0.03410363772481034,
+      "network_sd": 0.0013731399044821443,
+      "network_sem": 0.00039639134674389153
+    }
+  ]
+}

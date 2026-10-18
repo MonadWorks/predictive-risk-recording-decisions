@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "networks": 40,
+  "raw_rows": 129600,
+  "primary_effects": [
+    {
+      "condition": "broad",
+      "pool": "exclude_endpoints",
+      "budget": 3,
+      "contrast": "ensemble_scalar - local_scalar",
+      "metric": "mse",
+      "effect": -2.586421129091058e-06,
+      "ci_low": -1.4713046771189118e-05,
+      "ci_high": 4.826304931626923e-06,
+      "confidence_level": 0.975,
+      "primary": true,
+      "networks": 40,
+      "relative_mse_difference": -0.03743845472089957,
+      "relative_mse_ci_low": -0.1848313828224431,
+      "relative_mse_ci_high": 0.1211614122926881,
+      "interval": "paired network-cluster percentile bootstrap",
+      "interpretation": "negative favors first method for error metrics",
+      "confirmatory_eligible": true
+    },
+    {
+      "condition": "broad",
+      "pool": "exclude_endpoints",
+      "budget": 3,
+      "contrast": "ensemble_vector - local_vector",
+      "metric": "mse",
+      "effect": 1.923627390429782e-06,
+      "ci_low": -1.1479707624311079e-06,
+      "ci_high": 6.8260498523981685e-06,
+      "confidence_level": 0.975,
+      "primary": true,
+      "networks": 40,
+      "relative_mse_difference": 0.026935858323275053,
+      "relative_mse_ci_low": -0.029528712166674537,
+      "relative_mse_ci_high": 0.11507999192545666,
+      "interval": "paired network-cluster percentile bootstrap",
+      "interpretation": "negative favors first method for error metrics",
+      "confirmatory_eligible": true
+    }
+  ],
+  "out": "work/research_v2/holdout_analysis"
+}

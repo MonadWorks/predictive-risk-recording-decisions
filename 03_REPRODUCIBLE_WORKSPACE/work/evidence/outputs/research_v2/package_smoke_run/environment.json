@@ -1,0 +1,9 @@
+{
+  "python": "3.13.2",
+  "numpy": "2.2.5",
+  "scipy": "1.15.2",
+  "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+  "threadpool_info": [],
+  "threads_limit": 2,
+  "numba": "0.61.2"
+}

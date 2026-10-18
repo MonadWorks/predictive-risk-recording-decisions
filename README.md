@@ -1,4 +1,4 @@
-# Neural recording research
+# Predictive Risk and Recording Decisions
 
 Private research collaboration workspace for **Predictive Risk and Recording Decisions in Partially Observed Neural Networks**.
 

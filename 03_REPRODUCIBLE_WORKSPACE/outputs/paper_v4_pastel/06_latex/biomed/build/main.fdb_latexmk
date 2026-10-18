@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex build/main"] 1792275165 "build/main.aux" "build/main.bbl" "build/main" 1792312248 0
-  "./build/references.bib" 1792312247 16991 1d9ff0945dca78a9669558237794210a ""
-  "build/main.aux" 1792312248 27456 08bfcf46afca1648c79af0418999ad82 "pdflatex"
+["bibtex build/main"] 1792275165 "build/main.aux" "build/main.bbl" "build/main" 1792330022 0
+  "./build/references.bib" 1792330018 16991 1d9ff0945dca78a9669558237794210a ""
+  "build/main.aux" 1792330022 27456 08bfcf46afca1648c79af0418999ad82 "pdflatex"
   "sn-template/sn-nature.bst" 1792265429 39056 ff8d69fcba2fd64efd831bdf8f2900cb ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1792312247 "main.tex" "build/main.pdf" "main" 1792312248 0
+["pdflatex"] 1792330018 "main.tex" "build/main.pdf" "main" 1792330022 0
   "../../03_figures/fig1_audit.pdf" 1792273928 50265 c4fe3c127c7ee6f530247ff85e5db325 ""
   "../../03_figures/fig2_data_overview.pdf" 1792266363 42496 9347c8df0b9991a925c1c3f26e67c856 ""
   "../../03_figures/fig3_recording_decisions.pdf" 1792266353 57590 6029e5dd7205159f06c9c982a9b2ef83 ""
@@ -251,15 +251,15 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1709658475 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1709658432 7883461 152ae8d49829c5d81eec104128836e9e ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "build/abstract.tex" 1792312247 2604 886041be4b5a736590225d01e60a009f ""
-  "build/appendix.tex" 1792312247 4421 da7aa7343f881143c860b38f9b971d53 ""
-  "build/body.tex" 1792312247 54391 c5344958fd55d6cbf98c034a172382ef ""
+  "build/abstract.tex" 1792330018 2604 886041be4b5a736590225d01e60a009f ""
+  "build/appendix.tex" 1792330018 4421 da7aa7343f881143c860b38f9b971d53 ""
+  "build/body.tex" 1792330018 54347 5ba6f5b3700c341ee7d23624ddc64046 ""
   "build/clsopts.tex" 1792271228 33 fd802bb956c6c915acc4643e0d2b7fbd ""
-  "build/keypoints.tex" 1792312247 1190 1f0ada0f35c1918acb53353ae84ddd35 ""
-  "build/main.aux" 1792312248 27456 08bfcf46afca1648c79af0418999ad82 "pdflatex"
+  "build/keypoints.tex" 1792330018 1190 1f0ada0f35c1918acb53353ae84ddd35 ""
+  "build/main.aux" 1792330022 27456 08bfcf46afca1648c79af0418999ad82 "pdflatex"
   "build/main.bbl" 1792275166 13686 d6f3bf9b5f7ac13645d54270b9adf5e5 "bibtex build/main"
-  "build/main.out" 1792312248 6295 7fda549ce3bdc0a81f7393730412b6f2 "pdflatex"
-  "build/meta.tex" 1792312247 931 261ae264ff36d12a59150e29e614cc5d ""
+  "build/main.out" 1792330022 6295 7fda549ce3bdc0a81f7393730412b6f2 "pdflatex"
+  "build/meta.tex" 1792330018 738 40c15a7c447a6d8112fa1b79d0a262ac ""
   "main.tex" 1792266465 2887 57cbb606d38aa718ff3f9096d7630a59 ""
   "sn-template/sn-jnl.cls" 1792265429 55857 c14ef9d34b3d95356940eaf177aff85f ""
   (generated)

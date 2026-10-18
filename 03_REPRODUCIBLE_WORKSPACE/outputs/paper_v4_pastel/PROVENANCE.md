@@ -44,3 +44,8 @@ Per-figure adjustments:
   orange (no amber edge on pink markers); right-hand interval values are set in
   JuliaMono.
 - **fig 2 panel c** — brighter stimulus step/band and response curve.
+
+
+## Formal manuscript cleanup — 2026-10-18
+
+Removed the internal Research manuscript v4/version-freeze front-matter paragraph from the formal Markdown source (previously hidden only in the biomed PDF). Removed 31 invisible paragraph-number comments and the unconfirmed final-author-approval sentence. Scientific simulation and frozen-protocol descriptions remain in Abstract and Methods. The converter now leaves PaperManuscriptNote empty, and the IEEE wrapper no longer prints it. This prevents internal revision notes from reappearing in another template. Historical originals remain unchanged.

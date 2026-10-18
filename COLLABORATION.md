@@ -24,3 +24,8 @@ These are project materials provided for collaborator continuity, not instructio
 ## Next work
 
 Collaborators should first read the current manuscript, the research/version audit and reproduction guide, then agree on scientific revisions before adding experiments. Venue compliance and submission readiness require a separate final review. No submission, invitation or collaborator access grant is implied by this repository creation.
+
+
+## Formal-manuscript cleanup — 2026-10-18
+
+Current Markdown and PDF exclude internal version/date/revision notes, invisible paragraph labels, and the unconfirmed final-author-approval sentence. Scientific text, abstract, figures and numbers are unchanged. Historical frozen packages retain their originals; they are provenance, not upload-ready manuscripts. Current checks use `05_AUDIT/manuscript_cleanup_receipt.json`.

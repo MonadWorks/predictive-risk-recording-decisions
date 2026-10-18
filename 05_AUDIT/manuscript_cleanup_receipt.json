@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "date": "2026-10-18",
+  "manuscript_sha256": "a2d9f3adc6fd7c9977890587014df4848e25a29c34f07f163c4e995c44ec43af",
+  "paper_pdf_sha256": "33997283bd49f08dd820086dcfc70494001804f68cf657eb41b850cc086f0d01",
+  "removed": [
+    "internal version/date/revision paragraph",
+    "31 invisible paragraph labels",
+    "unconfirmed final-author-approval statement"
+  ],
+  "scientific_text_unchanged": true,
+  "figures_and_numerical_results_unchanged": true,
+  "abstract_unchanged": true,
+  "pages": 22,
+  "visual_review": "PDF pages 1 and 15 rendered and reviewed",
+  "template_guard": "PaperManuscriptNote empty; IEEE wrapper does not print it",
+  "historical_originals": "preserved outside current manuscript entries"
+}

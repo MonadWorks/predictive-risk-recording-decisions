@@ -14,7 +14,11 @@ def main():
   assert run.returncode==0,(name,run.stderr,run.stdout)
   results[name]='PASS'
  a=json.loads((ROOT/'05_AUDIT/current_alignment.json').read_text());assert all(a['lineage_tables'].values())
- assert a['current_manuscript_matches_editorial_receipt'] and a['current_pdf_matches_latest_supplement_revision']
+ cleanup=json.loads((ROOT/'05_AUDIT/manuscript_cleanup_receipt.json').read_text())
+ assert a['current_manuscript_matches_cleanup_receipt'] and a['current_pdf_matches_cleanup_receipt']
+ assert sha(ROOT/'01_READ_CURRENT/paper_current.md')==cleanup['manuscript_sha256']
+ assert sha(ROOT/'01_READ_CURRENT/paper_current.pdf')==cleanup['paper_pdf_sha256']
+ assert 'Research manuscript v4' not in (ROOT/'01_READ_CURRENT/paper_current.md').read_text()
  assert sha(ROOT/'01_READ_CURRENT/paper_current.pdf')==a['current_pdf_sha256']
  assert sha(ROOT/'01_READ_CURRENT/paper_current.md')==sha(W/'outputs/paper_v4_pastel/02_paper/paper_v4.md')
  receipt=json.loads((ROOT/'05_AUDIT/supplementary_legend_revision_receipt.json').read_text());assert receipt['numerical_geometry_identical'] and receipt['pages']==22

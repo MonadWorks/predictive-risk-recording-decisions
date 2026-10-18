@@ -1,6 +1,6 @@
 {
   "current_pdf_matches_editorial_receipt": false,
-  "current_manuscript_matches_editorial_receipt": true,
+  "current_manuscript_matches_editorial_receipt": false,
   "ten_frozen_tables_match_v2_lineage": true,
   "lineage_tables": {
     "holdout_network_metrics.csv": true,
@@ -21,7 +21,11 @@
   "no_new_experiments_run": true,
   "not_submitted": true,
   "editorial_pdf_receipt_status": "historical: superseded by final supplementary legend revision",
-  "current_pdf_matches_latest_supplement_revision": true,
-  "current_pdf_sha256": "4e1452c307048572be9520bbe675ceba37489a5736e0fd249a7e2ab82f5728a5",
-  "legend_data_geometry_identical": true
+  "current_pdf_matches_latest_supplement_revision": false,
+  "current_pdf_sha256": "33997283bd49f08dd820086dcfc70494001804f68cf657eb41b850cc086f0d01",
+  "legend_data_geometry_identical": true,
+  "current_manuscript_matches_cleanup_receipt": true,
+  "current_pdf_matches_cleanup_receipt": true,
+  "current_receipt": "manuscript_cleanup_receipt.json",
+  "historical_receipts_status": "editorial and supplementary receipts retain their original snapshot hashes; superseded by manuscript cleanup"
 }

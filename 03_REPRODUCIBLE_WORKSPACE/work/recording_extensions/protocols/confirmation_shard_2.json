@@ -1,0 +1,88 @@
+{
+  "adaptations": "published rank2 covariance, tau=.5 and signed raw N(1,.9^2) gain; own known random x0, calibration/target inputs, measurement noise and MAP; not figure reproduction",
+  "bootstrap_replicates": 10000,
+  "budgets": [
+    5,
+    10
+  ],
+  "conditions": [
+    {
+      "mode": "gain",
+      "name": "published_gain",
+      "prior_sd": 0.9
+    }
+  ],
+  "connectivity_norm": 0.65,
+  "design": "prior-averaged local delta-method predictive variance; same available information",
+  "design_seed": 401,
+  "dt": 0.05,
+  "ensemble_size": 32,
+  "failure_policy": "retain finite last iterate with failure flag at max_nfev; exceptions/nonfinite responses fall back to nominal mean and are flagged",
+  "family": "rank2_tanh",
+  "independent_unit": "connection matrix J; other repeats nested",
+  "integrator": "exact rank-two state reduction; analytic zero-order-held known-input filter; RK4 at dt/2 with stagewise integral of rate and gradients",
+  "internal_substeps": 2,
+  "max_nfev": 200,
+  "methods": [
+    "local_scalar",
+    "ensemble_scalar",
+    "local_vector",
+    "ensemble_vector",
+    "local_activity",
+    "random"
+  ],
+  "model_seed": 101,
+  "network_ids": [
+    20002,
+    20006,
+    20010,
+    20014,
+    20018,
+    20022,
+    20026,
+    20030,
+    20034,
+    20038
+  ],
+  "neurons": 100,
+  "noise_repeats": 2,
+  "noise_sd": 0.05,
+  "noise_seed": 307,
+  "normalized_missing_policy": "complete standardized stratum NA if any prespecified target scale invalid; raw risk retained",
+  "phase": "independent_confirmation",
+  "pools": [
+    "all",
+    "exclude_endpoints"
+  ],
+  "primary_comparisons": [
+    [
+      "ensemble_vector",
+      "local_vector"
+    ]
+  ],
+  "primary_interval": "95% paired network-cluster bootstrap; one prespecified primary contrast",
+  "primary_metric": "mean squared raw q error aggregated within J over truth/noise/target/design repeats",
+  "primary_stratum": {
+    "condition": "published_gain",
+    "pool": "exclude_endpoints",
+    "budget": 5
+  },
+  "protocol_revision_reason": "before any formal N100 effect inspection: Euler numerical audit failed; RK4 sub2 passes; larger prior ensemble chosen due L8/16 selection instability; optimizer cap raised after numerical audit max_nfev40 failures; n6 increased to n8 on timing budget",
+  "random_seed": 601,
+  "random_sets": 3,
+  "sample_stride": 4,
+  "scale_floor": 1e-16,
+  "scale_samples": 32,
+  "scale_seed": 503,
+  "secondary_comparisons": "all other strata and 2x2 interaction exploratory 95% network-cluster intervals",
+  "secondary_metric": "mean error^2 divided by common independent nonlinear prior-MC q variance",
+  "source_scope": "independent synthetic simulations; no biological validation or new-method claim",
+  "steps": 120,
+  "targets": 3,
+  "threads": 1,
+  "truth_repeats": 2,
+  "truth_seed": 211,
+  "vector_target": "same three prespecified readouts; equal raw-response weights",
+  "wall_limit_seconds": 86400,
+  "sample_size_reason": "40 new independent networks fixed before outcome inspection (five times the old pilot); feasible precision expansion, no a-priori power guarantee, no outcome-adaptive stopping"
+}

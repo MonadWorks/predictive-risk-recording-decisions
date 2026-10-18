@@ -1,0 +1,37 @@
+{
+  "evaluation_rows": 15360,
+  "independent_networks": 40,
+  "unique_fits": 7112,
+  "failed_unique_fits": 3,
+  "fallback_unique_fits": 0,
+  "total_worker_seconds": 13758.081621208927,
+  "unique_failed_cases": [
+    {
+      "network_id": "20020",
+      "condition": "published_gain",
+      "truth_id": "0",
+      "noise_id": "1",
+      "nodes": "24;48;59;81;90",
+      "nfev": "200",
+      "fit_error": ""
+    },
+    {
+      "network_id": "20009",
+      "condition": "published_gain",
+      "truth_id": "0",
+      "noise_id": "0",
+      "nodes": "32;36;39;46;49;65;75;79;89;93",
+      "nfev": "200",
+      "fit_error": ""
+    },
+    {
+      "network_id": "20009",
+      "condition": "published_gain",
+      "truth_id": "0",
+      "noise_id": "1",
+      "nodes": "1;5;6;32;36;38;46;65;72;89",
+      "nfev": "200",
+      "fit_error": ""
+    }
+  ]
+}

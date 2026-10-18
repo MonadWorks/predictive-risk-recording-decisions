@@ -8,3 +8,18 @@ venv/
 !.env.example
 .cache/
 *.log
+
+# Reproducible derived ranges, temporary builds and simulation caches.
+03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/latex/build/
+03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/latex/main.aux
+03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/round3/runs/profile_audited/
+03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/round3/runs/threshold_audited/
+03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/scratch/
+03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/logs/
+03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/analysis/*.png
+03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/analysis/*.pdf
+03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/analysis/*_analysis_receipt.json
+03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/round2/analysis/*.png
+03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/round2/analysis/*.pdf
+03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/round3/analysis/*.png
+03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/round3/analysis/*.pdf

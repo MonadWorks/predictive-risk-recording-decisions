@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-18T15:13:21.363630+00:00",
+  "reason": "Numerical efficiency only: avoid calculating sensitivities at SLSQP line-search points that need values only. Same objectives, constraints, starts, bounds, iteration caps, samples and comparisons.",
+  "verification": {
+    "max_abs_difference": 3.637978807091713e-12,
+    "cases": 6,
+    "passed": true
+  },
+  "original_profile_process": "stopped before any per-network validation output; restarted all 40 networks",
+  "completed_validation_files_at_amendment": 0,
+  "hashes": {
+    "profiles_fast.py": "509acb33e85ed43a2fd89534db79828d4732f0192919026c954c43c60b1afba5",
+    "fast_values.py": "53d56bb1c00bd475cc75d03a46f1ae371989749cd69bf95aea9b1039fc94c4e4"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "nearoptimal_fits_checked": 590,
+  "range_envelope_changes": [
+    {
+      "target": 0,
+      "sign": -1,
+      "old_q": -0.0001619700601520127,
+      "new_q": -0.00016219503848811326,
+      "change_fraction_of_width": 7.894124874893054e-06,
+      "source": "feasible_alternative_fit",
+      "network_id": 40004,
+      "policy": "both_noise4"
+    }
+  ],
+  "max_relative_width2_change": 8.49300770600081e-07,
+  "threshold_envelope_changes": [],
+  "threshold_records": [
+    {
+      "network_id": 40000,
+      "policy": "neither",
+      "delta2_width2": 0.0015103841697965226,
+      "delta5_width2": 0.005899984967847434,
+      "chosen_success": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "network_id": 40000,
+      "policy": "both",
+      "delta2_width2": 1.6429061610212498e-05,
+      "delta5_width2": 4.287965645909786e-05,
+      "chosen_success": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "network_id": 40001,
+      "policy": "neither",
+      "delta2_width2": 8.93550745876759e-06,
+      "delta5_width2": 5.128662863321012e-05,
+      "chosen_success": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "network_id": 40001,
+      "policy": "both",
+      "delta2_width2": 7.58354342495574e-06,
+      "delta5_width2": 2.0104593315110742e-05,
+      "chosen_success": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "network_id": 40002,
+      "policy": "neither",
+      "delta2_width2": 0.0026692389380145506,
+      "delta5_width2": 0.011947441318244193,
+      "chosen_success": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "network_id": 40002,
+      "policy": "both",
+      "delta2_width2": 2.3574980950105602e-06,
+      "delta5_width2": 6.632379998852916e-06,
+      "chosen_success": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "network_id": 40003,
+      "policy": "neither",
+      "delta2_width2": 0.0012409285303359035,
+      "delta5_width2": 0.006852255783562419,
+      "chosen_success": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "network_id": 40003,
+      "policy": "both",
+      "delta2_width2": 0.00010155595871767012,
+      "delta5_width2": 0.0003248427261029021,
+      "chosen_success": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "network_id": 40004,
+      "policy": "neither",
+      "delta2_width2": 0.00011277685150061534,
+      "delta5_width2": 0.010047027325107953,
+      "chosen_success": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "network_id": 40004,
+      "policy": "both",
+      "delta2_width2": 3.261209575494989e-05,
+      "delta5_width2": 0.0010226118415241994,
+      "chosen_success": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "network_id": 40005,
+      "policy": "neither",
+      "delta2_width2": 0.5852948742622881,
+      "delta5_width2": 2.0001293927193537,
+      "chosen_success": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "network_id": 40005,
+      "policy": "both",
+      "delta2_width2": 0.0011623001320336514,
+      "delta5_width2": 0.0029582726225591744,
+      "chosen_success": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "network_id": 40006,
+      "policy": "neither",
+      "delta2_width2": 0.002147911910840638,
+      "delta5_width2": 0.00870814825861734,
+      "chosen_success": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "network_id": 40006,
+      "policy": "both",
+      "delta2_width2": 9.265672414883875e-05,
+      "delta5_width2": 0.00027290067289686325,
+      "chosen_success": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "network_id": 40007,
+      "policy": "neither",
+      "delta2_width2": 0.0002488321302047441,
+      "delta5_width2": 0.0011558053456997752,
+      "chosen_success": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "network_id": 40007,
+      "policy": "both",
+      "delta2_width2": 1.3226462570262843e-07,
+      "delta5_width2": 3.4911433941248196e-07,
+      "chosen_success": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "threshold_delta5": {
+    "change_pct": -99.77266171315749,
+    "ci95": [
+      -99.84619726153288,
+      -93.60655396570301
+    ],
+    "wins": 8,
+    "n": 8,
+    "mean_a": 0.0005810742008994517,
+    "mean_b": 0.2555989177933833,
+    "loo_pct": [
+      -99.82179668772623,
+      -96.2152996035184
+    ]
+  },
+  "threshold_delta2_same_subset": {
+    "change_pct": -99.76137113528961,
+    "ci95": [
+      -99.79718661810712,
+      -94.24612800522567
+    ],
+    "wins": 8,
+    "n": 8,
+    "mean_a": 0.00017695340980137394,
+    "mean_b": 0.07415423528755498,
+    "loo_pct": [
+      -99.77802585126653,
+      -96.80908313532434
+    ]
+  },
+  "explanation": "Every known feasible fit is retained. Raw outputs remain unchanged; derived audited files are the analysis inputs."
+}

@@ -1,0 +1,70 @@
+{
+  "created_utc": "2026-10-18T15:22:13.192758+00:00",
+  "purpose": "Numerical and threshold robustness, no modification of the primary comparisons",
+  "threshold_check": {
+    "network_ids": [
+      40000,
+      40001,
+      40002,
+      40003,
+      40004,
+      40005,
+      40006,
+      40007
+    ],
+    "selection": "first eight prespecified IDs, independent of effects",
+    "delta": 5,
+    "policies": [
+      "neither",
+      "both"
+    ]
+  },
+  "integration_check": {
+    "network_ids": [
+      40000,
+      40001,
+      40002,
+      40003,
+      40004,
+      40005,
+      40006,
+      40007,
+      40008,
+      40009,
+      40010,
+      40011,
+      40012,
+      40013,
+      40014,
+      40015,
+      40016,
+      40017,
+      40018,
+      40019,
+      40020,
+      40021,
+      40022,
+      40023,
+      40024,
+      40025,
+      40026,
+      40027,
+      40028,
+      40029,
+      40030,
+      40031,
+      40032,
+      40033,
+      40034,
+      40035,
+      40036,
+      40037,
+      40038,
+      40039
+    ],
+    "points": "all retained response extrema under all four recording conditions",
+    "substeps": 4,
+    "original_observations_retained": true
+  },
+  "source_hash": "cee21239e53c913e487e666ea452c6363bbf31990e68c7f48562c9fd21a2c69e"
+}

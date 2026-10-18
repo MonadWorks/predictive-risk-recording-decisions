@@ -1,0 +1,12 @@
+{
+  "known_stim": [],
+  "known_readouts": [],
+  "known_both": [],
+  "known_random4": [
+    {
+      "network_id": 40028,
+      "gap": 86.10913038602826,
+      "mse": 8.785148636035413e-05
+    }
+  ]
+}

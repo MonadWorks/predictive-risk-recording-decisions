@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-10-18T15:51:31.991254+00:00",
+  "datasets": [
+    [
+      45002,
+      0,
+      0
+    ],
+    [
+      45002,
+      0,
+      1
+    ],
+    [
+      45004,
+      1,
+      0
+    ],
+    [
+      45009,
+      1,
+      0
+    ],
+    [
+      45009,
+      1,
+      1
+    ],
+    [
+      45025,
+      0,
+      1
+    ],
+    [
+      45029,
+      0,
+      0
+    ],
+    [
+      45029,
+      0,
+      1
+    ],
+    [
+      45030,
+      1,
+      1
+    ],
+    [
+      45034,
+      1,
+      0
+    ],
+    [
+      45034,
+      1,
+      1
+    ]
+  ],
+  "reason": "Check method effects against certified optimization failures in frozen results",
+  "starts": "eight additional common public-prior starts; refine old best with 600-evaluation cap",
+  "seed": 94031,
+  "scope": "retrospective numerical diagnostic, not replacement of prespecified results"
+}

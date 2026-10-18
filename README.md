@@ -5,7 +5,7 @@ Private research collaboration workspace for **Predictive Risk and Recording Dec
 ## Start here
 
 - [Current manuscript PDF](01_READ_CURRENT/paper_current.pdf) · [Markdown source](01_READ_CURRENT/paper_current.md)
-- [Current graphical abstract v5](01_READ_CURRENT/graphical_abstract.pdf) · [PNG](01_READ_CURRENT/graphical_abstract.png)
+- [Criterion-comparison graphical abstract v5](01_READ_CURRENT/graphical_abstract.pdf) · [PNG](01_READ_CURRENT/graphical_abstract.png)
 - [Research narrative and version audit](01_研究主线与版本审计.md)
 - [Reproduction and code entry points](02_重现与代码入口.md)
 - [Collaboration context and decisions](COLLABORATION.md)
@@ -22,9 +22,14 @@ Private research collaboration workspace for **Predictive Risk and Recording Dec
 
 ## Current status
 
-The manuscript is 22 pages. Graphical abstract v5 includes the exact takeaway **Better risk estimates do not necessarily make better recording decisions.** The previous version without that sentence is retained with its source at `03_REPRODUCIBLE_WORKSPACE/outputs/graphical_abstract/versions/v4_without_key_finding/`. The paper PDF did not change for this standalone graphical abstract revision.
+The current manuscript integrates the original criterion comparisons with endpoint-allocation, mechanism and indirect-recording experiments. The 100-unit evidence now comprises eight pilot networks and four disjoint 40-network cohorts (168 networks total); repeated analyses of a cohort are not additional networks.
 
-This is a simulation-based study, prepared but not submitted. Primary error and forecast-score intervals include zero; the 100-unit extension is exploratory. Frozen numerical results and historical outputs are retained for traceability. Historical submission drafts and receipts describe their own snapshots, not necessarily the current draft.
+At a fixed budget of five recordings, joint stimulation/readout coverage reduced held-out response MSE by 96.44% in the initial cohort and 98.13% in independent validation. A further independent cohort supports a task-specific information mechanism through response-range searches, recording-precision changes and gain-information controls. The original prior-averaging comparisons and the new covariance-based comparisons do not establish a robust additional method advantage after fitting sensitivity is considered. These findings concern the tested simulation family, not biological validation.
+
+- [Extension code, protocols and numerical records](03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/)
+- [Current canonical manuscript and build source](03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/)
+
+The existing graphical abstract retains the criterion-comparison takeaway **Better risk estimates do not necessarily make better recording decisions.** It has not been redesigned to summarize the endpoint and mechanism findings. Historical manuscripts, receipts and audits retain their original scope. The study has not been submitted.
 
 ## Verify
 

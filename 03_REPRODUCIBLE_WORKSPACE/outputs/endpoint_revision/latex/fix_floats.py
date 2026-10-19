@@ -51,6 +51,6 @@ for p in ['build/body.tex','build/appendix.tex','build/abstract.tex']:
 
 p='build/appendix.tex'
 s=open(p,encoding='utf-8').read()
-for title in ['Limited-budget recording comparison','Static combination controls']:
+for title in ['Limited-budget recording comparison','Static combination controls','Acquiring recurrent information from recordings']:
     s=s.replace('\\subsection{'+title+'}','\\clearpage\n\\subsection*{'+title+'}')
 open(p,'w',encoding='utf-8').write(s)

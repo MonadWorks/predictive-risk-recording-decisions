@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "risk_absolute_error": 1.1102230246251565e-16,
+  "profile_relative_error": 9.754419494356625e-13,
+  "conditional_rowspace_error": 4.440892098500626e-16,
+  "orthonormal_error": 6.661338147750939e-16
+}

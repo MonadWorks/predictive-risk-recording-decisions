@@ -1,0 +1,86 @@
+{
+  "timestamp_utc": "2026-10-19T06:21:56.995736+00:00",
+  "network_ids": [
+    60000,
+    60001,
+    60002,
+    60003,
+    60004,
+    60005,
+    60006,
+    60007,
+    60008,
+    60009,
+    60010,
+    60011,
+    60012,
+    60013,
+    60014,
+    60015,
+    60016,
+    60017,
+    60018,
+    60019,
+    60020,
+    60021,
+    60022,
+    60023,
+    60024,
+    60025,
+    60026,
+    60027,
+    60028,
+    60029,
+    60030,
+    60031,
+    60032,
+    60033,
+    60034,
+    60035,
+    60036,
+    60037,
+    60038,
+    60039
+  ],
+  "scope": "One independent 40-network rank-two cohort, fixed before outcomes. Repeats the dimension-matched oracle comparison and tests acquisition of recurrent information through real simulated calibration recordings.",
+  "source_hashes": {
+    "round5/code/experiment5.py": "ee80f78a876e6e25483691430686b2ebd8757259e0b3f099308be08162f9133a",
+    "round5/code/analyze5.py": "6a9e07f3324cbb04b9b7509b04df2da03426dbbeaa66953c0356935c6f10c4b0",
+    "round4/code/common4.py": "b4980c83d95ffef71ca8e7684c20abf296d184148d2773d1774cc5f77ad368a2",
+    "round4/code/oracle_combinations.py": "26c7f644679aac8bd381125134a37af1c833cb03d43b02793a44716c6eee970b",
+    "round3/code/common.py": "32a69756327ad7e6a86e5177d8a2791f3c5e39cdb638805fc929e9bce513155e",
+    "round3/code/fast_values.py": "53d56bb1c00bd475cc75d03a46f1ae371989749cd69bf95aea9b1039fc94c4e4",
+    "code/design.py": "58fea60cbb734c5634f1b963902c242c777000fa24f8ae6b7771499af9692309",
+    "code/rank2_refined.py": "09a3295a43a64d3a7573fab852bbdec7648ddd61771834d3e690feabb693a73f",
+    "code/models.py": "8623e5a2ae7494d8c6445a2f8460cd2fbf641ae47721c4f436d49e45bcd578dc"
+  },
+  "actual_recordings": "All four endpoints; or those endpoints plus one random, recurrent-combination-targeted, or response-targeted ordinary site. Equal-budget primary contrasts use five sites. Identical sets reuse exact fits.",
+  "combination_target": "Four orthonormal rows spanning the recurrent gain sums after excluding endpoint coordinates, in prior-whitened gain coordinates. Equal weights; standard A-optimal local design averaged over 32 prior particles.",
+  "response_target": "Existing prior-averaged response-gradient risk, constrained to retain the four endpoints and select one further ordinary site.",
+  "data": "One physiological draw and one paired noise draw per network, SD 0.05; original calibration input and held-out response. All selection precedes generation of realised data.",
+  "oracle": "Five ordinary calibration recordings in both groups. Reveal four endpoint gains plus four recurrent sums, or the same endpoints plus four unrecorded ordinary gains, and refit.",
+  "primary": [
+    {
+      "metric": "response_mse",
+      "comparison": "oracle_combinations versus oracle_ordinary"
+    },
+    {
+      "metric": "profile_width_squared",
+      "comparison": "combination5 versus random5"
+    },
+    {
+      "metric": "response_mse",
+      "comparison": "combination5 versus random5"
+    }
+  ],
+  "secondary": "Combination estimation MSE, endpoint estimation MSE, local variance, comparison with response-risk selection, adding a fifth recording versus four endpoints. All network-level summaries retained.",
+  "uncertainty": "95% paired-network bootstrap intervals and Bonferroni intervals across the three primary comparisons; mean-MSE ratios, wins and leave-one-network influence. No equivalence claim or power guarantee.",
+  "profile": "One unit-variance recurrent direction fixed from the leading eigenvector of prior-averaged conditional covariance after four endpoints. Same direction for all recording sets; optimize both signs in the nonlinear MAP sublevel set at delta 2 using two starts and invertible Gauss-Newton coordinates, max 120 iterations. Numerical feasible range, not confidence coverage.",
+  "fitting": "Nine common prior-generated starts, max 400 evaluations. An unsuccessful selected fit, cost above the known feasible generating cost, or lower objective found by profiling triggers nine additional fits for every distinct policy: its own best/profile point and eight common independent prior starts. At most two such audit rounds. Oracle information is never transferred to recording policies. Any remaining flags are reported.",
+  "followup": "Development case 59980 is excluded from inference. No outcome-based sample-size extension. Static-combination acquisition is a mechanism-guided test of existing design criteria, not a novel optimizer claim.",
+  "pre_validation_revision": {
+    "previous_timestamp_utc": "2026-10-19T06:20:48.905136+00:00",
+    "previous_experiment_hash": "d5e9662bcdb4a43ba4829813bfacca72457cc03bfb1e61ac7ae5114954f9f422",
+    "reason": "Replaced equivalent matrix-vector products with explicit contractions after the excluded development case emitted spurious NumPy Accelerate floating-point warnings. No validation outcomes have been generated."
+  }
+}

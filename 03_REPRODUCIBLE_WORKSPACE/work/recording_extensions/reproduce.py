@@ -13,7 +13,8 @@ STEPS=[
  ['round4/code/analyze4.py','mechanism'],['round4/code/analyze4.py','mechanism_validation'],
  ['round4/code/analyze4.py','oracle'],['round4/code/analyze4.py','robustness'],
  ['round4/code/analyze4.py','allocation'],['round4/code/oracle_matched_control.py','--summary'],['round4/code/oracle_data_fit_audit.py','--summary'],['round4/code/integration4.py','--summary'],
- ['round4/code/figures4.py'],['round4/code/validate4.py'],['validate.py']]
+ ['round4/code/figures4.py'],['round4/code/validate4.py'],
+ ['round5/code/analyze5.py'],['round5/code/figures5.py'],['round5/code/validate5.py'],['validate.py']]
 if __name__=='__main__':
     for args in STEPS:
         print('Running '+args[0],flush=True)

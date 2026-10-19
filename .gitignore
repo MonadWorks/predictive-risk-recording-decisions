@@ -23,3 +23,8 @@ venv/
 03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/round2/analysis/*.pdf
 03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/round3/analysis/*.png
 03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/round3/analysis/*.pdf
+
+# Development-only runs and reproducible round-four figure copies.
+03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/round4/runs/development/
+03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/round4/analysis/*.png
+03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/round4/analysis/*.pdf

@@ -36,3 +36,21 @@ s=open(p,encoding='utf-8').read()
 s=s.replace(r'\subsection{Additional indirect-recording comparison}',
             r'\clearpage'+'\n'+r'\subsection*{Additional indirect-recording comparison}')
 open(p,'w',encoding='utf-8').write(s)
+
+# The inherited Markdown preprocessor escapes literal carets outside its
+# bracket-delimited display syntax. Restore TeX exponents inside math only,
+# and remove paragraph breaks from display equations.
+for p in ['build/body.tex','build/appendix.tex','build/abstract.tex']:
+    s=open(p,encoding='utf-8').read()
+    s=re.sub(r'\\\((.*?)\\\)',lambda m:m.group(0).replace(r'\^','^'),s,flags=re.S)
+    def clean_equation(m):
+        body=re.sub(r'\n\s*\n','\n',m.group(1).strip()).replace(r'\^','^')
+        return '\\begin{equation}\n'+body+'\n\\end{equation}'
+    s=re.sub(r'\\begin\{equation\}(.*?)\\end\{equation\}',clean_equation,s,flags=re.S)
+    open(p,'w',encoding='utf-8').write(s)
+
+p='build/appendix.tex'
+s=open(p,encoding='utf-8').read()
+for title in ['Limited-budget recording comparison','Static combination controls']:
+    s=s.replace('\\subsection{'+title+'}','\\clearpage\n\\subsection*{'+title+'}')
+open(p,'w',encoding='utf-8').write(s)

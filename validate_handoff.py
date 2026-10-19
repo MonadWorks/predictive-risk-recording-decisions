@@ -29,6 +29,9 @@ def main():
  run=subprocess.run([sys.executable,str(W/'work/recording_extensions/validate.py')],text=True,capture_output=True)
  assert run.returncode==0,(run.stderr,run.stdout)
  results['recording_extensions']=json.loads(run.stdout)
+ run=subprocess.run([sys.executable,str(W/'work/recording_extensions/round4/code/validate4.py')],text=True,capture_output=True)
+ assert run.returncode==0,(run.stderr,run.stdout)
+ results['parameter_mechanism_and_robustness']=json.loads(run.stdout)
  receipt=json.loads((ROOT/'05_AUDIT/supplementary_legend_revision_receipt.json').read_text());assert receipt['numerical_geometry_identical'] and receipt['pages']==22
  assert json.loads((ROOT/'05_AUDIT/geometry_before.json').read_text())==json.loads((ROOT/'05_AUDIT/geometry_after.json').read_text())
  for stem in ['figS2_matched_conditions_pastel','figS3_broad_conditions_pastel','figS4_bias_shift_conditions_pastel']:

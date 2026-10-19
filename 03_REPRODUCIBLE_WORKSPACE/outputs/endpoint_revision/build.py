@@ -13,6 +13,13 @@ if __name__=='__main__':
     (WORK/'build/clsopts.tex').write_text(r'\def\clsopts{pdflatex,sn-nature}'+'\n')
     call([sys.executable,TEMPLATE/'common/md2tex.py','--md',HERE/'paper.md','--outdir',WORK/'build','--workdir',WORK,'--lua',TEMPLATE/'common/filter.lua','--bib-real',HERE/'references.bib'])
     p=WORK/'build/references.bib';p.write_text(__import__('re').sub(r'(?m)^(\s*)note(\s*=)',r'\1xnote\2',p.read_text()))
+    # The inherited sn-nature style underflows its stack for an editorless
+    # proceedings entry. Render this proceedings series in article layout;
+    # retain the canonical BibTeX type and all bibliographic facts upstream.
+    import re
+    bib=p.read_text()
+    bib=re.sub(r'@inproceedings\{ref46,(.*?)\n\}',lambda m:'@article{ref46,'+m.group(1).replace('booktitle =','journal =')+'\n}',bib,flags=re.S)
+    p.write_text(bib)
     call([sys.executable,WORK/'fix_floats.py'])
     call(['latexmk','-g','-pdf','-interaction=nonstopmode','-halt-on-error','-file-line-error','-outdir=build','main.tex'])
     shutil.copy2(WORK/'build/main.pdf',HERE/'paper.pdf')

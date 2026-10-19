@@ -12,7 +12,7 @@ for path, pin_all in (('build/body.tex', False), ('build/appendix.tex', True)):
         kind, body = m.group(1), m.group(3)
         if kind == 'table' and '\\caption' not in body:   # uncaptioned data table: typeset in place
             return '\\begin{center}\n' + body + '\\end{center}'
-        pin = pin_all
+        pin = pin_all and kind == 'figure'
         return '\\begin{%s}%s%s\\end{%s}' % (kind, '[H]' if pin else '[!tbp]', body, kind)
     open(path, 'w', encoding='utf-8').write(pat.sub(sub, s))
 
@@ -51,6 +51,13 @@ for p in ['build/body.tex','build/appendix.tex','build/abstract.tex']:
 
 p='build/appendix.tex'
 s=open(p,encoding='utf-8').read()
-for title in ['Limited-budget recording comparison','Static combination controls','Acquiring recurrent information from recordings']:
+for title in ['Limited-budget recording comparison','Static combination controls','Original criterion-comparison studies']:
     s=s.replace('\\subsection{'+title+'}','\\clearpage\n\\subsection*{'+title+'}')
+open(p,'w',encoding='utf-8').write(s)
+
+# Supplement headings carry their descriptive titles without main-text numbers.
+p='build/appendix.tex'
+s=open(p,encoding='utf-8').read()
+s=re.sub(r'\\subsection\{',lambda m:r'\subsection*{',s)
+s=s.replace(r'\label{tab:',r'\label{stab:')
 open(p,'w',encoding='utf-8').write(s)

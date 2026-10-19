@@ -11,7 +11,14 @@ if __name__=='__main__':
     env['TEXINPUTS']=str(TEMPLATE/'common')+':'+str(TEMPLATE/'biomed/sn-template')+':'+env.get('TEXINPUTS','')+':'
     env['BSTINPUTS']=str(TEMPLATE/'biomed/sn-template')+':'+env.get('BSTINPUTS','')+':'
     (WORK/'build/clsopts.tex').write_text(r'\def\clsopts{pdflatex,sn-nature}'+'\n')
-    call([sys.executable,TEMPLATE/'common/md2tex.py','--md',HERE/'paper.md','--outdir',WORK/'build','--workdir',WORK,'--lua',TEMPLATE/'common/filter.lua','--bib-real',HERE/'references.bib'])
+    # Accept an explicit supplementary-table label in the readable source while
+    # retaining the inherited table renderer and the wrapper's S numbering.
+    filter_path=WORK/'build/filter.lua'
+    lua=(TEMPLATE/'common/filter.lua').read_text()
+    lua=lua.replace("n = label:match('^Table%s*(%d+)%s*$')",
+                    "n = label:match('^Table%s*(%d+)%s*$') or label:match('^Supplementary Table%s*(%d+)%s*$')")
+    filter_path.write_text(lua)
+    call([sys.executable,TEMPLATE/'common/md2tex.py','--md',HERE/'paper.md','--outdir',WORK/'build','--workdir',WORK,'--lua',filter_path,'--bib-real',HERE/'references.bib'])
     p=WORK/'build/references.bib';p.write_text(__import__('re').sub(r'(?m)^(\s*)note(\s*=)',r'\1xnote\2',p.read_text()))
     # The inherited sn-nature style underflows its stack for an editorless
     # proceedings entry. Render this proceedings series in article layout;

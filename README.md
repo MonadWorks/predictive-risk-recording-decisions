@@ -5,7 +5,6 @@ Private research collaboration workspace for **Predictive Risk and Recording Dec
 ## Start here
 
 - [Current manuscript PDF](01_READ_CURRENT/paper_current.pdf) · [Markdown source](01_READ_CURRENT/paper_current.md)
-- [Criterion-comparison graphical abstract v5](01_READ_CURRENT/graphical_abstract.pdf) · [PNG](01_READ_CURRENT/graphical_abstract.png)
 - [Research narrative and version audit](01_研究主线与版本审计.md)
 - [Reproduction and code entry points](02_重现与代码入口.md)
 - [Collaboration context and decisions](COLLABORATION.md)
@@ -22,7 +21,7 @@ Private research collaboration workspace for **Predictive Risk and Recording Dec
 
 ## Current status
 
-The current manuscript integrates the original criterion comparisons with endpoint allocation, parameter-combination mechanisms, structural robustness, limited budgets and acquisition of recurrent information through recordings. The 100-unit evidence now comprises eight pilot networks and seven disjoint 40-network cohorts (288 base networks total); repeated analyses of a cohort are not additional networks.
+The current manuscript follows endpoint allocation, response uncertainty, recurrent parameter combinations and acquisition of information through a fifth recording. Its five main figures follow that sequence and the structural checks. Original criterion studies, their frozen primary comparisons and detailed fitting/budget diagnostics are retained in the supplementary analyses, with a summary of their outcomes in the main Results. The 100-unit evidence now comprises eight pilot networks and seven disjoint 40-network cohorts (288 base networks total); repeated analyses of a cohort are not additional networks.
 
 At a fixed budget of five recordings, joint stimulation/readout coverage reduced held-out response MSE by 96.44% in the initial cohort and 98.13% in independent validation. Response-range searches, recording-precision changes and gain-information controls support a task-specific information mechanism. Endpoint allocation retained a 92.08% MSE reduction under rank-six augmentation; random rank-six and positive-gain conditions remain less certain.
 
@@ -33,7 +32,7 @@ The prior-averaging and covariance-based comparisons likewise do not establish a
 - [Extension code, protocols and numerical records](03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/)
 - [Current canonical manuscript and build source](03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/)
 
-The existing graphical abstract retains the criterion-comparison takeaway **Better risk estimates do not necessarily make better recording decisions.** It has not been redesigned to summarize the endpoint and mechanism findings. Historical manuscripts, receipts and audits retain their original scope. The study has not been submitted.
+The [historical criterion-comparison graphical abstract](01_READ_CURRENT/graphical_abstract.pdf) retains the criterion-comparison takeaway **Better risk estimates do not necessarily make better recording decisions.** It has not been redesigned to summarize the endpoint and mechanism findings. Historical manuscripts, receipts and audits retain their original scope. The study has not been submitted.
 
 ## Verify
 

@@ -1,0 +1,38 @@
+{
+  "reason": "Optimizer failure or failure to include a known feasible narrower-threshold point",
+  "records": [
+    {
+      "network_id": 40003,
+      "policy": "neither",
+      "target": 1,
+      "sign": -1,
+      "success": false,
+      "feasible": true,
+      "old_q": -0.043100598535860124,
+      "new_q": -0.04310058810377848,
+      "iterations": 15
+    },
+    {
+      "network_id": 40004,
+      "policy": "neither",
+      "target": 0,
+      "sign": -1,
+      "success": true,
+      "feasible": true,
+      "old_q": 8.247643841687025e-05,
+      "new_q": -0.05422134258468768,
+      "iterations": 83
+    },
+    {
+      "network_id": 40004,
+      "policy": "both",
+      "target": 2,
+      "sign": -1,
+      "success": false,
+      "feasible": true,
+      "old_q": -0.0026192611656998266,
+      "new_q": -0.03640604433904268,
+      "iterations": 73
+    }
+  ]
+}

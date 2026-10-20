@@ -1,0 +1,9 @@
+{
+  "evaluation_rows": 11520,
+  "independent_networks": 40,
+  "unique_fits": 3296,
+  "failed_unique_fits": 0,
+  "fallback_unique_fits": 0,
+  "total_worker_seconds": 7774.292199833901,
+  "unique_failed_cases": []
+}

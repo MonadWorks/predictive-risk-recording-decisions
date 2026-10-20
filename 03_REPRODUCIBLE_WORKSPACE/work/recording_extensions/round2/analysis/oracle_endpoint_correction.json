@@ -1,0 +1,4802 @@
+[
+  {
+    "network_id": 20000,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0008664696011230815,
+    "stim_corrected_mse": 2.2730929252632966e-05,
+    "readouts_corrected_mse": 0.0008810976938606633,
+    "both_corrected_mse": 1.657715760154538e-05
+  },
+  {
+    "network_id": 20000,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 3.6669931912852453e-06,
+    "stim_corrected_mse": 5.527191191234197e-05,
+    "readouts_corrected_mse": 1.2598928869918536e-06,
+    "both_corrected_mse": 2.3433822024926326e-05
+  },
+  {
+    "network_id": 20000,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0007727330474745527,
+    "stim_corrected_mse": 1.909831880966306e-05,
+    "readouts_corrected_mse": 0.0008419702205092559,
+    "both_corrected_mse": 1.6138477259559022e-05
+  },
+  {
+    "network_id": 20000,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0005693029915454185,
+    "stim_corrected_mse": 1.1679636955508819e-05,
+    "readouts_corrected_mse": 0.0006247024585600902,
+    "both_corrected_mse": 9.349317880131597e-06
+  },
+  {
+    "network_id": 20000,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 3.6961903983651126e-05,
+    "stim_corrected_mse": 5.364652116062719e-05,
+    "readouts_corrected_mse": 4.188279013847713e-05,
+    "both_corrected_mse": 2.4287331189271408e-05
+  },
+  {
+    "network_id": 20000,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0009855769537057153,
+    "stim_corrected_mse": 2.607960703180367e-05,
+    "readouts_corrected_mse": 0.001067226887704747,
+    "both_corrected_mse": 1.6889152511810656e-05
+  },
+  {
+    "network_id": 20000,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 5.2089469337420174e-05,
+    "stim_corrected_mse": 4.5020340511855474e-05,
+    "readouts_corrected_mse": 2.3848905952522574e-05,
+    "both_corrected_mse": 1.089053789002362e-06
+  },
+  {
+    "network_id": 20000,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 6.155283340930174e-05,
+    "stim_corrected_mse": 2.5412847933044048e-05,
+    "readouts_corrected_mse": 8.170977463060405e-05,
+    "both_corrected_mse": 2.614389322873488e-07
+  },
+  {
+    "network_id": 20000,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 6.864287706070222e-05,
+    "stim_corrected_mse": 8.073098851737645e-06,
+    "readouts_corrected_mse": 0.00010007085778866629,
+    "both_corrected_mse": 3.30856389762588e-07
+  },
+  {
+    "network_id": 20000,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 3.94164441709284e-05,
+    "stim_corrected_mse": 2.1807406376804792e-05,
+    "readouts_corrected_mse": 2.5311349411970225e-05,
+    "both_corrected_mse": 3.998159625027675e-06
+  },
+  {
+    "network_id": 20000,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 2.3654627961724216e-05,
+    "stim_corrected_mse": 2.4337343190812185e-05,
+    "readouts_corrected_mse": 8.602929276136474e-06,
+    "both_corrected_mse": 1.2763950692902132e-06
+  },
+  {
+    "network_id": 20000,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 7.809446916196819e-05,
+    "stim_corrected_mse": 1.0236255185782692e-05,
+    "readouts_corrected_mse": 9.514395372349416e-05,
+    "both_corrected_mse": 2.844404735642713e-07
+  },
+  {
+    "network_id": 20001,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 2.8524685004771737e-05,
+    "stim_corrected_mse": 0.00010314288102289668,
+    "readouts_corrected_mse": 9.816263172550578e-06,
+    "both_corrected_mse": 1.229588698501032e-06
+  },
+  {
+    "network_id": 20001,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 3.5131027761634455e-05,
+    "stim_corrected_mse": 0.0001228017445720187,
+    "readouts_corrected_mse": 6.029112029851418e-06,
+    "both_corrected_mse": 1.3013505054662955e-06
+  },
+  {
+    "network_id": 20001,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 4.7432089826415263e-05,
+    "stim_corrected_mse": 0.00019296389583965383,
+    "readouts_corrected_mse": 7.1761286672780645e-06,
+    "both_corrected_mse": 5.801474369232115e-07
+  },
+  {
+    "network_id": 20001,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 1.8923631589991842e-05,
+    "stim_corrected_mse": 4.076158288318945e-05,
+    "readouts_corrected_mse": 6.444079899469583e-06,
+    "both_corrected_mse": 1.7288865421756528e-06
+  },
+  {
+    "network_id": 20001,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 3.238511331081807e-05,
+    "stim_corrected_mse": 9.716328888908658e-05,
+    "readouts_corrected_mse": 7.113978518364659e-06,
+    "both_corrected_mse": 4.910524022459823e-07
+  },
+  {
+    "network_id": 20001,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 2.4972515671475333e-05,
+    "stim_corrected_mse": 5.5181783123178005e-05,
+    "readouts_corrected_mse": 7.812296016214618e-06,
+    "both_corrected_mse": 2.668130044372562e-08
+  },
+  {
+    "network_id": 20001,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.00010470523350783506,
+    "stim_corrected_mse": 0.0005923236313145554,
+    "readouts_corrected_mse": 0.0001128057442566159,
+    "both_corrected_mse": 1.6852229850228295e-05
+  },
+  {
+    "network_id": 20001,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0001242681897497811,
+    "stim_corrected_mse": 0.0005892725494054568,
+    "readouts_corrected_mse": 0.00013361226060333602,
+    "both_corrected_mse": 2.5310894463270158e-05
+  },
+  {
+    "network_id": 20001,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0002647516458861736,
+    "stim_corrected_mse": 0.0017762105827461739,
+    "readouts_corrected_mse": 0.0001023226121118559,
+    "both_corrected_mse": 1.4486770949132811e-05
+  },
+  {
+    "network_id": 20001,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0003386995473521756,
+    "stim_corrected_mse": 0.0021433901758753475,
+    "readouts_corrected_mse": 0.000163530026456632,
+    "both_corrected_mse": 2.3555378101762353e-05
+  },
+  {
+    "network_id": 20001,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0002474773305935122,
+    "stim_corrected_mse": 0.00172000321161166,
+    "readouts_corrected_mse": 0.00014088245894750974,
+    "both_corrected_mse": 1.0200560016229813e-05
+  },
+  {
+    "network_id": 20001,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.00015039415291460455,
+    "stim_corrected_mse": 0.0010065416886130849,
+    "readouts_corrected_mse": 0.00010152087026440163,
+    "both_corrected_mse": 1.6139773189795547e-05
+  },
+  {
+    "network_id": 20002,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0006445169846846435,
+    "stim_corrected_mse": 0.00046222822037482984,
+    "readouts_corrected_mse": 0.001172245709114861,
+    "both_corrected_mse": 0.0017285686470556293
+  },
+  {
+    "network_id": 20002,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.000649846857778378,
+    "stim_corrected_mse": 0.00048410189957016897,
+    "readouts_corrected_mse": 0.0011079441721084788,
+    "both_corrected_mse": 0.001509233737231105
+  },
+  {
+    "network_id": 20002,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0006779695421100237,
+    "stim_corrected_mse": 0.000509564071513189,
+    "readouts_corrected_mse": 0.0004222097423438689,
+    "both_corrected_mse": 8.362530162494027e-05
+  },
+  {
+    "network_id": 20002,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0006433953527520723,
+    "stim_corrected_mse": 0.00046203923409453355,
+    "readouts_corrected_mse": 0.001194657702658541,
+    "both_corrected_mse": 0.0017945508630414842
+  },
+  {
+    "network_id": 20002,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0006795894851484512,
+    "stim_corrected_mse": 0.0005349561675061597,
+    "readouts_corrected_mse": 0.0009026046545792071,
+    "both_corrected_mse": 0.0009706669426442255
+  },
+  {
+    "network_id": 20002,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0006641489288416504,
+    "stim_corrected_mse": 0.00048765719738365056,
+    "readouts_corrected_mse": 0.0003716289987010973,
+    "both_corrected_mse": 3.755406811289334e-05
+  },
+  {
+    "network_id": 20002,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 3.436327326316805e-06,
+    "stim_corrected_mse": 4.212909411884096e-06,
+    "readouts_corrected_mse": 9.910531152732823e-07,
+    "both_corrected_mse": 6.319724714526823e-08
+  },
+  {
+    "network_id": 20002,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 1.1133956966301873e-05,
+    "stim_corrected_mse": 2.3374961433073383e-05,
+    "readouts_corrected_mse": 4.2370799074754807e-07,
+    "both_corrected_mse": 1.4312221311938655e-07
+  },
+  {
+    "network_id": 20002,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 4.036802546120772e-06,
+    "stim_corrected_mse": 5.8485674486913016e-06,
+    "readouts_corrected_mse": 4.042062629781352e-07,
+    "both_corrected_mse": 1.6675680536659347e-07
+  },
+  {
+    "network_id": 20002,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 3.829710856187488e-06,
+    "stim_corrected_mse": 4.891108066557107e-06,
+    "readouts_corrected_mse": 9.604625191927257e-07,
+    "both_corrected_mse": 4.675922554705451e-08
+  },
+  {
+    "network_id": 20002,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 2.651841359882579e-06,
+    "stim_corrected_mse": 5.119585343352242e-06,
+    "readouts_corrected_mse": 8.366992785872633e-07,
+    "both_corrected_mse": 1.3263493378949206e-08
+  },
+  {
+    "network_id": 20002,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 4.04350458602695e-06,
+    "stim_corrected_mse": 6.0363987290503555e-06,
+    "readouts_corrected_mse": 3.870306780895401e-07,
+    "both_corrected_mse": 2.210064502855961e-07
+  },
+  {
+    "network_id": 20003,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0004753563015283114,
+    "stim_corrected_mse": 0.0005184542527511244,
+    "readouts_corrected_mse": 2.10095760194464e-05,
+    "both_corrected_mse": 3.431702927635126e-06
+  },
+  {
+    "network_id": 20003,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0006167297790221779,
+    "stim_corrected_mse": 0.0006721193518441504,
+    "readouts_corrected_mse": 0.00011237548027438669,
+    "both_corrected_mse": 7.3798340367144726e-06
+  },
+  {
+    "network_id": 20003,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0005731190272796475,
+    "stim_corrected_mse": 0.0006277807552197064,
+    "readouts_corrected_mse": 2.2852231470624454e-05,
+    "both_corrected_mse": 1.3289002795649862e-06
+  },
+  {
+    "network_id": 20003,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0005351786871863247,
+    "stim_corrected_mse": 0.0005785511192259695,
+    "readouts_corrected_mse": 2.498434783895594e-05,
+    "both_corrected_mse": 2.951397292987665e-06
+  },
+  {
+    "network_id": 20003,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0006225047741392248,
+    "stim_corrected_mse": 0.000695617013895521,
+    "readouts_corrected_mse": 7.134187522686172e-05,
+    "both_corrected_mse": 2.6583315857250464e-06
+  },
+  {
+    "network_id": 20003,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0006103058587919977,
+    "stim_corrected_mse": 0.0006731311122827356,
+    "readouts_corrected_mse": 4.217104731035954e-05,
+    "both_corrected_mse": 9.367648501182787e-07
+  },
+  {
+    "network_id": 20003,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 1.915415696762994e-05,
+    "stim_corrected_mse": 6.613786733424144e-05,
+    "readouts_corrected_mse": 0.00034163978829903404,
+    "both_corrected_mse": 3.775981093508743e-05
+  },
+  {
+    "network_id": 20003,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 1.918340400112771e-05,
+    "stim_corrected_mse": 5.8458240535495576e-05,
+    "readouts_corrected_mse": 3.4827343732350603e-06,
+    "both_corrected_mse": 1.6648574771337368e-05
+  },
+  {
+    "network_id": 20003,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 1.786635698026354e-05,
+    "stim_corrected_mse": 6.060430430954242e-05,
+    "readouts_corrected_mse": 8.483335746366703e-05,
+    "both_corrected_mse": 5.34310063726079e-06
+  },
+  {
+    "network_id": 20003,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 2.843117341290812e-05,
+    "stim_corrected_mse": 7.710754758875667e-05,
+    "readouts_corrected_mse": 0.00010367173988009156,
+    "both_corrected_mse": 6.7279438412489e-06
+  },
+  {
+    "network_id": 20003,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 1.068269135387528e-06,
+    "stim_corrected_mse": 3.342985549717524e-05,
+    "readouts_corrected_mse": 0.0003744610617339745,
+    "both_corrected_mse": 5.17580784971349e-05
+  },
+  {
+    "network_id": 20003,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 3.658096154582433e-05,
+    "stim_corrected_mse": 8.014011734144219e-05,
+    "readouts_corrected_mse": 1.874918476904892e-05,
+    "both_corrected_mse": 1.0734292687805058e-05
+  },
+  {
+    "network_id": 20004,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 6.217011211795649e-05,
+    "stim_corrected_mse": 0.00013290365017893153,
+    "readouts_corrected_mse": 7.8335055457332e-06,
+    "both_corrected_mse": 4.4254190479625705e-05
+  },
+  {
+    "network_id": 20004,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 6.305776856799933e-05,
+    "stim_corrected_mse": 0.00013543346971578638,
+    "readouts_corrected_mse": 1.5340678826235595e-05,
+    "both_corrected_mse": 8.221316507745745e-05
+  },
+  {
+    "network_id": 20004,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 6.719992444710004e-05,
+    "stim_corrected_mse": 0.00013009172386726318,
+    "readouts_corrected_mse": 8.986723364075655e-06,
+    "both_corrected_mse": 3.764244345054756e-05
+  },
+  {
+    "network_id": 20004,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 5.704400654025577e-05,
+    "stim_corrected_mse": 0.00011409894182052106,
+    "readouts_corrected_mse": 8.85787316096733e-06,
+    "both_corrected_mse": 4.2135465129714566e-05
+  },
+  {
+    "network_id": 20004,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 6.304908072469853e-05,
+    "stim_corrected_mse": 0.00012605522879342816,
+    "readouts_corrected_mse": 1.0713586258981257e-05,
+    "both_corrected_mse": 4.4808696797786295e-05
+  },
+  {
+    "network_id": 20004,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 6.394923228028572e-05,
+    "stim_corrected_mse": 0.00013704282272535416,
+    "readouts_corrected_mse": 1.2008745772562584e-05,
+    "both_corrected_mse": 6.80706325680541e-05
+  },
+  {
+    "network_id": 20004,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 2.2041960625918165e-05,
+    "stim_corrected_mse": 6.216894138427517e-08,
+    "readouts_corrected_mse": 7.910860955091438e-05,
+    "both_corrected_mse": 2.388664000511475e-08
+  },
+  {
+    "network_id": 20004,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 2.307757285438822e-05,
+    "stim_corrected_mse": 5.588753144257391e-08,
+    "readouts_corrected_mse": 8.409792271560854e-05,
+    "both_corrected_mse": 3.5695579158766677e-08
+  },
+  {
+    "network_id": 20004,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 2.5580004997879178e-05,
+    "stim_corrected_mse": 3.5978932356007675e-08,
+    "readouts_corrected_mse": 5.7793337490111555e-05,
+    "both_corrected_mse": 2.2385057186287844e-08
+  },
+  {
+    "network_id": 20004,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 2.0587767298233246e-05,
+    "stim_corrected_mse": 6.971730664319667e-08,
+    "readouts_corrected_mse": 7.398831958709564e-05,
+    "both_corrected_mse": 1.9238242832805554e-08
+  },
+  {
+    "network_id": 20004,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 1.9479453429344782e-05,
+    "stim_corrected_mse": 5.65959596636956e-08,
+    "readouts_corrected_mse": 6.714063909317602e-05,
+    "both_corrected_mse": 2.3569301671963526e-08
+  },
+  {
+    "network_id": 20004,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 3.33838237333364e-05,
+    "stim_corrected_mse": 4.550706625636087e-08,
+    "readouts_corrected_mse": 7.323327573043045e-05,
+    "both_corrected_mse": 1.699816789358477e-08
+  },
+  {
+    "network_id": 20005,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 4.051459105706207e-07,
+    "stim_corrected_mse": 3.4558785581468854e-06,
+    "readouts_corrected_mse": 2.8867899649174714e-06,
+    "both_corrected_mse": 1.239555749641629e-07
+  },
+  {
+    "network_id": 20005,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 1.0343214427374811e-07,
+    "stim_corrected_mse": 5.367172930102401e-06,
+    "readouts_corrected_mse": 1.7036156298324476e-06,
+    "both_corrected_mse": 7.566325028032867e-07
+  },
+  {
+    "network_id": 20005,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 7.011240445852651e-07,
+    "stim_corrected_mse": 2.3920770102708e-06,
+    "readouts_corrected_mse": 2.663665905621539e-06,
+    "both_corrected_mse": 1.5877642612711056e-07
+  },
+  {
+    "network_id": 20005,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 4.603499491038648e-06,
+    "stim_corrected_mse": 1.5321132136116504e-07,
+    "readouts_corrected_mse": 3.7885479761288437e-06,
+    "both_corrected_mse": 5.258094870760789e-08
+  },
+  {
+    "network_id": 20005,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 4.241853496393907e-07,
+    "stim_corrected_mse": 3.140074468478947e-06,
+    "readouts_corrected_mse": 2.4100307353139972e-06,
+    "both_corrected_mse": 2.3843403929794176e-07
+  },
+  {
+    "network_id": 20005,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 7.20167489893143e-07,
+    "stim_corrected_mse": 2.1305218309058505e-06,
+    "readouts_corrected_mse": 2.8715602756781585e-06,
+    "both_corrected_mse": 3.185553403441977e-07
+  },
+  {
+    "network_id": 20005,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 1.0027183724593304e-06,
+    "stim_corrected_mse": 5.125076440048545e-08,
+    "readouts_corrected_mse": 3.1505961958564934e-07,
+    "both_corrected_mse": 1.6628864565486984e-08
+  },
+  {
+    "network_id": 20005,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 4.41643826198453e-06,
+    "stim_corrected_mse": 2.90765518428607e-07,
+    "readouts_corrected_mse": 1.1266133588928537e-06,
+    "both_corrected_mse": 1.067395015651095e-06
+  },
+  {
+    "network_id": 20005,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 5.939426037726632e-07,
+    "stim_corrected_mse": 1.7976968869137108e-08,
+    "readouts_corrected_mse": 6.620997885576051e-07,
+    "both_corrected_mse": 5.1113760097370375e-08
+  },
+  {
+    "network_id": 20005,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 9.314798084598249e-07,
+    "stim_corrected_mse": 3.4201203245800165e-08,
+    "readouts_corrected_mse": 3.6735577007919216e-07,
+    "both_corrected_mse": 2.6607568338272948e-08
+  },
+  {
+    "network_id": 20005,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 8.754868310982567e-06,
+    "stim_corrected_mse": 1.3425034893743762e-06,
+    "readouts_corrected_mse": 2.7226367881773437e-06,
+    "both_corrected_mse": 2.0437039449298913e-07
+  },
+  {
+    "network_id": 20005,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 9.649593478085907e-07,
+    "stim_corrected_mse": 5.367268772943824e-08,
+    "readouts_corrected_mse": 4.793194442853933e-07,
+    "both_corrected_mse": 1.9725134258005256e-08
+  },
+  {
+    "network_id": 20006,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 4.114752626371439e-05,
+    "stim_corrected_mse": 8.710793968380132e-05,
+    "readouts_corrected_mse": 1.4130688766476842e-07,
+    "both_corrected_mse": 4.049190757169582e-09
+  },
+  {
+    "network_id": 20006,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 3.898465149407155e-05,
+    "stim_corrected_mse": 6.8857382739122e-05,
+    "readouts_corrected_mse": 9.802168716951602e-08,
+    "both_corrected_mse": 4.845357340785729e-09
+  },
+  {
+    "network_id": 20006,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 4.553157905501259e-05,
+    "stim_corrected_mse": 6.360508162360827e-05,
+    "readouts_corrected_mse": 1.9520290449899148e-07,
+    "both_corrected_mse": 1.1192432478611135e-07
+  },
+  {
+    "network_id": 20006,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 3.44445577497757e-05,
+    "stim_corrected_mse": 7.448774517539659e-05,
+    "readouts_corrected_mse": 1.8181666324192475e-07,
+    "both_corrected_mse": 1.6389617141116384e-08
+  },
+  {
+    "network_id": 20006,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 4.705911853488851e-05,
+    "stim_corrected_mse": 9.19875382842425e-05,
+    "readouts_corrected_mse": 1.246426241434421e-07,
+    "both_corrected_mse": 4.934620156029144e-09
+  },
+  {
+    "network_id": 20006,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 3.470978168708162e-05,
+    "stim_corrected_mse": 5.066606461991917e-05,
+    "readouts_corrected_mse": 1.7562957105212593e-07,
+    "both_corrected_mse": 8.769915281393579e-08
+  },
+  {
+    "network_id": 20006,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 3.513766736151184e-05,
+    "stim_corrected_mse": 2.829250300808266e-06,
+    "readouts_corrected_mse": 6.343952867499765e-05,
+    "both_corrected_mse": 3.727914388476055e-08
+  },
+  {
+    "network_id": 20006,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 7.930819781380579e-05,
+    "stim_corrected_mse": 6.25981737137658e-07,
+    "readouts_corrected_mse": 0.00013597447394942235,
+    "both_corrected_mse": 4.570507674853175e-06
+  },
+  {
+    "network_id": 20006,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 4.884085385428504e-05,
+    "stim_corrected_mse": 1.6304054659376897e-06,
+    "readouts_corrected_mse": 9.04240807378206e-05,
+    "both_corrected_mse": 4.356351111219298e-07
+  },
+  {
+    "network_id": 20006,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 3.901915632488567e-05,
+    "stim_corrected_mse": 2.612428400646171e-06,
+    "readouts_corrected_mse": 7.119616240097329e-05,
+    "both_corrected_mse": 1.8920141239414807e-08
+  },
+  {
+    "network_id": 20006,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00010988811282051525,
+    "stim_corrected_mse": 1.0434063352074263e-06,
+    "readouts_corrected_mse": 0.00011844264572867203,
+    "both_corrected_mse": 1.0957692373073513e-07
+  },
+  {
+    "network_id": 20006,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.00012295704358975085,
+    "stim_corrected_mse": 1.2363555321757284e-06,
+    "readouts_corrected_mse": 0.00016732092630805448,
+    "both_corrected_mse": 7.760264402951821e-07
+  },
+  {
+    "network_id": 20007,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 7.044140469681995e-08,
+    "stim_corrected_mse": 6.611404216086716e-08,
+    "readouts_corrected_mse": 3.608027439442458e-07,
+    "both_corrected_mse": 3.687032894776069e-07
+  },
+  {
+    "network_id": 20007,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 3.6144637878022586e-07,
+    "stim_corrected_mse": 2.465785454876181e-07,
+    "readouts_corrected_mse": 6.260349263891213e-08,
+    "both_corrected_mse": 8.438818960834819e-08
+  },
+  {
+    "network_id": 20007,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 1.0959819152346188e-07,
+    "stim_corrected_mse": 2.394088032064038e-07,
+    "readouts_corrected_mse": 8.523705391399523e-08,
+    "both_corrected_mse": 4.080501341540988e-08
+  },
+  {
+    "network_id": 20007,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 9.634192606433035e-07,
+    "stim_corrected_mse": 4.7184473801397875e-07,
+    "readouts_corrected_mse": 2.4605451365309234e-07,
+    "both_corrected_mse": 1.7274795856948957e-07
+  },
+  {
+    "network_id": 20007,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 1.233388478622532e-06,
+    "stim_corrected_mse": 9.528613091691926e-07,
+    "readouts_corrected_mse": 1.9700437712468206e-07,
+    "both_corrected_mse": 1.4626083503866663e-07
+  },
+  {
+    "network_id": 20007,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 1.8494631484026962e-06,
+    "stim_corrected_mse": 1.3125610908359064e-06,
+    "readouts_corrected_mse": 1.6594236161386244e-07,
+    "both_corrected_mse": 8.160237480579718e-08
+  },
+  {
+    "network_id": 20007,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.00019414759618698453,
+    "stim_corrected_mse": 0.00010070665876103889,
+    "readouts_corrected_mse": 1.031048141653772e-05,
+    "both_corrected_mse": 5.856732684428943e-05
+  },
+  {
+    "network_id": 20007,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00022423966780628845,
+    "stim_corrected_mse": 0.00014336367547608116,
+    "readouts_corrected_mse": 2.2240082308833835e-05,
+    "both_corrected_mse": 2.0986312817209394e-05
+  },
+  {
+    "network_id": 20007,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.00017836459671141303,
+    "stim_corrected_mse": 0.00010201132692450562,
+    "readouts_corrected_mse": 1.6061676301773905e-05,
+    "both_corrected_mse": 1.5756042230952885e-05
+  },
+  {
+    "network_id": 20007,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.00017554858144580815,
+    "stim_corrected_mse": 0.0001112899927819771,
+    "readouts_corrected_mse": 5.909970377323061e-06,
+    "both_corrected_mse": 2.28086697786545e-05
+  },
+  {
+    "network_id": 20007,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00021763329558947963,
+    "stim_corrected_mse": 0.00014538825856831396,
+    "readouts_corrected_mse": 2.5545606589776168e-05,
+    "both_corrected_mse": 7.674842844749578e-06
+  },
+  {
+    "network_id": 20007,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.000180634370772817,
+    "stim_corrected_mse": 0.000111544517727449,
+    "readouts_corrected_mse": 1.062941586417305e-05,
+    "both_corrected_mse": 1.797711019214907e-05
+  },
+  {
+    "network_id": 20008,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 4.053632182182076e-06,
+    "stim_corrected_mse": 4.609060170937797e-08,
+    "readouts_corrected_mse": 5.114965243192789e-06,
+    "both_corrected_mse": 6.369454215824005e-10
+  },
+  {
+    "network_id": 20008,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 2.8878803848530197e-06,
+    "stim_corrected_mse": 4.197513457160985e-08,
+    "readouts_corrected_mse": 4.577383084772746e-06,
+    "both_corrected_mse": 1.1081266783351994e-09
+  },
+  {
+    "network_id": 20008,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 2.5242098571591155e-06,
+    "stim_corrected_mse": 4.554472144544207e-08,
+    "readouts_corrected_mse": 3.6980364348831066e-06,
+    "both_corrected_mse": 1.2899565607021334e-09
+  },
+  {
+    "network_id": 20008,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 4.618790840633188e-06,
+    "stim_corrected_mse": 5.090365703703132e-08,
+    "readouts_corrected_mse": 7.65832930695932e-06,
+    "both_corrected_mse": 4.322044248258618e-09
+  },
+  {
+    "network_id": 20008,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 4.474427803499797e-06,
+    "stim_corrected_mse": 5.6500134858093046e-08,
+    "readouts_corrected_mse": 5.789533457544724e-06,
+    "both_corrected_mse": 1.4194063415434452e-09
+  },
+  {
+    "network_id": 20008,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 3.0615656792705632e-06,
+    "stim_corrected_mse": 4.265823104663814e-08,
+    "readouts_corrected_mse": 3.7509494335161777e-06,
+    "both_corrected_mse": 4.180555996361071e-10
+  },
+  {
+    "network_id": 20008,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 5.047007355569736e-05,
+    "stim_corrected_mse": 7.470966667827128e-05,
+    "readouts_corrected_mse": 2.908031947972799e-06,
+    "both_corrected_mse": 1.7892883723857442e-06
+  },
+  {
+    "network_id": 20008,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 1.9238513621769535e-06,
+    "stim_corrected_mse": 1.1301242741668507e-05,
+    "readouts_corrected_mse": 9.033273994979269e-06,
+    "both_corrected_mse": 3.1579107289731327e-07
+  },
+  {
+    "network_id": 20008,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 8.530202858713787e-05,
+    "stim_corrected_mse": 4.588019788973125e-05,
+    "readouts_corrected_mse": 8.921935885629961e-06,
+    "both_corrected_mse": 1.123917495967566e-06
+  },
+  {
+    "network_id": 20008,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 1.5946864432667905e-05,
+    "stim_corrected_mse": 2.9821964097564174e-05,
+    "readouts_corrected_mse": 1.7433381284951798e-06,
+    "both_corrected_mse": 2.0756656775809881e-07
+  },
+  {
+    "network_id": 20008,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 1.3972282733402602e-06,
+    "stim_corrected_mse": 3.0402146426737792e-06,
+    "readouts_corrected_mse": 2.1184566049957667e-06,
+    "both_corrected_mse": 2.920724125857992e-08
+  },
+  {
+    "network_id": 20008,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 4.370588555628814e-05,
+    "stim_corrected_mse": 3.93537587964916e-05,
+    "readouts_corrected_mse": 5.85954788805341e-06,
+    "both_corrected_mse": 4.667974487801576e-06
+  },
+  {
+    "network_id": 20009,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.005197525789959813,
+    "stim_corrected_mse": 0.00015545413102737395,
+    "readouts_corrected_mse": 0.012542783180260954,
+    "both_corrected_mse": 1.780885929108894e-05
+  },
+  {
+    "network_id": 20009,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.007577970752389032,
+    "stim_corrected_mse": 0.00014593431052160294,
+    "readouts_corrected_mse": 0.013828174437423846,
+    "both_corrected_mse": 6.603529645475432e-06
+  },
+  {
+    "network_id": 20009,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.007964164245378111,
+    "stim_corrected_mse": 0.0001111012741517807,
+    "readouts_corrected_mse": 0.013186260587866714,
+    "both_corrected_mse": 3.4362983903813784e-05
+  },
+  {
+    "network_id": 20009,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.003955034291821542,
+    "stim_corrected_mse": 0.00012263940933266408,
+    "readouts_corrected_mse": 0.008219967806644001,
+    "both_corrected_mse": 9.300886667568418e-05
+  },
+  {
+    "network_id": 20009,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.006309496507180393,
+    "stim_corrected_mse": 0.00014052197824864195,
+    "readouts_corrected_mse": 0.011214680639778105,
+    "both_corrected_mse": 2.382119679568102e-05
+  },
+  {
+    "network_id": 20009,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.009152415473546852,
+    "stim_corrected_mse": 0.00011524562269804144,
+    "readouts_corrected_mse": 0.015090299168582968,
+    "both_corrected_mse": 3.4665911605372814e-05
+  },
+  {
+    "network_id": 20009,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0003646744185429733,
+    "stim_corrected_mse": 0.0003728832782956433,
+    "readouts_corrected_mse": 3.8765448238391546e-05,
+    "both_corrected_mse": 3.959796401923414e-05
+  },
+  {
+    "network_id": 20009,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0003161400926811431,
+    "stim_corrected_mse": 0.00034650410166859306,
+    "readouts_corrected_mse": 1.3746503197750497e-05,
+    "both_corrected_mse": 1.4030117951717891e-05
+  },
+  {
+    "network_id": 20009,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0004315367376028405,
+    "stim_corrected_mse": 0.000418471396870679,
+    "readouts_corrected_mse": 6.976056646793595e-05,
+    "both_corrected_mse": 6.907610741960236e-05
+  },
+  {
+    "network_id": 20009,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0005051875712913303,
+    "stim_corrected_mse": 0.0004175956799078908,
+    "readouts_corrected_mse": 0.00011417699286761507,
+    "both_corrected_mse": 9.547149590261224e-05
+  },
+  {
+    "network_id": 20009,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00014452966241834282,
+    "stim_corrected_mse": 0.00025926971921405383,
+    "readouts_corrected_mse": 9.166854877962177e-06,
+    "both_corrected_mse": 3.189802955173423e-06
+  },
+  {
+    "network_id": 20009,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0001844744536939094,
+    "stim_corrected_mse": 0.0003473595072401514,
+    "readouts_corrected_mse": 5.22020231027917e-06,
+    "both_corrected_mse": 7.065289772831118e-07
+  },
+  {
+    "network_id": 20010,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 7.909573130097314e-07,
+    "stim_corrected_mse": 6.850500166166701e-07,
+    "readouts_corrected_mse": 2.9737221531091975e-08,
+    "both_corrected_mse": 3.7006424369241543e-10
+  },
+  {
+    "network_id": 20010,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 9.636401178545187e-07,
+    "stim_corrected_mse": 8.19005753170861e-07,
+    "readouts_corrected_mse": 2.2679496627601985e-08,
+    "both_corrected_mse": 2.4405133749182227e-08
+  },
+  {
+    "network_id": 20010,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 2.665932924066403e-07,
+    "stim_corrected_mse": 1.827786024784087e-07,
+    "readouts_corrected_mse": 1.1798984115233339e-08,
+    "both_corrected_mse": 8.947587302658442e-10
+  },
+  {
+    "network_id": 20010,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 3.8637280461120266e-07,
+    "stim_corrected_mse": 3.098744360182014e-07,
+    "readouts_corrected_mse": 2.548653923276357e-08,
+    "both_corrected_mse": 1.805047217975204e-08
+  },
+  {
+    "network_id": 20010,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 1.4354923048227344e-06,
+    "stim_corrected_mse": 1.4084422035440573e-06,
+    "readouts_corrected_mse": 3.120422113294835e-08,
+    "both_corrected_mse": 1.0213887013193698e-07
+  },
+  {
+    "network_id": 20010,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 7.703932925876395e-07,
+    "stim_corrected_mse": 6.051259027784516e-07,
+    "readouts_corrected_mse": 1.6243564451825678e-08,
+    "both_corrected_mse": 5.388811968069295e-09
+  },
+  {
+    "network_id": 20010,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 7.013986654410108e-08,
+    "stim_corrected_mse": 1.1480013049450769e-07,
+    "readouts_corrected_mse": 5.709025680906316e-08,
+    "both_corrected_mse": 6.840077013099527e-07
+  },
+  {
+    "network_id": 20010,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 7.553331637170886e-08,
+    "stim_corrected_mse": 6.796520723319743e-08,
+    "readouts_corrected_mse": 6.081779396674385e-08,
+    "both_corrected_mse": 5.970577346378399e-07
+  },
+  {
+    "network_id": 20010,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 4.3931554431521705e-08,
+    "stim_corrected_mse": 5.037711265045971e-07,
+    "readouts_corrected_mse": 8.407406150169381e-08,
+    "both_corrected_mse": 9.529527698882764e-07
+  },
+  {
+    "network_id": 20010,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 5.3185133134548076e-08,
+    "stim_corrected_mse": 9.985446351641525e-08,
+    "readouts_corrected_mse": 9.232125077518395e-08,
+    "both_corrected_mse": 6.736412649396687e-07
+  },
+  {
+    "network_id": 20010,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 5.440469153568615e-07,
+    "stim_corrected_mse": 5.413910923783637e-07,
+    "readouts_corrected_mse": 5.046169701913916e-07,
+    "both_corrected_mse": 8.356539700000356e-07
+  },
+  {
+    "network_id": 20010,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 6.048141032720424e-08,
+    "stim_corrected_mse": 7.43289192039382e-08,
+    "readouts_corrected_mse": 7.237458166984505e-08,
+    "both_corrected_mse": 5.692917609541555e-07
+  },
+  {
+    "network_id": 20011,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 3.6358110280593536e-05,
+    "stim_corrected_mse": 4.1217983967293226e-05,
+    "readouts_corrected_mse": 8.162843989757811e-07,
+    "both_corrected_mse": 3.307852530820338e-06
+  },
+  {
+    "network_id": 20011,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 4.8859890104017546e-05,
+    "stim_corrected_mse": 4.1661167989166976e-05,
+    "readouts_corrected_mse": 4.5965329522910186e-06,
+    "both_corrected_mse": 7.07319730832864e-07
+  },
+  {
+    "network_id": 20011,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 4.0126266071956976e-05,
+    "stim_corrected_mse": 3.898327463185161e-05,
+    "readouts_corrected_mse": 7.76988715202565e-06,
+    "both_corrected_mse": 6.852424932851572e-06
+  },
+  {
+    "network_id": 20011,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 4.4386358923743305e-05,
+    "stim_corrected_mse": 4.671772092648039e-05,
+    "readouts_corrected_mse": 9.899213079541319e-06,
+    "both_corrected_mse": 1.223183577629809e-05
+  },
+  {
+    "network_id": 20011,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 5.2495583165943796e-05,
+    "stim_corrected_mse": 5.010798141845203e-05,
+    "readouts_corrected_mse": 1.234596117816359e-05,
+    "both_corrected_mse": 9.983467642915474e-06
+  },
+  {
+    "network_id": 20011,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 2.141659319453932e-05,
+    "stim_corrected_mse": 2.0504605924000528e-05,
+    "readouts_corrected_mse": 4.155673088494792e-07,
+    "both_corrected_mse": 8.428625622981074e-07
+  },
+  {
+    "network_id": 20011,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 5.510902294786965e-07,
+    "stim_corrected_mse": 6.365978962767086e-05,
+    "readouts_corrected_mse": 5.884038803309387e-06,
+    "both_corrected_mse": 5.04892504986714e-06
+  },
+  {
+    "network_id": 20011,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 7.201506621609819e-07,
+    "stim_corrected_mse": 4.7073497828295766e-05,
+    "readouts_corrected_mse": 5.9216858852395705e-06,
+    "both_corrected_mse": 3.910783217334333e-06
+  },
+  {
+    "network_id": 20011,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 2.2956660673600407e-05,
+    "stim_corrected_mse": 0.00031810247265612177,
+    "readouts_corrected_mse": 6.0985649086172445e-06,
+    "both_corrected_mse": 0.00012243702124511456
+  },
+  {
+    "network_id": 20011,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 1.5442392834213896e-06,
+    "stim_corrected_mse": 4.687203182673793e-05,
+    "readouts_corrected_mse": 8.758867912017118e-06,
+    "both_corrected_mse": 1.5825104290167856e-06
+  },
+  {
+    "network_id": 20011,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 1.774708116110969e-06,
+    "stim_corrected_mse": 3.440898027944261e-05,
+    "readouts_corrected_mse": 8.693675317531426e-06,
+    "both_corrected_mse": 1.3141795183680577e-06
+  },
+  {
+    "network_id": 20011,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 4.89909519986389e-06,
+    "stim_corrected_mse": 5.33684135913338e-05,
+    "readouts_corrected_mse": 1.2949054498943647e-05,
+    "both_corrected_mse": 1.4750061297817096e-05
+  },
+  {
+    "network_id": 20012,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 6.635192339687891e-06,
+    "stim_corrected_mse": 8.70116489459498e-06,
+    "readouts_corrected_mse": 5.042096084271819e-06,
+    "both_corrected_mse": 9.552077208173381e-08
+  },
+  {
+    "network_id": 20012,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 9.735145455442371e-06,
+    "stim_corrected_mse": 9.654151396964268e-06,
+    "readouts_corrected_mse": 1.3994583893276179e-05,
+    "both_corrected_mse": 1.5859221935762138e-08
+  },
+  {
+    "network_id": 20012,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 1.0106363517917875e-05,
+    "stim_corrected_mse": 1.0677913216006665e-05,
+    "readouts_corrected_mse": 1.8351179495206822e-05,
+    "both_corrected_mse": 1.4342813282452763e-07
+  },
+  {
+    "network_id": 20012,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 9.610257246973214e-06,
+    "stim_corrected_mse": 9.695244896001579e-06,
+    "readouts_corrected_mse": 7.863269484412576e-06,
+    "both_corrected_mse": 1.6607428253463587e-07
+  },
+  {
+    "network_id": 20012,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 7.303983931377526e-06,
+    "stim_corrected_mse": 1.0629929782241631e-05,
+    "readouts_corrected_mse": 7.417162488418179e-06,
+    "both_corrected_mse": 5.622379020492709e-07
+  },
+  {
+    "network_id": 20012,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 1.2070205546879867e-05,
+    "stim_corrected_mse": 8.1729700889007e-06,
+    "readouts_corrected_mse": 1.3928493365881826e-05,
+    "both_corrected_mse": 3.274067298703587e-07
+  },
+  {
+    "network_id": 20012,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0001432310025560169,
+    "stim_corrected_mse": 4.199060463478706e-05,
+    "readouts_corrected_mse": 6.368064947082959e-05,
+    "both_corrected_mse": 1.5035645306382647e-06
+  },
+  {
+    "network_id": 20012,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00011098059368644355,
+    "stim_corrected_mse": 3.673043536297149e-05,
+    "readouts_corrected_mse": 3.402268737354351e-05,
+    "both_corrected_mse": 6.193851793988069e-07
+  },
+  {
+    "network_id": 20012,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.00011347347366110452,
+    "stim_corrected_mse": 3.6286586136040994e-05,
+    "readouts_corrected_mse": 4.180639423373572e-05,
+    "both_corrected_mse": 6.94341819029422e-07
+  },
+  {
+    "network_id": 20012,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0001186439087051072,
+    "stim_corrected_mse": 4.3157356872139316e-05,
+    "readouts_corrected_mse": 5.356601748238341e-05,
+    "both_corrected_mse": 3.059768588107113e-06
+  },
+  {
+    "network_id": 20012,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00012703264651400378,
+    "stim_corrected_mse": 3.6506830045035085e-05,
+    "readouts_corrected_mse": 4.190845592210219e-05,
+    "both_corrected_mse": 2.313155252704441e-07
+  },
+  {
+    "network_id": 20012,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0001372768184356399,
+    "stim_corrected_mse": 3.641543765269405e-05,
+    "readouts_corrected_mse": 3.9650678308548796e-05,
+    "both_corrected_mse": 8.632606535909262e-08
+  },
+  {
+    "network_id": 20013,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 8.621383535677037e-05,
+    "stim_corrected_mse": 1.874337833627277e-05,
+    "readouts_corrected_mse": 0.00015912254124570316,
+    "both_corrected_mse": 4.5192851237091845e-05
+  },
+  {
+    "network_id": 20013,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 8.971113764274229e-05,
+    "stim_corrected_mse": 3.328253589993904e-05,
+    "readouts_corrected_mse": 0.0001559675699822064,
+    "both_corrected_mse": 6.090278539477152e-05
+  },
+  {
+    "network_id": 20013,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.00011359740246521292,
+    "stim_corrected_mse": 3.445197857214593e-05,
+    "readouts_corrected_mse": 9.986102299410818e-05,
+    "both_corrected_mse": 1.629363689830374e-05
+  },
+  {
+    "network_id": 20013,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.00041157860521350145,
+    "stim_corrected_mse": 0.00013308262299769136,
+    "readouts_corrected_mse": 0.00047779979038105173,
+    "both_corrected_mse": 0.00017305283954099568
+  },
+  {
+    "network_id": 20013,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0003931765072841202,
+    "stim_corrected_mse": 0.00016325150530218662,
+    "readouts_corrected_mse": 0.0003500793324112852,
+    "both_corrected_mse": 0.00011213579152503141
+  },
+  {
+    "network_id": 20013,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 8.511582593358224e-05,
+    "stim_corrected_mse": 3.229037301746304e-05,
+    "readouts_corrected_mse": 6.865562327286863e-05,
+    "both_corrected_mse": 9.010328359499898e-06
+  },
+  {
+    "network_id": 20013,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0001728558888667453,
+    "stim_corrected_mse": 3.448114752340077e-05,
+    "readouts_corrected_mse": 0.0012504236919831048,
+    "both_corrected_mse": 3.068863193549169e-07
+  },
+  {
+    "network_id": 20013,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00032821851402398025,
+    "stim_corrected_mse": 2.2918187369509532e-05,
+    "readouts_corrected_mse": 0.0024232871537217438,
+    "both_corrected_mse": 1.3271363053479462e-05
+  },
+  {
+    "network_id": 20013,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.00017771263162464916,
+    "stim_corrected_mse": 8.061600080064506e-05,
+    "readouts_corrected_mse": 0.0011524056497850075,
+    "both_corrected_mse": 4.429181190612996e-06
+  },
+  {
+    "network_id": 20013,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0001334099464148002,
+    "stim_corrected_mse": 3.68530057307048e-05,
+    "readouts_corrected_mse": 0.001509297961024389,
+    "both_corrected_mse": 8.46167194178296e-07
+  },
+  {
+    "network_id": 20013,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00024425567893211466,
+    "stim_corrected_mse": 3.2149891820890025e-05,
+    "readouts_corrected_mse": 0.0025965123216235126,
+    "both_corrected_mse": 9.617451697875522e-06
+  },
+  {
+    "network_id": 20013,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.00016509278386159202,
+    "stim_corrected_mse": 0.00011668068499910174,
+    "readouts_corrected_mse": 0.0006799584332649456,
+    "both_corrected_mse": 0.0002031896541888399
+  },
+  {
+    "network_id": 20014,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0002399025254470285,
+    "stim_corrected_mse": 0.0002478837097481676,
+    "readouts_corrected_mse": 6.988753308495421e-05,
+    "both_corrected_mse": 9.223753376234467e-05
+  },
+  {
+    "network_id": 20014,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0007304477222609836,
+    "stim_corrected_mse": 0.0006338386472413311,
+    "readouts_corrected_mse": 0.00047526354698459333,
+    "both_corrected_mse": 0.0003395971719590556
+  },
+  {
+    "network_id": 20014,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.012573810032306528,
+    "stim_corrected_mse": 0.0062484094002030555,
+    "readouts_corrected_mse": 0.0009622789084596534,
+    "both_corrected_mse": 0.0004711871534585201
+  },
+  {
+    "network_id": 20014,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0007317683653696043,
+    "stim_corrected_mse": 0.000675527587560625,
+    "readouts_corrected_mse": 0.00024412478697603425,
+    "both_corrected_mse": 0.00026799154000906527
+  },
+  {
+    "network_id": 20014,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0010016503419255647,
+    "stim_corrected_mse": 0.0009730616645194277,
+    "readouts_corrected_mse": 0.00033810067576478515,
+    "both_corrected_mse": 0.00031556326695574656
+  },
+  {
+    "network_id": 20014,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.012781708413220119,
+    "stim_corrected_mse": 0.005983540997558048,
+    "readouts_corrected_mse": 0.000630682175765649,
+    "both_corrected_mse": 0.00030589274926205284
+  },
+  {
+    "network_id": 20014,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 6.018594421687358e-06,
+    "stim_corrected_mse": 3.131243418020848e-06,
+    "readouts_corrected_mse": 1.6439585489891702e-06,
+    "both_corrected_mse": 3.1193343098364064e-07
+  },
+  {
+    "network_id": 20014,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00021805771445405323,
+    "stim_corrected_mse": 0.00010990740278258839,
+    "readouts_corrected_mse": 1.342724928572828e-06,
+    "both_corrected_mse": 4.242579507436443e-07
+  },
+  {
+    "network_id": 20014,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 1.336902426073423e-05,
+    "stim_corrected_mse": 4.554129847186782e-06,
+    "readouts_corrected_mse": 1.6759566380231405e-06,
+    "both_corrected_mse": 9.856389557343548e-07
+  },
+  {
+    "network_id": 20014,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 5.208852564408329e-05,
+    "stim_corrected_mse": 2.3346100864663037e-05,
+    "readouts_corrected_mse": 6.370527031934237e-07,
+    "both_corrected_mse": 7.435955457916161e-07
+  },
+  {
+    "network_id": 20014,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 2.026157732591717e-06,
+    "stim_corrected_mse": 1.1356628971796002e-06,
+    "readouts_corrected_mse": 3.919149350967664e-07,
+    "both_corrected_mse": 4.426079124943033e-08
+  },
+  {
+    "network_id": 20014,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 3.100299671458685e-06,
+    "stim_corrected_mse": 8.674543206689714e-07,
+    "readouts_corrected_mse": 3.8174366726400216e-07,
+    "both_corrected_mse": 7.3601382981135464e-09
+  },
+  {
+    "network_id": 20015,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 2.737133633307549e-05,
+    "stim_corrected_mse": 2.712703471574392e-07,
+    "readouts_corrected_mse": 4.749094987223666e-05,
+    "both_corrected_mse": 7.018069763958384e-09
+  },
+  {
+    "network_id": 20015,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 1.4691090580145063e-05,
+    "stim_corrected_mse": 4.100445384960351e-07,
+    "readouts_corrected_mse": 3.7206288229151717e-05,
+    "both_corrected_mse": 1.7292459186708411e-09
+  },
+  {
+    "network_id": 20015,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 2.5864714697904802e-06,
+    "stim_corrected_mse": 5.828877365831227e-07,
+    "readouts_corrected_mse": 1.3926614169585777e-05,
+    "both_corrected_mse": 2.9526705792231754e-08
+  },
+  {
+    "network_id": 20015,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 7.640622455631231e-06,
+    "stim_corrected_mse": 6.293297298238542e-07,
+    "readouts_corrected_mse": 2.445021914415375e-05,
+    "both_corrected_mse": 1.0397882113386835e-09
+  },
+  {
+    "network_id": 20015,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 1.8342402766199114e-05,
+    "stim_corrected_mse": 2.7976576961192114e-07,
+    "readouts_corrected_mse": 3.815703455276696e-05,
+    "both_corrected_mse": 6.928460275550777e-09
+  },
+  {
+    "network_id": 20015,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 1.1616555099671604e-05,
+    "stim_corrected_mse": 3.6268309980812945e-07,
+    "readouts_corrected_mse": 2.8078011394170968e-05,
+    "both_corrected_mse": 1.5855048495994612e-09
+  },
+  {
+    "network_id": 20015,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.00012591455713294452,
+    "stim_corrected_mse": 0.00015290772853121117,
+    "readouts_corrected_mse": 3.569682555359141e-05,
+    "both_corrected_mse": 2.2558629885606462e-05
+  },
+  {
+    "network_id": 20015,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00011244791329869163,
+    "stim_corrected_mse": 0.00012714419998045878,
+    "readouts_corrected_mse": 2.6206147206893e-05,
+    "both_corrected_mse": 2.6627122965017994e-05
+  },
+  {
+    "network_id": 20015,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.00012127785861552126,
+    "stim_corrected_mse": 0.00014422858059724274,
+    "readouts_corrected_mse": 3.336602691865471e-05,
+    "both_corrected_mse": 1.6046002149281253e-05
+  },
+  {
+    "network_id": 20015,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0001332498192366904,
+    "stim_corrected_mse": 0.00017733771657874397,
+    "readouts_corrected_mse": 4.9111840471554886e-05,
+    "both_corrected_mse": 4.2175522473883956e-05
+  },
+  {
+    "network_id": 20015,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00012951936321706613,
+    "stim_corrected_mse": 0.0001379606357327954,
+    "readouts_corrected_mse": 5.372083338916638e-05,
+    "both_corrected_mse": 4.835223156656143e-05
+  },
+  {
+    "network_id": 20015,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.00012111252011201479,
+    "stim_corrected_mse": 0.00015209570227883606,
+    "readouts_corrected_mse": 3.790080456051585e-05,
+    "both_corrected_mse": 3.978059037583269e-05
+  },
+  {
+    "network_id": 20016,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.00010136320370943278,
+    "stim_corrected_mse": 0.00011783762378714638,
+    "readouts_corrected_mse": 0.0003336534898646334,
+    "both_corrected_mse": 2.8423702148908777e-05
+  },
+  {
+    "network_id": 20016,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0002817102377127976,
+    "stim_corrected_mse": 0.0005773122066175385,
+    "readouts_corrected_mse": 5.39689474511075e-06,
+    "both_corrected_mse": 0.00011922901869697636
+  },
+  {
+    "network_id": 20016,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 8.616780550766898e-05,
+    "stim_corrected_mse": 0.0002695630031966021,
+    "readouts_corrected_mse": 0.0004494661334857051,
+    "both_corrected_mse": 7.561600476749176e-05
+  },
+  {
+    "network_id": 20016,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 7.814810015149922e-06,
+    "stim_corrected_mse": 4.256219775061581e-06,
+    "readouts_corrected_mse": 2.037966254379231e-06,
+    "both_corrected_mse": 7.636039547283509e-07
+  },
+  {
+    "network_id": 20016,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 2.611961524417289e-05,
+    "stim_corrected_mse": 3.635241154449093e-06,
+    "readouts_corrected_mse": 5.998145233859509e-05,
+    "both_corrected_mse": 6.011634323138288e-06
+  },
+  {
+    "network_id": 20016,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0007831131860641855,
+    "stim_corrected_mse": 0.0003168054639103985,
+    "readouts_corrected_mse": 0.00041040805023690157,
+    "both_corrected_mse": 5.908017408341775e-05
+  },
+  {
+    "network_id": 20016,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 2.3767286328177905e-05,
+    "stim_corrected_mse": 6.64544286874526e-05,
+    "readouts_corrected_mse": 9.893648555359487e-06,
+    "both_corrected_mse": 9.664158670207298e-06
+  },
+  {
+    "network_id": 20016,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 6.532082381403645e-06,
+    "stim_corrected_mse": 6.695668065355067e-06,
+    "readouts_corrected_mse": 7.770385165129698e-07,
+    "both_corrected_mse": 3.201953858222264e-07
+  },
+  {
+    "network_id": 20016,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 2.7350264376107958e-05,
+    "stim_corrected_mse": 0.00023548426251960588,
+    "readouts_corrected_mse": 1.1175603261751534e-05,
+    "both_corrected_mse": 2.2015363864987228e-05
+  },
+  {
+    "network_id": 20016,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 3.069333508477154e-05,
+    "stim_corrected_mse": 7.429255593628206e-05,
+    "readouts_corrected_mse": 1.1609912297803262e-05,
+    "both_corrected_mse": 1.146416630422367e-05
+  },
+  {
+    "network_id": 20016,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 3.244082020722169e-06,
+    "stim_corrected_mse": 6.315884991389886e-06,
+    "readouts_corrected_mse": 1.6064524247341275e-05,
+    "both_corrected_mse": 8.360485244545691e-07
+  },
+  {
+    "network_id": 20016,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 2.7065948786741866e-05,
+    "stim_corrected_mse": 0.0002537232614620016,
+    "readouts_corrected_mse": 1.021827326070328e-05,
+    "both_corrected_mse": 2.117224398899285e-05
+  },
+  {
+    "network_id": 20017,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 2.2555081020564708e-08,
+    "stim_corrected_mse": 1.1472285648167154e-06,
+    "readouts_corrected_mse": 2.3574741125218e-06,
+    "both_corrected_mse": 6.331794143206666e-09
+  },
+  {
+    "network_id": 20017,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 3.496801442758147e-08,
+    "stim_corrected_mse": 1.0709856273709029e-06,
+    "readouts_corrected_mse": 2.7505840977177475e-06,
+    "both_corrected_mse": 1.457097959407256e-08
+  },
+  {
+    "network_id": 20017,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 4.942423327661346e-08,
+    "stim_corrected_mse": 9.56720020140735e-07,
+    "readouts_corrected_mse": 3.6387910426138097e-06,
+    "both_corrected_mse": 2.2029143632594405e-08
+  },
+  {
+    "network_id": 20017,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 2.455842181665218e-08,
+    "stim_corrected_mse": 1.16935540620202e-06,
+    "readouts_corrected_mse": 2.5108294935289106e-06,
+    "both_corrected_mse": 7.179098388635275e-09
+  },
+  {
+    "network_id": 20017,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 1.1829807499837764e-08,
+    "stim_corrected_mse": 1.0587776543725219e-06,
+    "readouts_corrected_mse": 2.128226181479062e-06,
+    "both_corrected_mse": 1.7303046268048656e-08
+  },
+  {
+    "network_id": 20017,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 1.6751214866625566e-07,
+    "stim_corrected_mse": 1.5952006506235001e-06,
+    "readouts_corrected_mse": 1.6384360650448588e-06,
+    "both_corrected_mse": 4.5219431275835695e-08
+  },
+  {
+    "network_id": 20017,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 2.0680132767567524e-07,
+    "stim_corrected_mse": 8.385887866012117e-08,
+    "readouts_corrected_mse": 1.89580783116081e-07,
+    "both_corrected_mse": 3.2258129485216803e-09
+  },
+  {
+    "network_id": 20017,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 3.061140548183133e-07,
+    "stim_corrected_mse": 8.887513525785886e-08,
+    "readouts_corrected_mse": 2.1773148138118894e-07,
+    "both_corrected_mse": 1.5721095274903982e-09
+  },
+  {
+    "network_id": 20017,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 2.1591339853272972e-07,
+    "stim_corrected_mse": 7.667043057120703e-08,
+    "readouts_corrected_mse": 2.150768922208743e-07,
+    "both_corrected_mse": 3.1134017959265377e-09
+  },
+  {
+    "network_id": 20017,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 1.926399111321621e-07,
+    "stim_corrected_mse": 7.913399013865216e-08,
+    "readouts_corrected_mse": 2.01606227409463e-07,
+    "both_corrected_mse": 3.163968595322131e-09
+  },
+  {
+    "network_id": 20017,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 2.53596248172708e-07,
+    "stim_corrected_mse": 8.581807063664226e-08,
+    "readouts_corrected_mse": 2.0247718463895075e-07,
+    "both_corrected_mse": 1.4265100172321943e-09
+  },
+  {
+    "network_id": 20017,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 2.3455404834331033e-07,
+    "stim_corrected_mse": 1.0098340073632143e-07,
+    "readouts_corrected_mse": 1.841888549338291e-07,
+    "both_corrected_mse": 1.4757279750692201e-09
+  },
+  {
+    "network_id": 20018,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0014103953634853927,
+    "stim_corrected_mse": 0.00030133284149556916,
+    "readouts_corrected_mse": 0.002664398867438026,
+    "both_corrected_mse": 4.946980055082766e-05
+  },
+  {
+    "network_id": 20018,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00020473558384397688,
+    "stim_corrected_mse": 0.0007043006109325804,
+    "readouts_corrected_mse": 0.0001590516138595156,
+    "both_corrected_mse": 0.00026973117101634214
+  },
+  {
+    "network_id": 20018,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.001598647229467898,
+    "stim_corrected_mse": 0.0003643755396176725,
+    "readouts_corrected_mse": 0.002046499193984307,
+    "both_corrected_mse": 5.529469665399756e-05
+  },
+  {
+    "network_id": 20018,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.00017630483088383204,
+    "stim_corrected_mse": 0.0004953469282821852,
+    "readouts_corrected_mse": 0.0007012345435432028,
+    "both_corrected_mse": 0.00012517205848262963
+  },
+  {
+    "network_id": 20018,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0003142428625729431,
+    "stim_corrected_mse": 0.0008471057835265698,
+    "readouts_corrected_mse": 0.00023785949406259977,
+    "both_corrected_mse": 0.00019882244976096033
+  },
+  {
+    "network_id": 20018,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0007347897908359357,
+    "stim_corrected_mse": 0.00032344239564119197,
+    "readouts_corrected_mse": 0.0014889856814925505,
+    "both_corrected_mse": 2.080580382219171e-05
+  },
+  {
+    "network_id": 20018,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0006529519582700598,
+    "stim_corrected_mse": 0.0006269762990597343,
+    "readouts_corrected_mse": 0.0004765507037529171,
+    "both_corrected_mse": 8.717138746635804e-05
+  },
+  {
+    "network_id": 20018,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0008280547055645697,
+    "stim_corrected_mse": 0.0002585483232535135,
+    "readouts_corrected_mse": 0.0007608425681415528,
+    "both_corrected_mse": 0.00016291061483919342
+  },
+  {
+    "network_id": 20018,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0009536586410496694,
+    "stim_corrected_mse": 0.0004026521120865682,
+    "readouts_corrected_mse": 0.0007032137383628031,
+    "both_corrected_mse": 2.2661216724314685e-05
+  },
+  {
+    "network_id": 20018,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0008715139185702076,
+    "stim_corrected_mse": 0.0023566318737368815,
+    "readouts_corrected_mse": 0.00030370621924394466,
+    "both_corrected_mse": 0.00045099472280230447
+  },
+  {
+    "network_id": 20018,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0010653113076970718,
+    "stim_corrected_mse": 0.0005942891345588811,
+    "readouts_corrected_mse": 0.0007522447689219339,
+    "both_corrected_mse": 2.5308411160464886e-05
+  },
+  {
+    "network_id": 20018,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0011014581873468596,
+    "stim_corrected_mse": 0.000644603259046802,
+    "readouts_corrected_mse": 0.0008052971543330586,
+    "both_corrected_mse": 5.152330317289385e-05
+  },
+  {
+    "network_id": 20019,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0002653026989982482,
+    "stim_corrected_mse": 0.00018696007747833745,
+    "readouts_corrected_mse": 9.093134041237536e-05,
+    "both_corrected_mse": 2.594719825788766e-05
+  },
+  {
+    "network_id": 20019,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0002159833198465844,
+    "stim_corrected_mse": 0.0001601452442774453,
+    "readouts_corrected_mse": 1.0791391148142342e-05,
+    "both_corrected_mse": 5.7863366537514246e-05
+  },
+  {
+    "network_id": 20019,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.00025886034618482974,
+    "stim_corrected_mse": 0.00020802836112365327,
+    "readouts_corrected_mse": 0.00011225292420052599,
+    "both_corrected_mse": 6.118004520397402e-05
+  },
+  {
+    "network_id": 20019,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0002141051590197326,
+    "stim_corrected_mse": 0.0001554635168033123,
+    "readouts_corrected_mse": 4.51048080918799e-05,
+    "both_corrected_mse": 2.1995672253756943e-05
+  },
+  {
+    "network_id": 20019,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0002645578024980058,
+    "stim_corrected_mse": 0.0001981351089216236,
+    "readouts_corrected_mse": 8.351441840316642e-05,
+    "both_corrected_mse": 4.872620634996188e-05
+  },
+  {
+    "network_id": 20019,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.00022394373363333097,
+    "stim_corrected_mse": 0.00014336275241127837,
+    "readouts_corrected_mse": 0.0001121854164139624,
+    "both_corrected_mse": 4.3738897568484706e-05
+  },
+  {
+    "network_id": 20019,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0001553718620101409,
+    "stim_corrected_mse": 2.6130379266030744e-05,
+    "readouts_corrected_mse": 2.5719539204381315e-05,
+    "both_corrected_mse": 4.5190198516720386e-08
+  },
+  {
+    "network_id": 20019,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 7.557142592093189e-05,
+    "stim_corrected_mse": 6.9821983250468075e-06,
+    "readouts_corrected_mse": 1.964812949500108e-05,
+    "both_corrected_mse": 3.328334398408959e-07
+  },
+  {
+    "network_id": 20019,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0001013360364443425,
+    "stim_corrected_mse": 2.6606150324341078e-05,
+    "readouts_corrected_mse": 3.6504069462750196e-05,
+    "both_corrected_mse": 1.4836204499505946e-07
+  },
+  {
+    "network_id": 20019,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.00013122536472606777,
+    "stim_corrected_mse": 2.60040502976004e-05,
+    "readouts_corrected_mse": 3.20322223870335e-05,
+    "both_corrected_mse": 2.2223363150967255e-07
+  },
+  {
+    "network_id": 20019,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 6.038370068488691e-05,
+    "stim_corrected_mse": 5.405265745233565e-06,
+    "readouts_corrected_mse": 1.9430139220064803e-05,
+    "both_corrected_mse": 2.911058544235577e-07
+  },
+  {
+    "network_id": 20019,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.00010746308571833831,
+    "stim_corrected_mse": 1.6420182720738454e-05,
+    "readouts_corrected_mse": 2.6723975811465856e-05,
+    "both_corrected_mse": 3.044954033718629e-08
+  },
+  {
+    "network_id": 20020,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 7.447422908180025e-06,
+    "stim_corrected_mse": 2.4336530180530117e-06,
+    "readouts_corrected_mse": 4.54507569134532e-06,
+    "both_corrected_mse": 1.5534175918145433e-06
+  },
+  {
+    "network_id": 20020,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 1.7098123501937745e-06,
+    "stim_corrected_mse": 1.844200406484683e-06,
+    "readouts_corrected_mse": 8.273793800944204e-07,
+    "both_corrected_mse": 8.789868744277869e-07
+  },
+  {
+    "network_id": 20020,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 2.1167661819940006e-06,
+    "stim_corrected_mse": 2.9328667560718123e-06,
+    "readouts_corrected_mse": 1.2466071351152151e-06,
+    "both_corrected_mse": 1.6740278578457661e-06
+  },
+  {
+    "network_id": 20020,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 1.1932713144753796e-05,
+    "stim_corrected_mse": 4.065585545252107e-06,
+    "readouts_corrected_mse": 5.059628931665725e-06,
+    "both_corrected_mse": 1.6815768191693344e-06
+  },
+  {
+    "network_id": 20020,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 3.3148366798665674e-06,
+    "stim_corrected_mse": 2.263091797205973e-06,
+    "readouts_corrected_mse": 3.506738673680924e-07,
+    "both_corrected_mse": 1.8106695453442107e-07
+  },
+  {
+    "network_id": 20020,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 3.595419133639066e-06,
+    "stim_corrected_mse": 3.3367505596358476e-06,
+    "readouts_corrected_mse": 2.0954716426241052e-06,
+    "both_corrected_mse": 1.949864660468362e-06
+  },
+  {
+    "network_id": 20020,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.00017928041161485364,
+    "stim_corrected_mse": 0.00021754463832215576,
+    "readouts_corrected_mse": 1.0236790833558846e-05,
+    "both_corrected_mse": 4.0126390056899386e-05
+  },
+  {
+    "network_id": 20020,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00019319999291104098,
+    "stim_corrected_mse": 0.00021899350526878393,
+    "readouts_corrected_mse": 1.7480081175974277e-05,
+    "both_corrected_mse": 3.880211945764234e-05
+  },
+  {
+    "network_id": 20020,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0002407186644301409,
+    "stim_corrected_mse": 0.00027241987014310995,
+    "readouts_corrected_mse": 9.732536801598111e-05,
+    "both_corrected_mse": 0.00015359378810097304
+  },
+  {
+    "network_id": 20020,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.00019086863477678283,
+    "stim_corrected_mse": 0.00021367014141550136,
+    "readouts_corrected_mse": 1.595507479870894e-06,
+    "both_corrected_mse": 1.1683145274517679e-05
+  },
+  {
+    "network_id": 20020,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00017437562794927512,
+    "stim_corrected_mse": 0.00020825571368846148,
+    "readouts_corrected_mse": 8.540073561352533e-06,
+    "both_corrected_mse": 2.7846972654344017e-05
+  },
+  {
+    "network_id": 20020,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.00018362018230264456,
+    "stim_corrected_mse": 0.0002123222590952025,
+    "readouts_corrected_mse": 1.3340982447356733e-05,
+    "both_corrected_mse": 3.264044000126976e-05
+  },
+  {
+    "network_id": 20021,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.00020170253773212985,
+    "stim_corrected_mse": 0.00025059458173914083,
+    "readouts_corrected_mse": 4.4538958724870305e-05,
+    "both_corrected_mse": 3.6791572571505725e-05
+  },
+  {
+    "network_id": 20021,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0002818697935710938,
+    "stim_corrected_mse": 9.782944590881054e-05,
+    "readouts_corrected_mse": 0.00021505210228138678,
+    "both_corrected_mse": 2.6736308053282295e-06
+  },
+  {
+    "network_id": 20021,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0001229962640998725,
+    "stim_corrected_mse": 8.224069910469668e-05,
+    "readouts_corrected_mse": 3.884812189552424e-05,
+    "both_corrected_mse": 2.0455668522603415e-05
+  },
+  {
+    "network_id": 20021,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0002056316484179556,
+    "stim_corrected_mse": 0.0002730526628614987,
+    "readouts_corrected_mse": 4.465043791618969e-05,
+    "both_corrected_mse": 4.252414459286135e-05
+  },
+  {
+    "network_id": 20021,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00025462289970885557,
+    "stim_corrected_mse": 8.951491226307549e-05,
+    "readouts_corrected_mse": 0.0001820322864654216,
+    "both_corrected_mse": 4.116221082925402e-06
+  },
+  {
+    "network_id": 20021,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.00017701147831868992,
+    "stim_corrected_mse": 0.00011565467944045826,
+    "readouts_corrected_mse": 5.5525527190992346e-05,
+    "both_corrected_mse": 2.466575499023322e-06
+  },
+  {
+    "network_id": 20021,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 2.3947667181164878e-05,
+    "stim_corrected_mse": 4.787851720194704e-05,
+    "readouts_corrected_mse": 4.687346862761722e-06,
+    "both_corrected_mse": 8.450692070347913e-07
+  },
+  {
+    "network_id": 20021,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00011583112789950445,
+    "stim_corrected_mse": 0.00015659758795325904,
+    "readouts_corrected_mse": 7.0660802876650625e-06,
+    "both_corrected_mse": 5.61025596647879e-06
+  },
+  {
+    "network_id": 20021,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.00021607313836494193,
+    "stim_corrected_mse": 0.0003080645017551659,
+    "readouts_corrected_mse": 1.0560783524884532e-05,
+    "both_corrected_mse": 1.2339507696941648e-05
+  },
+  {
+    "network_id": 20021,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 6.691618553667621e-05,
+    "stim_corrected_mse": 8.309939127418236e-05,
+    "readouts_corrected_mse": 5.983333246093646e-06,
+    "both_corrected_mse": 4.55516663119584e-06
+  },
+  {
+    "network_id": 20021,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 6.335802281224267e-05,
+    "stim_corrected_mse": 0.0001262928851744872,
+    "readouts_corrected_mse": 5.7689376426529115e-06,
+    "both_corrected_mse": 1.7538440647362214e-06
+  },
+  {
+    "network_id": 20021,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0001371423527703362,
+    "stim_corrected_mse": 0.00021711452257170005,
+    "readouts_corrected_mse": 1.1964817145128622e-05,
+    "both_corrected_mse": 9.83190389472978e-06
+  },
+  {
+    "network_id": 20022,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0003530093500530203,
+    "stim_corrected_mse": 0.00037047440988279543,
+    "readouts_corrected_mse": 1.4078814426867656e-05,
+    "both_corrected_mse": 3.587560695928564e-05
+  },
+  {
+    "network_id": 20022,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00035481294435725985,
+    "stim_corrected_mse": 0.0003592036616649565,
+    "readouts_corrected_mse": 0.00018653666783944212,
+    "both_corrected_mse": 0.00022808550018651582
+  },
+  {
+    "network_id": 20022,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0002994852050855455,
+    "stim_corrected_mse": 0.0003014783218038269,
+    "readouts_corrected_mse": 7.218261151434999e-05,
+    "both_corrected_mse": 4.390917348511405e-05
+  },
+  {
+    "network_id": 20022,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0003422382522399084,
+    "stim_corrected_mse": 0.0003436493037106359,
+    "readouts_corrected_mse": 2.8150589237216592e-05,
+    "both_corrected_mse": 5.009766306229612e-05
+  },
+  {
+    "network_id": 20022,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00038419616802480013,
+    "stim_corrected_mse": 0.0003894200009582638,
+    "readouts_corrected_mse": 2.8680254252634547e-05,
+    "both_corrected_mse": 5.3254957017145986e-05
+  },
+  {
+    "network_id": 20022,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0003470439798065464,
+    "stim_corrected_mse": 0.00034891001832759223,
+    "readouts_corrected_mse": 5.148083850804945e-05,
+    "both_corrected_mse": 9.690677084479247e-05
+  },
+  {
+    "network_id": 20022,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0005478283651332775,
+    "stim_corrected_mse": 0.00022829925573463446,
+    "readouts_corrected_mse": 1.0894957215695841e-05,
+    "both_corrected_mse": 5.5109618514931936e-05
+  },
+  {
+    "network_id": 20022,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00014327510946710555,
+    "stim_corrected_mse": 0.00010683703037672207,
+    "readouts_corrected_mse": 1.219973477955088e-05,
+    "both_corrected_mse": 2.2172066772255416e-05
+  },
+  {
+    "network_id": 20022,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.00028769852371517086,
+    "stim_corrected_mse": 0.00020429791818573633,
+    "readouts_corrected_mse": 3.441213551732774e-05,
+    "both_corrected_mse": 5.8283950116662e-05
+  },
+  {
+    "network_id": 20022,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 4.153412331175621e-05,
+    "stim_corrected_mse": 1.0637950785186214e-05,
+    "readouts_corrected_mse": 4.427501071993519e-05,
+    "both_corrected_mse": 9.10284054461711e-05
+  },
+  {
+    "network_id": 20022,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00018017816833232372,
+    "stim_corrected_mse": 0.00020484137956427022,
+    "readouts_corrected_mse": 3.374545693161139e-05,
+    "both_corrected_mse": 3.6427732391079155e-05
+  },
+  {
+    "network_id": 20022,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 3.8241003694795035e-05,
+    "stim_corrected_mse": 1.1708602899969915e-05,
+    "readouts_corrected_mse": 0.00010514433647565434,
+    "both_corrected_mse": 0.00014671656381962328
+  },
+  {
+    "network_id": 20023,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.003588851140613131,
+    "stim_corrected_mse": 0.00132521559460558,
+    "readouts_corrected_mse": 0.00034775604356358894,
+    "both_corrected_mse": 0.015512492093241704
+  },
+  {
+    "network_id": 20023,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.004582585799463077,
+    "stim_corrected_mse": 0.004907028561474818,
+    "readouts_corrected_mse": 0.0026104648703541462,
+    "both_corrected_mse": 0.024486646600155416
+  },
+  {
+    "network_id": 20023,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.003601614938937859,
+    "stim_corrected_mse": 0.001422502649293519,
+    "readouts_corrected_mse": 0.0007473607236806331,
+    "both_corrected_mse": 0.022268099488872196
+  },
+  {
+    "network_id": 20023,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.00436862464296734,
+    "stim_corrected_mse": 0.002514353966788415,
+    "readouts_corrected_mse": 0.0012004442820537275,
+    "both_corrected_mse": 0.005171652066455568
+  },
+  {
+    "network_id": 20023,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0038042342788787535,
+    "stim_corrected_mse": 0.0014774181892652687,
+    "readouts_corrected_mse": 0.0007869941969313332,
+    "both_corrected_mse": 0.008858239477626944
+  },
+  {
+    "network_id": 20023,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0030746877364687774,
+    "stim_corrected_mse": 0.002807663782510491,
+    "readouts_corrected_mse": 0.001615666028554017,
+    "both_corrected_mse": 0.008868465284729664
+  },
+  {
+    "network_id": 20023,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.000661743819057306,
+    "stim_corrected_mse": 0.000457978946695228,
+    "readouts_corrected_mse": 0.0002612088437886197,
+    "both_corrected_mse": 1.846877982073166e-05
+  },
+  {
+    "network_id": 20023,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.000550437117615743,
+    "stim_corrected_mse": 0.00043416903434589775,
+    "readouts_corrected_mse": 0.000167266459661601,
+    "both_corrected_mse": 2.8042917481638054e-05
+  },
+  {
+    "network_id": 20023,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.00050347772296699,
+    "stim_corrected_mse": 0.0004309921302177914,
+    "readouts_corrected_mse": 0.00013520443369495212,
+    "both_corrected_mse": 4.886759908837233e-05
+  },
+  {
+    "network_id": 20023,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0007135293469187192,
+    "stim_corrected_mse": 0.0004670915599125568,
+    "readouts_corrected_mse": 0.00035117840880478425,
+    "both_corrected_mse": 2.4059919898479e-05
+  },
+  {
+    "network_id": 20023,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0007845380058141088,
+    "stim_corrected_mse": 0.00045602720538335547,
+    "readouts_corrected_mse": 0.00038420161297604387,
+    "both_corrected_mse": 1.8826795927785623e-05
+  },
+  {
+    "network_id": 20023,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0006349650927256066,
+    "stim_corrected_mse": 0.0005197115655577614,
+    "readouts_corrected_mse": 0.00015592617356158475,
+    "both_corrected_mse": 2.648479234410549e-05
+  },
+  {
+    "network_id": 20024,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.00011822762426749061,
+    "stim_corrected_mse": 1.305224713861608e-05,
+    "readouts_corrected_mse": 0.0001898733381082371,
+    "both_corrected_mse": 4.070318154495406e-08
+  },
+  {
+    "network_id": 20024,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00010690677335619966,
+    "stim_corrected_mse": 1.75090420769955e-05,
+    "readouts_corrected_mse": 0.00016530126406663265,
+    "both_corrected_mse": 6.974025963723349e-07
+  },
+  {
+    "network_id": 20024,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.00010707859835951127,
+    "stim_corrected_mse": 1.5428840164636984e-05,
+    "readouts_corrected_mse": 0.00017241142772903643,
+    "both_corrected_mse": 5.5160329750015965e-08
+  },
+  {
+    "network_id": 20024,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.00011107798526641193,
+    "stim_corrected_mse": 1.6779755689730935e-05,
+    "readouts_corrected_mse": 0.00018650814628884564,
+    "both_corrected_mse": 7.650074911368174e-08
+  },
+  {
+    "network_id": 20024,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00010765831980267286,
+    "stim_corrected_mse": 1.783560783171384e-05,
+    "readouts_corrected_mse": 0.00017105348445251687,
+    "both_corrected_mse": 1.7874203180891176e-07
+  },
+  {
+    "network_id": 20024,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.00011019643734684978,
+    "stim_corrected_mse": 1.4627303729105247e-05,
+    "readouts_corrected_mse": 0.0001750047008468776,
+    "both_corrected_mse": 1.3836313505754045e-07
+  },
+  {
+    "network_id": 20024,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0003420148151658902,
+    "stim_corrected_mse": 0.00019385298186029953,
+    "readouts_corrected_mse": 0.00023061715703172545,
+    "both_corrected_mse": 6.332815559750546e-05
+  },
+  {
+    "network_id": 20024,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0003123731292028536,
+    "stim_corrected_mse": 0.00015848599875047155,
+    "readouts_corrected_mse": 0.00021417322661487648,
+    "both_corrected_mse": 5.3737005481418403e-05
+  },
+  {
+    "network_id": 20024,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0002627354181092873,
+    "stim_corrected_mse": 7.940477802239877e-05,
+    "readouts_corrected_mse": 0.00022141218027009,
+    "both_corrected_mse": 4.627215993075406e-05
+  },
+  {
+    "network_id": 20024,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0002350686159893001,
+    "stim_corrected_mse": 6.799825944080923e-05,
+    "readouts_corrected_mse": 0.0001942279193634342,
+    "both_corrected_mse": 3.990114026720539e-05
+  },
+  {
+    "network_id": 20024,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00029268011578970906,
+    "stim_corrected_mse": 0.00012225431066308266,
+    "readouts_corrected_mse": 0.0001802262289437885,
+    "both_corrected_mse": 2.2734436233061473e-05
+  },
+  {
+    "network_id": 20024,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0002552785675293514,
+    "stim_corrected_mse": 7.069177143555255e-05,
+    "readouts_corrected_mse": 0.00023077480461256437,
+    "both_corrected_mse": 5.4245682787862965e-05
+  },
+  {
+    "network_id": 20025,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 1.4634649794110806e-05,
+    "stim_corrected_mse": 1.600759606868096e-05,
+    "readouts_corrected_mse": 8.438241475906042e-05,
+    "both_corrected_mse": 8.227288503916523e-07
+  },
+  {
+    "network_id": 20025,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 2.408017547767833e-05,
+    "stim_corrected_mse": 1.6172570454097713e-05,
+    "readouts_corrected_mse": 9.970324714616393e-05,
+    "both_corrected_mse": 5.3137383092553485e-08
+  },
+  {
+    "network_id": 20025,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 3.629043025707488e-05,
+    "stim_corrected_mse": 1.3975085037523887e-05,
+    "readouts_corrected_mse": 0.00011460644035967331,
+    "both_corrected_mse": 7.044068234019256e-07
+  },
+  {
+    "network_id": 20025,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 2.198537508253931e-05,
+    "stim_corrected_mse": 1.964743662699583e-05,
+    "readouts_corrected_mse": 8.956508685418591e-05,
+    "both_corrected_mse": 1.1464642244988728e-07
+  },
+  {
+    "network_id": 20025,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 1.0361721468503461e-05,
+    "stim_corrected_mse": 9.676220359615973e-06,
+    "readouts_corrected_mse": 5.391157275196067e-05,
+    "both_corrected_mse": 2.1421923953481293e-06
+  },
+  {
+    "network_id": 20025,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 3.667193511070721e-05,
+    "stim_corrected_mse": 1.2968319274092167e-05,
+    "readouts_corrected_mse": 0.00012190997990322754,
+    "both_corrected_mse": 1.3856770378717032e-06
+  },
+  {
+    "network_id": 20025,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0004284331347472648,
+    "stim_corrected_mse": 0.0002345256319051578,
+    "readouts_corrected_mse": 0.00017325664548705917,
+    "both_corrected_mse": 4.7579130135800984e-06
+  },
+  {
+    "network_id": 20025,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0003903373844125993,
+    "stim_corrected_mse": 0.0002501878869263001,
+    "readouts_corrected_mse": 0.0001142458154613148,
+    "both_corrected_mse": 2.9876397475512536e-06
+  },
+  {
+    "network_id": 20025,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.00039720343269588173,
+    "stim_corrected_mse": 0.0002462774064474797,
+    "readouts_corrected_mse": 0.0001270611526740582,
+    "both_corrected_mse": 3.7421280112481207e-06
+  },
+  {
+    "network_id": 20025,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.00042206669170278594,
+    "stim_corrected_mse": 0.0002431286620772869,
+    "readouts_corrected_mse": 0.000151026456189031,
+    "both_corrected_mse": 7.1194478233325175e-06
+  },
+  {
+    "network_id": 20025,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0004216555405860091,
+    "stim_corrected_mse": 0.00024955172260429,
+    "readouts_corrected_mse": 0.00013455290709858794,
+    "both_corrected_mse": 1.734398270060322e-05
+  },
+  {
+    "network_id": 20025,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.00042475409847618403,
+    "stim_corrected_mse": 0.00025824955826744367,
+    "readouts_corrected_mse": 0.00017765323470298662,
+    "both_corrected_mse": 9.742799972764784e-07
+  },
+  {
+    "network_id": 20026,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 4.675210804820943e-06,
+    "stim_corrected_mse": 1.750981059686225e-06,
+    "readouts_corrected_mse": 4.72947587251463e-06,
+    "both_corrected_mse": 2.796456970888648e-07
+  },
+  {
+    "network_id": 20026,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 3.5903808655557556e-06,
+    "stim_corrected_mse": 3.089436760018421e-06,
+    "readouts_corrected_mse": 6.449802657823265e-07,
+    "both_corrected_mse": 1.1169917311997761e-06
+  },
+  {
+    "network_id": 20026,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 1.6004001211039622e-06,
+    "stim_corrected_mse": 3.0018941558971803e-06,
+    "readouts_corrected_mse": 1.99238159462962e-06,
+    "both_corrected_mse": 1.7337427201963126e-06
+  },
+  {
+    "network_id": 20026,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 3.7494135816879454e-06,
+    "stim_corrected_mse": 3.4556440330642855e-06,
+    "readouts_corrected_mse": 1.8311254242366168e-06,
+    "both_corrected_mse": 2.0324028371516793e-06
+  },
+  {
+    "network_id": 20026,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 6.533797279691088e-06,
+    "stim_corrected_mse": 6.4324200345431566e-06,
+    "readouts_corrected_mse": 1.2819839349959421e-05,
+    "both_corrected_mse": 1.2517549665428708e-05
+  },
+  {
+    "network_id": 20026,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 2.1194210333420467e-06,
+    "stim_corrected_mse": 3.5081862067682587e-06,
+    "readouts_corrected_mse": 4.201489884864299e-06,
+    "both_corrected_mse": 3.869034849233151e-06
+  },
+  {
+    "network_id": 20026,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 1.7059496873328676e-05,
+    "stim_corrected_mse": 1.1125824477438883e-05,
+    "readouts_corrected_mse": 1.1130063577458672e-05,
+    "both_corrected_mse": 2.1406186287036717e-07
+  },
+  {
+    "network_id": 20026,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 9.79114855826868e-06,
+    "stim_corrected_mse": 1.1342778720534744e-05,
+    "readouts_corrected_mse": 3.5651399257850202e-06,
+    "both_corrected_mse": 5.637728235074854e-06
+  },
+  {
+    "network_id": 20026,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 8.01845416221957e-06,
+    "stim_corrected_mse": 3.1771381205406025e-05,
+    "readouts_corrected_mse": 7.048785735084114e-07,
+    "both_corrected_mse": 1.4641821024257333e-05
+  },
+  {
+    "network_id": 20026,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 7.5304121164891415e-06,
+    "stim_corrected_mse": 8.663438211189574e-06,
+    "readouts_corrected_mse": 1.9811760758652004e-06,
+    "both_corrected_mse": 1.913649575889427e-06
+  },
+  {
+    "network_id": 20026,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 8.172480635360112e-06,
+    "stim_corrected_mse": 2.330829325816888e-05,
+    "readouts_corrected_mse": 8.053868444221305e-07,
+    "both_corrected_mse": 5.267191336351638e-06
+  },
+  {
+    "network_id": 20026,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 9.29285200177003e-06,
+    "stim_corrected_mse": 1.574357807675941e-05,
+    "readouts_corrected_mse": 2.533079415049728e-06,
+    "both_corrected_mse": 7.1409946134140184e-06
+  },
+  {
+    "network_id": 20027,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.00038985110555788457,
+    "stim_corrected_mse": 0.0002677899938662171,
+    "readouts_corrected_mse": 8.616091548832338e-05,
+    "both_corrected_mse": 0.00017217928840019452
+  },
+  {
+    "network_id": 20027,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0001735020711359044,
+    "stim_corrected_mse": 0.00024172010433166948,
+    "readouts_corrected_mse": 0.00021968179014287713,
+    "both_corrected_mse": 9.581618681462225e-05
+  },
+  {
+    "network_id": 20027,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0003116996595994877,
+    "stim_corrected_mse": 0.00022529486148297728,
+    "readouts_corrected_mse": 4.8387524039039284e-05,
+    "both_corrected_mse": 0.00010394005284332664
+  },
+  {
+    "network_id": 20027,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.00026150636776824647,
+    "stim_corrected_mse": 0.0002690340918253263,
+    "readouts_corrected_mse": 8.899069708740376e-05,
+    "both_corrected_mse": 8.252967140037168e-05
+  },
+  {
+    "network_id": 20027,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00018534561708783228,
+    "stim_corrected_mse": 0.00021797460973865617,
+    "readouts_corrected_mse": 0.0002788969141142147,
+    "both_corrected_mse": 0.000203935573519019
+  },
+  {
+    "network_id": 20027,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.00032493150831951293,
+    "stim_corrected_mse": 0.00030235622977597325,
+    "readouts_corrected_mse": 4.317392685961587e-05,
+    "both_corrected_mse": 5.0653000704880006e-05
+  },
+  {
+    "network_id": 20027,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0012775492291555335,
+    "stim_corrected_mse": 0.0013054480626956014,
+    "readouts_corrected_mse": 0.00014159881858646364,
+    "both_corrected_mse": 9.32178808761974e-05
+  },
+  {
+    "network_id": 20027,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0012518234771141659,
+    "stim_corrected_mse": 0.001305901588613479,
+    "readouts_corrected_mse": 8.932351719257398e-05,
+    "both_corrected_mse": 5.714010371234109e-05
+  },
+  {
+    "network_id": 20027,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0014963685776912857,
+    "stim_corrected_mse": 0.0016058242090651901,
+    "readouts_corrected_mse": 0.00013886027218499062,
+    "both_corrected_mse": 4.3615467007386336e-05
+  },
+  {
+    "network_id": 20027,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0015802928281270093,
+    "stim_corrected_mse": 0.0015235558871813844,
+    "readouts_corrected_mse": 0.0008963812021198963,
+    "both_corrected_mse": 0.00010556869935487177
+  },
+  {
+    "network_id": 20027,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0013220481248417024,
+    "stim_corrected_mse": 0.0015071735360598232,
+    "readouts_corrected_mse": 0.00011841263301826581,
+    "both_corrected_mse": 2.3686717659407382e-05
+  },
+  {
+    "network_id": 20027,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0013998619840171471,
+    "stim_corrected_mse": 0.001387956249606204,
+    "readouts_corrected_mse": 6.969683750020671e-05,
+    "both_corrected_mse": 6.32176811929308e-05
+  },
+  {
+    "network_id": 20028,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 2.3348884287738013e-05,
+    "stim_corrected_mse": 2.1728881887589897e-07,
+    "readouts_corrected_mse": 2.8568723769934178e-05,
+    "both_corrected_mse": 5.323175159875522e-07
+  },
+  {
+    "network_id": 20028,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 2.9460320596763485e-05,
+    "stim_corrected_mse": 5.2017071337383925e-08,
+    "readouts_corrected_mse": 6.494876820624543e-05,
+    "both_corrected_mse": 1.3137997806223544e-06
+  },
+  {
+    "network_id": 20028,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 2.6964118013737408e-05,
+    "stim_corrected_mse": 4.0679328308630165e-07,
+    "readouts_corrected_mse": 6.382393468229856e-05,
+    "both_corrected_mse": 1.1037478250649239e-06
+  },
+  {
+    "network_id": 20028,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 1.95553975640622e-05,
+    "stim_corrected_mse": 5.5448716258584764e-08,
+    "readouts_corrected_mse": 1.6405361807805602e-05,
+    "both_corrected_mse": 7.796241234704686e-08
+  },
+  {
+    "network_id": 20028,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 2.8281132683053247e-05,
+    "stim_corrected_mse": 1.834648815472364e-07,
+    "readouts_corrected_mse": 5.8766075953895116e-05,
+    "both_corrected_mse": 1.8286376219914393e-06
+  },
+  {
+    "network_id": 20028,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 4.506380513017864e-05,
+    "stim_corrected_mse": 1.5301044721186165e-07,
+    "readouts_corrected_mse": 8.81177932905827e-05,
+    "both_corrected_mse": 1.1367473234135588e-06
+  },
+  {
+    "network_id": 20028,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0008158005192332824,
+    "stim_corrected_mse": 0.0014029695986323644,
+    "readouts_corrected_mse": 0.0002146738592132243,
+    "both_corrected_mse": 4.462680298033786e-05
+  },
+  {
+    "network_id": 20028,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0006244936745323121,
+    "stim_corrected_mse": 0.0010655936685077876,
+    "readouts_corrected_mse": 0.00022035796426321148,
+    "both_corrected_mse": 4.443203256676708e-05
+  },
+  {
+    "network_id": 20028,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0008564378482045168,
+    "stim_corrected_mse": 0.0015959146972444988,
+    "readouts_corrected_mse": 0.0001831274968487777,
+    "both_corrected_mse": 6.521292047678206e-05
+  },
+  {
+    "network_id": 20028,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0006718396900466288,
+    "stim_corrected_mse": 0.0013979630231295344,
+    "readouts_corrected_mse": 0.00012702271132375596,
+    "both_corrected_mse": 0.0001229438996404743
+  },
+  {
+    "network_id": 20028,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0006288382802997972,
+    "stim_corrected_mse": 0.0015409858249605228,
+    "readouts_corrected_mse": 5.9959880125303746e-05,
+    "both_corrected_mse": 0.0002692033806055005
+  },
+  {
+    "network_id": 20028,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0006298943388918401,
+    "stim_corrected_mse": 0.0012976321228341688,
+    "readouts_corrected_mse": 0.00010815631947921739,
+    "both_corrected_mse": 0.0001570903006040908
+  },
+  {
+    "network_id": 20029,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 1.65169172604199e-07,
+    "stim_corrected_mse": 4.07500824206333e-08,
+    "readouts_corrected_mse": 6.581450392594401e-06,
+    "both_corrected_mse": 1.93460436430953e-06
+  },
+  {
+    "network_id": 20029,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 2.0732319112344e-07,
+    "stim_corrected_mse": 6.137339778594398e-08,
+    "readouts_corrected_mse": 1.0875532117646507e-05,
+    "both_corrected_mse": 3.3331245395722047e-06
+  },
+  {
+    "network_id": 20029,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 1.7499197400762247e-07,
+    "stim_corrected_mse": 4.795396440709621e-08,
+    "readouts_corrected_mse": 5.8580795177172565e-06,
+    "both_corrected_mse": 1.5363209831872233e-06
+  },
+  {
+    "network_id": 20029,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 2.779444087541008e-07,
+    "stim_corrected_mse": 5.0748848906213714e-08,
+    "readouts_corrected_mse": 5.925824652431776e-06,
+    "both_corrected_mse": 1.6213046743920942e-06
+  },
+  {
+    "network_id": 20029,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 1.6248530354043164e-07,
+    "stim_corrected_mse": 4.6944309738647607e-08,
+    "readouts_corrected_mse": 5.034113272175372e-06,
+    "both_corrected_mse": 1.4794765799013507e-06
+  },
+  {
+    "network_id": 20029,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 1.998813491974895e-07,
+    "stim_corrected_mse": 6.093948429137111e-08,
+    "readouts_corrected_mse": 6.305660906409954e-06,
+    "both_corrected_mse": 1.6967973290474342e-06
+  },
+  {
+    "network_id": 20029,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 2.9724342728156407e-05,
+    "stim_corrected_mse": 2.4153736133294113e-05,
+    "readouts_corrected_mse": 1.3626549769230726e-05,
+    "both_corrected_mse": 2.392836318048727e-07
+  },
+  {
+    "network_id": 20029,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 3.025354217977544e-05,
+    "stim_corrected_mse": 2.5198793300205496e-05,
+    "readouts_corrected_mse": 1.5142061499147409e-05,
+    "both_corrected_mse": 5.503157847716558e-08
+  },
+  {
+    "network_id": 20029,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 2.8909054375580123e-05,
+    "stim_corrected_mse": 2.163665277160741e-05,
+    "readouts_corrected_mse": 1.3061241522092928e-05,
+    "both_corrected_mse": 1.1223668680286001e-07
+  },
+  {
+    "network_id": 20029,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 3.007482259904002e-05,
+    "stim_corrected_mse": 2.4362153573003345e-05,
+    "readouts_corrected_mse": 1.4873954729370224e-05,
+    "both_corrected_mse": 2.9207721747519367e-09
+  },
+  {
+    "network_id": 20029,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 3.062943001091133e-05,
+    "stim_corrected_mse": 3.034208943350466e-05,
+    "readouts_corrected_mse": 1.434954689067546e-05,
+    "both_corrected_mse": 1.3880173948132068e-07
+  },
+  {
+    "network_id": 20029,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 2.9263279862605605e-05,
+    "stim_corrected_mse": 2.1940371406543697e-05,
+    "readouts_corrected_mse": 1.3796492051438184e-05,
+    "both_corrected_mse": 1.0603095583623923e-07
+  },
+  {
+    "network_id": 20030,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0002916135950248298,
+    "stim_corrected_mse": 0.0002815009307874272,
+    "readouts_corrected_mse": 0.0003187214918479488,
+    "both_corrected_mse": 8.825444648191481e-05
+  },
+  {
+    "network_id": 20030,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00028619485655698336,
+    "stim_corrected_mse": 0.0002637663309221796,
+    "readouts_corrected_mse": 0.000291090967541652,
+    "both_corrected_mse": 0.00010295003417146581
+  },
+  {
+    "network_id": 20030,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.00023958678718111396,
+    "stim_corrected_mse": 0.00035620627869690445,
+    "readouts_corrected_mse": 0.0002335627577042139,
+    "both_corrected_mse": 6.933096003924709e-05
+  },
+  {
+    "network_id": 20030,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0002731701072988782,
+    "stim_corrected_mse": 0.00032505811140345436,
+    "readouts_corrected_mse": 0.00029178900351455137,
+    "both_corrected_mse": 0.00010647635975833346
+  },
+  {
+    "network_id": 20030,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0002691996119557543,
+    "stim_corrected_mse": 0.00024311199111873058,
+    "readouts_corrected_mse": 0.00028556634755551156,
+    "both_corrected_mse": 8.48716751378583e-05
+  },
+  {
+    "network_id": 20030,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.00022672043195649276,
+    "stim_corrected_mse": 0.0004399773206889424,
+    "readouts_corrected_mse": 0.00019326482963094504,
+    "both_corrected_mse": 8.276213135880363e-05
+  },
+  {
+    "network_id": 20030,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.00021765121008318576,
+    "stim_corrected_mse": 0.00038208032435246576,
+    "readouts_corrected_mse": 0.00030920752791647625,
+    "both_corrected_mse": 3.062240372153481e-05
+  },
+  {
+    "network_id": 20030,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00013509419203505406,
+    "stim_corrected_mse": 0.00024671321816756243,
+    "readouts_corrected_mse": 0.0002906525677839625,
+    "both_corrected_mse": 2.9644593882764542e-05
+  },
+  {
+    "network_id": 20030,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.00023000106783529554,
+    "stim_corrected_mse": 0.00030025088318927096,
+    "readouts_corrected_mse": 0.0005203740535984698,
+    "both_corrected_mse": 1.3420680793633787e-05
+  },
+  {
+    "network_id": 20030,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.00044100349780913287,
+    "stim_corrected_mse": 0.0003144333588245295,
+    "readouts_corrected_mse": 0.001186772187590839,
+    "both_corrected_mse": 1.1719454162964188e-05
+  },
+  {
+    "network_id": 20030,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0002064994258572016,
+    "stim_corrected_mse": 0.00037877833141187686,
+    "readouts_corrected_mse": 0.00020391194504662576,
+    "both_corrected_mse": 4.1922214628593614e-05
+  },
+  {
+    "network_id": 20030,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0001985540034984667,
+    "stim_corrected_mse": 0.00039342429137203893,
+    "readouts_corrected_mse": 7.581947589639452e-05,
+    "both_corrected_mse": 6.273436185138548e-05
+  },
+  {
+    "network_id": 20031,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 9.687278588480561e-05,
+    "stim_corrected_mse": 1.5808880464016462e-05,
+    "readouts_corrected_mse": 2.0378738958589188e-05,
+    "both_corrected_mse": 3.82165848930319e-05
+  },
+  {
+    "network_id": 20031,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 7.87633992215781e-05,
+    "stim_corrected_mse": 8.77588750463363e-05,
+    "readouts_corrected_mse": 0.00015073415142987788,
+    "both_corrected_mse": 0.00023887440945949615
+  },
+  {
+    "network_id": 20031,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 5.9740819385627464e-05,
+    "stim_corrected_mse": 6.749951988720527e-06,
+    "readouts_corrected_mse": 1.918442489923178e-06,
+    "both_corrected_mse": 5.771510582564974e-05
+  },
+  {
+    "network_id": 20031,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.00015099645504316393,
+    "stim_corrected_mse": 1.8561344942521775e-05,
+    "readouts_corrected_mse": 8.493113578103761e-05,
+    "both_corrected_mse": 3.1621520511951555e-05
+  },
+  {
+    "network_id": 20031,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00010948685510041051,
+    "stim_corrected_mse": 2.153793617187829e-05,
+    "readouts_corrected_mse": 5.9650545170877124e-05,
+    "both_corrected_mse": 2.508866506526752e-05
+  },
+  {
+    "network_id": 20031,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 6.859118181568262e-05,
+    "stim_corrected_mse": 8.399246995207042e-07,
+    "readouts_corrected_mse": 7.891670180291221e-06,
+    "both_corrected_mse": 9.637286258254786e-05
+  },
+  {
+    "network_id": 20031,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0003663291354577005,
+    "stim_corrected_mse": 0.00012303040202452353,
+    "readouts_corrected_mse": 0.00015744380763421203,
+    "both_corrected_mse": 2.4069774875610202e-05
+  },
+  {
+    "network_id": 20031,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00020624441601783405,
+    "stim_corrected_mse": 0.0002608988331204614,
+    "readouts_corrected_mse": 1.9753768457548204e-07,
+    "both_corrected_mse": 3.748754306250033e-06
+  },
+  {
+    "network_id": 20031,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 4.434701167327917e-05,
+    "stim_corrected_mse": 6.305353130226872e-05,
+    "readouts_corrected_mse": 8.788600151371782e-06,
+    "both_corrected_mse": 2.344365128740926e-05
+  },
+  {
+    "network_id": 20031,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.00023553346462143587,
+    "stim_corrected_mse": 0.00013408788330342914,
+    "readouts_corrected_mse": 5.312620451007398e-05,
+    "both_corrected_mse": 1.3842929357017625e-05
+  },
+  {
+    "network_id": 20031,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00019674706953043107,
+    "stim_corrected_mse": 0.00024649729025204823,
+    "readouts_corrected_mse": 2.1142024347972593e-07,
+    "both_corrected_mse": 6.951455017728897e-06
+  },
+  {
+    "network_id": 20031,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 3.59128694854777e-05,
+    "stim_corrected_mse": 7.70172968724804e-05,
+    "readouts_corrected_mse": 7.023258673736677e-06,
+    "both_corrected_mse": 3.938252621924909e-05
+  },
+  {
+    "network_id": 20032,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 9.481404091382763e-05,
+    "stim_corrected_mse": 0.00010677226915654009,
+    "readouts_corrected_mse": 0.0001311871112961575,
+    "both_corrected_mse": 0.00014082242672474362
+  },
+  {
+    "network_id": 20032,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00011777708588392086,
+    "stim_corrected_mse": 9.618464059953856e-05,
+    "readouts_corrected_mse": 7.18149545201667e-05,
+    "both_corrected_mse": 2.218289974334133e-05
+  },
+  {
+    "network_id": 20032,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0006477459702996313,
+    "stim_corrected_mse": 0.00018262411518629932,
+    "readouts_corrected_mse": 0.000226323165617291,
+    "both_corrected_mse": 2.1892427917532676e-05
+  },
+  {
+    "network_id": 20032,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0002980853512553315,
+    "stim_corrected_mse": 0.000256455351302822,
+    "readouts_corrected_mse": 0.0003493875729366662,
+    "both_corrected_mse": 0.00026097290032499587
+  },
+  {
+    "network_id": 20032,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00036640622097142405,
+    "stim_corrected_mse": 0.00013240117430532254,
+    "readouts_corrected_mse": 0.00019937676739216912,
+    "both_corrected_mse": 7.59757189734723e-06
+  },
+  {
+    "network_id": 20032,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.00019829523129362563,
+    "stim_corrected_mse": 0.00026977317937790295,
+    "readouts_corrected_mse": 9.342872556634037e-05,
+    "both_corrected_mse": 0.0001660748289845361
+  },
+  {
+    "network_id": 20032,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 3.946396742773714e-05,
+    "stim_corrected_mse": 4.0882980142330996e-07,
+    "readouts_corrected_mse": 2.3656606057244434e-05,
+    "both_corrected_mse": 8.814605220786351e-07
+  },
+  {
+    "network_id": 20032,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 7.723702370706477e-05,
+    "stim_corrected_mse": 6.781484286344378e-07,
+    "readouts_corrected_mse": 6.900407279119345e-05,
+    "both_corrected_mse": 5.595106442893838e-07
+  },
+  {
+    "network_id": 20032,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 9.122137003552727e-05,
+    "stim_corrected_mse": 5.840226284452237e-07,
+    "readouts_corrected_mse": 7.006878593616671e-05,
+    "both_corrected_mse": 1.781784293675578e-07
+  },
+  {
+    "network_id": 20032,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 4.7340374145474684e-05,
+    "stim_corrected_mse": 3.3068716752264966e-07,
+    "readouts_corrected_mse": 4.249023529410089e-05,
+    "both_corrected_mse": 1.521990900285445e-07
+  },
+  {
+    "network_id": 20032,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 9.4140145819713e-05,
+    "stim_corrected_mse": 6.258056908981199e-07,
+    "readouts_corrected_mse": 9.838787669524901e-05,
+    "both_corrected_mse": 4.923930362628275e-07
+  },
+  {
+    "network_id": 20032,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 4.368471612737428e-05,
+    "stim_corrected_mse": 3.653524251603612e-07,
+    "readouts_corrected_mse": 2.5927503037911098e-05,
+    "both_corrected_mse": 4.6417042889003175e-07
+  },
+  {
+    "network_id": 20033,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 3.40456230358345e-05,
+    "stim_corrected_mse": 2.6761704181131032e-05,
+    "readouts_corrected_mse": 2.927201280556945e-06,
+    "both_corrected_mse": 4.072772140556928e-07
+  },
+  {
+    "network_id": 20033,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 2.897067135694954e-05,
+    "stim_corrected_mse": 2.201183906520743e-05,
+    "readouts_corrected_mse": 1.2289052351661692e-05,
+    "both_corrected_mse": 8.65283895356333e-06
+  },
+  {
+    "network_id": 20033,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 2.606495744943706e-05,
+    "stim_corrected_mse": 2.0779194030472244e-05,
+    "readouts_corrected_mse": 2.4454065885960085e-06,
+    "both_corrected_mse": 2.2880422245543587e-06
+  },
+  {
+    "network_id": 20033,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 3.0341704892919733e-05,
+    "stim_corrected_mse": 2.1940170647422496e-05,
+    "readouts_corrected_mse": 2.038819374114521e-06,
+    "both_corrected_mse": 1.1629019669028476e-06
+  },
+  {
+    "network_id": 20033,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 2.5316049728981468e-05,
+    "stim_corrected_mse": 1.9992459854594166e-05,
+    "readouts_corrected_mse": 2.6851799811400517e-06,
+    "both_corrected_mse": 1.890645423844543e-06
+  },
+  {
+    "network_id": 20033,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 2.8938793986298014e-05,
+    "stim_corrected_mse": 2.1898726229661283e-05,
+    "readouts_corrected_mse": 4.7745884310517495e-06,
+    "both_corrected_mse": 3.849386966014229e-06
+  },
+  {
+    "network_id": 20033,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 2.1062428572410876e-05,
+    "stim_corrected_mse": 9.13327475448466e-06,
+    "readouts_corrected_mse": 3.4776397179771196e-05,
+    "both_corrected_mse": 2.7780584427787386e-05
+  },
+  {
+    "network_id": 20033,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 1.84439508693433e-05,
+    "stim_corrected_mse": 8.326619502925212e-06,
+    "readouts_corrected_mse": 2.2278480239175266e-05,
+    "both_corrected_mse": 1.086937159302982e-05
+  },
+  {
+    "network_id": 20033,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 1.3664368498673702e-05,
+    "stim_corrected_mse": 2.520580481527504e-05,
+    "readouts_corrected_mse": 1.2712111681842798e-05,
+    "both_corrected_mse": 4.50041132285747e-07
+  },
+  {
+    "network_id": 20033,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 1.8586376679041946e-05,
+    "stim_corrected_mse": 5.006065915963303e-06,
+    "readouts_corrected_mse": 3.327957693690288e-05,
+    "both_corrected_mse": 2.3478157430858058e-05
+  },
+  {
+    "network_id": 20033,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 1.710312723598169e-05,
+    "stim_corrected_mse": 6.648008622218181e-06,
+    "readouts_corrected_mse": 2.048324840064012e-05,
+    "both_corrected_mse": 8.28499618849814e-06
+  },
+  {
+    "network_id": 20033,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 1.5793967221422484e-05,
+    "stim_corrected_mse": 6.815097043005587e-06,
+    "readouts_corrected_mse": 1.8480158028948172e-05,
+    "both_corrected_mse": 5.702424872050148e-06
+  },
+  {
+    "network_id": 20034,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.00048815591364383923,
+    "stim_corrected_mse": 7.371142362088864e-05,
+    "readouts_corrected_mse": 0.0005140849435006072,
+    "both_corrected_mse": 2.0230093202400853e-05
+  },
+  {
+    "network_id": 20034,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0009457696336205875,
+    "stim_corrected_mse": 0.00023957373044065661,
+    "readouts_corrected_mse": 0.0009360803540553412,
+    "both_corrected_mse": 0.00024907071337042203
+  },
+  {
+    "network_id": 20034,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.00023715256073430393,
+    "stim_corrected_mse": 3.482139750110422e-05,
+    "readouts_corrected_mse": 0.00029849637116764635,
+    "both_corrected_mse": 1.4612538310908234e-07
+  },
+  {
+    "network_id": 20034,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0005469355831341923,
+    "stim_corrected_mse": 0.00010547033921821339,
+    "readouts_corrected_mse": 0.000547888987359103,
+    "both_corrected_mse": 6.405051898303626e-05
+  },
+  {
+    "network_id": 20034,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0005491712274970398,
+    "stim_corrected_mse": 7.941749365127585e-05,
+    "readouts_corrected_mse": 0.0005473972058856367,
+    "both_corrected_mse": 4.317125791622118e-05
+  },
+  {
+    "network_id": 20034,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.000356584569106551,
+    "stim_corrected_mse": 6.25846150735263e-05,
+    "readouts_corrected_mse": 0.0004292225617252697,
+    "both_corrected_mse": 4.604393990486274e-06
+  },
+  {
+    "network_id": 20034,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0005613380417811604,
+    "stim_corrected_mse": 0.000672947166275256,
+    "readouts_corrected_mse": 8.939105073717763e-05,
+    "both_corrected_mse": 0.00012032394603862438
+  },
+  {
+    "network_id": 20034,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.000679647722173526,
+    "stim_corrected_mse": 0.0008411986030842838,
+    "readouts_corrected_mse": 9.267440517122457e-05,
+    "both_corrected_mse": 8.166130134293837e-05
+  },
+  {
+    "network_id": 20034,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0006514817044270578,
+    "stim_corrected_mse": 0.0007214962068346943,
+    "readouts_corrected_mse": 5.868000660363843e-05,
+    "both_corrected_mse": 6.275660746038639e-05
+  },
+  {
+    "network_id": 20034,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0004934654355942628,
+    "stim_corrected_mse": 0.0004712558162743873,
+    "readouts_corrected_mse": 3.652341424826598e-05,
+    "both_corrected_mse": 3.531952607178462e-05
+  },
+  {
+    "network_id": 20034,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0005960311346401944,
+    "stim_corrected_mse": 0.0006840302450031406,
+    "readouts_corrected_mse": 8.681704561108872e-05,
+    "both_corrected_mse": 0.00011157380186506432
+  },
+  {
+    "network_id": 20034,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0005838007040667943,
+    "stim_corrected_mse": 0.0006864693318500329,
+    "readouts_corrected_mse": 7.192284952176701e-05,
+    "both_corrected_mse": 8.978021208544342e-05
+  },
+  {
+    "network_id": 20035,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 3.728858245301336e-05,
+    "stim_corrected_mse": 6.005942985395807e-05,
+    "readouts_corrected_mse": 1.154084986524085e-06,
+    "both_corrected_mse": 2.0069393965517768e-08
+  },
+  {
+    "network_id": 20035,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 3.190329126422706e-05,
+    "stim_corrected_mse": 5.919339925368608e-05,
+    "readouts_corrected_mse": 1.7928895014540886e-06,
+    "both_corrected_mse": 7.933934854449475e-08
+  },
+  {
+    "network_id": 20035,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 5.487090924913781e-05,
+    "stim_corrected_mse": 7.827295501087287e-05,
+    "readouts_corrected_mse": 3.440226977242094e-07,
+    "both_corrected_mse": 1.3933019882439003e-07
+  },
+  {
+    "network_id": 20035,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 3.38578670955772e-05,
+    "stim_corrected_mse": 5.922348942107218e-05,
+    "readouts_corrected_mse": 1.0840993086802223e-06,
+    "both_corrected_mse": 2.99800730899935e-07
+  },
+  {
+    "network_id": 20035,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 3.240785121385234e-05,
+    "stim_corrected_mse": 6.557641436715025e-05,
+    "readouts_corrected_mse": 1.9481725752942635e-06,
+    "both_corrected_mse": 1.1744707711775232e-07
+  },
+  {
+    "network_id": 20035,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 6.171997547717703e-05,
+    "stim_corrected_mse": 7.930271897195045e-05,
+    "readouts_corrected_mse": 7.96379494556281e-07,
+    "both_corrected_mse": 2.274416377274719e-06
+  },
+  {
+    "network_id": 20035,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.000906156390595934,
+    "stim_corrected_mse": 0.0005861380579005931,
+    "readouts_corrected_mse": 0.0004434828682061669,
+    "both_corrected_mse": 3.020601275811038e-05
+  },
+  {
+    "network_id": 20035,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0008813813217531367,
+    "stim_corrected_mse": 0.0005469865371381871,
+    "readouts_corrected_mse": 0.0005218700269222027,
+    "both_corrected_mse": 5.931486862670751e-05
+  },
+  {
+    "network_id": 20035,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0007796804120234553,
+    "stim_corrected_mse": 0.0004100413056089028,
+    "readouts_corrected_mse": 0.00045544766425561394,
+    "both_corrected_mse": 1.2844856946749014e-05
+  },
+  {
+    "network_id": 20035,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0009729307741361583,
+    "stim_corrected_mse": 0.0007572692120780669,
+    "readouts_corrected_mse": 0.0003780531183224472,
+    "both_corrected_mse": 3.259407048880376e-05
+  },
+  {
+    "network_id": 20035,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0008786902516658802,
+    "stim_corrected_mse": 0.000524799142257108,
+    "readouts_corrected_mse": 0.0005023523387046981,
+    "both_corrected_mse": 3.96461518061464e-05
+  },
+  {
+    "network_id": 20035,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.000904237206538699,
+    "stim_corrected_mse": 0.0005895604389545536,
+    "readouts_corrected_mse": 0.00044711305260123783,
+    "both_corrected_mse": 2.1308077176542314e-05
+  },
+  {
+    "network_id": 20036,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.00015969435121214467,
+    "stim_corrected_mse": 0.00015993474819357784,
+    "readouts_corrected_mse": 0.0001846081148500231,
+    "both_corrected_mse": 0.0001849036369942652
+  },
+  {
+    "network_id": 20036,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 2.2134786039389094e-05,
+    "stim_corrected_mse": 2.4557942836827016e-05,
+    "readouts_corrected_mse": 6.865574203947271e-05,
+    "both_corrected_mse": 0.00011271465913171648
+  },
+  {
+    "network_id": 20036,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 4.5131888870795875e-06,
+    "stim_corrected_mse": 1.9516585232345943e-05,
+    "readouts_corrected_mse": 8.062845975670231e-06,
+    "both_corrected_mse": 9.695900697571048e-06
+  },
+  {
+    "network_id": 20036,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 2.915480443125589e-05,
+    "stim_corrected_mse": 7.22909927670009e-05,
+    "readouts_corrected_mse": 3.257283134549505e-05,
+    "both_corrected_mse": 0.00010756063603654008
+  },
+  {
+    "network_id": 20036,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 7.78624187835088e-05,
+    "stim_corrected_mse": 5.689635181328461e-05,
+    "readouts_corrected_mse": 0.0002456194490603301,
+    "both_corrected_mse": 0.0001258211212958792
+  },
+  {
+    "network_id": 20036,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 8.2330534329071e-06,
+    "stim_corrected_mse": 7.283589143516428e-06,
+    "readouts_corrected_mse": 2.5274395998205624e-05,
+    "both_corrected_mse": 4.7460043603029976e-05
+  },
+  {
+    "network_id": 20036,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0003296744206326956,
+    "stim_corrected_mse": 0.0005740355579620341,
+    "readouts_corrected_mse": 0.00011303140399515117,
+    "both_corrected_mse": 2.6476468082791205e-05
+  },
+  {
+    "network_id": 20036,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00020964322477365357,
+    "stim_corrected_mse": 0.0004401859769345956,
+    "readouts_corrected_mse": 8.681861026312039e-05,
+    "both_corrected_mse": 3.159930952539024e-06
+  },
+  {
+    "network_id": 20036,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0002138590173509233,
+    "stim_corrected_mse": 0.0005046567786398525,
+    "readouts_corrected_mse": 9.216672355365618e-05,
+    "both_corrected_mse": 3.5039983421000964e-07
+  },
+  {
+    "network_id": 20036,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.00024683385920790617,
+    "stim_corrected_mse": 0.0005151952598319942,
+    "readouts_corrected_mse": 0.00010173645607016059,
+    "both_corrected_mse": 7.9001394187787e-06
+  },
+  {
+    "network_id": 20036,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00034833628986919774,
+    "stim_corrected_mse": 0.00026937314289987607,
+    "readouts_corrected_mse": 5.516654266937753e-05,
+    "both_corrected_mse": 9.489800923236932e-05
+  },
+  {
+    "network_id": 20036,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0002187217040299805,
+    "stim_corrected_mse": 0.00037500865727685694,
+    "readouts_corrected_mse": 8.09832536519751e-05,
+    "both_corrected_mse": 1.0726674582865527e-05
+  },
+  {
+    "network_id": 20037,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 1.8930720732254846e-06,
+    "stim_corrected_mse": 1.0244641270600048e-05,
+    "readouts_corrected_mse": 1.4951859792762192e-05,
+    "both_corrected_mse": 1.7048252719197e-06
+  },
+  {
+    "network_id": 20037,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 3.279427884874434e-06,
+    "stim_corrected_mse": 6.191098850917926e-06,
+    "readouts_corrected_mse": 5.8261448804846284e-05,
+    "both_corrected_mse": 2.257480152532566e-07
+  },
+  {
+    "network_id": 20037,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 2.864299049691536e-06,
+    "stim_corrected_mse": 6.571197982590258e-06,
+    "readouts_corrected_mse": 7.29748437034901e-05,
+    "both_corrected_mse": 4.218283111340178e-07
+  },
+  {
+    "network_id": 20037,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 8.171904738285265e-07,
+    "stim_corrected_mse": 7.860201498643362e-06,
+    "readouts_corrected_mse": 2.9643436367596073e-05,
+    "both_corrected_mse": 1.9640313155709166e-08
+  },
+  {
+    "network_id": 20037,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 5.809867132852484e-07,
+    "stim_corrected_mse": 8.422732501372543e-06,
+    "readouts_corrected_mse": 2.7489491602069874e-05,
+    "both_corrected_mse": 4.859837023129687e-07
+  },
+  {
+    "network_id": 20037,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 7.558627865672404e-06,
+    "stim_corrected_mse": 1.1020412419652192e-05,
+    "readouts_corrected_mse": 6.327501224728331e-06,
+    "both_corrected_mse": 5.3222346261204715e-06
+  },
+  {
+    "network_id": 20037,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 2.6662613864371623e-06,
+    "stim_corrected_mse": 2.9911084526259556e-05,
+    "readouts_corrected_mse": 1.713300318741051e-05,
+    "both_corrected_mse": 8.915598181467342e-07
+  },
+  {
+    "network_id": 20037,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 1.178156587187588e-05,
+    "stim_corrected_mse": 7.784224840856838e-06,
+    "readouts_corrected_mse": 1.8700631439516225e-05,
+    "both_corrected_mse": 1.2047234165429804e-06
+  },
+  {
+    "network_id": 20037,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 4.207861436377179e-05,
+    "stim_corrected_mse": 1.5795972014323906e-05,
+    "readouts_corrected_mse": 3.429483301720151e-05,
+    "both_corrected_mse": 1.0987032156840355e-05
+  },
+  {
+    "network_id": 20037,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 1.1171512459517574e-05,
+    "stim_corrected_mse": 1.2326054131832502e-05,
+    "readouts_corrected_mse": 2.364690628302819e-05,
+    "both_corrected_mse": 1.0618758625508103e-06
+  },
+  {
+    "network_id": 20037,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 1.5222578402933207e-05,
+    "stim_corrected_mse": 9.303231931953302e-06,
+    "readouts_corrected_mse": 2.670714295459707e-05,
+    "both_corrected_mse": 9.373745388541929e-07
+  },
+  {
+    "network_id": 20037,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 1.7350411861351527e-05,
+    "stim_corrected_mse": 4.035036510492543e-06,
+    "readouts_corrected_mse": 4.090344774259412e-05,
+    "both_corrected_mse": 9.384788546276385e-06
+  },
+  {
+    "network_id": 20038,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0004217580836762324,
+    "stim_corrected_mse": 0.00019167934962655304,
+    "readouts_corrected_mse": 0.00013289349961062327,
+    "both_corrected_mse": 5.850392752730553e-05
+  },
+  {
+    "network_id": 20038,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0003428874474163974,
+    "stim_corrected_mse": 0.00020122564727044297,
+    "readouts_corrected_mse": 5.9777567370361414e-05,
+    "both_corrected_mse": 1.1790812393186679e-05
+  },
+  {
+    "network_id": 20038,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0003360493341235289,
+    "stim_corrected_mse": 0.0002193553349130709,
+    "readouts_corrected_mse": 3.0508786622174106e-05,
+    "both_corrected_mse": 2.0494094883132093e-05
+  },
+  {
+    "network_id": 20038,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.00046661541543527047,
+    "stim_corrected_mse": 0.00032267578751298594,
+    "readouts_corrected_mse": 0.00012157185966219609,
+    "both_corrected_mse": 3.148594411036591e-06
+  },
+  {
+    "network_id": 20038,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.00028186814554956546,
+    "stim_corrected_mse": 0.0002820612371517818,
+    "readouts_corrected_mse": 1.084159927919782e-05,
+    "both_corrected_mse": 1.0946130439546115e-05
+  },
+  {
+    "network_id": 20038,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.00030937282530998553,
+    "stim_corrected_mse": 0.000225491070001891,
+    "readouts_corrected_mse": 2.6093210139178965e-05,
+    "both_corrected_mse": 6.601487774429253e-06
+  },
+  {
+    "network_id": 20038,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.002257944082552237,
+    "stim_corrected_mse": 3.677066595076744e-05,
+    "readouts_corrected_mse": 0.0009251636800310586,
+    "both_corrected_mse": 2.0053207667891673e-06
+  },
+  {
+    "network_id": 20038,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0017971177136183174,
+    "stim_corrected_mse": 3.167706313218414e-05,
+    "readouts_corrected_mse": 0.0009029921075343998,
+    "both_corrected_mse": 1.4217885301173992e-06
+  },
+  {
+    "network_id": 20038,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0010196285510693545,
+    "stim_corrected_mse": 3.027736764134439e-05,
+    "readouts_corrected_mse": 0.0004322391184426707,
+    "both_corrected_mse": 1.184177597344397e-06
+  },
+  {
+    "network_id": 20038,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0008543966303714605,
+    "stim_corrected_mse": 2.4724719514138102e-05,
+    "readouts_corrected_mse": 0.0002874448688036184,
+    "both_corrected_mse": 1.0759644907780488e-07
+  },
+  {
+    "network_id": 20038,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0016534720436600094,
+    "stim_corrected_mse": 6.615424341293372e-05,
+    "readouts_corrected_mse": 0.0006298473391048821,
+    "both_corrected_mse": 8.63059423502153e-06
+  },
+  {
+    "network_id": 20038,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0009232301535966421,
+    "stim_corrected_mse": 4.519217968071697e-05,
+    "readouts_corrected_mse": 0.00036628776253673154,
+    "both_corrected_mse": 4.012428069735669e-06
+  },
+  {
+    "network_id": 20039,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.0015555113628995599,
+    "stim_corrected_mse": 0.0008259208033428938,
+    "readouts_corrected_mse": 0.0011126614944536812,
+    "both_corrected_mse": 0.00027332771471741223
+  },
+  {
+    "network_id": 20039,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.0016098897623885273,
+    "stim_corrected_mse": 0.0008906641204605251,
+    "readouts_corrected_mse": 0.0010576656090623667,
+    "both_corrected_mse": 0.000211672236478405
+  },
+  {
+    "network_id": 20039,
+    "truth_id": 0,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0016072459363017048,
+    "stim_corrected_mse": 0.0008975737595543236,
+    "readouts_corrected_mse": 0.0011415265542199932,
+    "both_corrected_mse": 0.0002931679316415982
+  },
+  {
+    "network_id": 20039,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0008818616816335268,
+    "stim_corrected_mse": 0.0003991187643395677,
+    "readouts_corrected_mse": 0.0004375282513037408,
+    "both_corrected_mse": 2.4062629082280952e-06
+  },
+  {
+    "network_id": 20039,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.0015786038361583201,
+    "stim_corrected_mse": 0.0007517916055744281,
+    "readouts_corrected_mse": 0.0010791931298035232,
+    "both_corrected_mse": 0.00018085635271245857
+  },
+  {
+    "network_id": 20039,
+    "truth_id": 0,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0016868500741312718,
+    "stim_corrected_mse": 0.0010252826831886946,
+    "readouts_corrected_mse": 0.0011922007194568854,
+    "both_corrected_mse": 0.00034871713366846764
+  },
+  {
+    "network_id": 20039,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 0,
+    "response_mse": 0.00041737640739694415,
+    "stim_corrected_mse": 0.00034675094345956985,
+    "readouts_corrected_mse": 0.00031400382384024167,
+    "both_corrected_mse": 0.0002516986827062277
+  },
+  {
+    "network_id": 20039,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 1,
+    "response_mse": 0.00044611485108850783,
+    "stim_corrected_mse": 0.0003046626822444528,
+    "readouts_corrected_mse": 0.0002708647050899936,
+    "both_corrected_mse": 0.00014695725932221745
+  },
+  {
+    "network_id": 20039,
+    "truth_id": 1,
+    "noise_id": 0,
+    "replicate": 2,
+    "response_mse": 0.0005468560857099901,
+    "stim_corrected_mse": 0.0005445560356271191,
+    "readouts_corrected_mse": 0.001534021898547933,
+    "both_corrected_mse": 0.00152825286467914
+  },
+  {
+    "network_id": 20039,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 0,
+    "response_mse": 0.0004914693332646031,
+    "stim_corrected_mse": 0.00038348671221985356,
+    "readouts_corrected_mse": 0.0002481550322063116,
+    "both_corrected_mse": 0.00014577411407341306
+  },
+  {
+    "network_id": 20039,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 1,
+    "response_mse": 0.000390425969006064,
+    "stim_corrected_mse": 0.0002859562499608515,
+    "readouts_corrected_mse": 0.00014969431265617698,
+    "both_corrected_mse": 6.892871522759849e-05
+  },
+  {
+    "network_id": 20039,
+    "truth_id": 1,
+    "noise_id": 1,
+    "replicate": 2,
+    "response_mse": 0.0003722082896804925,
+    "stim_corrected_mse": 0.0003770917677869256,
+    "readouts_corrected_mse": 0.0001982123846772157,
+    "both_corrected_mse": 0.000203469941321547
+  }
+]

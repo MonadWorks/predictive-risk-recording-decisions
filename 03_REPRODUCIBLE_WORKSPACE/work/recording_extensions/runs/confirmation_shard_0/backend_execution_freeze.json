@@ -1,0 +1,15 @@
+{
+  "backend": "rank2 exact reduced state / RK4 stages / analytic ZOH input filter",
+  "substeps": 2,
+  "timestamp_utc": "2026-10-18T09:26:08.002818+00:00",
+  "source_hashes": {
+    "models.py": "8623e5a2ae7494d8c6445a2f8460cd2fbf641ae47721c4f436d49e45bcd578dc",
+    "design.py": "58fea60cbb734c5634f1b963902c242c777000fa24f8ae6b7771499af9692309",
+    "inference.py": "e7b10dccfdc6ff426ae0493fb75f4ff8bcf274932963176a55110ffb3d0e3eb7",
+    "run.py": "2b9a36044a6362d6f8e0e8fba226f77c2ddd5906b7d9fc8fac098ee7127e9044",
+    "rank2_refined.py": "09a3295a43a64d3a7573fab852bbdec7648ddd61771834d3e690feabb693a73f",
+    "run_rank2.py": "1f07cfa7550e532126686207f3039d318c53cbb75b001992e96d00876ee28f5e"
+  },
+  "protocol_sha256": "8268e4827d78c13f81233e14dedd8004368dd782fb1369b0b1e3566985da8372",
+  "response_integral": "RK4 quadrature for all N output rows and all raw-gain derivatives"
+}

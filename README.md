@@ -5,7 +5,6 @@ Private research collaboration workspace for **Predictive Risk and Recording Dec
 ## Start here
 
 - [Current manuscript PDF](01_READ_CURRENT/paper_current.pdf) · [Markdown source](01_READ_CURRENT/paper_current.md)
-- [Current graphical abstract v5](01_READ_CURRENT/graphical_abstract.pdf) · [PNG](01_READ_CURRENT/graphical_abstract.png)
 - [Research narrative and version audit](01_研究主线与版本审计.md)
 - [Reproduction and code entry points](02_重现与代码入口.md)
 - [Collaboration context and decisions](COLLABORATION.md)
@@ -22,9 +21,18 @@ Private research collaboration workspace for **Predictive Risk and Recording Dec
 
 ## Current status
 
-The manuscript is 22 pages. Graphical abstract v5 includes the exact takeaway **Better risk estimates do not necessarily make better recording decisions.** The previous version without that sentence is retained with its source at `03_REPRODUCIBLE_WORKSPACE/outputs/graphical_abstract/versions/v4_without_key_finding/`. The paper PDF did not change for this standalone graphical abstract revision.
+The current manuscript follows endpoint allocation, response uncertainty, recurrent parameter combinations and acquisition of information through a fifth recording. Its five main figures follow that sequence and the structural checks. Original criterion studies, their frozen primary comparisons and detailed fitting/budget diagnostics are retained in the supplementary analyses, with a summary of their outcomes in the main Results. The 100-unit evidence now comprises eight pilot networks and seven disjoint 40-network cohorts (288 base networks total); repeated analyses of a cohort are not additional networks.
 
-This is a simulation-based study, prepared but not submitted. Primary error and forecast-score intervals include zero; the 100-unit extension is exploratory. Frozen numerical results and historical outputs are retained for traceability. Historical submission drafts and receipts describe their own snapshots, not necessarily the current draft.
+At a fixed budget of five recordings, joint stimulation/readout coverage reduced held-out response MSE by 96.44% in the initial cohort and 98.13% in independent validation. Response-range searches, recording-precision changes and gain-information controls support a task-specific information mechanism. Endpoint allocation retained a 92.08% MSE reduction under rank-six augmentation; random rank-six and positive-gain conditions remain less certain.
+
+Recurrent gain combinations supplied additional predictive information after endpoint gains were known. Relative to an equal-dimensional ordinary-gain control, response MSE changed by -91.45% in the first follow-up and -68.41% in independent confirmation. The latter 95% interval was -94.86% to -10.68%; its three-comparison-adjusted interval crossed zero. On those new forty networks, retaining the four endpoint recordings and selecting a fifth site for the internal combinations reduced the squared feasible width along a prespecified direction by 27.15% (adjusted interval: 12.69%–43.18% reduction). Its response-MSE change, -8.95%, remained uncertain. This connects the mechanism to information acquired by simulated recordings without establishing an additional predictive advantage for the combination criterion.
+
+The prior-averaging and covariance-based comparisons likewise do not establish a robust additional method advantage after fitting sensitivity is considered. Under budgets two and three with unequal recording precision, pair lookahead matched ensemble-greedy sets in 237/240 settings and added negligible benefit. These findings concern the tested simulations.
+
+- [Extension code, protocols and numerical records](03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/)
+- [Current canonical manuscript and build source](03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/)
+
+The [historical criterion-comparison graphical abstract](01_READ_CURRENT/graphical_abstract.pdf) retains the criterion-comparison takeaway **Better risk estimates do not necessarily make better recording decisions.** It has not been redesigned to summarize the endpoint and mechanism findings. Historical manuscripts, receipts and audits retain their original scope. The study has not been submitted.
 
 ## Verify
 

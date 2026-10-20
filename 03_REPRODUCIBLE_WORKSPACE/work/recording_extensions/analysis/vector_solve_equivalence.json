@@ -1,0 +1,50 @@
+[
+  {
+    "method": "local_vector",
+    "budget": 5,
+    "identical_nodes": true,
+    "max_absolute_cost_difference": 1.6940658945086007e-20
+  },
+  {
+    "method": "ensemble_vector",
+    "budget": 5,
+    "identical_nodes": true,
+    "max_absolute_cost_difference": 1.0164395367051604e-19
+  },
+  {
+    "method": "ensemble_fixed_goal",
+    "budget": 5,
+    "identical_nodes": true,
+    "max_absolute_cost_difference": 1.0164395367051604e-20
+  },
+  {
+    "method": "ensemble_fixed_info",
+    "budget": 5,
+    "identical_nodes": true,
+    "max_absolute_cost_difference": 0.0
+  },
+  {
+    "method": "local_vector",
+    "budget": 10,
+    "identical_nodes": true,
+    "max_absolute_cost_difference": 2.371692252312041e-20
+  },
+  {
+    "method": "ensemble_vector",
+    "budget": 10,
+    "identical_nodes": true,
+    "max_absolute_cost_difference": 1.0164395367051604e-19
+  },
+  {
+    "method": "ensemble_fixed_goal",
+    "budget": 10,
+    "identical_nodes": true,
+    "max_absolute_cost_difference": 1.0164395367051604e-20
+  },
+  {
+    "method": "ensemble_fixed_info",
+    "budget": 10,
+    "identical_nodes": true,
+    "max_absolute_cost_difference": 0.0
+  }
+]

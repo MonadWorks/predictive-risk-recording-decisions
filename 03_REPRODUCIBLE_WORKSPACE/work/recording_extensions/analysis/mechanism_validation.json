@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "four rules match direct first-step risk calculation",
+    "exact three-component risk decomposition",
+    "fixed-information averaging identity",
+    "parameter-invariant null gives identical choices",
+    "maximum-budget prefix cache preserves greedy choice"
+  ],
+  "development_network": 19001,
+  "production_networks_used": false
+}

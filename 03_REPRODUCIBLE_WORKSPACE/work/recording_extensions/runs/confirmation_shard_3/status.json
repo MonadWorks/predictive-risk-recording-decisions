@@ -1,0 +1,33 @@
+{
+  "complete": true,
+  "networks_completed": [
+    20003,
+    20007,
+    20011,
+    20015,
+    20019,
+    20023,
+    20027,
+    20031,
+    20035,
+    20039
+  ],
+  "networks_planned": [
+    20003,
+    20007,
+    20011,
+    20015,
+    20019,
+    20023,
+    20027,
+    20031,
+    20035,
+    20039
+  ],
+  "evaluated_rows": 3840,
+  "actual_optimizer_calls": 1760,
+  "cached_dataset_reuses": 160,
+  "elapsed_seconds": 3448.2394643339794,
+  "warmup_seconds": 0.26483204204123467,
+  "status": "complete"
+}

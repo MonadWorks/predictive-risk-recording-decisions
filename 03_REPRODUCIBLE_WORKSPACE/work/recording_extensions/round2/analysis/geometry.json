@@ -1,0 +1,1882 @@
+[
+  {
+    "network_id": 20000,
+    "stim": 30,
+    "readouts": [
+      55,
+      25,
+      5
+    ],
+    "prior_risk": 0.00047770030429295597,
+    "stim_gradient_fraction": 0.33281068751727444,
+    "readout_gradient_fraction": 0.38973243765717586,
+    "other_gradient_fraction": 0.2774568748255497,
+    "policies": {
+      "neither": {
+        "risk": 0.00028679212495656,
+        "fraction_removed_if_stim_gains_known": 0.3941272593747342,
+        "fraction_removed_if_readouts_gains_known": 0.5695133037981476,
+        "fraction_removed_if_both_gains_known": 0.989005385257741,
+        "stim_variance_fraction": 0.6717848080002091,
+        "readout_variance_fraction": 0.9253956606631867
+      },
+      "stim_only": {
+        "risk": 0.0001728877995293144,
+        "fraction_removed_if_stim_gains_known": 0.0016704284498962687,
+        "fraction_removed_if_readouts_gains_known": 0.983424960905282,
+        "fraction_removed_if_both_gains_known": 0.9851995413780484,
+        "stim_variance_fraction": 0.0027344818929768175,
+        "readout_variance_fraction": 0.9203740522368621
+      },
+      "readouts_only": {
+        "risk": 0.0001198826102827767,
+        "fraction_removed_if_stim_gains_known": 0.9861497557441519,
+        "fraction_removed_if_readouts_gains_known": 0.01148325615789973,
+        "fraction_removed_if_both_gains_known": 0.9890305712288847,
+        "stim_variance_fraction": 0.6572137702366821,
+        "readout_variance_fraction": 0.001536806912624097
+      },
+      "both": {
+        "risk": 2.422791720753832e-06,
+        "fraction_removed_if_stim_gains_known": 0.27971692859339675,
+        "fraction_removed_if_readouts_gains_known": 0.3551588229258111,
+        "fraction_removed_if_both_gains_known": 0.41723768367249675,
+        "stim_variance_fraction": 0.002175246151250359,
+        "readout_variance_fraction": 0.0015644085864880827
+      }
+    }
+  },
+  {
+    "network_id": 20001,
+    "stim": 15,
+    "readouts": [
+      68,
+      81,
+      55
+    ],
+    "prior_risk": 0.0001167493634344216,
+    "stim_gradient_fraction": 0.0788927719536174,
+    "readout_gradient_fraction": 0.04346451425987978,
+    "other_gradient_fraction": 0.877642713786503,
+    "policies": {
+      "neither": {
+        "risk": 1.1093370073276188e-05,
+        "fraction_removed_if_stim_gains_known": 0.552432250977201,
+        "fraction_removed_if_readouts_gains_known": 0.4506630381827204,
+        "fraction_removed_if_both_gains_known": 0.980752250350946,
+        "stim_variance_fraction": 0.967848874601049,
+        "readout_variance_fraction": 0.8528637242312814
+      },
+      "stim_only": {
+        "risk": 4.906416564863247e-06,
+        "fraction_removed_if_stim_gains_known": 0.011247763248224352,
+        "fraction_removed_if_readouts_gains_known": 0.9618824088664386,
+        "fraction_removed_if_both_gains_known": 0.9639751278872294,
+        "stim_variance_fraction": 0.0003682452199017961,
+        "readout_variance_fraction": 0.8478628150769748
+      },
+      "readouts_only": {
+        "risk": 6.049300261209989e-06,
+        "fraction_removed_if_stim_gains_known": 0.9711689266328566,
+        "fraction_removed_if_readouts_gains_known": 0.0014142624210582398,
+        "fraction_removed_if_both_gains_known": 0.973734601428164,
+        "stim_variance_fraction": 0.9641138095252243,
+        "readout_variance_fraction": 0.000931986099106151
+      },
+      "both": {
+        "risk": 1.6269110721154616e-07,
+        "fraction_removed_if_stim_gains_known": 0.0686218563439607,
+        "fraction_removed_if_readouts_gains_known": 0.08032462090844798,
+        "fraction_removed_if_both_gains_known": 0.10461475212180994,
+        "stim_variance_fraction": 0.0003268892363431553,
+        "readout_variance_fraction": 0.0008957496459478027
+      }
+    }
+  },
+  {
+    "network_id": 20002,
+    "stim": 0,
+    "readouts": [
+      52,
+      47,
+      44
+    ],
+    "prior_risk": 6.73417472360862e-05,
+    "stim_gradient_fraction": 0.3054557082091425,
+    "readout_gradient_fraction": 0.294899736654671,
+    "other_gradient_fraction": 0.3996445551361864,
+    "policies": {
+      "neither": {
+        "risk": 3.558232071204262e-05,
+        "fraction_removed_if_stim_gains_known": 0.5708687296852429,
+        "fraction_removed_if_readouts_gains_known": 0.4251720267890314,
+        "fraction_removed_if_both_gains_known": 0.995623022310669,
+        "stim_variance_fraction": 0.9993419704969883,
+        "readout_variance_fraction": 0.9044230773311992
+      },
+      "stim_only": {
+        "risk": 1.533510591676891e-05,
+        "fraction_removed_if_stim_gains_known": 0.006854008136450177,
+        "fraction_removed_if_readouts_gains_known": 0.9777321178090443,
+        "fraction_removed_if_both_gains_known": 0.9905604250433214,
+        "stim_variance_fraction": 0.00565736488673001,
+        "readout_variance_fraction": 0.9046496263090189
+      },
+      "readouts_only": {
+        "risk": 2.050539323811328e-05,
+        "fraction_removed_if_stim_gains_known": 0.989274366649305,
+        "fraction_removed_if_readouts_gains_known": 0.002341201464797676,
+        "fraction_removed_if_both_gains_known": 0.9924426011645665,
+        "stim_variance_fraction": 0.9993899072274809,
+        "readout_variance_fraction": 0.008242077038763788
+      },
+      "both": {
+        "risk": 5.220665490164876e-07,
+        "fraction_removed_if_stim_gains_known": 0.6175330446446201,
+        "fraction_removed_if_readouts_gains_known": 0.35583738393040537,
+        "fraction_removed_if_both_gains_known": 0.6814290687370473,
+        "stim_variance_fraction": 0.006882738198148525,
+        "readout_variance_fraction": 0.008716140204565669
+      }
+    }
+  },
+  {
+    "network_id": 20003,
+    "stim": 51,
+    "readouts": [
+      30,
+      28,
+      13
+    ],
+    "prior_risk": 0.0746469558921626,
+    "stim_gradient_fraction": 0.008344513154978082,
+    "readout_gradient_fraction": 0.04295400082579399,
+    "other_gradient_fraction": 0.9487014860192279,
+    "policies": {
+      "neither": {
+        "risk": 0.0008181960022689191,
+        "fraction_removed_if_stim_gains_known": 0.4407774947024823,
+        "fraction_removed_if_readouts_gains_known": 0.5559285607301351,
+        "fraction_removed_if_both_gains_known": 0.9832609288021441,
+        "stim_variance_fraction": 0.9811156120085056,
+        "readout_variance_fraction": 0.9352853967113237
+      },
+      "stim_only": {
+        "risk": 0.00046268537703491116,
+        "fraction_removed_if_stim_gains_known": 0.00029769032282645896,
+        "fraction_removed_if_readouts_gains_known": 0.9580875740426308,
+        "fraction_removed_if_both_gains_known": 0.9591629997359622,
+        "stim_variance_fraction": 0.002919345590551682,
+        "readout_variance_fraction": 0.9384722683534202
+      },
+      "readouts_only": {
+        "risk": 0.0003647732141188404,
+        "fraction_removed_if_stim_gains_known": 0.9571228539104761,
+        "fraction_removed_if_readouts_gains_known": 0.0013480690375683483,
+        "fraction_removed_if_both_gains_known": 0.9578082900549577,
+        "stim_variance_fraction": 0.9809173869531178,
+        "readout_variance_fraction": 0.0011336579736655713
+      },
+      "both": {
+        "risk": 1.6918356411730935e-05,
+        "fraction_removed_if_stim_gains_known": 0.049037302610071075,
+        "fraction_removed_if_readouts_gains_known": 0.032604163445967484,
+        "fraction_removed_if_both_gains_known": 0.06514068185346615,
+        "stim_variance_fraction": 0.0028317028527227862,
+        "readout_variance_fraction": 0.0010193834255825182
+      }
+    }
+  },
+  {
+    "network_id": 20004,
+    "stim": 94,
+    "readouts": [
+      13,
+      28,
+      92
+    ],
+    "prior_risk": 0.0008451970358647207,
+    "stim_gradient_fraction": 0.09259887960751852,
+    "readout_gradient_fraction": 0.11934032867538716,
+    "other_gradient_fraction": 0.7880607917170943,
+    "policies": {
+      "neither": {
+        "risk": 0.00013765885072663,
+        "fraction_removed_if_stim_gains_known": 0.48440350076164823,
+        "fraction_removed_if_readouts_gains_known": 0.49665905731050125,
+        "fraction_removed_if_both_gains_known": 0.9913985629179569,
+        "stim_variance_fraction": 0.9927837594152203,
+        "readout_variance_fraction": 0.9714627800011372
+      },
+      "stim_only": {
+        "risk": 7.102010115210714e-05,
+        "fraction_removed_if_stim_gains_known": 0.00019208457562691717,
+        "fraction_removed_if_readouts_gains_known": 0.9804985060899877,
+        "fraction_removed_if_both_gains_known": 0.9819738947407578,
+        "stim_variance_fraction": 0.003203475219890193,
+        "readout_variance_fraction": 0.9717635806306201
+      },
+      "readouts_only": {
+        "risk": 6.92433107472076e-05,
+        "fraction_removed_if_stim_gains_known": 0.9815769555712563,
+        "fraction_removed_if_readouts_gains_known": 0.0010454141416512345,
+        "fraction_removed_if_both_gains_known": 0.9831444993357593,
+        "stim_variance_fraction": 0.9927504797856446,
+        "readout_variance_fraction": 0.0025488768760871324
+      },
+      "both": {
+        "risk": 1.5963277061754506e-06,
+        "fraction_removed_if_stim_gains_known": 0.09027215424588057,
+        "fraction_removed_if_readouts_gains_known": 0.11810197847774272,
+        "fraction_removed_if_both_gains_known": 0.18734877919846094,
+        "stim_variance_fraction": 0.0034162566012090924,
+        "readout_variance_fraction": 0.0027353331770412687
+      }
+    }
+  },
+  {
+    "network_id": 20005,
+    "stim": 58,
+    "readouts": [
+      4,
+      43,
+      89
+    ],
+    "prior_risk": 2.843784320805117e-05,
+    "stim_gradient_fraction": 0.2904758863757841,
+    "readout_gradient_fraction": 0.26212583106172793,
+    "other_gradient_fraction": 0.44739828256248815,
+    "policies": {
+      "neither": {
+        "risk": 1.5035499078981358e-05,
+        "fraction_removed_if_stim_gains_known": 0.5179037376878673,
+        "fraction_removed_if_readouts_gains_known": 0.46788372840333636,
+        "fraction_removed_if_both_gains_known": 0.9936019868724673,
+        "stim_variance_fraction": 0.9982525142029259,
+        "readout_variance_fraction": 0.9277371429033862
+      },
+      "stim_only": {
+        "risk": 7.4032002750564615e-06,
+        "fraction_removed_if_stim_gains_known": 0.015081973776196566,
+        "fraction_removed_if_readouts_gains_known": 0.964536434089076,
+        "fraction_removed_if_both_gains_known": 0.9842658199407165,
+        "stim_variance_fraction": 0.019820793549951945,
+        "readout_variance_fraction": 0.9305414528814788
+      },
+      "readouts_only": {
+        "risk": 8.025641530680912e-06,
+        "fraction_removed_if_stim_gains_known": 0.9847389006789493,
+        "fraction_removed_if_readouts_gains_known": 0.0020210773829268973,
+        "fraction_removed_if_both_gains_known": 0.987008759615994,
+        "stim_variance_fraction": 0.9983060915482551,
+        "readout_variance_fraction": 0.0013877881767905287
+      },
+      "both": {
+        "risk": 3.112882589248756e-07,
+        "fraction_removed_if_stim_gains_known": 0.4237330798926928,
+        "fraction_removed_if_readouts_gains_known": 0.09196067683595731,
+        "fraction_removed_if_both_gains_known": 0.5432164970823106,
+        "stim_variance_fraction": 0.020250915314965715,
+        "readout_variance_fraction": 0.0016290508445487575
+      }
+    }
+  },
+  {
+    "network_id": 20006,
+    "stim": 18,
+    "readouts": [
+      17,
+      58,
+      41
+    ],
+    "prior_risk": 0.00103190272001741,
+    "stim_gradient_fraction": 0.00286691118918945,
+    "readout_gradient_fraction": 0.035596294726155754,
+    "other_gradient_fraction": 0.9615367940846549,
+    "policies": {
+      "neither": {
+        "risk": 2.7178525142814426e-05,
+        "fraction_removed_if_stim_gains_known": 0.42497685215679354,
+        "fraction_removed_if_readouts_gains_known": 0.430099643720975,
+        "fraction_removed_if_both_gains_known": 0.8642301040421247,
+        "stim_variance_fraction": 0.9245670440770017,
+        "readout_variance_fraction": 0.9705084511901485
+      },
+      "stim_only": {
+        "risk": 1.5429034639678937e-05,
+        "fraction_removed_if_stim_gains_known": 0.01506616241848345,
+        "fraction_removed_if_readouts_gains_known": 0.7706670341378707,
+        "fraction_removed_if_both_gains_known": 0.797973298448763,
+        "stim_variance_fraction": 0.004514141803604567,
+        "readout_variance_fraction": 0.9695167913805124
+      },
+      "readouts_only": {
+        "risk": 1.754766692015052e-05,
+        "fraction_removed_if_stim_gains_known": 0.6693142660650286,
+        "fraction_removed_if_readouts_gains_known": 0.025763437677929244,
+        "fraction_removed_if_both_gains_known": 0.6983023404774015,
+        "stim_variance_fraction": 0.9276594848953318,
+        "readout_variance_fraction": 0.0374080664327766
+      },
+      "both": {
+        "risk": 5.607049187458475e-06,
+        "fraction_removed_if_stim_gains_known": 0.13231283448191278,
+        "fraction_removed_if_readouts_gains_known": 0.11723341491742145,
+        "fraction_removed_if_both_gains_known": 0.17415820135852147,
+        "stim_variance_fraction": 0.0053954547861603695,
+        "readout_variance_fraction": 0.033668662393010834
+      }
+    }
+  },
+  {
+    "network_id": 20007,
+    "stim": 17,
+    "readouts": [
+      56,
+      75,
+      68
+    ],
+    "prior_risk": 0.0002092929793626918,
+    "stim_gradient_fraction": 0.2611366031978391,
+    "readout_gradient_fraction": 0.2599471042056126,
+    "other_gradient_fraction": 0.4789162925965483,
+    "policies": {
+      "neither": {
+        "risk": 8.947590176436256e-05,
+        "fraction_removed_if_stim_gains_known": 0.5039365962659913,
+        "fraction_removed_if_readouts_gains_known": 0.4948005023127373,
+        "fraction_removed_if_both_gains_known": 0.9936914314612687,
+        "stim_variance_fraction": 0.9679308485147372,
+        "readout_variance_fraction": 0.9914969555509229
+      },
+      "stim_only": {
+        "risk": 4.613055028118441e-05,
+        "fraction_removed_if_stim_gains_known": 0.04006118804731316,
+        "fraction_removed_if_readouts_gains_known": 0.9580712036547423,
+        "fraction_removed_if_both_gains_known": 0.9880205736246445,
+        "stim_variance_fraction": 0.023180035680176198,
+        "readout_variance_fraction": 0.9914464275835938
+      },
+      "readouts_only": {
+        "risk": 4.649644374401986e-05,
+        "fraction_removed_if_stim_gains_known": 0.9570596325259365,
+        "fraction_removed_if_readouts_gains_known": 0.02352946120912482,
+        "fraction_removed_if_both_gains_known": 0.9862768220371517,
+        "stim_variance_fraction": 0.9747755439923019,
+        "readout_variance_fraction": 0.2297467064526073
+      },
+      "both": {
+        "risk": 5.648545734119334e-06,
+        "fraction_removed_if_stim_gains_known": 0.7824989284598055,
+        "fraction_removed_if_readouts_gains_known": 0.7697389773903419,
+        "fraction_removed_if_both_gains_known": 0.8580813859595016,
+        "stim_variance_fraction": 0.02593971192408678,
+        "readout_variance_fraction": 0.23061658302305357
+      }
+    }
+  },
+  {
+    "network_id": 20008,
+    "stim": 1,
+    "readouts": [
+      86,
+      30,
+      11
+    ],
+    "prior_risk": 0.0001504452037977218,
+    "stim_gradient_fraction": 0.22614329674325018,
+    "readout_gradient_fraction": 0.20201421272215392,
+    "other_gradient_fraction": 0.5718424905345958,
+    "policies": {
+      "neither": {
+        "risk": 5.597395871579459e-05,
+        "fraction_removed_if_stim_gains_known": 0.4857852085711589,
+        "fraction_removed_if_readouts_gains_known": 0.4937071742404016,
+        "fraction_removed_if_both_gains_known": 0.9850126830977581,
+        "stim_variance_fraction": 0.9427614902808586,
+        "readout_variance_fraction": 0.962017965478508
+      },
+      "stim_only": {
+        "risk": 2.8673817083980057e-05,
+        "fraction_removed_if_stim_gains_known": 0.000223562731622992,
+        "fraction_removed_if_readouts_gains_known": 0.9731791150274143,
+        "fraction_removed_if_both_gains_known": 0.9742390006138497,
+        "stim_variance_fraction": 0.0003031463406953236,
+        "readout_variance_fraction": 0.9600900377852392
+      },
+      "readouts_only": {
+        "risk": 2.869030366642366e-05,
+        "fraction_removed_if_stim_gains_known": 0.9580443894997752,
+        "fraction_removed_if_readouts_gains_known": 0.001000640572253341,
+        "fraction_removed_if_both_gains_known": 0.9633776867263162,
+        "stim_variance_fraction": 0.9472560169627252,
+        "readout_variance_fraction": 0.0010799553386495598
+      },
+      "both": {
+        "risk": 1.0842303597554126e-06,
+        "fraction_removed_if_stim_gains_known": 0.09402966303712856,
+        "fraction_removed_if_readouts_gains_known": 0.11442451312905756,
+        "fraction_removed_if_both_gains_known": 0.14026530059755526,
+        "stim_variance_fraction": 0.00032548999427212073,
+        "readout_variance_fraction": 0.0009221182997224383
+      }
+    }
+  },
+  {
+    "network_id": 20009,
+    "stim": 71,
+    "readouts": [
+      42,
+      77,
+      90
+    ],
+    "prior_risk": 0.0008578235076226818,
+    "stim_gradient_fraction": 0.09349303271300594,
+    "readout_gradient_fraction": 0.0375269246917187,
+    "other_gradient_fraction": 0.8689800425952754,
+    "policies": {
+      "neither": {
+        "risk": 3.5232862976317655e-05,
+        "fraction_removed_if_stim_gains_known": 0.40109517371951514,
+        "fraction_removed_if_readouts_gains_known": 0.5898885946182086,
+        "fraction_removed_if_both_gains_known": 0.9760649117906843,
+        "stim_variance_fraction": 0.7945770911197608,
+        "readout_variance_fraction": 0.952659621078303
+      },
+      "stim_only": {
+        "risk": 2.0879789785395962e-05,
+        "fraction_removed_if_stim_gains_known": 0.002781602035390211,
+        "fraction_removed_if_readouts_gains_known": 0.9678333952002934,
+        "fraction_removed_if_both_gains_known": 0.970351324813417,
+        "stim_variance_fraction": 0.0004239312701864473,
+        "readout_variance_fraction": 0.9494203862320822
+      },
+      "readouts_only": {
+        "risk": 1.4492798567892527e-05,
+        "fraction_removed_if_stim_gains_known": 0.9435473132104052,
+        "fraction_removed_if_readouts_gains_known": 0.06251441379145478,
+        "fraction_removed_if_both_gains_known": 0.9498291060140313,
+        "stim_variance_fraction": 0.78917009924775,
+        "readout_variance_fraction": 0.0012415110351831858
+      },
+      "both": {
+        "risk": 6.430406093924466e-07,
+        "fraction_removed_if_stim_gains_known": 0.09573337942065789,
+        "fraction_removed_if_readouts_gains_known": 0.09964808005272452,
+        "fraction_removed_if_both_gains_known": 0.12924704127921277,
+        "stim_variance_fraction": 0.00039099188623141403,
+        "readout_variance_fraction": 0.0010279378176166606
+      }
+    }
+  },
+  {
+    "network_id": 20010,
+    "stim": 41,
+    "readouts": [
+      1,
+      14,
+      85
+    ],
+    "prior_risk": 9.736947676310779e-06,
+    "stim_gradient_fraction": 0.0698764471832122,
+    "readout_gradient_fraction": 0.11540503103300985,
+    "other_gradient_fraction": 0.8147185217837779,
+    "policies": {
+      "neither": {
+        "risk": 1.541026124355761e-06,
+        "fraction_removed_if_stim_gains_known": 0.506728808487357,
+        "fraction_removed_if_readouts_gains_known": 0.47371642587620283,
+        "fraction_removed_if_both_gains_known": 0.9805270662446938,
+        "stim_variance_fraction": 0.9954196569197907,
+        "readout_variance_fraction": 0.7720697593951038
+      },
+      "stim_only": {
+        "risk": 7.714978008205874e-07,
+        "fraction_removed_if_stim_gains_known": 0.003249261379500284,
+        "fraction_removed_if_readouts_gains_known": 0.9488609915954521,
+        "fraction_removed_if_both_gains_known": 0.9567298384406947,
+        "stim_variance_fraction": 0.0012631254048671625,
+        "readout_variance_fraction": 0.7811259348428427
+      },
+      "readouts_only": {
+        "risk": 8.113679805872898e-07,
+        "fraction_removed_if_stim_gains_known": 0.9633187572044557,
+        "fraction_removed_if_readouts_gains_known": 0.0025895806293041996,
+        "fraction_removed_if_both_gains_known": 0.9667865098029368,
+        "stim_variance_fraction": 0.9954477215098326,
+        "readout_variance_fraction": 0.0006698711051122723
+      },
+      "both": {
+        "risk": 3.582339437221093e-08,
+        "fraction_removed_if_stim_gains_known": 0.15846336442361578,
+        "fraction_removed_if_readouts_gains_known": 0.15283778416890878,
+        "fraction_removed_if_both_gains_known": 0.19359748133266666,
+        "stim_variance_fraction": 0.0011640654870132842,
+        "readout_variance_fraction": 0.0006585192860824506
+      }
+    }
+  },
+  {
+    "network_id": 20011,
+    "stim": 48,
+    "readouts": [
+      61,
+      81,
+      78
+    ],
+    "prior_risk": 0.0001861165659489691,
+    "stim_gradient_fraction": 0.036178709776501734,
+    "readout_gradient_fraction": 0.06444404868634299,
+    "other_gradient_fraction": 0.8993772415371554,
+    "policies": {
+      "neither": {
+        "risk": 1.5607418076950526e-05,
+        "fraction_removed_if_stim_gains_known": 0.42048799146972793,
+        "fraction_removed_if_readouts_gains_known": 0.4274625491629676,
+        "fraction_removed_if_both_gains_known": 0.8502282028351287,
+        "stim_variance_fraction": 0.986366547782681,
+        "readout_variance_fraction": 0.9526297089266694
+      },
+      "stim_only": {
+        "risk": 9.07752558829604e-06,
+        "fraction_removed_if_stim_gains_known": 0.01874097027733115,
+        "fraction_removed_if_readouts_gains_known": 0.7357857467119958,
+        "fraction_removed_if_both_gains_known": 0.7610358310939218,
+        "stim_variance_fraction": 0.005234805026056401,
+        "readout_variance_fraction": 0.9534364267884882
+      },
+      "readouts_only": {
+        "risk": 8.587118745601052e-06,
+        "fraction_removed_if_stim_gains_known": 0.7636597799207184,
+        "fraction_removed_if_readouts_gains_known": 0.0322143941920452,
+        "fraction_removed_if_both_gains_known": 0.802318756315565,
+        "stim_variance_fraction": 0.9863375243704583,
+        "readout_variance_fraction": 0.0035159779903030735
+      },
+      "both": {
+        "risk": 2.408477859895843e-06,
+        "fraction_removed_if_stim_gains_known": 0.10988505259737262,
+        "fraction_removed_if_readouts_gains_known": 0.20186002303876005,
+        "fraction_removed_if_both_gains_known": 0.21586175631175333,
+        "stim_variance_fraction": 0.005356275057169908,
+        "readout_variance_fraction": 0.0036998868348993735
+      }
+    }
+  },
+  {
+    "network_id": 20012,
+    "stim": 66,
+    "readouts": [
+      89,
+      5,
+      29
+    ],
+    "prior_risk": 0.0001529936134455427,
+    "stim_gradient_fraction": 0.23391724864666147,
+    "readout_gradient_fraction": 0.2541335913952573,
+    "other_gradient_fraction": 0.5119491599580812,
+    "policies": {
+      "neither": {
+        "risk": 6.906003297903575e-05,
+        "fraction_removed_if_stim_gains_known": 0.4750531378366148,
+        "fraction_removed_if_readouts_gains_known": 0.5002999905671285,
+        "fraction_removed_if_both_gains_known": 0.9857719193347357,
+        "stim_variance_fraction": 0.964829524976663,
+        "readout_variance_fraction": 0.9867054464985384
+      },
+      "stim_only": {
+        "risk": 3.699044771323796e-05,
+        "fraction_removed_if_stim_gains_known": 0.020917617701251733,
+        "fraction_removed_if_readouts_gains_known": 0.9481272669651656,
+        "fraction_removed_if_both_gains_known": 0.9751612404977762,
+        "stim_variance_fraction": 0.028750145313654118,
+        "readout_variance_fraction": 0.9866028816368192
+      },
+      "readouts_only": {
+        "risk": 3.538119729167111e-05,
+        "fraction_removed_if_stim_gains_known": 0.9441765221718438,
+        "fraction_removed_if_readouts_gains_known": 0.02326451856593478,
+        "fraction_removed_if_both_gains_known": 0.9695999986317947,
+        "stim_variance_fraction": 0.9633259787198755,
+        "readout_variance_fraction": 0.03540320766319446
+      },
+      "both": {
+        "risk": 5.038906281848974e-06,
+        "fraction_removed_if_stim_gains_known": 0.7252546894254165,
+        "fraction_removed_if_readouts_gains_known": 0.7288701846061497,
+        "fraction_removed_if_both_gains_known": 0.7990106763805409,
+        "stim_variance_fraction": 0.030777575492979586,
+        "readout_variance_fraction": 0.03984325355874591
+      }
+    }
+  },
+  {
+    "network_id": 20013,
+    "stim": 95,
+    "readouts": [
+      14,
+      5,
+      18
+    ],
+    "prior_risk": 0.0007568774074835825,
+    "stim_gradient_fraction": 0.183195125407635,
+    "readout_gradient_fraction": 0.21302208851053667,
+    "other_gradient_fraction": 0.6037827860818283,
+    "policies": {
+      "neither": {
+        "risk": 0.0003121942839772705,
+        "fraction_removed_if_stim_gains_known": 0.49163093918093353,
+        "fraction_removed_if_readouts_gains_known": 0.46046895189205284,
+        "fraction_removed_if_both_gains_known": 0.9815119584655957,
+        "stim_variance_fraction": 0.9773805646804931,
+        "readout_variance_fraction": 0.8475524537296998
+      },
+      "stim_only": {
+        "risk": 0.00015986287068984998,
+        "fraction_removed_if_stim_gains_known": 0.013307781607750854,
+        "fraction_removed_if_readouts_gains_known": 0.9591816853407692,
+        "fraction_removed_if_both_gains_known": 0.9691212857452444,
+        "stim_variance_fraction": 0.01888607200417948,
+        "readout_variance_fraction": 0.8476347362443768
+      },
+      "readouts_only": {
+        "risk": 0.0001712402555414073,
+        "fraction_removed_if_stim_gains_known": 0.9479366142342366,
+        "fraction_removed_if_readouts_gains_known": 0.008271982615144589,
+        "fraction_removed_if_both_gains_known": 0.9592879386436003,
+        "stim_variance_fraction": 0.9771484359190882,
+        "readout_variance_fraction": 0.010138050401755909
+      },
+      "both": {
+        "risk": 1.1156251528202856e-05,
+        "fraction_removed_if_stim_gains_known": 0.2837788637438778,
+        "fraction_removed_if_readouts_gains_known": 0.40290301276186496,
+        "fraction_removed_if_both_gains_known": 0.43917858289887085,
+        "stim_variance_fraction": 0.011071640788546841,
+        "readout_variance_fraction": 0.01031800311928917
+      }
+    }
+  },
+  {
+    "network_id": 20014,
+    "stim": 36,
+    "readouts": [
+      33,
+      88,
+      72
+    ],
+    "prior_risk": 0.00243421804331548,
+    "stim_gradient_fraction": 0.11840849682583542,
+    "readout_gradient_fraction": 0.09487701227973916,
+    "other_gradient_fraction": 0.7867144908944254,
+    "policies": {
+      "neither": {
+        "risk": 0.00035157855455904274,
+        "fraction_removed_if_stim_gains_known": 0.5056278765434813,
+        "fraction_removed_if_readouts_gains_known": 0.437577498252322,
+        "fraction_removed_if_both_gains_known": 0.9371971285448191,
+        "stim_variance_fraction": 0.9588475089934433,
+        "readout_variance_fraction": 0.9368003518575847
+      },
+      "stim_only": {
+        "risk": 0.0001699865973141074,
+        "fraction_removed_if_stim_gains_known": 0.01907046416153844,
+        "fraction_removed_if_readouts_gains_known": 0.8902964431455122,
+        "fraction_removed_if_both_gains_known": 0.90670821254696,
+        "stim_variance_fraction": 0.0008232866698185678,
+        "readout_variance_fraction": 0.9362292346475621
+      },
+      "readouts_only": {
+        "risk": 0.0001912163806701778,
+        "fraction_removed_if_stim_gains_known": 0.9180212384945018,
+        "fraction_removed_if_readouts_gains_known": 0.0029975878005520386,
+        "fraction_removed_if_both_gains_known": 0.9240022383442198,
+        "stim_variance_fraction": 0.9581483313107503,
+        "readout_variance_fraction": 0.0013458143811839974
+      },
+      "both": {
+        "risk": 1.4164854722356236e-05,
+        "fraction_removed_if_stim_gains_known": 0.11768468326417895,
+        "fraction_removed_if_readouts_gains_known": 0.0833463765171329,
+        "fraction_removed_if_both_gains_known": 0.14136245753091214,
+        "stim_variance_fraction": 0.000771556947589174,
+        "readout_variance_fraction": 0.0012908331449770058
+      }
+    }
+  },
+  {
+    "network_id": 20015,
+    "stim": 66,
+    "readouts": [
+      10,
+      94,
+      81
+    ],
+    "prior_risk": 0.00018841656389913058,
+    "stim_gradient_fraction": 0.20812825354227574,
+    "readout_gradient_fraction": 0.17848637039813495,
+    "other_gradient_fraction": 0.6133853760595894,
+    "policies": {
+      "neither": {
+        "risk": 7.14247031815404e-05,
+        "fraction_removed_if_stim_gains_known": 0.7257872282962664,
+        "fraction_removed_if_readouts_gains_known": 0.25166216345369125,
+        "fraction_removed_if_both_gains_known": 0.9910683449323833,
+        "stim_variance_fraction": 0.8915097575442378,
+        "readout_variance_fraction": 0.6743980601051754
+      },
+      "stim_only": {
+        "risk": 1.9517092077171706e-05,
+        "fraction_removed_if_stim_gains_known": 0.003789675383066076,
+        "fraction_removed_if_readouts_gains_known": 0.9671468297901148,
+        "fraction_removed_if_both_gains_known": 0.9696668943106023,
+        "stim_variance_fraction": 0.0005623534332806927,
+        "readout_variance_fraction": 0.6736577042417311
+      },
+      "readouts_only": {
+        "risk": 5.358610829043852e-05,
+        "fraction_removed_if_stim_gains_known": 0.9879461993680461,
+        "fraction_removed_if_readouts_gains_known": 0.008392127729903748,
+        "fraction_removed_if_both_gains_known": 0.9887721758880224,
+        "stim_variance_fraction": 0.8942297346013593,
+        "readout_variance_fraction": 0.000659167017799864
+      },
+      "both": {
+        "risk": 9.621308828250381e-07,
+        "fraction_removed_if_stim_gains_known": 0.02025723920767097,
+        "fraction_removed_if_readouts_gains_known": 0.14948451056241643,
+        "fraction_removed_if_both_gains_known": 0.15568794500655966,
+        "stim_variance_fraction": 0.00045526937804750363,
+        "readout_variance_fraction": 0.0007324352962020997
+      }
+    }
+  },
+  {
+    "network_id": 20016,
+    "stim": 63,
+    "readouts": [
+      90,
+      66,
+      0
+    ],
+    "prior_risk": 0.0034224346507006087,
+    "stim_gradient_fraction": 0.3728754882031946,
+    "readout_gradient_fraction": 0.26429220707616086,
+    "other_gradient_fraction": 0.36283230472064476,
+    "policies": {
+      "neither": {
+        "risk": 0.0009111143782657274,
+        "fraction_removed_if_stim_gains_known": 0.6168202590841861,
+        "fraction_removed_if_readouts_gains_known": 0.3577711323516537,
+        "fraction_removed_if_both_gains_known": 0.990586751660892,
+        "stim_variance_fraction": 0.6584409841990455,
+        "readout_variance_fraction": 0.748731249414892
+      },
+      "stim_only": {
+        "risk": 0.0003282244137985284,
+        "fraction_removed_if_stim_gains_known": 0.0013797409436145276,
+        "fraction_removed_if_readouts_gains_known": 0.9742475519204357,
+        "fraction_removed_if_both_gains_known": 0.9820076036602851,
+        "stim_variance_fraction": 0.0013645063187321723,
+        "readout_variance_fraction": 0.7392839422213969
+      },
+      "readouts_only": {
+        "risk": 0.0005545413529187303,
+        "fraction_removed_if_stim_gains_known": 0.9796801917426251,
+        "fraction_removed_if_readouts_gains_known": 0.015361141569931902,
+        "fraction_removed_if_both_gains_known": 0.9911444062610153,
+        "stim_variance_fraction": 0.6175708432488707,
+        "readout_variance_fraction": 0.007146338947461831
+      },
+      "both": {
+        "risk": 8.068533512637727e-06,
+        "fraction_removed_if_stim_gains_known": 0.3849403732903643,
+        "fraction_removed_if_readouts_gains_known": 0.5218215177880562,
+        "fraction_removed_if_both_gains_known": 0.6124892073568077,
+        "stim_variance_fraction": 0.000715919214889928,
+        "readout_variance_fraction": 0.006430519179050284
+      }
+    }
+  },
+  {
+    "network_id": 20017,
+    "stim": 29,
+    "readouts": [
+      42,
+      58,
+      99
+    ],
+    "prior_risk": 1.1517433059713317e-05,
+    "stim_gradient_fraction": 0.3846676572822519,
+    "readout_gradient_fraction": 0.3966220411784473,
+    "other_gradient_fraction": 0.21871030153930096,
+    "policies": {
+      "neither": {
+        "risk": 8.777211107838893e-06,
+        "fraction_removed_if_stim_gains_known": 0.507651837115299,
+        "fraction_removed_if_readouts_gains_known": 0.49041717628393844,
+        "fraction_removed_if_both_gains_known": 0.9991188577778031,
+        "stim_variance_fraction": 0.999693176676001,
+        "readout_variance_fraction": 0.9820241576315928
+      },
+      "stim_only": {
+        "risk": 4.328371241554908e-06,
+        "fraction_removed_if_stim_gains_known": 0.0012746969807258819,
+        "fraction_removed_if_readouts_gains_known": 0.9925068106713927,
+        "fraction_removed_if_both_gains_known": 0.997656183149445,
+        "stim_variance_fraction": 0.0037594386363360905,
+        "readout_variance_fraction": 0.9831064076737225
+      },
+      "readouts_only": {
+        "risk": 4.47674371796294e-06,
+        "fraction_removed_if_stim_gains_known": 0.996966415517222,
+        "fraction_removed_if_readouts_gains_known": 0.0009677278611526426,
+        "fraction_removed_if_both_gains_known": 0.9983351899278624,
+        "stim_variance_fraction": 0.9997006484045577,
+        "readout_variance_fraction": 0.001978319961769656
+      },
+      "both": {
+        "risk": 4.988713282875456e-08,
+        "fraction_removed_if_stim_gains_known": 0.6727281689608807,
+        "fraction_removed_if_readouts_gains_known": 0.44779094115504975,
+        "fraction_removed_if_both_gains_known": 0.805154571169075,
+        "stim_variance_fraction": 0.003855361869510399,
+        "readout_variance_fraction": 0.0022852065396675356
+      }
+    }
+  },
+  {
+    "network_id": 20018,
+    "stim": 71,
+    "readouts": [
+      88,
+      82,
+      55
+    ],
+    "prior_risk": 0.001461793497086545,
+    "stim_gradient_fraction": 0.3384141291865848,
+    "readout_gradient_fraction": 0.36593905270386745,
+    "other_gradient_fraction": 0.29564681810954757,
+    "policies": {
+      "neither": {
+        "risk": 0.0007588872987798058,
+        "fraction_removed_if_stim_gains_known": 0.5192796582636898,
+        "fraction_removed_if_readouts_gains_known": 0.4375689032916597,
+        "fraction_removed_if_both_gains_known": 0.9734242021579842,
+        "stim_variance_fraction": 0.9530866538143924,
+        "readout_variance_fraction": 0.9177876203918519
+      },
+      "stim_only": {
+        "risk": 0.000397576845663066,
+        "fraction_removed_if_stim_gains_known": 0.08348334917873228,
+        "fraction_removed_if_readouts_gains_known": 0.886068469336576,
+        "fraction_removed_if_both_gains_known": 0.9518509395816256,
+        "stim_variance_fraction": 0.06515251612524049,
+        "readout_variance_fraction": 0.9167137752267145
+      },
+      "readouts_only": {
+        "risk": 0.00042577689480698886,
+        "fraction_removed_if_stim_gains_known": 0.9433361620901142,
+        "fraction_removed_if_readouts_gains_known": 0.025452846868578922,
+        "fraction_removed_if_both_gains_known": 0.9698700999335691,
+        "stim_variance_fraction": 0.9463994420844813,
+        "readout_variance_fraction": 0.03530310094429754
+      },
+      "both": {
+        "risk": 7.091500813065418e-05,
+        "fraction_removed_if_stim_gains_known": 0.6979789364456684,
+        "fraction_removed_if_readouts_gains_known": 0.644961118628375,
+        "fraction_removed_if_both_gains_known": 0.8176754115740975,
+        "stim_variance_fraction": 0.052459234976598934,
+        "readout_variance_fraction": 0.04030042576444457
+      }
+    }
+  },
+  {
+    "network_id": 20019,
+    "stim": 69,
+    "readouts": [
+      26,
+      33,
+      14
+    ],
+    "prior_risk": 9.858503794277153e-05,
+    "stim_gradient_fraction": 0.17297890482412911,
+    "readout_gradient_fraction": 0.20627767768875346,
+    "other_gradient_fraction": 0.6207434174871176,
+    "policies": {
+      "neither": {
+        "risk": 3.31682997495203e-05,
+        "fraction_removed_if_stim_gains_known": 0.513079998889621,
+        "fraction_removed_if_readouts_gains_known": 0.4696238126209149,
+        "fraction_removed_if_both_gains_known": 0.983798529135457,
+        "stim_variance_fraction": 0.9944664722513714,
+        "readout_variance_fraction": 0.9290090508562302
+      },
+      "stim_only": {
+        "risk": 1.7311096675473142e-05,
+        "fraction_removed_if_stim_gains_known": 0.04621032530398831,
+        "fraction_removed_if_readouts_gains_known": 0.9101502518499259,
+        "fraction_removed_if_both_gains_known": 0.9607302895536041,
+        "stim_variance_fraction": 0.04356393068615851,
+        "readout_variance_fraction": 0.9363940931066569
+      },
+      "readouts_only": {
+        "risk": 1.8232299131218328e-05,
+        "fraction_removed_if_stim_gains_known": 0.9393297842277185,
+        "fraction_removed_if_readouts_gains_known": 0.04132327646081782,
+        "fraction_removed_if_both_gains_known": 0.9790731471975848,
+        "stim_variance_fraction": 0.9939150757783443,
+        "readout_variance_fraction": 0.03251530704714981
+      },
+      "both": {
+        "risk": 3.069656389321212e-06,
+        "fraction_removed_if_stim_gains_known": 0.7660731887703109,
+        "fraction_removed_if_readouts_gains_known": 0.7882436660087174,
+        "fraction_removed_if_both_gains_known": 0.872698454658719,
+        "stim_variance_fraction": 0.04232826622962673,
+        "readout_variance_fraction": 0.03550467032029789
+      }
+    }
+  },
+  {
+    "network_id": 20020,
+    "stim": 1,
+    "readouts": [
+      96,
+      62,
+      73
+    ],
+    "prior_risk": 0.03635828010598257,
+    "stim_gradient_fraction": 0.0004409144074528488,
+    "readout_gradient_fraction": 0.0010673430956633972,
+    "other_gradient_fraction": 0.9984917424968837,
+    "policies": {
+      "neither": {
+        "risk": 8.060756226463719e-05,
+        "fraction_removed_if_stim_gains_known": 0.161872524909703,
+        "fraction_removed_if_readouts_gains_known": 0.4106845892012725,
+        "fraction_removed_if_both_gains_known": 0.5716879955927073,
+        "stim_variance_fraction": 0.9558512993688124,
+        "readout_variance_fraction": 0.9677743947241887
+      },
+      "stim_only": {
+        "risk": 6.807903059937882e-05,
+        "fraction_removed_if_stim_gains_known": 0.013729845008464255,
+        "fraction_removed_if_readouts_gains_known": 0.48337450079115946,
+        "fraction_removed_if_both_gains_known": 0.4931947693906937,
+        "stim_variance_fraction": 0.0021916323494186323,
+        "readout_variance_fraction": 0.967898984405316
+      },
+      "readouts_only": {
+        "risk": 5.9904896048070995e-05,
+        "fraction_removed_if_stim_gains_known": 0.21743967429149025,
+        "fraction_removed_if_readouts_gains_known": 0.02609741155569438,
+        "fraction_removed_if_both_gains_known": 0.24434662189780534,
+        "stim_variance_fraction": 0.9616385674546853,
+        "readout_variance_fraction": 0.0025810386363027227
+      },
+      "both": {
+        "risk": 4.927225878940274e-05,
+        "fraction_removed_if_stim_gains_known": 0.02285165685290294,
+        "fraction_removed_if_readouts_gains_known": 0.03337898391611817,
+        "fraction_removed_if_both_gains_known": 0.040618667021119804,
+        "stim_variance_fraction": 0.002572937641907651,
+        "readout_variance_fraction": 0.002325303225189188
+      }
+    }
+  },
+  {
+    "network_id": 20021,
+    "stim": 18,
+    "readouts": [
+      96,
+      72,
+      79
+    ],
+    "prior_risk": 0.003934934972197818,
+    "stim_gradient_fraction": 0.09041060904357245,
+    "readout_gradient_fraction": 0.05804750287196324,
+    "other_gradient_fraction": 0.8515418880844642,
+    "policies": {
+      "neither": {
+        "risk": 0.0003249567341617158,
+        "fraction_removed_if_stim_gains_known": 0.47415474776821315,
+        "fraction_removed_if_readouts_gains_known": 0.47191033893117523,
+        "fraction_removed_if_both_gains_known": 0.9534337449978056,
+        "stim_variance_fraction": 0.9500282200296426,
+        "readout_variance_fraction": 0.7338174019232202
+      },
+      "stim_only": {
+        "risk": 0.00016935706493735768,
+        "fraction_removed_if_stim_gains_known": 0.02542099783549805,
+        "fraction_removed_if_readouts_gains_known": 0.919711765231774,
+        "fraction_removed_if_both_gains_known": 0.9395920765171119,
+        "stim_variance_fraction": 0.0009553950306875394,
+        "readout_variance_fraction": 0.7313921745469969
+      },
+      "readouts_only": {
+        "risk": 0.00016922787808052426,
+        "fraction_removed_if_stim_gains_known": 0.9223041625687931,
+        "fraction_removed_if_readouts_gains_known": 0.0023917577136065705,
+        "fraction_removed_if_both_gains_known": 0.9327538899195799,
+        "stim_variance_fraction": 0.9527504262710608,
+        "readout_variance_fraction": 0.0008614899360633969
+      },
+      "both": {
+        "risk": 1.4602244239419401e-05,
+        "fraction_removed_if_stim_gains_known": 0.20807864046492516,
+        "fraction_removed_if_readouts_gains_known": 0.14874775699618856,
+        "fraction_removed_if_both_gains_known": 0.25716454526284366,
+        "stim_variance_fraction": 0.0008444852611579276,
+        "readout_variance_fraction": 0.0008302062559172978
+      }
+    }
+  },
+  {
+    "network_id": 20022,
+    "stim": 74,
+    "readouts": [
+      20,
+      44,
+      21
+    ],
+    "prior_risk": 0.04698281640242896,
+    "stim_gradient_fraction": 0.09631634219114746,
+    "readout_gradient_fraction": 0.01003035392608554,
+    "other_gradient_fraction": 0.8936533038827669,
+    "policies": {
+      "neither": {
+        "risk": 0.0005932431279032597,
+        "fraction_removed_if_stim_gains_known": 0.30090192023904155,
+        "fraction_removed_if_readouts_gains_known": 0.6716531107809303,
+        "fraction_removed_if_both_gains_known": 0.9817495630215176,
+        "stim_variance_fraction": 0.7326851557355254,
+        "readout_variance_fraction": 0.9209095595725835
+      },
+      "stim_only": {
+        "risk": 0.0004109433605075756,
+        "fraction_removed_if_stim_gains_known": 0.001642514083182756,
+        "fraction_removed_if_readouts_gains_known": 0.979074012150038,
+        "fraction_removed_if_both_gains_known": 0.9793421448717479,
+        "stim_variance_fraction": 0.0003645621871204455,
+        "readout_variance_fraction": 0.9192094359277417
+      },
+      "readouts_only": {
+        "risk": 0.00019172710461906164,
+        "fraction_removed_if_stim_gains_known": 0.9615604138456794,
+        "fraction_removed_if_readouts_gains_known": 0.0025189975449767025,
+        "fraction_removed_if_both_gains_known": 0.9629304662704999,
+        "stim_variance_fraction": 0.7360401334956674,
+        "readout_variance_fraction": 0.002900129621884758
+      },
+      "both": {
+        "risk": 5.63722587616918e-06,
+        "fraction_removed_if_stim_gains_known": 0.00707982779840288,
+        "fraction_removed_if_readouts_gains_known": 0.04140673814963033,
+        "fraction_removed_if_both_gains_known": 0.052060671000447166,
+        "stim_variance_fraction": 0.00036967853270489416,
+        "readout_variance_fraction": 0.0027264532875935915
+      }
+    }
+  },
+  {
+    "network_id": 20023,
+    "stim": 50,
+    "readouts": [
+      60,
+      10,
+      0
+    ],
+    "prior_risk": 0.0015325195529248472,
+    "stim_gradient_fraction": 0.07060576208132902,
+    "readout_gradient_fraction": 0.15388558698607321,
+    "other_gradient_fraction": 0.7755086509325976,
+    "policies": {
+      "neither": {
+        "risk": 0.0003691834462720277,
+        "fraction_removed_if_stim_gains_known": 0.49064375619986533,
+        "fraction_removed_if_readouts_gains_known": 0.3477627586226579,
+        "fraction_removed_if_both_gains_known": 0.9542354964239751,
+        "stim_variance_fraction": 0.8822759403854624,
+        "readout_variance_fraction": 0.773489731581738
+      },
+      "stim_only": {
+        "risk": 0.00017581033968408887,
+        "fraction_removed_if_stim_gains_known": 0.021965984740318745,
+        "fraction_removed_if_readouts_gains_known": 0.922179873590277,
+        "fraction_removed_if_both_gains_known": 0.9248297883984345,
+        "stim_variance_fraction": 0.0005738609481853157,
+        "readout_variance_fraction": 0.7496616227303257
+      },
+      "readouts_only": {
+        "risk": 0.00023474252389705724,
+        "fraction_removed_if_stim_gains_known": 0.9628979610807721,
+        "fraction_removed_if_readouts_gains_known": 0.003034401824310206,
+        "fraction_removed_if_both_gains_known": 0.9635475074433676,
+        "stim_variance_fraction": 0.8492439682200225,
+        "readout_variance_fraction": 0.000395772167377146
+      },
+      "both": {
+        "risk": 8.303851740264747e-06,
+        "fraction_removed_if_stim_gains_known": 0.014345820472374163,
+        "fraction_removed_if_readouts_gains_known": 0.02351228212670639,
+        "fraction_removed_if_both_gains_known": 0.027160999602693386,
+        "stim_variance_fraction": 0.0004039995068888535,
+        "readout_variance_fraction": 0.00039185887649685445
+      }
+    }
+  },
+  {
+    "network_id": 20024,
+    "stim": 57,
+    "readouts": [
+      4,
+      56,
+      69
+    ],
+    "prior_risk": 1.6694489436081778e-05,
+    "stim_gradient_fraction": 0.3676325884567556,
+    "readout_gradient_fraction": 0.3115345345459092,
+    "other_gradient_fraction": 0.3208328769973351,
+    "policies": {
+      "neither": {
+        "risk": 1.1806385616764467e-05,
+        "fraction_removed_if_stim_gains_known": 0.5203883390862399,
+        "fraction_removed_if_readouts_gains_known": 0.4822946787771822,
+        "fraction_removed_if_both_gains_known": 0.9958623808010061,
+        "stim_variance_fraction": 0.9853957936767168,
+        "readout_variance_fraction": 0.9067977136915779
+      },
+      "stim_only": {
+        "risk": 5.64832983981885e-06,
+        "fraction_removed_if_stim_gains_known": 0.002283703394572202,
+        "fraction_removed_if_readouts_gains_known": 0.9901962137029785,
+        "fraction_removed_if_both_gains_known": 0.9906669401632638,
+        "stim_variance_fraction": 0.0011231195371472775,
+        "readout_variance_fraction": 0.9080102811114341
+      },
+      "readouts_only": {
+        "risk": 6.0915949327248655e-06,
+        "fraction_removed_if_stim_gains_known": 0.9942524809494451,
+        "fraction_removed_if_readouts_gains_known": 0.00018308749968236543,
+        "fraction_removed_if_both_gains_known": 0.9944295757085312,
+        "stim_variance_fraction": 0.9847781336960931,
+        "readout_variance_fraction": 0.0005898516007438824
+      },
+      "both": {
+        "risk": 4.713112598500318e-08,
+        "fraction_removed_if_stim_gains_known": 0.19127361925167188,
+        "fraction_removed_if_readouts_gains_known": 0.07907332815522318,
+        "fraction_removed_if_both_gains_known": 0.21287992823444105,
+        "stim_variance_fraction": 0.0010683455081911422,
+        "readout_variance_fraction": 0.0006163454244363879
+      }
+    }
+  },
+  {
+    "network_id": 20025,
+    "stim": 82,
+    "readouts": [
+      71,
+      35,
+      98
+    ],
+    "prior_risk": 0.00041968497594160257,
+    "stim_gradient_fraction": 0.2647802815803003,
+    "readout_gradient_fraction": 0.2769516390179369,
+    "other_gradient_fraction": 0.4582680794017628,
+    "policies": {
+      "neither": {
+        "risk": 0.0002053976504362283,
+        "fraction_removed_if_stim_gains_known": 0.47401677301143946,
+        "fraction_removed_if_readouts_gains_known": 0.5024873400275912,
+        "fraction_removed_if_both_gains_known": 0.9953995688222715,
+        "stim_variance_fraction": 0.9466752067732956,
+        "readout_variance_fraction": 0.9826334743654516
+      },
+      "stim_only": {
+        "risk": 0.00010834640571530332,
+        "fraction_removed_if_stim_gains_known": 0.0029779900809038373,
+        "fraction_removed_if_readouts_gains_known": 0.9864260400649427,
+        "fraction_removed_if_both_gains_known": 0.991649929602905,
+        "stim_variance_fraction": 0.005035355925852123,
+        "readout_variance_fraction": 0.9823769410185029
+      },
+      "readouts_only": {
+        "risk": 0.00010258496058194516,
+        "fraction_removed_if_stim_gains_known": 0.9830003436776659,
+        "fraction_removed_if_readouts_gains_known": 0.002219236125698506,
+        "fraction_removed_if_both_gains_known": 0.9940059468300397,
+        "stim_variance_fraction": 0.9483897564006991,
+        "readout_variance_fraction": 0.0071539513009897075
+      },
+      "both": {
+        "risk": 3.615283134970097e-06,
+        "fraction_removed_if_stim_gains_known": 0.6050979704451759,
+        "fraction_removed_if_readouts_gains_known": 0.7675667539965092,
+        "fraction_removed_if_both_gains_known": 0.8109878385881815,
+        "stim_variance_fraction": 0.006048871929910826,
+        "readout_variance_fraction": 0.007099983147638052
+      }
+    }
+  },
+  {
+    "network_id": 20026,
+    "stim": 7,
+    "readouts": [
+      81,
+      43,
+      93
+    ],
+    "prior_risk": 0.00022174287979204058,
+    "stim_gradient_fraction": 0.0786505075460056,
+    "readout_gradient_fraction": 0.07909782814116985,
+    "other_gradient_fraction": 0.8422516643128244,
+    "policies": {
+      "neither": {
+        "risk": 3.078291666883826e-05,
+        "fraction_removed_if_stim_gains_known": 0.3781248610687453,
+        "fraction_removed_if_readouts_gains_known": 0.5715602662587159,
+        "fraction_removed_if_both_gains_known": 0.9464874362461934,
+        "stim_variance_fraction": 0.640914783090876,
+        "readout_variance_fraction": 0.9900733412301053
+      },
+      "stim_only": {
+        "risk": 1.9158072652464162e-05,
+        "fraction_removed_if_stim_gains_known": 0.0025679672157564643,
+        "fraction_removed_if_readouts_gains_known": 0.9146944632823688,
+        "fraction_removed_if_both_gains_known": 0.9175671205852215,
+        "stim_variance_fraction": 0.001023362391843929,
+        "readout_variance_fraction": 0.9895506708039746
+      },
+      "readouts_only": {
+        "risk": 1.4969895036232883e-05,
+        "fraction_removed_if_stim_gains_known": 0.8521816162505836,
+        "fraction_removed_if_readouts_gains_known": 0.04584085303798516,
+        "fraction_removed_if_both_gains_known": 0.9109428845282045,
+        "stim_variance_fraction": 0.6984150579276752,
+        "readout_variance_fraction": 0.009446647582622125
+      },
+      "both": {
+        "risk": 2.370049481460608e-06,
+        "fraction_removed_if_stim_gains_known": 0.041174283221664276,
+        "fraction_removed_if_readouts_gains_known": 0.2836908967023284,
+        "fraction_removed_if_both_gains_known": 0.29824334539333935,
+        "stim_variance_fraction": 0.0010326675668106877,
+        "readout_variance_fraction": 0.007289992202827965
+      }
+    }
+  },
+  {
+    "network_id": 20027,
+    "stim": 6,
+    "readouts": [
+      70,
+      35,
+      45
+    ],
+    "prior_risk": 0.0004070186138529857,
+    "stim_gradient_fraction": 0.27465095991058347,
+    "readout_gradient_fraction": 0.2756788463924779,
+    "other_gradient_fraction": 0.4496701936969386,
+    "policies": {
+      "neither": {
+        "risk": 0.00021234728259514343,
+        "fraction_removed_if_stim_gains_known": 0.4333892849483572,
+        "fraction_removed_if_readouts_gains_known": 0.5004357404914568,
+        "fraction_removed_if_both_gains_known": 0.9747577644535287,
+        "stim_variance_fraction": 0.8524628660443075,
+        "readout_variance_fraction": 0.9719098634118214
+      },
+      "stim_only": {
+        "risk": 0.00012306131152901715,
+        "fraction_removed_if_stim_gains_known": 0.027889950293421017,
+        "fraction_removed_if_readouts_gains_known": 0.9332928192308145,
+        "fraction_removed_if_both_gains_known": 0.9631505554557139,
+        "stim_variance_fraction": 0.039559810717041906,
+        "readout_variance_fraction": 0.9696648142083828
+      },
+      "readouts_only": {
+        "risk": 0.00011044267613624939,
+        "fraction_removed_if_stim_gains_known": 0.9195143501763074,
+        "fraction_removed_if_readouts_gains_known": 0.039380575301628085,
+        "fraction_removed_if_both_gains_known": 0.9521561699654216,
+        "stim_variance_fraction": 0.8458661878977424,
+        "readout_variance_fraction": 0.035899655871762866
+      },
+      "both": {
+        "risk": 1.6759152737097983e-05,
+        "fraction_removed_if_stim_gains_known": 0.49446336183348305,
+        "fraction_removed_if_readouts_gains_known": 0.586821131673911,
+        "fraction_removed_if_both_gains_known": 0.7100456281923125,
+        "stim_variance_fraction": 0.038065148001637475,
+        "readout_variance_fraction": 0.038748949141673095
+      }
+    }
+  },
+  {
+    "network_id": 20028,
+    "stim": 40,
+    "readouts": [
+      21,
+      45,
+      91
+    ],
+    "prior_risk": 0.00309786902730119,
+    "stim_gradient_fraction": 0.13280109398918286,
+    "readout_gradient_fraction": 0.2347729518314731,
+    "other_gradient_fraction": 0.6324259541793441,
+    "policies": {
+      "neither": {
+        "risk": 0.0009132156767747376,
+        "fraction_removed_if_stim_gains_known": 0.5030746393074842,
+        "fraction_removed_if_readouts_gains_known": 0.49371333380790094,
+        "fraction_removed_if_both_gains_known": 0.9931913239328933,
+        "stim_variance_fraction": 0.9556142146203652,
+        "readout_variance_fraction": 0.7531358745979099
+      },
+      "stim_only": {
+        "risk": 0.0004564574422821777,
+        "fraction_removed_if_stim_gains_known": 0.0059177537995007854,
+        "fraction_removed_if_readouts_gains_known": 0.9849528427045416,
+        "fraction_removed_if_both_gains_known": 0.9850573940186133,
+        "stim_variance_fraction": 0.000846531748460369,
+        "readout_variance_fraction": 0.7623264474560237
+      },
+      "readouts_only": {
+        "risk": 0.0004647178132492385,
+        "fraction_removed_if_stim_gains_known": 0.9770204397437142,
+        "fraction_removed_if_readouts_gains_known": 0.0049428179272029416,
+        "fraction_removed_if_both_gains_known": 0.9777368457354928,
+        "stim_variance_fraction": 0.959088781793175,
+        "readout_variance_fraction": 0.0014793141609078409
+      },
+      "both": {
+        "risk": 9.94396366843775e-06,
+        "fraction_removed_if_stim_gains_known": 0.007429561522368029,
+        "fraction_removed_if_readouts_gains_known": 0.03642480701564366,
+        "fraction_removed_if_both_gains_known": 0.040235283420436654,
+        "stim_variance_fraction": 0.0009137872373902149,
+        "readout_variance_fraction": 0.0014165403406156774
+      }
+    }
+  },
+  {
+    "network_id": 20029,
+    "stim": 26,
+    "readouts": [
+      64,
+      61,
+      2
+    ],
+    "prior_risk": 0.00012083733715726823,
+    "stim_gradient_fraction": 0.03026498656088242,
+    "readout_gradient_fraction": 0.06652235710689582,
+    "other_gradient_fraction": 0.9032126563322218,
+    "policies": {
+      "neither": {
+        "risk": 7.92727544603076e-06,
+        "fraction_removed_if_stim_gains_known": 0.479272229092273,
+        "fraction_removed_if_readouts_gains_known": 0.48663953765510315,
+        "fraction_removed_if_both_gains_known": 0.9653969734650735,
+        "stim_variance_fraction": 0.9924274038312405,
+        "readout_variance_fraction": 0.9733655737055144
+      },
+      "stim_only": {
+        "risk": 4.190879639627221e-06,
+        "fraction_removed_if_stim_gains_known": 0.0029980226318641855,
+        "fraction_removed_if_readouts_gains_known": 0.9182311962715864,
+        "fraction_removed_if_both_gains_known": 0.9217828077166201,
+        "stim_variance_fraction": 0.0063178598932005815,
+        "readout_variance_fraction": 0.9734167194229449
+      },
+      "readouts_only": {
+        "risk": 3.980524416722439e-06,
+        "fraction_removed_if_stim_gains_known": 0.950996941924377,
+        "fraction_removed_if_readouts_gains_known": 0.013572473228600584,
+        "fraction_removed_if_both_gains_known": 0.9665675598971376,
+        "stim_variance_fraction": 0.9923721225867119,
+        "readout_variance_fraction": 0.01946890230584417
+      },
+      "both": {
+        "risk": 2.710201863411268e-07,
+        "fraction_removed_if_stim_gains_known": 0.10203118464389505,
+        "fraction_removed_if_readouts_gains_known": 0.33677678216477774,
+        "fraction_removed_if_both_gains_known": 0.355189086161126,
+        "stim_variance_fraction": 0.006955376090863003,
+        "readout_variance_fraction": 0.020303225413734416
+      }
+    }
+  },
+  {
+    "network_id": 20030,
+    "stim": 80,
+    "readouts": [
+      64,
+      19,
+      92
+    ],
+    "prior_risk": 0.0036332497339124797,
+    "stim_gradient_fraction": 0.0478858586470645,
+    "readout_gradient_fraction": 0.0780722798524279,
+    "other_gradient_fraction": 0.8740418615005076,
+    "policies": {
+      "neither": {
+        "risk": 0.00029360310621087427,
+        "fraction_removed_if_stim_gains_known": 0.4357334728127839,
+        "fraction_removed_if_readouts_gains_known": 0.5125742479728191,
+        "fraction_removed_if_both_gains_known": 0.964824192131336,
+        "stim_variance_fraction": 0.9592780028719458,
+        "readout_variance_fraction": 0.9675184371502169
+      },
+      "stim_only": {
+        "risk": 0.00016419293117746065,
+        "fraction_removed_if_stim_gains_known": 0.009403463711877398,
+        "fraction_removed_if_readouts_gains_known": 0.941897441749138,
+        "fraction_removed_if_both_gains_known": 0.9468468139632829,
+        "stim_variance_fraction": 0.0025510993121750543,
+        "readout_variance_fraction": 0.9663347684935379
+      },
+      "readouts_only": {
+        "risk": 0.0001401055852469165,
+        "fraction_removed_if_stim_gains_known": 0.9418835895705664,
+        "fraction_removed_if_readouts_gains_known": 0.008818410002641637,
+        "fraction_removed_if_both_gains_known": 0.9463592052144834,
+        "stim_variance_fraction": 0.9576080379515345,
+        "readout_variance_fraction": 0.003334812609119785
+      },
+      "both": {
+        "risk": 9.2868328166957e-06,
+        "fraction_removed_if_stim_gains_known": 0.07605616765168706,
+        "fraction_removed_if_readouts_gains_known": 0.06526016218531865,
+        "fraction_removed_if_both_gains_known": 0.09285350546809486,
+        "stim_variance_fraction": 0.0026968800631515543,
+        "readout_variance_fraction": 0.0034386709616551353
+      }
+    }
+  },
+  {
+    "network_id": 20031,
+    "stim": 14,
+    "readouts": [
+      91,
+      44,
+      5
+    ],
+    "prior_risk": 0.002457165226046604,
+    "stim_gradient_fraction": 0.08694653750767362,
+    "readout_gradient_fraction": 0.0730997313228959,
+    "other_gradient_fraction": 0.8399537311694304,
+    "policies": {
+      "neither": {
+        "risk": 0.0003551947150826731,
+        "fraction_removed_if_stim_gains_known": 0.48070563884195056,
+        "fraction_removed_if_readouts_gains_known": 0.5122180430175626,
+        "fraction_removed_if_both_gains_known": 0.9930949023398382,
+        "stim_variance_fraction": 0.9065937340575051,
+        "readout_variance_fraction": 0.9537026011879554
+      },
+      "stim_only": {
+        "risk": 0.0001831894994335533,
+        "fraction_removed_if_stim_gains_known": 0.004339958148203354,
+        "fraction_removed_if_readouts_gains_known": 0.9886862664277517,
+        "fraction_removed_if_both_gains_known": 0.9891225342354355,
+        "stim_variance_fraction": 0.0014197650366493044,
+        "readout_variance_fraction": 0.9528979303105626
+      },
+      "readouts_only": {
+        "risk": 0.00017521226743914443,
+        "fraction_removed_if_stim_gains_known": 0.9787981135663252,
+        "fraction_removed_if_readouts_gains_known": 0.0009389711420334414,
+        "fraction_removed_if_both_gains_known": 0.9812227413298165,
+        "stim_variance_fraction": 0.9120919789231391,
+        "readout_variance_fraction": 0.011984393761458432
+      },
+      "both": {
+        "risk": 3.4956243919675544e-06,
+        "fraction_removed_if_stim_gains_known": 0.08908471031259363,
+        "fraction_removed_if_readouts_gains_known": 0.21618254898789258,
+        "fraction_removed_if_both_gains_known": 0.23189824676411688,
+        "stim_variance_fraction": 0.0015556409308613624,
+        "readout_variance_fraction": 0.011193991961947621
+      }
+    }
+  },
+  {
+    "network_id": 20032,
+    "stim": 33,
+    "readouts": [
+      94,
+      23,
+      91
+    ],
+    "prior_risk": 0.008717266804004588,
+    "stim_gradient_fraction": 0.33516156134808517,
+    "readout_gradient_fraction": 0.2542150023364518,
+    "other_gradient_fraction": 0.41062343631546305,
+    "policies": {
+      "neither": {
+        "risk": 0.004864221650977235,
+        "fraction_removed_if_stim_gains_known": 0.63046795145436,
+        "fraction_removed_if_readouts_gains_known": 0.31976593959204164,
+        "fraction_removed_if_both_gains_known": 0.9920909484072,
+        "stim_variance_fraction": 0.9501730517302135,
+        "readout_variance_fraction": 0.6136810907979973
+      },
+      "stim_only": {
+        "risk": 0.0018064405654927664,
+        "fraction_removed_if_stim_gains_known": 0.010516432709296536,
+        "fraction_removed_if_readouts_gains_known": 0.9824664760181511,
+        "fraction_removed_if_both_gains_known": 0.9831756562461021,
+        "stim_variance_fraction": 0.0033837117331413217,
+        "readout_variance_fraction": 0.6113101341557208
+      },
+      "readouts_only": {
+        "risk": 0.0032716815446980746,
+        "fraction_removed_if_stim_gains_known": 0.9907581447690536,
+        "fraction_removed_if_readouts_gains_known": 0.002484772436453251,
+        "fraction_removed_if_both_gains_known": 0.9921629433234909,
+        "stim_variance_fraction": 0.9403881883614641,
+        "readout_variance_fraction": 0.001937463762008421
+      },
+      "both": {
+        "risk": 3.134091516341554e-05,
+        "fraction_removed_if_stim_gains_known": 0.07969981535008201,
+        "fraction_removed_if_readouts_gains_known": 0.2107765938262481,
+        "fraction_removed_if_both_gains_known": 0.24551084583665572,
+        "stim_variance_fraction": 0.0017877683897769435,
+        "readout_variance_fraction": 0.0019672890335818076
+      }
+    }
+  },
+  {
+    "network_id": 20033,
+    "stim": 46,
+    "readouts": [
+      4,
+      42,
+      56
+    ],
+    "prior_risk": 0.001983412471748495,
+    "stim_gradient_fraction": 0.06731874567055199,
+    "readout_gradient_fraction": 0.054935737094881316,
+    "other_gradient_fraction": 0.8777455172345666,
+    "policies": {
+      "neither": {
+        "risk": 0.00011535744946643294,
+        "fraction_removed_if_stim_gains_known": 0.48386182967810387,
+        "fraction_removed_if_readouts_gains_known": 0.48854882535412525,
+        "fraction_removed_if_both_gains_known": 0.9800293998316149,
+        "stim_variance_fraction": 0.9199282482392457,
+        "readout_variance_fraction": 0.9500807775860242
+      },
+      "stim_only": {
+        "risk": 5.914679652860582e-05,
+        "fraction_removed_if_stim_gains_known": 0.001709207242734658,
+        "fraction_removed_if_readouts_gains_known": 0.9644984708242479,
+        "fraction_removed_if_both_gains_known": 0.9665076171987642,
+        "stim_variance_fraction": 0.0023294844450957902,
+        "readout_variance_fraction": 0.9499127562753786
+      },
+      "readouts_only": {
+        "risk": 5.894658595113558e-05,
+        "fraction_removed_if_stim_gains_known": 0.9580856242763357,
+        "fraction_removed_if_readouts_gains_known": 0.009195771208168035,
+        "fraction_removed_if_both_gains_known": 0.9705665641310199,
+        "stim_variance_fraction": 0.9241089497870704,
+        "readout_variance_fraction": 0.003236668681245443
+      },
+      "both": {
+        "risk": 2.1744923248186347e-06,
+        "fraction_removed_if_stim_gains_known": 0.11156603668312297,
+        "fraction_removed_if_readouts_gains_known": 0.3446304055379556,
+        "fraction_removed_if_both_gains_known": 0.35239154307840526,
+        "stim_variance_fraction": 0.002539361515697598,
+        "readout_variance_fraction": 0.0030389689216420916
+      }
+    }
+  },
+  {
+    "network_id": 20034,
+    "stim": 3,
+    "readouts": [
+      50,
+      6,
+      29
+    ],
+    "prior_risk": 0.0038066226599043937,
+    "stim_gradient_fraction": 0.1276243656852239,
+    "readout_gradient_fraction": 0.08335157084326188,
+    "other_gradient_fraction": 0.7890240634715142,
+    "policies": {
+      "neither": {
+        "risk": 0.0005045159818175449,
+        "fraction_removed_if_stim_gains_known": 0.4098642165662915,
+        "fraction_removed_if_readouts_gains_known": 0.48839024596946484,
+        "fraction_removed_if_both_gains_known": 0.9533689034534301,
+        "stim_variance_fraction": 0.6928420600312991,
+        "readout_variance_fraction": 0.97756311391261
+      },
+      "stim_only": {
+        "risk": 0.00029075501475134513,
+        "fraction_removed_if_stim_gains_known": 0.007870478060172468,
+        "fraction_removed_if_readouts_gains_known": 0.9390868117252186,
+        "fraction_removed_if_both_gains_known": 0.9451091514039858,
+        "stim_variance_fraction": 0.0013540469075157787,
+        "readout_variance_fraction": 0.9727137661060516
+      },
+      "readouts_only": {
+        "risk": 0.0002723801696913331,
+        "fraction_removed_if_stim_gains_known": 0.8855589394950422,
+        "fraction_removed_if_readouts_gains_known": 0.03403708417562845,
+        "fraction_removed_if_both_gains_known": 0.9105352915295913,
+        "stim_variance_fraction": 0.7024043237295329,
+        "readout_variance_fraction": 0.0035860038608249395
+      },
+      "both": {
+        "risk": 2.1930631284984006e-05,
+        "fraction_removed_if_stim_gains_known": 0.12041346760552324,
+        "fraction_removed_if_readouts_gains_known": 0.1776188090398797,
+        "fraction_removed_if_both_gains_known": 0.1858479708339158,
+        "stim_variance_fraction": 0.00139790580339225,
+        "readout_variance_fraction": 0.003136112925140678
+      }
+    }
+  },
+  {
+    "network_id": 20035,
+    "stim": 59,
+    "readouts": [
+      19,
+      14,
+      68
+    ],
+    "prior_risk": 0.0004887353569747494,
+    "stim_gradient_fraction": 0.37629045697898816,
+    "readout_gradient_fraction": 0.3386181933423494,
+    "other_gradient_fraction": 0.2850913496786624,
+    "policies": {
+      "neither": {
+        "risk": 0.00037445422529225277,
+        "fraction_removed_if_stim_gains_known": 0.5305252380610322,
+        "fraction_removed_if_readouts_gains_known": 0.477484612753515,
+        "fraction_removed_if_both_gains_known": 0.9979778362832562,
+        "stim_variance_fraction": 0.9491988763936502,
+        "readout_variance_fraction": 0.9336621602893805
+      },
+      "stim_only": {
+        "risk": 0.00017616729596130011,
+        "fraction_removed_if_stim_gains_known": 0.0033177649530270817,
+        "fraction_removed_if_readouts_gains_known": 0.9936253963101881,
+        "fraction_removed_if_both_gains_known": 0.9954226315614628,
+        "stim_variance_fraction": 0.0024935485079582054,
+        "readout_variance_fraction": 0.9337477940163256
+      },
+      "readouts_only": {
+        "risk": 0.00019568617696231813,
+        "fraction_removed_if_stim_gains_known": 0.9948204085879905,
+        "fraction_removed_if_readouts_gains_known": 0.0005039006731704811,
+        "fraction_removed_if_both_gains_known": 0.9960116133951377,
+        "stim_variance_fraction": 0.9505791905637864,
+        "readout_variance_fraction": 0.0031092183798931638
+      },
+      "both": {
+        "risk": 1.6558500219663936e-06,
+        "fraction_removed_if_stim_gains_known": 0.31581042385751995,
+        "fraction_removed_if_readouts_gains_known": 0.4016309484886866,
+        "fraction_removed_if_both_gains_known": 0.5202482591635008,
+        "stim_variance_fraction": 0.002583528448470166,
+        "readout_variance_fraction": 0.0032920681864062246
+      }
+    }
+  },
+  {
+    "network_id": 20036,
+    "stim": 86,
+    "readouts": [
+      72,
+      5,
+      59
+    ],
+    "prior_risk": 0.006526490551373973,
+    "stim_gradient_fraction": 0.26106466245227644,
+    "readout_gradient_fraction": 0.32495905598411584,
+    "other_gradient_fraction": 0.41397628156360766,
+    "policies": {
+      "neither": {
+        "risk": 0.0038466566598056007,
+        "fraction_removed_if_stim_gains_known": 0.41886707870592593,
+        "fraction_removed_if_readouts_gains_known": 0.5575505307788315,
+        "fraction_removed_if_both_gains_known": 0.9960615509378273,
+        "stim_variance_fraction": 0.7897317470625712,
+        "readout_variance_fraction": 0.9466481170369873
+      },
+      "stim_only": {
+        "risk": 0.002217961422491364,
+        "fraction_removed_if_stim_gains_known": 0.0017250318515270862,
+        "fraction_removed_if_readouts_gains_known": 0.995353127621233,
+        "fraction_removed_if_both_gains_known": 0.9954057255018846,
+        "stim_variance_fraction": 0.00024733823179860575,
+        "readout_variance_fraction": 0.9416008118491526
+      },
+      "readouts_only": {
+        "risk": 0.0017480625715764755,
+        "fraction_removed_if_stim_gains_known": 0.9914905070289491,
+        "fraction_removed_if_readouts_gains_known": 0.02543967134652436,
+        "fraction_removed_if_both_gains_known": 0.9920628440843808,
+        "stim_variance_fraction": 0.8054913416465324,
+        "readout_variance_fraction": 0.0013496528717645909
+      },
+      "both": {
+        "risk": 1.1139809302961941e-05,
+        "fraction_removed_if_stim_gains_known": 0.09107744945597814,
+        "fraction_removed_if_readouts_gains_known": 0.1737547868434822,
+        "fraction_removed_if_both_gains_known": 0.21430879138183187,
+        "stim_variance_fraction": 0.00023696283666083776,
+        "readout_variance_fraction": 0.0011536380046986226
+      }
+    }
+  },
+  {
+    "network_id": 20037,
+    "stim": 66,
+    "readouts": [
+      59,
+      50,
+      48
+    ],
+    "prior_risk": 0.0037750564502655403,
+    "stim_gradient_fraction": 0.02204432244244759,
+    "readout_gradient_fraction": 0.009926005461035928,
+    "other_gradient_fraction": 0.9680296720965166,
+    "policies": {
+      "neither": {
+        "risk": 0.0003662172815829441,
+        "fraction_removed_if_stim_gains_known": 0.26468870316702947,
+        "fraction_removed_if_readouts_gains_known": 0.21430940387607347,
+        "fraction_removed_if_both_gains_known": 0.4793099382338744,
+        "stim_variance_fraction": 0.9910926474899854,
+        "readout_variance_fraction": 0.9864488753312198
+      },
+      "stim_only": {
+        "risk": 0.000325009661885658,
+        "fraction_removed_if_stim_gains_known": 0.05756686771165229,
+        "fraction_removed_if_readouts_gains_known": 0.2461550479465486,
+        "fraction_removed_if_both_gains_known": 0.30496071170475186,
+        "stim_variance_fraction": 0.2017771979887015,
+        "readout_variance_fraction": 0.9868795188153278
+      },
+      "readouts_only": {
+        "risk": 0.0003516449119377343,
+        "fraction_removed_if_stim_gains_known": 0.2820077496685119,
+        "fraction_removed_if_readouts_gains_known": 0.016169766335257532,
+        "fraction_removed_if_both_gains_known": 0.2986638782989559,
+        "stim_variance_fraction": 0.9917535287988558,
+        "readout_variance_fraction": 0.17347909425148444
+      },
+      "both": {
+        "risk": 0.0002842039080992285,
+        "fraction_removed_if_stim_gains_known": 0.08021753252263931,
+        "fraction_removed_if_readouts_gains_known": 0.0344956412379754,
+        "fraction_removed_if_both_gains_known": 0.10192622211704727,
+        "stim_variance_fraction": 0.20081496404552035,
+        "readout_variance_fraction": 0.17604011849059975
+      }
+    }
+  },
+  {
+    "network_id": 20038,
+    "stim": 49,
+    "readouts": [
+      73,
+      38,
+      24
+    ],
+    "prior_risk": 0.011134933323784915,
+    "stim_gradient_fraction": 0.042158912636747425,
+    "readout_gradient_fraction": 0.05951240295604363,
+    "other_gradient_fraction": 0.8983286844072089,
+    "policies": {
+      "neither": {
+        "risk": 9.03743767344346e-05,
+        "fraction_removed_if_stim_gains_known": 0.6189430679083683,
+        "fraction_removed_if_readouts_gains_known": 0.14620622885754905,
+        "fraction_removed_if_both_gains_known": 0.7615558275567104,
+        "stim_variance_fraction": 0.9008115995883651,
+        "readout_variance_fraction": 0.9387303577382918
+      },
+      "stim_only": {
+        "risk": 3.458742679007802e-05,
+        "fraction_removed_if_stim_gains_known": 0.09084741165494649,
+        "fraction_removed_if_readouts_gains_known": 0.3760862189167284,
+        "fraction_removed_if_both_gains_known": 0.4709404727458127,
+        "stim_variance_fraction": 0.026592680739098113,
+        "readout_variance_fraction": 0.9390992926900772
+      },
+      "readouts_only": {
+        "risk": 8.243985928130364e-05,
+        "fraction_removed_if_stim_gains_known": 0.6726467730343524,
+        "fraction_removed_if_readouts_gains_known": 0.015919369298647842,
+        "fraction_removed_if_both_gains_known": 0.6841875427359948,
+        "stim_variance_fraction": 0.9125310618612289,
+        "readout_variance_fraction": 0.017194296004499093
+      },
+      "both": {
+        "risk": 2.6634485697363557e-05,
+        "fraction_removed_if_stim_gains_known": 0.09209250983956367,
+        "fraction_removed_if_readouts_gains_known": 0.08082063421259761,
+        "fraction_removed_if_both_gains_known": 0.10634047897482655,
+        "stim_variance_fraction": 0.014438503675165729,
+        "readout_variance_fraction": 0.017104893090318377
+      }
+    }
+  },
+  {
+    "network_id": 20039,
+    "stim": 15,
+    "readouts": [
+      57,
+      20,
+      32
+    ],
+    "prior_risk": 0.000820053667323952,
+    "stim_gradient_fraction": 0.3661332332042033,
+    "readout_gradient_fraction": 0.39366997871888854,
+    "other_gradient_fraction": 0.24019678807690809,
+    "policies": {
+      "neither": {
+        "risk": 0.0005450478350152475,
+        "fraction_removed_if_stim_gains_known": 0.5151065735656696,
+        "fraction_removed_if_readouts_gains_known": 0.47681794186023535,
+        "fraction_removed_if_both_gains_known": 0.994264346276528,
+        "stim_variance_fraction": 0.9906051410741478,
+        "readout_variance_fraction": 0.9265172813869826
+      },
+      "stim_only": {
+        "risk": 0.0002767505366444105,
+        "fraction_removed_if_stim_gains_known": 0.0406073610925402,
+        "fraction_removed_if_readouts_gains_known": 0.9465800357573645,
+        "fraction_removed_if_both_gains_known": 0.9875559420232042,
+        "stim_variance_fraction": 0.042414008123544435,
+        "readout_variance_fraction": 0.9295023784315727
+      },
+      "readouts_only": {
+        "risk": 0.00028704562205929154,
+        "fraction_removed_if_stim_gains_known": 0.9831752660739475,
+        "fraction_removed_if_readouts_gains_known": 0.01081883520344141,
+        "fraction_removed_if_both_gains_known": 0.9938376029161632,
+        "stim_variance_fraction": 0.988988368488783,
+        "readout_variance_fraction": 0.01138414208106364
+      },
+      "both": {
+        "risk": 1.7860907148702004e-05,
+        "fraction_removed_if_stim_gains_known": 0.7474518859074717,
+        "fraction_removed_if_readouts_gains_known": 0.5834100226789544,
+        "fraction_removed_if_both_gains_known": 0.8892898278383677,
+        "stim_variance_fraction": 0.026266331325790985,
+        "readout_variance_fraction": 0.012005414306254925
+      }
+    }
+  }
+]

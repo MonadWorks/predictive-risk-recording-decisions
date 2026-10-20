@@ -1,0 +1,93 @@
+{
+  "timestamp_utc": "2026-10-18T13:17:51.882783+00:00",
+  "status": "local freeze before new outcomes; retrospective exploration on previously used networks; not independent confirmation",
+  "scope": "Endpoint information allocation and common-estimator fitting, original model and prediction target unchanged",
+  "network_ids": [
+    20000,
+    20001,
+    20002,
+    20003,
+    20004,
+    20005,
+    20006,
+    20007,
+    20008,
+    20009,
+    20010,
+    20011,
+    20012,
+    20013,
+    20014,
+    20015,
+    20016,
+    20017,
+    20018,
+    20019,
+    20020,
+    20021,
+    20022,
+    20023,
+    20024,
+    20025,
+    20026,
+    20027,
+    20028,
+    20029,
+    20030,
+    20031,
+    20032,
+    20033,
+    20034,
+    20035,
+    20036,
+    20037,
+    20038,
+    20039
+  ],
+  "budget": 5,
+  "truth_repeats": 2,
+  "noise_repeats": 2,
+  "endpoint": {
+    "policies": [
+      "neither",
+      "stim_only",
+      "readouts_only",
+      "both"
+    ],
+    "repeats": 3,
+    "seed": 1601,
+    "rule": "same nonendpoint random permutation per repeat; fixed endpoints replace random nonendpoints at equal total budget 5",
+    "estimator": "original nominal-start MAP, max_nfev200"
+  },
+  "fit_primary": {
+    "methods": [
+      "local_vector",
+      "ensemble_vector"
+    ],
+    "pool": "exclude_endpoints",
+    "starts": [
+      "nominal",
+      "near_1",
+      "near_2",
+      "prior_1",
+      "prior_2"
+    ],
+    "seed": 91631,
+    "rule": "two starts at 0.25 prior SD, two at 1 prior SD; same starts for methods and trials; choose smallest MAP objective; truth never used for choice"
+  },
+  "analysis": {
+    "independent_unit": "network",
+    "bootstrap": 10000,
+    "seed": 20261018,
+    "primary_endpoint_contrasts": [
+      "both vs neither",
+      "both vs stim_only",
+      "both vs readouts_only",
+      "local_vector_all vs both",
+      "ensemble_vector_all vs both"
+    ],
+    "fitting": "nominal vs best of five; ensemble vs local with each fit rule",
+    "scope": "all intervals exploratory; complete table and influence checks retained"
+  },
+  "code_sha256": "bc78e07b9853bf021ea1a9e73f9c3fd589048a55e316041289faa57d21db5856"
+}

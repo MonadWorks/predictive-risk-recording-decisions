@@ -1,0 +1,40 @@
+[
+  {
+    "metric": "nominal_ensemble_rank_correlation",
+    "low_mean": 0.943581456863809,
+    "high_mean": 0.5995720293000543,
+    "mean_change": -0.34400942756375474,
+    "ci_low": -0.38195539711068915,
+    "ci_high": -0.308687296527401,
+    "networks_decreased": 40
+  },
+  {
+    "metric": "mean_nominal_particle_rank_correlation",
+    "low_mean": 0.7972900311143516,
+    "high_mean": 0.46742347522721106,
+    "mean_change": -0.32986655588714053,
+    "ci_low": -0.3426337477321283,
+    "ci_high": -0.3182928108467851,
+    "networks_decreased": 40
+  },
+  {
+    "metric": "retained_fraction",
+    "budget": 5,
+    "low_mean": 0.735,
+    "high_mean": 0.555,
+    "mean_change": -0.18,
+    "ci_low": -0.26000000000000006,
+    "ci_high": -0.1,
+    "networks_decreased": 28
+  },
+  {
+    "metric": "retained_fraction",
+    "budget": 10,
+    "low_mean": 0.805,
+    "high_mean": 0.7025,
+    "mean_change": -0.1025,
+    "ci_low": -0.16,
+    "ci_high": -0.045,
+    "networks_decreased": 26
+  }
+]

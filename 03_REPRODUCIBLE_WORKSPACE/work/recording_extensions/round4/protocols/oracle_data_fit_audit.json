@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "2026-10-19T03:10:54.010683+00:00",
+  "scope": "Retrospective additional audit after cross-policy warm starts: restrict shared starting values to estimates fitted without any oracle information.",
+  "trigger": "Same original failed/above-feasible-objective trigger over all six policies; network50010 is the only flagged case.",
+  "procedure": "All six policies receive the same 17 additional starts: the nine existing fits to the identical five ordinary recordings without any oracle knowledge, plus eight fixed prior draws (stream95413). Each is projected into that policy own revealed-constraint space. Retain the original nine fits, not the cross-policy-audit fits. Thus neither true hidden gains nor estimates based on other policies oracle constraints enter the common starts.",
+  "source_hashes": {
+    "oracle_data_fit_audit.py": "5a2abad919e06ac10edd11306374f76e8344c46553c28230b0eaefffb836f905",
+    "oracle_combinations.py": "26c7f644679aac8bd381125134a37af1c833cb03d43b02793a44716c6eee970b",
+    "common4.py": "b4980c83d95ffef71ca8e7684c20abf296d184148d2773d1774cc5f77ad368a2"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "timestamp_utc": "2026-10-18T13:21:37.607871+00:00",
+  "registration": "local prospective freeze before any validation output, after exploratory stage launched; not public preregistration",
+  "network_ids": [
+    30000,
+    30001,
+    30002,
+    30003,
+    30004,
+    30005,
+    30006,
+    30007,
+    30008,
+    30009,
+    30010,
+    30011,
+    30012,
+    30013,
+    30014,
+    30015,
+    30016,
+    30017,
+    30018,
+    30019,
+    30020,
+    30021,
+    30022,
+    30023,
+    30024,
+    30025,
+    30026,
+    30027,
+    30028,
+    30029,
+    30030,
+    30031,
+    30032,
+    30033,
+    30034,
+    30035,
+    30036,
+    30037,
+    30038,
+    30039
+  ],
+  "sample_size": 40,
+  "selection": "fixed disjoint network ids; no outcome-dependent stopping",
+  "hypothesis": "At M5, recording the stimulation neuron and all three readouts plus one random nonendpoint lowers integrated-response MSE relative to allocating the five slots entirely to nonendpoints",
+  "primary_contrast": [
+    "both",
+    "neither"
+  ],
+  "secondary_contrasts": [
+    [
+      "both",
+      "stim_only"
+    ],
+    [
+      "both",
+      "readouts_only"
+    ]
+  ],
+  "protocol": "same model, conditions, truth/noise counts, allocation rules, seed streams and nominal-start estimator as round2/protocol.json endpoint phase",
+  "estimator": "original nominal-start MAP, held fixed across policies",
+  "source_hashes": {
+    "explore.py": "bc78e07b9853bf021ea1a9e73f9c3fd589048a55e316041289faa57d21db5856",
+    "validate_endpoints.py": "0e0f8c643e926037b8cbc704041ba1941ee3398ad56a3d14dd2a43113639c9e5"
+  },
+  "analysis": "average over 3 allocation repeats, 2 truths, 2 noise draws and 3 targets within each independent network; ratio of means; paired network bootstrap 10000, 95 percent interval; all 40 retained; keep primary/secondary distinction"
+}

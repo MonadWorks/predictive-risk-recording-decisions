@@ -1,0 +1,141 @@
+{
+  "network_id": 50001,
+  "complete": true,
+  "matrix_product_relative_error": 0.0,
+  "records": [
+    {
+      "condition": "matched_rank2",
+      "policy": "neither",
+      "original_mse": 0.0007792643562702724,
+      "refined_mse": 0.0007792958397486903,
+      "q_difference_norm": 5.200138294204036e-07,
+      "true_q_difference_norm": 6.843809245390353e-07
+    },
+    {
+      "condition": "matched_rank2",
+      "policy": "both",
+      "original_mse": 7.743678737559036e-07,
+      "refined_mse": 7.74406598880969e-07,
+      "q_difference_norm": 7.189510564742131e-07,
+      "true_q_difference_norm": 6.843809245390353e-07
+    },
+    {
+      "condition": "augmented_rank6",
+      "policy": "neither",
+      "original_mse": 0.0015393001235051117,
+      "refined_mse": 0.0015392979074447266,
+      "q_difference_norm": 1.6701772659152565e-07,
+      "true_q_difference_norm": 2.0686936397114357e-07
+    },
+    {
+      "condition": "augmented_rank6",
+      "policy": "both",
+      "original_mse": 0.0002267466490864599,
+      "refined_mse": 0.00022674911350085416,
+      "q_difference_norm": 1.1364060374899085e-07,
+      "true_q_difference_norm": 2.0686936397114357e-07
+    },
+    {
+      "condition": "random_rank6",
+      "policy": "neither",
+      "original_mse": 0.0016026117782973175,
+      "refined_mse": 0.0016026117795245951,
+      "q_difference_norm": 1.6742364815330704e-11,
+      "true_q_difference_norm": 2.7470877575268724e-11
+    },
+    {
+      "condition": "random_rank6",
+      "policy": "both",
+      "original_mse": 5.7423108668974144e-05,
+      "refined_mse": 5.742310874830005e-05,
+      "q_difference_norm": 2.5528767967464913e-11,
+      "true_q_difference_norm": 2.7470877575268724e-11
+    },
+    {
+      "condition": "connectivity_error",
+      "policy": "neither",
+      "original_mse": 0.0006910637931586439,
+      "refined_mse": 0.0006910901470806092,
+      "q_difference_norm": 4.810360061927493e-07,
+      "true_q_difference_norm": 6.979486236641888e-07
+    },
+    {
+      "condition": "connectivity_error",
+      "policy": "both",
+      "original_mse": 1.2357407895431757e-06,
+      "refined_mse": 1.2356487878882901e-06,
+      "q_difference_norm": 7.625029112822058e-07,
+      "true_q_difference_norm": 6.979486236641888e-07
+    },
+    {
+      "condition": "initial_state_error",
+      "policy": "neither",
+      "original_mse": 0.0007821225397896347,
+      "refined_mse": 0.0007821559602810803,
+      "q_difference_norm": 5.606648963868778e-07,
+      "true_q_difference_norm": 7.381490568494495e-07
+    },
+    {
+      "condition": "initial_state_error",
+      "policy": "both",
+      "original_mse": 2.342112378253138e-06,
+      "refined_mse": 2.3422200433006024e-06,
+      "q_difference_norm": 7.996211786583766e-07,
+      "true_q_difference_norm": 7.381490568494495e-07
+    },
+    {
+      "condition": "positive_gain",
+      "policy": "neither",
+      "original_mse": 0.00011544399113295574,
+      "refined_mse": 0.00011544704610446173,
+      "q_difference_norm": 4.1299121240794816e-07,
+      "true_q_difference_norm": 6.45638578716773e-08
+    },
+    {
+      "condition": "positive_gain",
+      "policy": "both",
+      "original_mse": 7.266534269650201e-06,
+      "refined_mse": 7.2665445032944075e-06,
+      "q_difference_norm": 9.925427495991861e-08,
+      "true_q_difference_norm": 6.45638578716773e-08
+    }
+  ],
+  "oracle_records": [
+    {
+      "policy": "endpoints4",
+      "original_mse": 2.405966955566833e-07,
+      "refined_mse": 2.406013411192827e-07,
+      "q_difference_norm": 6.767634519080805e-07
+    },
+    {
+      "policy": "recurrence4",
+      "original_mse": 0.000619515065887159,
+      "refined_mse": 0.0006195455175809673,
+      "q_difference_norm": 6.547438202889117e-07
+    },
+    {
+      "policy": "endpoints_recurrence8",
+      "original_mse": 1.7268064090079222e-07,
+      "refined_mse": 1.7269554891123294e-07,
+      "q_difference_norm": 7.208330580200643e-07
+    },
+    {
+      "policy": "ordinary4",
+      "original_mse": 0.0008344543723103051,
+      "refined_mse": 0.0008344897676320016,
+      "q_difference_norm": 6.018139766313036e-07
+    },
+    {
+      "policy": "ordinary8",
+      "original_mse": 0.0008412979367005798,
+      "refined_mse": 0.0008413338929542277,
+      "q_difference_norm": 6.113515738767642e-07
+    },
+    {
+      "policy": "endpoint_ordinary8",
+      "original_mse": 2.469390667234973e-07,
+      "refined_mse": 2.4694441305388467e-07,
+      "q_difference_norm": 6.757556069026658e-07
+    }
+  ]
+}

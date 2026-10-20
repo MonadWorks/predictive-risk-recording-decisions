@@ -1,0 +1,8 @@
+{
+  "rows": 384,
+  "identical_recording_sets": true,
+  "max_absolute_q_true_difference": 0.0,
+  "max_absolute_q_hat_difference": 1.942890293094024e-15,
+  "all_fits_successful": true,
+  "q_hat_close": true
+}

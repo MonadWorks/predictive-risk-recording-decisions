@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-18T15:20:11.870030+00:00",
+  "reason": "Replace poorly conditioned SLSQP coordinates by an invertible Gauss-Newton coordinate transformation; mathematical objective and feasible set unchanged.",
+  "bounds": "Original box |z_i| <= sqrt(2*(best_cost+delta)) is implied by the quadratic prior and is redundant. Full nonlinear objective constraint remains.",
+  "verification": {
+    "analytic_range_relative_error": 9.769962616701378e-13,
+    "all_success": true,
+    "passed": true
+  },
+  "pilot": "Independent numerical seed 19980: 24 of 24 searches converged and were feasible; 10-33 iterations.",
+  "original_profile_process": "unconditioned numerical pilots and validation attempts stopped; no per-network validation files had been completed",
+  "completed_validation_files_at_amendment": 0,
+  "scientific_protocol_changed": false,
+  "hashes": {
+    "profiles_conditioned.py": "b82df0d96938a7e45102aa665312c8406558e3fa61cce3d7c1cbf17c1b38275d",
+    "profiles_fast.py": "509acb33e85ed43a2fd89534db79828d4732f0192919026c954c43c60b1afba5",
+    "fast_values.py": "53d56bb1c00bd475cc75d03a46f1ae371989749cd69bf95aea9b1039fc94c4e4"
+  }
+}

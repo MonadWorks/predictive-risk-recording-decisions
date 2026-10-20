@@ -6,7 +6,7 @@ One simulation-based neural-recording paper progressed through pilot experiments
 
 ## Evidence and interpretation
 
-Evaluate recording agreement, realised response error, and risk forecasting separately. Shared recording sets and data yield identical predictions under the common MAP estimator. Primary intervals include zero. The separate fixed-data forecast study uses 40 new networks; 19 favour prior averaging, and one contributes approximately 64% of the summed score difference. The 100-unit rank-two extension remains exploratory. Do not recast simulation results as biological validation.
+Evaluate recording agreement, realised response error, and risk forecasting separately. Shared recording sets and data yield identical predictions under the common MAP estimator. The original criterion and forecast comparisons remain uncertain. The updated 100-unit evidence includes eight pilot networks and four disjoint cohorts of forty: criterion confirmation, endpoint validation, mechanism, and indirect-recording methods. Joint endpoint calibration is the replicated positive result; the mechanism experiments support constrained response ambiguity within the tested family. Additional method gains remain sensitive to fitting. Keep these different comparisons and their cohorts separate; do not recast simulation results as biological validation.
 
 ## Latest graphical abstract decisions
 
@@ -28,4 +28,4 @@ Collaborators should first read the current manuscript, the research/version aud
 
 ## Formal-manuscript cleanup — 2026-10-18
 
-Current Markdown and PDF exclude internal version/date/revision notes, invisible paragraph labels, and the unconfirmed final-author-approval sentence. Scientific text, abstract, figures and numbers are unchanged. Historical frozen packages retain their originals; they are provenance, not upload-ready manuscripts. Current checks use `05_AUDIT/manuscript_cleanup_receipt.json`.
+Current Markdown and PDF exclude internal version/date/revision notes, invisible paragraph labels, and the unconfirmed final-author-approval sentence. The endpoint revision extends the scientific text, abstract and figures while preserving that cleanup. Historical frozen packages retain their originals. `05_AUDIT/manuscript_cleanup_receipt.json` checks the archived 22-page version; `validate_handoff.py` checks the current manuscript against `outputs/endpoint_revision/` as well as the historical packages.

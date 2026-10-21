@@ -33,7 +33,7 @@ The prior-averaging and covariance-based comparisons likewise do not establish a
 - [Extension code, protocols and numerical records](03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/)
 - [Current canonical manuscript and build source](03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/)
 
-The current graphical abstract follows endpoint recording, the response-information mechanism and targeted acquisition of internal information. Its takeaway is **Calibrate the endpoints, then target the remaining internal information.** The nine extension figures share the original rose, plum and gold palette. Earlier graphical abstracts remain in `03_REPRODUCIBLE_WORKSPACE/outputs/graphical_abstract/`; historical manuscripts, receipts and audits retain their original scope. The study has not been submitted.
+The current graphical abstract connects recording locations, held-out prediction, the response-information mechanism and targeted acquisition of internal information. Its takeaway is **Record endpoints for prediction; target the remaining internal information.** It and the nine extension figures follow the original refined manuscript's BentonSans typography, pink palette and compact panel layout. Earlier graphical abstracts remain in `03_REPRODUCIBLE_WORKSPACE/outputs/graphical_abstract/`; historical manuscripts, receipts and audits retain their original scope. The study has not been submitted.
 
 ## Verify
 

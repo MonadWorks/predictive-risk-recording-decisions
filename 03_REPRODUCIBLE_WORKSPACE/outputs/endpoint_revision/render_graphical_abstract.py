@@ -1,174 +1,145 @@
-"""Graphical abstract for the endpoint and internal-information manuscript.
+"""Graphical abstract in the collaborator's refined scientific-figure style.
 
-All displayed effects are read from the frozen network summaries. Schematics
-illustrate recording roles and the exact response factorization; quantitative
-bars use ratios of aggregate means from those same summaries.
+The only quantitative panels show held-out MSE across the validation networks
+and the prespecified internal-range comparison. Diagram geometry is schematic.
 """
 from pathlib import Path
-import argparse, json, shutil
+import argparse,json,shutil
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from matplotlib import font_manager as fm
-from matplotlib.patches import FancyBboxPatch, Circle, FancyArrowPatch, Rectangle
-from figure_style import PAPER, PANEL, INK, MUTED, RULE, ROSE, PINK, PLUM, GOLD, LIGHT_GREY
+from matplotlib.patches import Circle,Rectangle,FancyArrowPatch
+from matplotlib.text import Text
+from matplotlib.ticker import NullLocator,LogLocator,FuncFormatter
+from figure_style import setup,PAPER,PANEL,INK,MUTED,RULE,ROSE,PLUM,GOLD,GREY,LIGHT_GREY
 
-HERE = Path(__file__).resolve().parent
-RESEARCH = HERE.parents[1]/'work/recording_extensions'
-FONTS = HERE.parent/'graphical_abstract/source/fonts'
-KEY_FINDING = 'Calibrate the endpoints, then target the remaining internal information.'
-TITLE = 'Predictive risk and recording decisions'
-SUBTITLE = 'in partially observed neural networks'
-
-
-def load_evidence():
-    endpoint = json.loads((RESEARCH/'round2/analysis/validation_summary.json').read_text())['comparisons']['both_vs_neither']
-    ranges = json.loads((RESEARCH/'round3/analysis/profile_summary.json').read_text())
-    internal = json.loads((RESEARCH/'round5/analysis/summary.json').read_text())
-    width = ranges['comparisons']['both_vs_neither']['width2']
-    extra = internal['primary']['profile_width_squared/combination5_vs_random5']
-    return endpoint, width, extra
+HERE=Path(__file__).resolve().parent
+RESEARCH=HERE.parents[1]/'work/recording_extensions'
+TITLE='Predictive risk and recording decisions in partially observed neural networks'
+KEY_FINDING='Record endpoints for prediction; target the remaining internal information.'
 
 
-def main(out, sync=False):
-    for path in FONTS.glob('*.ttf'):
-        fm.fontManager.addfont(str(path))
-    plt.rcParams.update({
-        'font.family': 'BentonSans', 'font.size': 9, 'text.color': INK,
-        'pdf.fonttype': 42, 'ps.fonttype': 42, 'svg.fonttype': 'none',
-        'figure.facecolor': PAPER, 'savefig.facecolor': PAPER,
-    })
-    endpoint, width, extra = load_evidence()
-    e = -endpoint['relative_change_percent']
-    w = -width['change_pct']
-    i = -extra['change_pct']
-    eci = -np.array(endpoint['ci95_percent'][::-1])
-    wci = -np.array(width['ci95'][::-1])
-    ici = -np.array(extra['ci_family_three'][::-1])
-    assert round(e,2)==98.13 and round(w,2)==99.08 and round(i,2)==27.15
+def evidence():
+    v=json.loads((RESEARCH/'round2/analysis/validation_summary.json').read_text())
+    r=json.loads((RESEARCH/'round5/analysis/summary.json').read_text())
+    return v,r['primary']['profile_width_squared/combination5_vs_random5']
 
-    fig = plt.figure(figsize=(260/25.4,175/25.4))
-    ax = fig.add_axes([0,0,1,1]); ax.set(xlim=(0,260),ylim=(0,175)); ax.set_axis_off()
-    def text(x,y,s,size=9,color=INK,weight='normal',ha='left',va='center',**kwargs):
-        return ax.text(x,y,s,fontsize=size,color=color,fontweight=weight,ha=ha,va=va,linespacing=1.35,**kwargs)
-    def panel(x,y,w,h):
-        ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle='round,pad=0,rounding_size=1.7',facecolor=PANEL,edgecolor=RULE,lw=.7))
-    def arrow(start,end,color=MUTED,lw=1.1,scale=8):
-        ax.add_patch(FancyArrowPatch(start,end,arrowstyle='-|>',mutation_scale=scale,lw=lw,color=color))
-    def node(x,y,label='',face=PAPER,edge=RULE,r=2.2,recorded=False):
-        if recorded:
-            ax.add_patch(Circle((x,y),r+1.05,facecolor='none',edgecolor=PINK,lw=1.1))
-        ax.add_patch(Circle((x,y),r,facecolor=face,edgecolor=edge,lw=.85,zorder=4))
-        if label:text(x,y,label,size=7.5,ha='center',weight='bold',color=PAPER if face==PLUM else INK,zorder=5)
-    def metric(cx,value,label):
-        text(cx,66,f'{value:.2f}%',size=27,color=ROSE,weight='bold',ha='center')
-        text(cx,54,label,size=9.3,ha='center',weight='bold')
-    def relative_bars(x,y,ratio,first,second,bar_width=32):
-        # Normalized aggregate metric; the control is exactly one.
-        text(x,y,first,size=7.3,ha='right',color=MUTED)
-        text(x,y-6,second,size=7.3,ha='right',color=MUTED)
-        x0=x+2
-        ax.add_patch(Rectangle((x0,y-1.4),bar_width,2.8,facecolor=LIGHT_GREY,edgecolor='none'))
-        ax.add_patch(Rectangle((x0,y-7.4),bar_width*ratio,2.8,facecolor=ROSE,edgecolor='none'))
-        text(x0+bar_width+1.4,y,'1.00',size=7,color=MUTED)
-        text(x0+bar_width*ratio+1.4,y-6,f'{ratio:.3f}' if ratio<.1 else f'{ratio:.2f}',size=7,color=ROSE)
 
-    text(8,162,TITLE,size=22,weight='bold')
-    text(8,150,SUBTITLE,size=17)
-    ax.plot([8,252],[142,142],color=RULE,lw=.7)
-    text(8,135.5,'Five recordings to predict a held-out stimulus response',size=10.5,color=MUTED)
+def main(out,sync=False):
+    setup(plt);validation,internal=evidence();h=132
+    fig=plt.figure(figsize=(180/25.4,h/25.4))
+    base=fig.add_axes([0,0,1,1]);base.set(xlim=(0,180),ylim=(0,h));base.set_axis_off()
+    def txt(x,y,s,size=6.5,weight='normal',color=INK,ha='left',va='baseline',**kw):
+        return base.text(x,y,s,fontsize=size,fontweight=weight,color=color,ha=ha,va=va,linespacing=1.3,**kw)
+    def header(x,y,letter,title):
+        txt(x,y,letter,8,'bold');txt(x+5,y,title,7,'bold')
+    def arrow(a,b,color=MUTED,lw=.65,scale=5):
+        base.add_patch(FancyArrowPatch(a,b,arrowstyle='-|>',mutation_scale=scale,color=color,lw=lw))
+    def node(x,y,label='',recorded=False,stim=False,r=1.8):
+        base.add_patch(Circle((x,y),r,facecolor=ROSE if recorded else PAPER,
+                              edgecolor=GOLD if stim else (ROSE if recorded else GREY),lw=1.1 if stim else .6,zorder=4))
+        if stim:base.add_patch(Circle((x,y),r+.8,facecolor='none',edgecolor=GOLD,lw=.65,zorder=4))
+        if label:txt(x,y,label,5.8,color=INK if stim else (PAPER if recorded else MUTED),ha='center',va='center',zorder=5)
+    txt(4,125,TITLE,9,'bold')
+    txt(4,119,'Five calibration recordings | Held-out stimulus response | Known connectivity, uncertain gains',6.5,color=MUTED)
+    base.plot([4,176],[115,115],color=RULE,lw=.6)
+    header(4,108,'a','Record the stimulus and readouts')
+    header(94,108,'b','Improve response prediction')
 
-    for x in (8,91,174):panel(x,32,78,96)
-    text(13,121,'1  Record both ends',size=11,weight='bold')
-    text(96,121,'2  Explain the benefit',size=11,weight='bold')
-    text(179,121,'3  Acquire internal information',size=10.2,weight='bold')
+    # Fixed, legible schematic: a stimulus enters the recurrent network and
+    # three readouts report the response. Pink marks the five calibration sites.
+    internal_xy=[(28,96),(28,87),(28,78),(41,100),(41,91),(41,82),(41,73),(55,96),(55,87),(55,78)]
+    positions=[(12,87),*internal_xy,(73,98),(73,87),(73,76)]
+    edges=[(0,1),(0,2),(0,3),(1,4),(1,5),(2,5),(2,6),(3,6),(3,7),
+           (4,8),(5,8),(5,9),(6,9),(6,10),(7,10),(8,11),(9,12),(10,13),
+           (9,5),(6,2),(10,6),(8,5)]
+    for a,b in edges:
+        p=np.array(positions[a]);q=np.array(positions[b]);u=(q-p)/np.linalg.norm(q-p)
+        arrow(p+2*u,q-2*u,color=LIGHT_GREY,lw=.5,scale=3)
+    node(12,87,'S',True,True,r=2.4)
+    for j,(x,y) in enumerate(internal_xy):node(x,y,'+' if j==3 else '',recorded=j==3,r=2.1 if j==3 else 1.5)
+    for x,y in positions[-3:]:node(x,y,'R',True,r=2.4)
+    arrow((5,87),(8.3,87),color=GOLD,scale=5)
+    txt(7,66,'1 stimulus + 3 readouts + 1 additional site',6.3)
+    txt(7,61,'100-unit network (schematic)',6,color=MUTED)
+    arrow((85,86),(93,86),color=MUTED,scale=6)
 
-    # A schematic of a 100-unit network: selected endpoints plus one extra site.
-    text(13,113.5,'1 stimulus + 3 readouts + 1 extra site',size=8.7)
-    rng=np.random.default_rng(736)
-    xy=np.c_[rng.uniform(27,62,17),rng.uniform(83,106,17)]
-    endpoints=np.array([[18.,95.],[74.,105.],[74.,94.],[74.,83.],[44.,107.]])
-    allxy=np.vstack([xy,endpoints])
-    for k in range(38):
-        a,b=rng.choice(len(allxy),2,replace=False)
-        ax.plot(allxy[[a,b],0],allxy[[a,b],1],color=RULE,lw=.55,zorder=1)
-    for x,y in xy:node(x,y,r=1.5,face='#EEE9EC',edge='#CCC3CC')
-    for k,(x,y) in enumerate(endpoints):
-        node(x,y,'S' if k==0 else ('R' if k<4 else '+'),
-             face='#FFF3D6' if k==0 else (PLUM if k<4 else PAPER),
-             edge=GOLD if k==0 else (PLUM if k<4 else ROSE),r=2.65,recorded=True)
-    arrow((11.5,95),(14,95),color=GOLD)
-    text(47,77,'100-unit network (schematic)',size=7.5,color=MUTED,ha='center')
-    metric(47,e,'lower response prediction error')
-    text(47,44,'vs five ordinary recording sites',size=8,ha='center',color=MUTED)
-    text(47,37.5,f'40 new networks | 95% CI: {eci[0]:.2f}-{eci[1]:.2f}% reduction',size=7.1,ha='center',color=MUTED)
+    # Raw independent validation networks, with arithmetic means. No metric
+    # cards: the prediction benefit is visible in the comparison itself.
+    ax=fig.add_axes([110/180,72/h,62/180,28/h])
+    rng=np.random.default_rng(31)
+    for j,(policy,color) in enumerate([('neither',GREY),('both',ROSE)]):
+        vals=np.asarray(validation['network_means'][policy])
+        ax.scatter(j+rng.uniform(-.13,.13,len(vals)),vals,s=8,color=color,alpha=.65,zorder=2)
+        ax.plot([j-.20,j+.20],[vals.mean()]*2,color=INK,lw=1,zorder=3)
+    ax.set(yscale='log',xticks=[0,1],xticklabels=['Ordinary sites','Both endpoints'],ylabel='Response MSE',xlim=(-.55,1.55))
+    ax.yaxis.set_major_locator(LogLocator(base=10,numticks=3));ax.yaxis.set_minor_locator(NullLocator())
+    ax.yaxis.set_major_formatter(FuncFormatter(lambda x,pos:r'$10^{'+str(int(round(np.log10(x))))+'}$'));ax.tick_params(pad=2)
+    ax.yaxis.labelpad=3
+    txt(94,59,'Endpoint observations improve held-out prediction.',6.3)
+    txt(94,55,'40 independent networks; bars show means.',6,color=MUTED)
 
-    # Exact input/propagation/readout identity, followed by the response-range result.
-    text(96,113.5,'Exact finite-response factorization',size=8.7)
-    for x,label,color in [(97,'Input',GOLD),(121,'Recurrent',MUTED),(145,'Readout',PLUM)]:
-        ax.add_patch(FancyBboxPatch((x,100),18,8,boxstyle='round,pad=0,rounding_size=1',facecolor=PAPER,edgecolor=color,lw=.9))
-        text(x+9,104,label,size=8,ha='center',color=color,weight='bold')
-    arrow((115.5,104),(120,104));arrow((139.5,104),(144,104))
-    text(130,94.5,'Largest error contraction at input and readout',size=7.9,ha='center',color=MUTED)
-    relative_bars(118,85.5,1-w/100,'Ordinary','Endpoints',bar_width=31)
-    metric(130,w,'smaller squared response-range width')
-    text(130,44,'Responses compatible with the calibration fit',size=8,ha='center',color=MUTED)
-    text(130,37.5,f'40 networks | 95% CI: {wci[0]:.2f}-{wci[1]:.2f}% reduction',size=7.1,ha='center',color=MUTED)
+    header(4,47,'c','Locate the information mechanism')
+    header(94,47,'d','Use the remaining recording')
+    for x,label,color in [(9,'Input',ROSE),(33,'Recurrent',PLUM),(57,'Readout',ROSE)]:
+        base.add_patch(Rectangle((x,35),20,7,facecolor=PANEL if color==ROSE else PAPER,edgecolor=RULE,lw=.6))
+        txt(x+10,38.5,label,6.5,'bold',color=color,ha='center',va='center')
+    arrow((29.3,38.5),(32.5,38.5));arrow((53.3,38.5),(56.5,38.5))
+    # The nonlinear response identity splits stimulus entry, recurrence and
+    # readout; endpoint observations principally contract entry/readout errors.
+    txt(9,29,'Exact finite-response factorization',6,color=MUTED)
+    txt(9,22,'Endpoint observations constrain stimulus entry\nand readout, narrowing compatible responses.',6.4,va='center')
+    txt(9,12.2,'Recurrent gain combinations retain additional information.',5.9,color=MUTED)
 
-    # Keep endpoint observations and acquire information about recurrent combinations.
-    text(179,113.5,'Keep four endpoints; choose the fifth site',size=8.7)
-    for k,x in enumerate([184,196,208,220,241]):
-        node(x,104,'S' if k==0 else ('R' if k<4 else '5'),
-             face='#FFF3D6' if k==0 else (PLUM if k<4 else PINK),
-             edge=GOLD if k==0 else (PLUM if k<4 else ROSE),r=2.7,recorded=k==4)
-    text(230.5,104,'+',size=12,color=MUTED,ha='center')
-    text(213,94.5,'Target four recurrent gain combinations',size=8,ha='center',color=MUTED)
-    relative_bars(201,85.5,1-i/100,'Random fifth','Targeted fifth',bar_width=31)
-    metric(213,i,'smaller squared internal-range width')
-    text(213,44,'Along one prespecified internal direction',size=8,ha='center',color=MUTED)
-    text(213,37.5,f'40 new networks | Adjusted CI: {ici[0]:.2f}-{ici[1]:.2f}%',size=7.1,ha='center',color=MUTED)
+    # Four retained endpoints plus a selected fifth site, followed by the
+    # prespecified range comparison with its adjusted interval.
+    for j,x in enumerate([102,111,120,129]):node(x,39,'S' if j==0 else 'R',True,j==0,r=2)
+    txt(141,39,'+',7,color=MUTED,ha='center',va='center')
+    node(156,39,'5',True,r=2.4)
+    txt(94,31,'Retain endpoints; target recurrent combinations.',6.2)
+    ax2=fig.add_axes([116/180,17/h,55/180,8/h])
+    ratio=1+internal['change_pct']/100;lo,hi=1+np.asarray(internal['ci_family_three'])/100
+    ax2.axvline(1,color=MUTED,lw=.6,ls=(0,(3,3)))
+    ax2.errorbar(ratio,0,xerr=[[ratio-lo],[hi-ratio]],fmt='o',color=ROSE,ms=3.5,lw=1,capsize=2)
+    ax2.set(xlim=(.5,1.05),ylim=(-1,1),yticks=[],xticks=[.5,.75,1])
+    ax2.spines['left'].set_visible(False);ax2.tick_params(axis='x',pad=1,length=2)
+    txt(94,21,'Width² along\none internal\ndirection',6,va='center')
+    txt(116,9.7,'Targeted / random fifth site; adjusted interval',5.8,color=MUTED)
 
-    panel(8,6,244,20)
-    text(13,19,KEY_FINDING,size=12,color=ROSE,weight='bold')
-    text(13,11.5,'Simulated networks with known connectivity and uncertain gains. Internal-range interval adjusted for three comparisons.',size=8.1,color=MUTED)
-
+    base.plot([4,176],[7.5,7.5],color=RULE,lw=.6)
+    txt(4,2.7,KEY_FINDING,7,'bold')
     fig.canvas.draw()
+    # Validate the manually placed editorial text against the physical canvas.
     renderer=fig.canvas.get_renderer()
-    # Every text element must remain on the canvas, including font-realized bounds.
-    for t in ax.texts:
-        box=t.get_window_extent(renderer)
-        assert box.x0>=0 and box.y0>=0 and box.x1<=fig.bbox.width and box.y1<=fig.bbox.height,t.get_text()
+    for t in base.texts:
+        b=t.get_window_extent(renderer)
+        assert b.x0>=0 and b.y0>=0 and b.x1<=fig.bbox.width and b.y1<=fig.bbox.height,t.get_text()
     out.mkdir(parents=True,exist_ok=True)
-    for suffix in ('pdf','png','svg'):
-        fig.savefig(out/f'graphical_abstract.{suffix}',dpi=300,bbox_inches=None)
-    svg=out/'graphical_abstract.svg'
-    svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines())+'\n')
+    for suffix in ('pdf','png','svg'):fig.savefig(out/f'graphical_abstract.{suffix}',dpi=300,bbox_inches=None)
+    svg=out/'graphical_abstract.svg';svg.write_text('\n'.join(x.rstrip() for x in svg.read_text().splitlines())+'\n')
     copy=f'''# Graphical abstract
 
-{TITLE}\n{SUBTITLE}
+{TITLE}
 
-Five recordings to predict a held-out stimulus response.
+Five calibration recordings predict a held-out stimulus response in simulated networks with known connectivity and uncertain gains.
 
-1. Record both ends: one stimulus site, three readouts and one extra site. Response MSE is {e:.2f}% lower than with five ordinary recording sites in 40 independent validation networks (95% CI: {eci[0]:.2f}-{eci[1]:.2f}% reduction).
-
-2. Explain the benefit: an exact finite-response factorization identifies input, recurrent propagation and readout. The largest error contraction occurs at input and readout. Joint endpoint recording reduces mean squared feasible response-range width by {w:.2f}% in 40 further networks (95% CI: {wci[0]:.2f}-{wci[1]:.2f}% reduction), under a common calibration-fit allowance.
-
-3. Acquire internal information: retain the four endpoint recordings and select a fifth site for four recurrent gain combinations. Squared feasible width along one prespecified internal direction is {i:.2f}% lower than with a random fifth site in 40 new networks (three-comparison-adjusted interval: {ici[0]:.2f}-{ici[1]:.2f}% reduction).
+- **a. Recording allocation.** The schematic shows one stimulus site, three readouts and one additional recording in a 100-unit network. Pink nodes are recorded; the stimulus is outlined in gold.
+- **b. Prediction.** All forty independent endpoint-validation networks are shown. Points are held-out response MSEs and bars are arithmetic means for ordinary-site and joint-endpoint recording, each with five recordings.
+- **c. Mechanism.** The exact finite-response factorization separates input, recurrent propagation and readout. Endpoint observations principally contract input and readout errors and narrow compatible responses. Recurrent gain combinations retain additional information.
+- **d. Additional recording.** Four endpoints are retained and a fifth site is selected to constrain recurrent combinations. The plotted ratio of mean squared feasible width along one prespecified internal direction is {ratio:.6f}, relative to a random fifth site. The interval [{lo:.6f}, {hi:.6f}] adjusts for the three prespecified comparisons in forty new networks. The dashed line denotes equal range width.
 
 {KEY_FINDING}
-
-Simulated networks with known connectivity and uncertain gains. The network drawing is schematic. Bars show ratios of aggregate mean metrics, with the respective control normalized to one.
 '''
     if sync:
         current=HERE.parents[2]/'01_READ_CURRENT'
         for suffix in ('pdf','png','svg'):shutil.copy2(out/f'graphical_abstract.{suffix}',current/f'graphical_abstract.{suffix}')
         (current/'graphical_abstract_copy.md').write_text(copy)
-        (current/'graphical_abstract_text.txt').write_text('\n'.join(t.get_text() for t in ax.texts)+'\n')
+        (current/'graphical_abstract_text.txt').write_text('\n'.join(t.get_text() for t in fig.findobj(Text) if t.get_visible() and t.get_text())+'\n')
     plt.close(fig)
-    print('Graphical abstract effects:',e,w,i)
+    print('Graphical abstract uses complete validation networks and the frozen internal-range comparison.')
 
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--out',type=Path,default=HERE);p.add_argument('--sync',action='store_true')
-    args=p.parse_args();main(args.out,args.sync)
+    a=p.parse_args();main(a.out,a.sync)

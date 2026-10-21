@@ -1,48 +1,50 @@
-Predictive risk and recording decisions
-in partially observed neural networks
-Five recordings to predict a held-out stimulus response
-1  Record both ends
-2  Explain the benefit
-3  Acquire internal information
-1 stimulus + 3 readouts + 1 extra site
+Predictive risk and recording decisions in partially observed neural networks
+Five calibration recordings | Held-out stimulus response | Known connectivity, uncertain gains
+a
+Record the stimulus and readouts
+b
+Improve response prediction
 S
-R
-R
-R
 +
+R
+R
+R
+1 stimulus + 3 readouts + 1 additional site
 100-unit network (schematic)
-98.13%
-lower response prediction error
-vs five ordinary recording sites
-40 new networks | 95% CI: 93.94-99.19% reduction
-Exact finite-response factorization
+Endpoint observations improve held-out prediction.
+40 independent networks; bars show means.
+c
+Locate the information mechanism
+d
+Use the remaining recording
 Input
 Recurrent
 Readout
-Largest error contraction at input and readout
-Ordinary
-Endpoints
-1.00
-0.009
-99.08%
-smaller squared response-range width
-Responses compatible with the calibration fit
-40 networks | 95% CI: 96.10-99.62% reduction
-Keep four endpoints; choose the fifth site
+Exact finite-response factorization
+Endpoint observations constrain stimulus entry
+and readout, narrowing compatible responses.
+Recurrent gain combinations retain additional information.
 S
 R
 R
 R
-5
 +
-Target four recurrent gain combinations
-Random fifth
-Targeted fifth
+5
+Retain endpoints; target recurrent combinations.
+Width² along
+one internal
+direction
+Targeted / random fifth site; adjusted interval
+Record endpoints for prediction; target the remaining internal information.
+Ordinary sites
+Both endpoints
+Response MSE
+$10^{-12}$
+$10^{-9}$
+$10^{-6}$
+$10^{-3}$
+$10^{0}$
+$10^{3}$
+0.50
+0.75
 1.00
-0.73
-27.15%
-smaller squared internal-range width
-Along one prespecified internal direction
-40 new networks | Adjusted CI: 12.69-43.18%
-Calibrate the endpoints, then target the remaining internal information.
-Simulated networks with known connectivity and uncertain gains. Internal-range interval adjusted for three comparisons.

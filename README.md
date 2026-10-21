@@ -5,6 +5,7 @@ Private research collaboration workspace for **Predictive Risk and Recording Dec
 ## Start here
 
 - [Current manuscript PDF](01_READ_CURRENT/paper_current.pdf) · [Markdown source](01_READ_CURRENT/paper_current.md)
+- [Current graphical abstract](01_READ_CURRENT/graphical_abstract.pdf) · [PNG](01_READ_CURRENT/graphical_abstract.png)
 - [Research narrative and version audit](01_研究主线与版本审计.md)
 - [Reproduction and code entry points](02_重现与代码入口.md)
 - [Collaboration context and decisions](COLLABORATION.md)
@@ -32,7 +33,7 @@ The prior-averaging and covariance-based comparisons likewise do not establish a
 - [Extension code, protocols and numerical records](03_REPRODUCIBLE_WORKSPACE/work/recording_extensions/)
 - [Current canonical manuscript and build source](03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/)
 
-The [historical criterion-comparison graphical abstract](01_READ_CURRENT/graphical_abstract.pdf) retains the criterion-comparison takeaway **Better risk estimates do not necessarily make better recording decisions.** It has not been redesigned to summarize the endpoint and mechanism findings. Historical manuscripts, receipts and audits retain their original scope. The study has not been submitted.
+The current graphical abstract follows endpoint recording, the response-information mechanism and targeted acquisition of internal information. Its takeaway is **Calibrate the endpoints, then target the remaining internal information.** The nine extension figures share the original rose, plum and gold palette. Earlier graphical abstracts remain in `03_REPRODUCIBLE_WORKSPACE/outputs/graphical_abstract/`; historical manuscripts, receipts and audits retain their original scope. The study has not been submitted.
 
 ## Verify
 

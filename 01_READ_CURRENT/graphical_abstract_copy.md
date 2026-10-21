@@ -1,73 +1,16 @@
-# Graphical abstract — final copy (v4 layout)
-
-## Title
+# Graphical abstract
 
 Predictive risk and recording decisions
 in partially observed neural networks
 
-## Network and target
+Five recordings to predict a held-out stimulus response.
 
-Known connectivity
-12 simulated units · M=3
-Uncertain gains and biases
+1. Record both ends: one stimulus site, three readouts and one extra site. Response MSE is 98.13% lower than with five ordinary recording sites in 40 independent validation networks (95% CI: 93.94-99.19% reduction).
 
-- Recorded node
-- Stimulated node
-- Response readout (one shown)
+2. Explain the benefit: an exact finite-response factorization identifies input, recurrent propagation and readout. The largest error contraction occurs at input and readout. Joint endpoint recording reduces mean squared feasible response-range width by 99.08% in 40 further networks (95% CI: 96.10-99.62% reduction), under a common calibration-fit allowance.
 
-Integrated stimulus response
+3. Acquire internal information: retain the four endpoint recordings and select a fifth site for four recurrent gain combinations. Squared feasible width along one prespecified internal direction is 27.15% lower than with a random fifth site in 40 new networks (three-comparison-adjusted interval: 12.69-43.18% reduction).
 
-q = ∫ Δr(t) dt
-Δr(t) = r_stim(t) − r_control(t)
+Calibrate the endpoints, then target the remaining internal information.
 
-## 1 Recording agreement
-
-40 independent networks
-
-Single-response designs: **68%** — 82 of 120 designs; identical recording sets.
-Shared three-response designs: **65%** — 26 of 40 designs; identical recording sets.
-Legend: same recording set.
-
-## 2 Response error
-
-Common MAP fit and budget
-Same 40 networks
-
-- Single response: −3.7% [−18.5, +12.1]
-- Shared three-response: +2.7% [−3.0, +11.5]
-
-Mean-MSE change vs nominal (%)
-97.5% paired network-cluster CI
-
-## 3 Risk forecasts
-
-Fixed data and point prediction
-40 new independent networks
-
-19 of 40 favour prior averaging; 21 favour nominal.
-
-S(v,e) = log v + e²/v
-v: MSE forecast; e: response error
-
-One network accounts for 64% of the summed score difference.
-
-Forecast-score difference: −0.46 [−1.16, +0.02]
-Prior-averaged minus nominal
-95% paired network-cluster CI
-
-## Four-line footer
-
-We use a **common MAP estimator**. Identical recording sets and data yield identical predictions.
-
-Primary error and forecast-score intervals include zero.
-
-Exploratory 100-unit rank-two family (8 independent networks): 4/8 setting-specific 95% intervals exclude zero.
-
-All four favour prior averaging. These intervals are unadjusted; one point estimate favours nominal.
-
-
-## v5 key finding
-
-Better risk estimates do not necessarily make better recording decisions.
-
-Exact user-selected wording; leads the lower-right explanation. Existing four explanatory lines retained.
+Simulated networks with known connectivity and uncertain gains. The network drawing is schematic. Bars show ratios of aggregate mean metrics, with the respective control normalized to one.

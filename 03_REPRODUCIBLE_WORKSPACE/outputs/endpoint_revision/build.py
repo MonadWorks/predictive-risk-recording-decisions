@@ -7,9 +7,11 @@ WORK=HERE/'latex'
 def call(args):subprocess.run([str(x) for x in args],cwd=WORK,env=env,check=True)
 if __name__=='__main__':
     (WORK/'build').mkdir(exist_ok=True)
-    env=os.environ.copy();env['PATH']='/Library/TeX/texbin:/opt/homebrew/bin:'+env['PATH']
-    env['TEXINPUTS']=str(TEMPLATE/'common')+':'+str(TEMPLATE/'biomed/sn-template')+':'+env.get('TEXINPUTS','')+':'
-    env['BSTINPUTS']=str(TEMPLATE/'biomed/sn-template')+':'+env.get('BSTINPUTS','')+':'
+    sep=os.pathsep
+    env=os.environ.copy();env['PATH']=sep.join(['/Library/TeX/texbin','/opt/homebrew/bin',env['PATH']])
+    env['PYTHONUTF8']='1'
+    env['TEXINPUTS']=sep.join([str(TEMPLATE/'common'),str(TEMPLATE/'biomed/sn-template'),env.get('TEXINPUTS',''),''])
+    env['BSTINPUTS']=sep.join([str(TEMPLATE/'biomed/sn-template'),env.get('BSTINPUTS',''),''])
     (WORK/'build/clsopts.tex').write_text(r'\def\clsopts{pdflatex,sn-nature}'+'\n')
     # Accept an explicit supplementary-table label in the readable source while
     # retaining the inherited table renderer and the wrapper's S numbering.
@@ -19,6 +21,12 @@ if __name__=='__main__':
                     "n = label:match('^Table%s*(%d+)%s*$') or label:match('^Supplementary Table%s*(%d+)%s*$')")
     filter_path.write_text(lua)
     call([sys.executable,TEMPLATE/'common/md2tex.py','--md',HERE/'paper.md','--outdir',WORK/'build','--workdir',WORK,'--lua',filter_path,'--bib-real',HERE/'references.bib'])
+    import re
+    # md2tex emits OS-native relative paths; TeX needs forward slashes on Windows.
+    for tex in (WORK/'build').glob('*.tex'):
+        s=tex.read_text(encoding='utf-8')
+        t=re.sub(r'(\\includegraphics(?:\[[^\]]*\])?\{)([^}]*)\}',lambda m:m.group(1)+m.group(2).replace('\\','/')+'}',s)
+        if t!=s:tex.write_text(t,encoding='utf-8')
     p=WORK/'build/references.bib';p.write_text(__import__('re').sub(r'(?m)^(\s*)note(\s*=)',r'\1xnote\2',p.read_text()))
     # The inherited sn-nature style underflows its stack for an editorless
     # proceedings entry. Render this proceedings series in article layout;

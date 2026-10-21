@@ -12,6 +12,10 @@ Evaluate recording agreement, realised response error, and risk forecasting sepa
 
 The exact user-selected takeaway is **Better risk estimates do not necessarily make better recording decisions.** It leads the lower-right explanation. Keep the established network illustration, evidence panels, pale pink/grey-purple palette, yellow stimulus accent, BentonSans text, Times New Roman math and JuliaMono statistical numerals. The lower-left title is centered; integral 14 pt, response definition 11.2 pt. Equation group was moved down approximately 2 mm in the final revision. Right body line and paragraph spacing remains unchanged. Current v5 and previous v4 without the takeaway are both archived.
 
+## Graphical abstract and figures — 2026-10-21
+
+At the collaborator's request the current graphical abstract is edited from the v5 file rather than redesigned: its network illustration, numbered frames, formula box, summary box, palette and type are retained, and only frame contents change. The figure rules (one meaning per colour, percentage-change ratio axes, printed estimates, visible negative signs) are documented in `outputs/endpoint_revision/figure_style.py`.
+
 ## Context sources
 
 - `04_CONTEXT_AND_HISTORY/project_conversations/`: saved project-specific Codex/GPT and Claude conversation extracts.

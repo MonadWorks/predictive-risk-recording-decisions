@@ -2,11 +2,11 @@
 
 Predictive risk and recording decisions in partially observed neural networks
 
-Five calibration recordings predict a held-out stimulus response in simulated networks with known connectivity and uncertain gains.
+The layout keeps the original graphical abstract: network illustration, three numbered evidence frames, the integrated-response definition and a summary frame. Simulated 100-unit networks have known connectivity and uncertain gains; every allocation records five sites.
 
-- **a. Recording allocation.** The schematic shows one stimulus site, three readouts and one additional recording in a 100-unit network. Pink nodes are recorded; the stimulus is outlined in gold.
-- **b. Prediction.** All forty independent endpoint-validation networks are shown. Points are held-out response MSEs and bars are arithmetic means for ordinary-site and joint-endpoint recording, each with five recordings.
-- **c. Mechanism.** The exact finite-response factorization separates input, recurrent propagation and readout. Endpoint observations principally contract input and readout errors and narrow compatible responses. Recurrent gain combinations retain additional information.
-- **d. Additional recording.** Four endpoints are retained and a fifth site is selected to constrain recurrent combinations. The plotted ratio of mean squared feasible width along one prespecified internal direction is 0.728482, relative to a random fifth site. The interval [0.568166, 0.873072] adjusts for the three prespecified comparisons in forty new networks. The dashed line denotes equal range width.
+- **Network.** Pink nodes are recorded. The stimulation site (gold ring) and a readout (dark ring, one of three) are recorded together with one further site.
+- **1 Endpoint recording.** In forty independent validation networks, recording both endpoints changed held-out response MSE by -98.13% (95% CI -99.19% to -93.94%) relative to five ordinary sites; 37 of 40 networks improved. In a further forty networks, the squared compatible response range changed by -99.08% and narrowed in 40 of 40. Dots are networks.
+- **2 Error factors.** The exact factorization separates input, recurrent propagation and readout. Endpoint relative to ordinary recording changed the mean squared input contribution by -98.69%, the readout contribution by -98.79% and the recurrent contribution by +16.53% (95% CI -34.62% to +139.45%).
+- **3 Fifth recording.** With the four endpoints kept, a fifth site chosen for the recurrent gain sums changed internal-combination estimation MSE by -31.07% (95% CI -42.35% to -19.81%) relative to a random fifth site in eighty new networks; 63 of 80 improved. Its response-prediction change remained uncertain.
 
 Record endpoints for prediction; target the remaining internal information.

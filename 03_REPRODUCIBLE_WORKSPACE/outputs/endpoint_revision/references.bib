@@ -1,7 +1,4 @@
-% references.bib -- audit of ICBR2026_v4 paper_v4.md references (audited 2026-10-17)
-% ref01-ref17: same order as the numbered list in paper_v4.md. ref18+: suggested additions (not yet cited in paper_v4.md).
-% Bibliographic fields were checked against Crossref (api.crossref.org) record for each DOI; eLife status additionally against api.elifesciences.org.
-% Non-ASCII characters are UTF-8 (use biber/biblatex or a UTF-8-aware bibtex pipeline).
+% Bibliography for the current manuscript. Keys match the Markdown reference IDs.
 
 @article{ref01,
   author = {Kim, Yongdeok and Yang, Yiyuan and Zhang, Xiaotian and Li, Zhengwei and Vázquez-Guardado, Abraham and Park, Insu and Wang, Jiaojiao and Efimov, Andrew I. and Dou, Zhi and Wang, Yue and Park, Junehu and Luan, Haiwen and Ni, Xinchen and Kim, Yun Seong and Baek, Janice and Park, Joshua Jaehyung and Xie, Zhaoqian and Zhao, Hangbo and Gazzola, Mattia and Rogers, John A. and Bashir, Rashid},
@@ -90,12 +87,14 @@
   doi = {10.7554/eLife.106827.3},
 }
 
-@misc{ref09,
+@article{ref09,
   author = {Ogino, Mikito and Sekizawa, Daiki and Kitazono, Jun and Oizumi, Masafumi},
   title = {{Designing optimal perturbation inputs for system identification in neuroscience}},
-  howpublished = {eLife Reviewed Preprint, version 1},
+  journal = {eLife},
+  volume = {15},
+  pages = {RP110030},
   year = {2026},
-  doi = {10.7554/eLife.110030.1},
+  doi = {10.7554/eLife.110030.3},
 }
 
 @article{ref10,
@@ -204,7 +203,7 @@
   volume = {84},
   number = {1},
   pages = {128--154},
-  year = {2015},
+  year = {2016},
   doi = {10.1111/insr.12107},
 }
 
@@ -268,15 +267,12 @@
   title = {{Near-Optimal Sensor Placements in Gaussian Processes: Theory, Efficient Algorithms and Empirical Studies}},
   journal = {Journal of Machine Learning Research},
   volume = {9},
+  number = {8},
   pages = {235--284},
   year = {2008},
   url = {https://jmlr.org/papers/v9/krause08a.html},
 }
 
-% references_extra.bib -- additional references ref26-ref39 for paper_v4.md (added 2026-10-18)
-% Every entry was checked against the Crossref REST API (api.crossref.org/works/<doi>): title, authors, journal, volume, issue, pages, date.
-% Keys follow the order of the proposed citation points (see 01_research_foundation/literature_gap_plan.md). references.bib is unchanged.
-% Content claims were NOT checked against full texts (publisher pages not read); see 'note' fields.
 
 @article{ref26,
   author = {Ricotti, Leonardo and Trimmer, Barry and Feinberg, Adam W. and Raman, Ritu and Parker, Kevin K. and Bashir, Rashid and Sitti, Metin and Martel, Sylvain and Dario, Paolo and Menciassi, Arianna},
@@ -439,17 +435,22 @@
   journal = {Bioinformatics},
   year = {2012},
   volume = {28},
+  number = {18},
   pages = {i535--i541},
+  doi = {10.1093/bioinformatics/bts377},
   url = {https://doi.org/10.1093/bioinformatics/bts377}
 }
 
+% Author spelling follows the published correction: 10.1371/annotation/ea0193d8-1f7f-492a-b0b7-d877629fdcee.
 @article{ref41,
-  author = {Raue, A. and others},
+  author = {Raue, Andreas and Schilling, Marcel and Bachmann, Julie and Matteson, Andrew and Schelker, Max and Kaschek, Daniel and Hug, Sabine and Kreutz, Clemens and Harms, Brian D. and Theis, Fabian J. and Klingmüller, Ursula and Timmer, Jens},
   title = {Lessons Learned from Quantitative Dynamical Modeling in Systems Biology},
   journal = {PLOS ONE},
   year = {2013},
   volume = {8},
+  number = {9},
   pages = {e74335},
+  doi = {10.1371/journal.pone.0074335},
   url = {https://doi.org/10.1371/journal.pone.0074335}
 }
 
@@ -459,7 +460,9 @@
   journal = {BMC Bioinformatics},
   year = {2015},
   volume = {16},
+  number = {1},
   pages = {13},
+  doi = {10.1186/s12859-014-0436-5},
   url = {https://doi.org/10.1186/s12859-014-0436-5}
 }
 
@@ -469,14 +472,16 @@
   journal = {Water Resources Research},
   year = {2022},
   volume = {58},
+  number = {11},
   pages = {e2022WR033045},
+  doi = {10.1029/2022WR033045},
   url = {https://doi.org/10.1029/2022WR033045}
 }
 
 @article{ref44,
  author = {Mastrogiuseppe, Francesca and Ostojic, Srdjan},
  title = {{Linking Connectivity, Dynamics, and Computations in Low-Rank Recurrent Neural Networks}},
- journal = {Neuron}, year = {2018}, volume = {99}, pages = {609--623.e29},
+ journal = {Neuron}, year = {2018}, volume = {99}, number = {3}, pages = {609--623.e29},
  doi = {10.1016/j.neuron.2018.07.003}
 }
 @article{ref45,
@@ -493,5 +498,6 @@
   volume = {37},
   pages = {31659--31687},
   year = {2024},
+  doi = {10.52202/079017-0994},
   url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/381efefc0d765e680451978c0392f637-Paper-Conference.pdf}
 }

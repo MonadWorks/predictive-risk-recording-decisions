@@ -24,7 +24,7 @@ Connectivity constrains neural dynamics but does not fix all neuronal properties
 
 Recording-site selection has an established literature. Brain-computer interfaces select channels for decoding [30], and high-density probes offer more candidate sites than can be read out at once [31]. In nonlinear networks, structural observability and practical state-estimation accuracy are distinct [7]; greedy sensor selection has guarantees for suitable objectives [25]. For the present task, the quantity to assess is the error of the fitted model's response to an unobserved stimulus. Perturbation outcomes are increasingly used to evaluate neural models [8]. We fix the stimulation protocol and choose the calibration recording set; experimental design of the stimulation input addresses a related question [9,32].
 
-Bayesian experimental design values observations by the expected utility of the resulting inference [18,24], with goal-oriented designs focusing on a specified quantity [10]. A local risk criterion can be evaluated at nominal parameters or averaged over a parameter ensemble [21]; fuller nonlinear approaches model more of the inference problem [11,19,20,22]. These methods provide a starting point for selecting recordings. Their benefit depends on which task-relevant information the observations supply.
+Bayesian experimental design values observations by the expected utility of the resulting inference [18,24], with goal-oriented designs focusing on a specified quantity [10]. Gaussian posterior approximations make covariance-based design tractable [21], while sampling-based approaches address nonlinear inference more fully [11,19,20,22]. We compare a local response-risk criterion evaluated at nominal parameters with its average over a prior ensemble. These methods provide a starting point for selecting recordings. Their benefit depends on which task-relevant information the observations supply.
 
 We began by comparing nominal and prior-averaged recording criteria, then examined the role of endpoint coverage in the selected sets. Independent networks confirmed a large benefit from joint endpoint recording. We test how those observations constrain the responses compatible with the calibration data and how this changes with recording precision. A factorization into input, recurrent propagation and readout identifies candidate parameter combinations; information interventions test their predictive value after endpoint gains are known. A fifth-recording experiment then asks whether observations can acquire some of the remaining internal information. Structural perturbations examine the scope of the allocation result. The original criterion comparisons retain their prespecified status and are reported alongside these focused follow-ups.
 
@@ -379,20 +379,20 @@ The authors declare no competing interests. This work received no specific fundi
 1. Kim Y et al. Remote control of muscle-driven miniature robots with battery-free wireless optoelectronics. *Science Robotics* 8, eadd1053 (2023). [DOI](https://doi.org/10.1126/scirobotics.add1053).
 2. Min H et al. Optogenetic neuromuscular actuation of a miniature electronic biohybrid robot. *Science Robotics* 10, eadu5830 (2025). [DOI](https://doi.org/10.1126/scirobotics.adu5830).
 3. Wang X, Lv B, Tang F, Wang Y, Liu B, Liu L. Biomimetic Visual Information Spatiotemporal Encoding Method for In Vitro Biological Neural Networks. *Biomimetics* 10(6), 359 (2025). [DOI](https://doi.org/10.3390/biomimetics10060359).
-4. Prinz AA, Bucher D, Marder E. Similar network activity from disparate circuit parameters. *Nature Neuroscience* (2004). [DOI](https://doi.org/10.1038/nn1352).
-5. Beiran M, Litwin-Kumar A. Prediction of neural activity in connectome-constrained recurrent networks. *Nature Neuroscience* (2025). [DOI](https://doi.org/10.1038/s41593-025-02080-4).
-6. Lappalainen JK et al. Connectome-constrained networks predict neural activity across the fly visual system. *Nature* (2024). [DOI](https://doi.org/10.1038/s41586-024-07939-3).
-7. Haber A, Molnar F, Motter AE. State observation and sensor selection for nonlinear networks. *IEEE TCNS* (2018). [DOI](https://doi.org/10.1109/TCNS.2017.2728201).
+4. Prinz AA, Bucher D, Marder E. Similar network activity from disparate circuit parameters. *Nature Neuroscience* 7(12):1345–1352 (2004). [DOI](https://doi.org/10.1038/nn1352).
+5. Beiran M, Litwin-Kumar A. Prediction of neural activity in connectome-constrained recurrent networks. *Nature Neuroscience* 28(12):2561–2574 (2025). [DOI](https://doi.org/10.1038/s41593-025-02080-4).
+6. Lappalainen JK et al. Connectome-constrained networks predict neural activity across the fly visual system. *Nature* 634(8036):1132–1140 (2024). [DOI](https://doi.org/10.1038/s41586-024-07939-3).
+7. Haber A, Molnar F, Motter AE. State observation and sensor selection for nonlinear networks. *IEEE Transactions on Control of Network Systems* 5(2):694–708 (2018). [DOI](https://doi.org/10.1109/TCNS.2017.2728201).
 8. Sourmpis C et al. Biologically informed cortical models predict optogenetic perturbations. *eLife*, Version of Record 14:RP106827 (2026). [DOI](https://doi.org/10.7554/eLife.106827.3).
-9. Ogino M et al. Designing optimal perturbation inputs for system identification in neuroscience. *eLife* reviewed preprint, version 1 (2026; a version 2 appeared 9 September 2026). [Version 1](https://doi.org/10.7554/eLife.110030.1).
-10. Attia A, Alexanderian A, Saibaba AK. Goal-oriented optimal design of experiments for large-scale Bayesian linear inverse problems. *Inverse Problems* (2018). [DOI](https://doi.org/10.1088/1361-6420/aad210).
-11. Zhong Y, Shen W, Catanach T, Huan X. Goal-Oriented Bayesian Optimal Experimental Design for Nonlinear Models Using Markov Chain Monte Carlo. *SIAM/ASA JUQ* (2026). [DOI](https://doi.org/10.1137/24M1649344).
-12. Kreutz C, Raue A, Timmer J. Likelihood based observability analysis and confidence intervals for predictions of dynamic models. *BMC Systems Biology* (2012). [DOI](https://doi.org/10.1186/1752-0509-6-120).
+9. Ogino M, Sekizawa D, Kitazono J, Oizumi M. Designing optimal perturbation inputs for system identification in neuroscience. *eLife* 15, RP110030 (2026). [DOI](https://doi.org/10.7554/eLife.110030.3).
+10. Attia A, Alexanderian A, Saibaba AK. Goal-oriented optimal design of experiments for large-scale Bayesian linear inverse problems. *Inverse Problems* 34(9), 095009 (2018). [DOI](https://doi.org/10.1088/1361-6420/aad210).
+11. Zhong S, Shen W, Catanach T, Huan X. Goal-Oriented Bayesian Optimal Experimental Design for Nonlinear Models Using Markov Chain Monte Carlo. *SIAM/ASA Journal on Uncertainty Quantification* 14(1):19–47 (2026). [DOI](https://doi.org/10.1137/24M1649344).
+12. Kreutz C, Raue A, Timmer J. Likelihood based observability analysis and confidence intervals for predictions of dynamic models. *BMC Systems Biology* 6, 120 (2012). [DOI](https://doi.org/10.1186/1752-0509-6-120).
 13. White A et al. The Limitations of Model-Based Experimental Design and Parameter Estimation in Sloppy Systems. *PLoS Computational Biology* 12(12), e1005227 (2016). [DOI](https://doi.org/10.1371/journal.pcbi.1005227).
 14. Gneiting T, Raftery AE. Strictly Proper Scoring Rules, Prediction, and Estimation. *JASA* 102:359–378 (2007). [DOI](https://doi.org/10.1198/016214506000001437).
-15. Waltemath D et al. Minimum Information About a Simulation Experiment (MIASE). *PLoS Computational Biology* (2011). [DOI](https://doi.org/10.1371/journal.pcbi.1001122).
-16. Walsh I et al. DOME: recommendations for supervised machine learning validation in biology. *Nature Methods* (2021). [DOI](https://doi.org/10.1038/s41592-021-01205-4).
-17. Macleod M et al. The MDAR (Materials Design Analysis Reporting) framework for transparent reporting in the life sciences. *PNAS* (2021). [DOI](https://doi.org/10.1073/pnas.2103238118).
+15. Waltemath D et al. Minimum Information About a Simulation Experiment (MIASE). *PLoS Computational Biology* 7(4), e1001122 (2011). [DOI](https://doi.org/10.1371/journal.pcbi.1001122).
+16. Walsh I et al. DOME: recommendations for supervised machine learning validation in biology. *Nature Methods* 18(10):1122–1127 (2021). [DOI](https://doi.org/10.1038/s41592-021-01205-4).
+17. Macleod M et al. The MDAR (Materials Design Analysis Reporting) framework for transparent reporting in the life sciences. *PNAS* 118(17), e2103238118 (2021). [DOI](https://doi.org/10.1073/pnas.2103238118).
 18. Chaloner K, Verdinelli I. Bayesian Experimental Design: A Review. *Statistical Science* 10(3):273–304 (1995). [DOI](https://doi.org/10.1214/ss/1177009939).
 19. Ryan EG, Drovandi CC, McGree JM, Pettitt AN. A Review of Modern Computational Algorithms for Bayesian Optimal Design. *International Statistical Review* 84(1):128–154 (2016). [DOI](https://doi.org/10.1111/insr.12107).
 20. Rainforth T, Foster A, Ivanova DR, Bickford Smith F. Modern Bayesian Experimental Design. *Statistical Science* 39(1):100–114 (2024). [DOI](https://doi.org/10.1214/23-STS915).
@@ -400,7 +400,7 @@ The authors declare no competing interests. This work received no specific fundi
 22. Huan X, Marzouk YM. Simulation-based optimal Bayesian experimental design for nonlinear systems. *Journal of Computational Physics* 232(1):288–317 (2013). [DOI](https://doi.org/10.1016/j.jcp.2012.08.013).
 23. Raue A et al. Structural and practical identifiability analysis of partially observed dynamical models by exploiting the profile likelihood. *Bioinformatics* 25(15):1923–1929 (2009). [DOI](https://doi.org/10.1093/bioinformatics/btp358).
 24. Lindley DV. On a Measure of the Information Provided by an Experiment. *Annals of Mathematical Statistics* 27(4):986–1005 (1956). [DOI](https://doi.org/10.1214/aoms/1177728069).
-25. Krause A, Singh A, Guestrin C. Near-Optimal Sensor Placements in Gaussian Processes: Theory, Efficient Algorithms and Empirical Studies. *Journal of Machine Learning Research* 9:235–284 (2008).
+25. Krause A, Singh A, Guestrin C. Near-Optimal Sensor Placements in Gaussian Processes: Theory, Efficient Algorithms and Empirical Studies. *Journal of Machine Learning Research* 9(8):235–284 (2008). [Article](https://jmlr.org/papers/v9/krause08a.html).
 26. Ricotti L et al. Biohybrid actuators for robotics: A review of devices actuated by living cells. *Science Robotics* 2(12):eaaq0495 (2017). [DOI](https://doi.org/10.1126/scirobotics.aaq0495).
 27. Aydin O et al. Neuromuscular actuation of biohybrid motile bots. *PNAS* 116(40):19841–19847 (2019). [DOI](https://doi.org/10.1073/pnas.1907051116).
 28. DeMarse TB, Wagenaar DA, Blau AW, Potter SM. The neurally controlled animat: biological brains acting with simulated bodies. *Autonomous Robots* 11(3):305–310 (2001). [DOI](https://doi.org/10.1023/A:1012407611130).
@@ -411,21 +411,21 @@ The authors declare no competing interests. This work received no specific fundi
 33. Gneiting T, Katzfuss M. Probabilistic forecasting. *Annual Review of Statistics and Its Application* 1:125–151 (2014). [DOI](https://doi.org/10.1146/annurev-statistics-062713-085831).
 34. Gneiting T, Balabdaoui F, Raftery AE. Probabilistic forecasts, calibration and sharpness. *Journal of the Royal Statistical Society B* 69(2):243–268 (2007). [DOI](https://doi.org/10.1111/j.1467-9868.2007.00587.x).
 35. Dawid AP. The well-calibrated Bayesian. *Journal of the American Statistical Association* 77(379):605–610 (1982). [DOI](https://doi.org/10.1080/01621459.1982.10477856).
-36. Amrhein V, Greenland S, McShane BB. Scientists rise up against statistical significance. *Nature* 567(7748):305–307 (2019). [DOI](https://doi.org/10.1038/d41586-019-00857-9).
+36. Amrhein V, Greenland S, McShane B. Scientists rise up against statistical significance. *Nature* 567(7748):305–307 (2019). [DOI](https://doi.org/10.1038/d41586-019-00857-9).
 37. Altman DG, Bland JM. Statistics notes: absence of evidence is not evidence of absence. *BMJ* 311(7003):485 (1995). [DOI](https://doi.org/10.1136/bmj.311.7003.485).
 38. Efron B. Bootstrap methods: another look at the jackknife. *Annals of Statistics* 7(1):1–26 (1979). [DOI](https://doi.org/10.1214/aos/1176344552).
 39. Field CA, Welsh AH. Bootstrapping clustered data. *Journal of the Royal Statistical Society B* 69(3):369–390 (2007). [DOI](https://doi.org/10.1111/j.1467-9868.2007.00593.x).
 
-40. Weber P, Kramer A, Dingler C, Radde N. Trajectory-oriented Bayesian experiment design versus Fisher A-optimal design: an in depth comparison study. *Bioinformatics* 28, i535–i541 (2012). [DOI](https://doi.org/10.1093/bioinformatics/bts377).
-41. Raue A et al. Lessons Learned from Quantitative Dynamical Modeling in Systems Biology. *PLOS ONE* 8, e74335 (2013). [DOI](https://doi.org/10.1371/journal.pone.0074335).
+40. Weber P, Kramer A, Dingler C, Radde N. Trajectory-oriented Bayesian experiment design versus Fisher A-optimal design: an in depth comparison study. *Bioinformatics* 28(18):i535–i541 (2012). [DOI](https://doi.org/10.1093/bioinformatics/bts377).
+41. Raue A et al. Lessons Learned from Quantitative Dynamical Modeling in Systems Biology. *PLOS ONE* 8(9), e74335 (2013). [DOI](https://doi.org/10.1371/journal.pone.0074335).
 
 42. Flassig RJ, Migal I, van der Zalm E, Rihko-Struckmann L, Sundmacher K. Rational selection of experimental readout and intervention sites for reducing uncertainties in computational model predictions. *BMC Bioinformatics* 16, 13 (2015). [DOI](https://doi.org/10.1186/s12859-014-0436-5).
-43. Thibaut R, Compaire N, Lesparre N, Ramgraber M, Laloy E, Hermans T. Comparing Well and Geophysical Data for Temperature Monitoring Within a Bayesian Experimental Design Framework. *Water Resources Research* 58, e2022WR033045 (2022). [DOI](https://doi.org/10.1029/2022WR033045).
+43. Thibaut R, Compaire N, Lesparre N, Ramgraber M, Laloy E, Hermans T. Comparing Well and Geophysical Data for Temperature Monitoring Within a Bayesian Experimental Design Framework. *Water Resources Research* 58(11), e2022WR033045 (2022). [DOI](https://doi.org/10.1029/2022WR033045).
 
-44. Mastrogiuseppe F, Ostojic S. Linking Connectivity, Dynamics, and Computations in Low-Rank Recurrent Neural Networks. *Neuron* 99:609–623.e29 (2018). [DOI](https://doi.org/10.1016/j.neuron.2018.07.003).
+44. Mastrogiuseppe F, Ostojic S. Linking Connectivity, Dynamics, and Computations in Low-Rank Recurrent Neural Networks. *Neuron* 99(3):609–623.e29 (2018). [DOI](https://doi.org/10.1016/j.neuron.2018.07.003).
 45. Jagalur-Mohan J, Marzouk Y. Batch greedy maximization of non-submodular functions: Guarantees and applications to experimental design. *Journal of Machine Learning Research* 22(252):1–62 (2021). [Article](https://jmlr.org/papers/v22/20-1023.html).
 
-46. Wagenmaker A, Mi L, Rozsa M, Bull MS, Svoboda K, Daie K, Golub MD, Jamieson K. Active learning of neural population dynamics using two-photon holographic optogenetics. *Advances in Neural Information Processing Systems* 37:31659–31687 (2024). [Paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/381efefc0d765e680451978c0392f637-Paper-Conference.pdf).
+46. Wagenmaker A, Mi L, Rozsa M, Bull MS, Svoboda K, Daie K, Golub MD, Jamieson K. Active learning of neural population dynamics using two-photon holographic optogenetics. *Advances in Neural Information Processing Systems* 37:31659–31687 (2024). [DOI](https://doi.org/10.52202/079017-0994).
 
 ## Supplementary analyses and figures
 

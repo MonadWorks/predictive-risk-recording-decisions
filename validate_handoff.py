@@ -40,7 +40,7 @@ def main():
  for stem in ['figS2_matched_conditions_pastel','figS3_broad_conditions_pastel','figS4_bias_shift_conditions_pastel']:
   for ext in ['pdf','png','svg']:
    assert sha(W/'outputs/pastel_figure_suite/supplementary'/f'{stem}.{ext}')==sha(W/'outputs/paper_v4_pastel/03_figures/supplementary'/f'{stem}.{ext}')
- for ext in ['pdf','png','svg']:assert sha(ROOT/'01_READ_CURRENT'/f'graphical_abstract.{ext}')==sha(W/'outputs/graphical_abstract'/f'graphical_abstract.{ext}')
+ for ext in ['pdf','png','svg']:assert sha(ROOT/'01_READ_CURRENT'/f'graphical_abstract.{ext}')==sha(W/'outputs/endpoint_revision'/f'graphical_abstract.{ext}')
  for folder in [W/'outputs/pastel_figure_suite',W/'outputs/paper_v4_pastel']:
   for rel,h in json.loads((folder/'CURRENT_SHA256SUMS.json').read_text()).items():assert sha(folder/rel)==h
  for rel,v in json.loads((W/'work/evidence/ICBR2026_v4_pack/05_data_and_code/source_data/origin_manifest.json').read_text()).items():

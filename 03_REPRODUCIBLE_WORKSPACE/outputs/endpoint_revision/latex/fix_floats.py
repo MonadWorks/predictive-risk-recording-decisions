@@ -30,6 +30,20 @@ for marker,weights in [('Stage & Independent J & Physiological truths/J',[.20,.1
     s=s[:begin]+'\\setlength{\\tabcolsep}{4pt}\n'+s[begin:tab]+'\\begin{tabular}{'+cols+'}'+s[end:]
 open(p,'w',encoding='utf-8').write(s)
 
+# The original-study methods now live in the supplement. Keep the same usable
+# column widths for their development table after that relocation.
+p='build/appendix.tex'
+s=open(p,encoding='utf-8').read()
+for marker,weights in [('Stage & Independent J & Physiological truths/J',[.20,.16,.18,.16,.12,.18]),('Stage & Independent J & Truth × noise × readouts per J',[.24,.15,.17,.16,.14,.14])]:
+    at=s.find(marker)
+    if at<0:continue
+    begin=s.rfind('\\setlength{\\tblw}',0,at)
+    tab=s.index('\\begin{tabular}',begin)
+    end=s.index('\n',tab)
+    cols=''.join('>{\\raggedright\\arraybackslash}p{%.4f\\tblw}'%w for w in weights)
+    s=s[:begin]+'\\setlength{\\tabcolsep}{4pt}\n'+s[begin:tab]+'\\begin{tabular}{'+cols+'}'+s[end:]
+open(p,'w',encoding='utf-8').write(s)
+
 # Keep the added supplementary analysis together and outside main-text numbering.
 p='build/appendix.tex'
 s=open(p,encoding='utf-8').read()
@@ -60,4 +74,25 @@ p='build/appendix.tex'
 s=open(p,encoding='utf-8').read()
 s=re.sub(r'\\subsection\{',lambda m:r'\subsection*{',s)
 s=s.replace(r'\label{tab:',r'\label{stab:')
+open(p,'w',encoding='utf-8').write(s)
+
+# Wrap the independent follow-up comparisons within the text width.
+p='build/appendix.tex'
+s=open(p,encoding='utf-8').read()
+at=s.find('Outcome & Comparison & Change')
+if at>=0:
+    start=s.rfind(r'\begin{tabular*}',0,at)
+    end=s.index(r'\end{tabular*}',at)+len(r'\end{tabular*}')
+    block=s[start:end]
+    opening=block[:block.index('\n')]
+    cols=''.join('>{\\raggedright\\arraybackslash}p{%.4f\\tblw}'%w for w in [.25,.39,.12,.24])
+    block=block.replace(opening,r'\setlength{\tabcolsep}{4pt}'+'\n'+r'\setlength{\tblw}{\dimexpr\textwidth-8\tabcolsep\relax}'+'\n'+r'\begin{tabular}{'+cols+'}',1)
+    block=block.replace(r'\end{tabular*}',r'\end{tabular}')
+    s=s[:start]+block+s[end:]
+open(p,'w',encoding='utf-8').write(s)
+
+# Keep the factor-generation paragraph with its covariance matrix.
+p='build/body.tex'
+s=open(p,encoding='utf-8').read()
+s=s.replace('For each network, independent vectors',r'\Needspace{12\baselineskip}'+'\n'+'For each network, independent vectors',1)
 open(p,'w',encoding='utf-8').write(s)

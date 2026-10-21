@@ -14,7 +14,7 @@ In a 100-unit model, allocating five recordings to the stimulation site, three r
 
 An exact factorization into input, recurrent propagation and readout localized the strongest error contraction to the input and readout factors. Parameter-information controls implicated four recurrent gain combinations in the remaining prediction error. On forty further networks, retaining the four endpoint recordings and choosing a fifth site to constrain these combinations reduced the squared feasible width along a prespecified internal direction by 27.15% relative to a random fifth site (three-comparison-adjusted interval: 12.69%–43.18% reduction).
 
-Endpoint allocation retained a 92.08% MSE reduction under rank-six augmentation and clear benefits under mild connectivity and initial-state errors. These results connect endpoint calibration to response uncertainty and show that targeted recordings can constrain internal parameter combinations relevant to the task.
+An eighty-network follow-up reduced combination estimation MSE by 31.07% through combination-directed selection relative to a random fifth site. In secondary comparisons, adding a response-directed or random fifth site reduced prediction MSE by about 30% relative to four-endpoint calibration. Endpoint benefits also persisted under rank-six augmentation and mild model errors. These results connect endpoint calibration to response prediction and show that additional recordings can improve estimation of relevant internal combinations.
 
 ## Introduction
 
@@ -92,6 +92,10 @@ The corresponding response-MSE change was -8.95% (95% CI -41.49% to +33.68%; adj
 
 **Fig. 4 | From parameter information to calibration recordings.** **a,** Response MSE after revealing endpoint gains plus recurrent combinations, relative to revealing the same endpoints plus four ordinary gains. The earlier forty-network follow-up and independent forty-network confirmation are shown separately. **b,** Prediction errors from actual calibration observations on the new networks. All five-site policies include the four endpoints; the additional site is random, combination-targeted or response-targeted. The four-endpoint condition uses one fewer recording. Dots denote networks; diamonds and bars denote means and 95% network-bootstrap intervals. **c,** Combination-targeted versus random fifth-site recording. The profile follows one recurrent direction fixed from the public prior before calibration outcomes; its squared width measures the searched range under a common MAP-objective allowance. Combination estimation error uses four orthonormal internal coordinates. **d,** The same metrics compared with selection by the original response-risk criterion. Dark bars in a, c and d are paired 95% intervals; open markers show Bonferroni intervals for the three primary comparisons: the new oracle response-MSE contrast, and the profile-width and response-MSE contrasts in c. Other comparisons are secondary. The information and recording experiments share the new cohort.
 
+An independent follow-up evaluated eighty new networks with three noise repeats per network. In secondary comparisons, adding a response-directed or random fifth site reduced response MSE by 30.08% and 30.25%, respectively, relative to recording the four endpoints alone (Supplementary Table 3). Both allocations improved the noise-averaged error in 60/80 networks. The prespecified primary comparison, response-directed versus random fifth-site selection, gave +0.24% mean MSE (95% CI -41.36% to +74.08%).
+
+The same follow-up strengthened the evidence for acquiring internal information through recordings. Combination-directed selection reduced actual estimation MSE in the four internal coordinates by 31.07% relative to a random fifth site (95% CI -42.35% to -19.81%), with improvement in 63/80 networks. The corresponding comparison with response-directed selection also favoured combination estimation. These secondary results extend the earlier feasible-range finding to more accurate estimates of the internal combinations. Supplementary Table 3 gives the complete comparisons; the accompanying analysis examines how internal precision relates to response error.
+
 ### Endpoint allocation retains value under structural and model perturbations
 
 The same forty base seeds supplied six paired model conditions, each comparing five ordinary recordings with joint endpoint coverage. In the prespecified rank-six augmentation, endpoint recording changed response MSE by -92.08% (95% CI -95.66% to -85.04%), with improvement in 38/40 networks. Adding an unmodelled connectivity term at 10% relative Frobenius norm gave a change of -87.83% (95% CI -95.32% to -66.50%), and an unknown initial-state offset of SD 0.03 gave -95.85% (95% CI -98.93% to -92.45%). These effects, and the matched rank-two reference (-94.60%), retained negative six-comparison Bonferroni intervals (Fig. 5).
@@ -118,17 +122,13 @@ The response-range experiments clarify what changed. Models with similar calibra
 
 The factor decomposition locates the strongest contraction in the input and readout contributions to response error. In the low-activity limit, endpoint gain products and four recurrent gain combinations determine the transfer response. The information controls support additional predictive value for those recurrent combinations after endpoint gains are known, with the same direction of improvement in two independent cohorts of the equal-dimensional comparison. Earlier connectome-constrained models distinguish stiff parameter combinations from poorly recovered individual gains [5], as does the broader literature on sloppy models [29]. Our experiments identify and test the conditional value of particular combinations for this held-out response. Their static form captures much of the local sensitivity; larger nonlinear changes also depend on activation slopes along the trajectories.
 
-The fifth-recording experiment connects the parameter-information controls to observations. With the four endpoints already recorded, a site selected to constrain recurrent combinations narrowed a nonlinear feasible range more than a random extra site. Calibration observations can therefore acquire some of the internal information identified by the factorization. A next step is to test which constrained directions contribute most to prediction accuracy, taking account of both endpoint uncertainty and the activation slopes along the stimulus trajectory.
+The fifth-recording studies connect the parameter-information controls to observations. With the four endpoints already recorded, combination-directed selection narrowed a nonlinear feasible range. The independent follow-up then showed more accurate recovery of the internal combinations relative to a random fifth site. Additional calibration also improved response prediction beyond four-endpoint coverage. Together, these experiments connect the parameter combinations identified by the model to information that calibration recordings can acquire.
 
 The endpoint allocation result also gives the method comparisons a concrete baseline. Recording-site optimisation and goal-oriented design already value observations according to a prediction task [5,10,11,40], and prediction profiles provide tools for examining uncertainty in that prediction [12,23,41,42]. Active photostimulation design chooses informative inputs and has been evaluated on real neural recordings [46]. For our fixed-input task, endpoint coverage explains a large gain over random recording. Comparing selectors against this baseline helps distinguish the benefit of endpoint access from the added value of the selection procedure.
 
-### Limitations
+### Model scope
 
-The baseline assumes known connectivity and initial states, a specified stimulus and a correct observation model. Structural follow-ups test rank-six networks and mild connectivity or initial-state errors, using paired physiology and noise draws within each base seed. Generalization to full-rank networks, process noise, plasticity and biological nonstationarity requires further evaluation. Endpoint allocation also requires access to the stimulation and readout sites during calibration. Joint neural recordings and perturbations would provide a direct test of the prediction benefit in biological networks.
-
-The finite-response factorization is exact within the model; the static gain combinations describe its small-activity limit. Oracle refits test the predictive value of known parameter combinations, while recording selectors acquire information through noisy observations. The fifth-recording experiment uses an established A-optimal criterion and measures the feasible range along one internal direction fixed before observing data. These numerical ranges are defined by a MAP-objective allowance and are not calibrated confidence intervals.
-
-Local risk and covariance estimates, finite prior ensembles and numerical MAP fits introduce approximations. Multiple fitting starts reduce sensitivity to initialization but do not certify a global optimum. Network-level error differences can be heavy-tailed, so bootstrap bounds should be interpreted together with the reported per-network and leave-one-network results.
+The experiments concern simulated networks with known connectivity and initial states, a specified stimulus and rate observations with Gaussian noise. Structural follow-ups examine rank-six networks and mild connectivity or initial-state errors. Endpoint allocation requires access to the stimulation and readout sites during calibration. The finite-response factorization is exact within the model, while the static gain combinations describe its small-activity limit. The numerical feasible ranges quantify responses or parameter values compatible with a specified MAP-objective allowance. These assumptions define the setting for the prediction and information results.
 
 ### Implications for recording-design practice
 
@@ -136,7 +136,7 @@ An informative baseline should reflect the known stimulus and readouts. When end
 
 ## Conclusions
 
-Joint calibration of stimulation and readout sites improves prediction of a held-out stimulus response in the tested networks, with replication across independent cohorts and support under several structural and model perturbations. Endpoint information narrows the range of compatible responses and reduces input and readout error contributions. Information controls support additional predictive value in recurrent gain combinations. A targeted fifth recording constrains a prespecified internal direction. Endpoint coverage therefore provides a useful baseline, and the recurrent combinations provide a concrete target for studying what further recordings contribute.
+Joint calibration of stimulation and readout sites improves prediction of a held-out stimulus response in the tested networks, with replication across independent cohorts and support under several structural and model perturbations. Endpoint information narrows the range of compatible responses and reduces input and readout error contributions. Information controls support additional predictive value in recurrent gain combinations. A targeted fifth recording constrains a prespecified internal direction and improves estimation of the recurrent combinations on independent networks. Adding a fifth recording improves prediction relative to four-endpoint calibration. Endpoint coverage provides a useful baseline, and the recurrent combinations provide a concrete target for additional calibration.
 
 ## Methods
 
@@ -156,34 +156,54 @@ Joint calibration of stimulation and readout sites improves prediction of a held
 | S(v, e) | forecast score log v + e²/v |
 | LS, ES, LV, EV | nominal and ensemble criteria for the single-response and three-response objectives |
 
-### Model families and the calibration task
+### Main 100-unit model and calibration task
 
-The endpoint and mechanism studies use 100-unit networks with dynamics $\tau\dot x=-x+Jr+u(t)$ and rates $r_i=g_i\tanh(x_i)$, where $J=LR$ has rank two, $\tau=0.5$, and the prior on signed gains is $g_i\sim N(1,0.9^2)$ [5]. Connectivity, initial states and calibration inputs are known; the gains are inferred from noisy rate observations. The three-response target compares a separate fixed stimulus with its matched zero-input control. Reduced-state RK4 integrates the states, sensitivities and response; numerical checks and the rank-six/positive-gain variants are described below.
-
-The original criterion-comparison studies use the 12-unit model described next. Each comparison uses a common model, information budget and estimator within its own study; the two model families are not treated as an experiment varying network size alone.
-
-### Original criterion-comparison model
-
-The original 12-unit model is
+The endpoint, mechanism and fifth-recording studies use the same reference model [5],
 
 \[
-\dot x=-x+Jr+u,\qquad
-r_i=\exp(\eta_i)\operatorname{softplus}(x_i+b_i).
+\tau\dot x=-x+Jr+u(t),\qquad r_i=g_i\tanh(x_i),\qquad J=LR.
 \]
 
-N=12, x(0)=0 and J is known. The independent synthetic J matrices have 30% sparse connectivity, zero diagonal, column-wise excitatory/inhibitory signs, and spectral norm 0.65. The uncertain vector is θ=(η,b). The observation is the rate r, not the internal state x. Time and activity are dimensionless.
+Time and activity are dimensionless. The network has 100 units, time constant $\tau=0.5$, zero biases and independent signed gains $g_i\sim N(1,0.9^2)$. Connectivity, initial states and calibration inputs are supplied to the fitted model; the gains are inferred from noisy rate observations. The main response prediction concerns a separate stimulation trial that is withheld from calibration.
 
-Two known calibration inputs apply sinusoidal probes to three channels. Euler integration uses a step of 0.05 over six time units. Sampling every fourth step yields 60 observations per recorded neuron across the two calibration trials. Measurement noise is independent Gaussian with standard deviation 0.05.
-
-A separate fixed stimulus of amplitude 0.6 acts during time 1–2. Three readouts are selected from structurally reachable nodes using J before physiological parameters or measurement noise are generated. The target family is
+For each network, independent vectors $v_i\sim N(0,\Sigma)$ generate the rank-two factors $L_{ia}=v_{ia}/N$ and $R_{ai}=v_{i,a+2}$ for $a=1,2$. The covariance is
 
 \[
-q_k(\theta)=\int_0^6[r_{j_k}(t;\theta,u_*)-r_{j_k}(t;\theta,0)]dt.
+\Sigma=\begin{pmatrix}
+1&0&1.5&3\\
+0&1&-3&1.5\\
+1.5&-3&c&0\\
+3&1.5&0&c
+\end{pmatrix},\qquad c=1.1^{27}.
 \]
 
-The primary implementation evaluates this integral by the matching step-weighted (left-point) sum with dt=0.05. Q consists of these three responses. The vector criterion and primary raw-error evaluation use equal weights over the same target family. Scalar designs specialise for one known target; vector designs use one configuration for all three. No observations from separately selected scalar configurations are pooled.
+This implements the covariance-inflation recipe used for the published model family [5]. The factor $1/N$ supplies the connectivity scaling; the resulting matrix retains its diagonal and is used without a further norm rescaling. Each initial-state entry is independently drawn from $N(0,0.1^2)$ and the same known initial state starts both calibration trials and both target-response trials.
 
-Recording budgets are M=3 and M=6. The candidate pool either includes all neurons or excludes the stimulation site and all three readouts. The latter pool is shared by every target and method.
+Three distinct calibration channels $c_j$ are drawn from the network. The two trials, indexed by $k=0,1$, apply $u^{(k)}_{c_j}(t)=0.4\sin[(0.6+0.3j)t+0.7k]$ for $j=0,1,2$, with zero input on other channels. These inputs are evaluated on the 0.05 time grid and held constant between grid points. Calibration channels may overlap the task endpoints. The stimulation site $s$ and three distinct readouts $j_1,j_2,j_3$ are selected using structural reachability in $J$, before generating gains or observation noise; each readout differs from $s$.
+
+The held-out trial applies $u_s(t)=0.6$ during $1\leq t<2$, with all other inputs zero. Its matched control has zero input throughout. The three targets are
+
+\[
+q_k(g)=\int_0^6\left[r_{j_k}(t;g,u_*)-r_{j_k}(t;g,0)\right]dt.
+\]
+
+Both design and evaluation weight these three raw responses equally. The common reference settings are collected below.
+
+| Setting | 100-unit reference configuration |
+|---|---|
+| Calibration duration | Two trials, each from time 0 to 6 |
+| Observation times | 0, 0.2, ..., 5.8; 30 rate samples per trial and 60 per recorded neuron |
+| Observation noise | Independent additive Gaussian noise, standard deviation 0.05 in rate units |
+| Target response | Pulse amplitude 0.6 on one site during time 1-2; response difference integrated to time 6 |
+| Initial state | Known, independent entries from $N(0,0.1^2)$; shared across trials within a network |
+| Numerical integration | Input grid 0.05; two RK4 substeps of 0.025 per grid interval |
+| Response quadrature | Rate differences and complete sensitivities integrated at the RK4 stages |
+| Main recording allocation | Five sites: stimulation site, three readouts and one ordinary site; compared with five ordinary sites |
+| Prior-averaged selection | 32 shared prior draws; gains inferred in coordinates $z=(g-1)/0.9$ |
+
+Integration uses the exact state reduction $x=v+Lz_{\mathrm{state}}$, analytic filtering of the held known input in $v$, and RK4 for the reduced state and gain sensitivities. Sampling therefore stays on the stated observation grid while integration and response quadrature use the finer steps.
+
+These model, input, observation and integration settings are shared across the reference 100-unit cohorts. The follow-up subsections specify changes in recording budget, gain-prior width, noise level, connectivity, initial-state knowledge and gain parameterization. They also give the cohort-specific repetition and fitting rules. The executable definitions are `code/models.py` (`public_case`) and `code/rank2_refined.py` (`refined_case`) within `work/recording_extensions`; the shared scalar settings are in `protocols/confirmation.json`, with later study protocols in the corresponding round directories. The original 12-unit softplus model and its development and forecast protocols are described with the original criterion-comparison studies in the Supplementary analyses.
 
 ### A factorial comparison of existing criteria
 
@@ -216,42 +236,21 @@ The ensemble criterion is a **prior average of local delta-method risk**. It doe
 
 ### Common inference and paired evaluation
 
-In the original 12-unit study, after selection, all methods minimise the same Gaussian MAP objective, using analytic sensitivities and the prior mean as the initial parameter. The solver runs at most 80 function evaluations with identical tolerances. A finite final iterate is retained and flagged if convergence is not reached. Exceptions or nonfinite predictions trigger a flagged prior-mean fallback. No instance is silently dropped.
+After selection, the 100-unit studies fit gains by minimizing the Gaussian MAP objective
 
-Within each network, true parameter vector and noise repetition, methods receive their selected subsets of one common measurement-noise field. The full field is internal to the generator. Identical recorded datasets receive the same MAP objective, prior-mean starting point, common noise field, solver settings and deterministic solver, so identical sets give identical fits and predictions by construction; they may also reuse a cached fitted solution; this changes compute accounting, not information access. Responses are predicted by nonlinear simulation at the fitted parameter. A passive input not used for fitting gives an additional activity-prediction diagnostic.
+\[
+\mathcal L(z)=\frac12\sum_{k,t}\sum_{i\in M}\left[\frac{r_i(t;1+0.9z,u^{(k)})-y_{kti}}{\sigma_i}\right]^2+\frac12\|z\|^2.
+\]
 
-### Development and the first frozen evaluation
+The sum includes the observed times in both calibration trials. Analytic sensitivities supply the least-squares Jacobian. The parameter-combination, structural-robustness and fifth-recording studies use nine common starts and retain the smallest objective, with a 400-evaluation cap per start; earlier fitting rules and their sensitivity checks are specified below. The original 12-unit study uses its corresponding log-gain/bias prior, a prior-mean start and an 80-evaluation cap. Finite unconverged results are retained with flags, and exceptions or nonfinite predictions use a flagged prior-mean fallback.
 
-| Stage | Independent J | Physiological truths/J | Noise repeats/truth | Readouts/J | Conditions |
-|---|---:|---:|---:|---:|---|
-| Development | 8 | 2 | 2 | 3 | Matched, broad, bias shift, gain-only, bias-only |
-| First frozen evaluation | 40 | 3 | 3 | 3 | Matched, broad, bias shift |
-
-Matched and broad conditions use correctly specified Gaussian priors and generating standard deviations 0.18 and 0.35 respectively. Bias shift retains the design prior at 0.18 while adding 0.5 to the hidden true bias mean. The method is not informed of this shift. Development gain-only and bias-only conditions fix the other parameter group. Increasing a prior scale changes parameter variability, signal scale and nonlinearity together; it is not an isolated curvature intervention.
-
-Connectivity, truth, noise, design ensembles, task-scale Monte Carlo, random sets and analysis use separate seed namespaces. The first evaluation uses network IDs 5000–5039, disjoint from development. The execution protocol and computational source were locally frozen before outcomes were inspected. This is not external preregistration.
+Within each network, true parameter vector and noise repetition, methods receive their selected subsets of one common measurement-noise field. The full field is internal to the generator. Identical recorded datasets receive the same MAP objective, starting points, noise field and solver settings, and reuse the same fitted solution. Responses are predicted by nonlinear simulation at the fitted parameter. For the 100-unit activity-prediction diagnostic, two held-out trials use the same calibration channels with inputs $0.4\sin[(0.9+0.2j)t+0.4k+1.3]$, where $j=0,1,2$ and $k=0,1$; these observations are withheld from fitting.
 
 ### Estimands and uncertainty
 
-For each J, squared response errors are averaged across all prescribed truths, noises, targets and random-design repetitions. Network risks are then averaged equally across J. RMSE is the square root of the overall mean squared error. Repeated targets or noises do not create additional independent networks.
+For each network, squared response errors are averaged across the prescribed physiological draws, noise repeats, targets and random-design repetitions. Networks then receive equal weight in the aggregate MSE. RMSE is the square root of that aggregate. The reported percentage change is the ratio of aggregate mean MSEs minus one, rather than the average of individual percentage changes.
 
-Interval key: 97.5% intervals belong to the two prespecified first-study comparisons, the 95% interval to the single prespecified forecast comparison, and other intervals are pointwise 95% unless specified otherwise in the follow-up protocols. The six structural contrasts additionally report six-comparison Bonferroni intervals. Two prespecified primary comparisons, ES−LS and EV−LV, concern broad uncertainty, excluded endpoints and M=3. The paired network-cluster percentile bootstrap [38,39] uses 10,000 resamples of whole networks, so repeated targets and noises do not count as independent. Each primary comparison receives a 97.5% interval as a two-comparison Bonferroni interval arrangement. Other strata, task-specialisation comparisons and factorial interactions have exploratory pointwise 95% intervals. We do not infer equivalence from an interval crossing zero [36,37].
-
-The primary scale is raw response MSE. A secondary scale uses an independent common 64-draw nonlinear prior-Monte-Carlo variance. It is not method-specific. Prescribed targets below a frozen variance floor of 10⁻¹⁶ retain raw results; a complete standardised estimand is NA rather than silently excluding them. Local MAP intervals are approximate diagnostics, not guaranteed confidence intervals.
-
-### Separately specified risk-forecast follow-up
-
-The first study distinguishes selection gains from apparent risk-estimation differences only exploratorily. A subsequent protocol therefore uses new network IDs 6000–6039 and fixes the recording policies to LS and LV. The point predictions and selected data are identical for the two risk forecasts being compared. The forecasts are the nominal and ensemble local risks evaluated at that same recording set.
-
-The risk-forecast score is
-
-\[
-S(v,e)=\log v+e^2/v,\qquad v=\max(\hat R,10^{-24}).
-\]
-
-For positive v, its conditional expectation is minimised at v=E[e²]. This makes it a consistent score for a positive MSE forecast; it does not establish a full predictive distribution or require the errors to be Gaussian. The log term penalises indiscriminate inflation. This is a use of established scoring principles [14,33], not a new score. The forecast-evaluation literature distinguishes calibration from sharpness [34] and treats calibration as separate from point-prediction accuracy [35]; the nominal-versus-ensemble comparison here mixes both, applies to a mean-squared-error forecast rather than a full predictive distribution, and does not test calibration separately.
-
-The follow-up has one frozen primary comparison: ensemble minus nominal risk-forecast score for the LS recording policy under broad uncertainty, excluded endpoints and M=3. It uses a paired network-cluster 95% interval. Matched/shift conditions and LV are secondary. These results do not redefine the first study's primary hypotheses.
+Uncertainty is estimated by resampling whole paired networks, retaining their nested repeats. The follow-up protocols identify the primary contrasts, bootstrap counts and any multiplicity adjustment. The structural and original fifth-recording studies report both pointwise and multiplicity-adjusted intervals; the independent fifth-recording follow-up has one primary contrast. Other intervals are pointwise 95% unless specified. Leave-one-network summaries assess the influence of individual networks. An interval spanning zero describes uncertainty about the direction of the mean change [36,37]. The earlier 12-unit comparisons and their forecast-specific estimands are detailed in the Supplementary analyses.
 
 ### Numerical and published-model checks
 
@@ -343,28 +342,25 @@ One recurrent direction was fixed before observing calibration data: the leading
 
 The three primary comparisons were response MSE in the oracle contrast, squared profile width for combination-targeted versus random fifth-site recording, and response MSE for that same recording contrast. Summaries include paired-network 95% bootstrap intervals and Bonferroni intervals across these three comparisons. Comparisons with response-based selection, combination estimation errors and four-versus-five recording contrasts were secondary. Nine common starts were used initially. An unsuccessful selected fit, an objective above the known feasible generating-parameter objective, or a lower objective found during profiling triggered nine further fits for every policy: its own best or profile point and eight common prior draws. At most two such rounds were allowed. Oracle information was never transferred into the recording policies.
 
+### Independent fifth-recording follow-up
+
+A new cohort of 80 networks (61000-61079) tests response-directed fifth-site selection against a random fifth site as its single primary comparison. The model and the four recording policies are unchanged from the preceding study. Each network has one physiological draw, three independent paired observation-noise draws and the same three response targets. Recording sets are selected from the public model and 32 prior particles before calibration observations are generated. Selection is reused across the three noise draws; identical sets share fits.
+
+The response MSE is averaged across targets and noise draws within each network. Percentage changes and 95% intervals use 30,000 paired-network bootstrap resamples. The sample size, main comparison, source code and analysis were locally fixed before validation outcomes. Comparisons with four-endpoint recording and combination-directed selection are secondary. All fits begin from nine common starts with a 400-evaluation cap. A selected fit that fails to converge or exceeds the known feasible generating-parameter objective triggers a matched additional round for every distinct policy, using its best point and eight new common prior starts, up to two rounds. Generating parameters are used for evaluation and this feasible-cost check.
+
+A shared-reference diagnostic separates the effects of the additional observations from changes in the fitted reference point. At each four-endpoint MAP fit, the observation Jacobians and response gradients are evaluated once. For every recording set, the local covariance $C_M=(I+F_M^TF_M)^{-1}$ is formed at this same parameter vector. The response gradient is split into its projections onto endpoint coordinates, the orthonormal internal-combination space and the remaining orthogonal space. The three diagonal terms and all cross terms sum exactly to $\operatorname{tr}(GC_MG^T)/3$. The internal-information diagnostic is $\operatorname{tr}(BC_MB^T)/4$. Along the four eigenvectors of the internal covariance after endpoint recording, central finite response changes at standardized parameter lengths 0.1 and 0.3 are compared with the local sensitivities. These diagnostics were specified with the validation protocol; they assess the local uncertainty approximation separately from realised prediction error.
+
+An exploratory finite-error decomposition evaluates all eight combinations of generating and fitted parameter blocks. The blocks are endpoint coordinates, the internal-combination projection and its orthogonal remainder. Averaging each block's response increment across its possible orders gives three contributions that sum exactly to the fitted-minus-generating response. Their squared terms and all pairwise cross terms reconstruct the response MSE. This algebraic attribution describes compensation among parameter errors. In the repeated-noise cohort, the sample prediction variance and the squared error of the mean prediction, corrected for its sampling variance, also separate observation-noise variability from noise-averaged prediction bias. These exploratory analyses use every retained network and do not affect selection or the primary comparison.
+
 ### Study accounting and availability
-
-Core runtime is recorded separately from environment preparation, compilation, literature review and figure production. Dataset reuse avoids repeated optimisation of identical selected observations; evaluation rows are not independent sample counts.
-
-**Table 1 | Study accounting.** Connectivity matrices are the independent sampling units. Truth, measurement noise and readout repeats are nested within J. Timings are core experiment wall times on the study Mac and are not cross-platform performance guarantees.
-
-| Stage | Independent J | Truth × noise × readouts per J | Evaluation records | Actual MAP calls | Core runtime (s) |
-|---|---:|---:|---:|---:|---:|
-| Development | 8 | 2 × 2 × 3 | 19,200 | 5,696 | 25.4 |
-| Frozen recording evaluation | 40 | 3 × 3 × 3 | 129,600 | 38,610 | 356.0 |
-| Independent forecast study | 40 new | 3 × 3 × 3 | 6,480 | 3,006 | 17.5 |
-| Exploratory 100-unit family | 8 new | 2 × 2 × 3 | 3,072 | 1,436 | 693.1 |
-
-The independent 100-unit confirmation added 40 networks, 15,360 scalar response records and 7,112 actual MAP calls. The matched-width diagnostics reused those networks (11,520 records; 3,296 calls). The focused endpoint experiment reused the same 40 networks (1,920 joint-response fit records; 1,916 calls), and independent endpoint validation added 40 new networks (1,920 records; 1,908 calls). The common five-start fitting analysis reused 320 datasets and made 1,600 fit calls. Two endpoint-validation calls reached the evaluation cap with finite outputs, which were retained. Thirty-seven alternative starts in the fitting follow-up reached the cap; all selected best fits terminated successfully. Before the final follow-ups, the 100-unit evidence comprised eight pilot networks, forty criterion-confirmation networks and forty additional endpoint-validation networks. The final cohorts are accounted for below; none is used to replace an earlier frozen comparison.
 
 The companion package contains the independent implementation, dependency lock, actual execution/source freezes, per-instance outputs, numerical controls, network-level analysis and figure source data. MIASE, DOME and MDAR inform reporting [15,16,17]. No new human or animal measurements were collected. Source equations were independently implemented; unlicensed upstream code is not redistributed. All freezes were local records rather than external preregistrations.
 
-The response-range and indirect-recording studies each add forty independent 100-unit networks. The parameter-combination/structure study and limited-budget study add two further forty-network cohorts. A final forty-network cohort supplies the dimension-matched information confirmation and recording-acquisition comparison. The 100-unit total is 288 independent base networks: eight pilot networks and seven disjoint forty-network cohorts. Structural variants are paired within their forty base seeds. Retrospective factor decomposition reuses the response-range cohort; the first combination interventions and fitted-versus-true decomposition share the structure cohort. The final information and recording comparisons also share their cohort and are counted once. Cohorts are not pooled across differing estimators or experimental questions.
+The response-range and indirect-recording studies each add forty independent 100-unit networks. The parameter-combination/structure study and limited-budget study add two further forty-network cohorts. A final forty-network cohort supplies the dimension-matched information confirmation and recording-acquisition comparison. The independent fifth-recording follow-up adds eighty networks with three noise repeats each. The 100-unit total is 368 independent base networks: eight pilot networks, seven disjoint forty-network cohorts and this eighty-network cohort. Structural variants are paired within their forty base seeds. Retrospective factor decomposition reuses the response-range cohort; the first combination interventions and fitted-versus-true decomposition share the structure cohort. The forty-network information and recording comparisons share their cohort and are counted once. The eighty-network follow-up has a separate primary comparison. Cohorts are not pooled across differing estimators or experimental questions.
 
 ## Data and code availability
 
-The original frozen analysis tables and figure source data remain in the collaborator’s research package. The repository workspace `work/recording_extensions` contains the independent confirmation and matched-width experiments; its `round2` directory contains the endpoint cohorts, common fitting follow-up, source code, protocols, parameter-level outputs and analysis tables. The round3 directory adds the two new independent cohorts, locally frozen protocols, full numerical response searches, gain-information interventions, indirect-recording criteria, numerical audits and source figures. Its round4 directory contains the finite-response decomposition, parameter-combination interventions, structural robustness and limited-budget allocation studies. The round5 directory contains the independent information confirmation and the recording-acquisition comparison, including nonlinear combination profiles. The same workspace contains the extensions, their dependency lock, and integrity checks. Upstream code and weights from the published model family are not redistributed.
+The original frozen analysis tables and figure source data remain in the collaborator’s research package. The repository workspace `work/recording_extensions` contains the independent confirmation and matched-width experiments; its `round2` directory contains the endpoint cohorts, common fitting follow-up, source code, protocols, parameter-level outputs and analysis tables. The round3 directory adds the two new independent cohorts, locally frozen protocols, full numerical response searches, gain-information interventions, indirect-recording criteria, numerical audits and source figures. Its round4 directory contains the finite-response decomposition, parameter-combination interventions, structural robustness and limited-budget allocation studies. The round5 directory contains the independent information confirmation and the recording-acquisition comparison, including nonlinear combination profiles. The round6 directory contains the independent eighty-network fifth-recording follow-up, its fixed protocol, repeated-noise fits, shared-reference uncertainty diagnostics and exploratory finite-error decompositions. The same workspace contains the extensions, their dependency lock, and integrity checks. Upstream code and weights from the published model family are not redistributed.
 
 ## Author contributions
 
@@ -483,6 +479,63 @@ The simple endpoint-only search itself changed mean MSE by -46.29% (95% CI -59.6
 
 ### Original criterion-comparison studies
 
+### Original criterion-comparison model
+
+The original 12-unit model is
+
+\[
+\dot x=-x+Jr+u,\qquad
+r_i=\exp(\eta_i)\operatorname{softplus}(x_i+b_i).
+\]
+
+N=12, x(0)=0 and J is known. The independent synthetic J matrices have 30% sparse connectivity, zero diagonal, column-wise excitatory/inhibitory signs, and spectral norm 0.65. The uncertain vector is θ=(η,b). The observation is the rate r, not the internal state x. Time and activity are dimensionless.
+
+Two known calibration inputs apply sinusoidal probes to three channels. Euler integration uses a step of 0.05 over six time units. Sampling every fourth step yields 60 observations per recorded neuron across the two calibration trials. Measurement noise is independent Gaussian with standard deviation 0.05.
+
+A separate fixed stimulus of amplitude 0.6 acts during time 1–2. Three readouts are selected from structurally reachable nodes using J before physiological parameters or measurement noise are generated. The target family is
+
+\[
+q_k(\theta)=\int_0^6[r_{j_k}(t;\theta,u_*)-r_{j_k}(t;\theta,0)]dt.
+\]
+
+The primary implementation evaluates this integral by the matching step-weighted (left-point) sum with dt=0.05. Q consists of these three responses. The vector criterion and primary raw-error evaluation use equal weights over the same target family. Scalar designs specialise for one known target; vector designs use one configuration for all three. No observations from separately selected scalar configurations are pooled.
+
+Recording budgets are M=3 and M=6. The candidate pool either includes all neurons or excludes the stimulation site and all three readouts. The latter pool is shared by every target and method.
+
+### Development and the first frozen evaluation
+
+| Stage | Independent J | Physiological truths/J | Noise repeats/truth | Readouts/J | Conditions |
+|---|---:|---:|---:|---:|---|
+| Development | 8 | 2 | 2 | 3 | Matched, broad, bias shift, gain-only, bias-only |
+| First frozen evaluation | 40 | 3 | 3 | 3 | Matched, broad, bias shift |
+
+Matched and broad conditions use correctly specified Gaussian priors and generating standard deviations 0.18 and 0.35 respectively. Bias shift retains the design prior at 0.18 while adding 0.5 to the hidden true bias mean. The method is not informed of this shift. Development gain-only and bias-only conditions fix the other parameter group. Increasing a prior scale changes parameter variability, signal scale and nonlinearity together; it is not an isolated curvature intervention.
+
+Connectivity, truth, noise, design ensembles, task-scale Monte Carlo, random sets and analysis use separate seed namespaces. The first evaluation uses network IDs 5000–5039, disjoint from development. The execution protocol and computational source were locally frozen before outcomes were inspected. This is not external preregistration.
+
+### Original-study estimands and uncertainty
+
+For each J, squared response errors are averaged across all prescribed truths, noises, targets and random-design repetitions. Network risks are then averaged equally across J. RMSE is the square root of the overall mean squared error. Repeated targets or noises do not create additional independent networks.
+
+Interval key: 97.5% intervals belong to the two prespecified first-study comparisons, the 95% interval to the single prespecified forecast comparison, and other intervals are pointwise 95% unless specified otherwise in the follow-up protocols. The six structural contrasts additionally report six-comparison Bonferroni intervals. Two prespecified primary comparisons, ES−LS and EV−LV, concern broad uncertainty, excluded endpoints and M=3. The paired network-cluster percentile bootstrap [38,39] uses 10,000 resamples of whole networks, so repeated targets and noises do not count as independent. Each primary comparison receives a 97.5% interval as a two-comparison Bonferroni interval arrangement. Other strata, task-specialisation comparisons and factorial interactions have exploratory pointwise 95% intervals. We do not infer equivalence from an interval crossing zero [36,37].
+
+The primary scale is raw response MSE. A secondary scale uses an independent common 64-draw nonlinear prior-Monte-Carlo variance. It is not method-specific. Prescribed targets below a frozen variance floor of 10⁻¹⁶ retain raw results; a complete standardised estimand is NA rather than silently excluding them. Local MAP intervals are approximate diagnostics, not guaranteed confidence intervals.
+
+### Separately specified risk-forecast follow-up
+
+The first study distinguishes selection gains from apparent risk-estimation differences only exploratorily. A subsequent protocol therefore uses new network IDs 6000–6039 and fixes the recording policies to LS and LV. The point predictions and selected data are identical for the two risk forecasts being compared. The forecasts are the nominal and ensemble local risks evaluated at that same recording set.
+
+The risk-forecast score is
+
+\[
+S(v,e)=\log v+e^2/v,\qquad v=\max(\hat R,10^{-24}).
+\]
+
+For positive v, its conditional expectation is minimised at v=E[e²]. This makes it a consistent score for a positive MSE forecast; it does not establish a full predictive distribution or require the errors to be Gaussian. The log term penalises indiscriminate inflation. This is a use of established scoring principles [14,33], not a new score. The forecast-evaluation literature distinguishes calibration from sharpness [34] and treats calibration as separate from point-prediction accuracy [35]; the nominal-versus-ensemble comparison here mixes both, applies to a mean-squared-error forecast rather than a full predictive distribution, and does not test calibration separately.
+
+The follow-up has one frozen primary comparison: ensemble minus nominal risk-forecast score for the LS recording policy under broad uncertainty, excluded endpoints and M=3. It uses a paired network-cluster 95% interval. Matched/shift conditions and LV are secondary. These results do not redefine the first study's primary hypotheses.
+
+
 The original 12-unit studies and the subsequent 100-unit criterion confirmation preceded the endpoint and mechanism experiments. Their frozen primary comparisons, all retained conditions and fitting diagnostics are reported here. Each study retains its original evaluation population and primary comparison.
 
 ### Original criterion-comparison setup
@@ -566,3 +619,37 @@ The improvement was specific to the intended response. Under different held-out 
 Development-only diagnostics measured local Taylor remainders and selection overlap. Mean calibration remainders relative to parameter-induced activity changes were approximately 0.179 under matched uncertainty, 0.334 under broad uncertainty and 0.252 under hidden bias shift. Broader uncertainty changes signal scale and parameter variability as well as nonlinear behaviour, so these differences do not isolate a curvature effect. Local and ensemble sets frequently overlapped. When sets were identical, the fitted data and response predictions were identical by construction, limiting any decision benefit of a changed risk value in those cases.
 
 The matched and hidden-shift conditions used the same public prior and therefore produced exactly the same prospective designs, despite different true responses. This is an information boundary: without a preliminary measurement, the selector cannot infer an undisclosed physiological shift. In the first frozen evaluation, approximate 95% local MAP response intervals for the nominal scalar estimator covered the truth with proportions 0.930, 0.919 and 0.793 for matched, broad and shifted conditions, respectively, at excluded endpoints and M=3. These diagnostics identify limitations of the current information and approximation contract; they do not establish a single biological mechanism for the observed errors.
+
+### Earlier-study computational accounting
+
+Core runtime is recorded separately from environment preparation, compilation, literature review and figure production. Dataset reuse avoids repeated optimisation of identical selected observations; evaluation rows are not independent sample counts.
+
+**Supplementary Table 2 | Earlier-study computational accounting.** Connectivity matrices are the independent sampling units. Truth, measurement noise and readout repeats are nested within J. Timings are core experiment wall times on the study Mac and are not cross-platform performance guarantees.
+
+| Stage | Independent J | Truth × noise × readouts per J | Evaluation records | Actual MAP calls | Core runtime (s) |
+|---|---:|---:|---:|---:|---:|
+| Development | 8 | 2 × 2 × 3 | 19,200 | 5,696 | 25.4 |
+| Frozen recording evaluation | 40 | 3 × 3 × 3 | 129,600 | 38,610 | 356.0 |
+| Independent forecast study | 40 new | 3 × 3 × 3 | 6,480 | 3,006 | 17.5 |
+| Exploratory 100-unit family | 8 new | 2 × 2 × 3 | 3,072 | 1,436 | 693.1 |
+
+The independent 100-unit confirmation added 40 networks, 15,360 scalar response records and 7,112 actual MAP calls. The matched-width diagnostics reused those networks (11,520 records; 3,296 calls). The focused endpoint experiment reused the same 40 networks (1,920 joint-response fit records; 1,916 calls), and independent endpoint validation added 40 new networks (1,920 records; 1,908 calls). The common five-start fitting analysis reused 320 datasets and made 1,600 fit calls. Two endpoint-validation calls reached the evaluation cap with finite outputs, which were retained. Thirty-seven alternative starts in the fitting follow-up reached the cap; all selected best fits terminated successfully. Before the final follow-ups, the 100-unit evidence comprised eight pilot networks, forty criterion-confirmation networks and forty additional endpoint-validation networks. The complete cohort accounting appears in Methods.
+
+### Independent fifth-recording comparisons
+
+The eighty-network follow-up used one physiological draw and three paired noise repeats per network. Errors were averaged over the three targets and noise repeats within each network before comparing allocations. The response-directed versus random fifth-site contrast was the single prespecified primary comparison. Remaining intervals are descriptive pointwise 95% paired-network bootstrap intervals. All selected fits converged and passed the generating-parameter feasible-cost check. Re-evaluating target responses with twice the integration resolution changed the primary effect by 0.003 percentage points.
+
+**Supplementary Table 3 | Independent fifth-recording follow-up.** Changes are ratios of aggregate mean errors, expressed as percentages. All five-site policies include the stimulation site and three readouts. Combination MSE uses the four orthonormal internal coordinates. The four-endpoint comparator uses one fewer recording.
+
+| Outcome | Comparison | Change (%) | 95% interval (%) |
+|---|---|---:|---|
+| Response MSE, primary | Response-directed / random fifth | +0.24 | -41.36 to +74.08 |
+| Response MSE, secondary | Response-directed fifth / four endpoints | -30.08 | -52.31 to -16.17 |
+| Response MSE, secondary | Random fifth / four endpoints | -30.25 | -56.29 to -5.98 |
+| Response MSE, secondary | Combination-directed / random fifth | +13.50 | -37.19 to +89.23 |
+| Response MSE, secondary | Response-directed / combination-directed fifth | -11.68 | -22.22 to +5.44 |
+| Combination MSE, secondary | Combination-directed / random fifth | -31.07 | -42.35 to -19.81 |
+
+At a shared reference fit to the four endpoints, combination-directed selection reduced local internal variance by 26.50% relative to a random fifth site (95% CI -33.42% to -20.42%). The corresponding local response-variance change was -5.00% (95% CI -13.08% to -1.27%). This smaller contraction in the response quantity accompanies the stronger recovery of internal combinations. Central finite responses along internal covariance modes departed from the local sensitivities by a median of 1.4% at standardized length 0.1 and 11.7% at length 0.3.
+
+The finite-error decomposition reconstructs response error from endpoint, internal-combination and remaining parameter contributions, including their cross terms. The repeated-noise records also support a decomposition into noise-averaged prediction bias and noise variance. Per-network contributions, uncertainty blocks and repeated-noise predictions are available in `round6/analysis` and `round6/runs`.

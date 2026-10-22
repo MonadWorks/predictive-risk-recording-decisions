@@ -122,17 +122,17 @@ def main():
         add(XR, top - 2.9, line1, 8.0)
         add(XR, top - 5.7, line2, 8.0)
         dots([top - 8.9, top - 10.95, top - 13.0], n_on, color)
-        add(X1, top - 16.5, caption, 7.2, MUTED)
-        add(X1, top - 19.2, ci, 7.2, INK, family='JuliaMono')
+        add(X1, top - 16.0, caption, 7.2, MUTED)
+        add(X1, top - 18.9, ci, 7.2, INK, family='JuliaMono')
 
     def ci_text(est, lo, hi):
         return f'{mono(est, 2)}% [{mono(lo, 2)}, {mono(hi, 2)}]'
 
     est, lo, hi, wins = e['valid']
-    block(93.87, 'Lower held-out error', ROSE_TEXT, ROSE, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'improved',
+    block(93.43, 'Lower held-out error', ROSE_TEXT, ROSE, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'improved',
           wins, 'Both endpoints vs neither, mean MSE', ci_text(est, lo, hi))
     est, lo, hi, wins = e['width']
-    block(68.24, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
+    block(68.08, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
           wins, 'Mean squared width, both vs neither', ci_text(est, lo, hi))
     LEG_Y = 42.9                                  # same row as the CI notes of frames 2 and 3
     base.add_patch(Circle((60.08, LEG_Y - .06), .85, facecolor=SAME, edgecolor='none', zorder=1))
@@ -195,7 +195,7 @@ def main():
     yb = .1225                               # interval 5.6 below the value line; its guide runs down to the frame-2 baseline
     ax.plot([lo, hi], [yb, yb], color=FORECAST, lw=1.6, solid_capstyle='butt')
     for end in (lo, hi):
-        ax.plot([end, end], [yb - .08, yb + .08], color=FORECAST, lw=1.0)
+        ax.plot([end, end], [yb - .12, yb + .12], color=FORECAST, lw=1.0)
     ax.plot([est], [yb], marker='D', ms=4.4, color=FORECAST)
     ax.plot([0, 0], [-.095, .340], color='#7D7280', lw=.75, ls=(0, (2, 2)), zorder=0)   # y = 61.4 .. 67.2 on the page
     ax.xaxis.set_major_locator(FixedLocator([-40, -20, 0]))
@@ -225,7 +225,17 @@ def main():
         x = 59.0
         for s_, weight in parts:
             t = add(x, y_line, s_, 8.2, INK, weight)
-            x += t.get_window_extent(r).width / base.bbox.width * 190
+            # advance by the unhinted width of the run, trailing space included (measured at high dpi, so the
+            # hinted 100-dpi advances do not accumulate into a visible error along the line)
+            old_dpi = fig.dpi
+            fig.set_dpi(2000)
+            hr = fig.canvas.get_renderer()
+            probe = add(x, y_line, s_ + '|', 8.2, INK, weight)
+            bar = add(x, y_line, '|', 8.2, INK, weight)
+            adv = (probe.get_window_extent(hr).width - bar.get_window_extent(hr).width) / base.bbox.width * 190
+            probe.remove(); bar.remove()
+            fig.set_dpi(old_dpi)
+            x += adv
 
     # ---- checks: every visible text inside its frame, no overlaps, no empty glyphs.
     fig.canvas.draw()

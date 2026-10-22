@@ -1,8 +1,8 @@
 # Predictive Risk and Recording Decisions in Partially Observed Neural Networks
 
-Jiayi Du¹*† and Shuaizhi Cheng²†
+Jiayi Du¹*†, Shuaizhi Cheng²† and Huawei Zhang³
 
-¹ Stiftung Louisenlund, Germany. ² Department of Computing, Harbin Institute of Technology, China.
+¹ Stiftung Louisenlund, Germany. ² Department of Computing, Harbin Institute of Technology, China. ³ Department of Computer Science, University of Warwick, United Kingdom.
 
 † These authors contributed equally. * Correspondence: jiayi.du@mail.louisenlund.de.
 
@@ -368,7 +368,7 @@ The original frozen analysis tables and figure source data remain in the collabo
 
 ## Author contributions
 
-J.D. and S.C. contributed equally to this work, including conceptualisation, methodology, investigation, visualisation and writing.
+J.D. and S.C. contributed equally to this work, including conceptualisation, methodology, investigation, visualisation and writing. H.Z. contributed to validation.
 
 ## Competing interests and funding
 

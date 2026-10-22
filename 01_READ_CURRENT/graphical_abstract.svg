@@ -1880,34 +1880,40 @@ z
     <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="269.54034" y="416.303879" transform="rotate(-0 269.54034 416.303879)">common MAP estimator</text>
    </g>
    <g id="text_57">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="367.19034" y="416.347442" transform="rotate(-0 367.19034 416.347442)"> in 12-unit networks, so identical recordings and data yield identical predictions.</text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="367.19034" y="416.291708" transform="rotate(-0 367.19034 416.291708)">, so identical recordings give identical predictions in </text>
    </g>
    <g id="text_58">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="428.722154" transform="rotate(-0 228.86034 428.722154)">The two criteria chose identical recordings in </text>
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="563.57034" y="416.303879" transform="rotate(-0 563.57034 416.303879)">68% and 65%</text>
    </g>
    <g id="text_59">
-    <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="399.86034" y="428.734326" transform="rotate(-0 399.86034 428.734326)">68% and 65%</text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="622.07034" y="416.299395" transform="rotate(-0 622.07034 416.299395)"> of designs.</text>
    </g>
    <g id="text_60">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="458.36034" y="428.773404" transform="rotate(-0 458.36034 428.773404)"> of designs, with no clear change in error (–3.7%, +2.7%).</text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="428.333702" transform="rotate(-0 228.86034 428.333702)">Recording the stimulation site and readouts lowered held-out response error by </text>
    </g>
    <g id="text_61">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="446.202469" transform="rotate(-0 228.86034 446.202469)">Recording the stimulation site and readouts lowered held-out response error by </text>
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="530.81034" y="428.345874" transform="rotate(-0 530.81034 428.345874)">98%</text>
    </g>
    <g id="text_62">
-    <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="530.81034" y="446.214641" transform="rotate(-0 530.81034 446.214641)">98%</text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="550.52034" y="428.345874" transform="rotate(-0 550.52034 428.345874)"> in independent networks.</text>
    </g>
    <g id="text_63">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="550.52034" y="446.214641" transform="rotate(-0 550.52034 446.214641)"> in independent networks.</text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="440.387228" transform="rotate(-0 228.86034 440.387228)">A fifth site chosen for recurrent gain sums improved their estimates by </text>
    </g>
    <g id="text_64">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="458.644446" transform="rotate(-0 228.86034 458.644446)">A fifth site chosen for recurrent gain sums improved their estimates by </text>
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="498.32034" y="440.387869" transform="rotate(-0 498.32034 440.387869)">31%</text>
    </g>
    <g id="text_65">
-    <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="498.32034" y="458.645087" transform="rotate(-0 498.32034 458.645087)">31%</text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="516.23034" y="440.375697" transform="rotate(-0 516.23034 440.375697)">, with no clear change in response error.</text>
    </g>
    <g id="text_66">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="516.23034" y="458.632915" transform="rotate(-0 516.23034 458.632915)">, with no clear change in response error.</text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="458.632915" transform="rotate(-0 228.86034 458.632915)">These simulations suggest that </text>
+   </g>
+   <g id="text_67">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="349.01034" y="458.645087" transform="rotate(-0 349.01034 458.645087)">endpoint coverage</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="424.16034" y="458.640602" transform="rotate(-0 424.16034 458.640602)"> is an informative baseline for evaluating recording criteria.</text>
    </g>
   </g>
   <g id="axes_2">
@@ -1947,7 +1953,7 @@ L 0 2.5
        <use xlink:href="#m5d5fe65812" x="399.053195" y="306.87664" style="fill: #15202b; stroke: #15202b; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_67">
+     <g id="text_69">
       <text style="font-size: 8px; font-family: 'JuliaMono'; text-anchor: middle; fill: #2e2531" x="399.053195" y="317.69664" transform="rotate(-0 399.053195 317.69664)">−100</text>
      </g>
     </g>
@@ -1957,7 +1963,7 @@ L 0 2.5
        <use xlink:href="#m5d5fe65812" x="449.983429" y="306.87664" style="fill: #15202b; stroke: #15202b; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_68">
+     <g id="text_70">
       <text style="font-size: 8px; font-family: 'JuliaMono'; text-anchor: middle; fill: #2e2531" x="449.983429" y="317.69664" transform="rotate(-0 449.983429 317.69664)">0</text>
      </g>
     </g>
@@ -1967,11 +1973,11 @@ L 0 2.5
        <use xlink:href="#m5d5fe65812" x="500.913664" y="306.87664" style="fill: #15202b; stroke: #15202b; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_69">
+     <g id="text_71">
       <text style="font-size: 8px; font-family: 'JuliaMono'; text-anchor: middle; fill: #2e2531" x="500.913664" y="317.69664" transform="rotate(-0 500.913664 317.69664)">+100</text>
      </g>
     </g>
-    <g id="text_70">
+    <g id="text_72">
      <text style="font-size: 8.1px; font-family: 'BentonSans'; text-anchor: middle; fill: #2e2531" x="459.660174" y="341.736282" transform="rotate(-0 459.660174 341.736282)">Mean-square change vs ordinary (%)</text>
     </g>
    </g>
@@ -2098,7 +2104,7 @@ L 665.397109 256.118985
        <use xlink:href="#m5d5fe65812" x="585.7331" y="306.87664" style="fill: #15202b; stroke: #15202b; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_71">
+     <g id="text_73">
       <text style="font-size: 8px; font-family: 'JuliaMono'; text-anchor: middle; fill: #2e2531" x="585.7331" y="317.69664" transform="rotate(-0 585.7331 317.69664)">−40</text>
      </g>
     </g>
@@ -2108,7 +2114,7 @@ L 665.397109 256.118985
        <use xlink:href="#m5d5fe65812" x="625.565104" y="306.87664" style="fill: #15202b; stroke: #15202b; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_72">
+     <g id="text_74">
       <text style="font-size: 8px; font-family: 'JuliaMono'; text-anchor: middle; fill: #2e2531" x="625.565104" y="317.69664" transform="rotate(-0 625.565104 317.69664)">−20</text>
      </g>
     </g>
@@ -2118,11 +2124,11 @@ L 665.397109 256.118985
        <use xlink:href="#m5d5fe65812" x="665.397109" y="306.87664" style="fill: #15202b; stroke: #15202b; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_73">
+     <g id="text_75">
       <text style="font-size: 8px; font-family: 'JuliaMono'; text-anchor: middle; fill: #2e2531" x="665.397109" y="317.69664" transform="rotate(-0 665.397109 317.69664)">0</text>
      </g>
     </g>
-    <g id="text_74">
+    <g id="text_76">
      <text style="font-size: 8.1px; font-family: 'BentonSans'; text-anchor: middle; fill: #2e2531" x="622.577704" y="341.736282" transform="rotate(-0 622.577704 341.736282)">Change vs random fifth site (%)</text>
     </g>
    </g>

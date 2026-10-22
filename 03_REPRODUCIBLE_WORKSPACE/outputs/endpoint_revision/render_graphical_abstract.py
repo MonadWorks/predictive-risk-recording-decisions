@@ -210,13 +210,14 @@ def main():
     r = fig.canvas.get_renderer()
     sentences = [
         (28.4, [('We used a ', 'normal'), ('common MAP estimator', 'bold'),
-                (' in 12-unit networks, so identical recordings and data yield identical predictions.', 'normal')]),
-        (25.2, [('The two criteria chose identical recordings in ', 'normal'), ('68% and 65%', 'bold'),
-                (' of designs, with no clear change in error (\u22123.7%, +2.7%).', 'normal')]),
-        (20.7, [('Recording the stimulation site and readouts lowered held-out response error by ', 'normal'),
+                (', so identical recordings give identical predictions in ', 'normal'), ('68% and 65%', 'bold'),
+                (' of designs.', 'normal')]),
+        (25.3, [('Recording the stimulation site and readouts lowered held-out response error by ', 'normal'),
                 (f"{abs(e['valid'][0]):.0f}%", 'bold'), (' in independent networks.', 'normal')]),
-        (17.5, [('A fifth site chosen for recurrent gain sums improved their estimates by ', 'normal'),
+        (22.2, [('A fifth site chosen for recurrent gain sums improved their estimates by ', 'normal'),
                 (f"{abs(e['comb'][0]):.0f}%", 'bold'), (', with no clear change in response error.', 'normal')]),
+        (17.5, [('These simulations suggest that ', 'normal'), ('endpoint coverage', 'bold'),
+                (' is an informative baseline for evaluating recording criteria.', 'normal')]),
     ]
     for y_line, parts in sentences:
         x = 59.0
@@ -271,7 +272,7 @@ The layout keeps the original graphical abstract: network illustration, three nu
 - **1 Endpoint recording.** In forty independent validation networks, recording both endpoints changed held-out response MSE by {v[0]:.2f}% (95% CI {v[1]:.2f}% to {v[2]:.2f}%) relative to five ordinary sites; {v[3]} of 40 networks improved. In a further forty networks, the mean squared width of the feasible response range changed by {w[0]:.2f}% (95% CI {w[1]:.2f}% to {w[2]:.2f}%) and narrowed in {w[3]} of 40. Dots are networks; grey dots did not improve.
 - **2 Error factors.** The exact factorization separates input, recurrent propagation and readout. Endpoint relative to ordinary recording changed the mean squared input contribution by {f['input'][0]:.2f}%, the readout contribution by {f['readout'][0]:.2f}% and the recurrent contribution by {f['recurrence'][0]:+.2f}% (95% CI {f['recurrence'][1]:.2f}% to {f['recurrence'][2]:+.2f}%).
 - **3 Fifth recording.** With the four endpoints kept, a fifth site chosen for the recurrent gain sums changed combination-estimation MSE by {c[0]:.2f}% (95% CI {c[1]:.2f}% to {c[2]:.2f}%) relative to a random fifth site in eighty new networks; {c[3]} of 80 improved.
-- **Summary.** The key finding leads. Four lines follow in two pairs: the 12-unit risk comparison (identical recordings in 68% and 65% of designs, error changes of -3.7% and +2.7% with intervals including zero), then the endpoint result and the fifth-recording result, whose response-error change was not clear. Marker shapes distinguish the three factors because the input and readout intervals nearly coincide.
+- **Summary.** The key finding leads. Four lines follow: the common-estimator control of the 12-unit risk comparison (identical recordings, hence identical predictions, in 68% and 65% of designs; error changes of -3.7% and +2.7% had intervals including zero), the endpoint result, the fifth-recording result (response-error change not clear) and a closing statement that endpoint coverage is an informative baseline for evaluating recording criteria. Marker shapes distinguish the three factors because the input and readout intervals nearly coincide.
 
 {KEY}
 """

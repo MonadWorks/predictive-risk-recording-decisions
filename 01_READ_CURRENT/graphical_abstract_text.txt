@@ -57,16 +57,18 @@ Combination estimation MSE
 −31.1%  [−42.4, −19.8]
 We used a 
 common MAP estimator
- in 12-unit networks, so identical recordings and data yield identical predictions.
-The two criteria chose identical recordings in 
+, so identical recordings give identical predictions in 
 68% and 65%
- of designs, with no clear change in error (–3.7%, +2.7%).
+ of designs.
 Recording the stimulation site and readouts lowered held-out response error by 
 98%
  in independent networks.
 A fifth site chosen for recurrent gain sums improved their estimates by 
 31%
 , with no clear change in response error.
+These simulations suggest that 
+endpoint coverage
+ is an informative baseline for evaluating recording criteria.
 Mean-square change vs ordinary (%)
 −100
 0

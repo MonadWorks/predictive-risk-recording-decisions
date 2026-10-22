@@ -467,10 +467,10 @@ def limited_budget():
     for k, (key, d) in enumerate(strata):
         budget, setting = key.split('_', 1)
         top_label(cv, ax, 6, k - .18, f'{budget} sites, {names[setting]}', 6.0, ms=3.0)
-        for ref, off, color, filled in [('ensemble_greedy', -.18, INK, False), ('endpoint_joint', .18, MULBERRY, False)]:
+        for ref, off, color, filled in [('ensemble_greedy', -.18, INK, False), ('endpoint_joint', .18, GREY, False)]:
             fs.interval(ax, k + off, *pct(d['comparisons']['endpoint_pair_vs_' + ref])[:3], color, filled, size=3.0, lw=1.0)
     cv.marker(100, 31.4, INK, filled=False, size=3.0); cv.note(102, 30.7, 'Versus ensemble greedy')
-    cv.marker(100, 26.6, MULBERRY, filled=False, size=3.0); cv.note(102, 25.9, 'Versus endpoint-only enumeration')
+    cv.marker(100, 26.6, GREY, filled=False, size=3.0); cv.note(102, 25.9, 'Versus endpoint-only enumeration')
     cv.note(100, 20.4, f"Same sites as ensemble greedy in {a['agreement_out_of_240']['ensemble_greedy']}/240 settings")
     return fs.save(cv, OUT / 'limited_budget')
 

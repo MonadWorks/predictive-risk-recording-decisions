@@ -118,21 +118,21 @@ def main():
 
     def block(top, label, color_text, color, big, line1, line2, n_on, caption, ci):
         add(X1, top, label, 8.3, color_text, 'bold')
-        add(X1, top - 3.94, big, 16.0, color, 'bold')   # top of the numeral level with the top of the digits beside it
-        add(XR, top - 2.9, line1, 8.0)
-        add(XR, top - 5.7, line2, 8.0)
-        dots([top - 8.9, top - 10.95, top - 13.0], n_on, color)
-        add(X1, top - 16.5, caption, 7.2, MUTED)
-        add(X1, top - 18.8, ci, 7.2, INK, family='JuliaMono')
+        add(X1, top - 4.89, big, 16.0, color, 'bold')   # top of the numeral level with the top of the digits beside it
+        add(XR, top - 3.85, line1, 8.0)
+        add(XR, top - 6.65, line2, 8.0)
+        dots([top - 9.85, top - 11.9, top - 13.95], n_on, color)
+        add(X1, top - 17.45, caption, 7.2, MUTED)
+        add(X1, top - 19.75, ci, 7.2, INK, family='JuliaMono')
 
     def ci_text(est, lo, hi):
         return f'{mono(est, 2)}% [{mono(lo, 2)}, {mono(hi, 2)}]'
 
     est, lo, hi, wins = e['valid']
-    block(93.38, 'Lower held-out error', ROSE_TEXT, ROSE, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'improved',
+    block(94.38, 'Lower held-out error', ROSE_TEXT, ROSE, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'improved',
           wins, 'Both endpoints vs neither, mean MSE', ci_text(est, lo, hi))
     est, lo, hi, wins = e['width']
-    block(68.06, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
+    block(68.56, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
           wins, 'Mean squared width, both vs neither', ci_text(est, lo, hi))
     LEG_Y = 42.9                                  # same row as the CI notes of frames 2 and 3
     base.add_patch(Circle((60.08, LEG_Y - .06), .85, facecolor=SAME, edgecolor='none', zorder=1))
@@ -169,14 +169,15 @@ def main():
     retext('Risk forecasts', 'Fifth recording')
     retext('Fixed data and point prediction', 'Endpoints kept, one site added')
     retext('40 new independent networks', '80 new independent networks')
-    retext('19', f'{wins}', color=FORECAST)
+    t = retext('19', f'{wins}', color=FORECAST)
+    t.set_y(t.get_position()[1] - 0.7)               # more headroom under the subtitles
     for old, new in [('of 40 favour prior averaging;', 'of 80 networks improved'), ('21 favour nominal', 'combination estimates')]:
         t = retext(old, new)
         t.set_x(t.get_position()[0] + 0.8)               # same numeral-to-caption gap as frame 1 (1.6)
-        t.set_y(t.get_position()[1] + 0.18)              # first line's top level with the top of the numeral
+        t.set_y(t.get_position()[1] + 0.18 - 0.7)        # first line's top level with the top of the numeral
     texts['$S(v,e)=\\log v+e^2/v$'].remove()
     # Recorded sites in the node styles of the illustration: stimulation site, three readouts, one added site.
-    node_y = 87.76
+    node_y = 87.06
     for x, face, edge, lw in [(144.6, '#FFF6DD', GOLD, 1.1), (148.4, '#FFFFFF', PLUM, 1.1),
                               (152.2, '#FFFFFF', PLUM, 1.1), (156.0, '#FFFFFF', PLUM, 1.1)]:
         base.add_patch(Circle((x, node_y), 1.45, facecolor=face, edgecolor=edge, lw=lw, zorder=3))
@@ -185,7 +186,7 @@ def main():
     texts['v: MSE forecast; e: response error'].remove()
     retext('One network accounts for 64%\nof the summed score difference',
            'Fifth site chosen for recurrent\ngain sums, compared with a\nrandom fifth site',
-           y=83.86, linespacing=1.25)
+           y=83.16, linespacing=1.25)
     retext('95% paired network-cluster CI', '95% paired network-bootstrap CI')
     ax = fig.axes[2]
     for a in list(ax.lines) + list(ax.texts):
@@ -204,7 +205,7 @@ def main():
     ax.set_xlabel('Change vs random fifth site (%)')
 
     # frame headers (numbers and titles) stay exactly as in v5.
-    add(59.3, 99.9, 'Five recordings per allocation', 8.1, MUTED)
+    add(59.3, 100.45, 'Five recordings per allocation', 8.1, MUTED)
 
     # ---- summary frame: the key finding (v5 wording and spacing), then four lines in two pairs.
     retext('Better risk estimates do not necessarily make better recording decisions.', KEY, y=32.9)

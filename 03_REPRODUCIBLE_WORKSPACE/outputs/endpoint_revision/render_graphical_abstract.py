@@ -146,7 +146,7 @@ def main():
     for a in list(ax.lines) + list(ax.texts):
         a.remove()
     ax.set_xlim(-112, 150); ax.set_ylim(0, 36)
-    rows = [('Input factor', 'input', GOLD, 'o'), ('Readout factor', 'readout', ROSE, 'o'),
+    rows = [('Input factor', 'input', GOLD, 'o'), ('Readout factor', 'readout', ROSE, '^'),
             ('Recurrent factor', 'recurrence', PLUM, 's')]
     for k, (label, key, color, marker) in enumerate(rows):
         est, lo, hi, _ = e['factors'][key]
@@ -157,7 +157,7 @@ def main():
         ax.plot([lo, hi], [y, y], color=color, lw=1.6, solid_capstyle='butt')
         for end in (lo, hi):
             ax.plot([end, end], [y - .9, y + .9], color=color, lw=1.0)
-        ax.plot([est], [y], marker=marker, ms=4.6, color=color, mec=color)
+        ax.plot([est], [y], marker=marker, ms=5.0 if marker == '^' else 4.6, color=color, mec=color)
         ax.plot([0, 0], [y - 1.6, y + 1.6], color='#7D7280', lw=.75, ls=(0, (2, 2)), zorder=0)
     ax.xaxis.set_major_locator(FixedLocator([-100, 0, 100]))
     ax.xaxis.set_major_formatter(FuncFormatter(lambda x, p: mono(x, 0).replace('+0', '0')))
@@ -200,8 +200,8 @@ def main():
     ax.xaxis.set_major_formatter(FuncFormatter(lambda x, p: mono(x, 0).replace('+0', '0')))
     ax.set_xlabel('Change vs random fifth site (%)')
 
-    # ---- summary frame: the key finding, then three evidence sentences in the impersonal voice.
-    retext('Better risk estimates do not necessarily make better recording decisions.', KEY, y=30.8)
+    # ---- summary frame: the key finding (v5 wording and spacing), then four lines in two pairs.
+    retext('Better risk estimates do not necessarily make better recording decisions.', KEY, y=32.9)
     for old in ['We use a', 'common MAP estimator', '. Identical recording sets and data yield identical predictions.']:
         texts[old].remove()
     for t in [t for t in base.texts if t.get_text().startswith(('Primary error', 'Exploratory 100-unit', 'All four favour'))]:
@@ -209,11 +209,12 @@ def main():
     fig.canvas.draw()
     r = fig.canvas.get_renderer()
     sentences = [
-        (25.6, [('Prior averaging chose identical recordings in ', 'normal'), ('68% and 65%', 'bold'),
+        (28.4, [('We compared nominal and ', 'normal'), ('prior-averaged risk', 'bold'), (' in 12-unit networks.', 'normal')]),
+        (25.2, [('They chose identical recordings in ', 'normal'), ('68% and 65%', 'bold'),
                 (' of designs, with no clear change in error (\u22123.7%, +2.7%).', 'normal')]),
-        (21.9, [('Recording the stimulation site and readouts lowered held-out response error by ', 'normal'),
+        (20.7, [('Recording the stimulation site and readouts lowered held-out response error by ', 'normal'),
                 (f"{abs(e['valid'][0]):.0f}%", 'bold'), (' in independent networks.', 'normal')]),
-        (18.2, [('A fifth site chosen for recurrent gain sums improved their estimates by ', 'normal'),
+        (17.5, [('A fifth site chosen for recurrent gain sums improved their estimates by ', 'normal'),
                 (f"{abs(e['comb'][0]):.0f}%", 'bold'), (', with no clear change in response error.', 'normal')]),
     ]
     for y_line, parts in sentences:
@@ -269,7 +270,7 @@ The layout keeps the original graphical abstract: network illustration, three nu
 - **1 Endpoint recording.** In forty independent validation networks, recording both endpoints changed held-out response MSE by {v[0]:.2f}% (95% CI {v[1]:.2f}% to {v[2]:.2f}%) relative to five ordinary sites; {v[3]} of 40 networks improved. In a further forty networks, the mean squared width of the feasible response range changed by {w[0]:.2f}% (95% CI {w[1]:.2f}% to {w[2]:.2f}%) and narrowed in {w[3]} of 40. Dots are networks; grey dots did not improve.
 - **2 Error factors.** The exact factorization separates input, recurrent propagation and readout. Endpoint relative to ordinary recording changed the mean squared input contribution by {f['input'][0]:.2f}%, the readout contribution by {f['readout'][0]:.2f}% and the recurrent contribution by {f['recurrence'][0]:+.2f}% (95% CI {f['recurrence'][1]:.2f}% to {f['recurrence'][2]:+.2f}%).
 - **3 Fifth recording.** With the four endpoints kept, a fifth site chosen for the recurrent gain sums changed combination-estimation MSE by {c[0]:.2f}% (95% CI {c[1]:.2f}% to {c[2]:.2f}%) relative to a random fifth site in eighty new networks; {c[3]} of 80 improved.
-- **Summary.** The key finding leads. The three sentences below it report, in order, the 12-unit risk comparison (identical recordings in 68% and 65% of designs, error changes of -3.7% and +2.7% with intervals including zero), the endpoint result and the fifth-recording result, whose response-error change was not clear.
+- **Summary.** The key finding leads. Four lines follow in two pairs: the 12-unit risk comparison (identical recordings in 68% and 65% of designs, error changes of -3.7% and +2.7% with intervals including zero), then the endpoint result and the fifth-recording result, whose response-error change was not clear. Marker shapes distinguish the three factors because the input and readout intervals nearly coincide.
 
 {KEY}
 """

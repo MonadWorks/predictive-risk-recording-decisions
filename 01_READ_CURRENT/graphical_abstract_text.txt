@@ -55,7 +55,10 @@ Recurrent factor
 +
 Combination estimation MSE
 −31.1%  [−42.4, −19.8]
-Prior averaging chose identical recordings in 
+We compared nominal and 
+prior-averaged risk
+ in 12-unit networks.
+They chose identical recordings in 
 68% and 65%
  of designs, with no clear change in error (–3.7%, +2.7%).
 Recording the stimulation site and readouts lowered held-out response error by 

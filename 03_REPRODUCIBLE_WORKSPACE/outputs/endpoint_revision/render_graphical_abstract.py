@@ -118,21 +118,21 @@ def main():
 
     def block(top, label, color_text, color, big, line1, line2, n_on, caption, ci):
         add(X1, top, label, 8.3, color_text, 'bold')
-        add(X1, top - 4.5, big, 16.0, color, 'bold')
+        add(X1, top - 3.94, big, 16.0, color, 'bold')   # top of the numeral level with the top of the digits beside it
         add(XR, top - 2.9, line1, 8.0)
         add(XR, top - 5.7, line2, 8.0)
         dots([top - 8.9, top - 10.95, top - 13.0], n_on, color)
-        add(X1, top - 15.4, caption, 7.2, MUTED)
-        add(X1, top - 18.9, ci, 7.2, INK, family='JuliaMono')
+        add(X1, top - 16.5, caption, 7.2, MUTED)
+        add(X1, top - 18.8, ci, 7.2, INK, family='JuliaMono')
 
     def ci_text(est, lo, hi):
         return f'{mono(est, 2)}% [{mono(lo, 2)}, {mono(hi, 2)}]'
 
     est, lo, hi, wins = e['valid']
-    block(93.43, 'Lower held-out error', ROSE_TEXT, ROSE, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'improved',
+    block(93.38, 'Lower held-out error', ROSE_TEXT, ROSE, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'improved',
           wins, 'Both endpoints vs neither, mean MSE', ci_text(est, lo, hi))
     est, lo, hi, wins = e['width']
-    block(68.08, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
+    block(68.06, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
           wins, 'Mean squared width, both vs neither', ci_text(est, lo, hi))
     LEG_Y = 42.9                                  # same row as the CI notes of frames 2 and 3
     base.add_patch(Circle((60.08, LEG_Y - .06), .85, facecolor=SAME, edgecolor='none', zorder=1))
@@ -172,7 +172,8 @@ def main():
     retext('19', f'{wins}', color=FORECAST)
     for old, new in [('of 40 favour prior averaging;', 'of 80 networks improved'), ('21 favour nominal', 'combination estimates')]:
         t = retext(old, new)
-        t.set_x(t.get_position()[0] + 1.3)               # air between the large numeral and its caption
+        t.set_x(t.get_position()[0] + 0.8)               # same numeral-to-caption gap as frame 1 (1.6)
+        t.set_y(t.get_position()[1] + 0.18)              # first line's top level with the top of the numeral
     texts['$S(v,e)=\\log v+e^2/v$'].remove()
     # Recorded sites in the node styles of the illustration: stimulation site, three readouts, one added site.
     node_y = 87.76

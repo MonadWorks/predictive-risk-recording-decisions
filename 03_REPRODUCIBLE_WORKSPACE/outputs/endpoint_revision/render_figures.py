@@ -8,7 +8,7 @@ from pathlib import Path
 import argparse, csv, json
 import numpy as np
 import figure_style as fs
-from figure_style import (Canvas, INK, MUTED, LABEL, ROSE, ROSE_DARK, READOUT, GOLD, GREY, LIGHT_GREY,
+from figure_style import (Canvas, INK, MUTED, LABEL, ROSE, ROSE_DARK, MULBERRY, READOUT, GOLD, GREY, LIGHT_GREY,
                           PLUM, BLEND, NOISE, PAPER, TICK_PT, LABEL_PT, CATEGORY, NUMBER, NOTE)
 
 HERE = Path(__file__).resolve().parent
@@ -93,9 +93,9 @@ def endpoint_evidence():
     ax.set_ylim(y_other + .6, -.55)
     forest_rows(cv, ax, rows, 122, 177)
     for y, (label, _) in enumerate(groups):
-        cv.text(6.5, cv.y_of(ax, y), label, CATEGORY, va='center')
-    cv.text(6.5, cv.y_of(ax, y_other) + 1.4, 'Activity under other inputs', CATEGORY, va='center')
-    cv.note(6.5, cv.y_of(ax, y_other) - 1.6, 'Exploratory; both versus neither', va='center')
+        top_label(cv, ax, 6.5, y - .21, label, CATEGORY, ms=3.6)
+    base = top_label(cv, ax, 6.5, y_other - .21, 'Activity under other inputs', CATEGORY, ms=3.6)
+    cv.note(6.5, base - 3.0 + cap_mm(CATEGORY) / 2, 'Exploratory; both versus neither', va='center')
     cv.note(122, 45.6, 'Change, % [95% CI]')
     cv.note(177, 45.6, 'Improved', ha='right')
     cv.marker(57.5, 46.3, ROSE, filled=False, size=3.4); cv.note(59.6, 45.6, 'First cohort')
@@ -105,6 +105,30 @@ def endpoint_evidence():
              *pct(valid['comparisons']['both_vs_stim_only'])[:3], *pct(valid['comparisons']['both_vs_readouts_only'])[:3],
              *pct(mech['validation_cohort']['comparisons']['passive_mse'])[:3])
     return fs.save(cv, OUT / 'endpoint_evidence')
+
+
+_CAP = {}
+
+
+def cap_mm(size):
+    """Cap height of the label font in millimetres, so that label ink can be aligned to a marker's top."""
+    if size not in _CAP:
+        from matplotlib.textpath import TextPath
+        from matplotlib.font_manager import FontProperties
+        h = TextPath((0, 0), 'H', size=size, prop=FontProperties(family='BentonSans')).get_extents().height
+        _CAP[size] = h * 25.4 / 72
+    return _CAP[size]
+
+
+def top_label(cv, ax, x, y_first, text, size, ms=3.4, **kw):
+    """Group label whose cap line sits on the top of the first row's marker (rows of one group are labelled once).
+
+    y_first is the data y of the group's first (upper) row, ms its marker size in points. Returns the label baseline.
+    """
+    top = cv.y_of(ax, y_first) + ms / 2 * 25.4 / 72 + .16
+    base = top - cap_mm(size)
+    cv.text(x, base, text, size, **kw)
+    return base
 
 
 def forest_header(cv, x_num, x_wins, y, wins_label='Improved'):
@@ -258,7 +282,7 @@ def recording_information():
             cv.marker(11 + 3.2 * j, y, ROSE, size=3.4)
         if k:
             cv.text(21.6, y, '+', CATEGORY, ha='center', va='center', color=MUTED)
-            cv.marker(25, y, c, size=3.8, edge=PLUM if c == PLUM else (ROSE_DARK if c == ROSE else '#9C929B'))
+            cv.marker(25, y, c, size=3.8, edge=PLUM if c == PLUM else (ROSE_DARK if c == ROSE else fs.GREY_EDGE))
         cv.text(7, y - 4.2, name, 6.2, va='center')
     cv.note(4, 82.4, 'Gold: stimulation site; pink: readouts.', va='center')
     # b, c: per-network held-out error in both cohorts.
@@ -360,10 +384,10 @@ def fitting_sensitivity():
     ax = cv.ax(66, 12, 30, 47)
     fs.ratio_axis(ax, .2, 1.6, [.25, .5, 1], 'Change in mean MSE')
     w = f['within_method']
-    specs = [(0, 'Ensemble vs nominal, original start', f['original'], GOLD, True, None, 2),
-             (1, 'Ensemble vs nominal, best of five starts', f['best_of_five'], GOLD, False, None, 2),
+    specs = [(0, 'Ensemble vs nominal, original start', f['original'], MULBERRY, True, None, 2),
+             (1, 'Ensemble vs nominal, best of five starts', f['best_of_five'], MULBERRY, False, None, 2),
              (2.4, 'Nominal sets: best of five vs original', w['local_vector'], GREY, False, None, 2),
-             (3.4, 'Ensemble sets: best of five vs original', w['ensemble_vector'], GOLD, False, None, 2)]
+             (3.4, 'Ensemble sets: best of five vs original', w['ensemble_vector'], MULBERRY, False, None, 2)]
     ax.set_ylim(3.9, -.6)
     rows = labelled_forest(cv, ax, specs, 6, 98.5, None, size=5.6)
     cv.note(98.5, 64.6, 'Change, % [95% CI]')
@@ -374,13 +398,13 @@ def fitting_sensitivity():
     x = np.asarray(f['network_means_nominal']['local_vector'] + f['network_means_nominal']['ensemble_vector'])
     lim = (1e-7, 1e-1)
     ax.plot(lim, lim, color=MUTED, lw=.55, ls=(0, (2.2, 2.2)), zorder=0)
-    for key, color, filled in [('local_vector', GREY, False), ('ensemble_vector', GOLD, True)]:
+    for key, color, filled in [('local_vector', GREY, False), ('ensemble_vector', MULBERRY, True)]:
         ax.scatter(f['network_means_nominal'][key], f['network_means_best'][key], s=9,
                    facecolors=color if filled else PAPER, edgecolors=color if not filled else 'none', linewidths=.6, zorder=2)
     fs.log_axis(ax.xaxis, *lim, every=2); fs.log_axis(ax.yaxis, *lim, every=2); fs.clean(ax)
     ax.set_xlabel('MSE, original start'); ax.set_ylabel('MSE, best of five')
     cv.marker(143, 66.4, GREY, filled=False, size=3.2); cv.note(145, 65.7, 'Nominal')
-    cv.marker(158, 66.4, GOLD, size=3.2); cv.note(160, 65.7, 'Ensemble')
+    cv.marker(158, 66.4, MULBERRY, size=3.2); cv.note(160, 65.7, 'Ensemble')
     return fs.save(cv, OUT / 'fitting_sensitivity')
 
 
@@ -400,9 +424,9 @@ def method_validation():
     ax.set_ylim(len(keys) - .4, -.6)
     for k, (key, label, tag) in enumerate(keys):
         y = cv.y_of(ax, k)
-        cv.text(6, y, label, 6.3, va='center')
+        base = top_label(cv, ax, 6, k - .17, label, 6.3, ms=3.4)
         if tag:
-            cv.note(59, y, tag, ha='right', va='center')
+            cv.note(59, base, tag, ha='right')
         for c, off, filled, x_num in [(m[key], -.17, k == 0, 106), (a[key], .17, False, 142)]:
             fs.interval(ax, k + off, *pct(c)[:3], INK if off < 0 else MUTED, filled, marker='o' if off < 0 else 'D', size=3.4 if off < 0 else 3.0)
             cv.mono(x_num, cv.y_of(ax, k + off), fs.ci_text(*pct(c)[:3]), size=5.6, va='center', color=INK if off < 0 else MUTED)
@@ -442,11 +466,11 @@ def limited_budget():
     ax.set_ylim(len(strata) - .4, -.6)
     for k, (key, d) in enumerate(strata):
         budget, setting = key.split('_', 1)
-        cv.text(6, cv.y_of(ax, k), f'{budget} sites, {names[setting]}', 6.0, va='center')
-        for ref, off, color, filled in [('ensemble_greedy', -.18, INK, False), ('endpoint_joint', .18, GOLD, False)]:
+        top_label(cv, ax, 6, k - .18, f'{budget} sites, {names[setting]}', 6.0, ms=3.0)
+        for ref, off, color, filled in [('ensemble_greedy', -.18, INK, False), ('endpoint_joint', .18, MULBERRY, False)]:
             fs.interval(ax, k + off, *pct(d['comparisons']['endpoint_pair_vs_' + ref])[:3], color, filled, size=3.0, lw=1.0)
     cv.marker(100, 31.4, INK, filled=False, size=3.0); cv.note(102, 30.7, 'Versus ensemble greedy')
-    cv.marker(100, 26.6, GOLD, filled=False, size=3.0); cv.note(102, 25.9, 'Versus endpoint-only enumeration')
+    cv.marker(100, 26.6, MULBERRY, filled=False, size=3.0); cv.note(102, 25.9, 'Versus endpoint-only enumeration')
     cv.note(100, 20.4, f"Same sites as ensemble greedy in {a['agreement_out_of_240']['ensemble_greedy']}/240 settings")
     return fs.save(cv, OUT / 'limited_budget')
 
@@ -485,7 +509,7 @@ def combination_controls():
     ax.set_ylim(y - .45, -.6)
     rows = labelled_forest(cv, ax, specs, 95, 151.5, None, size=5.3)
     for k, (rec, rms) in enumerate([(r, m) for r in ['Ordinary', 'Endpoint'] for m in ['0.1', '0.3']]):
-        cv.text(95, cv.y_of(ax, k), f'{rec}, RMS {rms}', 6.0, va='center')
+        top_label(cv, ax, 95, k - .17, f'{rec}, RMS {rms}', 6.0, ms=3.0)
     cv.marker(96, 73.4, GREY, filled=False, size=3.0); cv.note(98, 72.7, 'Versus eight random constraints')
     cv.marker(136, 73.4, ROSE, filled=False, size=3.0); cv.note(138, 72.7, 'Versus endpoint gains alone')
     cv.note(151.5, 67.6, 'Change, % [95% CI]')
@@ -512,7 +536,7 @@ def confirmation():
             label = names[r['pool'], r['budget']]
             for est, lo, hi, off, color, filled in [
                     (r['pilot_percent'], r['pilot_ci_low'], r['pilot_ci_high'], -.18, GREY, False),
-                    (r['new_percent'], r['new_ci_low'], r['new_ci_high'], .18, GOLD, primary)]:
+                    (r['new_percent'], r['new_ci_low'], r['new_ci_high'], .18, MULBERRY, primary)]:
                 est, lo, hi = float(est), float(lo), float(hi)
                 fs.interval(ax, y + off, est, lo, hi, color, filled, size=3.2, lw=1.0)
             ys.append((y, label + (' (primary)' if primary else '')))
@@ -521,7 +545,10 @@ def confirmation():
     ax.set_ylim(y - .4, -1.0)
     for yy, label in ys:
         bold = label in ('Single response', 'Shared three responses')
-        cv.text(6 if not bold else 4, cv.y_of(ax, yy), label, 6.4 if bold else 6.1, weight='bold' if bold else 'normal', va='center')
+        if bold:
+            cv.text(4, cv.y_of(ax, yy), label, 6.4, weight='bold', va='center')
+        else:
+            top_label(cv, ax, 6, yy - .18, label, 6.1, ms=3.2)
     k = 0
     for objective in ['scalar', 'vector']:
         for r in [r for r in table if r['objective'] == objective]:
@@ -531,7 +558,7 @@ def confirmation():
             k += 1
         k += .55
     cv.marker(119, 90.9, GREY, filled=False, size=3.0); cv.note(121, 90.2, 'Pilot, 8 networks')
-    cv.marker(146, 90.9, GOLD, size=3.0); cv.note(148, 90.2, 'Confirmation, 40')
+    cv.marker(146, 90.9, MULBERRY, size=3.0); cv.note(148, 90.2, 'Confirmation, 40')
     cv.note(118, 86.3, 'Change, % [95% CI]')
     in_paper(7.947805232614891, -23.59438450780914, 20.947381363059083)
     return fs.save(cv, OUT / 'confirmation')

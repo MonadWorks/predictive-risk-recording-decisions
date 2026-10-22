@@ -38,17 +38,49 @@ TICK = '#6B626D'
 MUTED = '#7D7280'
 RULE = '#E6DCE2'
 PAIR = '#E8DFE4'
-ROSE = '#E27A9E'
-ROSE_DARK = '#B5708C'
-READOUT = '#F2B1C7'
-PALE_ROSE = '#F4BFD0'
-GOLD = '#EDAF26'
-GOLD_DARK = '#DB9A1D'
-GREY = '#B9AEB7'
-LIGHT_GREY = '#DAD4D8'
-PLUM = '#6E5677'
-BLEND = '#A8668F'
-NOISE = ['#E27A9E', '#EFA9C2', '#F7D5E2']
+# Palette of the pink figure suite (2026-10-18, see 04_CONTEXT_AND_HISTORY/pink_figure_suite/README.md):
+# deep rose for the main data, soft pink for readouts, mulberry for risk forecasts and prior-averaged
+# selection, a neutral grey for ordinary sites and references. Yellow marks the stimulation site only.
+PALETTES = {
+    # deep: the pink-suite values (2026-10-18)
+    'deep': dict(ROSE='#B73E70', MULBERRY='#87385F', MULBERRY_DARK='#6E2C4C', READOUT='#D99AB3', READOUT_EDGE='#B4577F',
+                 PALE_ROSE='#EBC3D2', GOLD='#D4A239', GOLD_DARK='#B8862A', GREY='#C9C5C8', GREY_EDGE='#8F878F',
+                 LIGHT_GREY='#DAD4D8', LIGHT_GREY_EDGE='#A9A1A9', PLUM='#463B50', BLEND='#843D62', NEGATIVE='#413A43'),
+    # light: the earlier pastel figure suite (light fills), with deeper strokes and dark roles, and prior-averaged
+    # selection in a mulberry instead of amber so that yellow only marks the stimulation site
+    'light': dict(ROSE='#E27A9E', ROSE_LINE='#C2507C', MULBERRY='#A8668F', MULBERRY_DARK='#8A4E75', READOUT='#F2B1C7',
+                  READOUT_EDGE='#D0698D', PALE_ROSE='#F4BFD0', GOLD='#EDAF26', GOLD_DARK='#DB9A1D', GREY='#B9AEB7',
+                  GREY_EDGE='#8A818A', LIGHT_GREY='#DAD4D8', LIGHT_GREY_EDGE='#A9A1A9', PLUM='#6E5677', BLEND='#B2658B',
+                  NEGATIVE='#4E4350'),
+    # mid: the graphical abstract's dusty rose, grey-purple and gold
+    'mid': dict(ROSE='#CA799A', MULBERRY='#9C537C', MULBERRY_DARK='#7B3E61', READOUT='#E3B6CA', READOUT_EDGE='#BE7C9C',
+                PALE_ROSE='#F0D2DE', GOLD='#D4A239', GOLD_DARK='#B8862A', GREY='#D0CBCF', GREY_EDGE='#8F878F',
+                LIGHT_GREY='#DDD8DC', LIGHT_GREY_EDGE='#A9A1A9', PLUM='#5A4A66', BLEND='#A9627F', NEGATIVE='#413A43'),
+}
+PALETTE_NAME = __import__('os').environ.get('DSH_PALETTE', 'light')
+_P = {'ROSE_LINE': None, **PALETTES[PALETTE_NAME]}
+ROSE, MULBERRY, MULBERRY_DARK, READOUT, READOUT_EDGE = (_P[k] for k in ('ROSE', 'MULBERRY', 'MULBERRY_DARK', 'READOUT', 'READOUT_EDGE'))
+PALE_ROSE, GOLD, GOLD_DARK, GREY, GREY_EDGE = (_P[k] for k in ('PALE_ROSE', 'GOLD', 'GOLD_DARK', 'GREY', 'GREY_EDGE'))
+LIGHT_GREY, LIGHT_GREY_EDGE, PLUM, BLEND, NEGATIVE = (_P[k] for k in ('LIGHT_GREY', 'LIGHT_GREY_EDGE', 'PLUM', 'BLEND', 'NEGATIVE'))
+ROSE_LINE = _P['ROSE_LINE'] or ROSE   # strokes, intervals and outlines of rose marks
+ROSE_DARK = MULBERRY        # outline of rose markers
+NOISE = [ROSE, READOUT, PALE_ROSE]
+
+
+# Colour-vision check of the default ('light') palette (Machado simulation, CIE76 dE, 2026-10-22), pairs that share a
+# panel: rose fill / plum 39 (protan 21, deutan 31); rose / mulberry 20 (13, 18); rose / gold 81 (85, 68);
+# rose / grey 40 (14, 9); soft pink / grey 22 (5, 9); mulberry / grey 35 (26, 20); plum / mulberry 20 (10, 14).
+# Fills stay light; strokes, intervals and outlines of rose, soft pink and grey use deeper tones (contrast on white:
+# rose line 4.4, soft-pink edge 3.5, grey edge 3.8; plum 6.4, mulberry 4.2). Yellow keeps its original fill and line.
+# Pairs that colour-vision deficiency pulls together (rose or soft pink against grey, rose against mulberry) are
+# separated by those edges and by filled / open markers, never by hue alone.
+
+
+def strong(color):
+    """Line / edge colour for a fill: light fills keep their colour but are stroked in a deeper tone."""
+    return {GREY: GREY_EDGE, LIGHT_GREY: LIGHT_GREY_EDGE, READOUT: READOUT_EDGE, PALE_ROSE: READOUT_EDGE,
+            ROSE: ROSE_LINE}.get(color, color)
+
 
 ROLE = {
     'endpoints': ROSE,          # stimulation and readout sites recorded together
@@ -57,7 +89,7 @@ ROLE = {
     'ordinary': GREY,           # nonendpoint sites, controls, no extra information
     'internal': PLUM,           # recurrent gain combinations
     'nominal': GREY,            # original criterion studies: nominal local risk
-    'ensemble': GOLD,           # original criterion studies: prior-averaged risk
+    'ensemble': MULBERRY,       # prior-averaged risk, risk forecasts
 }
 EN, MINUS = '–', '−'
 
@@ -154,7 +186,7 @@ class Canvas:
 
     def marker(self, x, y, color, filled=True, size=3.4, edge=None, shape='o'):
         self.base.plot([x], [y], marker=shape, ms=size, mfc=color if filled else PAPER,
-                       mec=edge or (color if not filled else color), mew=.8, ls='none')
+                       mec=edge or strong(color), mew=.8, ls='none')
 
     def y_of(self, ax, value):
         """Millimetre y of a data value in a linear-y axes."""
@@ -216,11 +248,11 @@ def ratio(change_pct):
 def interval(ax, y, est, lo, hi, color, filled=True, adjusted=None, size=3.6, lw=1.15, marker='o'):
     """One comparison: pale adjusted interval, solid pointwise interval and marker."""
     if adjusted is not None:
-        ax.plot(ratio(adjusted), [y, y], color=color, lw=.55, alpha=.55, zorder=1, solid_capstyle='butt')
+        ax.plot(ratio(adjusted), [y, y], color=strong(color), lw=.55, alpha=.55, zorder=1, solid_capstyle='butt')
         for end in ratio(adjusted):
-            ax.plot([end, end], [y - .12, y + .12], color=color, lw=.55, alpha=.55, zorder=1)
-    ax.plot(ratio([lo, hi]), [y, y], color=color, lw=lw, zorder=2, solid_capstyle='butt')
-    ax.plot([ratio(est)], [y], marker=marker, ms=size, mfc=color if filled else PAPER, mec=color,
+            ax.plot([end, end], [y - .12, y + .12], color=strong(color), lw=.55, alpha=.55, zorder=1)
+    ax.plot(ratio([lo, hi]), [y, y], color=strong(color), lw=lw, zorder=2, solid_capstyle='butt')
+    ax.plot([ratio(est)], [y], marker=marker, ms=size, mfc=color if filled else PAPER, mec=strong(color),
             mew=.9, ls='none', zorder=3)
 
 
@@ -242,7 +274,7 @@ def strip(ax, values, colors, paired=True, seed=11, width=.17, size=7.5, mean=Tr
         for i in range(n):
             ax.plot(xs[:, i], [v[i] for v in values], color=PAIR, lw=.35, zorder=1, solid_joinstyle='round')
     for k, v in enumerate(values):
-        ax.scatter(xs[k], v, s=size, color=colors[k], edgecolors=(edges[k] if edges else 'none'),
+        ax.scatter(xs[k], v, s=size, color=colors[k], edgecolors=(edges[k] if edges else (strong(colors[k]) if strong(colors[k]) != colors[k] else 'none')),
                    linewidths=.35, zorder=2, alpha=.92)
         if mean:
             lo, hi = boot_mean_ci(v)

@@ -29,6 +29,33 @@ TARGET = {
     'fig3_recording_decisions': HERE / 'figures',
     'fig4_risk_forecasts': HERE / 'figures',
 }
+
+# The collaborator's renderers keep their layout and data; only their colours are re-assigned to the
+# pink-suite palette in figure_style.py (deep rose, soft pink, mulberry, neutral grey; yellow = stimulus).
+COMMON = {'#E27A9E': fs.ROSE, '#F4BFD0': fs.READOUT, '#B5708C': fs.MULBERRY, '#C25E88': fs.ROSE,
+          '#4E4350': fs.NEGATIVE, '#B9AEB7': fs.GREY}
+STIMULUS = {'#EDAF26': fs.GOLD, '#DB9A1D': fs.GOLD_DARK}          # amber meant the stimulation site
+FORECAST = {'#EDAF26': fs.MULBERRY, '#DB9A1D': fs.MULBERRY_DARK}         # amber meant forecast / prior-averaged risk
+if fs.PALETTE_NAME == 'light':   # the earlier pastel suite; only strokes, negative weights and forecast amber change
+    COMMON, STIMULUS = {'#B5708C': '#A8527D', '#4E4350': fs.NEGATIVE}, {}
+SCRIPT_COLOURS = {'render_supplements.py': FORECAST, 'render_data_overview.py': STIMULUS,
+                  'render_decisions_forecast.py': FORECAST, 'render_schematic_extension.py': FORECAST}
+HEX = re.compile(r'#[0-9A-Fa-f]{6}\b')
+
+
+def run_recoloured(name, argv=None):
+    """Execute a renderer from the suite with its hex colours replaced by the pink-suite roles."""
+    path = SUITE / name
+    mapping = {**COMMON, **SCRIPT_COLOURS[name]}
+    source = HEX.sub(lambda m: mapping.get(m.group(0).upper(), m.group(0)), path.read_text(encoding='utf-8'))
+    sys.argv = argv or [str(path)]
+    sys.path.insert(0, str(SUITE))
+    try:
+        exec(compile(source, str(path), 'exec'), {'__name__': '__main__', '__file__': str(path)})
+    finally:
+        sys.path.remove(str(SUITE))
+
+
 MATH = re.compile(r'(?<!\\)\$(.*?)(?<!\\)\$')
 
 
@@ -106,11 +133,10 @@ def main():
     Text.draw, Figure.savefig, Path.write_text, subprocess.run = draw, save, write_text, run
     argv = sys.argv
     try:
-        runpy.run_path(str(SUITE / 'render_supplements.py'), run_name='__main__')
-        runpy.run_path(str(SUITE / 'render_data_overview.py'), run_name='__main__')
-        runpy.run_path(str(SUITE / 'render_decisions_forecast.py'), run_name='__main__')
-        sys.argv = [argv[0], '--fig1-only']
-        runpy.run_path(str(SUITE / 'render_schematic_extension.py'), run_name='__main__')
+        run_recoloured('render_supplements.py')
+        run_recoloured('render_data_overview.py')
+        run_recoloured('render_decisions_forecast.py')
+        run_recoloured('render_schematic_extension.py', [argv[0], '--fig1-only'])
     finally:
         Text.draw, Figure.savefig, Path.write_text, subprocess.run = original_draw, original_save, original_write, original_run
         sys.argv = argv

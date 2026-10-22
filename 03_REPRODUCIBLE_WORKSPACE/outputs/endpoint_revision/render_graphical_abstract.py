@@ -205,7 +205,8 @@ def main():
     ax.set_xlabel('Change vs random fifth site (%)')
 
     # frame headers (numbers and titles) stay exactly as in v5.
-    add(59.3, 100.45, 'Five recordings per allocation', 8.1, MUTED)
+    # same baseline (99.9) and style as the second subtitle lines of frames 2 and 3, which use va='baseline'
+    base.text(59.3, 99.9, 'Five recordings per allocation', fontsize=8.1, color=MUTED, fontfamily='BentonSans', va='baseline')
 
     # ---- summary frame: the key finding (v5 wording and spacing), then four lines in two pairs.
     retext('Better risk estimates do not necessarily make better recording decisions.', KEY, y=32.9)

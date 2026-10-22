@@ -118,24 +118,25 @@ def main():
 
     def block(top, label, color_text, color, big, line1, line2, n_on, caption, ci):
         add(X1, top, label, 8.3, color_text, 'bold')
-        add(X1, top - 4.8, big, 16.0, color, 'bold')
-        add(XR, top - 3.2, line1, 8.0)
-        add(XR, top - 6.0, line2, 8.0)
-        dots([top - 9.8, top - 11.85, top - 13.9], n_on, color)
-        add(X1, top - 17.8, caption, 7.2, MUTED)
-        add(X1, top - 20.7, ci, 7.2, INK, family='JuliaMono')
+        add(X1, top - 4.4, big, 16.0, color, 'bold')
+        add(XR, top - 2.8, line1, 8.0)
+        add(XR, top - 5.6, line2, 8.0)
+        dots([top - 8.7, top - 10.75, top - 12.8], n_on, color)
+        add(X1, top - 16.2, caption, 7.2, MUTED)
+        add(X1, top - 18.9, ci, 7.2, INK, family='JuliaMono')
 
     def ci_text(est, lo, hi):
         return f'{mono(est, 2)}% [{mono(lo, 2)}, {mono(hi, 2)}]'
 
     est, lo, hi, wins = e['valid']
-    block(97.0, 'Lower held-out error', ROSE_TEXT, ROSE, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'improved',
+    block(97.4, 'Lower held-out error', ROSE_TEXT, ROSE, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'improved',
           wins, 'Both endpoints vs neither, mean MSE', ci_text(est, lo, hi))
     est, lo, hi, wins = e['width']
-    block(70.4, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
+    block(69.4, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
           wins, 'Mean squared width, both vs neither', ci_text(est, lo, hi))
-    base.add_patch(Circle((60.08, 45.6), .85, facecolor=SAME, edgecolor='none', zorder=1))
-    add(62.1, 45.6, 'Network not improved', 7.2, MUTED)
+    LEG_Y = 42.9                                  # same row as the CI notes of frames 2 and 3
+    base.add_patch(Circle((60.08, LEG_Y - .06), .85, facecolor=SAME, edgecolor='none', zorder=1))
+    add(62.1, LEG_Y, 'Network not improved', 7.2, MUTED)
 
     # ---- frame 2: finite-response error factors.
     retext('Response error', 'Error factors')
@@ -173,7 +174,7 @@ def main():
     retext('21 favour nominal', 'combination estimates')
     texts['$S(v,e)=\\log v+e^2/v$'].remove()
     # Recorded sites in the node styles of the illustration: stimulation site, three readouts, one added site.
-    node_y = 87.0
+    node_y = 86.0
     for x, face, edge, lw in [(144.6, '#FFF6DD', GOLD, 1.1), (148.4, '#FFFFFF', PLUM, 1.1),
                               (152.2, '#FFFFFF', PLUM, 1.1), (156.0, '#FFFFFF', PLUM, 1.1)]:
         base.add_patch(Circle((x, node_y), 1.45, facecolor=face, edgecolor=edge, lw=lw, zorder=3))
@@ -182,15 +183,15 @@ def main():
     texts['v: MSE forecast; e: response error'].remove()
     retext('One network accounts for 64%\nof the summed score difference',
            'Fifth site chosen for recurrent\ngain sums, compared with a\nrandom fifth site',
-           y=80.6, linespacing=1.25)
+           y=79.6, linespacing=1.25)
     retext('95% paired network-cluster CI', '95% paired network-bootstrap CI')
     ax = fig.axes[2]
     for a in list(ax.lines) + list(ax.texts):
         a.remove()
     ax.set_xlim(-55, 12)
-    add(143.3, 72.0, 'Combination estimation MSE', 8.8, KEY_TEXT, 'bold')
-    add(143.3, 68.8, f'{mono(est)}%  [{mono(lo)}, {mono(hi)}]', 8.0, INK, family='JuliaMono')
-    yb = .2                                # interval sits 3.5 below the value line, as in frame 2
+    add(143.3, 70.2, 'Combination estimation MSE', 8.8, KEY_TEXT, 'bold')
+    add(143.3, 66.9, f'{mono(est)}%  [{mono(lo)}, {mono(hi)}]', 8.0, INK, family='JuliaMono')
+    yb = .0625                                # interval sits 3.5 below the value line, as in frame 2
     ax.plot([lo, hi], [yb, yb], color=FORECAST, lw=1.6, solid_capstyle='butt')
     for end in (lo, hi):
         ax.plot([end, end], [yb - .16, yb + .16], color=FORECAST, lw=1.0)
@@ -210,14 +211,11 @@ def main():
     r = fig.canvas.get_renderer()
     sentences = [
         (28.4, [('We used a ', 'normal'), ('common MAP estimator', 'bold'),
-                (', so identical recordings give identical predictions in ', 'normal'), ('68% and 65%', 'bold'),
-                (' of designs.', 'normal')]),
-        (25.3, [('Recording the stimulation site and readouts lowered held-out response error by ', 'normal'),
-                (f"{abs(e['valid'][0]):.0f}%", 'bold'), (' in independent networks.', 'normal')]),
-        (22.2, [('A fifth site chosen for recurrent gain sums improved their estimates by ', 'normal'),
-                (f"{abs(e['comb'][0]):.0f}%", 'bold'), (', with no clear change in response error.', 'normal')]),
-        (17.5, [('These simulations suggest that ', 'normal'), ('endpoint coverage', 'bold'),
-                (' is an informative baseline for evaluating recording criteria.', 'normal')]),
+                (' in 12-unit networks, so identical recordings and data yield identical predictions.', 'normal')]),
+        (25.2, [('The two criteria chose identical recordings in 68% and 65% of designs, with no clear change in error (\u22123.7%, +2.7%).', 'normal')]),
+        (20.7, [(f"Endpoint recording lowered held-out response error by {abs(e['valid'][0]):.0f}%, and a fifth site improved gain-sum estimates by {abs(e['comb'][0]):.0f}%.", 'normal')]),
+        (17.5, [('Better estimation did not clearly improve prediction, and ', 'normal'), ('endpoint coverage', 'bold'),
+                (' is an informative baseline.', 'normal')]),
     ]
     for y_line, parts in sentences:
         x = 59.0
@@ -272,7 +270,7 @@ The layout keeps the original graphical abstract: network illustration, three nu
 - **1 Endpoint recording.** In forty independent validation networks, recording both endpoints changed held-out response MSE by {v[0]:.2f}% (95% CI {v[1]:.2f}% to {v[2]:.2f}%) relative to five ordinary sites; {v[3]} of 40 networks improved. In a further forty networks, the mean squared width of the feasible response range changed by {w[0]:.2f}% (95% CI {w[1]:.2f}% to {w[2]:.2f}%) and narrowed in {w[3]} of 40. Dots are networks; grey dots did not improve.
 - **2 Error factors.** The exact factorization separates input, recurrent propagation and readout. Endpoint relative to ordinary recording changed the mean squared input contribution by {f['input'][0]:.2f}%, the readout contribution by {f['readout'][0]:.2f}% and the recurrent contribution by {f['recurrence'][0]:+.2f}% (95% CI {f['recurrence'][1]:.2f}% to {f['recurrence'][2]:+.2f}%).
 - **3 Fifth recording.** With the four endpoints kept, a fifth site chosen for the recurrent gain sums changed combination-estimation MSE by {c[0]:.2f}% (95% CI {c[1]:.2f}% to {c[2]:.2f}%) relative to a random fifth site in eighty new networks; {c[3]} of 80 improved.
-- **Summary.** The key finding leads. Four lines follow: the common-estimator control of the 12-unit risk comparison (identical recordings, hence identical predictions, in 68% and 65% of designs; error changes of -3.7% and +2.7% had intervals including zero), the endpoint result, the fifth-recording result (response-error change not clear) and a closing statement that endpoint coverage is an informative baseline for evaluating recording criteria. Marker shapes distinguish the three factors because the input and readout intervals nearly coincide.
+- **Summary.** The key finding leads. Four sentences follow in two pairs: the common-estimator control and the 12-unit risk comparison (identical recordings in 68% and 65% of designs, error changes of -3.7% and +2.7% with intervals including zero), then the endpoint and fifth-site results and a closing statement that better estimation did not clearly improve prediction while endpoint coverage is an informative baseline. Marker shapes distinguish the three factors because the input and readout intervals nearly coincide.
 
 {KEY}
 """

@@ -23,8 +23,8 @@ $\Delta r(t)=$
 $r_{\mathrm{stim}}(t)$
 $-r_{\mathrm{control}}(t)$
 Fifth site chosen for recurrent
-gain sums, compared with a
-random fifth site
+gain combinations, compared
+with a random fifth site
 1
 2
 3
@@ -60,7 +60,7 @@ We used a
 common MAP estimator
  in 12-unit networks, so identical recordings and data yield identical predictions.
 The two criteria chose identical recordings in 68% and 65% of designs, with no clear change in error (–3.7%, +2.7%).
-Endpoint recording lowered held-out response error by 98%, and a fifth site improved gain-sum estimates by 31%.
+Endpoint recording lowered held-out response error by 98%, and a fifth site improved combination estimates by 31%.
 Better estimation did not clearly improve prediction, and 
 endpoint coverage
  is an informative baseline.

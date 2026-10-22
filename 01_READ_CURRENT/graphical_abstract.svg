@@ -232,7 +232,7 @@ C 31.736753 335.04141 31.22586 336.276573 31.22586 337.564304
 C 31.22586 338.852036 31.736753 340.087199 32.646022 340.997763 
 C 33.55529 341.908326 34.788696 342.419948 36.074596 342.419948 
 z
-" clip-path="url(#pda8112c54f)" style="fill: #fff6dd; stroke: #d4a239; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#pda8112c54f)" style="fill: #ca799a; stroke: #d4a239; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_40">
     <path d="M 36.074596 359.511811 
@@ -245,7 +245,7 @@ C 31.736753 352.133274 31.22586 353.368436 31.22586 354.656168
 C 31.22586 355.9439 31.736753 357.179062 32.646022 358.089626 
 C 33.55529 359.00019 34.788696 359.511811 36.074596 359.511811 
 z
-" clip-path="url(#pda8112c54f)" style="fill: #ffffff; stroke: #65566f; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#pda8112c54f)" style="fill: #ca799a; stroke: #65566f; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_41">
     <path d="M 223.817654 370.971129 
@@ -401,7 +401,7 @@ C 105.611815 102.509626 104.344799 105.57283 104.344799 108.766404
 C 104.344799 111.959979 105.611815 115.023182 107.866801 117.28138 
 C 110.121786 119.539578 113.180633 120.808399 116.369664 120.808399 
 z
-" clip-path="url(#pda8112c54f)" style="fill: #fff6dd; stroke: #d4a239; stroke-width: 1.4; stroke-linejoin: miter"/>
+" clip-path="url(#pda8112c54f)" style="fill: #ca799a; stroke: #d4a239; stroke-width: 1.4; stroke-linejoin: miter"/>
    </g>
    <g id="patch_51">
     <path d="M 153.220058 128.365789 
@@ -453,7 +453,7 @@ C 169.438569 213.218288 168.171553 216.281491 168.171553 219.475066
 C 168.171553 222.66864 169.438569 225.731844 171.693555 227.990042 
 C 173.948541 230.24824 177.007387 231.51706 180.196418 231.51706 
 z
-" clip-path="url(#pda8112c54f)" style="fill: #ffffff; stroke: #65566f; stroke-width: 1.4; stroke-linejoin: miter"/>
+" clip-path="url(#pda8112c54f)" style="fill: #ca799a; stroke: #65566f; stroke-width: 1.4; stroke-linejoin: miter"/>
    </g>
    <g id="patch_55">
     <path d="M 153.220058 256.20114 
@@ -669,8 +669,8 @@ z
    </g>
    <g id="text_25">
     <text style="font-size: 7.4px; font-family: 'BentonSans'; fill: #655d69" transform="translate(555.859097 206.851541)">Fifth site chosen for recurrent</text>
-    <text style="font-size: 7.4px; font-family: 'BentonSans'; fill: #655d69" transform="translate(555.859097 215.180588)">gain sums, compared with a</text>
-    <text style="font-size: 7.4px; font-family: 'BentonSans'; fill: #655d69" transform="translate(555.859097 223.531603)">random fifth site</text>
+    <text style="font-size: 7.4px; font-family: 'BentonSans'; fill: #655d69" transform="translate(555.859097 215.180588)">gain combinations, compared</text>
+    <text style="font-size: 7.4px; font-family: 'BentonSans'; fill: #655d69" transform="translate(555.859097 223.531603)">with a random fifth site</text>
    </g>
    <g id="text_26">
     <text style="font-weight: 700; font-size: 9.5px; font-family: 'BentonSans'; text-anchor: end; fill: #2e2531" x="235.260671" y="113.03937" transform="rotate(-0 235.260671 113.03937)">1</text>
@@ -1810,7 +1810,7 @@ C 555.869885 183.297065 555.277248 184.729853 555.277248 186.223622
 C 555.277248 187.717391 555.869885 189.15018 556.924636 190.206433 
 C 557.979387 191.262687 559.410138 191.856168 560.901782 191.856168 
 z
-" clip-path="url(#pda8112c54f)" style="fill: #fff6dd; stroke: #d4a239; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#pda8112c54f)" style="fill: #ca799a; stroke: #d4a239; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="patch_144">
     <path d="M 575.641939 191.856168 
@@ -1823,7 +1823,7 @@ C 570.610042 183.297065 570.017406 184.729853 570.017406 186.223622
 C 570.017406 187.717391 570.610042 189.15018 571.664794 190.206433 
 C 572.719545 191.262687 574.150296 191.856168 575.641939 191.856168 
 z
-" clip-path="url(#pda8112c54f)" style="fill: #ffffff; stroke: #65566f; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#pda8112c54f)" style="fill: #ca799a; stroke: #65566f; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="patch_145">
     <path d="M 590.382097 191.856168 
@@ -1836,7 +1836,7 @@ C 585.3502 183.297065 584.757563 184.729853 584.757563 186.223622
 C 584.757563 187.717391 585.3502 189.15018 586.404951 190.206433 
 C 587.459702 191.262687 588.890453 191.856168 590.382097 191.856168 
 z
-" clip-path="url(#pda8112c54f)" style="fill: #ffffff; stroke: #65566f; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#pda8112c54f)" style="fill: #ca799a; stroke: #65566f; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="patch_146">
     <path d="M 605.122254 191.856168 
@@ -1849,7 +1849,7 @@ C 600.090357 183.297065 599.497721 184.729853 599.497721 186.223622
 C 599.497721 187.717391 600.090357 189.15018 601.145108 190.206433 
 C 602.19986 191.262687 603.630611 191.856168 605.122254 191.856168 
 z
-" clip-path="url(#pda8112c54f)" style="fill: #ffffff; stroke: #65566f; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#pda8112c54f)" style="fill: #ca799a; stroke: #65566f; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="text_52">
     <text style="font-size: 9px; font-family: 'BentonSans'; text-anchor: middle; fill: #655d69" x="619.086614" y="189.042777" transform="rotate(-0 619.086614 189.042777)">+</text>
@@ -1889,7 +1889,7 @@ z
     <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="430.584187" transform="rotate(-0 228.86034 430.584187)">The two criteria chose identical recordings in 68% and 65% of designs, with no clear change in error (–3.7%, +2.7%).</text>
    </g>
    <g id="text_60">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="448.07283" transform="rotate(-0 228.86034 448.07283)">Endpoint recording lowered held-out response error by 98%, and a fifth site improved gain-sum estimates by 31%.</text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="448.07283" transform="rotate(-0 228.86034 448.07283)">Endpoint recording lowered held-out response error by 98%, and a fifth site improved combination estimates by 31%.</text>
    </g>
    <g id="text_61">
     <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #655d69" x="228.86034" y="460.439214" transform="rotate(-0 228.86034 460.439214)">Better estimation did not clearly improve prediction, and </text>
@@ -2137,15 +2137,15 @@ L 625.936304 268.419948
     <path d="M 603.522192 274.635171 
 " clip-path="url(#p0cc4cbcb6f)" style="fill: none; stroke: #9c537c; stroke-width: 1.5; stroke-linecap: square"/>
     <defs>
-     <path id="mdf7f6fc4f1" d="M -0 3.11127 
+     <path id="mac4e36d505" d="M 0 3.11127 
 L 3.11127 0 
 L 0 -3.11127 
-L -3.11127 -0 
+L -3.11127 0 
 z
 " style="stroke: #9c537c; stroke-linejoin: miter"/>
     </defs>
     <g clip-path="url(#p0cc4cbcb6f)">
-     <use xlink:href="#mdf7f6fc4f1" x="603.522192" y="274.635171" style="fill: #9c537c; stroke: #9c537c; stroke-linejoin: miter"/>
+     <use xlink:href="#mac4e36d505" x="603.522192" y="274.635171" style="fill: #9c537c; stroke: #9c537c; stroke-linejoin: miter"/>
     </g>
    </g>
    <g id="patch_151">

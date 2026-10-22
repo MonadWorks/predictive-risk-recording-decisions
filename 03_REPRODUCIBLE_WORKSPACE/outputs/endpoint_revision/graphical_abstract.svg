@@ -700,7 +700,7 @@ z
     <text style="font-size: 8.8px; font-family: 'BentonSans'; fill: #655d69" transform="translate(91.354289 188.687848)">connectivity</text>
    </g>
    <g id="text_32">
-    <text style="font-weight: 700; font-size: 9.3px; font-family: 'BentonSans'; text-anchor: start; fill: #984775" x="228.86034" y="399.102486" transform="rotate(-0 228.86034 399.102486)">Better risk estimates do not necessarily make better recording decisions.</text>
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'BentonSans'; text-anchor: start; fill: #984775" x="228.86034" y="400.908786" transform="rotate(-0 228.86034 400.908786)">Better risk estimates do not necessarily make better recording decisions.</text>
    </g>
    <g id="text_33">
     <text style="font-weight: 700; font-size: 8.3px; font-family: 'BentonSans'; text-anchor: start; fill: #a34e79" x="230.024036" y="160.030625" transform="rotate(-0 230.024036 160.030625)">Lower held-out error</text>
@@ -1877,28 +1877,28 @@ z
     <text style="font-size: 8.1px; font-family: 'BentonSans'; text-anchor: start; fill: #655d69" x="230.024036" y="136.346457" transform="rotate(-0 230.024036 136.346457)">Five recordings per allocation</text>
    </g>
    <g id="text_56">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="416.303879" transform="rotate(-0 228.86034 416.303879)">We used a </text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="418.110179" transform="rotate(-0 228.86034 418.110179)">We used a </text>
    </g>
    <g id="text_57">
-    <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="269.68884" y="416.303879" transform="rotate(-0 269.68884 416.303879)">common MAP estimator</text>
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="269.68884" y="418.110179" transform="rotate(-0 269.68884 418.110179)">common MAP estimator</text>
    </g>
    <g id="text_58">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="367.04184" y="416.347442" transform="rotate(-0 367.04184 416.347442)"> in 12-unit networks, so identical recordings and data yield identical predictions.</text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="367.04184" y="418.153741" transform="rotate(-0 367.04184 418.153741)"> in 12-unit networks, so identical recordings and data yield identical predictions.</text>
    </g>
    <g id="text_59">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="428.777888" transform="rotate(-0 228.86034 428.777888)">The two criteria chose identical recordings in 68% and 65% of designs, with no clear change in error (–3.7%, +2.7%).</text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="430.584187" transform="rotate(-0 228.86034 430.584187)">The two criteria chose identical recordings in 68% and 65% of designs, with no clear change in error (–3.7%, +2.7%).</text>
    </g>
    <g id="text_60">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="446.266531" transform="rotate(-0 228.86034 446.266531)">Endpoint recording lowered held-out response error by 98%, and a fifth site improved gain-sum estimates by 31%.</text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="448.07283" transform="rotate(-0 228.86034 448.07283)">Endpoint recording lowered held-out response error by 98%, and a fifth site improved gain-sum estimates by 31%.</text>
    </g>
    <g id="text_61">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="458.632915" transform="rotate(-0 228.86034 458.632915)">Better estimation did not clearly improve prediction, and </text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #655d69" x="228.86034" y="460.439214" transform="rotate(-0 228.86034 460.439214)">Better estimation did not clearly improve prediction, and </text>
    </g>
    <g id="text_62">
-    <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="445.03134" y="458.645087" transform="rotate(-0 445.03134 458.645087)">endpoint coverage</text>
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #655d69" x="445.03134" y="460.451386" transform="rotate(-0 445.03134 460.451386)">endpoint coverage</text>
    </g>
    <g id="text_63">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="519.81684" y="458.645087" transform="rotate(-0 519.81684 458.645087)"> is an informative baseline.</text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #655d69" x="519.81684" y="460.451386" transform="rotate(-0 519.81684 460.451386)"> is an informative baseline.</text>
    </g>
   </g>
   <g id="axes_2">

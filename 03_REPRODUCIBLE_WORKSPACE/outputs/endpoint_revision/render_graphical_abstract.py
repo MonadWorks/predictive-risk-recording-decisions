@@ -209,7 +209,7 @@ def main():
     base.text(59.3, 99.9, 'Five recordings per allocation', fontsize=8.1, color=MUTED, fontfamily='BentonSans', va='baseline')
 
     # ---- summary frame: the key finding (v5 wording and spacing), then four lines in two pairs.
-    retext('Better risk estimates do not necessarily make better recording decisions.', KEY, y=32.9)
+    retext('Better risk estimates do not necessarily make better recording decisions.', KEY, y=32.435)
     for old in ['We use a', 'common MAP estimator', '. Identical recording sets and data yield identical predictions.']:
         texts[old].remove()
     for t in [t for t in base.texts if t.get_text().startswith(('Primary error', 'Exploratory 100-unit', 'All four favour'))]:
@@ -217,17 +217,18 @@ def main():
     fig.canvas.draw()
     r = fig.canvas.get_renderer()
     sentences = [
-        (28.4, [('We used a ', 'normal'), ('common MAP estimator', 'bold'),
+        (27.935, [('We used a ', 'normal'), ('common MAP estimator', 'bold'),
                 (' in 12-unit networks, so identical recordings and data yield identical predictions.', 'normal')]),
-        (25.2, [('The two criteria chose identical recordings in 68% and 65% of designs, with no clear change in error (\u22123.7%, +2.7%).', 'normal')]),
-        (20.7, [(f"Endpoint recording lowered held-out response error by {abs(e['valid'][0]):.0f}%, and a fifth site improved gain-sum estimates by {abs(e['comb'][0]):.0f}%.", 'normal')]),
-        (17.5, [('Better estimation did not clearly improve prediction, and ', 'normal'), ('endpoint coverage', 'bold'),
-                (' is an informative baseline.', 'normal')]),
+        (24.735, [('The two criteria chose identical recordings in 68% and 65% of designs, with no clear change in error (\u22123.7%, +2.7%).', 'normal')]),
+        (20.235, [(f"Endpoint recording lowered held-out response error by {abs(e['valid'][0]):.0f}%, and a fifth site improved gain-sum estimates by {abs(e['comb'][0]):.0f}%.", 'normal')]),
+        (17.035, [('Better estimation did not clearly improve prediction, and ', 'normal'), ('endpoint coverage', 'bold'),
+                  (' is an informative baseline.', 'normal')]),   # last line in the muted grey, as in v5
     ]
-    for y_line, parts in sentences:
+    for line_no, (y_line, parts) in enumerate(sentences):
+        line_color = MUTED if line_no == len(sentences) - 1 else INK
         x = 59.0
         for s_, weight in parts:
-            t = add(x, y_line, s_, 8.2, INK, weight)
+            t = add(x, y_line, s_, 8.2, line_color, weight)
             # advance by the unhinted width of the run, trailing space included (measured at high dpi, so the
             # hinted 100-dpi advances do not accumulate into a visible error along the line)
             old_dpi = fig.dpi

@@ -41,35 +41,45 @@ PAIR = '#E8DFE4'
 # Palette of the pink figure suite (2026-10-18, see 04_CONTEXT_AND_HISTORY/pink_figure_suite/README.md):
 # deep rose for the main data, soft pink for readouts, mulberry for risk forecasts and prior-averaged
 # selection, a neutral grey for ordinary sites and references. Yellow marks the stimulation site only.
-ROSE = '#B73E70'            # deep rose: both endpoints recorded (main data)
-MULBERRY = '#87385F'        # risk forecasts, prior-averaged (ensemble) selection
+PALETTES = {
+    # deep: the pink-suite values (2026-10-18)
+    'deep': dict(ROSE='#B73E70', MULBERRY='#87385F', MULBERRY_DARK='#6E2C4C', READOUT='#D99AB3', READOUT_EDGE='#B4577F',
+                 PALE_ROSE='#EBC3D2', GOLD='#D4A239', GOLD_DARK='#B8862A', GREY='#C9C5C8', GREY_EDGE='#8F878F',
+                 LIGHT_GREY='#DAD4D8', LIGHT_GREY_EDGE='#A9A1A9', PLUM='#463B50', BLEND='#843D62', NEGATIVE='#413A43'),
+    # light: the earlier pastel figure suite (light fills), with deeper strokes and dark roles, and prior-averaged
+    # selection in a mulberry instead of amber so that yellow only marks the stimulation site
+    'light': dict(ROSE='#E27A9E', ROSE_LINE='#C2507C', MULBERRY='#9A4A78', MULBERRY_DARK='#7C355E', READOUT='#F2B1C7',
+                  READOUT_EDGE='#D0698D', PALE_ROSE='#F4BFD0', GOLD='#EDAF26', GOLD_DARK='#C98A14', GREY='#B9AEB7',
+                  GREY_EDGE='#8A818A', LIGHT_GREY='#DAD4D8', LIGHT_GREY_EDGE='#A9A1A9', PLUM='#54435F', BLEND='#A96485',
+                  NEGATIVE='#413A43'),
+    # mid: the graphical abstract's dusty rose, grey-purple and gold
+    'mid': dict(ROSE='#CA799A', MULBERRY='#9C537C', MULBERRY_DARK='#7B3E61', READOUT='#E3B6CA', READOUT_EDGE='#BE7C9C',
+                PALE_ROSE='#F0D2DE', GOLD='#D4A239', GOLD_DARK='#B8862A', GREY='#D0CBCF', GREY_EDGE='#8F878F',
+                LIGHT_GREY='#DDD8DC', LIGHT_GREY_EDGE='#A9A1A9', PLUM='#5A4A66', BLEND='#A9627F', NEGATIVE='#413A43'),
+}
+PALETTE_NAME = __import__('os').environ.get('DSH_PALETTE', 'light')
+_P = {'ROSE_LINE': None, **PALETTES[PALETTE_NAME]}
+ROSE, MULBERRY, MULBERRY_DARK, READOUT, READOUT_EDGE = (_P[k] for k in ('ROSE', 'MULBERRY', 'MULBERRY_DARK', 'READOUT', 'READOUT_EDGE'))
+PALE_ROSE, GOLD, GOLD_DARK, GREY, GREY_EDGE = (_P[k] for k in ('PALE_ROSE', 'GOLD', 'GOLD_DARK', 'GREY', 'GREY_EDGE'))
+LIGHT_GREY, LIGHT_GREY_EDGE, PLUM, BLEND, NEGATIVE = (_P[k] for k in ('LIGHT_GREY', 'LIGHT_GREY_EDGE', 'PLUM', 'BLEND', 'NEGATIVE'))
+ROSE_LINE = _P['ROSE_LINE'] or ROSE   # strokes, intervals and outlines of rose marks
 ROSE_DARK = MULBERRY        # outline of rose markers
-READOUT = '#D99AB3'         # soft pink: readout sites (always drawn with a darker edge or in a pair)
-READOUT_EDGE = '#B4577F'
-PALE_ROSE = '#EBC3D2'
-GOLD = '#D4A239'            # stimulation site and input factor
-GOLD_DARK = '#B8862A'
-GREY = '#C9C5C8'            # ordinary sites, nominal selection, references
-GREY_EDGE = '#8F878F'       # darker line used with the light neutrals so grey marks stay legible
-LIGHT_GREY = '#DAD4D8'
-LIGHT_GREY_EDGE = '#A9A1A9'
-PLUM = '#463B50'            # deep grey-purple: recurrent gain combinations (kept dark: rose and plum merge for protanopes at equal lightness)
-BLEND = '#843D62'           # endpoints plus recurrent sums
-NEGATIVE = '#413A43'        # negative weights in signed maps
 NOISE = [ROSE, READOUT, PALE_ROSE]
 
 
-# Colour-vision check (Machado simulation, CIE76 dE; 2026-10-22). Pairs that share a panel:
-#   rose / soft pink 36 (protan 29, deutan 24); rose / plum 48 (13, 26); rose / gold 79 (79, 59);
-#   rose / grey 62 (42, 32); gold / grey 61 (64, 60); mulberry / grey 58 (50, 42); plum / grey 55 (54, 54).
-# Soft pink / grey is the weak pair (27; protan 14, deutan 8), so readouts always carry READOUT_EDGE and
-# ordinary sites GREY_EDGE, and filled / open markers keep their meaning. Plum is darker than the
-# pink-suite's grey-purple because at equal lightness rose and plum merge for protanopes.
+# Colour-vision check of the default ('light') palette (Machado simulation, CIE76 dE, 2026-10-22), pairs that share a
+# panel: rose fill / plum 47 (protan 29, deutan 39); rose / mulberry 24 (22, 24); rose / gold 81 (85, 68);
+# rose / grey 40 (14, 9); soft pink / grey 22 (5, 9); mulberry / grey 45 (35, 28); plum / mulberry 29 (9, 15).
+# Fills stay light; strokes, intervals and outlines use the deeper tones (contrast on white: rose line 4.4,
+# soft-pink edge 3.5, gold line 3.0, grey edge 3.8, plum 9.0, mulberry 5.8). The light fills pairs that
+# colour-vision deficiency pulls together (rose or soft pink against grey) are separated by those edges and by
+# filled / open markers, never by hue alone. Plum is dark because at equal lightness rose and plum merge for protanopes.
 
 
 def strong(color):
-    """Line / edge colour for a fill: the light neutrals and soft pink get a darker outline."""
-    return {GREY: GREY_EDGE, LIGHT_GREY: LIGHT_GREY_EDGE, READOUT: READOUT_EDGE, PALE_ROSE: READOUT_EDGE}.get(color, color)
+    """Line / edge colour for a fill: light fills keep their colour but are stroked in a deeper tone."""
+    return {GREY: GREY_EDGE, LIGHT_GREY: LIGHT_GREY_EDGE, READOUT: READOUT_EDGE, PALE_ROSE: READOUT_EDGE,
+            ROSE: ROSE_LINE, GOLD: GOLD_DARK}.get(color, color)
 
 
 ROLE = {

@@ -35,7 +35,9 @@ TARGET = {
 COMMON = {'#E27A9E': fs.ROSE, '#F4BFD0': fs.READOUT, '#B5708C': fs.MULBERRY, '#C25E88': fs.ROSE,
           '#4E4350': fs.NEGATIVE, '#B9AEB7': fs.GREY}
 STIMULUS = {'#EDAF26': fs.GOLD, '#DB9A1D': fs.GOLD_DARK}          # amber meant the stimulation site
-FORECAST = {'#EDAF26': fs.MULBERRY, '#DB9A1D': '#6E2C4C'}         # amber meant forecast / prior-averaged risk
+FORECAST = {'#EDAF26': fs.MULBERRY, '#DB9A1D': fs.MULBERRY_DARK}         # amber meant forecast / prior-averaged risk
+if fs.PALETTE_NAME == 'light':   # the earlier pastel suite; only strokes, negative weights and forecast amber change
+    COMMON, STIMULUS = {'#B5708C': '#A8527D', '#4E4350': fs.NEGATIVE}, {}
 SCRIPT_COLOURS = {'render_supplements.py': FORECAST, 'render_data_overview.py': STIMULUS,
                   'render_decisions_forecast.py': FORECAST, 'render_schematic_extension.py': FORECAST}
 HEX = re.compile(r'#[0-9A-Fa-f]{6}\b')

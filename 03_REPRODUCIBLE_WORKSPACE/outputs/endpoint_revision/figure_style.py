@@ -48,10 +48,10 @@ PALETTES = {
                  LIGHT_GREY='#DAD4D8', LIGHT_GREY_EDGE='#A9A1A9', PLUM='#463B50', BLEND='#843D62', NEGATIVE='#413A43'),
     # light: the earlier pastel figure suite (light fills), with deeper strokes and dark roles, and prior-averaged
     # selection in a mulberry instead of amber so that yellow only marks the stimulation site
-    'light': dict(ROSE='#E27A9E', ROSE_LINE='#C2507C', MULBERRY='#9A4A78', MULBERRY_DARK='#7C355E', READOUT='#F2B1C7',
-                  READOUT_EDGE='#D0698D', PALE_ROSE='#F4BFD0', GOLD='#EDAF26', GOLD_DARK='#C98A14', GREY='#B9AEB7',
-                  GREY_EDGE='#8A818A', LIGHT_GREY='#DAD4D8', LIGHT_GREY_EDGE='#A9A1A9', PLUM='#54435F', BLEND='#A96485',
-                  NEGATIVE='#413A43'),
+    'light': dict(ROSE='#E27A9E', ROSE_LINE='#C2507C', MULBERRY='#A8668F', MULBERRY_DARK='#8A4E75', READOUT='#F2B1C7',
+                  READOUT_EDGE='#D0698D', PALE_ROSE='#F4BFD0', GOLD='#EDAF26', GOLD_DARK='#DB9A1D', GREY='#B9AEB7',
+                  GREY_EDGE='#8A818A', LIGHT_GREY='#DAD4D8', LIGHT_GREY_EDGE='#A9A1A9', PLUM='#6E5677', BLEND='#B2658B',
+                  NEGATIVE='#4E4350'),
     # mid: the graphical abstract's dusty rose, grey-purple and gold
     'mid': dict(ROSE='#CA799A', MULBERRY='#9C537C', MULBERRY_DARK='#7B3E61', READOUT='#E3B6CA', READOUT_EDGE='#BE7C9C',
                 PALE_ROSE='#F0D2DE', GOLD='#D4A239', GOLD_DARK='#B8862A', GREY='#D0CBCF', GREY_EDGE='#8F878F',
@@ -68,18 +68,18 @@ NOISE = [ROSE, READOUT, PALE_ROSE]
 
 
 # Colour-vision check of the default ('light') palette (Machado simulation, CIE76 dE, 2026-10-22), pairs that share a
-# panel: rose fill / plum 47 (protan 29, deutan 39); rose / mulberry 24 (22, 24); rose / gold 81 (85, 68);
-# rose / grey 40 (14, 9); soft pink / grey 22 (5, 9); mulberry / grey 45 (35, 28); plum / mulberry 29 (9, 15).
-# Fills stay light; strokes, intervals and outlines use the deeper tones (contrast on white: rose line 4.4,
-# soft-pink edge 3.5, gold line 3.0, grey edge 3.8, plum 9.0, mulberry 5.8). The light fills pairs that
-# colour-vision deficiency pulls together (rose or soft pink against grey) are separated by those edges and by
-# filled / open markers, never by hue alone. Plum is dark because at equal lightness rose and plum merge for protanopes.
+# panel: rose fill / plum 39 (protan 21, deutan 31); rose / mulberry 20 (13, 18); rose / gold 81 (85, 68);
+# rose / grey 40 (14, 9); soft pink / grey 22 (5, 9); mulberry / grey 35 (26, 20); plum / mulberry 20 (10, 14).
+# Fills stay light; strokes, intervals and outlines of rose, soft pink and grey use deeper tones (contrast on white:
+# rose line 4.4, soft-pink edge 3.5, grey edge 3.8; plum 6.4, mulberry 4.2). Yellow keeps its original fill and line.
+# Pairs that colour-vision deficiency pulls together (rose or soft pink against grey, rose against mulberry) are
+# separated by those edges and by filled / open markers, never by hue alone.
 
 
 def strong(color):
     """Line / edge colour for a fill: light fills keep their colour but are stroked in a deeper tone."""
     return {GREY: GREY_EDGE, LIGHT_GREY: LIGHT_GREY_EDGE, READOUT: READOUT_EDGE, PALE_ROSE: READOUT_EDGE,
-            ROSE: ROSE_LINE, GOLD: GOLD_DARK}.get(color, color)
+            ROSE: ROSE_LINE}.get(color, color)
 
 
 ROLE = {

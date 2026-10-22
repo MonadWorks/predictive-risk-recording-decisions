@@ -8,7 +8,7 @@ Predictive Risk and Recording Decisions in Partially Observed Neural Networks
 
 ## Keywords
 
-Biohybrid neural interfaces; Recording-site selection; Predictive uncertainty; Experimental design; Stimulus-response prediction
+Biohybrid neural interfaces; Recording-site selection; Predictive uncertainty; Experimental design; Response prediction
 
 ## Abstract (490 words by whitespace count)
 

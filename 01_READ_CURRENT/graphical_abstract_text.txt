@@ -3,7 +3,7 @@ Recorded node
 Stimulated node
 Response readout (one of three)
 Endpoint recording
-Five recordings per allocation
+Stimulation site and readouts
 Error factors
 Endpoint vs ordinary recording
 Fifth recording
@@ -14,7 +14,7 @@ of 80 networks improved
 combination estimates
 95% paired network-bootstrap CI
 in partially observed neural networks
-100 simulated units · $M$ = 5
+100 simulated units · M = 5
 Uncertain neuronal gains
 q
 Integrated stimulus response
@@ -55,10 +55,10 @@ Recurrent factor
 +
 Combination estimation MSE
 −31.1%  [−42.4, −19.8]
-We compared nominal and 
-prior-averaged risk
- in 12-unit networks.
-They chose identical recordings in 
+We used a 
+common MAP estimator
+ in 12-unit networks, so identical recordings and data yield identical predictions.
+The two criteria chose identical recordings in 
 68% and 65%
  of designs, with no clear change in error (–3.7%, +2.7%).
 Recording the stimulation site and readouts lowered held-out response error by 

@@ -92,7 +92,7 @@ def main():
                          fontweight=weight, fontfamily=family, va='center', **kw2)
 
     # ---- network illustration: the original v5 node colours are kept as drawn.
-    retext('12 simulated units · M=3', '100 simulated units · $M$ = 5')
+    retext('12 simulated units · M=3', '100 simulated units · M = 5')
     retext('Uncertain gains and biases', 'Uncertain neuronal gains')
     retext('Response readout (one shown)', 'Response readout (one of three)')
 
@@ -105,7 +105,7 @@ def main():
     # One vertical rhythm for every frame: header 106, subtitle 102.6, first row 97 downwards.
     # ---- frame 1: endpoint recording (two blocks with identical internal spacing).
     retext('Recording agreement', 'Endpoint recording')
-    retext('40 independent networks', 'Five recordings per allocation')
+    retext('40 independent networks', 'Stimulation site and readouts')
     for p in [p for p in base.patches if isinstance(p, Circle) and p.radius < 1.0]:
         p.remove()
     for old in ['68%', '82 of 120 designs', '65%', '26 of 40 designs', 'Single-response designs',
@@ -118,12 +118,12 @@ def main():
 
     def block(top, label, color_text, color, big, line1, line2, n_on, caption, ci):
         add(X1, top, label, 8.3, color_text, 'bold')
-        add(X1, top - 5.2, big, 16.0, color, 'bold')
-        add(XR, top - 3.6, line1, 8.0)
-        add(XR, top - 6.4, line2, 8.0)
-        dots([top - 10.6, top - 12.65, top - 14.7], n_on, color)
-        add(X1, top - 19.0, caption, 7.2, MUTED)
-        add(X1, top - 22.0, ci, 7.2, INK, family='JuliaMono')
+        add(X1, top - 4.8, big, 16.0, color, 'bold')
+        add(XR, top - 3.2, line1, 8.0)
+        add(XR, top - 6.0, line2, 8.0)
+        dots([top - 9.8, top - 11.85, top - 13.9], n_on, color)
+        add(X1, top - 17.8, caption, 7.2, MUTED)
+        add(X1, top - 20.7, ci, 7.2, INK, family='JuliaMono')
 
     def ci_text(est, lo, hi):
         return f'{mono(est, 2)}% [{mono(lo, 2)}, {mono(hi, 2)}]'
@@ -132,10 +132,10 @@ def main():
     block(97.0, 'Lower held-out error', ROSE_TEXT, ROSE, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'improved',
           wins, 'Both endpoints vs neither, mean MSE', ci_text(est, lo, hi))
     est, lo, hi, wins = e['width']
-    block(68.4, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
+    block(70.4, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
           wins, 'Mean squared width, both vs neither', ci_text(est, lo, hi))
-    base.add_patch(Circle((60.08, 42.6), .85, facecolor=SAME, edgecolor='none', zorder=1))
-    add(62.1, 42.6, 'Network not improved', 7.2, MUTED)
+    base.add_patch(Circle((60.08, 45.6), .85, facecolor=SAME, edgecolor='none', zorder=1))
+    add(62.1, 45.6, 'Network not improved', 7.2, MUTED)
 
     # ---- frame 2: finite-response error factors.
     retext('Response error', 'Error factors')
@@ -150,10 +150,10 @@ def main():
             ('Recurrent factor', 'recurrence', PLUM, 's')]
     for k, (label, key, color, marker) in enumerate(rows):
         est, lo, hi, _ = e['factors'][key]
-        y_label = 94.2 - 12.4 * k                 # label, value 3.4 below, interval 3.6 further below
+        y_label = 94.0 - 11.6 * k                 # label, value 3.2 below, interval 3.4 further below
         add(101.3, y_label, label, 8.8, color, 'bold')
-        add(101.3, y_label - 3.4, f'{mono(est)}%  [{mono(lo)}, {mono(hi)}]', 8.0, INK, family='JuliaMono')
-        y = y_label - 7.0 - 56                    # axes origin sits at page y = 56
+        add(101.3, y_label - 3.2, f'{mono(est)}%  [{mono(lo)}, {mono(hi)}]', 8.0, INK, family='JuliaMono')
+        y = y_label - 6.6 - 56                    # axes origin sits at page y = 56
         ax.plot([lo, hi], [y, y], color=color, lw=1.6, solid_capstyle='butt')
         for end in (lo, hi):
             ax.plot([end, end], [y - .9, y + .9], color=color, lw=1.0)
@@ -173,7 +173,7 @@ def main():
     retext('21 favour nominal', 'combination estimates')
     texts['$S(v,e)=\\log v+e^2/v$'].remove()
     # Recorded sites in the node styles of the illustration: stimulation site, three readouts, one added site.
-    node_y = 86.2
+    node_y = 87.0
     for x, face, edge, lw in [(144.6, '#FFF6DD', GOLD, 1.1), (148.4, '#FFFFFF', PLUM, 1.1),
                               (152.2, '#FFFFFF', PLUM, 1.1), (156.0, '#FFFFFF', PLUM, 1.1)]:
         base.add_patch(Circle((x, node_y), 1.45, facecolor=face, edgecolor=edge, lw=lw, zorder=3))
@@ -182,15 +182,15 @@ def main():
     texts['v: MSE forecast; e: response error'].remove()
     retext('One network accounts for 64%\nof the summed score difference',
            'Fifth site chosen for recurrent\ngain sums, compared with a\nrandom fifth site',
-           y=78.6, linespacing=1.25)
+           y=80.6, linespacing=1.25)
     retext('95% paired network-cluster CI', '95% paired network-bootstrap CI')
     ax = fig.axes[2]
     for a in list(ax.lines) + list(ax.texts):
         a.remove()
     ax.set_xlim(-55, 12)
-    add(143.3, 68.0, 'Combination estimation MSE', 8.8, KEY_TEXT, 'bold')
-    add(143.3, 64.6, f'{mono(est)}%  [{mono(lo)}, {mono(hi)}]', 8.0, INK, family='JuliaMono')
-    yb = -.1175                                # interval sits 3.5 below the value line, as in frame 2
+    add(143.3, 72.0, 'Combination estimation MSE', 8.8, KEY_TEXT, 'bold')
+    add(143.3, 68.8, f'{mono(est)}%  [{mono(lo)}, {mono(hi)}]', 8.0, INK, family='JuliaMono')
+    yb = .2                                # interval sits 3.5 below the value line, as in frame 2
     ax.plot([lo, hi], [yb, yb], color=FORECAST, lw=1.6, solid_capstyle='butt')
     for end in (lo, hi):
         ax.plot([end, end], [yb - .16, yb + .16], color=FORECAST, lw=1.0)
@@ -209,8 +209,9 @@ def main():
     fig.canvas.draw()
     r = fig.canvas.get_renderer()
     sentences = [
-        (28.4, [('We compared nominal and ', 'normal'), ('prior-averaged risk', 'bold'), (' in 12-unit networks.', 'normal')]),
-        (25.2, [('They chose identical recordings in ', 'normal'), ('68% and 65%', 'bold'),
+        (28.4, [('We used a ', 'normal'), ('common MAP estimator', 'bold'),
+                (' in 12-unit networks, so identical recordings and data yield identical predictions.', 'normal')]),
+        (25.2, [('The two criteria chose identical recordings in ', 'normal'), ('68% and 65%', 'bold'),
                 (' of designs, with no clear change in error (\u22123.7%, +2.7%).', 'normal')]),
         (20.7, [('Recording the stimulation site and readouts lowered held-out response error by ', 'normal'),
                 (f"{abs(e['valid'][0]):.0f}%", 'bold'), (' in independent networks.', 'normal')]),

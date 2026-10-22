@@ -122,17 +122,17 @@ def main():
         add(XR, top - 2.9, line1, 8.0)
         add(XR, top - 5.7, line2, 8.0)
         dots([top - 8.9, top - 10.95, top - 13.0], n_on, color)
-        add(X1, top - 15.5, caption, 7.2, MUTED)
-        add(X1, top - 18.4, ci, 7.2, INK, family='JuliaMono')
+        add(X1, top - 15.4, caption, 7.2, MUTED)
+        add(X1, top - 18.9, ci, 7.2, INK, family='JuliaMono')
 
     def ci_text(est, lo, hi):
         return f'{mono(est, 2)}% [{mono(lo, 2)}, {mono(hi, 2)}]'
 
     est, lo, hi, wins = e['valid']
-    block(93.10, 'Lower held-out error', ROSE_TEXT, ROSE, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'improved',
+    block(93.43, 'Lower held-out error', ROSE_TEXT, ROSE, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'improved',
           wins, 'Both endpoints vs neither, mean MSE', ci_text(est, lo, hi))
     est, lo, hi, wins = e['width']
-    block(67.91, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
+    block(68.08, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
           wins, 'Mean squared width, both vs neither', ci_text(est, lo, hi))
     LEG_Y = 42.9                                  # same row as the CI notes of frames 2 and 3
     base.add_patch(Circle((60.08, LEG_Y - .06), .85, facecolor=SAME, edgecolor='none', zorder=1))

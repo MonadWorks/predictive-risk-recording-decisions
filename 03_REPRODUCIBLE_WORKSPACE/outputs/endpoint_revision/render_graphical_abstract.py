@@ -91,6 +91,7 @@ def main():
         return base.text(x, y, s if family != 'BentonSans' else fs.dash(s), fontsize=size, color=color,
                          fontweight=weight, fontfamily=family, va='center', **kw2)
 
+    BADGE_Y, NUM_DY, TITLE_DY = 106.3, -0.15, -0.86
     # ---- network illustration: the original v5 node colours are kept as drawn.
     retext('12 simulated units · M=3', '100 simulated units · M = 5')
     retext('Uncertain gains and biases', 'Uncertain neuronal gains')
@@ -118,21 +119,21 @@ def main():
 
     def block(top, label, color_text, color, big, line1, line2, n_on, caption, ci):
         add(X1, top, label, 8.3, color_text, 'bold')
-        add(X1, top - 4.6, big, 16.0, color, 'bold')
-        add(XR, top - 3.0, line1, 8.0)
-        add(XR, top - 5.8, line2, 8.0)
-        dots([top - 9.1, top - 11.15, top - 13.2], n_on, color)
-        add(X1, top - 16.9, caption, 7.2, MUTED)
-        add(X1, top - 19.7, ci, 7.2, INK, family='JuliaMono')
+        add(X1, top - 4.5, big, 16.0, color, 'bold')
+        add(XR, top - 2.9, line1, 8.0)
+        add(XR, top - 5.7, line2, 8.0)
+        dots([top - 8.9, top - 10.95, top - 13.0], n_on, color)
+        add(X1, top - 16.5, caption, 7.2, MUTED)
+        add(X1, top - 19.2, ci, 7.2, INK, family='JuliaMono')
 
     def ci_text(est, lo, hi):
         return f'{mono(est, 2)}% [{mono(lo, 2)}, {mono(hi, 2)}]'
 
     est, lo, hi, wins = e['valid']
-    block(95.9, 'Lower held-out error', ROSE_TEXT, ROSE, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'improved',
+    block(93.87, 'Lower held-out error', ROSE_TEXT, ROSE, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'improved',
           wins, 'Both endpoints vs neither, mean MSE', ci_text(est, lo, hi))
     est, lo, hi, wins = e['width']
-    block(69.24, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
+    block(68.24, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
           wins, 'Mean squared width, both vs neither', ci_text(est, lo, hi))
     LEG_Y = 42.9                                  # same row as the CI notes of frames 2 and 3
     base.add_patch(Circle((60.08, LEG_Y - .06), .85, facecolor=SAME, edgecolor='none', zorder=1))
@@ -183,15 +184,15 @@ def main():
     texts['v: MSE forecast; e: response error'].remove()
     retext('One network accounts for 64%\nof the summed score difference',
            'Fifth site chosen for recurrent\ngain sums, compared with a\nrandom fifth site',
-           y=82.3, linespacing=1.25)
+           y=83.3, linespacing=1.25)
     retext('95% paired network-cluster CI', '95% paired network-bootstrap CI')
     ax = fig.axes[2]
     for a in list(ax.lines) + list(ax.texts):
         a.remove()
     ax.set_xlim(-55, 12)
-    add(143.3, 72.25, 'Combination estimation MSE', 8.8, KEY_TEXT, 'bold')
-    add(143.3, 68.95, f'{mono(est)}%  [{mono(lo)}, {mono(hi)}]', 8.0, INK, family='JuliaMono')
-    yb = .216                                # interval sits 3.5 below the value line, as in frame 2
+    add(143.3, 73.25, 'Combination estimation MSE', 8.8, KEY_TEXT, 'bold')
+    add(143.3, 69.95, f'{mono(est)}%  [{mono(lo)}, {mono(hi)}]', 8.0, INK, family='JuliaMono')
+    yb = .291                                # interval sits 3.5 below the value line, as in frame 2
     ax.plot([lo, hi], [yb, yb], color=FORECAST, lw=1.6, solid_capstyle='butt')
     for end in (lo, hi):
         ax.plot([end, end], [yb - .16, yb + .16], color=FORECAST, lw=1.0)
@@ -200,6 +201,17 @@ def main():
     ax.xaxis.set_major_locator(FixedLocator([-40, -20, 0]))
     ax.xaxis.set_major_formatter(FuncFormatter(lambda x, p: mono(x, 0).replace('+0', '0')))
     ax.set_xlabel('Change vs random fifth site (%)')
+
+    # ---- frame headers: a numbered badge whose left edge sits on the content edge, then the title.
+    for t in [t for t in base.texts if t.get_text() in ('1', '2', '3')]:
+        t.remove()
+    for left, n, title in [(59.3, '1', 'Recording agreement'), (101.3, '2', 'Response error'), (143.3, '3', 'Risk forecasts')]:
+        base.add_patch(Circle((left + 2.1, BADGE_Y), 2.1, facecolor=INK, edgecolor='none', zorder=3))
+        add(left + 2.1, BADGE_Y + NUM_DY, n, 8.4, '#FFFFFF', 'bold', ha='center', zorder=4)
+        t = texts[title]
+        t.set_x(left + 5.5)
+        t.set_y(BADGE_Y + TITLE_DY)
+    add(59.3, 99.9, 'Five recordings per allocation', 8.1, MUTED)
 
     # ---- summary frame: the key finding (v5 wording and spacing), then four lines in two pairs.
     retext('Better risk estimates do not necessarily make better recording decisions.', KEY, y=32.9)

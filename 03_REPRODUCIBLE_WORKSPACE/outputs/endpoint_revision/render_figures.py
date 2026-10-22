@@ -93,9 +93,9 @@ def endpoint_evidence():
     ax.set_ylim(y_other + .6, -.55)
     forest_rows(cv, ax, rows, 122, 177)
     for y, (label, _) in enumerate(groups):
-        cv.text(6.5, cv.y_of(ax, y), label, CATEGORY, va='center')
-    cv.text(6.5, cv.y_of(ax, y_other) + 1.4, 'Activity under other inputs', CATEGORY, va='center')
-    cv.note(6.5, cv.y_of(ax, y_other) - 1.6, 'Exploratory; both versus neither', va='center')
+        top_label(cv, ax, 6.5, y - .21, label, CATEGORY, ms=3.6)
+    base = top_label(cv, ax, 6.5, y_other - .21, 'Activity under other inputs', CATEGORY, ms=3.6)
+    cv.note(6.5, base - 3.0 + cap_mm(CATEGORY) / 2, 'Exploratory; both versus neither', va='center')
     cv.note(122, 45.6, 'Change, % [95% CI]')
     cv.note(177, 45.6, 'Improved', ha='right')
     cv.marker(57.5, 46.3, ROSE, filled=False, size=3.4); cv.note(59.6, 45.6, 'First cohort')
@@ -105,6 +105,30 @@ def endpoint_evidence():
              *pct(valid['comparisons']['both_vs_stim_only'])[:3], *pct(valid['comparisons']['both_vs_readouts_only'])[:3],
              *pct(mech['validation_cohort']['comparisons']['passive_mse'])[:3])
     return fs.save(cv, OUT / 'endpoint_evidence')
+
+
+_CAP = {}
+
+
+def cap_mm(size):
+    """Cap height of the label font in millimetres, so that label ink can be aligned to a marker's top."""
+    if size not in _CAP:
+        from matplotlib.textpath import TextPath
+        from matplotlib.font_manager import FontProperties
+        h = TextPath((0, 0), 'H', size=size, prop=FontProperties(family='BentonSans')).get_extents().height
+        _CAP[size] = h * 25.4 / 72
+    return _CAP[size]
+
+
+def top_label(cv, ax, x, y_first, text, size, ms=3.4, **kw):
+    """Group label whose cap line sits on the top of the first row's marker (rows of one group are labelled once).
+
+    y_first is the data y of the group's first (upper) row, ms its marker size in points. Returns the label baseline.
+    """
+    top = cv.y_of(ax, y_first) + ms / 2 * 25.4 / 72 + .16
+    base = top - cap_mm(size)
+    cv.text(x, base, text, size, **kw)
+    return base
 
 
 def forest_header(cv, x_num, x_wins, y, wins_label='Improved'):
@@ -400,9 +424,9 @@ def method_validation():
     ax.set_ylim(len(keys) - .4, -.6)
     for k, (key, label, tag) in enumerate(keys):
         y = cv.y_of(ax, k)
-        cv.text(6, y, label, 6.3, va='center')
+        base = top_label(cv, ax, 6, k - .17, label, 6.3, ms=3.4)
         if tag:
-            cv.note(59, y, tag, ha='right', va='center')
+            cv.note(59, base, tag, ha='right')
         for c, off, filled, x_num in [(m[key], -.17, k == 0, 106), (a[key], .17, False, 142)]:
             fs.interval(ax, k + off, *pct(c)[:3], INK if off < 0 else MUTED, filled, marker='o' if off < 0 else 'D', size=3.4 if off < 0 else 3.0)
             cv.mono(x_num, cv.y_of(ax, k + off), fs.ci_text(*pct(c)[:3]), size=5.6, va='center', color=INK if off < 0 else MUTED)
@@ -442,7 +466,7 @@ def limited_budget():
     ax.set_ylim(len(strata) - .4, -.6)
     for k, (key, d) in enumerate(strata):
         budget, setting = key.split('_', 1)
-        cv.text(6, cv.y_of(ax, k), f'{budget} sites, {names[setting]}', 6.0, va='center')
+        top_label(cv, ax, 6, k - .18, f'{budget} sites, {names[setting]}', 6.0, ms=3.0)
         for ref, off, color, filled in [('ensemble_greedy', -.18, INK, False), ('endpoint_joint', .18, MULBERRY, False)]:
             fs.interval(ax, k + off, *pct(d['comparisons']['endpoint_pair_vs_' + ref])[:3], color, filled, size=3.0, lw=1.0)
     cv.marker(100, 31.4, INK, filled=False, size=3.0); cv.note(102, 30.7, 'Versus ensemble greedy')
@@ -485,7 +509,7 @@ def combination_controls():
     ax.set_ylim(y - .45, -.6)
     rows = labelled_forest(cv, ax, specs, 95, 151.5, None, size=5.3)
     for k, (rec, rms) in enumerate([(r, m) for r in ['Ordinary', 'Endpoint'] for m in ['0.1', '0.3']]):
-        cv.text(95, cv.y_of(ax, k), f'{rec}, RMS {rms}', 6.0, va='center')
+        top_label(cv, ax, 95, k - .17, f'{rec}, RMS {rms}', 6.0, ms=3.0)
     cv.marker(96, 73.4, GREY, filled=False, size=3.0); cv.note(98, 72.7, 'Versus eight random constraints')
     cv.marker(136, 73.4, ROSE, filled=False, size=3.0); cv.note(138, 72.7, 'Versus endpoint gains alone')
     cv.note(151.5, 67.6, 'Change, % [95% CI]')
@@ -521,7 +545,10 @@ def confirmation():
     ax.set_ylim(y - .4, -1.0)
     for yy, label in ys:
         bold = label in ('Single response', 'Shared three responses')
-        cv.text(6 if not bold else 4, cv.y_of(ax, yy), label, 6.4 if bold else 6.1, weight='bold' if bold else 'normal', va='center')
+        if bold:
+            cv.text(4, cv.y_of(ax, yy), label, 6.4, weight='bold', va='center')
+        else:
+            top_label(cv, ax, 6, yy - .18, label, 6.1, ms=3.2)
     k = 0
     for objective in ['scalar', 'vector']:
         for r in [r for r in table if r['objective'] == objective]:

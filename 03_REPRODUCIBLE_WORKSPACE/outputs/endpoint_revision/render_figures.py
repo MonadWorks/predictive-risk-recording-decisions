@@ -8,7 +8,7 @@ from pathlib import Path
 import argparse, csv, json
 import numpy as np
 import figure_style as fs
-from figure_style import (Canvas, INK, MUTED, LABEL, ROSE, ROSE_DARK, READOUT, GOLD, GREY, LIGHT_GREY,
+from figure_style import (Canvas, INK, MUTED, LABEL, ROSE, ROSE_DARK, MULBERRY, READOUT, GOLD, GREY, LIGHT_GREY,
                           PLUM, BLEND, NOISE, PAPER, TICK_PT, LABEL_PT, CATEGORY, NUMBER, NOTE)
 
 HERE = Path(__file__).resolve().parent
@@ -258,7 +258,7 @@ def recording_information():
             cv.marker(11 + 3.2 * j, y, ROSE, size=3.4)
         if k:
             cv.text(21.6, y, '+', CATEGORY, ha='center', va='center', color=MUTED)
-            cv.marker(25, y, c, size=3.8, edge=PLUM if c == PLUM else (ROSE_DARK if c == ROSE else '#9C929B'))
+            cv.marker(25, y, c, size=3.8, edge=PLUM if c == PLUM else (ROSE_DARK if c == ROSE else fs.GREY_EDGE))
         cv.text(7, y - 4.2, name, 6.2, va='center')
     cv.note(4, 82.4, 'Gold: stimulation site; pink: readouts.', va='center')
     # b, c: per-network held-out error in both cohorts.
@@ -360,10 +360,10 @@ def fitting_sensitivity():
     ax = cv.ax(66, 12, 30, 47)
     fs.ratio_axis(ax, .2, 1.6, [.25, .5, 1], 'Change in mean MSE')
     w = f['within_method']
-    specs = [(0, 'Ensemble vs nominal, original start', f['original'], GOLD, True, None, 2),
-             (1, 'Ensemble vs nominal, best of five starts', f['best_of_five'], GOLD, False, None, 2),
+    specs = [(0, 'Ensemble vs nominal, original start', f['original'], MULBERRY, True, None, 2),
+             (1, 'Ensemble vs nominal, best of five starts', f['best_of_five'], MULBERRY, False, None, 2),
              (2.4, 'Nominal sets: best of five vs original', w['local_vector'], GREY, False, None, 2),
-             (3.4, 'Ensemble sets: best of five vs original', w['ensemble_vector'], GOLD, False, None, 2)]
+             (3.4, 'Ensemble sets: best of five vs original', w['ensemble_vector'], MULBERRY, False, None, 2)]
     ax.set_ylim(3.9, -.6)
     rows = labelled_forest(cv, ax, specs, 6, 98.5, None, size=5.6)
     cv.note(98.5, 64.6, 'Change, % [95% CI]')
@@ -374,13 +374,13 @@ def fitting_sensitivity():
     x = np.asarray(f['network_means_nominal']['local_vector'] + f['network_means_nominal']['ensemble_vector'])
     lim = (1e-7, 1e-1)
     ax.plot(lim, lim, color=MUTED, lw=.55, ls=(0, (2.2, 2.2)), zorder=0)
-    for key, color, filled in [('local_vector', GREY, False), ('ensemble_vector', GOLD, True)]:
+    for key, color, filled in [('local_vector', GREY, False), ('ensemble_vector', MULBERRY, True)]:
         ax.scatter(f['network_means_nominal'][key], f['network_means_best'][key], s=9,
                    facecolors=color if filled else PAPER, edgecolors=color if not filled else 'none', linewidths=.6, zorder=2)
     fs.log_axis(ax.xaxis, *lim, every=2); fs.log_axis(ax.yaxis, *lim, every=2); fs.clean(ax)
     ax.set_xlabel('MSE, original start'); ax.set_ylabel('MSE, best of five')
     cv.marker(143, 66.4, GREY, filled=False, size=3.2); cv.note(145, 65.7, 'Nominal')
-    cv.marker(158, 66.4, GOLD, size=3.2); cv.note(160, 65.7, 'Ensemble')
+    cv.marker(158, 66.4, MULBERRY, size=3.2); cv.note(160, 65.7, 'Ensemble')
     return fs.save(cv, OUT / 'fitting_sensitivity')
 
 
@@ -443,10 +443,10 @@ def limited_budget():
     for k, (key, d) in enumerate(strata):
         budget, setting = key.split('_', 1)
         cv.text(6, cv.y_of(ax, k), f'{budget} sites, {names[setting]}', 6.0, va='center')
-        for ref, off, color, filled in [('ensemble_greedy', -.18, INK, False), ('endpoint_joint', .18, GOLD, False)]:
+        for ref, off, color, filled in [('ensemble_greedy', -.18, INK, False), ('endpoint_joint', .18, MULBERRY, False)]:
             fs.interval(ax, k + off, *pct(d['comparisons']['endpoint_pair_vs_' + ref])[:3], color, filled, size=3.0, lw=1.0)
     cv.marker(100, 31.4, INK, filled=False, size=3.0); cv.note(102, 30.7, 'Versus ensemble greedy')
-    cv.marker(100, 26.6, GOLD, filled=False, size=3.0); cv.note(102, 25.9, 'Versus endpoint-only enumeration')
+    cv.marker(100, 26.6, MULBERRY, filled=False, size=3.0); cv.note(102, 25.9, 'Versus endpoint-only enumeration')
     cv.note(100, 20.4, f"Same sites as ensemble greedy in {a['agreement_out_of_240']['ensemble_greedy']}/240 settings")
     return fs.save(cv, OUT / 'limited_budget')
 
@@ -512,7 +512,7 @@ def confirmation():
             label = names[r['pool'], r['budget']]
             for est, lo, hi, off, color, filled in [
                     (r['pilot_percent'], r['pilot_ci_low'], r['pilot_ci_high'], -.18, GREY, False),
-                    (r['new_percent'], r['new_ci_low'], r['new_ci_high'], .18, GOLD, primary)]:
+                    (r['new_percent'], r['new_ci_low'], r['new_ci_high'], .18, MULBERRY, primary)]:
                 est, lo, hi = float(est), float(lo), float(hi)
                 fs.interval(ax, y + off, est, lo, hi, color, filled, size=3.2, lw=1.0)
             ys.append((y, label + (' (primary)' if primary else '')))
@@ -531,7 +531,7 @@ def confirmation():
             k += 1
         k += .55
     cv.marker(119, 90.9, GREY, filled=False, size=3.0); cv.note(121, 90.2, 'Pilot, 8 networks')
-    cv.marker(146, 90.9, GOLD, size=3.0); cv.note(148, 90.2, 'Confirmation, 40')
+    cv.marker(146, 90.9, MULBERRY, size=3.0); cv.note(148, 90.2, 'Confirmation, 40')
     cv.note(118, 86.3, 'Change, % [95% CI]')
     in_paper(7.947805232614891, -23.59438450780914, 20.947381363059083)
     return fs.save(cv, OUT / 'confirmation')

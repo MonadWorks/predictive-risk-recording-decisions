@@ -38,17 +38,39 @@ TICK = '#6B626D'
 MUTED = '#7D7280'
 RULE = '#E6DCE2'
 PAIR = '#E8DFE4'
-ROSE = '#E27A9E'
-ROSE_DARK = '#B5708C'
-READOUT = '#F2B1C7'
-PALE_ROSE = '#F4BFD0'
-GOLD = '#EDAF26'
-GOLD_DARK = '#DB9A1D'
-GREY = '#B9AEB7'
+# Palette of the pink figure suite (2026-10-18, see 04_CONTEXT_AND_HISTORY/pink_figure_suite/README.md):
+# deep rose for the main data, soft pink for readouts, mulberry for risk forecasts and prior-averaged
+# selection, a neutral grey for ordinary sites and references. Yellow marks the stimulation site only.
+ROSE = '#B73E70'            # deep rose: both endpoints recorded (main data)
+MULBERRY = '#87385F'        # risk forecasts, prior-averaged (ensemble) selection
+ROSE_DARK = MULBERRY        # outline of rose markers
+READOUT = '#D99AB3'         # soft pink: readout sites (always drawn with a darker edge or in a pair)
+READOUT_EDGE = '#B4577F'
+PALE_ROSE = '#EBC3D2'
+GOLD = '#D4A239'            # stimulation site and input factor
+GOLD_DARK = '#B8862A'
+GREY = '#C9C5C8'            # ordinary sites, nominal selection, references
+GREY_EDGE = '#8F878F'       # darker line used with the light neutrals so grey marks stay legible
 LIGHT_GREY = '#DAD4D8'
-PLUM = '#6E5677'
-BLEND = '#A8668F'
-NOISE = ['#E27A9E', '#EFA9C2', '#F7D5E2']
+LIGHT_GREY_EDGE = '#A9A1A9'
+PLUM = '#463B50'            # deep grey-purple: recurrent gain combinations (kept dark: rose and plum merge for protanopes at equal lightness)
+BLEND = '#843D62'           # endpoints plus recurrent sums
+NEGATIVE = '#413A43'        # negative weights in signed maps
+NOISE = [ROSE, READOUT, PALE_ROSE]
+
+
+# Colour-vision check (Machado simulation, CIE76 dE; 2026-10-22). Pairs that share a panel:
+#   rose / soft pink 36 (protan 29, deutan 24); rose / plum 48 (13, 26); rose / gold 79 (79, 59);
+#   rose / grey 62 (42, 32); gold / grey 61 (64, 60); mulberry / grey 58 (50, 42); plum / grey 55 (54, 54).
+# Soft pink / grey is the weak pair (27; protan 14, deutan 8), so readouts always carry READOUT_EDGE and
+# ordinary sites GREY_EDGE, and filled / open markers keep their meaning. Plum is darker than the
+# pink-suite's grey-purple because at equal lightness rose and plum merge for protanopes.
+
+
+def strong(color):
+    """Line / edge colour for a fill: the light neutrals and soft pink get a darker outline."""
+    return {GREY: GREY_EDGE, LIGHT_GREY: LIGHT_GREY_EDGE, READOUT: READOUT_EDGE, PALE_ROSE: READOUT_EDGE}.get(color, color)
+
 
 ROLE = {
     'endpoints': ROSE,          # stimulation and readout sites recorded together
@@ -57,7 +79,7 @@ ROLE = {
     'ordinary': GREY,           # nonendpoint sites, controls, no extra information
     'internal': PLUM,           # recurrent gain combinations
     'nominal': GREY,            # original criterion studies: nominal local risk
-    'ensemble': GOLD,           # original criterion studies: prior-averaged risk
+    'ensemble': MULBERRY,       # prior-averaged risk, risk forecasts
 }
 EN, MINUS = '–', '−'
 
@@ -154,7 +176,7 @@ class Canvas:
 
     def marker(self, x, y, color, filled=True, size=3.4, edge=None, shape='o'):
         self.base.plot([x], [y], marker=shape, ms=size, mfc=color if filled else PAPER,
-                       mec=edge or (color if not filled else color), mew=.8, ls='none')
+                       mec=edge or strong(color), mew=.8, ls='none')
 
     def y_of(self, ax, value):
         """Millimetre y of a data value in a linear-y axes."""
@@ -216,11 +238,11 @@ def ratio(change_pct):
 def interval(ax, y, est, lo, hi, color, filled=True, adjusted=None, size=3.6, lw=1.15, marker='o'):
     """One comparison: pale adjusted interval, solid pointwise interval and marker."""
     if adjusted is not None:
-        ax.plot(ratio(adjusted), [y, y], color=color, lw=.55, alpha=.55, zorder=1, solid_capstyle='butt')
+        ax.plot(ratio(adjusted), [y, y], color=strong(color), lw=.55, alpha=.55, zorder=1, solid_capstyle='butt')
         for end in ratio(adjusted):
-            ax.plot([end, end], [y - .12, y + .12], color=color, lw=.55, alpha=.55, zorder=1)
-    ax.plot(ratio([lo, hi]), [y, y], color=color, lw=lw, zorder=2, solid_capstyle='butt')
-    ax.plot([ratio(est)], [y], marker=marker, ms=size, mfc=color if filled else PAPER, mec=color,
+            ax.plot([end, end], [y - .12, y + .12], color=strong(color), lw=.55, alpha=.55, zorder=1)
+    ax.plot(ratio([lo, hi]), [y, y], color=strong(color), lw=lw, zorder=2, solid_capstyle='butt')
+    ax.plot([ratio(est)], [y], marker=marker, ms=size, mfc=color if filled else PAPER, mec=strong(color),
             mew=.9, ls='none', zorder=3)
 
 
@@ -242,7 +264,7 @@ def strip(ax, values, colors, paired=True, seed=11, width=.17, size=7.5, mean=Tr
         for i in range(n):
             ax.plot(xs[:, i], [v[i] for v in values], color=PAIR, lw=.35, zorder=1, solid_joinstyle='round')
     for k, v in enumerate(values):
-        ax.scatter(xs[k], v, s=size, color=colors[k], edgecolors=(edges[k] if edges else 'none'),
+        ax.scatter(xs[k], v, s=size, color=colors[k], edgecolors=(edges[k] if edges else (strong(colors[k]) if strong(colors[k]) != colors[k] else 'none')),
                    linewidths=.35, zorder=2, alpha=.92)
         if mean:
             lo, hi = boot_mean_ci(v)

@@ -368,7 +368,7 @@ The original frozen analysis tables and figure source data remain in the collabo
 
 ## Author contributions
 
-J.D. and S.C. contributed equally to this work, including conceptualisation, methodology, investigation, visualisation and writing. H.Z. contributed to validation.
+J.D. and S.C. contributed equally to this work, including conceptualisation, methodology, investigation, visualisation and writing. H.Z. contributed to validation, figure review, and writing (review and editing).
 
 ## Competing interests and funding
 

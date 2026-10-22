@@ -118,21 +118,21 @@ def main():
 
     def block(top, label, color_text, color, big, line1, line2, n_on, caption, ci):
         add(X1, top, label, 8.3, color_text, 'bold')
-        add(X1, top - 4.4, big, 16.0, color, 'bold')
-        add(XR, top - 2.8, line1, 8.0)
-        add(XR, top - 5.6, line2, 8.0)
-        dots([top - 8.7, top - 10.75, top - 12.8], n_on, color)
-        add(X1, top - 16.2, caption, 7.2, MUTED)
-        add(X1, top - 18.9, ci, 7.2, INK, family='JuliaMono')
+        add(X1, top - 4.6, big, 16.0, color, 'bold')
+        add(XR, top - 3.0, line1, 8.0)
+        add(XR, top - 5.8, line2, 8.0)
+        dots([top - 9.1, top - 11.15, top - 13.2], n_on, color)
+        add(X1, top - 16.9, caption, 7.2, MUTED)
+        add(X1, top - 19.7, ci, 7.2, INK, family='JuliaMono')
 
     def ci_text(est, lo, hi):
         return f'{mono(est, 2)}% [{mono(lo, 2)}, {mono(hi, 2)}]'
 
     est, lo, hi, wins = e['valid']
-    block(97.4, 'Lower held-out error', ROSE_TEXT, ROSE, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'improved',
+    block(95.9, 'Lower held-out error', ROSE_TEXT, ROSE, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'improved',
           wins, 'Both endpoints vs neither, mean MSE', ci_text(est, lo, hi))
     est, lo, hi, wins = e['width']
-    block(69.4, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
+    block(69.24, 'Narrower feasible range', PLUM, PLUM, f'{abs(est):.0f}%', f'{wins} of 40 networks', 'narrowed',
           wins, 'Mean squared width, both vs neither', ci_text(est, lo, hi))
     LEG_Y = 42.9                                  # same row as the CI notes of frames 2 and 3
     base.add_patch(Circle((60.08, LEG_Y - .06), .85, facecolor=SAME, edgecolor='none', zorder=1))
@@ -151,10 +151,10 @@ def main():
             ('Recurrent factor', 'recurrence', PLUM, 's')]
     for k, (label, key, color, marker) in enumerate(rows):
         est, lo, hi, _ = e['factors'][key]
-        y_label = 94.0 - 11.6 * k                 # label, value 3.2 below, interval 3.4 further below
+        y_label = 94.2 - 12.2 * k                 # label, value 3.3 below, interval 3.5 further below
         add(101.3, y_label, label, 8.8, color, 'bold')
-        add(101.3, y_label - 3.2, f'{mono(est)}%  [{mono(lo)}, {mono(hi)}]', 8.0, INK, family='JuliaMono')
-        y = y_label - 6.6 - 56                    # axes origin sits at page y = 56
+        add(101.3, y_label - 3.3, f'{mono(est)}%  [{mono(lo)}, {mono(hi)}]', 8.0, INK, family='JuliaMono')
+        y = y_label - 6.8 - 56                    # axes origin sits at page y = 56
         ax.plot([lo, hi], [y, y], color=color, lw=1.6, solid_capstyle='butt')
         for end in (lo, hi):
             ax.plot([end, end], [y - .9, y + .9], color=color, lw=1.0)
@@ -174,7 +174,7 @@ def main():
     retext('21 favour nominal', 'combination estimates')
     texts['$S(v,e)=\\log v+e^2/v$'].remove()
     # Recorded sites in the node styles of the illustration: stimulation site, three readouts, one added site.
-    node_y = 86.0
+    node_y = 86.9
     for x, face, edge, lw in [(144.6, '#FFF6DD', GOLD, 1.1), (148.4, '#FFFFFF', PLUM, 1.1),
                               (152.2, '#FFFFFF', PLUM, 1.1), (156.0, '#FFFFFF', PLUM, 1.1)]:
         base.add_patch(Circle((x, node_y), 1.45, facecolor=face, edgecolor=edge, lw=lw, zorder=3))
@@ -183,15 +183,15 @@ def main():
     texts['v: MSE forecast; e: response error'].remove()
     retext('One network accounts for 64%\nof the summed score difference',
            'Fifth site chosen for recurrent\ngain sums, compared with a\nrandom fifth site',
-           y=79.6, linespacing=1.25)
+           y=82.3, linespacing=1.25)
     retext('95% paired network-cluster CI', '95% paired network-bootstrap CI')
     ax = fig.axes[2]
     for a in list(ax.lines) + list(ax.texts):
         a.remove()
     ax.set_xlim(-55, 12)
-    add(143.3, 70.2, 'Combination estimation MSE', 8.8, KEY_TEXT, 'bold')
-    add(143.3, 66.9, f'{mono(est)}%  [{mono(lo)}, {mono(hi)}]', 8.0, INK, family='JuliaMono')
-    yb = .0625                                # interval sits 3.5 below the value line, as in frame 2
+    add(143.3, 72.25, 'Combination estimation MSE', 8.8, KEY_TEXT, 'bold')
+    add(143.3, 68.95, f'{mono(est)}%  [{mono(lo)}, {mono(hi)}]', 8.0, INK, family='JuliaMono')
+    yb = .216                                # interval sits 3.5 below the value line, as in frame 2
     ax.plot([lo, hi], [yb, yb], color=FORECAST, lw=1.6, solid_capstyle='butt')
     for end in (lo, hi):
         ax.plot([end, end], [yb - .16, yb + .16], color=FORECAST, lw=1.0)

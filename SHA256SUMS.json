@@ -1,14 +1,14 @@
 {
   ".gitignore": "d309fd7bd9f583d830c7ba60d507b37b0fe40e15ed8c3e36572c68b26abf99da",
   "00_START_HERE.md": "b7cabb6c4c558ba93290b7ff85cf60d05e6ca41ff949e94712e0fb5df494908c",
-  "01_READ_CURRENT/abstract_from_current_manuscript.txt": "a2eae6dd80ea17c351c5b42ae9684bcd0060327407a227a25000999a1ff2f37c",
+  "01_READ_CURRENT/abstract_from_current_manuscript.txt": "0c3cce7103cabc8c35736b00ee9137dc5cae92628d17d6b6745908a0cd202d61",
   "01_READ_CURRENT/graphical_abstract.pdf": "cd9154325767ead7f7077459056d2f5081d503c5796e68a200364066eb85d026",
   "01_READ_CURRENT/graphical_abstract.png": "a60e01881943d5c6c0e2bcef6bf9afebd1f2c64f2324b1161f8c3a3ed693dabb",
   "01_READ_CURRENT/graphical_abstract.svg": "e876b9e33619f83c9ded47cc4a7e0e022e62e408374db118716c03d09fd53205",
   "01_READ_CURRENT/graphical_abstract_copy.md": "cab90f23ba4e96ae241b97f93e3232e2ba0ba51c955308a98fd9be68bc23f2da",
   "01_READ_CURRENT/graphical_abstract_text.txt": "eac61f55b2033a27ecb7f95e4f18889bd45aeacdb09c824aacd44eebe907057e",
-  "01_READ_CURRENT/paper_current.md": "1c54d1acc109bd60bcf7bb8568ea195fd528ac1fe01942a747a5ee0632cc7ece",
-  "01_READ_CURRENT/paper_current.pdf": "ceb00fff1553bc17afb3e06f24a007ecba09d25550d514899619844777d79d67",
+  "01_READ_CURRENT/paper_current.md": "311cceed6da039c3f9069332c94d2892a5be72fe44aaebd5dd214181115972f1",
+  "01_READ_CURRENT/paper_current.pdf": "917aa33345cb16e1b158a9bb3733cb0066e8d6fd2dab01a333126c731a96cb35",
   "01_研究主线与版本审计.md": "7f161e25eaf1222733c73eebc0703ab9460406ce0d7eeb09de36a4087ffbec69",
   "02_RESEARCH_FOUNDATION/ICBR2026_代表论文与相邻会议.md": "e671e116f409964c4fbdfc981b2f883fb1198b9933c678e5fcbe99cc0c4ec1de",
   "02_RESEARCH_FOUNDATION/ICBR2026_研究命题与路线论证.md": "4cce0b62f5adc6afbd32480e3b32a80aa7674c85e3ae4670a8bccd7bf67dcaf5",
@@ -101,8 +101,8 @@
   "03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/graphical_abstract.svg": "e876b9e33619f83c9ded47cc4a7e0e022e62e408374db118716c03d09fd53205",
   "03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/latex/fix_floats.py": "e85f482a71ca824596e6184a87542133863b6934d93c82b4f492ce07c2f77639",
   "03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/latex/main.tex": "e01f74898a858b024dc715629c221a20f94e7298d9a29ac5eb2bef4ed49b058d",
-  "03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/paper.md": "fac664fef71514036921aa25e6fb0d87e5cc91a4dfbe1eb5c982d892bb54fa6f",
-  "03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/paper.pdf": "ceb00fff1553bc17afb3e06f24a007ecba09d25550d514899619844777d79d67",
+  "03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/paper.md": "b0f7637fa53ea7d62a6353d32f2d05b37f65ef07a7e138b7f4eba7ef02db72cd",
+  "03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/paper.pdf": "917aa33345cb16e1b158a9bb3733cb0066e8d6fd2dab01a333126c731a96cb35",
   "03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/references.bib": "8f4d64b5165c8e7ce1b8009100e290d6491ed42c794c12f69dd0b40c40195905",
   "03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/render_figures.py": "5e29af901b99e420ccee700608feeed7bb0fc3a07fa56a84ec6f89ee0254cb04",
   "03_REPRODUCIBLE_WORKSPACE/outputs/endpoint_revision/render_graphical_abstract.py": "a81b7921a09b0e5fbe709cfb38a03e7ff26990971d7fb0cc7b7b5467b2a6c1eb",
@@ -2898,5 +2898,5 @@
   "COLLABORATION.md": "a06319832dbdd7317ae3ae40e9c2c3d6fc6abcc6a5cdaf9451d3bf155f874f86",
   "README.md": "0cb172afc7cfd61762d6e0c1ae2b8648dfbf7c0d71c7ebeed6363d846ece35f1",
   "validate_handoff.py": "636e47513c1beac2fe082473f1a5011d0fbe0e727db40155e5163b48d9f07ac0",
-  "01_READ_CURRENT/icbr2026_submission_text.md": "f407d0be6af8577d193f60e8fbc8ff6912f05a5fa06f32519aac90ea353e1b26"
+  "01_READ_CURRENT/icbr2026_submission_text.md": "b435d38177aa0528a5227e66c61fc4f6d77c7331dbae86ffb23d30bcd9c77448"
 }

@@ -25,6 +25,9 @@ $-r_{\mathrm{control}}(t)$
 Fifth site chosen for recurrent
 gain sums, compared with a
 random fifth site
+1
+2
+3
 Exact three-factor split
 80 new independent networks
 Known
@@ -52,9 +55,6 @@ Recurrent factor
 +
 Combination estimation MSE
 −31.1%  [−42.4, −19.8]
-1
-2
-3
 Five recordings per allocation
 We used a 
 common MAP estimator

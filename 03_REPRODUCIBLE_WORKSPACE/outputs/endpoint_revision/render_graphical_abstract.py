@@ -91,7 +91,6 @@ def main():
         return base.text(x, y, s if family != 'BentonSans' else fs.dash(s), fontsize=size, color=color,
                          fontweight=weight, fontfamily=family, va='center', **kw2)
 
-    BADGE_Y, NUM_DY, TITLE_DY = 106.3, -0.15, -0.86
     # ---- network illustration: the original v5 node colours are kept as drawn.
     retext('12 simulated units · M=3', '100 simulated units · M = 5')
     retext('Uncertain gains and biases', 'Uncertain neuronal gains')
@@ -171,11 +170,12 @@ def main():
     retext('Fixed data and point prediction', 'Endpoints kept, one site added')
     retext('40 new independent networks', '80 new independent networks')
     retext('19', f'{wins}', color=FORECAST)
-    retext('of 40 favour prior averaging;', 'of 80 networks improved')
-    retext('21 favour nominal', 'combination estimates')
+    for old, new in [('of 40 favour prior averaging;', 'of 80 networks improved'), ('21 favour nominal', 'combination estimates')]:
+        t = retext(old, new)
+        t.set_x(t.get_position()[0] + 1.3)               # air between the large numeral and its caption
     texts['$S(v,e)=\\log v+e^2/v$'].remove()
     # Recorded sites in the node styles of the illustration: stimulation site, three readouts, one added site.
-    node_y = 86.9
+    node_y = 87.26
     for x, face, edge, lw in [(144.6, '#FFF6DD', GOLD, 1.1), (148.4, '#FFFFFF', PLUM, 1.1),
                               (152.2, '#FFFFFF', PLUM, 1.1), (156.0, '#FFFFFF', PLUM, 1.1)]:
         base.add_patch(Circle((x, node_y), 1.45, facecolor=face, edgecolor=edge, lw=lw, zorder=3))
@@ -184,33 +184,25 @@ def main():
     texts['v: MSE forecast; e: response error'].remove()
     retext('One network accounts for 64%\nof the summed score difference',
            'Fifth site chosen for recurrent\ngain sums, compared with a\nrandom fifth site',
-           y=83.3, linespacing=1.25)
+           y=82.96, linespacing=1.25)
     retext('95% paired network-cluster CI', '95% paired network-bootstrap CI')
     ax = fig.axes[2]
     for a in list(ax.lines) + list(ax.texts):
         a.remove()
     ax.set_xlim(-55, 12)
-    add(143.3, 73.25, 'Combination estimation MSE', 8.8, KEY_TEXT, 'bold')
-    add(143.3, 69.95, f'{mono(est)}%  [{mono(lo)}, {mono(hi)}]', 8.0, INK, family='JuliaMono')
-    yb = .291                                # interval sits 3.5 below the value line, as in frame 2
+    add(143.3, 73.19, 'Combination estimation MSE', 8.8, KEY_TEXT, 'bold')
+    add(143.3, 69.8, f'{mono(est)}%  [{mono(lo)}, {mono(hi)}]', 8.0, INK, family='JuliaMono')
+    yb = .2425                               # interval sits 3.9 below the value line
     ax.plot([lo, hi], [yb, yb], color=FORECAST, lw=1.6, solid_capstyle='butt')
     for end in (lo, hi):
-        ax.plot([end, end], [yb - .16, yb + .16], color=FORECAST, lw=1.0)
+        ax.plot([end, end], [yb - .07, yb + .07], color=FORECAST, lw=1.0)
     ax.plot([est], [yb], marker='D', ms=4.4, color=FORECAST)
-    ax.plot([0, 0], [yb - .28, yb + .28], color='#7D7280', lw=.75, ls=(0, (2, 2)), zorder=0)
+    ax.plot([0, 0], [yb - .12, yb + .12], color='#7D7280', lw=.75, ls=(0, (2, 2)), zorder=0)
     ax.xaxis.set_major_locator(FixedLocator([-40, -20, 0]))
     ax.xaxis.set_major_formatter(FuncFormatter(lambda x, p: mono(x, 0).replace('+0', '0')))
     ax.set_xlabel('Change vs random fifth site (%)')
 
-    # ---- frame headers: a numbered badge whose left edge sits on the content edge, then the title.
-    for t in [t for t in base.texts if t.get_text() in ('1', '2', '3')]:
-        t.remove()
-    for left, n, title in [(59.3, '1', 'Recording agreement'), (101.3, '2', 'Response error'), (143.3, '3', 'Risk forecasts')]:
-        base.add_patch(Circle((left + 2.1, BADGE_Y), 2.1, facecolor=INK, edgecolor='none', zorder=3))
-        add(left + 2.1, BADGE_Y + NUM_DY, n, 8.4, '#FFFFFF', 'bold', ha='center', zorder=4)
-        t = texts[title]
-        t.set_x(left + 5.5)
-        t.set_y(BADGE_Y + TITLE_DY)
+    # frame headers (numbers and titles) stay exactly as in v5.
     add(59.3, 99.9, 'Five recordings per allocation', 8.1, MUTED)
 
     # ---- summary frame: the key finding (v5 wording and spacing), then four lines in two pairs.

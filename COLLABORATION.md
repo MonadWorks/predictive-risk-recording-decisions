@@ -14,7 +14,7 @@ The exact user-selected takeaway is **Better risk estimates do not necessarily m
 
 ## Graphical abstract and figures — 2026-10-21
 
-At the collaborator's request the current graphical abstract is edited from the v5 file rather than redesigned: its network illustration, numbered frames, formula box, summary box, palette and type are retained, and only frame contents change. On 2026-10-22 the stimulation and readout nodes, in the illustration, its legend and the frame-3 pictogram, were filled pink as recorded nodes (rings keep their roles), so the illustration shows an endpoint allocation with M = 5. The figure rules (one meaning per colour, percentage-change ratio axes, printed estimates, visible negative signs) are documented in `outputs/endpoint_revision/figure_style.py`.
+At the collaborator's request the current graphical abstract is edited from the v5 file rather than redesigned: its network illustration, numbered frames, formula box, summary box, palette and type are retained, and only frame contents change. The figure rules (one meaning per colour, percentage-change ratio axes, printed estimates, visible negative signs) are documented in `outputs/endpoint_revision/figure_style.py`.
 
 ## Context sources
 

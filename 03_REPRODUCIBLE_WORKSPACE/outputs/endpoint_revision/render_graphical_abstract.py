@@ -239,7 +239,9 @@ def main():
             adv = (probe.get_window_extent(hr).width - bar.get_window_extent(hr).width) / base.bbox.width * 190
             probe.remove(); bar.remove()
             fig.set_dpi(old_dpi)
-            x += adv
+            # optical correction of the blank before / after each bold run (bold side bearings differ from the regular face)
+            x += adv + {'We used a ': .08, 'common MAP estimator': .14,
+                        'Better estimation did not clearly improve prediction, and ': .27}.get(s_, 0.0)
 
     # ---- checks: every visible text inside its frame, no overlaps, no empty glyphs.
     fig.canvas.draw()

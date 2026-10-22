@@ -1880,10 +1880,10 @@ z
     <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="418.110179" transform="rotate(-0 228.86034 418.110179)">We used a </text>
    </g>
    <g id="text_57">
-    <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="269.68884" y="418.110179" transform="rotate(-0 269.68884 418.110179)">common MAP estimator</text>
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="269.999159" y="418.110179" transform="rotate(-0 269.999159 418.110179)">common MAP estimator</text>
    </g>
    <g id="text_58">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="367.04184" y="418.153741" transform="rotate(-0 367.04184 418.153741)"> in 12-unit networks, so identical recordings and data yield identical predictions.</text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="367.895217" y="418.153741" transform="rotate(-0 367.895217 418.153741)"> in 12-unit networks, so identical recordings and data yield identical predictions.</text>
    </g>
    <g id="text_59">
     <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #2e2531" x="228.86034" y="430.584187" transform="rotate(-0 228.86034 430.584187)">The two criteria chose identical recordings in 68% and 65% of designs, with no clear change in error (–3.7%, +2.7%).</text>
@@ -1895,10 +1895,10 @@ z
     <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #655d69" x="228.86034" y="460.439214" transform="rotate(-0 228.86034 460.439214)">Better estimation did not clearly improve prediction, and </text>
    </g>
    <g id="text_62">
-    <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #655d69" x="445.03134" y="460.451386" transform="rotate(-0 445.03134 460.451386)">endpoint coverage</text>
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #655d69" x="446.078667" y="460.451386" transform="rotate(-0 446.078667 460.451386)">endpoint coverage</text>
    </g>
    <g id="text_63">
-    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #655d69" x="519.81684" y="460.451386" transform="rotate(-0 519.81684 460.451386)"> is an informative baseline.</text>
+    <text style="font-size: 8.2px; font-family: 'BentonSans'; text-anchor: start; fill: #655d69" x="520.864167" y="460.451386" transform="rotate(-0 520.864167 460.451386)"> is an informative baseline.</text>
    </g>
   </g>
   <g id="axes_2">

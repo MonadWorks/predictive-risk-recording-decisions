@@ -7,27 +7,24 @@ Five recordings per allocation
 Error factors
 Endpoint vs ordinary recording
 Fifth recording
-Endpoints kept; one site added
+Endpoints kept, one site added
 95% paired network-bootstrap CI
 63
-of 80 networks: better
-internal-combination estimates
+of 80 networks improved
+combination estimates
 95% paired network-bootstrap CI
-Endpoint recording narrows compatible responses and contracts the input and readout error factors.
-A fifth site chosen for recurrent gain sums improves their estimates on independent networks.
 in partially observed neural networks
-100-unit networks · 5 recordings
-Known connectivity; uncertain gains
+100 simulated units · $M$ = 5
+Uncertain neuronal gains
 q
 Integrated stimulus response
 $q=\int\Delta r(t)\,dt$
 $\Delta r(t)=$
 $r_{\mathrm{stim}}(t)$
 $-r_{\mathrm{control}}(t)$
-Fifth site chosen for recurrent sums,
-versus a random fifth site;
-response-prediction gain uncertain
-Its response-prediction gain remains uncertain. All networks are simulated; no biological validation.
+Fifth site chosen for recurrent
+gain sums, compared with a
+random fifth site
 1
 2
 3
@@ -35,18 +32,20 @@ Exact three-factor split
 80 new independent networks
 Known
 connectivity
-Record endpoints for prediction; target the remaining internal information.
-Held-out response error
-–98%
+Better risk estimates do not necessarily make better recording decisions.
+Lower held-out error
+98%
 37 of 40 networks
 improved
-Both ends vs neither, mean MSE
+Both endpoints vs neither, mean MSE
 −98.13% [−99.19, −93.94]
-Compatible response range
-–99%
+Narrower feasible range
+99%
 40 of 40 networks
-narrower
-One dot per network
+narrowed
+Mean squared width, both vs neither
+−99.08% [−99.62, −96.10]
+Network not improved
 Input factor
 −98.7%  [−99.5, −96.3]
 Readout factor
@@ -56,10 +55,16 @@ Recurrent factor
 +
 Combination estimation MSE
 −31.1%  [−42.4, −19.8]
-Every allocation uses 
-five recordings
- and a common MAP fit; the stimulus response is withheld from calibration.
-Change in mean square (%)
+Prior averaging chose identical recordings in 
+68% and 65%
+ of designs, with no clear change in error (–3.7%, +2.7%).
+Recording the stimulation site and readouts lowered held-out response error by 
+98%
+ in independent networks.
+A fifth site chosen for recurrent gain sums improved their estimates by 
+31%
+, with no clear change in response error.
+Mean-square change vs ordinary (%)
 −100
 0
 +100

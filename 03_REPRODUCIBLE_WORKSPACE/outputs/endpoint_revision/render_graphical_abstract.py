@@ -175,7 +175,7 @@ def main():
         t.set_x(t.get_position()[0] + 1.3)               # air between the large numeral and its caption
     texts['$S(v,e)=\\log v+e^2/v$'].remove()
     # Recorded sites in the node styles of the illustration: stimulation site, three readouts, one added site.
-    node_y = 87.26
+    node_y = 87.76
     for x, face, edge, lw in [(144.6, '#FFF6DD', GOLD, 1.1), (148.4, '#FFFFFF', PLUM, 1.1),
                               (152.2, '#FFFFFF', PLUM, 1.1), (156.0, '#FFFFFF', PLUM, 1.1)]:
         base.add_patch(Circle((x, node_y), 1.45, facecolor=face, edgecolor=edge, lw=lw, zorder=3))
@@ -184,7 +184,7 @@ def main():
     texts['v: MSE forecast; e: response error'].remove()
     retext('One network accounts for 64%\nof the summed score difference',
            'Fifth site chosen for recurrent\ngain sums, compared with a\nrandom fifth site',
-           y=82.96, linespacing=1.25)
+           y=83.86, linespacing=1.25)
     retext('95% paired network-cluster CI', '95% paired network-bootstrap CI')
     ax = fig.axes[2]
     for a in list(ax.lines) + list(ax.texts):
@@ -192,12 +192,12 @@ def main():
     ax.set_xlim(-55, 12)
     add(143.3, 73.19, 'Combination estimation MSE', 8.8, KEY_TEXT, 'bold')
     add(143.3, 69.8, f'{mono(est)}%  [{mono(lo)}, {mono(hi)}]', 8.0, INK, family='JuliaMono')
-    yb = .2425                               # interval sits 3.9 below the value line
+    yb = .1225                               # interval 5.6 below the value line; its guide runs down to the frame-2 baseline
     ax.plot([lo, hi], [yb, yb], color=FORECAST, lw=1.6, solid_capstyle='butt')
     for end in (lo, hi):
-        ax.plot([end, end], [yb - .07, yb + .07], color=FORECAST, lw=1.0)
+        ax.plot([end, end], [yb - .08, yb + .08], color=FORECAST, lw=1.0)
     ax.plot([est], [yb], marker='D', ms=4.4, color=FORECAST)
-    ax.plot([0, 0], [yb - .12, yb + .12], color='#7D7280', lw=.75, ls=(0, (2, 2)), zorder=0)
+    ax.plot([0, 0], [-.095, .340], color='#7D7280', lw=.75, ls=(0, (2, 2)), zorder=0)   # y = 61.4 .. 67.2 on the page
     ax.xaxis.set_major_locator(FixedLocator([-40, -20, 0]))
     ax.xaxis.set_major_formatter(FuncFormatter(lambda x, p: mono(x, 0).replace('+0', '0')))
     ax.set_xlabel('Change vs random fifth site (%)')

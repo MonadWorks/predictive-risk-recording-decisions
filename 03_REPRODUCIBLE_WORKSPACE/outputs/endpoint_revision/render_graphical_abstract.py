@@ -3,9 +3,8 @@
 The v5 renderer in ../graphical_abstract/source runs unchanged and its finished
 figure is captured before saving. Title, network illustration, the three
 numbered evidence frames, formula box and summary box keep their geometry,
-palette and type; the contents of the frames change, and the stimulation and
-readout nodes are filled as recorded. Values are read from the analysis files
-and checked against the manuscript text.
+palette and type; only the contents of the frames change. Values are read from
+the analysis files and checked against the manuscript text.
 """
 from pathlib import Path
 import io, json, os, re, shutil, sys, tempfile
@@ -13,7 +12,6 @@ import numpy as np
 import figure_style as fs
 import matplotlib
 import matplotlib.figure
-from matplotlib.colors import to_hex
 from matplotlib.patches import Circle
 from matplotlib.text import Text
 from matplotlib.ticker import FixedLocator, FuncFormatter
@@ -93,14 +91,7 @@ def main():
         return base.text(x, y, s if family != 'BentonSans' else fs.dash(s), fontsize=size, color=color,
                          fontweight=weight, fontfamily=family, va='center', **kw2)
 
-    # ---- network illustration: v5 node styles. The stimulation site and the readout are filled pink like the
-    # other recorded nodes and keep their rings, so the five pink nodes are an endpoint allocation with M = 5;
-    # the legend markers follow (pink fill: recorded; ring: role).
-    roles = [p for p in base.patches if isinstance(p, Circle) and p.center[0] < 55
-             and to_hex(p.get_facecolor()) in ('#fff6dd', '#ffffff')]
-    assert len(roles) == 4, len(roles)               # stimulation site and readout, in the network and the legend
-    for p in roles:
-        p.set_facecolor(ROSE)
+    # ---- network illustration: the original v5 node colours are kept as drawn.
     retext('12 simulated units · M=3', '100 simulated units · M = 5')
     retext('Uncertain gains and biases', 'Uncertain neuronal gains')
     retext('Response readout (one shown)', 'Response readout (one of three)')
@@ -187,8 +178,9 @@ def main():
     texts['$S(v,e)=\\log v+e^2/v$'].remove()
     # Recorded sites in the node styles of the illustration: stimulation site, three readouts, one added site.
     node_y = 87.06
-    for x, edge in [(144.6, GOLD), (148.4, PLUM), (152.2, PLUM), (156.0, PLUM)]:
-        base.add_patch(Circle((x, node_y), 1.45, facecolor=ROSE, edgecolor=edge, lw=1.1, zorder=3))
+    for x, face, edge, lw in [(144.6, '#FFF6DD', GOLD, 1.1), (148.4, '#FFFFFF', PLUM, 1.1),
+                              (152.2, '#FFFFFF', PLUM, 1.1), (156.0, '#FFFFFF', PLUM, 1.1)]:
+        base.add_patch(Circle((x, node_y), 1.45, facecolor=face, edgecolor=edge, lw=lw, zorder=3))
     add(159.6, node_y - .1, '+', 9.0, MUTED, ha='center')
     base.add_patch(Circle((163.2, node_y), 1.45, facecolor=ROSE, edgecolor='#FFFFFF', lw=.6, zorder=3))
     texts['v: MSE forecast; e: response error'].remove()
@@ -293,7 +285,7 @@ def main():
 
 Predictive risk and recording decisions in partially observed neural networks
 
-The layout keeps the original graphical abstract: network illustration, three numbered evidence frames, the integrated-response definition and a summary frame. The illustration is a schematic in its original node styles: pink nodes are recorded, a gold ring marks the stimulation site and a dark ring a response readout; both are recorded, as in an endpoint allocation. The simulated networks have 100 units, known connectivity and uncertain gains, and every allocation records five sites (M = 5).
+The layout keeps the original graphical abstract: network illustration, three numbered evidence frames, the integrated-response definition and a summary frame. The illustration is a schematic in its original colours (pink recorded nodes, a gold ring for the stimulation site, a dark ring for a response readout). The simulated networks have 100 units, known connectivity and uncertain gains, and every allocation records five sites (M = 5).
 
 - **1 Endpoint recording.** In forty independent validation networks, recording both endpoints changed held-out response MSE by {v[0]:.2f}% (95% CI {v[1]:.2f}% to {v[2]:.2f}%) relative to five ordinary sites; {v[3]} of 40 networks improved. In a further forty networks, the mean squared width of the feasible response range changed by {w[0]:.2f}% (95% CI {w[1]:.2f}% to {w[2]:.2f}%) and narrowed in {w[3]} of 40. Dots are networks; grey dots did not improve.
 - **2 Error factors.** The exact factorization separates input, recurrent propagation and readout. Endpoint relative to ordinary recording changed the mean squared input contribution by {f['input'][0]:.2f}%, the readout contribution by {f['readout'][0]:.2f}% and the recurrent contribution by {f['recurrence'][0]:+.2f}% (95% CI {f['recurrence'][1]:.2f}% to {f['recurrence'][2]:+.2f}%).

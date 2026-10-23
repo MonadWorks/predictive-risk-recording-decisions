@@ -481,8 +481,6 @@ The simple endpoint-only search itself changed mean MSE by -46.29% (95% CI -59.6
 
 **Supplementary Fig. 9 | Local sensitivity and finite changes preserving gain combinations.** **a,** Fraction of squared response-gradient norm projected onto four endpoint coordinates, endpoint coordinates plus four recurrent combinations, or eight random linear combinations, under ordinary (open) and endpoint (filled) recordings. Dots are independent networks and horizontal marks are medians. **b,** Mean squared response changes after equal-norm parameter perturbations preserve the eight endpoint/recurrent combinations, relative to perturbations preserving eight random combinations or endpoint gains alone. Parameter RMS changes are expressed in prior standard deviations. All forty new networks and both perturbation sizes are retained. Intervals resample networks at the 95% level; the interventions preserve the specified parameter combinations and do not impose a calibration-fit constraint.
 
-### Original criterion-comparison studies
-
 ### Original criterion-comparison model
 
 The original 12-unit model is
